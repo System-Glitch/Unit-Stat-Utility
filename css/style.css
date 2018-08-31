@@ -1,0 +1,378 @@
+body {
+	font-family: Lato,sans-serif;
+	background-image: url('../img/UI/background.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	min-height: 100vh;
+	margin: 0;
+
+	--select-bg-color: #FEFEFE;
+	--select-bg-color-hover: #DDD;
+}
+
+.flex-container {
+	display: flex;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-muted {
+	color: #a6a6a6;
+}
+
+.text-positive {
+	font-size: 14px;
+	font-weight: 700;
+	color: #0f0;
+	text-shadow: 1px 0 1px #000;
+}
+
+.text-negative {
+	font-size: 14px;
+	font-weight: 700;
+	color: #ff1a1a;
+	text-shadow: 1px 0 1px #000;
+}
+
+.text-uncommon {
+	color: #45ff5e;
+}
+
+.text-rare {
+	color: #3b8fff;
+}
+
+.text-epic {
+	color: #b04bdf;
+}
+
+.text-legendary {
+	color: #f9a304;
+}
+
+.mt-2 {
+	margin-top: 2rem;
+}
+
+.mt-10 {
+	margin-top: 10px;
+}
+
+.box {
+	box-shadow: 0 3px 1px -2px rgba(93,61,19,.2),0 2px 2px 0 rgba(93,61,19,.14),0 1px 5px 0 rgba(93,61,19,.12);
+	background: rgba(30, 30, 30, 0.5);
+	border-radius: 6px;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: center;
+	padding: 1rem;
+	text-shadow: 1px 0 1px #000;
+}
+
+h1 {
+	text-shadow: 1px 0 1px #000;
+}
+
+h1.text-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h4, p {
+	margin-top: 5px;
+	margin-bottom: 5px; 
+}
+
+.cost-title {
+	font-weight: 700;
+}
+
+.resource-icon {
+	vertical-align: text-bottom;
+	margin-right: 5px;
+}
+
+.select {
+	position: relative;
+	color: #000;
+	text-shadow: none;
+}
+
+.select-selected {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	border: 1px solid #7A7A7A;
+}
+
+.select-selected:hover {
+	cursor: pointer;
+}
+
+.select-selected .select-option {
+	flex-grow: 1;
+}
+
+.select-arrow {
+	text-align: center;
+	width: 32px;
+	line-height: 32px;
+	border-left: 1px solid #7A7A7A;
+	color: #000;
+	background-color: var(--select-bg-color);
+}
+
+.select-dropdown {
+	position: absolute;
+	z-index: 5;
+	width: 100%;
+	display: none;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	background-color: var(--select-bg-color);
+
+	border: 1px solid #DDD;
+	-webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+}
+
+.select-option-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	overflow-y: auto;
+	overflow-x: hidden;
+	max-height: 160px;
+}
+
+.select-option {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	vertical-align: middle;
+	white-space: nowrap;
+	background-color: var(--select-bg-color);
+}
+
+.select-name {
+	padding-right: 5px;
+}
+
+.select-option:hover {
+	cursor: pointer;
+	background-color: var(--select-bg-color-hover);
+}
+
+.select-selected .select-option:hover {
+	cursor: pointer;
+	background-color: var(--select-bg-color);
+}
+
+.select-img {
+	width: 32px;
+	margin-right: 5px;
+}
+
+.select-name {
+	line-height: 32px;
+}
+
+.select-search {
+	border: none;
+	line-height: 14px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-bottom: 1px solid #DDD;
+}
+
+.gear-select {
+	position: initial;
+	width: 32px;
+	height: 32px;
+}
+
+.gear-select-selected {
+	border: none;
+	position: relative;
+}
+
+.gear-select-img {
+	margin-right: 0px;
+	width: 40px;
+	height: 40px;
+	border-right: 
+}
+
+.gear-select-dropdown, .stats-selector {
+	left: 0px;
+	width: auto;
+}
+
+@media screen and (min-width: 768px) {
+	.gear-select-dropdown, .stats-selector {
+		min-width: 18vw;
+		left: auto;
+		transform: translateX(calc(-50% + 20px));
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.gear-select-dropdown, .stats-selector {
+		min-width: 9vw;
+		left: auto;
+		transform: translateX(calc(-50% + 20px));
+	}
+}
+
+#gear-selector-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	vertical-align: bottom;
+	margin: auto;
+}
+
+#gear-selector-unit-icon {
+	width: 64px;
+	height: 64px;
+	margin-right: 10px;
+}
+
+#gear-selector {
+	display: flex;
+}
+
+.gear-selector-slot {
+	width: 40px;
+	height: 40px;
+	margin-top: auto;
+	background-image: url('../img/Slot/ArmorPlatingSlot_ua.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.gear-selector-slot:hover {
+	cursor: pointer;
+}
+
+.gear-selector-slot:not(:last-child) {
+	margin-right: 5px;
+}
+
+.item-box-type {
+	color: #e6c953;
+	font-size: 14px;
+}
+
+.item-box {
+	box-shadow: 0 3px 3px -2px rgba(93,61,19,.2),0 3px 4px 0 rgba(93,61,19,.14),0 1px 8px 0 rgba(93,61,19,.12);
+	width: 350px;
+	max-width: 350px;
+	margin: 0 auto;
+	border: 3px solid #b9ad8b;
+	border-radius: 6px;
+	background: #192b33;
+	padding: 6px 6px 12px;
+	font-size: 14px;
+	color: #fff;
+	opacity: .95;
+}
+
+.cog {
+	position: absolute;
+	color: white;
+	right: 0;
+	bottom: 0;
+	padding-right: 2px; 
+	padding-bottom: 2px;
+	z-index: 3;
+}
+
+.stats-selector {
+	box-shadow: 0 3px 3px -2px rgba(93,61,19,.2),0 3px 4px 0 rgba(93,61,19,.14),0 1px 8px 0 rgba(93,61,19,.12);
+	margin: 0 auto;
+	border: 1px solid #b9ad8b;
+	border-radius: 6px;
+	background: #192b33;
+	padding: 6px 6px 12px;
+	font-size: 14px;
+	color: #fff;
+	opacity: .95;
+
+	display: table;
+}
+
+.stats-selector:hover {
+	cursor: auto;
+}
+
+.gear-stat {
+	display: table-row;
+}
+
+.gear-stat * {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.stat-selector-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: #ebebeb;
+    cursor: pointer;
+}
+
+.stat-selector-slider::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: #ebebeb;
+    cursor: pointer;
+}
+
+.slider-container {
+	position: relative;
+	width: 100%;
+}
+
+.stat-selector-slider {
+    -webkit-appearance: none;
+    height: 25px;
+    outline: none;
+}
+
+.stat-selector-value {
+	width: 47px;
+	min-width: 47px;
+}
+
+.armory-upgrade {
+	vertical-align: middle;
+	opacity: 0.4;
+}
+
+.armory-upgrade:hover {
+	cursor: pointer;
+}
+
+.armory-arrow {
+	font-size: 35px;
+	vertical-align: middle;
+	margin-left: 5px;
+	margin-right: 5px;
+	opacity: 0.4;
+}
+
+.armory-upgrade.active, .armory-arrow.active {
+	opacity: 1;
+}

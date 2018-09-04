@@ -395,3 +395,26 @@ h4, p {
 .armory-upgrade.active, .armory-arrow.active {
 	opacity: 1;
 }
+
+.level-container::before {
+	content: "Level: ";
+	margin-right: 5px;
+}
+
+.level-container {
+	display: table-cell;
+}
+
+.level {
+	font-size: 12px;
+	color: #a6a6a6;
+	margin-right: 5px;
+}
+
+.level:hover {
+	cursor: pointer;
+}
+
+.level:hover, .level.level-active {
+	color: #fff;
+}

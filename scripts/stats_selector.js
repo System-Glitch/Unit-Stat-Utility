@@ -5,6 +5,7 @@ var StatsSelector = function(element) {
 	this.gear = undefined;
 	this.element = element;
 	this.effects = [];
+	this.levelContainer = undefined;
 
 	statSelectors.push(this);
 	statSelectorsElements.push(this.element);
@@ -12,15 +13,47 @@ var StatsSelector = function(element) {
 
 StatsSelector.prototype.loadGear = function(gear) {
 	this.gear = gear;
-	this.element.innerHTML = ""; //Clear
-	this.effects = [];
-	if(gear.effects != undefined && gear.effects.length > 0) {
-		for(let i = 0 ; i < gear.effects.length ; i++) {
-			let effect = gear.effects[i];
-			this.addEffect(effect);
-		}
+	this.clear();
+	if(gear != undefined && gear.effects != undefined) {
+		this.loadLevels(gear);
+		this.loadLevel(getHighestKey(gear.effects));
 	} else {
 		this.element.textContent = "No effects.";
+	}
+}
+
+StatsSelector.prototype.loadLevel = function(level) {
+	this.selectLevel(level);
+	this.clearEffects();
+	let levelEffects = this.gear.effects[level];
+	for(let i = 0 ; i < levelEffects.length ; i++) {
+		let effect = levelEffects[i];
+		this.addEffect(effect);
+	}
+	updateStats();
+}
+
+StatsSelector.prototype.selectLevel = function(level) {
+	let elements = this.levelContainer.getElementsByClassName('level');
+	for (let i = 0; i < elements.length ; i++) {
+		let element = elements[i];
+		if(element.textContent == level)
+			element.classList.add('level-active');
+		else
+			element.classList.remove('level-active');
+	}
+}
+
+StatsSelector.prototype.clear = function() {
+	this.element.innerHTML = ""; //Clear
+	this.effects = [];
+}
+
+StatsSelector.prototype.clearEffects = function() {
+	let effects = this.element.getElementsByClassName("gear-stat");
+	this.effects = [];
+	while(effects.length > 0) {
+		effects[0].remove();
 	}
 }
 
@@ -37,6 +70,17 @@ StatsSelector.prototype.addEffect = function(effect) {
 	this.effects.push({type: effect.type, element: inputElement});
 }
 
+StatsSelector.prototype.loadLevels = function(gear) {
+	this.levelContainer = createLevelContainer();
+	for(let key in gear.effects) {
+		let levelElement = createLevelElement(key);
+		let that = this;
+		levelElement.onclick = function(ev) { that.loadLevel(ev.target.textContent) };
+		this.levelContainer.appendChild(levelElement);
+	}
+	this.element.appendChild(this.levelContainer);
+}
+
 StatsSelector.prototype.show = function() {
 	hideAllStatSelectors();
 	hideAllDropdowns();
@@ -45,6 +89,19 @@ StatsSelector.prototype.show = function() {
 
 StatsSelector.prototype.hide = function() {
 	this.element.style.display = "none";
+}
+
+function createLevelElement(level) {
+	let element = document.createElement("span");
+	element.classList.add("level");
+	element.textContent = level;
+	return element;
+}
+
+function createLevelContainer() {
+	let element = document.createElement("div");
+	element.classList.add("level-container");
+	return element;
 }
 
 function createEffectElement(innerHTML, positive) {
@@ -63,7 +120,7 @@ function hideAllStatSelectors() {
 function registerHideStatSelectorsListener() {
 	document.addEventListener('click', function(event) {
 		let parent = event.target.parentElement;
-		if (statSelectorsElements.indexOf(event.target) != 1 && (parent == null || !parent.classList.contains('gear-stat')))
+		if (statSelectorsElements.indexOf(event.target) != 1 && (parent == null || (!parent.classList.contains('gear-stat') && !parent.classList.contains('level-container'))))
 			hideAllStatSelectors();
 	});
 }

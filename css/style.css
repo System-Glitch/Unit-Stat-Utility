@@ -336,6 +336,7 @@ h4, p {
 
 .gear-stat {
 	display: table-row;
+	position: relative;
 }
 
 .gear-stat * {
@@ -343,35 +344,43 @@ h4, p {
 	vertical-align: middle;
 }
 
+
+.stat-selector-slider {
+	padding: 0;
+	font: inherit;
+	outline: none;
+	cursor: pointer;
+	box-sizing: border-box;
+	height: 25px;
+	margin: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+@supports not (-ms-ime-align:auto) {
+	.stat-selector-slider {
+		width: 100%;
+		-webkit-appearance: none;
+	}
+}
+
 .stat-selector-slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 12px;
-    height: 12px;
-    background: #ebebeb;
-    cursor: pointer;
+	width: 12px;
+	height: 12px;
+	background: #ebebeb;
+	cursor: pointer;
 }
 
 .stat-selector-slider::-moz-range-thumb {
-    width: 12px;
-    height: 12px;
-    background: #ebebeb;
-    cursor: pointer;
+	width: 12px;
+	height: 12px;
+	background: #ebebeb;
+	cursor: pointer;
 }
 
 .slider-container {
 	position: relative;
 	width: 100%;
-}
-
-.stat-selector-slider {
-    -webkit-appearance: none;
-    height: 25px;
-    outline: none;
-    margin: 0;
-    padding-right: 15px;
-    padding-left: 15px;
-    width: 100%;
 }
 
 .stat-selector-value {

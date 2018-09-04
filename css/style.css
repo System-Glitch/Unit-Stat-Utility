@@ -177,6 +177,7 @@ h4, p {
 	vertical-align: middle;
 	white-space: nowrap;
 	background-color: var(--select-bg-color);
+	min-height: 32px;
 }
 
 .select-name {
@@ -195,6 +196,7 @@ h4, p {
 
 .select-img {
 	width: 32px;
+	height: 32px;
 	margin-right: 5px;
 }
 
@@ -361,14 +363,28 @@ h4, p {
 	.stat-selector-slider {
 		width: 100%;
 		-webkit-appearance: none;
+		background: transparent;
 	}
 }
 
 .stat-selector-slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
 	width: 12px;
 	height: 12px;
 	background: #ebebeb;
+	border-radius: 50%;
+	background: #ebebeb;
 	cursor: pointer;
+	margin-top: -4px;
+}
+
+.stat-selector-slider::-webkit-slider-runnable-track {
+	width: 100%;
+	height: 3px;
+	cursor: pointer;
+	background: #9a9994;
+	border-radius: 1.3px;
+	border: 0.2px solid #010101;
 }
 
 .stat-selector-slider::-moz-range-thumb {

@@ -106,8 +106,12 @@ h4, p {
 	margin-bottom: 5px; 
 }
 
-.cost-title {
+.effect-title {
 	font-weight: 700;
+}
+
+.effect {
+	display: none;
 }
 
 .resource-icon {
@@ -344,6 +348,7 @@ h4, p {
 .gear-stat * {
 	display: table-cell;
 	vertical-align: middle;
+	white-space: nowrap;
 }
 
 

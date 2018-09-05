@@ -152,6 +152,11 @@ function updateStats() {
 				result *= effect[j];
 			}
 			display.textContent = round(result);
+
+			if(result == 0 && key != "cost")
+				display.parentElement.style.display = "none";
+			else
+				display.parentElement.style.display = "block";
 		}
 	}
 

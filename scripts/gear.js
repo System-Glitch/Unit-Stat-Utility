@@ -27,7 +27,10 @@ var gear = {
 			name: "Sample cavalry armor 1",
 			img: 'Gear/ArmCav_L001_ua.png',
 			effects: {
-				40: [{min: 10.0, max: 50.0, positive: true, type: "damage"}]
+				40: [
+						{min: 10.0, max: 50.0, positive: true, type: "damage"},
+						{min: 20.0, max: 25.0, positive: true, type: "splash"},
+					]
 			}
 		},
 		{

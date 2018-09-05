@@ -1,56 +1,485 @@
 var units = {
-	Academy: {name: "Academy", img: "Academy64.png"},
-	Achilles: {name: "Achilles", img: "Achilles64.png"},
-	Antelope: {name: "Antelope", img: "Antelope64.png"},
-	ArcheryRange: {name: "ArcheryRange", img: "ArcheryRange64.png"},
-	Archimedes: {name: "Archimedes", img: "Archimedes64.png"},
-	BadaariWarLeader: {name: "BadaariWarLeader", img: "BadaariWarLeader64.png"},
-	BadariAxeman: {name: "BadariAxeman", img: "BadariAxeman64.png"},
-	BadariSlinger: {name: "BadariSlinger", img: "BadariSlinger64.png"},
-	BadariSpearman: {name: "BadariSpearman", img: "BadariSpearman64.png"},
-	Ballista: {name: "Ballista", img: "Ballista64.png"},
-	Bandit: {name: "Bandit", img: "Bandit64.png"},
-	BanditLeader: {name: "BanditLeader", img: "BanditLeader64.png"},
-	BarbarianSpearman: {name: "BarbarianSpearman", img: "BarbarianSpearman64.png"},
-	Barracks: {name: "Barracks", img: "Barracks64.png"},
-	BasicStore: {name: "BasicStore", img: "BasicStore64.png"},
-	BatteringRam: {name: "BatteringRam", img: "BatteringRam64.png"},
-	BBireme: {name: "BBireme", img: "BBireme64.png"},
-	BBowman: {name: "BBowman", img: "BBowman64.png"},
-	BCaravan: {name: "BCaravan", img: "BCaravan64.png"},
-	BChariotArcher: {name: "BChariotArcher", img: "BChariotArcher64.png"},
-	Bear: {name: "Bear", img: "Bear64.png"},
-	Bella: {name: "Bella", img: "Bella64.png"},
-	BerryBush: {name: "BerryBush", img: "BerryBush64.png"},
-	BFishingBoat: {name: "BFishingBoat", img: "BFishingBoat64.png"},
-	Bireme: {name: "Bireme", img: "Bireme64.png"},
-	Blacksmith: {name: "Blacksmith", img: "Blacksmith64.png"},
-	BLancer: {name: "BLancer", img: "BLancer64.png"},
-	BMerchantTransport: {name: "BMerchantTransport", img: "BMerchantTransport64.png"},
-	BMountedArcher: {name: "BMountedArcher", img: "BMountedArcher64.png"},
-	Boar: {name: "Boar", img: "Boar64.png"},
-	BOxCart: {name: "BOxCart", img: "BOxCart64.png"},
-	BPalintonon: {name: "BPalintonon", img: "BPalintonon64.png"},
-	BPriest: {name: "BPriest", img: "BPriest64.png"},
-	BRamShip: {name: "BRamShip", img: "BRamShip64.png"},
-	BRoyalGuard: {name: "BRoyalGuard", img: "BRoyalGuard64.png"},
-	BSapper: {name: "BSapper", img: "BSapper64.png"},
-	BScout: {name: "BScout", img: "BScout64.png"},
-	BShieldBearer: {name: "BShieldBearer", img: "BShieldBearer64.png"},
-	BSiegeTower: {name: "BSiegeTower", img: "BSiegeTower64.png"},
-	BSlinger: {name: "BSlinger", img: "BSlinger64.png"},
-	BSpearman: {name: "BSpearman", img: "BSpearman64.png"},
-	BVillager: {name: "BVillager", img: "BVillager64.png"},
-	BWarChariot: {name: "BWarChariot", img: "BWarChariot64.png"},
-	CAcichorios: {name: "CAcichorios", img: "CAcichorios64.png"},
-	CapCourier: {name: "CapCourier", img: "CapCourier64.png"},
-	Caravan: {name: "Caravan", img: "Caravan64.png"},
-	CatapultTrireme: {name: "CatapultTrireme", img: "CatapultTrireme64.png"},
-	CAuger: {name: "CAuger", img: "CAuger64.png"},
-	CBardHall: {name: "CBardHall", img: "CBardHall64.png"},
-	CBowman: {name: "CBowman", img: "CBowman64.png"},
-	CBrennos: {name: "CBrennos", img: "CBrennos64.png"},
-	CCaravan: {name: "CCaravan", img: "CCaravan64.png"},
+	Academy: {
+		name: "Academy",
+		img: "Academy64.png",
+		stats: {
+			costWood: 200,
+			health: 2250,
+			armorPierce: 0.80,
+			vision: 20,
+			timeBuild: 50
+		}
+	},
+	ArcheryRange: {
+		name: "ArcheryRange",
+		img: "ArcheryRange64.png",
+		stats: {
+			costWood: 200,
+			health: 2250,
+			armorPierce: 0.80,
+			vision: 20,
+			timeBuild: 50
+		}
+	},
+	Ballista: {
+		name: "Ballista",
+		img: "Ballista64.png",
+		stats: {
+			costWood: 300,
+			costGold: 160,
+			health: 280,
+			damage: 28,
+			multiplierBuildings: 4,
+			range: 37,
+			splash: 3,
+			armorPierce: 0.85,
+			vision: 39,
+			speed: 4.5,
+			timeTrain: 30,
+			population: 5
+		}
+	},
+	Barracks: {
+		name: "Barracks",
+		img: "Barracks64.png",
+		stats: {
+			costWood: 200,
+			health: 2250,
+			armorPierce: 0.80,
+			vision: 20,
+			timeBuild: 50
+		}
+	},
+	BBireme: {
+		name: "BBireme",
+		img: "BBireme64.png",
+		stats: {
+			costWood: 110,
+			costGold: 110,
+			health: 600,
+			damage: 45,
+			range: 26,
+			splash: 1,
+			armorPierce: 0.50,
+			vision: 31,
+			speed: 10,
+			timeTrain: 20,
+			population: 2
+		}
+	},
+	BBowman: {
+		name: "BBowman",
+		img: "BBowman64.png",
+		stats: {
+			costWood: 40,
+			costGold: 10,
+			health: 110,
+			damage: 8,
+			multiplierInfantry: 2.5,
+			range: 15,
+			vision: 20,
+			speed: 6,
+			timeTrain: 10,
+			population: 1
+		}
+	},
+	BCaravan: {
+		name: "BCaravan",
+		img: "BCaravan64.png",
+		stats: {
+			costFood: 50,
+			costWood: 50,
+			health: 300,
+			vision: 15,
+			speed: 6,
+			timeTrain: 15,
+			population: 1
+		}
+	},
+	BChariotArcher: {
+		name: "BChariotArcher",
+		img: "BChariotArcher64.png",
+		stats: {
+			costWood: 80,
+			costGold: 60,
+			health: 340,
+			damage: 25,
+			range: 22,
+			vision: 22,
+			speed: 7,
+			timeTrain: 18,
+			population: 3
+		}
+	},
+	BFishingBoat: {
+		name: "BFishingBoat",
+		img: "BFishingBoat64.png",
+		stats: {
+			costWood: 100,
+			health: 300,
+			gatherFish: 1.6,
+			damage: 8,
+			range: 18,
+			armorPierce: 0.50,
+			vision: 20,
+			speed: 6,
+			timeTrain: 30,
+			population: 1
+		}
+	},
+	Bireme: {
+		name: "Tireme",
+		img: "Bireme64.png"
+	},
+	BLancer: {
+		name: "BLancer",
+		img: "BLancer64.png",
+		stats: {
+			costFood: 60,
+			costGold: 50,
+			health: 430,
+			damage: 14,
+			multiplierInfantry: 2,
+			armorCrush: 0.50,
+			armorInf: 0.30,
+			armorPierce: 0.30,
+			vision: 20,
+			speed: 9,
+			timeTrain: 16,
+			population: 2
+		}
+	},
+	BMerchantTransport: {
+		name: "BMerchantTransport",
+		img: "BMerchantTransport64.png",
+		stats: {
+			costWood: 150,
+			health: 600,
+			damage: 20,
+			range: 18,
+			armorPierce: 0.50,
+			vision: 20,
+			speed: 6,
+			timeTrain: 30,
+			population: 2
+		}
+	},
+	BMountedArcher: {
+		name: "BMountedArcher",
+		img: "BMountedArcher64.png",
+		stats: {
+			costWood: 50,
+			costGold: 60,
+			health: 320,
+			damage: 13,
+			multiplierCavalry: 2.5,
+			range: 15,
+			vision: 20,
+			speed: 9,
+			timeTrain: 18,
+			population: 2
+		}
+	},
+	BOxCart: {
+		name: "BOxCart",
+		img: "BOxCart64.png",
+		stats: {
+			costFood: 50,
+			costWood: 50,
+			health: 400,
+			armorPierce: 0.50,
+			vision: 26,
+			speed: 6,
+			timeTrain: 10,
+			population: 1
+		}
+	},
+	BPalintonon: {
+		name: "BPalintonon",
+		img: "BPalintonon64.png",
+		stats: {
+			costWood: 350,
+			costGold: 250,
+			health: 350,
+			damage: 92,
+			multiplierBuildings: 3,
+			range: 55,
+			splash: 1,
+			armorPierce: 0.85,
+			vision: 48,
+			speed: 4.5,
+			timeTrain: 30,
+			population: 5
+		}
+	},
+	BPriest: {
+		name: "BPriest",
+		img: "BPriest64.png",
+		stats: {
+			costGold: 100,
+			health: 140,
+			healOOC: 25,
+			healRange: 16,
+			conversionRate: 10,
+			conversionRange: 32,
+			vision: 34,
+			speed: 6,
+			timeTrain: 20,
+			population: 1
+		}
+	},
+	BRamShip: {
+		name: "BRamShip",
+		img: "BRamShip64.png",
+		stats: {
+			costWood: 150,
+			costGold: 100,
+			health: 900,
+			damage: 30,
+			multiplierShips: 2.5,
+			multiplierBuildings: 2.5,
+			armorPierce: 0.50,
+			vision: 30,
+			speed: 8,
+			timeTrain: 20,
+			population: 3
+		}
+	},
+	BRoyalGuard: {
+		name: "BRoyalGuard",
+		img: "BRoyalGuard64.png",
+		stats: {
+			costFood: 55,
+			costGold: 55,
+			health: 320,
+			damage: 14,
+			multiplierInfantry: 2,
+			armorInf: 0.30,
+			armorCrush: 0.30,
+			vision: 20,
+			speed: 6,
+			timeTrain: 15,
+			population: 1
+		}
+	},
+	BSapper: {
+		name: "BSapper",
+		img: "BSapper64.png",
+		stats: {
+			costFood: 35,
+			costGold: 25,
+			health: 260,
+			damage: 12,
+			multiplierBuildings: 2.5,
+			armorInf: 0.30,
+			armorCrush: 0.30,
+			vision: 20,
+			speed: 6,
+			timeTrain: 10,
+			population: 1
+		}
+	},
+	BScout: {
+		name: "BScout",
+		img: "BScout64.png",
+		stats: {
+			health: 600,
+			damage: 4,
+			multiplierHuntable: 3,
+			multiplierVillager: 0.1,
+			vision: 26,
+			speed: 10,
+			population: 1
+		}
+	},
+	BShieldBearer: {
+		name: "BShieldBearer",
+		img: "BShieldBearer64.png",
+		stats: {
+			costFood: 50,
+			health: 200,
+			damage: 7,
+			multiplierRanged: 1.5,
+			armorPierce: 0.70,
+			armorCrush: 0.30,
+			vision: 20,
+			speed: 6,
+			timeTrain: 12,
+			population: 1
+		}
+	},
+	BSiegeTower: {
+		name: "BSiegeTower",
+		img: "BSiegeTower64.png",
+		stats: {
+			costWood: 300,
+			costGold: 100,
+			health: 800,
+			damage: 32,
+			multiplierBuildings: 4,
+			damage: 5,
+			range: 22,
+			splash: 1,
+			armorPierce: 0.85,
+			armorInf: 0.30,
+			armorCav: 0.30,
+			vision: 27,
+			speed: 4.5,
+			timeTrain: 35,
+			population: 5
+		}
+	},
+	BSlinger: {
+		name: "BSlinger",
+		img: "BSlinger64.png",
+		stats: {
+			costWood: 20,
+			costGold: 25,
+			health: 90,
+			damage: 6,
+			multiplierRanged: 3,
+			range: 18,
+			armorPierce: 0.30,
+			vision: 20,
+			speed: 6,
+			timeTrain: 10,
+			population: 1
+		}
+	},
+	BSpearman: {
+		name: "BSpearman",
+		img: "BSpearman64.png",
+		stats: {
+			costFood: 25,
+			costGold: 35,
+			health: 250,
+			damage: 11,
+			multiplierCavalry: 2.5,
+			snare: 0.65,
+			armorInf: 0.30,
+			armorCav: 0.30,
+			armorCrush: 0.30,
+			vision: 20,
+			speed: 6,
+			timeTrain: 10,
+			population: 1
+		}
+	},
+	BVillager: {
+		name: "BVillager",
+		img: "BVillager64.png",
+		stats: {
+			costFood: 50,
+			health: 150,
+			gatherBerry: 0.9,
+			gatherHunt: 1.3,
+			gatherHerd: 1.0,
+			gatherFarm: 0.9,
+			gatherWood: 1.0,
+			gatherGold: 1.0,
+			gatherStone: 1.0,
+			gatherFish: 1.0,
+			damage: 5,
+			armorPierce: 0.30,
+			vision: 12,
+			speed: 6,
+			timeTrain: 15,
+			population: 1
+		}
+	},
+	BWarChariot: {
+		name: "BWarChariot",
+		img: "BWarChariot64.png",
+		stats: {
+			costWood: 150,
+			costGold: 120,
+			health: 800,
+			damage: 20,
+			multiplierRanged: 4,
+			range: 18,
+			vision: 20,
+			speed: 6,
+			timeTrain: 28,
+			population: 4
+		}
+	},
+	Caravan: {
+		name: "Caravan",
+		img: "Caravan64.png",
+		stats: {
+			costFood: 50,
+			costWood: 50,
+			health: 300,
+			vision: 15,
+			speed: 6,
+			timeTrain: 15,
+			population: 1
+		}
+	},
+	CatapultTrireme: {
+		name: "CatapultTrireme",
+		img: "CatapultTrireme64.png",
+		stats: {
+			costWood: 200,
+			costGold: 150,
+			health: 610,
+			damage: 23,
+			multiplierBuildings: 4,
+			range: 48,
+			splash: 3,
+			armorPierce: 0.30,
+			vision: 53,
+			speed: 8,
+			timeTrain: 35,
+			population: 4
+		}
+	},
+	CAuger: {
+		name: "CAuger",
+		img: "CAuger64.png",
+		stats: {
+			costGold: 150,
+			health: 140,
+			healOOC: 25,
+			healRange: 16,
+			conversionRate: 10,
+			conversionRange: 32,
+			vision: 34,
+			speed: 6,
+			timeTrain: 20,
+			population: 1
+		}
+	},
+	CBardHall: {
+		name: "CBardHall",
+		img: "CBardHall64.png",
+		stats: {
+			costWood: 200,
+			health: 2250,
+			armorPierce: 0.80,
+			vision: 20,
+			timeBuild: 50
+		}
+	},
+	CBowman: {
+		name: "CBowman",
+		img: "CBowman64.png",
+		stats: {
+			costWood: 40,
+			costGold: 15,
+			health: 130,
+			damage: 12,
+			range: 18,
+			vision: 20,
+			speed: 6,
+			timeTrain: 12,
+			population: 1
+		}
+	},
+	CCaravan: {
+		name: "CCaravan",
+		img: "CCaravan64.png"
+	},		
 	CCarpentom: {name: "CCarpentom", img: "CCarpentom64.png"},
 	CChampion: {name: "CChampion", img: "CChampion64.png"},
 	CComontorios: {name: "CComontorios", img: "CComontorios64.png"},
@@ -88,7 +517,7 @@ var units = {
 			costGold: 15,
 			health: 160,
 			damage: 8,
-			speed: 6
+			speed: 6,
 		},
 		gear: ["axe", "infantryArmor", 'soldierGear']
 	},
@@ -132,7 +561,20 @@ var units = {
 	FishingShip: {name: "FishingShip", img: "FishingShip64.png"},
 	Fortress: {name: "Fortress", img: "Fortress64.png"},
 	GaiaRhino: {name: "GaiaRhino", img: "GaiaRhino64.png"},
-	Garden: {name: "Garden", img: "Garden64.png"},
+	Garden: {
+		name: "Garden",
+		img: "Garden64.png",
+		stats: {
+			costWood: 50,
+			costGold: 50,
+			empowerTrain: 3,
+			empowerResearch: 3,
+			health: 500,
+			armorPierce: 0.80,
+			vision: 20,
+			timeBuild: 30
+		}
+	},
 	gastraphetes: {name: "gastraphetes", img: "gastraphetes64.png"},
 	Gate: {name: "Gate", img: "Gate64.png"},
 	GCatapult: {name: "GCatapult", img: "GCatapult64.png"},
@@ -152,7 +594,6 @@ var units = {
 			health: 780,
 			damage: 24,
 			speed: 8,
-			multiplierCavalry: 1.2
 		},
 		gear: ["sword", "cavalryArmor", 'soldierGear']
 	},

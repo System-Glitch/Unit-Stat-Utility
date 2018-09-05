@@ -8,6 +8,7 @@ var effects = {
 	armorCav: {name: "Melee-Cav. Armor", startsAtOne: false},
 	armorCrush: {name: "Crush Armor", startsAtOne: false},
 	vision: {name: "Line-of-sight", startsAtOne: false},
+	splash: {name: "Splash area", startsAtOne: false},
 	multiplierBuildings: {name: "Bonus vs. Buildings", startsAtOne: true},
 	multiplierCavalry: {name: "Bonus vs. Cavalry", startsAtOne: true},
 	multiplierRanged: {name: "Bonus vs. Ranged", startsAtOne: true},

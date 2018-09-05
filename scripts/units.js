@@ -521,7 +521,23 @@ var units = {
 		},
 		gear: ["axe", "infantryArmor", 'soldierGear']
 	},
-	ECamelRiders: {name: "ECamelRiders", img: "ECamelRiders64.png"},
+	ECamelRiders: {
+		name: "ECamelRiders",
+		img: "ECamelRiders64.png",
+		stats: {
+			costFood: 60,
+			costGold: 45,
+			health: 430,
+			damage: 15,
+			vision: 20,
+			speed: 10,
+			timeTrain: 14,
+			armorCrush: 0.5,
+			multiplierCavalry: 2.5,
+			population: 2
+		},
+		gear: ["heavySpear", "cavalryArmor", 'soldierGear']
+	},
 	ECaravan: {name: "ECaravan", img: "ECaravan64.png"},
 	ECatapult: {name: "ECatapult", img: "ECatapult64.png"},
 	ECatapultTrireme: {name: "ECatapultTrireme", img: "ECatapultTrireme64.png"},

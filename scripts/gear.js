@@ -1,4 +1,16 @@
 var gear = {
+	heavySpear: [
+		{name: "None", img: 'Slot/2hSpearSlot_ua.png'},
+		{
+			name: "Sample heavy spear 1",
+			img: 'Gear/Generic/Spears2H/Spear2H_E60_ua.png',
+			effects: {
+				40: [
+						{min: 10.0, max: 19.8, positive: true, type: "damage"}
+					]
+			}
+		},
+	],
 	sword: [
 		{name: "None", img: 'Slot/SwordSlot_ua.png'},
 		{name: "Sample sword 1", img: 'Gear/SWORDSL12_ua.png'},

@@ -58,7 +58,7 @@ StatsSelector.prototype.clearEffects = function() {
 }
 
 StatsSelector.prototype.addEffect = function(effect) {
-	let html = components.gearEffect(effects[effect.type], effect.min, effect.max);
+	let html = components.gearEffect(effects[effect.type].name, effect.min, effect.max);
 	let element = createEffectElement(html, effect.positive);
 	let valueElement = element.getElementsByClassName('stat-selector-value')[0];
 	let inputElement = element.getElementsByClassName('stat-selector-slider')[0];
@@ -145,6 +145,10 @@ function updateStats() {
 		for(let i = 0 ; i < displays.length ; i++) {
 			let display = displays[i];
 			let original = parseFloat(display.dataset.original);
+
+			if(effects[key].startsAtOne)
+				original++;
+
 			let result = original;
 			let effect = modifiers[key];
 			let length = effect.length;
@@ -153,7 +157,7 @@ function updateStats() {
 			}
 			display.textContent = round(result);
 
-			if(result == 0 && key != "cost")
+			if((result == 0 || (result == 1 && effects[key].startsAtOne)) && key != "cost")
 				display.parentElement.style.display = "none";
 			else
 				display.parentElement.style.display = "block";

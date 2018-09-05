@@ -151,7 +151,8 @@ var units = {
 			costGold: 70,
 			health: 780,
 			damage: 24,
-			speed: 8
+			speed: 8,
+			multiplierCavalry: 1.2
 		},
 		gear: ["sword", "cavalryArmor", 'soldierGear']
 	},

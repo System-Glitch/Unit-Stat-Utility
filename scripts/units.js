@@ -502,7 +502,7 @@ var units = {
 			vision: 20,
 			speed: 9,
 			armorPierce: 0.5,
-			multiplierRanged: 3
+			multiplierRanged: 3,
 			timeTrain: 25,
 			population: 3
 		}

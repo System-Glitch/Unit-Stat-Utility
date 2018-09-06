@@ -36,7 +36,8 @@ var effects = {
 	conversionRate: {name: "Conversion Rate", startsAtOne: false},
 	conversionRange: {name: "Conversion Range", startsAtOne: false},
 	empowerTrain: {name: "Train Time", startsAtOne: false},
-	empowerResearch: {name: "Research Time", startsAtOne: false}
+	empowerResearch: {name: "Research Time", startsAtOne: false},
+	carryCapacity: {name: "Carry Capacity", startsAtOne: false}
 }
 
 var effectsContainer = document.getElementById("effects-container");

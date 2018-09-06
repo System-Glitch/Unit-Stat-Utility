@@ -478,10 +478,52 @@ var units = {
 	},
 	CCaravan: {
 		name: "CCaravan",
-		img: "CCaravan64.png"
+		img: "CCaravan64.png",
+		stats: {
+			costFood: 50,
+			costWood: 50,
+			health: 300,
+			vision: 15,
+			speed: 6,
+			timeTrain: 15,
+			carryCapacity: 150,
+			population: 1
+		}
 	},		
-	CCarpentom: {name: "CCarpentom", img: "CCarpentom64.png"},
-	CChampion: {name: "CChampion", img: "CChampion64.png"},
+	CCarpentom: {
+		name: "CCarpentom",
+		img: "CCarpentom64.png",
+		stats: {
+			costWood: 110,
+			costGold: 70,
+			health: 350,
+			damage: 28,
+			range: 18,
+			vision: 20,
+			speed: 9,
+			armorPierce: 0.5,
+			multiplierRanged: 3
+			timeTrain: 25,
+			population: 3
+		}
+	},
+	CChampion: {
+		name: "CChampion",
+		img: "CChampion64.png",
+		stats: {
+			costFood: 60,
+			costGold: 40,
+			health: 370,
+			damage: 20,
+			vision: 20,
+			speed: 5,
+			armorInf: 0.5,
+			armorPierce: 0.3,
+			armorCrush: 0.3,
+			timeTrain: 15,
+			population: 2
+		}
+	},
 	CComontorios: {name: "CComontorios", img: "CComontorios64.png"},
 	CDruid: {name: "CDruid", img: "CDruid64.png"},
 	CFishingBoat: {name: "CFishingBoat", img: "CFishingBoat64.png"},

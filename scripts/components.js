@@ -30,6 +30,12 @@ var components = {
 				.replace("%MIN%", min)
 				.replace("%MAX%", max)
 				.replace(/%MED%/g, med);
+	},
+	upgradeEffect: function(description, amount) {
+		return ('<span class="stat-selector-description">%DESCRIPTION%</span>&nbsp;' +
+				'<span class="stat-selector-value">%AMOUNT%</span><span class="minify-width">%</span>')
+				.replace("%DESCRIPTION%", description)
+				.replace("%AMOUNT%", amount);
 	}
 };
 

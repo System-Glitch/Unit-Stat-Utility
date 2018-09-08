@@ -130,11 +130,22 @@ function updateStats() {
 	for(let key in effects)
 		modifiers[key] = [];
 
+
+	//Gear
 	for(let i = 0 ; i < statSelectors.length ; i++) {
 		let selector = statSelectors[i];
 		for(let j = 0 ; j < selector.effects.length ; j++) {
 			let effect = selector.effects[j];
 			let mod = parseFloat(effect.element.value);
+			modifiers[effect.type].push(1+(mod/100));
+		}
+	}
+
+	//Champion upgrade
+	if(championUpgrade != null && championUpgradeActive.value == 1) {
+		for(let j = 0 ; j < championUpgrade.effects.length ; j++) {
+			let effect = championUpgrade.effects[j];
+			let mod = parseFloat(effect.amount);
 			modifiers[effect.type].push(1+(mod/100));
 		}
 	}

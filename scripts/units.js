@@ -37,6 +37,9 @@ var units = {
 			speed: 4.5,
 			timeTrain: 30,
 			population: 5
+		},
+		champion: {
+			speed: 20.0
 		}
 	},
 	Barracks: {
@@ -652,6 +655,18 @@ var units = {
 			health: 780,
 			damage: 24,
 			speed: 8,
+			vision: 20,
+			timeTrain: 25,
+			population: 3,
+			armorPierce: 0.3,
+			armorCrush: 0.3
+		},
+		champion: {
+			name: "Hippikon Champion",
+			img: "img/Upgrades/HippikonChampion.png",
+			effects: [
+				{amount: -33.3, positive: true, type: "population"}
+			]
 		},
 		gear: ["sword", "cavalryArmor", 'soldierGear']
 	},

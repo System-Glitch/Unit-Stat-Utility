@@ -4,6 +4,9 @@ var statSelectorsElements = [];
 var StatsSelector = function(element) {
 	this.gear = undefined;
 	this.element = element;
+	this.effectsContainer = document.createElement('div');
+	this.effectsContainer.classList.add("effects-container");
+
 	this.effects = [];
 	this.levelContainer = undefined;
 
@@ -25,6 +28,7 @@ StatsSelector.prototype.loadGear = function(gear) {
 StatsSelector.prototype.loadLevel = function(level) {
 	this.selectLevel(level);
 	this.clearEffects();
+	this.element.appendChild(this.effectsContainer);
 	let levelEffects = this.gear.effects[level];
 	for(let i = 0 ; i < levelEffects.length ; i++) {
 		let effect = levelEffects[i];
@@ -50,7 +54,7 @@ StatsSelector.prototype.clear = function() {
 }
 
 StatsSelector.prototype.clearEffects = function() {
-	let effects = this.element.getElementsByClassName("gear-stat");
+	let effects = this.effectsContainer.getElementsByClassName("gear-stat");
 	this.effects = [];
 	while(effects.length > 0) {
 		effects[0].remove();
@@ -66,7 +70,7 @@ StatsSelector.prototype.addEffect = function(effect) {
 		valueElement.textContent = round(inputElement.value);
 		updateStats();
 	}
-	this.element.appendChild(element);
+	this.effectsContainer.appendChild(element);
 	this.effects.push({type: effect.type, element: inputElement});
 }
 

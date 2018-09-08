@@ -337,11 +337,16 @@ h4, p {
 	color: #fff;
 	opacity: .95;
 
-	display: table;
+	display: block;
 }
 
 .stats-selector:hover {
 	cursor: auto;
+}
+
+.effects-container {
+	display: table;
+	width: 100%;
 }
 
 .gear-stat {
@@ -370,7 +375,7 @@ h4, p {
 
 @supports not (-ms-ime-align:auto) {
 	.stat-selector-slider {
-		width: 100%;
+		min-width: 100%;
 		-webkit-appearance: none;
 		background: transparent;
 	}
@@ -463,10 +468,6 @@ h4, p {
 .level-container::before {
 	content: "Level: ";
 	margin-right: 5px;
-}
-
-.level-container {
-	display: table-cell;
 }
 
 .level {

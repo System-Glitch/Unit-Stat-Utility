@@ -46,15 +46,15 @@ function createOptionElement(innerHTML) {
 	return element;
 }
 
-function createUnitOptionElement(innerHTML, unit) {
+function createUnitOptionElement(id, innerHTML, unit) {
 	let element =  createOptionElement(innerHTML);
-	element.dataset.unit = unit;
+	element.dataset.unit = id;
 	return element;
 }
 
-function addUnitOption(img, name) {
+function addUnitOption(id, img, name) {
 	let html = components.selectOption(img, name);
-	let element = createUnitOptionElement(html, name);
+	let element = createUnitOptionElement(id, html, name);
 	let dropdowns = document.getElementsByClassName("unit-select-option-container");
 	for(let i = 0 ; i < dropdowns.length ; i++)
 		dropdowns[i].appendChild(element.cloneNode(true));
@@ -64,7 +64,7 @@ function loadUnits() {
 	console.log("Loading units...");
 	for(let key in units) {
 		let unit = units[key];
-		addUnitOption('img/Unit/' + unit["img"], unit["name"]);
+		addUnitOption(key, 'img/Unit/' + unit["img"], unit["name"]);
 	}
 }
 

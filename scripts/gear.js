@@ -33,6 +33,2240 @@ var gear = {
 			}
 		}
 	],
+	arrow: [
+		{name: "None", img: 'Slot/ArrowSlot_ua.png'},
+		{
+			name: "Arrows of Actaeon",
+			img: "Gear/ArrowOH_L001",
+			effects: {
+				40: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Arrows of Amenhotep",
+			img: "Gear/ArrowOH_L003",
+			effects: {
+				40: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "multiplierInfantry"},
+				],
+			}
+		},
+		{
+			name: "Arrows of Darkness",
+			img: "Gear/Arrows_AOD",
+			effects: {
+				40: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "multiplierInfantry"},
+				],
+			}
+		},
+		{
+			name: "Arrows of Theseus",
+			img: "Gear/ArrowOH_L002",
+			effects: {
+				40: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+			}
+		},
+		{
+			name: "Legion Warlord's Arrows",
+			img: "Gear/ArrowOH_LC01",
+			effects: {
+				40: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+				],
+			}
+		},
+		{
+			name: "Arrows of the Moon",
+			img: "Gear/ArrowOH_E008",
+			effects: {
+				40: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "multiplierBuildings"},
+				],
+			}
+		},
+		{
+			name: "Athena's Graceful Arrows",
+			img: "Gear/ArrowOH_E006",
+			effects: {
+				40: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+				],
+			}
+		},
+		{
+			name: "Cyprus Champion Arrows",
+			img: "Gear/ArrowOH_E016",
+			effects: {
+				40: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Delian Preceptor's Arrows",
+			img: "Gear/ArrowOH_EC01_VR",
+			effects: {
+				40: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Pharaoh's Blessed Arrows",
+			img: "Gear/ArrowOH_E007_VR",
+			effects: {
+				37: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				38: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				39: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				40: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+			}
+		},
+		{
+			name: "Spartan Flight Arrows",
+			img: "Gear/ArrowOH_R013_VR",
+			effects: {
+				36: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				37: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				38: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				39: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				40: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+			}
+		},
+		{
+			name: "Extraordinary Arrows",
+			img: "Gear/ArrowOH_U011",
+			effects: {
+				40: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "vision"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Iron-Point Arrows",
+			img: "Gear/ArrowOH_U003_VR",
+			effects: {
+				27: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				32: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				33: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				34: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				35: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				36: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				37: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				38: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				39: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				40: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Arrows of the Sun",
+			img: "Gear/ArrowOH_E005",
+			effects: {
+				35: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "multiplierBuildings"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				36: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "multiplierBuildings"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				37: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "multiplierBuildings"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				38: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "multiplierBuildings"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				39: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "multiplierBuildings"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+			}
+		},
+		{
+			name: "Darius' Dire Arrows",
+			img: "Gear/ArrowOH_UB01",
+			effects: {
+				35: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				36: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				37: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				38: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				39: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+			}
+		},
+		{
+			name: "Hardwood Arrows of the Eagle",
+			img: "Gear/ArrowOH_R012",
+			effects: {
+				33: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				34: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				35: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				36: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				37: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Peerless Barbed Arrows",
+			img: "Gear/ArrowOH_U010_VR",
+			effects: {
+				36: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "multiplierInfantry"},
+				],
+			}
+		},
+		{
+			name: "Athenian Champion's Arrows",
+			img: "Gear/ArrowOH_E009",
+			effects: {
+				28: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				29: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				30: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				31: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				32: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				33: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				34: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				35: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Celtic War Arrows",
+			img: "Gear/ArrowOH_E102_VR",
+			effects: {
+				34: [
+					{min: 0, max: 1, positive: true, type: "critical"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Chiron's Deadly Arrows",
+			img: "Gear/ArrowOH_E004_VR",
+			effects: {
+				30: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				31: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				32: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				33: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				34: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+			}
+		},
+		{
+			name: "King Narmer's Dreaded Arrows",
+			img: "Gear/ArrowOH_EB01",
+			effects: {
+				31: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+				],
+				32: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+				],
+				33: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+				],
+				34: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+				],
+			}
+		},
+		{
+			name: "Cruelly Barbed Arrows",
+			img: "Gear/ArrowOH_R011",
+			effects: {
+				32: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "multiplierInfantry"},
+				],
+			}
+		},
+		{
+			name: "Bronze-Point Arrows",
+			img: "Gear/ArrowOH_U002_VR",
+			effects: {
+				17: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				18: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				19: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				20: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				21: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				22: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				23: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				24: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				25: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				26: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				27: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				28: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				29: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				30: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				31: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Exceptional Broadhead Arrows",
+			img: "Gear/ArrowOH_U009_VR",
+			effects: {
+				31: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Hades' Flaming Arrows",
+			img: "Gear/ArrowOH_E003",
+			effects: {
+				26: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				27: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				28: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				29: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				30: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Gallic Arrows",
+			img: "Gear/ArrowOH_R101",
+			effects: {
+				29: [
+					{min: 0, max: 1, positive: true, type: "vision"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Razor-Sharp Arrows",
+			img: "Gear/ArrowOH_R010",
+			effects: {
+				25: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				26: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				27: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				28: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				29: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+			}
+		},
+		{
+			name: "Dark Flight Arrows",
+			img: "Gear/ArrowOH_E101",
+			effects: {
+				27: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+				],
+			}
+		},
+		{
+			name: "Arrows of the Forest",
+			img: "Gear/ArrowOH_ED01",
+			effects: {
+				26: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+			}
+		},
+		{
+			name: "Oil-Drenched Arrows",
+			img: "Gear/ArrowOH_R009",
+			effects: {
+				22: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "multiplierBuildings"},
+				],
+				23: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "multiplierBuildings"},
+				],
+				24: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "multiplierBuildings"},
+				],
+				25: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "multiplierBuildings"},
+				],
+				26: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "multiplierBuildings"},
+				],
+			}
+		},
+		{
+			name: "Remarkable Barbed Arrows",
+			img: "Gear/ArrowOH_U008",
+			effects: {
+				26: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Ra's Golden Arrows",
+			img: "Gear/ArrowOH_E002",
+			effects: {
+				20: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "vision"},
+				],
+				21: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "vision"},
+				],
+				22: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "vision"},
+				],
+				23: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "vision"},
+				],
+				24: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "vision"},
+				],
+			}
+		},
+		{
+			name: "Black Flight Arrows",
+			img: "Gear/ArrowOH_R008_VR",
+			effects: {
+				18: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "multiplierBuildings"},
+				],
+				19: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "multiplierBuildings"},
+				],
+				20: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "multiplierBuildings"},
+				],
+				21: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "multiplierBuildings"},
+				],
+				22: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "multiplierBuildings"},
+				],
+				23: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "multiplierBuildings"},
+				],
+			}
+		},
+		{
+			name: "Broadhead Arrows",
+			img: "Gear/ArrowOH_R007",
+			effects: {
+				17: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "multiplierInfantry"},
+				],
+				18: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "multiplierInfantry"},
+				],
+				19: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "multiplierInfantry"},
+				],
+				20: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "multiplierInfantry"},
+				],
+				21: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "multiplierInfantry"},
+				],
+			}
+		},
+		{
+			name: "Superior Broadhead Arrows",
+			img: "Gear/ArrowOH_U007_VR",
+			effects: {
+				21: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Gold-Tipped Arrows",
+			img: "Gear/ArrowOH_E001_VR",
+			effects: {
+				17: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "multiplierInfantry"},
+				],
+				18: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "multiplierInfantry"},
+				],
+				19: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "multiplierInfantry"},
+				],
+				20: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "multiplierInfantry"},
+				],
+			}
+		},
+		{
+			name: "Hero's Arrows",
+			img: "Gear/ArrowOH_U201_VR",
+			effects: {
+				20: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Silver-Point Arrows",
+			img: "Gear/ArrowOH_R006",
+			effects: {
+				18: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "timeTrain"},
+					{min: 0, max: 1, positive: true, type: "multiplierInfantry"},
+				],
+			}
+		},
+		{
+			name: "Falcon Feather-Fletched Arrows",
+			img: "Gear/ArrowOH_R005_VR",
+			effects: {
+				12: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				13: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				14: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				15: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				16: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Copper-Point Arrows",
+			img: "Gear/ArrowOH_U001_VR",
+			effects: {
+				2: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				3: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				4: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				5: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				6: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				7: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				8: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				9: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				10: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				11: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				12: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				13: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				14: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				15: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				16: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Ornate Barbed Arrows",
+			img: "Gear/ArrowOH_U006_VR",
+			effects: {
+				16: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "multiplierInfantry"},
+				],
+			}
+		},
+		{
+			name: "Desert Hunter's Arrows",
+			img: "Gear/ArrowOH_R004",
+			effects: {
+				11: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				12: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				13: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				14: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				15: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+			}
+		},
+		{
+			name: "Tempered Bane of Achilles",
+			img: "Gear/ArrowOH_R014",
+			effects: {
+				15: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+			}
+		},
+		{
+			name: "Barbed Hunting Arrows",
+			img: "Gear/ArrowOH_U102",
+			effects: {
+				10: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+				],
+				11: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+				],
+				12: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+				],
+				13: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+				],
+				14: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+				],
+			}
+		},
+		{
+			name: "Elis Sharpened Arrows",
+			img: "Gear/ArrowOH_R003",
+			effects: {
+				9: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				10: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				11: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				12: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+				13: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "critical"},
+				],
+			}
+		},
+		{
+			name: "Desert Nomad's Footed Arrows",
+			img: "Gear/ArrowOH_R002",
+			effects: {
+				7: [
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				8: [
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				9: [
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				10: [
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				11: [
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Fine Broadhead Arrows",
+			img: "Gear/ArrowOH_U005_VR",
+			effects: {
+				11: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Freelancer's Relentless Arrows",
+			img: "Gear/ArrowOH_R016",
+			effects: {
+				7: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				9: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Painted Arrows",
+			img: "Gear/ArrowOH_R001_VR",
+			effects: {
+				7: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				8: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				9: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "True-Shot Arrows",
+			img: "Gear/ArrowOH_U101",
+			effects: {
+				4: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+				],
+				5: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+				],
+				6: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+				],
+				7: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+				],
+				8: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+				],
+			}
+		},
+		{
+			name: "Primitive Barbed Arrows",
+			img: "Gear/ArrowOH_U004_VR",
+			effects: {
+				6: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "multiplierInfantry"},
+				],
+			}
+		},
+		{
+			name: "Vanguard Ranger Arrows",
+			img: "Gear/ArrowOH_R015",
+			effects: {
+				5: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+			}
+		},
+	],
+	armorPlating: [
+		{name: "None", img: 'Slot/ArmorPlatingSlot_ua.png'},
+		{
+			name: "Armoring of Archimedes",
+			img: "Gear/ArmorPlt_L001",
+			effects: {
+				40: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+			}
+		},
+		{
+			name: "Divine Bronze Plating",
+			img: "Gear/ArmorPlt_R101_LEG",
+			effects: {
+				40: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Heavy Destroyer Weave",
+			img: "Gear/ArmorPlt_HDW",
+			effects: {
+				40: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+				],
+			}
+		},
+		{
+			name: "Legion Warlord's Armoring",
+			img: "Gear/ArmorPlt_LC01",
+			effects: {
+				40: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Sidings of the Argo",
+			img: "Gear/ArmorPlt_L002",
+			effects: {
+				40: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Barinthus' Heavy Sidings",
+			img: "Gear/ArmorPlt_E102",
+			effects: {
+				40: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "damage"},
+				],
+			}
+		},
+		{
+			name: "Blessed Lion-Hide Covers",
+			img: "Gear/ArmorPlt_E008",
+			effects: {
+				40: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorPierce"},
+					{min: 0, max: 1, positive: true, type: "armorSplash"},
+				],
+			}
+		},
+		{
+			name: "Council Mentor's Plating",
+			img: "Gear/ArmorPlt_EC01",
+			effects: {
+				40: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Hephaestus Carved Plating",
+			img: "Gear/ArmorPlt_E007",
+			effects: {
+				37: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				38: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				39: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				40: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Runic Heavy Bronze Armoring",
+			img: "Gear/ArmorPlt_E006",
+			effects: {
+				40: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "range"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Lion Heraldic Plating",
+			img: "Gear/ArmorPlt_R013",
+			effects: {
+				36: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+				37: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+				38: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+				39: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+				40: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+			}
+		},
+		{
+			name: "Iron Armoring",
+			img: "Gear/ArmorPlt_U003",
+			effects: {
+				27: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				32: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				33: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				34: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				35: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				36: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				37: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				38: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				39: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				40: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Plating of Zakros",
+			img: "Gear/ArmorPlt_EA01",
+			effects: {
+				36: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+					{min: 0, max: 1, positive: true, type: "armorSplash"},
+				],
+				37: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+					{min: 0, max: 1, positive: true, type: "armorSplash"},
+				],
+				38: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+					{min: 0, max: 1, positive: true, type: "armorSplash"},
+				],
+				39: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+					{min: 0, max: 1, positive: true, type: "armorSplash"},
+				],
+			}
+		},
+		{
+			name: "Sidings of the White Rhino",
+			img: "Gear/ArmorPlt_E005",
+			effects: {
+				34: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				35: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				36: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				37: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				38: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Hand-Fitted Sidings",
+			img: "Gear/ArmorPlt_R012",
+			effects: {
+				34: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				35: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				36: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				37: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				38: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Peerless Scaled Plating",
+			img: "Gear/ArmorPlt_U015",
+			effects: {
+				38: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+			}
+		},
+		{
+			name: "Extraordinary Support Covers",
+			img: "Gear/ArmorPlt_U019",
+			effects: {
+				36: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorSplash"},
+				],
+			}
+		},
+		{
+			name: "Athenian Champion's Plate Armoring",
+			img: "Gear/ArmorPlt_E009",
+			effects: {
+				28: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+				29: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+				30: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+				31: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+				32: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+				33: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+				34: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+				35: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+			}
+		},
+		{
+			name: "Batoshipip's Vicious Plating",
+			img: "Gear/ArmorPlt_RB01",
+			effects: {
+				32: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorPierce"},
+				],
+				33: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorPierce"},
+				],
+				34: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorPierce"},
+				],
+				35: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorPierce"},
+				],
+			}
+		},
+		{
+			name: "Golden Runic Plating",
+			img: "Gear/ArmorPlt_E004",
+			effects: {
+				30: [
+					{min: 0, max: 1, positive: true, type: "armorInfantry"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+					{min: 0, max: 1, positive: true, type: "armorSplash"},
+				],
+				31: [
+					{min: 0, max: 1, positive: true, type: "armorInfantry"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+					{min: 0, max: 1, positive: true, type: "armorSplash"},
+				],
+				32: [
+					{min: 0, max: 1, positive: true, type: "armorInfantry"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+					{min: 0, max: 1, positive: true, type: "armorSplash"},
+				],
+				33: [
+					{min: 0, max: 1, positive: true, type: "armorInfantry"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+					{min: 0, max: 1, positive: true, type: "armorSplash"},
+				],
+				34: [
+					{min: 0, max: 1, positive: true, type: "armorInfantry"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+					{min: 0, max: 1, positive: true, type: "armorSplash"},
+				],
+			}
+		},
+		{
+			name: "Fire-Proofed Plates",
+			img: "Gear/ArmorPlt_R011",
+			effects: {
+				30: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+				31: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+				32: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+				33: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+				34: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+			}
+		},
+		{
+			name: "Hide of the Kraken",
+			img: "Gear/ArmorPlt_E101",
+			effects: {
+				29: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+				30: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+				31: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+				32: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+				33: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+			}
+		},
+		{
+			name: "Consummate Siege Armoring",
+			img: "Gear/ArmorPlt_U014",
+			effects: {
+				33: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorPierce"},
+				],
+			}
+		},
+		{
+			name: "Immaculate Sidings",
+			img: "Gear/ArmorPlt_U018",
+			effects: {
+				33: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Finely Detailed Plating",
+			img: "Gear/ArmorPlt_R015",
+			effects: {
+				27: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorPierce"},
+				],
+				28: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorPierce"},
+				],
+				29: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorPierce"},
+				],
+				30: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorPierce"},
+				],
+				31: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorPierce"},
+				],
+			}
+		},
+		{
+			name: "Bronze Plate Sidings",
+			img: "Gear/ArmorPlt_U002",
+			effects: {
+				17: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				18: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				19: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				20: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				21: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				22: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				23: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				24: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				25: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				26: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				27: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				28: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				29: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				30: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				31: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Herculean Gold Plates",
+			img: "Gear/ArmorPlt_E003",
+			effects: {
+				26: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+				],
+				27: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+				],
+				28: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+				],
+				29: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+				],
+				30: [
+					{min: 0, max: 1, positive: true, type: "damage"},
+				],
+			}
+		},
+		{
+			name: "Heavy Bronze Armoring",
+			img: "Gear/ArmorPlt_R001",
+			effects: {
+				7: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				8: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				9: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				10: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				11: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				12: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				13: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				14: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				15: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				16: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				17: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				18: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				19: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				20: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				21: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				22: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				23: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				24: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				25: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				26: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				27: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				28: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				29: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+				30: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Rhino-Hide Covers",
+			img: "Gear/ArmorPlt_R010",
+			effects: {
+				30: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorSplash"},
+				],
+			}
+		},
+		{
+			name: "Artificer's Bronze Plating",
+			img: "Gear/ArmorPlt_R101",
+			effects: {
+				24: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				25: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				26: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				27: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				28: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Exceptional Engineered Plating",
+			img: "Gear/ArmorPlt_U013",
+			effects: {
+				28: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+			}
+		},
+		{
+			name: "Rune-Inscribed Plates",
+			img: "Gear/ArmorPlt_R008",
+			effects: {
+				23: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+				24: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+				25: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+				26: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+				27: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+			}
+		},
+		{
+			name: "Cold-Forged Armoring",
+			img: "Gear/ArmorPlt_R009",
+			effects: {
+				26: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Superb Mantle Covers",
+			img: "Gear/ArmorPlt_U017",
+			effects: {
+				26: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorSplash"},
+				],
+			}
+		},
+		{
+			name: "Arrow-Proof Armoring",
+			img: "Gear/ArmorPlt_E002",
+			effects: {
+				21: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorPierce"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+				22: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorPierce"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+				23: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorPierce"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+				24: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorPierce"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+				25: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorPierce"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+			}
+		},
+		{
+			name: "Argos Silver Plating",
+			img: "Gear/ArmorPlt_R014",
+			effects: {
+				25: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Benevolent Plate Siding",
+			img: "Gear/ArmorPlt_RA01",
+			effects: {
+				21: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+				22: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+				23: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+				24: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+			}
+		},
+		{
+			name: "Hand-Carved Sidings",
+			img: "Gear/ArmorPlt_R007",
+			effects: {
+				19: [
+					{min: 0, max: 1, positive: true, type: "armorInfantry"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				20: [
+					{min: 0, max: 1, positive: true, type: "armorInfantry"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				21: [
+					{min: 0, max: 1, positive: true, type: "armorInfantry"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				22: [
+					{min: 0, max: 1, positive: true, type: "armorInfantry"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				23: [
+					{min: 0, max: 1, positive: true, type: "armorInfantry"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Remarkable Sheet Sidings",
+			img: "Gear/ArmorPlt_U016",
+			effects: {
+				23: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Superior Skirt Armoring",
+			img: "Gear/ArmorPlt_U012",
+			effects: {
+				23: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorPierce"},
+				],
+			}
+		},
+		{
+			name: "Dragonskin Plates",
+			img: "Gear/ArmorPlt_E001",
+			effects: {
+				17: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				18: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				19: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				20: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "damage"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Blue Enamel Plating",
+			img: "Gear/ArmorPlt_R006",
+			effects: {
+				16: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+				17: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+				18: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+				19: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+				20: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+			}
+		},
+		{
+			name: "Crete Steward Plating",
+			img: "Gear/ArmorPlt_UA01",
+			effects: {
+				20: [
+					{min: 0, max: 1, positive: true, type: "armorPierce"},
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Hero's Plating",
+			img: "Gear/ArmorPlt_U201",
+			effects: {
+				20: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorPierce"},
+				],
+			}
+		},
+		{
+			name: "Alligator-Hide Covers",
+			img: "Gear/ArmorPlt_R005",
+			effects: {
+				14: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				15: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				16: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				17: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+				18: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Scales of the Leviathan",
+			img: "Gear/ArmorPlt_R102",
+			effects: {
+				14: [
+					{min: 0, max: 1, positive: true, type: "vision"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				15: [
+					{min: 0, max: 1, positive: true, type: "vision"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				16: [
+					{min: 0, max: 1, positive: true, type: "vision"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				17: [
+					{min: 0, max: 1, positive: true, type: "vision"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				18: [
+					{min: 0, max: 1, positive: true, type: "vision"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Superior Storm Plating",
+			img: "Gear/ArmorPlt_U007",
+			effects: {
+				18: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Copper Plate Sidings",
+			img: "Gear/ArmorPlt_U001",
+			effects: {
+				7: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				8: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				9: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				10: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				11: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				12: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				13: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				14: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				15: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				16: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Ordinary Shingle Covers",
+			img: "Gear/ArmorPlt_U011",
+			effects: {
+				16: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorSplash"},
+				],
+			}
+		},
+		{
+			name: "Turtle-Shell Plates",
+			img: "Gear/ArmorPlt_R004",
+			effects: {
+				11: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+				12: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+				13: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+				14: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+				15: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "protection"},
+				],
+			}
+		},
+		{
+			name: "Black Oak Sidings",
+			img: "Gear/ArmorPlt_R003",
+			effects: {
+				10: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				11: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				12: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				13: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				14: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Thick Scaled Plating",
+			img: "Gear/ArmorPlt_R002",
+			effects: {
+				9: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+				10: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+				11: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+				12: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+				13: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+			}
+		},
+		{
+			name: "Fine Overlapped Armoring",
+			img: "Gear/ArmorPlt_U006",
+			effects: {
+				13: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorPierce"},
+				],
+			}
+		},
+		{
+			name: "Ideal Folded Sidings",
+			img: "Gear/ArmorPlt_U010",
+			effects: {
+				13: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Hardened Bulwark Siding",
+			img: "Gear/ArmorPlt_U102",
+			effects: {
+				12: [
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Great Runed Siding",
+			img: "Gear/ArmorPlt_UA02",
+			effects: {
+				10: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorSplash"},
+				],
+			}
+		},
+		{
+			name: "Ornate Barrier Plating",
+			img: "Gear/ArmorPlt_U005",
+			effects: {
+				8: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorCrush"},
+				],
+			}
+		},
+		{
+			name: "Freelancer's Steadfast Plating",
+			img: "Gear/ArmorPlt_U021",
+			effects: {
+				2: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				6: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+				7: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Simple Tanned Covers",
+			img: "Gear/ArmorPlt_U009",
+			effects: {
+				6: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorSplash"},
+				],
+			}
+		},
+		{
+			name: "Aged Armoring",
+			img: "Gear/ArmorPlt_U004",
+			effects: {
+				3: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "armorPierce"},
+				],
+			}
+		},
+		{
+			name: "Novice's Fortified Siding",
+			img: "Gear/ArmorPlt_U020",
+			effects: {
+				3: [
+					{min: 0, max: 1, positive: true, type: "speed"},
+					{min: 0, max: 1, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Weathered Sidings",
+			img: "Gear/ArmorPlt_U008",
+			effects: {
+				3: [
+					{min: 0, max: 1, positive: true, type: "health"},
+					{min: 0, max: 1, positive: true, type: "speed"},
+				],
+			}
+		},
+	],
 	cavalryArmor: [
 		{name: "None", img: 'Slot/LightArmorSlot_ua.png'},
 		{

@@ -45,6 +45,7 @@ var units = {
 				{amount: 20.0, positive: true, type: "speed"}
 			]
 		},
+		gear: ["armorPlating"]
 	},
 	Barracks: {
 		name: "Barracks",
@@ -88,7 +89,8 @@ var units = {
 			speed: 6,
 			timeTrain: 10,
 			population: 1
-		}
+		},
+		gear: ["arrow"]
 	},
 	BCaravan: {
 		name: "BCaravan",
@@ -148,7 +150,7 @@ var units = {
 			damage: 14,
 			multiplierInfantry: 2,
 			armorCrush: 0.50,
-			armorInf: 0.30,
+			armorInfantry: 0.30,
 			armorPierce: 0.30,
 			vision: 20,
 			speed: 9,
@@ -261,7 +263,7 @@ var units = {
 			health: 320,
 			damage: 14,
 			multiplierInfantry: 2,
-			armorInf: 0.30,
+			armorInfantry: 0.30,
 			armorCrush: 0.30,
 			vision: 20,
 			speed: 6,
@@ -278,7 +280,7 @@ var units = {
 			health: 260,
 			damage: 12,
 			multiplierBuildings: 2.5,
-			armorInf: 0.30,
+			armorInfantry: 0.30,
 			armorCrush: 0.30,
 			vision: 20,
 			speed: 6,
@@ -328,8 +330,8 @@ var units = {
 			range: 22,
 			splash: 1,
 			armorPierce: 0.85,
-			armorInf: 0.30,
-			armorCav: 0.30,
+			armorInfantry: 0.30,
+			armorCavalry: 0.30,
 			vision: 27,
 			speed: 4.5,
 			timeTrain: 35,
@@ -363,8 +365,8 @@ var units = {
 			damage: 11,
 			multiplierCavalry: 2.5,
 			snare: 0.65,
-			armorInf: 0.30,
-			armorCav: 0.30,
+			armorInfantry: 0.30,
+			armorCavalry: 0.30,
 			armorCrush: 0.30,
 			vision: 20,
 			speed: 6,
@@ -524,7 +526,7 @@ var units = {
 			damage: 20,
 			vision: 20,
 			speed: 5,
-			armorInf: 0.5,
+			armorInfantry: 0.5,
 			armorPierce: 0.3,
 			armorCrush: 0.3,
 			timeTrain: 15,

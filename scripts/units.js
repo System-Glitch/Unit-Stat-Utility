@@ -39,8 +39,12 @@ var units = {
 			population: 5
 		},
 		champion: {
-			speed: 20.0
-		}
+			name: "Ballista Champion",
+			img: "img/Upgrades/BallistaChampion.png",
+			effects: [
+				{amount: 20.0, positive: true, type: "speed"}
+			]
+		},
 	},
 	Barracks: {
 		name: "Barracks",

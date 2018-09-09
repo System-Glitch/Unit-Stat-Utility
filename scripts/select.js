@@ -152,6 +152,8 @@ function updateUpgrades(unit) {
 		let upgrade = unit.upgrades[key];
 		let element = upgradeElements[upgrade];
 		element.style.display = "inline-block";
+		if(element.nextSibling != undefined && !element.nextSibling.classList.contains('upgrade-row'))
+			element.nextSibling.style.display = "inline-block"; //Arrow
 		element.getElementsByClassName('upgrade-active')[0].value = "0";
 	}
 }

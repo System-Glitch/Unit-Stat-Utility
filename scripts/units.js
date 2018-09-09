@@ -681,7 +681,7 @@ var units = {
 			}
 		},
 		gear: ["sword", "cavalryArmor", 'soldierGear'],
-		upgrades: ["agogeDiscipline"]
+		upgrades: ["agogeDiscipline", "horsemanship", "purebred", "horseshoes"]
 	},
 	Hippopotamus: {name: "Hippopotamus", img: "Hippopotamus64.png"},
 	Hoplite: {name: "Hoplite", img: "Hoplite64.png"},

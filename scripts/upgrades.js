@@ -1,5 +1,6 @@
 var upgrades = {
 	agogeDiscipline:  {
+		isChain: false,
 		name: "Agoge Discipline",
 		img: "img/Upgrades/AgogeDiscipline.png",
 		effects: [
@@ -9,13 +10,54 @@ var upgrades = {
 			food: 200,
 			gold: 100
 		}
+	},
+	stables: {
+		isChain: true,
+		horsemanship: {
+			isChain: false,
+			name: "Horsemanship",
+			img: "img/Upgrades/Horsemanship.png",
+			effects: [
+				{amount: 10.0, positive: true, type: "speed"}
+			],
+			cost: {
+				food: 150,
+				gold: 100
+			}
+		},
+		purebred: {
+			isChain: false,
+			name: "Purebred",
+			img: "img/Upgrades/Purebred.png",
+			effects: [
+				{amount: 10.0, positive: true, type: "speed"}
+			],
+			cost: {
+				food: 300,
+				gold: 200
+			}
+		},
+		horseshoes: {
+			isChain: false,
+			name: "Horseshoes",
+			img: "img/Upgrades/Horseshoes.png",
+			effects: [
+				{amount: 10.0, positive: true, type: "health"},
+				{amount: 10.0, positive: true, type: "damage"},
+				{amount: 5.0, positive: true, type: "speed"},
+			],
+			cost: {
+				food: 900,
+				gold: 600
+			}
+		},
 	}
 };
 
 var upgradesContainer = document.getElementById("upgrades-container");
 var upgradeElements = {};
 
-function createUpgradeElement(key, upgrade) {
+function createUpgradeElement(key, upgrade, chain) {
 	let container = document.createElement('div');
 
 	let icon = document.createElement('img');
@@ -27,6 +69,9 @@ function createUpgradeElement(key, upgrade) {
 	input.classList.add('upgrade-active');
 	input.type = "hidden";
 	input.value = 0;
+
+	if(chain != undefined)
+		input.dataset.chain = chain;
 
 	container.appendChild(icon);
 	container.appendChild(tooltip);
@@ -60,30 +105,62 @@ function createCostSpan(cost) {
 }
 
 function hideAllUpgrades() {
-	for(let key in upgrades)
-		upgradeElements[key].style.display = "none";
+	for(let key in upgradeElements) {
+		let element = upgradeElements[key];
+		element.style.display = "none";
+		if(element.nextSibling != undefined && !element.nextSibling.classList.contains('upgrade-row'))
+			element.nextSibling.style.display = "none";
+	}
+}
+
+function loadUpgrade(container, key, upgrade, chain) {
+	let element = createUpgradeElement(key, upgrade, chain);
+	upgradeElements[key] = element;
+	container.appendChild(element);
+
+	element.addEventListener('click', function(event) {
+		let element = event.target;
+		let input = element.parentElement.getElementsByClassName('upgrade-active')[0];
+		if(!element.classList.contains("active")) {
+			input.value = 1;
+			element.classList.add("active");
+		} else {
+			input.value = 0;
+			element.classList.remove("active");
+		}
+
+		updateStats();
+	});
+}
+
+function loadUpgradeChain(key, chain) {
+	let container = document.createElement('div');
+	container.classList.add('upgrade-row');
+
+	for(let key2 in chain) {
+		if(key2 == "isChain") continue;
+
+		loadUpgrade(container, key2, chain[key2], key);
+		let arrow = document.createElement('span');
+		arrow.classList.add('upgrade-arrow');
+		arrow.textContent = '➡';
+		container.appendChild(arrow);
+
+	}
+
+	container.lastChild.remove(); //Remove last arrow
+	upgradesContainer.appendChild(container);
 }
 
 function loadUpgrades() {
 	console.log("Loading upgrades...");
 	for(let key in upgrades) {
-		let element = createUpgradeElement(key, upgrades[key]);
-		upgradeElements[key] = element;
-		upgradesContainer.appendChild(element);
 
-		element.addEventListener('click', function(event) {
-			let element = event.target;
-			let input = element.parentElement.getElementsByClassName('upgrade-active')[0];
-			if(!element.classList.contains("active")) {
-				input.value = 1;
-				element.classList.add("active");
-			} else {
-				input.value = 0;
-				element.classList.remove("active");
-			}
-
-			updateStats();
-		});
+		let upgrade = upgrades[key];
+		if(upgrade.isChain)
+			loadUpgradeChain(key, upgrade);
+		else
+			loadUpgrade(upgradesContainer, key, upgrade);
 	}
 }
 

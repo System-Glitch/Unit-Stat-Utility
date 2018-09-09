@@ -159,7 +159,13 @@ function updateStats() {
 		let element = upgradeElements[key];
 		let input = element.getElementsByClassName('upgrade-active')[0];
 		if(input.value == "1") {
-			let upgrade = upgrades[key];
+			let chain = input.dataset.chain;
+			let upgrade = null;
+			if(chain != undefined)
+				upgrade = upgrades[chain][key];
+			else
+				upgrade = upgrades[key];
+			
 			for(let j = 0 ; j < upgrade.effects.length ; j++) {
 				let effect = upgrade.effects[j];
 				let mod = parseFloat(effect.amount);

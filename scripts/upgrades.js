@@ -58,6 +58,55 @@ var upgrades = {
 				gold: 600
 			}
 		},
+	},
+	armoryMelee: {
+		isChain: true,
+		noneArmoryMelee: {
+			isChain: false,
+			name: "None",
+			img: "img/Slot/GearSlotGeneric_ua.png",
+			effects: [],
+			cost: {}
+		},
+		temper: {
+			isChain: false,
+			name: "Temper",
+			img: "img/Upgrades/Temper.png",
+			effects: [
+				{amount: 20.0, positive: true, type: "damage"}
+			],
+			cost: {
+				wood: 150,
+				gold: 150,
+				stone: 75
+			}
+		},
+		ironSmelting: {
+			isChain: false,
+			name: "Iron Smelting",
+			img: "img/Upgrades/IronSmelting.png",
+			effects: [
+				{amount: 20.0, positive: true, type: "damage"}
+			],
+			cost: {
+				wood: 300,
+				gold: 300,
+				stone: 150
+			}
+		},
+		damascusSteel: {
+			isChain: false,
+			name: "Damascus Steel",
+			img: "img/Upgrades/DamascusSteel.png",
+			effects: [
+				{amount: 20.0, positive: true, type: "damage"}
+			],
+			cost: {
+				wood: 600,
+				gold: 600,
+				stone: 300
+			}
+		}
 	}
 };
 

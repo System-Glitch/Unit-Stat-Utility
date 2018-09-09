@@ -13,6 +13,13 @@ var upgrades = {
 	},
 	stables: {
 		isChain: true,
+		noneStables: {
+			isChain: false,
+			name: "None",
+			img: "img/Slot/GearSlotGeneric_ua.png",
+			effects: [],
+			cost: {}
+		},
 		horsemanship: {
 			isChain: false,
 			name: "Horsemanship",
@@ -55,6 +62,7 @@ var upgrades = {
 };
 
 var upgradesContainer = document.getElementById("upgrades-container");
+var loneUpgradesContainer = document.getElementById("lone-upgrades-container");
 var upgradeElements = {};
 
 function createUpgradeElement(key, upgrade, chain) {
@@ -70,8 +78,10 @@ function createUpgradeElement(key, upgrade, chain) {
 	input.type = "hidden";
 	input.value = 0;
 
-	if(chain != undefined)
+	if(chain != undefined) {
+		container.classList.add('chained-upgrade');
 		input.dataset.chain = chain;
+	}
 
 	container.appendChild(icon);
 	container.appendChild(tooltip);
@@ -121,6 +131,43 @@ function hideAllUpgrades() {
 	}
 }
 
+function toggleUpgrade(element) {
+
+	if(!element.classList.contains("upgrade-arrow")) {
+		let input = element.parentElement.getElementsByClassName('upgrade-active')[0];
+		input.value = input.value == 1 ? 0 : 1;
+	}
+
+	if(!element.classList.contains("active"))
+		element.classList.add("active");
+	else
+		element.classList.remove("active");
+}
+
+function enableUpgrade(element) {
+	if(!element.classList.contains("upgrade-arrow")) {
+		let input = element.getElementsByClassName('upgrade-active')[0];
+		input.value = 1;
+	}
+
+	if(element.classList.contains('chained-upgrade'))
+		element = element.getElementsByClassName('upgrade')[0];
+
+	element.classList.add("active");
+}
+
+function disableUpgrade(element) {
+	if(!element.classList.contains("upgrade-arrow")) {
+		let input = element.getElementsByClassName('upgrade-active')[0];
+		input.value = 0;
+	}
+
+	if(element.classList.contains('chained-upgrade'))
+		element = element.getElementsByClassName('upgrade')[0];
+
+	element.classList.remove("active");
+}
+
 function loadUpgrade(container, key, upgrade, chain) {
 	let element = createUpgradeElement(key, upgrade, chain);
 	upgradeElements[key] = element;
@@ -128,14 +175,20 @@ function loadUpgrade(container, key, upgrade, chain) {
 
 	element.addEventListener('click', function(event) {
 		let element = event.target;
-		let input = element.parentElement.getElementsByClassName('upgrade-active')[0];
-		if(!element.classList.contains("active")) {
-			input.value = 1;
-			element.classList.add("active");
-		} else {
-			input.value = 0;
-			element.classList.remove("active");
-		}
+		let parent = element.parentElement;
+
+		if(parent.classList.contains("chained-upgrade")) {
+			let sibling = parent;
+			while((sibling = sibling.previousElementSibling) != null)
+				enableUpgrade(sibling);
+			sibling = parent;
+			while((sibling = sibling.nextElementSibling) != null)
+				disableUpgrade(sibling);
+			
+			enableUpgrade(element.parentElement);
+		} else
+			toggleUpgrade(element);
+
 
 		updateStats();
 	});
@@ -168,7 +221,7 @@ function loadUpgrades() {
 		if(upgrade.isChain)
 			loadUpgradeChain(key, upgrade);
 		else
-			loadUpgrade(upgradesContainer, key, upgrade);
+			loadUpgrade(loneUpgradesContainer, key, upgrade);
 	}
 }
 

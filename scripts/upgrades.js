@@ -108,8 +108,16 @@ function hideAllUpgrades() {
 	for(let key in upgradeElements) {
 		let element = upgradeElements[key];
 		element.style.display = "none";
-		if(element.nextSibling != undefined && !element.nextSibling.classList.contains('upgrade-row'))
+		if(element.nextSibling != undefined && !element.nextSibling.classList.contains('upgrade-row')) {
 			element.nextSibling.style.display = "none";
+			element.nextSibling.classList.remove("active");
+		}
+
+		let input = element.getElementsByClassName('upgrade-active')[0];
+		input.value = 0;
+
+		let img = element.getElementsByClassName('upgrade')[0];
+		img.classList.remove("active");
 	}
 }
 

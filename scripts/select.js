@@ -92,7 +92,7 @@ Select.prototype.select = function(option) {
 			this.unitId = option.dataset.unit;
 			this.unit = units[this.unitId];
 			img = this.unit["img"];
-			updateChampionUpgrade(this.unit);
+			updateUpgrades(this.unit);
 			updateDefaultStats(this.unit);
 			updateGearSelectors(this.unit);
 			resetGear();
@@ -113,14 +113,6 @@ Select.prototype.select = function(option) {
 	} else if(this.type == "gear") {
 		this.selectedOption.getElementsByClassName('gear-select-img')[0].src = this.imgPath + img;
 	}
-}
-
-function createCostSpan(cost) {
-	let content = '';
-	for(let key in cost)
-		content += '<span>' + cost[key] + '</span><img src="img/Resources/' + key + '.png" class="resource-icon">&nbsp;'
-
-	return content;
 }
 
 function updateChampionUpgrade(unit) {
@@ -149,6 +141,18 @@ function updateChampionUpgrade(unit) {
 	} else {
 		championUpgrade = null;
 		championUpgradeElement.style.display = "none";
+	}
+}
+
+function updateUpgrades(unit) {
+	hideAllUpgrades();
+	updateChampionUpgrade(unit);
+
+	for(let key in unit.upgrades) {
+		let upgrade = unit.upgrades[key];
+		let element = upgradeElements[upgrade];
+		element.style.display = "inline-block";
+		element.getElementsByClassName('upgrade-active')[0].value = "0";
 	}
 }
 

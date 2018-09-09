@@ -154,6 +154,20 @@ function updateStats() {
 		}
 	}
 
+	//Upgrades
+	for(let key in upgradeElements) {
+		let element = upgradeElements[key];
+		let input = element.getElementsByClassName('upgrade-active')[0];
+		if(input.value == "1") {
+			let upgrade = upgrades[key];
+			for(let j = 0 ; j < upgrade.effects.length ; j++) {
+				let effect = upgrade.effects[j];
+				let mod = parseFloat(effect.amount);
+				modifiers[effect.type].push(1+(mod/100));
+			}
+		}
+	}
+
 	for(let key in modifiers) {
 
 		let displays = document.getElementsByClassName(key);

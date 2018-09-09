@@ -418,6 +418,15 @@ h4, p {
 	min-width: 47px;
 }
 
+.upgrade-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.upgrade-row .upgrade {
+	margin-right: 5px;
+}
+
 .upgrade {
 	vertical-align: middle;
 	opacity: 0.4;
@@ -445,7 +454,7 @@ h4, p {
 	display: table-row;
 }
 
-#champion-upgrade:hover + .upgrade-tooltip {
+.upgrade:hover + .upgrade-tooltip {
 	display: table;
 }
 

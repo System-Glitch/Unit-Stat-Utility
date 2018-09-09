@@ -1,7 +1,7 @@
 var upgrades = {
-	agoneDiscipline:  {
-		name: "Agone Discipline",
-		img: "img/Upgrades/AgoneDiscipline.png",
+	agogeDiscipline:  {
+		name: "Agoge Discipline",
+		img: "img/Upgrades/AgogeDiscipline.png",
 		effects: [
 			{amount: -25.0, positive: true, type: "timeTrain"}
 		],

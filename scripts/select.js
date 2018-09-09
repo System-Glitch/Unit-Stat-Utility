@@ -115,6 +115,14 @@ Select.prototype.select = function(option) {
 	}
 }
 
+function createCostSpan(cost) {
+	let content = '';
+	for(let key in cost)
+		content += '<span>' + cost[key] + '</span><img src="img/Resources/' + key + '.png" class="resource-icon">&nbsp;'
+
+	return content;
+}
+
 function updateChampionUpgrade(unit) {
 	
 	
@@ -128,6 +136,7 @@ function updateChampionUpgrade(unit) {
 		championUpgrade = unit.champion;
 
 		championTooltip.innerHTML = '<span class="upgrade-title">' + championUpgrade.name + '</span>';
+		championTooltip.innerHTML += createCostSpan(championUpgrade.cost);
 		championUpgradeElement.src = championUpgrade.img;
 
 		for(let key in championUpgrade.effects) {

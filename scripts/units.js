@@ -43,7 +43,10 @@ var units = {
 			img: "img/Upgrades/BallistaChampion.png",
 			effects: [
 				{amount: 20.0, positive: true, type: "speed"}
-			]
+			],
+			cost: {
+				gold: 1000
+			}
 		},
 		gear: ["armorPlating"]
 	},
@@ -672,7 +675,10 @@ var units = {
 			img: "img/Upgrades/HippikonChampion.png",
 			effects: [
 				{amount: -33.3, positive: true, type: "population"}
-			]
+			],
+			cost: {
+				gold: 1200
+			}
 		},
 		gear: ["sword", "cavalryArmor", 'soldierGear']
 	},

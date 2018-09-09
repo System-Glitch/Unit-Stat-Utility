@@ -463,6 +463,10 @@ h4, p {
 	cursor: pointer;
 }
 
+.chained-upgrade:first-child .upgrade:first-child {
+	opacity: 1 !important;
+}
+
 .upgrade-arrow {
 	font-size: 35px;
 	vertical-align: middle;

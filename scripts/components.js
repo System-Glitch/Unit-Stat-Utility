@@ -114,7 +114,7 @@ function loadGear() {
 		}, i++);
 	}
 
-	setTimeout(function() { updateGearSelects() }, i);
+	setTimeout(function() { updateGearSelects() }, i+1000);
 }
 
 loadUnits();

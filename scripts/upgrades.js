@@ -222,25 +222,27 @@ function loadUpgrade(container, key, upgrade, chain) {
 	upgradeElements[key] = element;
 	container.appendChild(element);
 
-	element.addEventListener('click', function(event) {
-		let element = event.target;
-		let parent = element.parentElement;
+	element.addEventListener('click', onUpgradeClick);
+}
 
-		if(parent.classList.contains("chained-upgrade")) {
-			let sibling = parent;
-			while((sibling = sibling.previousElementSibling) != null)
-				enableUpgrade(sibling);
-			sibling = parent;
-			while((sibling = sibling.nextElementSibling) != null)
-				disableUpgrade(sibling);
-			
-			enableUpgrade(element.parentElement);
-		} else
-			toggleUpgrade(element);
+function onUpgradeClick(event) {
+	let element = event.target;
+	let parent = element.parentElement;
+
+	if(parent.classList.contains("chained-upgrade")) {
+		let sibling = parent;
+		while((sibling = sibling.previousElementSibling) != null)
+			enableUpgrade(sibling);
+		sibling = parent;
+		while((sibling = sibling.nextElementSibling) != null)
+			disableUpgrade(sibling);
+		
+		enableUpgrade(element.parentElement);
+	} else
+		toggleUpgrade(element);
 
 
-		updateStats();
-	});
+	updateStats();
 }
 
 function loadUpgradeChain(key, chain) {

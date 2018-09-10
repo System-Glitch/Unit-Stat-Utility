@@ -573,7 +573,7 @@ var units = {
 			damage: 8,
 			speed: 6,
 		},
-		gear: ["axe", "infantryArmor", 'soldierGear']
+		gear: ["greatAxe", "mediumArmor", 'soldierGear']
 	},
 	ECamelRiders: {
 		name: "ECamelRiders",
@@ -590,7 +590,7 @@ var units = {
 			multiplierCavalry: 2.5,
 			population: 2
 		},
-		gear: ["heavySpear", "cavalryArmor", 'soldierGear']
+		gear: ["heavySpear", "lightArmor", 'soldierGear']
 	},
 	ECaravan: {name: "ECaravan", img: "ECaravan64.png"},
 	ECatapult: {name: "ECatapult", img: "ECatapult64.png"},
@@ -680,7 +680,7 @@ var units = {
 				gold: 1200
 			}
 		},
-		gear: ["sword", "cavalryArmor", 'soldierGear'],
+		gear: ["sword", "lightArmor", 'soldiersGear'],
 		upgrades: ["agogeDiscipline", "stables", "armoryMelee"]
 	},
 	Hippopotamus: {name: "Hippopotamus", img: "Hippopotamus64.png"},

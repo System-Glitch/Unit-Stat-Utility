@@ -22,14 +22,15 @@ var components = {
 				'<div class="select-dropdown stats-selector">No effects.</div>';
 	},
 	gearEffect: function(description, min, max) {
-		let med = round((max + min) / 2);
+		let med = (max + min) / 2;
 		return ('<span class="stat-selector-description">%DESCRIPTION%</span>' +
 				'<input type="range" min="%MIN%" max="%MAX%" value="%MED%" step="0.01" class="stat-selector-slider">' +
 				'<span class="stat-selector-value">%MED%</span><span>%</span>')
 				.replace("%DESCRIPTION%", description)
 				.replace("%MIN%", min)
 				.replace("%MAX%", max)
-				.replace(/%MED%/g, med);
+				.replace("%MED%", med)
+				.replace("%MED%", round(med));
 	},
 	upgradeEffect: function(description, amount) {
 		return ('<span class="stat-selector-description">%DESCRIPTION%</span>&nbsp;' +

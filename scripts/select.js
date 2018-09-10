@@ -98,11 +98,13 @@ Select.prototype.select = function(option) {
 			resetGear();
 			break;
 		case "gear":
-			this.category = option.dataset.category;
-			this.gearId = option.dataset.gear;
-			this.gear = gear[this.category][this.gearId];
-			this.statsSelector.loadGear(this.gear);
-			img = this.gear["img"];
+			if(option != undefined) {
+				this.category = option.dataset.category;
+				this.gearId = option.dataset.gear;
+				this.gear = gear[this.category][this.gearId];
+				this.statsSelector.loadGear(this.gear);
+				img = this.gear["img"];
+			}
 			updateStats();
 			break;
 	}

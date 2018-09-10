@@ -98,6 +98,7 @@ function createGearSelector(category) {
 
 function loadGear() {
 	console.log("Loading gear...");
+	var i = 1;
 	for(let key in gear) {
 
 		let category = gear[key];
@@ -105,10 +106,12 @@ function loadGear() {
 		let select = createGearSelector(key);
 		select.category = key;
 		
-		for(let categoryKey in category) {
-			let item = category[categoryKey];
-			addGearOption(categoryKey, 'img/' + item["img"], item["name"], select, key);
-		}
+		setTimeout(function() {
+			for(let categoryKey in category) {
+				let item = category[categoryKey];
+				addGearOption(categoryKey, 'img/' + item["img"], item["name"], select, key);
+			}
+		}, i++);
 	}
 }
 

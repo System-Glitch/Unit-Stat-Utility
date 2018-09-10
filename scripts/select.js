@@ -59,6 +59,19 @@ var Select = function(element, imgPath, type) {
 
 }
 
+Select.prototype.updateOptions = function() {
+	var that = this;
+	this.optionsElements = this.dropdown.getElementsByClassName("select-option");
+	for(let i = 0 ; i < this.optionsElements.length ; i++) {
+		let optionElement = this.optionsElements[i];
+		optionElement.onclick = function(event) {
+			that.select(optionElement);
+			that.hideDropdown();
+			event.stopPropagation();
+		}
+	}
+}
+
 Select.prototype.search = function(search) {
 	for(let i = 0 ; i < this.optionsElements.length ; i++) {
 		let element = this.optionsElements[i];
@@ -115,6 +128,11 @@ Select.prototype.select = function(option) {
 	} else if(this.type == "gear") {
 		this.selectedOption.getElementsByClassName('gear-select-img')[0].src = this.imgPath + img;
 	}
+}
+
+function updateGearSelects() {
+	for(let key in gearSelectors)
+		gearSelectors[key].updateOptions();
 }
 
 function updateChampionUpgrade(unit) {

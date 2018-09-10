@@ -4015,7 +4015,7 @@ var gear = {
 	heavySpear: [
 		{name: "None", img: 'Slot/2hSpearSlot_ua.png'},
 		{
-			name: "AthenaÂ´s Long Spear",
+			name: "Athena's Long Spear",
 			img: "Gear/Spears2H_ALS.png",
 			effects: {
 				40: [

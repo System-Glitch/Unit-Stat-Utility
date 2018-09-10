@@ -113,6 +113,8 @@ function loadGear() {
 			}
 		}, i++);
 	}
+
+	setTimeout(function() { updateGearSelects() }, i);
 }
 
 loadUnits();

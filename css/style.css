@@ -4,6 +4,7 @@ body {
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	color: white;
 	min-height: 100vh;
 	margin: 0;
@@ -414,8 +415,8 @@ h4, p {
 }
 
 .stat-selector-value {
-	width: 47px;
-	min-width: 47px;
+	width: 40px;
+	min-width: 40px;
 }
 
 .upgrade-row {

@@ -4,6 +4,7 @@ var effects = {
 	speed: {name: "Movement Speed", startsAtOne: false},
 	cost: {name: "Cost", startsAtOne: false},
 	protection: {name: "Bonus Damage Protection", startsAtOne: true},
+	armor: {name: "Armor", startsAtOne: true},
 	armorPierce: {name: "Pierce Armor", startsAtOne: true},
 	armorInfantry: {name: "Melee-Infantry Armor", startsAtOne: true},
 	armorCavalry: {name: "Melee-Cavalry Armor", startsAtOne: true},

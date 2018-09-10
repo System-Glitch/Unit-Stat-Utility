@@ -107,6 +107,55 @@ var upgrades = {
 				stone: 300
 			}
 		}
+	},
+	armoryArmor: {
+		isChain: true,
+		noneArmoryArmor: {
+			isChain: false,
+			name: "None",
+			img: "img/Slot/GearSlotGeneric_ua.png",
+			effects: [],
+			cost: {}
+		},
+		scaleMail: {
+			isChain: false,
+			name: "Scale Mail",
+			img: "img/Upgrades/ScaleMail.png",
+			effects: [
+				{amount: 20.0, positive: true, type: "armor"}
+			],
+			cost: {
+				wood: 150,
+				gold: 150,
+				stone: 75
+			}
+		},
+		chainMail: {
+			isChain: false,
+			name: "Chain Mail",
+			img: "img/Upgrades/ChainMail.png",
+			effects: [
+				{amount: 20.0, positive: true, type: "armor"}
+			],
+			cost: {
+				wood: 300,
+				gold: 300,
+				stone: 150
+			}
+		},
+		laminarArmor: {
+			isChain: false,
+			name: "Laminar Armor",
+			img: "img/Upgrades/LaminarArmor.png",
+			effects: [
+				{amount: 20.0, positive: true, type: "armor"}
+			],
+			cost: {
+				wood: 600,
+				gold: 600,
+				stone: 300
+			}
+		},
 	}
 };
 

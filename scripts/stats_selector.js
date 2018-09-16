@@ -62,7 +62,7 @@ StatsSelector.prototype.clearEffects = function() {
 }
 
 StatsSelector.prototype.addEffect = function(effect) {
-	let html = components.gearEffect(effects[effect.type].name, effect.min, effect.max);
+	let html = components.gearEffect(effects[effect.type].name, round(effect.min), round(effect.max));
 	let element = createEffectElement(html, effect.positive);
 	let valueElement = element.getElementsByClassName('stat-selector-value')[0];
 	let inputElement = element.getElementsByClassName('stat-selector-slider')[0];

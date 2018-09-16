@@ -10055,7 +10055,7 @@ var gear = {
 		{name: "None", img: 'Slot/SwordSlot_ua.png'},
 		{
 			name: "Divine Thrusting Xiphos",
-			img: "Gear/Sword1H_R004_LEG.png",
+			img: "Gear/Generic/Swords/Sword_L90_ua.png",
 			effects: {
 				40: [
 					{min: 25.802000000000007, max: 28.518000000000008, positive: true, type: "damage"},
@@ -10065,7 +10065,7 @@ var gear = {
 		},
 		{
 			name: "Gladius of Bellerophon",
-			img: "Gear/Sword1H_L001.png",
+			img: "Gear/Generic/Swords/Sword_L90_ua.png",
 			effects: {
 				40: [
 					{min: 51.8985, max: 57.36150000000001, positive: true, type: "damage"},
@@ -10075,7 +10075,7 @@ var gear = {
 		},
 		{
 			name: "Sword of Menes",
-			img: "Gear/Sword1H_L002.png",
+			img: "Gear/Generic/Swords/Sword_L90_ua.png",
 			effects: {
 				40: [
 					{min: 51.8985, max: 57.36150000000001, positive: true, type: "damage"},
@@ -10085,7 +10085,7 @@ var gear = {
 		},
 		{
 			name: "Berserker's Blade",
-			img: "Gear/Sword1H_EA01_SR.png",
+			img: "Gear/Generic/Swords/Sword_E60_ua.png",
 			effects: {
 				40: [
 					{min: 35.14050000000001, max: 38.83950000000001, positive: true, type: "damage"},
@@ -10096,7 +10096,7 @@ var gear = {
 		},
 		{
 			name: "Hermes' Soot-Stained Sword",
-			img: "Gear/Sword1H_E007.png",
+			img: "Gear/Generic/Swords/Sword_E60_ua.png",
 			effects: {
 				37: [
 					{min: 8.217500000000001, max: 9.082500000000003, positive: true, type: "speed"},
@@ -10118,7 +10118,7 @@ var gear = {
 		},
 		{
 			name: "Osiris' Golden Blade",
-			img: "Gear/Sword1H_E009.png",
+			img: "Gear/Generic/Swords/Sword_E63_ua.png",
 			effects: {
 				40: [
 					{min: 35.14050000000001, max: 38.83950000000001, positive: true, type: "damage"},
@@ -10128,7 +10128,7 @@ var gear = {
 		},
 		{
 			name: "Perseus' Lightning-Struck Makhaira",
-			img: "Gear/Sword1H_E006_SR.png",
+			img: "Gear/Generic/Swords/Sword_E62_ua.png",
 			effects: {
 				40: [
 					{min: 45.115500000000004, max: 49.864500000000014, positive: true, type: "damage"},
@@ -10139,7 +10139,7 @@ var gear = {
 		},
 		{
 			name: "Scathach's Immortal Reaper",
-			img: "Gear/Sword1H_E102.png",
+			img: "Gear/Generic/Swords/Sword_E63_ua.png",
 			effects: {
 				40: [
 					{min: 35.14050000000001, max: 38.83950000000001, positive: true, type: "damage"},
@@ -10149,7 +10149,7 @@ var gear = {
 		},
 		{
 			name: "The Vorpal Blade",
-			img: "Gear/Sword1H_E008.png",
+			img: "Gear/Generic/Swords/Sword_E61_ua.png",
 			effects: {
 				37: [
 					{min: 50.663500000000006, max: 55.99650000000002, positive: true, type: "damage"},
@@ -10167,7 +10167,7 @@ var gear = {
 		},
 		{
 			name: "Athenian Dueling Makhaira",
-			img: "Gear/Sword1H_R013.png",
+			img: "Gear/Generic/Swords/Sword_R35_ua.png",
 			effects: {
 				36: [
 					{min: 36.63199999999999, max: 40.488, positive: true, type: "damage"},
@@ -10193,7 +10193,7 @@ var gear = {
 		},
 		{
 			name: "Council Acolyte's Sword",
-			img: "Gear/Sword1H_RC02.png",
+			img: "Gear/Generic/Swords/Sword_R34_ua.png",
 			effects: {
 				40: [
 					{min: 28.60449999999999, max: 31.615499999999994, positive: true, type: "damage"},
@@ -10203,7 +10203,7 @@ var gear = {
 		},
 		{
 			name: "Delian Adept's Sword",
-			img: "Gear/Sword1H_RC01.png",
+			img: "Gear/Generic/Swords/Sword_R34_ua.png",
 			effects: {
 				40: [
 					{min: 43.57650000000001, max: 48.16350000000001, positive: true, type: "damage"},
@@ -10212,7 +10212,7 @@ var gear = {
 		},
 		{
 			name: "Iron Sword",
-			img: "Gear/Sword1H_U003.png",
+			img: "Gear/Generic/Swords/Sword_U11_ua.png",
 			effects: {
 				27: [
 					{min: 21.783500000000007, max: 24.076500000000006, positive: true, type: "damage"},
@@ -10248,7 +10248,7 @@ var gear = {
 		},
 		{
 			name: "Peerless Cutting Sword",
-			img: "Gear/Sword1H_U013.png",
+			img: "Gear/Generic/Swords/Sword_U13_ua.png",
 			effects: {
 				40: [
 					{min: 32.29050000000001, max: 35.68950000000001, positive: true, type: "damage"},
@@ -10258,7 +10258,7 @@ var gear = {
 		},
 		{
 			name: "Odysseus' Fearless Sword",
-			img: "Gear/Sword1H_RB01.png",
+			img: "Gear/Generic/Swords/Sword_R35_ua.png",
 			effects: {
 				36: [
 					{min: 29.39299999999999, max: 32.486999999999995, positive: true, type: "damage"},
@@ -10280,7 +10280,7 @@ var gear = {
 		},
 		{
 			name: "Bast's Bloodletter",
-			img: "Gear/Sword1H_E005_SR.png",
+			img: "Gear/Generic/Swords/Sword_E62_ua.png",
 			effects: {
 				34: [
 					{min: 36.214, max: 40.025999999999996, positive: true, type: "health"},
@@ -10311,7 +10311,7 @@ var gear = {
 		},
 		{
 			name: "Silver Glyphic Khopesh",
-			img: "Gear/Sword1H_R012.png",
+			img: "Gear/Generic/Swords/Sword_R34_ua.png",
 			effects: {
 				32: [
 					{min: 33.21199999999999, max: 36.708, positive: true, type: "damage"},
@@ -10337,7 +10337,7 @@ var gear = {
 		},
 		{
 			name: "Extraordinary Curved Blade",
-			img: "Gear/Sword1H_U015.png",
+			img: "Gear/Generic/Swords/Sword_U12_ua.png",
 			effects: {
 				36: [
 					{min: 29.96299999999999, max: 33.11699999999999, positive: true, type: "damage"},
@@ -10347,7 +10347,7 @@ var gear = {
 		},
 		{
 			name: "Immaculate Swordmaster's Blade",
-			img: "Gear/Sword1H_U012.png",
+			img: "Gear/Generic/Swords/Sword_U11_ua.png",
 			effects: {
 				36: [
 					{min: 28.746999999999996, max: 31.773, positive: true, type: "damage"},
@@ -10357,7 +10357,7 @@ var gear = {
 		},
 		{
 			name: "Doomblade of Theokoles",
-			img: "Gear/Sword1H_E101.png",
+			img: "Gear/Generic/Swords/Sword_E61_ua.png",
 			effects: {
 				35: [
 					{min: 31.70149999999999, max: 35.03849999999999, positive: true, type: "damage"},
@@ -10367,7 +10367,7 @@ var gear = {
 		},
 		{
 			name: "Golden Falcon Xiphos",
-			img: "Gear/Sword1H_E004.png",
+			img: "Gear/Generic/Swords/Sword_E60_ua.png",
 			effects: {
 				31: [
 					{min: 33.5065, max: 37.033500000000004, positive: true, type: "damage"},
@@ -10393,7 +10393,7 @@ var gear = {
 		},
 		{
 			name: "Balanced Long Sword",
-			img: "Gear/Sword1H_U101.png",
+			img: "Gear/Generic/Swords/Sword_U10_ua.png",
 			effects: {
 				29: [
 					{min: 22.99950000000002, max: 25.420500000000025, positive: true, type: "damage"},
@@ -10414,7 +10414,7 @@ var gear = {
 		},
 		{
 			name: "Sekhmet's Sacred Scimitar",
-			img: "Gear/Sword1H_E003_SR.png",
+			img: "Gear/Generic/Swords/Sword_E63_ua.png",
 			effects: {
 				27: [
 					{min: 32.964999999999996, max: 36.434999999999995, positive: true, type: "damage"},
@@ -10445,7 +10445,7 @@ var gear = {
 		},
 		{
 			name: "Spartan Champion's Blade",
-			img: "Gear/Sword1H_E010.png",
+			img: "Gear/Generic/Swords/Sword_E63_ua.png",
 			effects: {
 				31: [
 					{min: 38.71250000000002, max: 42.78750000000002, positive: true, type: "damage"},
@@ -10455,7 +10455,7 @@ var gear = {
 		},
 		{
 			name: "Corinthian Slicing Xiphos",
-			img: "Gear/Sword1H_R011.png",
+			img: "Gear/Generic/Swords/Sword_R33_ua.png",
 			effects: {
 				31: [
 					{min: 32.679999999999986, max: 36.11999999999998, positive: true, type: "damage"},
@@ -10465,7 +10465,7 @@ var gear = {
 		},
 		{
 			name: "Fancy Silver-Hilted Sword",
-			img: "Gear/Sword1H_R010.png",
+			img: "Gear/Generic/Swords/Sword_R32_ua.png",
 			effects: {
 				27: [
 					{min: 21.2705, max: 23.509500000000003, positive: true, type: "damage"},
@@ -10491,7 +10491,7 @@ var gear = {
 		},
 		{
 			name: "Bronze Sword",
-			img: "Gear/Sword1H_U002.png",
+			img: "Gear/Generic/Swords/Sword_U13_ua.png",
 			effects: {
 				17: [
 					{min: 15.8935, max: 17.5665, positive: true, type: "damage"},
@@ -10542,7 +10542,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Cutting Sword",
-			img: "Gear/Sword1H_U011.png",
+			img: "Gear/Generic/Swords/Sword_U10_ua.png",
 			effects: {
 				31: [
 					{min: 26.542999999999985, max: 29.33699999999999, positive: true, type: "damage"},
@@ -10552,7 +10552,7 @@ var gear = {
 		},
 		{
 			name: "Onyx-Inlaid Blade",
-			img: "Gear/Sword1H_R009.png",
+			img: "Gear/Generic/Swords/Sword_R32_ua.png",
 			effects: {
 				28: [
 					{min: 32.699000000000005, max: 36.14100000000001, positive: true, type: "damage"},
@@ -10561,7 +10561,7 @@ var gear = {
 		},
 		{
 			name: "Delphic Silver Makhaira",
-			img: "Gear/Sword1H_R008.png",
+			img: "Gear/Generic/Swords/Sword_R35_ua.png",
 			effects: {
 				23: [
 					{min: -6.331500000000003, max: -5.728500000000001, positive: true, type: "cost"},
@@ -10587,7 +10587,7 @@ var gear = {
 		},
 		{
 			name: "Sacrificial Sword",
-			img: "Gear/Sword1H_E002.png",
+			img: "Gear/Generic/Swords/Sword_E61_ua.png",
 			effects: {
 				22: [
 					{min: 28.215000000000014, max: 31.18500000000002, positive: true, type: "damage"},
@@ -10618,7 +10618,7 @@ var gear = {
 		},
 		{
 			name: "Grand Hooked Blade",
-			img: "Gear/Sword1H_U010_SR.png",
+			img: "Gear/Generic/Swords/Sword_U12_ua.png",
 			effects: {
 				26: [
 					{min: 23.398499999999995, max: 25.861499999999996, positive: true, type: "damage"},
@@ -10628,7 +10628,7 @@ var gear = {
 		},
 		{
 			name: "Majestic Curved Blade",
-			img: "Gear/Sword1H_U014.png",
+			img: "Gear/Generic/Swords/Sword_U13_ua.png",
 			effects: {
 				26: [
 					{min: 18.344500000000004, max: 20.275500000000008, positive: true, type: "damage"},
@@ -10638,7 +10638,7 @@ var gear = {
 		},
 		{
 			name: "Argos Sentry Blade",
-			img: "Gear/Sword1H_E001.png",
+			img: "Gear/Generic/Swords/Sword_E60_ua.png",
 			effects: {
 				25: [
 					{min: 28.8895, max: 31.930500000000006, positive: true, type: "damage"},
@@ -10648,7 +10648,7 @@ var gear = {
 		},
 		{
 			name: "Embossed Iron Sickle Sword",
-			img: "Gear/Sword1H_R007.png",
+			img: "Gear/Generic/Swords/Sword_R32_ua.png",
 			effects: {
 				20: [
 					{min: 22.4105, max: 24.7695, positive: true, type: "damage"},
@@ -10674,7 +10674,7 @@ var gear = {
 		},
 		{
 			name: "Lion-Hilted Sword",
-			img: "Gear/Sword1H_R006.png",
+			img: "Gear/Generic/Swords/Sword_R33_ua.png",
 			effects: {
 				17: [
 					{min: 20.766999999999992, max: 22.952999999999992, positive: true, type: "damage"},
@@ -10700,7 +10700,7 @@ var gear = {
 		},
 		{
 			name: "Superior Cutting Sword",
-			img: "Gear/Sword1H_U007.png",
+			img: "Gear/Generic/Swords/Sword_U11_ua.png",
 			effects: {
 				21: [
 					{min: 19.930999999999997, max: 22.028999999999996, positive: true, type: "damage"},
@@ -10710,7 +10710,7 @@ var gear = {
 		},
 		{
 			name: "Hero's Sword",
-			img: "Gear/Sword1H_U201.png",
+			img: "Gear/Generic/Swords/Sword_U12_ua.png",
 			effects: {
 				20: [
 					{min: 17.746000000000006, max: 19.614000000000008, positive: true, type: "damage"},
@@ -10719,7 +10719,7 @@ var gear = {
 		},
 		{
 			name: "Wickedly Curved Khopesh",
-			img: "Gear/Sword1H_R005.png",
+			img: "Gear/Generic/Swords/Sword_R32_ua.png",
 			effects: {
 				14: [
 					{min: 18.30649999999999, max: 20.23349999999999, positive: true, type: "damage"},
@@ -10745,7 +10745,7 @@ var gear = {
 		},
 		{
 			name: "Hector's Decapitator",
-			img: "Gear/Sword1H_R014.png",
+			img: "Gear/Generic/Swords/Sword_R30_ua.png",
 			effects: {
 				16: [
 					{min: 16.6535, max: 18.4065, positive: true, type: "damage"},
@@ -10755,7 +10755,7 @@ var gear = {
 		},
 		{
 			name: "Thracian Thrusting Xiphos",
-			img: "Gear/Sword1H_R004.png",
+			img: "Gear/Generic/Swords/Sword_R31_ua.png",
 			effects: {
 				12: [
 					{min: 10.373999999999995, max: 11.465999999999998, positive: true, type: "damage"},
@@ -10781,7 +10781,7 @@ var gear = {
 		},
 		{
 			name: "Copper Sword",
-			img: "Gear/Sword1H_U001.png",
+			img: "Gear/Generic/Swords/Sword_U10_ua.png",
 			effects: {
 				2: [
 					{min: 6.678500000000002, max: 7.3815000000000035, positive: true, type: "damage"},
@@ -10832,7 +10832,7 @@ var gear = {
 		},
 		{
 			name: "Fine Hooked Blade",
-			img: "Gear/Sword1H_U006_SR.png",
+			img: "Gear/Generic/Swords/Sword_U13_ua.png",
 			effects: {
 				16: [
 					{min: 13.11000000000001, max: 14.490000000000013, positive: true, type: "damage"},
@@ -10842,7 +10842,7 @@ var gear = {
 		},
 		{
 			name: "Ornate Royal Blade",
-			img: "Gear/Sword1H_U009.png",
+			img: "Gear/Generic/Swords/Sword_U10_ua.png",
 			effects: {
 				16: [
 					{min: 16.644000000000002, max: 18.396000000000004, positive: true, type: "damage"},
@@ -10852,7 +10852,7 @@ var gear = {
 		},
 		{
 			name: "Hook-Billed Blade",
-			img: "Gear/Sword1H_R003.png",
+			img: "Gear/Generic/Swords/Sword_R35_ua.png",
 			effects: {
 				9: [
 					{min: 10.326500000000001, max: 11.4135, positive: true, type: "damage"},
@@ -10878,7 +10878,7 @@ var gear = {
 		},
 		{
 			name: "Obsidian-Edged Decapitator",
-			img: "Gear/Sword1H_R103.png",
+			img: "Gear/Generic/Swords/Sword_R31_ua.png",
 			effects: {
 				13: [
 					{min: 13.812999999999997, max: 15.266999999999998, positive: true, type: "damage"},
@@ -10888,7 +10888,7 @@ var gear = {
 		},
 		{
 			name: "Outrider's Baleful Blade",
-			img: "Gear/Sword1H_R102_SR.png",
+			img: "Gear/Generic/Swords/Sword_R32_ua.png",
 			effects: {
 				13: [
 					{min: 14.610999999999994, max: 16.148999999999994, positive: true, type: "damage"},
@@ -10898,7 +10898,7 @@ var gear = {
 		},
 		{
 			name: "Tempered Sword of Achilles",
-			img: "Gear/Sword1H_R017.png",
+			img: "Gear/Generic/Swords/Sword_R33_ua.png",
 			effects: {
 				12: [
 					{min: 13.86999999999999, max: 15.329999999999991, positive: true, type: "damage"},
@@ -10908,7 +10908,7 @@ var gear = {
 		},
 		{
 			name: "Parrying Swift Blade",
-			img: "Gear/Sword1H_R002.png",
+			img: "Gear/Generic/Swords/Sword_R32_ua.png",
 			effects: {
 				7: [
 					{min: 11.827500000000006, max: 13.072500000000007, positive: true, type: "health"},
@@ -10934,7 +10934,7 @@ var gear = {
 		},
 		{
 			name: "Spartan Veteran Blade",
-			img: "Gear/Sword1H_R015.png",
+			img: "Gear/Generic/Swords/Sword_R33_ua.png",
 			effects: {
 				11: [
 					{min: 16.843500000000024, max: 18.616500000000027, positive: true, type: "damage"},
@@ -10943,7 +10943,7 @@ var gear = {
 		},
 		{
 			name: "Ordinary Cutting Sword",
-			img: "Gear/Sword1H_U005.png",
+			img: "Gear/Generic/Swords/Sword_U12_ua.png",
 			effects: {
 				11: [
 					{min: 13.128999999999987, max: 14.510999999999989, positive: true, type: "damage"},
@@ -10953,7 +10953,7 @@ var gear = {
 		},
 		{
 			name: "Mycenaean Blade",
-			img: "Gear/Sword1H_R001.png",
+			img: "Gear/Generic/Swords/Sword_R32_ua.png",
 			effects: {
 				7: [
 					{min: 12.217000000000004, max: 13.503000000000005, positive: true, type: "damage"},
@@ -10975,7 +10975,7 @@ var gear = {
 		},
 		{
 			name: "Brennos' Fel-Executioner",
-			img: "Gear/Sword1H_R101.png",
+			img: "Gear/Generic/Swords/Sword_R31_ua.png",
 			effects: {
 				8: [
 					{min: 11.428500000000007, max: 12.63150000000001, positive: true, type: "damage"},
@@ -10986,7 +10986,7 @@ var gear = {
 		},
 		{
 			name: "Freelancer's Relentless Blade",
-			img: "Gear/Sword1H_R016_SR.png",
+			img: "Gear/Generic/Swords/Sword_R30_ua.png",
 			effects: {
 				4: [
 					{min: 8.008499999999982, max: 8.851499999999982, positive: true, type: "damage"},
@@ -11000,7 +11000,7 @@ var gear = {
 		},
 		{
 			name: "Freelancer's Steadfast Blade",
-			img: "Gear/Sword1H_U016.png",
+			img: "Gear/Generic/Swords/Sword_U11_ua.png",
 			effects: {
 				6: [
 					{min: 8.502499999999992, max: 9.397499999999992, positive: true, type: "damage"},
@@ -11010,7 +11010,7 @@ var gear = {
 		},
 		{
 			name: "Primitive Sharpened Blade",
-			img: "Gear/Sword1H_U008.png",
+			img: "Gear/Generic/Swords/Sword_U11_ua.png",
 			effects: {
 				6: [
 					{min: 9.699500000000008, max: 10.720500000000008, positive: true, type: "damage"},
@@ -11020,7 +11020,7 @@ var gear = {
 		},
 		{
 			name: "Weathered Sentry Blade",
-			img: "Gear/Sword1H_U004_SR.png",
+			img: "Gear/Generic/Swords/Sword_U10_ua.png",
 			effects: {
 				6: [
 					{min: 9.699500000000008, max: 10.720500000000008, positive: true, type: "damage"},

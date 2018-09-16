@@ -16,7 +16,7 @@ var effects = {
 	multiplierCavalry: {name: "Cavalry Bonus Damage", startsAtOne: true},
 	multiplierRanged: {name: "Ranged Bonus Damage", startsAtOne: true},
 	multiplierInfantry: {name: "Infantry Bonus Damage", startsAtOne: true},
-	multiplerShips: {name: "Ship Bonus Damage", startsAtOne: true},
+	multiplierShips: {name: "Ship Bonus Damage", startsAtOne: true},
 	multiplierSiege: {name: "Siege Bonus Damage", startsAtOne: true},
 	multiplierHuntable: {name: "Bonus vs. Huntable", startsAtOne: true},
 	multiplierVillager: {name: "Bonus vs. Villager", startsAtOne: true},

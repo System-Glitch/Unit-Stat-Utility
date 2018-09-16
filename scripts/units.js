@@ -593,7 +593,7 @@ var units = {
 			population: 2
 		},
 		gear: ["heavySpear", "lightArmor", 'soldiersGear'],
-		upgrades: ["stables", "armoryMelee", "armoryArmorEgyptian"]
+		upgrades: ["stablesEgypt", "armoryMelee", "armoryArmorEgyptian"]
 	},
 	ECaravan: {name: "ECaravan", img: "ECaravan64.png"},
 	ECatapult: {name: "ECatapult", img: "ECatapult64.png"},

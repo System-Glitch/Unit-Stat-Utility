@@ -1,5 +1,5 @@
 var upgrades = {
-	agogeDiscipline:  {
+	agogeDiscipline: {
 		isChain: false,
 		name: "Agoge Discipline",
 		img: "img/Upgrades/AgogeDiscipline.png",
@@ -11,7 +11,7 @@ var upgrades = {
 			gold: 100
 		}
 	},
-	murderHoles:  {
+	murderHoles: {
 		isChain: false,
 		name: "Murder Holes",
 		img: "img/Upgrades/MurderHoles.png",
@@ -23,7 +23,7 @@ var upgrades = {
 			gold: 50
 		}
 	},
-	ashlarMasonry:  {
+	ashlarMasonry: {
 		isChain: false,
 		name: "Ashlar Masonry",
 		img: "img/Upgrades/AshlarMasonry.png",
@@ -35,7 +35,7 @@ var upgrades = {
 			stone: 100
 		}
 	},
-	greekFire:  {
+	greekFire: {
 		isChain: false,
 		name: "Greek Fire",
 		img: "img/Upgrades/GreekFire.png",
@@ -86,6 +86,54 @@ var upgrades = {
 			isChain: false,
 			name: "Horseshoes",
 			img: "img/Upgrades/Horseshoes.png",
+			effects: [
+				{amount: 10.0, positive: true, type: "health"},
+				{amount: 10.0, positive: true, type: "damage"},
+				{amount: 5.0, positive: true, type: "speed"},
+			],
+			cost: {
+				food: 900,
+				gold: 600
+			}
+		},
+	},
+	stablesEgypt: {
+		isChain: true,
+		noneStablesEgypt: {
+			isChain: false,
+			name: "None",
+			img: "img/Slot/GearSlotGeneric_ua.png",
+			effects: [],
+			cost: {}
+		},
+		mountedTraining: {
+			isChain: false,
+			name: "Mounted Training",
+			img: "img/Upgrades/MountedTraining.png",
+			effects: [
+				{amount: 10.0, positive: true, type: "speed"}
+			],
+			cost: {
+				food: 150,
+				gold: 100
+			}
+		},
+		purebredEgypt: {
+			isChain: false,
+			name: "Purebred",
+			img: "img/Upgrades/Purebred.png",
+			effects: [
+				{amount: 10.0, positive: true, type: "speed"}
+			],
+			cost: {
+				food: 300,
+				gold: 200
+			}
+		},
+		desertConditioning: {
+			isChain: false,
+			name: "Desert Conditioning",
+			img: "img/Upgrades/DesertConditioning.png",
 			effects: [
 				{amount: 10.0, positive: true, type: "health"},
 				{amount: 10.0, positive: true, type: "damage"},
@@ -391,6 +439,7 @@ function createUpgradeTooptip(upgrade) {
 
 	for(let key in upgrade.effects) {
 		let effect = upgrade.effects[key];
+
 		let html = components.upgradeEffect(effects[effect.type].name, effect.amount);
 		let element = createEffectElement(html, effect.positive);
 		tooltip.appendChild(element);

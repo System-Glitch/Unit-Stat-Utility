@@ -180,14 +180,14 @@ function updateUpgrades(unit) {
 				if(key == "isChain") continue;
 				let element = upgradeElements[key];
 				element.style.display = "inline-block";
-				if(element.nextSibling != undefined && !element.nextSibling.classList.contains('upgrade-row'))
+				if(element.nextSibling != undefined && element.nextSibling.classList.contains('upgrade-arrow'))
 					element.nextSibling.style.display = "inline-block"; //Arrow
 				element.getElementsByClassName('upgrade-active')[0].value = "0";
 			}
 		} else {
 			let element = upgradeElements[upgrade];
 			element.style.display = "inline-block";
-			if(element.nextSibling != undefined && !element.nextSibling.classList.contains('upgrade-row'))
+			if(element.nextSibling != undefined && element.nextSibling.classList.contains('upgrade-arrow'))
 				element.nextSibling.style.display = "inline-block"; //Arrow
 			element.getElementsByClassName('upgrade-active')[0].value = "0";
 		}

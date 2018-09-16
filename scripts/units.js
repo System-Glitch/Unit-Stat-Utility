@@ -573,7 +573,7 @@ var units = {
 			damage: 8,
 			speed: 6,
 		},
-		gear: ["greatAxe", "mediumArmor", 'soldierGear']
+		gear: ["greatAxe", "mediumArmor", 'soldiersGear']
 	},
 	ECamelRiders: {
 		name: "ECamelRiders",
@@ -590,7 +590,8 @@ var units = {
 			multiplierCavalry: 2.5,
 			population: 2
 		},
-		gear: ["heavySpear", "lightArmor", 'soldierGear']
+		gear: ["heavySpear", "lightArmor", 'soldiersGear'],
+		upgrades: ["stables", "armoryMelee", "armoryArmorEgyptian"]
 	},
 	ECaravan: {name: "ECaravan", img: "ECaravan64.png"},
 	ECatapult: {name: "ECatapult", img: "ECatapult64.png"},

@@ -122,7 +122,8 @@ var upgrades = {
 			name: "Scale Mail",
 			img: "img/Upgrades/ScaleMail.png",
 			effects: [
-				{amount: 20.0, positive: true, type: "armor"}
+				{amount: 20.0, positive: true, type: "armorInfantry"},
+				{amount: 20.0, positive: true, type: "armorCavalry"}
 			],
 			cost: {
 				wood: 150,
@@ -135,7 +136,8 @@ var upgrades = {
 			name: "Chain Mail",
 			img: "img/Upgrades/ChainMail.png",
 			effects: [
-				{amount: 20.0, positive: true, type: "armor"}
+				{amount: 20.0, positive: true, type: "armorInfantry"},
+				{amount: 20.0, positive: true, type: "armorCavalry"}
 			],
 			cost: {
 				wood: 300,
@@ -148,7 +150,63 @@ var upgrades = {
 			name: "Laminar Armor",
 			img: "img/Upgrades/LaminarArmor.png",
 			effects: [
-				{amount: 20.0, positive: true, type: "armor"}
+				{amount: 20.0, positive: true, type: "armorInfantry"},
+				{amount: 20.0, positive: true, type: "armorCavalry"}
+			],
+			cost: {
+				wood: 600,
+				gold: 600,
+				stone: 300
+			}
+		}
+	},
+	armoryArmorEgyptian: {
+		isChain: true,
+		noneArmoryArmorEgyptian: {
+			isChain: false,
+			name: "None",
+			img: "img/Slot/GearSlotGeneric_ua.png",
+			effects: [],
+			cost: {}
+		},
+		scaleMailAndHide: {
+			isChain: false,
+			name: "Scale Mail and Hide Armor",
+			img: "img/Upgrades/ScaleMailandHideArmor.png",
+			effects: [
+				{amount: 20.0, positive: true, type: "armorInfantry"},
+				{amount: 20.0, positive: true, type: "armorCavalry"},
+				{amount: 20.0, positive: true, type: "armorPierce"}
+			],
+			cost: {
+				wood: 150,
+				gold: 150,
+				stone: 75
+			}
+		},
+		chainMailAndBoiledLeather: {
+			isChain: false,
+			name: "Chain Mail and Boiled-Leather Armor",
+			img: "img/Upgrades/ChainMailandBoiled-LeatherArmor.png",
+			effects: [
+				{amount: 20.0, positive: true, type: "armorInfantry"},
+				{amount: 20.0, positive: true, type: "armorCavalry"},
+				{amount: 20.0, positive: true, type: "armorPierce"}
+			],
+			cost: {
+				wood: 300,
+				gold: 300,
+				stone: 150
+			}
+		},
+		lamellarAndLacqueredLeather: {
+			isChain: false,
+			name: "Lamellar and Lacquered-Leather Armor",
+			img: "img/Upgrades/LamellarandLacquered-LeatherArmor.png",
+			effects: [
+				{amount: 20.0, positive: true, type: "armorInfantry"},
+				{amount: 20.0, positive: true, type: "armorCavalry"},
+				{amount: 20.0, positive: true, type: "armorPierce"}
 			],
 			cost: {
 				wood: 600,

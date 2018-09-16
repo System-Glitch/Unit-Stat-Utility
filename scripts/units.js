@@ -7,7 +7,7 @@ var units = {
 			health: 2250,
 			armorPierce: 0.80,
 			vision: 20,
-			timeBuild: 30
+			timeBuilding: 30
 		},
 		gear: ["reinforcedConstruction", "constructionAddition"]
 	},
@@ -19,7 +19,7 @@ var units = {
 			health: 2250,
 			armorPierce: 0.80,
 			vision: 20,
-			timeBuild: 50
+			timeBuilding: 50
 		}
 	},
 	Ballista: {
@@ -59,7 +59,7 @@ var units = {
 			health: 2250,
 			armorPierce: 0.80,
 			vision: 20,
-			timeBuild: 50
+			timeBuilding: 50
 		}
 	},
 	BBireme: {
@@ -471,7 +471,7 @@ var units = {
 			health: 2250,
 			armorPierce: 0.80,
 			vision: 20,
-			timeBuild: 50
+			timeBuilding: 50
 		}
 	},
 	CBowman: {
@@ -644,7 +644,7 @@ var units = {
 			health: 500,
 			armorPierce: 0.80,
 			vision: 20,
-			timeBuild: 30
+			timeBuilding: 30
 		}
 	},
 	gastraphetes: {name: "gastraphetes", img: "gastraphetes64.png"},

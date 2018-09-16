@@ -1,6 +1,7 @@
 var selects = [];
 var selectsElements = [];
 var gearSelectors = [];
+var unitSelectors = [];
 var gearSelectorIcon = document.getElementById('gear-selector-unit-icon');
 let championUpgrade = null;
 let championUpgradeElement = document.getElementById("champion-upgrade");
@@ -130,9 +131,12 @@ Select.prototype.select = function(option) {
 	}
 }
 
-function updateGearSelects() {
-	for(let key in gearSelectors)
-		gearSelectors[key].updateOptions();
+function updateSelects() {
+	for(let key in gearSelectors) {
+		let select = gearSelectors[key];
+		select.select(select.optionsElements[0]); 
+		select.updateOptions();
+	}
 }
 
 function updateChampionUpgrade(unit) {
@@ -242,8 +246,11 @@ function registerSelects() {
 	}
 
 	let unitSelects = document.getElementsByClassName("unit-select");
-	for(let i = 0 ; i < unitSelects.length ; i++)
-		selects.push(new Select(unitSelects[i], 'img/Unit/', 'unit'));
+	for(let i = 0 ; i < unitSelects.length ; i++) {
+		let obj = new Select(unitSelects[i], 'img/Unit/', 'unit');
+		selects.push(obj);
+		unitSelectors.push(obj);
+	}
 }
 
 function hideAllDropdowns() {

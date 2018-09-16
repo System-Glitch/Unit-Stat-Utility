@@ -104,7 +104,6 @@ function loadGear() {
 		let category = gear[key];
 
 		let select = createGearSelector(key);
-		select.category = key;
 		
 		setTimeout(function() {
 			for(let categoryKey in category) {
@@ -114,7 +113,7 @@ function loadGear() {
 		}, i++);
 	}
 
-	setTimeout(function() { updateGearSelects() }, i+1000);
+	setTimeout(function() { updateSelects(); }, i+1000);
 }
 
 loadUnits();

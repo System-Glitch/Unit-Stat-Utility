@@ -20514,6 +20514,939 @@ var gear = {
 			}
 		},
 	],
+	reinforcedConstruction: [
+		{name: "None", img: 'Slot/WallsSlot_ua.png'},
+		{
+			name: "Council Overseer's Walls",
+			img: "Gear/ArmorBldg_LC01.png",
+			effects: {
+				40: [
+					{min: 75.8, max: 83.8, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Walls of Kaveh",
+			img: "Gear/ArmorBldg_L001.png",
+			effects: {
+				40: [
+					{min: 6.5, max: 7.2, positive: true, type: "armorInfantry"},
+					{min: 65.5, max: 72.4, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Walls of Khufu",
+			img: "Gear/ArmorBldg_L002.png",
+			effects: {
+				40: [
+					{min: 13.5, max: 14.9, positive: true, type: "armorPierce"},
+					{min: 65.5, max: 72.4, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Walls of Olympus",
+			img: "Gear/ArmorBldg_L003.png",
+			effects: {
+				40: [
+					{min: 10.7, max: 11.9, positive: true, type: "protection"},
+					{min: 65.5, max: 72.4, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Walls of the Architect",
+			img: "Gear/ArmorBuilding_WOTA.png",
+			effects: {
+				40: [
+					{min: -5.7, max: -6.3, positive: true, type: "cost"},
+					{min: -5.7, max: -6.3, positive: true, type: "timeBuilding"},
+					{min: 0, max: 0, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Walls of the Master Defender",
+			img: "Gear/ArmorBuilding_WOTMD.png",
+			effects: {
+				40: [
+					{min: 13.8, max: 15.3, positive: true, type: "armorCrush"},
+					{min: 11.1, max: 12.3, positive: true, type: "protection"},
+					{min: 47.9, max: 52.9, positive: true, type: "vision"},
+				],
+			}
+		},
+		{
+			name: "Geb's Blessed Wall",
+			img: "Gear/ArmorBldg_E004.png",
+			effects: {
+				40: [
+					{min: 4.2, max: 4.6, positive: true, type: "armorInfantry"},
+					{min: 52.9, max: 58.5, positive: true, type: "health"},
+					{min: 13.5, max: 14.9, positive: true, type: "protection"},
+				],
+			}
+		},
+		{
+			name: "The Indomitable Shield Wall",
+			img: "Gear/ArmorBldg_E006.png",
+			effects: {
+				40: [
+					{min: 71.8, max: 79.4, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Wall of the Titans",
+			img: "Gear/ArmorBldg_E005.png",
+			effects: {
+				37: [
+					{min: 9.6, max: 10.6, positive: true, type: "damage"},
+					{min: 49, max: 54.1, positive: true, type: "health"},
+				],
+				38: [
+					{min: 9.8, max: 10.9, positive: true, type: "damage"},
+					{min: 50.3, max: 55.6, positive: true, type: "health"},
+				],
+				39: [
+					{min: 10.1, max: 11.2, positive: true, type: "damage"},
+					{min: 51.6, max: 57.1, positive: true, type: "health"},
+				],
+				40: [
+					{min: 10.4, max: 11.5, positive: true, type: "damage"},
+					{min: 52.9, max: 58.5, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Walls of the Mountain",
+			img: "Gear/ArmorBldg_EA03.png",
+			effects: {
+				40: [
+					{min: 52.9, max: 58.5, positive: true, type: "health"},
+					{min: 10.4, max: 11.5, positive: true, type: "protection"},
+					{min: 12.7, max: 14, positive: true, type: "armorCrush"},
+				],
+			}
+		},
+		{
+			name: "Delian Adept's Wall Braces",
+			img: "Gear/ArmorBldg_RC02.png",
+			effects: {
+				40: [
+					{min: 55.9, max: 61.7, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Legion Recruit's Fortifications",
+			img: "Gear/ArmorBldg_RC01.png",
+			effects: {
+				40: [
+					{min: 35.4, max: 39.1, positive: true, type: "health"},
+					{min: 13.1, max: 14.5, positive: true, type: "damage"},
+				],
+			}
+		},
+		{
+			name: "Obsidian Walls",
+			img: "Gear/ArmorBldg_RA02.png",
+			effects: {
+				36: [
+					{min: 50.3, max: 55.6, positive: true, type: "health"},
+				],
+				37: [
+					{min: 51.7, max: 57.1, positive: true, type: "health"},
+				],
+				38: [
+					{min: 53.1, max: 58.7, positive: true, type: "health"},
+				],
+				39: [
+					{min: 54.5, max: 60.2, positive: true, type: "health"},
+				],
+				40: [
+					{min: 55.9, max: 61.7, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Cedar Reinforced Walls",
+			img: "Gear/ArmorBldg_U003.png",
+			effects: {
+				27: [
+					{min: 24.2, max: 26.8, positive: true, type: "health"},
+				],
+				32: [
+					{min: 28.7, max: 31.8, positive: true, type: "health"},
+				],
+				33: [
+					{min: 29.6, max: 32.7, positive: true, type: "health"},
+				],
+				34: [
+					{min: 30.5, max: 33.7, positive: true, type: "health"},
+				],
+				35: [
+					{min: 31.4, max: 34.7, positive: true, type: "health"},
+				],
+				36: [
+					{min: 32.3, max: 35.7, positive: true, type: "health"},
+				],
+				37: [
+					{min: 33.2, max: 36.7, positive: true, type: "health"},
+				],
+				38: [
+					{min: 34.1, max: 37.7, positive: true, type: "health"},
+				],
+				39: [
+					{min: 35, max: 38.7, positive: true, type: "health"},
+				],
+				40: [
+					{min: 35.9, max: 39.7, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Peerless Bastion Reinforcements",
+			img: "Gear/ArmorBldg_U011.png",
+			effects: {
+				40: [
+					{min: 38.5, max: 42.6, positive: true, type: "health"},
+					{min: 4.2, max: 4.6, positive: true, type: "vision"},
+				],
+			}
+		},
+		{
+			name: "Walls of Vasiliki",
+			img: "Gear/ArmorBldg_EA02.png",
+			effects: {
+				35: [
+					{min: 11.4, max: 12.6, positive: true, type: "armorPierce"},
+					{min: 11.4, max: 12.6, positive: true, type: "armorInfantry"},
+					{min: 46.7, max: 51.6, positive: true, type: "health"},
+				],
+				36: [
+					{min: 11.8, max: 13, positive: true, type: "armorPierce"},
+					{min: 11.8, max: 13, positive: true, type: "armorInfantry"},
+					{min: 48, max: 53.1, positive: true, type: "health"},
+				],
+				37: [
+					{min: 12.1, max: 13.4, positive: true, type: "armorPierce"},
+					{min: 12.1, max: 13.4, positive: true, type: "armorInfantry"},
+					{min: 49.3, max: 54.5, positive: true, type: "health"},
+				],
+				38: [
+					{min: 12.4, max: 13.7, positive: true, type: "armorPierce"},
+					{min: 12.4, max: 13.7, positive: true, type: "armorInfantry"},
+					{min: 50.7, max: 56, positive: true, type: "health"},
+				],
+				39: [
+					{min: 12.8, max: 14.1, positive: true, type: "armorPierce"},
+					{min: 12.8, max: 14.1, positive: true, type: "armorInfantry"},
+					{min: 52, max: 57.5, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Contrebis' Wall Braces",
+			img: "Gear/ArmorBldg_E101.png",
+			effects: {
+				37: [
+					{min: 119.5, max: 132.1, positive: true, type: "armorCrush"},
+					{min: 31.9, max: 35.2, positive: true, type: "armorPierce"},
+				],
+			}
+		},
+		{
+			name: "Stone Reinforced Walls",
+			img: "Gear/ArmorBldg_R007.png",
+			effects: {
+				31: [
+					{min: 4.1, max: 4.6, positive: true, type: "vision"},
+					{min: 37.8, max: 41.8, positive: true, type: "health"},
+				],
+				32: [
+					{min: 4.3, max: 4.7, positive: true, type: "vision"},
+					{min: 39.1, max: 43.2, positive: true, type: "health"},
+				],
+				33: [
+					{min: 4.4, max: 4.9, positive: true, type: "vision"},
+					{min: 40.3, max: 44.5, positive: true, type: "health"},
+				],
+				34: [
+					{min: 4.5, max: 5, positive: true, type: "vision"},
+					{min: 41.5, max: 45.9, positive: true, type: "health"},
+				],
+				35: [
+					{min: 4.7, max: 5.2, positive: true, type: "vision"},
+					{min: 42.7, max: 47.2, positive: true, type: "health"},
+				],
+				36: [
+					{min: 4.8, max: 5.3, positive: true, type: "vision"},
+					{min: 44, max: 48.6, positive: true, type: "health"},
+				],
+				37: [
+					{min: 5, max: 5.5, positive: true, type: "vision"},
+					{min: 45.2, max: 49.9, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Bandit-Proof Walls",
+			img: "Gear/ArmorBldg_E003.png",
+			effects: {
+				31: [
+					{min: 41.3, max: 45.7, positive: true, type: "health"},
+					{min: 21.1, max: 23.3, positive: true, type: "armorCrush"},
+				],
+				32: [
+					{min: 42.7, max: 47.2, positive: true, type: "health"},
+					{min: 21.8, max: 24.1, positive: true, type: "armorCrush"},
+				],
+				33: [
+					{min: 44, max: 48.6, positive: true, type: "health"},
+					{min: 22.5, max: 24.8, positive: true, type: "armorCrush"},
+				],
+				34: [
+					{min: 45.3, max: 50.1, positive: true, type: "health"},
+					{min: 23.2, max: 25.6, positive: true, type: "armorCrush"},
+				],
+				35: [
+					{min: 46.7, max: 51.6, positive: true, type: "health"},
+					{min: 23.8, max: 26.4, positive: true, type: "armorCrush"},
+				],
+			}
+		},
+		{
+			name: "Exceptional Guard Walls",
+			img: "Gear/ArmorBldg_U010.png",
+			effects: {
+				35: [
+					{min: 7.7, max: 8.6, positive: true, type: "armorPierce"},
+					{min: 15, max: 16.5, positive: true, type: "damage"},
+				],
+			}
+		},
+		{
+			name: "Iron-Sheathed Walls",
+			img: "Gear/ArmorBldg_R006.png",
+			effects: {
+				34: [
+					{min: 7.5, max: 8.3, positive: true, type: "protection"},
+					{min: 41.5, max: 45.9, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Cedar Wall Braces",
+			img: "Gear/ArmorBldg_U102.png",
+			effects: {
+				28: [
+					{min: 2.7, max: 3, positive: true, type: "armorInfantry"},
+					{min: 22.2, max: 24.6, positive: true, type: "health"},
+				],
+				29: [
+					{min: 2.8, max: 3.1, positive: true, type: "armorInfantry"},
+					{min: 23, max: 25.5, positive: true, type: "health"},
+				],
+				30: [
+					{min: 2.9, max: 3.2, positive: true, type: "armorInfantry"},
+					{min: 23.8, max: 26.3, positive: true, type: "health"},
+				],
+				31: [
+					{min: 3, max: 3.3, positive: true, type: "armorInfantry"},
+					{min: 24.6, max: 27.2, positive: true, type: "health"},
+				],
+				32: [
+					{min: 3.1, max: 3.4, positive: true, type: "armorInfantry"},
+					{min: 25.4, max: 28.1, positive: true, type: "health"},
+				],
+				33: [
+					{min: 3.2, max: 3.5, positive: true, type: "armorInfantry"},
+					{min: 26.2, max: 29, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Oak Reinforced Walls",
+			img: "Gear/ArmorBldg_U002.png",
+			effects: {
+				17: [
+					{min: 15.3, max: 16.9, positive: true, type: "health"},
+				],
+				18: [
+					{min: 16.2, max: 17.9, positive: true, type: "health"},
+				],
+				19: [
+					{min: 17.1, max: 18.9, positive: true, type: "health"},
+				],
+				20: [
+					{min: 18, max: 19.8, positive: true, type: "health"},
+				],
+				21: [
+					{min: 18.9, max: 20.8, positive: true, type: "health"},
+				],
+				22: [
+					{min: 19.8, max: 21.8, positive: true, type: "health"},
+				],
+				23: [
+					{min: 20.6, max: 22.8, positive: true, type: "health"},
+				],
+				24: [
+					{min: 21.5, max: 23.8, positive: true, type: "health"},
+				],
+				25: [
+					{min: 22.4, max: 24.8, positive: true, type: "health"},
+				],
+				26: [
+					{min: 23.3, max: 25.8, positive: true, type: "health"},
+				],
+				27: [
+					{min: 24.2, max: 26.8, positive: true, type: "health"},
+				],
+				28: [
+					{min: 25.1, max: 27.8, positive: true, type: "health"},
+				],
+				29: [
+					{min: 26, max: 28.8, positive: true, type: "health"},
+				],
+				30: [
+					{min: 26.9, max: 29.8, positive: true, type: "health"},
+				],
+				31: [
+					{min: 27.8, max: 30.8, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Walls of Earthen Strength",
+			img: "Gear/ArmorBldg_E002.png",
+			effects: {
+				26: [
+					{min: 34.9, max: 38.6, positive: true, type: "health"},
+					{min: -3, max: -3.3, positive: true, type: "timeBuilding"},
+				],
+				27: [
+					{min: 36.3, max: 40.1, positive: true, type: "health"},
+					{min: -3.1, max: -3.4, positive: true, type: "timeBuilding"},
+				],
+				28: [
+					{min: 37.6, max: 41.6, positive: true, type: "health"},
+					{min: -3.2, max: -3.5, positive: true, type: "timeBuilding"},
+				],
+				29: [
+					{min: 39, max: 43.1, positive: true, type: "health"},
+					{min: -3.3, max: -3.6, positive: true, type: "timeBuilding"},
+				],
+				30: [
+					{min: 40.3, max: 44.5, positive: true, type: "health"},
+					{min: -3.4, max: -3.8, positive: true, type: "timeBuilding"},
+				],
+			}
+		},
+		{
+			name: "Crete Engineer Walls",
+			img: "Gear/ArmorBldg_RA01.png",
+			effects: {
+				30: [
+					{min: 8.1, max: 8.9, positive: true, type: "armorPierce"},
+					{min: 36.6, max: 40.5, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Superb Stronghold Reinforcements",
+			img: "Gear/ArmorBldg_U009.png",
+			effects: {
+				30: [
+					{min: 3.4, max: 3.8, positive: true, type: "armorCavalry"},
+					{min: 28.9, max: 31.9, positive: true, type: "health"},
+					{min: 3.4, max: 3.8, positive: true, type: "armorInfantry"},
+				],
+			}
+		},
+		{
+			name: "Naqada Braced Walls",
+			img: "Gear/ArmorBldg_R005.png",
+			effects: {
+				23: [
+					{min: 24.3, max: 26.9, positive: true, type: "health"},
+					{min: 13.2, max: 14.6, positive: true, type: "armorCrush"},
+				],
+				24: [
+					{min: 25.4, max: 28, positive: true, type: "health"},
+					{min: 13.8, max: 15.2, positive: true, type: "armorCrush"},
+				],
+				25: [
+					{min: 26.4, max: 29.2, positive: true, type: "health"},
+					{min: 14.4, max: 15.9, positive: true, type: "armorCrush"},
+				],
+				26: [
+					{min: 27.5, max: 30.4, positive: true, type: "health"},
+					{min: 14.9, max: 16.5, positive: true, type: "armorCrush"},
+				],
+				27: [
+					{min: 28.5, max: 31.5, positive: true, type: "health"},
+					{min: 15.5, max: 17.1, positive: true, type: "armorCrush"},
+				],
+			}
+		},
+		{
+			name: "Kalami Reinforced Walls",
+			img: "Gear/ArmorBldg_UA06.png",
+			effects: {
+				21: [
+					{min: 18.9, max: 20.8, positive: true, type: "health"},
+				],
+				22: [
+					{min: 19.8, max: 21.8, positive: true, type: "health"},
+				],
+				23: [
+					{min: 20.6, max: 22.8, positive: true, type: "health"},
+				],
+				24: [
+					{min: 21.5, max: 23.8, positive: true, type: "health"},
+				],
+				25: [
+					{min: 22.4, max: 24.8, positive: true, type: "health"},
+				],
+				26: [
+					{min: 23.3, max: 25.8, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Strengthened Walls",
+			img: "Gear/ArmorBldg_EA01.png",
+			effects: {
+				25: [
+					{min: 33.8, max: 37.4, positive: true, type: "health"},
+					{min: 4.3, max: 4.8, positive: true, type: "armorInfantry"},
+					{min: 7, max: 7.7, positive: true, type: "protection"},
+				],
+			}
+		},
+		{
+			name: "Remarkable Engineered Walls",
+			img: "Gear/ArmorBldg_U008.png",
+			effects: {
+				25: [
+					{min: 24.1, max: 26.6, positive: true, type: "health"},
+					{min: 2.1, max: 2.4, positive: true, type: "damage"},
+				],
+			}
+		},
+		{
+			name: "Hand-Carved Wall Braces",
+			img: "Gear/ArmorBldg_E001.png",
+			effects: {
+				19: [
+					{min: 6.6, max: 7.3, positive: true, type: "armorCrush"},
+					{min: 5.3, max: 5.8, positive: true, type: "protection"},
+					{min: 32.6, max: 36, positive: true, type: "vision"},
+				],
+				20: [
+					{min: 6.9, max: 7.7, positive: true, type: "armorCrush"},
+					{min: 5.6, max: 6.1, positive: true, type: "protection"},
+					{min: 34.3, max: 37.9, positive: true, type: "vision"},
+				],
+				21: [
+					{min: 7.3, max: 8, positive: true, type: "armorCrush"},
+					{min: 5.8, max: 6.5, positive: true, type: "protection"},
+					{min: 36, max: 39.8, positive: true, type: "vision"},
+				],
+				22: [
+					{min: 7.6, max: 8.4, positive: true, type: "armorCrush"},
+					{min: 6.1, max: 6.8, positive: true, type: "protection"},
+					{min: 37.7, max: 41.7, positive: true, type: "vision"},
+				],
+				23: [
+					{min: 8, max: 8.8, positive: true, type: "armorCrush"},
+					{min: 6.4, max: 7.1, positive: true, type: "protection"},
+					{min: 39.5, max: 43.6, positive: true, type: "vision"},
+				],
+			}
+		},
+		{
+			name: "Mycenaean Reinforced Walls",
+			img: "Gear/ArmorBldg_R004.png",
+			effects: {
+				22: [
+					{min: 6.1, max: 6.8, positive: true, type: "armorPierce"},
+					{min: 27.1, max: 29.9, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Heavy Walls",
+			img: "Gear/ArmorBldg_ED01.png",
+			effects: {
+				21: [
+					{min: 37.7, max: 41.7, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Bronze-Sheathed Walls",
+			img: "Gear/ArmorBldg_R003.png",
+			effects: {
+				15: [
+					{min: 3.5, max: 3.8, positive: true, type: "protection"},
+					{min: 16, max: 17.7, positive: true, type: "health"},
+					{min: -0.4, max: -0.5, positive: true, type: "cost"},
+				],
+				16: [
+					{min: 3.7, max: 4.1, positive: true, type: "protection"},
+					{min: 17.1, max: 18.9, positive: true, type: "health"},
+					{min: -0.5, max: -0.5, positive: true, type: "cost"},
+				],
+				17: [
+					{min: 3.9, max: 4.3, positive: true, type: "protection"},
+					{min: 18.1, max: 20, positive: true, type: "health"},
+					{min: -0.5, max: -0.5, positive: true, type: "cost"},
+				],
+				18: [
+					{min: 4.1, max: 4.6, positive: true, type: "protection"},
+					{min: 19.2, max: 21.2, positive: true, type: "health"},
+					{min: -0.5, max: -0.6, positive: true, type: "cost"},
+				],
+				19: [
+					{min: 4.4, max: 4.8, positive: true, type: "protection"},
+					{min: 20.3, max: 22.4, positive: true, type: "health"},
+					{min: -0.5, max: -0.6, positive: true, type: "cost"},
+				],
+				20: [
+					{min: 4.6, max: 5.1, positive: true, type: "protection"},
+					{min: 21.3, max: 23.6, positive: true, type: "health"},
+					{min: -0.6, max: -0.6, positive: true, type: "cost"},
+				],
+			}
+		},
+		{
+			name: "Hero's Reinforced Walls",
+			img: "Gear/ArmorBldg_U201.png",
+			effects: {
+				20: [
+					{min: 18, max: 19.8, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Strong Walls",
+			img: "Gear/ArmorBldg_UD01.png",
+			effects: {
+				20: [
+					{min: 1.9, max: 2.1, positive: true, type: "armorInfantry"},
+					{min: 18, max: 19.8, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Superior Keep Reinforcements",
+			img: "Gear/ArmorBldg_U007.png",
+			effects: {
+				20: [
+					{min: 19.3, max: 21.3, positive: true, type: "health"},
+					{min: 1.9, max: 2.1, positive: true, type: "damage"},
+				],
+			}
+		},
+		{
+			name: "Reinforced Walls",
+			img: "Gear/ArmorBldg_UA03.png",
+			effects: {
+				16: [
+					{min: 1.5, max: 1.7, positive: true, type: "armorInfantry"},
+					{min: 12.7, max: 14, positive: true, type: "critical"},
+				],
+				17: [
+					{min: 1.6, max: 1.8, positive: true, type: "armorInfantry"},
+					{min: 13.5, max: 14.9, positive: true, type: "critical"},
+				],
+				18: [
+					{min: 1.7, max: 1.9, positive: true, type: "armorInfantry"},
+					{min: 14.3, max: 15.8, positive: true, type: "critical"},
+				],
+			}
+		},
+		{
+			name: "Pine Reinforced Walls",
+			img: "Gear/ArmorBldg_U001.png",
+			effects: {
+				2: [
+					{min: 1.8, max: 2, positive: true, type: "health"},
+				],
+				3: [
+					{min: 2.7, max: 3, positive: true, type: "health"},
+				],
+				4: [
+					{min: 3.6, max: 4, positive: true, type: "health"},
+				],
+				5: [
+					{min: 4.5, max: 5, positive: true, type: "health"},
+				],
+				6: [
+					{min: 5.4, max: 6, positive: true, type: "health"},
+				],
+				7: [
+					{min: 6.3, max: 6.9, positive: true, type: "health"},
+				],
+				8: [
+					{min: 7.2, max: 7.9, positive: true, type: "health"},
+				],
+				9: [
+					{min: 8.1, max: 8.9, positive: true, type: "health"},
+				],
+				10: [
+					{min: 9, max: 9.9, positive: true, type: "health"},
+				],
+				11: [
+					{min: 9.9, max: 10.9, positive: true, type: "health"},
+				],
+				12: [
+					{min: 10.8, max: 11.9, positive: true, type: "health"},
+				],
+				13: [
+					{min: 11.7, max: 12.9, positive: true, type: "health"},
+				],
+				14: [
+					{min: 12.6, max: 13.9, positive: true, type: "health"},
+				],
+				15: [
+					{min: 13.5, max: 14.9, positive: true, type: "health"},
+				],
+				16: [
+					{min: 14.4, max: 15.9, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Argos Reinforced Walls",
+			img: "Gear/ArmorBldg_R009.png",
+			effects: {
+				15: [
+					{min: 18.3, max: 20.2, positive: true, type: "health"},
+					{min: 2, max: 2.2, positive: true, type: "vision"},
+				],
+			}
+		},
+		{
+			name: "Superior Imperial Fortifications",
+			img: "Gear/ArmorBldg_R008.png",
+			effects: {
+				15: [
+					{min: -0.9, max: -0.9, positive: true, type: "cost"},
+					{min: 17.2, max: 19, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Wood Double-Braced Walls",
+			img: "Gear/ArmorBldg_R002.png",
+			effects: {
+				11: [
+					{min: 10.9, max: 12.1, positive: true, type: "health"},
+					{min: -1.2, max: -1.4, positive: true, type: "timeBuilding"},
+				],
+				12: [
+					{min: 11.9, max: 13.2, positive: true, type: "health"},
+					{min: -1.4, max: -1.5, positive: true, type: "timeBuilding"},
+				],
+				13: [
+					{min: 12.9, max: 14.3, positive: true, type: "health"},
+					{min: -1.5, max: -1.6, positive: true, type: "timeBuilding"},
+				],
+				14: [
+					{min: 13.9, max: 15.4, positive: true, type: "health"},
+					{min: -1.6, max: -1.8, positive: true, type: "timeBuilding"},
+				],
+				15: [
+					{min: 14.9, max: 16.5, positive: true, type: "health"},
+					{min: -1.7, max: -1.9, positive: true, type: "timeBuilding"},
+				],
+			}
+		},
+		{
+			name: "Crete Steward Heavy Walls",
+			img: "Gear/ArmorBldg_UA02.png",
+			effects: {
+				15: [
+					{min: 2.3, max: 2.5, positive: true, type: "protection"},
+					{min: 11.9, max: 13.2, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Standard Bulwark Walls",
+			img: "Gear/ArmorBldg_U006.png",
+			effects: {
+				15: [
+					{min: 3.5, max: 3.8, positive: true, type: "armorPierce"},
+					{min: 14.6, max: 16.1, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Silver Wall Braces",
+			img: "Gear/ArmorBldg_R101.png",
+			effects: {
+				13: [
+					{min: 5.5, max: 6.1, positive: true, type: "armorPierce"},
+					{min: 14.9, max: 16.5, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Thick Brick Walls",
+			img: "Gear/ArmorBldg_R001.png",
+			effects: {
+				7: [
+					{min: 2.1, max: 2.3, positive: true, type: "armorPierce"},
+					{min: 7, max: 7.7, positive: true, type: "damage"},
+					{min: 1.5, max: 1.7, positive: true, type: "vision"},
+				],
+				8: [
+					{min: 2.4, max: 2.6, positive: true, type: "armorPierce"},
+					{min: 8, max: 8.8, positive: true, type: "damage"},
+					{min: 1.8, max: 1.9, positive: true, type: "vision"},
+				],
+				9: [
+					{min: 2.7, max: 3, positive: true, type: "armorPierce"},
+					{min: 9, max: 9.9, positive: true, type: "damage"},
+					{min: 2, max: 2.2, positive: true, type: "vision"},
+				],
+				10: [
+					{min: 3, max: 3.3, positive: true, type: "armorPierce"},
+					{min: 10, max: 11, positive: true, type: "damage"},
+					{min: 2.2, max: 2.4, positive: true, type: "vision"},
+				],
+				11: [
+					{min: 3.3, max: 3.6, positive: true, type: "armorPierce"},
+					{min: 10.9, max: 12.1, positive: true, type: "damage"},
+					{min: 2.4, max: 2.7, positive: true, type: "vision"},
+				],
+				12: [
+					{min: 3.6, max: 4, positive: true, type: "armorPierce"},
+					{min: 11.9, max: 13.2, positive: true, type: "damage"},
+					{min: 2.6, max: 2.9, positive: true, type: "vision"},
+				],
+			}
+		},
+		{
+			name: "Ordinary Reinforcements",
+			img: "Gear/ArmorBldg_U005.png",
+			effects: {
+				10: [
+					{min: 1.1, max: 1.3, positive: true, type: "armorCavalry"},
+					{min: 9.7, max: 10.8, positive: true, type: "health"},
+					{min: 1.1, max: 1.3, positive: true, type: "armorInfantry"},
+				],
+			}
+		},
+		{
+			name: "Stone Walls",
+			img: "Gear/ArmorBldg_UA04.png",
+			effects: {
+				6: [
+					{min: 0.9, max: 1, positive: true, type: "protection"},
+					{min: 4.8, max: 5.3, positive: true, type: "health"},
+				],
+				7: [
+					{min: 1, max: 1.1, positive: true, type: "protection"},
+					{min: 5.6, max: 6.1, positive: true, type: "health"},
+				],
+				8: [
+					{min: 1.2, max: 1.3, positive: true, type: "protection"},
+					{min: 6.4, max: 7, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Freelancer's Steadfast Walls",
+			img: "Gear/ArmorBldg_U014.png",
+			effects: {
+				2: [
+					{min: 0.4, max: 0.4, positive: true, type: "armorPierce"},
+					{min: 1.6, max: 1.8, positive: true, type: "health"},
+				],
+				6: [
+					{min: 1.2, max: 1.3, positive: true, type: "armorPierce"},
+					{min: 4.8, max: 5.3, positive: true, type: "health"},
+				],
+				7: [
+					{min: 1.4, max: 1.6, positive: true, type: "armorPierce"},
+					{min: 5.6, max: 6.1, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Vanguard Stone Fortifications",
+			img: "Gear/ArmorBldg_R010.png",
+			effects: {
+				5: [
+					{min: 0.8, max: 0.8, positive: true, type: "armorInfantry"},
+					{min: 6.2, max: 6.9, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Aged Defense Walls",
+			img: "Gear/ArmorBldg_U004.png",
+			effects: {
+				5: [
+					{min: 1.2, max: 1.3, positive: true, type: "armorPierce"},
+					{min: 4.9, max: 5.4, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Imperial Pine Fortifications",
+			img: "Gear/ArmorBldg_U012.png",
+			effects: {
+				3: [
+					{min: 0.5, max: 0.5, positive: true, type: "protection"},
+					{min: 2.4, max: 2.6, positive: true, type: "health"},
+				],
+				4: [
+					{min: 0.7, max: 0.7, positive: true, type: "protection"},
+					{min: 3.2, max: 3.5, positive: true, type: "health"},
+				],
+				5: [
+					{min: 0.8, max: 0.9, positive: true, type: "protection"},
+					{min: 4, max: 4.4, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Sturdy Walls",
+			img: "Gear/ArmorBldg_UA01.png",
+			effects: {
+				4: [
+					{min: 0.4, max: 0.4, positive: true, type: "armorInfantry"},
+					{min: 3.2, max: 3.5, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Novice's Engineered Braces",
+			img: "Gear/ArmorBldg_U013.png",
+			effects: {
+				2: [
+					{min: -0.6, max: -0.7, positive: true, type: "cost"},
+					{min: 0.8, max: 0.9, positive: true, type: "protection"},
+				],
+			}
+		},
+		{
+			name: "Sturdy Reinforced Walls",
+			img: "Gear/ArmorBldg_UA05.png",
+			effects: {
+				2: [
+					{min: 1.8, max: 2, positive: true, type: "health"},
+				],
+			}
+		},
+	],
 	constructionAddition: [
 		{name: "None", img: 'Slot/BldgGearSlot_ua.png'},
 		{
@@ -23698,939 +24631,6 @@ var gear = {
 				8: [
 					{min: 7.8, max: 8.6, positive: true, type: "damage"},
 					{min: 2.3, max: 2.6, positive: true, type: "multiplierBuildings"},
-				],
-			}
-		},
-	],
-	reinforcedConstruction: [
-		{name: "None", img: 'Slot/WallSlot_ua.png'},
-		{
-			name: "Council Overseer's Walls",
-			img: "Gear/ArmorBldg_LC01.png",
-			effects: {
-				40: [
-					{min: 75.8, max: 83.8, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Walls of Kaveh",
-			img: "Gear/ArmorBldg_L001.png",
-			effects: {
-				40: [
-					{min: 6.5, max: 7.2, positive: true, type: "armorInfantry"},
-					{min: 65.5, max: 72.4, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Walls of Khufu",
-			img: "Gear/ArmorBldg_L002.png",
-			effects: {
-				40: [
-					{min: 13.5, max: 14.9, positive: true, type: "armorPierce"},
-					{min: 65.5, max: 72.4, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Walls of Olympus",
-			img: "Gear/ArmorBldg_L003.png",
-			effects: {
-				40: [
-					{min: 10.7, max: 11.9, positive: true, type: "protection"},
-					{min: 65.5, max: 72.4, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Walls of the Architect",
-			img: "Gear/ArmorBuilding_WOTA.png",
-			effects: {
-				40: [
-					{min: -5.7, max: -6.3, positive: true, type: "cost"},
-					{min: -5.7, max: -6.3, positive: true, type: "timeBuilding"},
-					{min: 0, max: 0, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Walls of the Master Defender",
-			img: "Gear/ArmorBuilding_WOTMD.png",
-			effects: {
-				40: [
-					{min: 13.8, max: 15.3, positive: true, type: "armorCrush"},
-					{min: 11.1, max: 12.3, positive: true, type: "protection"},
-					{min: 47.9, max: 52.9, positive: true, type: "vision"},
-				],
-			}
-		},
-		{
-			name: "Geb's Blessed Wall",
-			img: "Gear/ArmorBldg_E004.png",
-			effects: {
-				40: [
-					{min: 4.2, max: 4.6, positive: true, type: "armorInfantry"},
-					{min: 52.9, max: 58.5, positive: true, type: "health"},
-					{min: 13.5, max: 14.9, positive: true, type: "protection"},
-				],
-			}
-		},
-		{
-			name: "The Indomitable Shield Wall",
-			img: "Gear/ArmorBldg_E006.png",
-			effects: {
-				40: [
-					{min: 71.8, max: 79.4, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Wall of the Titans",
-			img: "Gear/ArmorBldg_E005.png",
-			effects: {
-				37: [
-					{min: 9.6, max: 10.6, positive: true, type: "damage"},
-					{min: 49, max: 54.1, positive: true, type: "health"},
-				],
-				38: [
-					{min: 9.8, max: 10.9, positive: true, type: "damage"},
-					{min: 50.3, max: 55.6, positive: true, type: "health"},
-				],
-				39: [
-					{min: 10.1, max: 11.2, positive: true, type: "damage"},
-					{min: 51.6, max: 57.1, positive: true, type: "health"},
-				],
-				40: [
-					{min: 10.4, max: 11.5, positive: true, type: "damage"},
-					{min: 52.9, max: 58.5, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Walls of the Mountain",
-			img: "Gear/ArmorBldg_EA03.png",
-			effects: {
-				40: [
-					{min: 52.9, max: 58.5, positive: true, type: "health"},
-					{min: 10.4, max: 11.5, positive: true, type: "protection"},
-					{min: 12.7, max: 14, positive: true, type: "armorCrush"},
-				],
-			}
-		},
-		{
-			name: "Delian Adept's Wall Braces",
-			img: "Gear/ArmorBldg_RC02.png",
-			effects: {
-				40: [
-					{min: 55.9, max: 61.7, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Legion Recruit's Fortifications",
-			img: "Gear/ArmorBldg_RC01.png",
-			effects: {
-				40: [
-					{min: 35.4, max: 39.1, positive: true, type: "health"},
-					{min: 13.1, max: 14.5, positive: true, type: "damage"},
-				],
-			}
-		},
-		{
-			name: "Obsidian Walls",
-			img: "Gear/ArmorBldg_RA02.png",
-			effects: {
-				36: [
-					{min: 50.3, max: 55.6, positive: true, type: "health"},
-				],
-				37: [
-					{min: 51.7, max: 57.1, positive: true, type: "health"},
-				],
-				38: [
-					{min: 53.1, max: 58.7, positive: true, type: "health"},
-				],
-				39: [
-					{min: 54.5, max: 60.2, positive: true, type: "health"},
-				],
-				40: [
-					{min: 55.9, max: 61.7, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Cedar Reinforced Walls",
-			img: "Gear/ArmorBldg_U003.png",
-			effects: {
-				27: [
-					{min: 24.2, max: 26.8, positive: true, type: "health"},
-				],
-				32: [
-					{min: 28.7, max: 31.8, positive: true, type: "health"},
-				],
-				33: [
-					{min: 29.6, max: 32.7, positive: true, type: "health"},
-				],
-				34: [
-					{min: 30.5, max: 33.7, positive: true, type: "health"},
-				],
-				35: [
-					{min: 31.4, max: 34.7, positive: true, type: "health"},
-				],
-				36: [
-					{min: 32.3, max: 35.7, positive: true, type: "health"},
-				],
-				37: [
-					{min: 33.2, max: 36.7, positive: true, type: "health"},
-				],
-				38: [
-					{min: 34.1, max: 37.7, positive: true, type: "health"},
-				],
-				39: [
-					{min: 35, max: 38.7, positive: true, type: "health"},
-				],
-				40: [
-					{min: 35.9, max: 39.7, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Peerless Bastion Reinforcements",
-			img: "Gear/ArmorBldg_U011.png",
-			effects: {
-				40: [
-					{min: 38.5, max: 42.6, positive: true, type: "health"},
-					{min: 4.2, max: 4.6, positive: true, type: "vision"},
-				],
-			}
-		},
-		{
-			name: "Walls of Vasiliki",
-			img: "Gear/ArmorBldg_EA02.png",
-			effects: {
-				35: [
-					{min: 11.4, max: 12.6, positive: true, type: "armorPierce"},
-					{min: 11.4, max: 12.6, positive: true, type: "armorInfantry"},
-					{min: 46.7, max: 51.6, positive: true, type: "health"},
-				],
-				36: [
-					{min: 11.8, max: 13, positive: true, type: "armorPierce"},
-					{min: 11.8, max: 13, positive: true, type: "armorInfantry"},
-					{min: 48, max: 53.1, positive: true, type: "health"},
-				],
-				37: [
-					{min: 12.1, max: 13.4, positive: true, type: "armorPierce"},
-					{min: 12.1, max: 13.4, positive: true, type: "armorInfantry"},
-					{min: 49.3, max: 54.5, positive: true, type: "health"},
-				],
-				38: [
-					{min: 12.4, max: 13.7, positive: true, type: "armorPierce"},
-					{min: 12.4, max: 13.7, positive: true, type: "armorInfantry"},
-					{min: 50.7, max: 56, positive: true, type: "health"},
-				],
-				39: [
-					{min: 12.8, max: 14.1, positive: true, type: "armorPierce"},
-					{min: 12.8, max: 14.1, positive: true, type: "armorInfantry"},
-					{min: 52, max: 57.5, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Contrebis' Wall Braces",
-			img: "Gear/ArmorBldg_E101.png",
-			effects: {
-				37: [
-					{min: 119.5, max: 132.1, positive: true, type: "armorCrush"},
-					{min: 31.9, max: 35.2, positive: true, type: "armorPierce"},
-				],
-			}
-		},
-		{
-			name: "Stone Reinforced Walls",
-			img: "Gear/ArmorBldg_R007.png",
-			effects: {
-				31: [
-					{min: 4.1, max: 4.6, positive: true, type: "vision"},
-					{min: 37.8, max: 41.8, positive: true, type: "health"},
-				],
-				32: [
-					{min: 4.3, max: 4.7, positive: true, type: "vision"},
-					{min: 39.1, max: 43.2, positive: true, type: "health"},
-				],
-				33: [
-					{min: 4.4, max: 4.9, positive: true, type: "vision"},
-					{min: 40.3, max: 44.5, positive: true, type: "health"},
-				],
-				34: [
-					{min: 4.5, max: 5, positive: true, type: "vision"},
-					{min: 41.5, max: 45.9, positive: true, type: "health"},
-				],
-				35: [
-					{min: 4.7, max: 5.2, positive: true, type: "vision"},
-					{min: 42.7, max: 47.2, positive: true, type: "health"},
-				],
-				36: [
-					{min: 4.8, max: 5.3, positive: true, type: "vision"},
-					{min: 44, max: 48.6, positive: true, type: "health"},
-				],
-				37: [
-					{min: 5, max: 5.5, positive: true, type: "vision"},
-					{min: 45.2, max: 49.9, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Bandit-Proof Walls",
-			img: "Gear/ArmorBldg_E003.png",
-			effects: {
-				31: [
-					{min: 41.3, max: 45.7, positive: true, type: "health"},
-					{min: 21.1, max: 23.3, positive: true, type: "armorCrush"},
-				],
-				32: [
-					{min: 42.7, max: 47.2, positive: true, type: "health"},
-					{min: 21.8, max: 24.1, positive: true, type: "armorCrush"},
-				],
-				33: [
-					{min: 44, max: 48.6, positive: true, type: "health"},
-					{min: 22.5, max: 24.8, positive: true, type: "armorCrush"},
-				],
-				34: [
-					{min: 45.3, max: 50.1, positive: true, type: "health"},
-					{min: 23.2, max: 25.6, positive: true, type: "armorCrush"},
-				],
-				35: [
-					{min: 46.7, max: 51.6, positive: true, type: "health"},
-					{min: 23.8, max: 26.4, positive: true, type: "armorCrush"},
-				],
-			}
-		},
-		{
-			name: "Exceptional Guard Walls",
-			img: "Gear/ArmorBldg_U010.png",
-			effects: {
-				35: [
-					{min: 7.7, max: 8.6, positive: true, type: "armorPierce"},
-					{min: 15, max: 16.5, positive: true, type: "damage"},
-				],
-			}
-		},
-		{
-			name: "Iron-Sheathed Walls",
-			img: "Gear/ArmorBldg_R006.png",
-			effects: {
-				34: [
-					{min: 7.5, max: 8.3, positive: true, type: "protection"},
-					{min: 41.5, max: 45.9, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Cedar Wall Braces",
-			img: "Gear/ArmorBldg_U102.png",
-			effects: {
-				28: [
-					{min: 2.7, max: 3, positive: true, type: "armorInfantry"},
-					{min: 22.2, max: 24.6, positive: true, type: "health"},
-				],
-				29: [
-					{min: 2.8, max: 3.1, positive: true, type: "armorInfantry"},
-					{min: 23, max: 25.5, positive: true, type: "health"},
-				],
-				30: [
-					{min: 2.9, max: 3.2, positive: true, type: "armorInfantry"},
-					{min: 23.8, max: 26.3, positive: true, type: "health"},
-				],
-				31: [
-					{min: 3, max: 3.3, positive: true, type: "armorInfantry"},
-					{min: 24.6, max: 27.2, positive: true, type: "health"},
-				],
-				32: [
-					{min: 3.1, max: 3.4, positive: true, type: "armorInfantry"},
-					{min: 25.4, max: 28.1, positive: true, type: "health"},
-				],
-				33: [
-					{min: 3.2, max: 3.5, positive: true, type: "armorInfantry"},
-					{min: 26.2, max: 29, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Oak Reinforced Walls",
-			img: "Gear/ArmorBldg_U002.png",
-			effects: {
-				17: [
-					{min: 15.3, max: 16.9, positive: true, type: "health"},
-				],
-				18: [
-					{min: 16.2, max: 17.9, positive: true, type: "health"},
-				],
-				19: [
-					{min: 17.1, max: 18.9, positive: true, type: "health"},
-				],
-				20: [
-					{min: 18, max: 19.8, positive: true, type: "health"},
-				],
-				21: [
-					{min: 18.9, max: 20.8, positive: true, type: "health"},
-				],
-				22: [
-					{min: 19.8, max: 21.8, positive: true, type: "health"},
-				],
-				23: [
-					{min: 20.6, max: 22.8, positive: true, type: "health"},
-				],
-				24: [
-					{min: 21.5, max: 23.8, positive: true, type: "health"},
-				],
-				25: [
-					{min: 22.4, max: 24.8, positive: true, type: "health"},
-				],
-				26: [
-					{min: 23.3, max: 25.8, positive: true, type: "health"},
-				],
-				27: [
-					{min: 24.2, max: 26.8, positive: true, type: "health"},
-				],
-				28: [
-					{min: 25.1, max: 27.8, positive: true, type: "health"},
-				],
-				29: [
-					{min: 26, max: 28.8, positive: true, type: "health"},
-				],
-				30: [
-					{min: 26.9, max: 29.8, positive: true, type: "health"},
-				],
-				31: [
-					{min: 27.8, max: 30.8, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Walls of Earthen Strength",
-			img: "Gear/ArmorBldg_E002.png",
-			effects: {
-				26: [
-					{min: 34.9, max: 38.6, positive: true, type: "health"},
-					{min: -3, max: -3.3, positive: true, type: "timeBuilding"},
-				],
-				27: [
-					{min: 36.3, max: 40.1, positive: true, type: "health"},
-					{min: -3.1, max: -3.4, positive: true, type: "timeBuilding"},
-				],
-				28: [
-					{min: 37.6, max: 41.6, positive: true, type: "health"},
-					{min: -3.2, max: -3.5, positive: true, type: "timeBuilding"},
-				],
-				29: [
-					{min: 39, max: 43.1, positive: true, type: "health"},
-					{min: -3.3, max: -3.6, positive: true, type: "timeBuilding"},
-				],
-				30: [
-					{min: 40.3, max: 44.5, positive: true, type: "health"},
-					{min: -3.4, max: -3.8, positive: true, type: "timeBuilding"},
-				],
-			}
-		},
-		{
-			name: "Crete Engineer Walls",
-			img: "Gear/ArmorBldg_RA01.png",
-			effects: {
-				30: [
-					{min: 8.1, max: 8.9, positive: true, type: "armorPierce"},
-					{min: 36.6, max: 40.5, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Superb Stronghold Reinforcements",
-			img: "Gear/ArmorBldg_U009.png",
-			effects: {
-				30: [
-					{min: 3.4, max: 3.8, positive: true, type: "armorCavalry"},
-					{min: 28.9, max: 31.9, positive: true, type: "health"},
-					{min: 3.4, max: 3.8, positive: true, type: "armorInfantry"},
-				],
-			}
-		},
-		{
-			name: "Naqada Braced Walls",
-			img: "Gear/ArmorBldg_R005.png",
-			effects: {
-				23: [
-					{min: 24.3, max: 26.9, positive: true, type: "health"},
-					{min: 13.2, max: 14.6, positive: true, type: "armorCrush"},
-				],
-				24: [
-					{min: 25.4, max: 28, positive: true, type: "health"},
-					{min: 13.8, max: 15.2, positive: true, type: "armorCrush"},
-				],
-				25: [
-					{min: 26.4, max: 29.2, positive: true, type: "health"},
-					{min: 14.4, max: 15.9, positive: true, type: "armorCrush"},
-				],
-				26: [
-					{min: 27.5, max: 30.4, positive: true, type: "health"},
-					{min: 14.9, max: 16.5, positive: true, type: "armorCrush"},
-				],
-				27: [
-					{min: 28.5, max: 31.5, positive: true, type: "health"},
-					{min: 15.5, max: 17.1, positive: true, type: "armorCrush"},
-				],
-			}
-		},
-		{
-			name: "Kalami Reinforced Walls",
-			img: "Gear/ArmorBldg_UA06.png",
-			effects: {
-				21: [
-					{min: 18.9, max: 20.8, positive: true, type: "health"},
-				],
-				22: [
-					{min: 19.8, max: 21.8, positive: true, type: "health"},
-				],
-				23: [
-					{min: 20.6, max: 22.8, positive: true, type: "health"},
-				],
-				24: [
-					{min: 21.5, max: 23.8, positive: true, type: "health"},
-				],
-				25: [
-					{min: 22.4, max: 24.8, positive: true, type: "health"},
-				],
-				26: [
-					{min: 23.3, max: 25.8, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Strengthened Walls",
-			img: "Gear/ArmorBldg_EA01.png",
-			effects: {
-				25: [
-					{min: 33.8, max: 37.4, positive: true, type: "health"},
-					{min: 4.3, max: 4.8, positive: true, type: "armorInfantry"},
-					{min: 7, max: 7.7, positive: true, type: "protection"},
-				],
-			}
-		},
-		{
-			name: "Remarkable Engineered Walls",
-			img: "Gear/ArmorBldg_U008.png",
-			effects: {
-				25: [
-					{min: 24.1, max: 26.6, positive: true, type: "health"},
-					{min: 2.1, max: 2.4, positive: true, type: "damage"},
-				],
-			}
-		},
-		{
-			name: "Hand-Carved Wall Braces",
-			img: "Gear/ArmorBldg_E001.png",
-			effects: {
-				19: [
-					{min: 6.6, max: 7.3, positive: true, type: "armorCrush"},
-					{min: 5.3, max: 5.8, positive: true, type: "protection"},
-					{min: 32.6, max: 36, positive: true, type: "vision"},
-				],
-				20: [
-					{min: 6.9, max: 7.7, positive: true, type: "armorCrush"},
-					{min: 5.6, max: 6.1, positive: true, type: "protection"},
-					{min: 34.3, max: 37.9, positive: true, type: "vision"},
-				],
-				21: [
-					{min: 7.3, max: 8, positive: true, type: "armorCrush"},
-					{min: 5.8, max: 6.5, positive: true, type: "protection"},
-					{min: 36, max: 39.8, positive: true, type: "vision"},
-				],
-				22: [
-					{min: 7.6, max: 8.4, positive: true, type: "armorCrush"},
-					{min: 6.1, max: 6.8, positive: true, type: "protection"},
-					{min: 37.7, max: 41.7, positive: true, type: "vision"},
-				],
-				23: [
-					{min: 8, max: 8.8, positive: true, type: "armorCrush"},
-					{min: 6.4, max: 7.1, positive: true, type: "protection"},
-					{min: 39.5, max: 43.6, positive: true, type: "vision"},
-				],
-			}
-		},
-		{
-			name: "Mycenaean Reinforced Walls",
-			img: "Gear/ArmorBldg_R004.png",
-			effects: {
-				22: [
-					{min: 6.1, max: 6.8, positive: true, type: "armorPierce"},
-					{min: 27.1, max: 29.9, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Heavy Walls",
-			img: "Gear/ArmorBldg_ED01.png",
-			effects: {
-				21: [
-					{min: 37.7, max: 41.7, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Bronze-Sheathed Walls",
-			img: "Gear/ArmorBldg_R003.png",
-			effects: {
-				15: [
-					{min: 3.5, max: 3.8, positive: true, type: "protection"},
-					{min: 16, max: 17.7, positive: true, type: "health"},
-					{min: -0.4, max: -0.5, positive: true, type: "cost"},
-				],
-				16: [
-					{min: 3.7, max: 4.1, positive: true, type: "protection"},
-					{min: 17.1, max: 18.9, positive: true, type: "health"},
-					{min: -0.5, max: -0.5, positive: true, type: "cost"},
-				],
-				17: [
-					{min: 3.9, max: 4.3, positive: true, type: "protection"},
-					{min: 18.1, max: 20, positive: true, type: "health"},
-					{min: -0.5, max: -0.5, positive: true, type: "cost"},
-				],
-				18: [
-					{min: 4.1, max: 4.6, positive: true, type: "protection"},
-					{min: 19.2, max: 21.2, positive: true, type: "health"},
-					{min: -0.5, max: -0.6, positive: true, type: "cost"},
-				],
-				19: [
-					{min: 4.4, max: 4.8, positive: true, type: "protection"},
-					{min: 20.3, max: 22.4, positive: true, type: "health"},
-					{min: -0.5, max: -0.6, positive: true, type: "cost"},
-				],
-				20: [
-					{min: 4.6, max: 5.1, positive: true, type: "protection"},
-					{min: 21.3, max: 23.6, positive: true, type: "health"},
-					{min: -0.6, max: -0.6, positive: true, type: "cost"},
-				],
-			}
-		},
-		{
-			name: "Hero's Reinforced Walls",
-			img: "Gear/ArmorBldg_U201.png",
-			effects: {
-				20: [
-					{min: 18, max: 19.8, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Strong Walls",
-			img: "Gear/ArmorBldg_UD01.png",
-			effects: {
-				20: [
-					{min: 1.9, max: 2.1, positive: true, type: "armorInfantry"},
-					{min: 18, max: 19.8, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Superior Keep Reinforcements",
-			img: "Gear/ArmorBldg_U007.png",
-			effects: {
-				20: [
-					{min: 19.3, max: 21.3, positive: true, type: "health"},
-					{min: 1.9, max: 2.1, positive: true, type: "damage"},
-				],
-			}
-		},
-		{
-			name: "Reinforced Walls",
-			img: "Gear/ArmorBldg_UA03.png",
-			effects: {
-				16: [
-					{min: 1.5, max: 1.7, positive: true, type: "armorInfantry"},
-					{min: 12.7, max: 14, positive: true, type: "critical"},
-				],
-				17: [
-					{min: 1.6, max: 1.8, positive: true, type: "armorInfantry"},
-					{min: 13.5, max: 14.9, positive: true, type: "critical"},
-				],
-				18: [
-					{min: 1.7, max: 1.9, positive: true, type: "armorInfantry"},
-					{min: 14.3, max: 15.8, positive: true, type: "critical"},
-				],
-			}
-		},
-		{
-			name: "Pine Reinforced Walls",
-			img: "Gear/ArmorBldg_U001.png",
-			effects: {
-				2: [
-					{min: 1.8, max: 2, positive: true, type: "health"},
-				],
-				3: [
-					{min: 2.7, max: 3, positive: true, type: "health"},
-				],
-				4: [
-					{min: 3.6, max: 4, positive: true, type: "health"},
-				],
-				5: [
-					{min: 4.5, max: 5, positive: true, type: "health"},
-				],
-				6: [
-					{min: 5.4, max: 6, positive: true, type: "health"},
-				],
-				7: [
-					{min: 6.3, max: 6.9, positive: true, type: "health"},
-				],
-				8: [
-					{min: 7.2, max: 7.9, positive: true, type: "health"},
-				],
-				9: [
-					{min: 8.1, max: 8.9, positive: true, type: "health"},
-				],
-				10: [
-					{min: 9, max: 9.9, positive: true, type: "health"},
-				],
-				11: [
-					{min: 9.9, max: 10.9, positive: true, type: "health"},
-				],
-				12: [
-					{min: 10.8, max: 11.9, positive: true, type: "health"},
-				],
-				13: [
-					{min: 11.7, max: 12.9, positive: true, type: "health"},
-				],
-				14: [
-					{min: 12.6, max: 13.9, positive: true, type: "health"},
-				],
-				15: [
-					{min: 13.5, max: 14.9, positive: true, type: "health"},
-				],
-				16: [
-					{min: 14.4, max: 15.9, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Argos Reinforced Walls",
-			img: "Gear/ArmorBldg_R009.png",
-			effects: {
-				15: [
-					{min: 18.3, max: 20.2, positive: true, type: "health"},
-					{min: 2, max: 2.2, positive: true, type: "vision"},
-				],
-			}
-		},
-		{
-			name: "Superior Imperial Fortifications",
-			img: "Gear/ArmorBldg_R008.png",
-			effects: {
-				15: [
-					{min: -0.9, max: -0.9, positive: true, type: "cost"},
-					{min: 17.2, max: 19, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Wood Double-Braced Walls",
-			img: "Gear/ArmorBldg_R002.png",
-			effects: {
-				11: [
-					{min: 10.9, max: 12.1, positive: true, type: "health"},
-					{min: -1.2, max: -1.4, positive: true, type: "timeBuilding"},
-				],
-				12: [
-					{min: 11.9, max: 13.2, positive: true, type: "health"},
-					{min: -1.4, max: -1.5, positive: true, type: "timeBuilding"},
-				],
-				13: [
-					{min: 12.9, max: 14.3, positive: true, type: "health"},
-					{min: -1.5, max: -1.6, positive: true, type: "timeBuilding"},
-				],
-				14: [
-					{min: 13.9, max: 15.4, positive: true, type: "health"},
-					{min: -1.6, max: -1.8, positive: true, type: "timeBuilding"},
-				],
-				15: [
-					{min: 14.9, max: 16.5, positive: true, type: "health"},
-					{min: -1.7, max: -1.9, positive: true, type: "timeBuilding"},
-				],
-			}
-		},
-		{
-			name: "Crete Steward Heavy Walls",
-			img: "Gear/ArmorBldg_UA02.png",
-			effects: {
-				15: [
-					{min: 2.3, max: 2.5, positive: true, type: "protection"},
-					{min: 11.9, max: 13.2, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Standard Bulwark Walls",
-			img: "Gear/ArmorBldg_U006.png",
-			effects: {
-				15: [
-					{min: 3.5, max: 3.8, positive: true, type: "armorPierce"},
-					{min: 14.6, max: 16.1, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Silver Wall Braces",
-			img: "Gear/ArmorBldg_R101.png",
-			effects: {
-				13: [
-					{min: 5.5, max: 6.1, positive: true, type: "armorPierce"},
-					{min: 14.9, max: 16.5, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Thick Brick Walls",
-			img: "Gear/ArmorBldg_R001.png",
-			effects: {
-				7: [
-					{min: 2.1, max: 2.3, positive: true, type: "armorPierce"},
-					{min: 7, max: 7.7, positive: true, type: "damage"},
-					{min: 1.5, max: 1.7, positive: true, type: "vision"},
-				],
-				8: [
-					{min: 2.4, max: 2.6, positive: true, type: "armorPierce"},
-					{min: 8, max: 8.8, positive: true, type: "damage"},
-					{min: 1.8, max: 1.9, positive: true, type: "vision"},
-				],
-				9: [
-					{min: 2.7, max: 3, positive: true, type: "armorPierce"},
-					{min: 9, max: 9.9, positive: true, type: "damage"},
-					{min: 2, max: 2.2, positive: true, type: "vision"},
-				],
-				10: [
-					{min: 3, max: 3.3, positive: true, type: "armorPierce"},
-					{min: 10, max: 11, positive: true, type: "damage"},
-					{min: 2.2, max: 2.4, positive: true, type: "vision"},
-				],
-				11: [
-					{min: 3.3, max: 3.6, positive: true, type: "armorPierce"},
-					{min: 10.9, max: 12.1, positive: true, type: "damage"},
-					{min: 2.4, max: 2.7, positive: true, type: "vision"},
-				],
-				12: [
-					{min: 3.6, max: 4, positive: true, type: "armorPierce"},
-					{min: 11.9, max: 13.2, positive: true, type: "damage"},
-					{min: 2.6, max: 2.9, positive: true, type: "vision"},
-				],
-			}
-		},
-		{
-			name: "Ordinary Reinforcements",
-			img: "Gear/ArmorBldg_U005.png",
-			effects: {
-				10: [
-					{min: 1.1, max: 1.3, positive: true, type: "armorCavalry"},
-					{min: 9.7, max: 10.8, positive: true, type: "health"},
-					{min: 1.1, max: 1.3, positive: true, type: "armorInfantry"},
-				],
-			}
-		},
-		{
-			name: "Stone Walls",
-			img: "Gear/ArmorBldg_UA04.png",
-			effects: {
-				6: [
-					{min: 0.9, max: 1, positive: true, type: "protection"},
-					{min: 4.8, max: 5.3, positive: true, type: "health"},
-				],
-				7: [
-					{min: 1, max: 1.1, positive: true, type: "protection"},
-					{min: 5.6, max: 6.1, positive: true, type: "health"},
-				],
-				8: [
-					{min: 1.2, max: 1.3, positive: true, type: "protection"},
-					{min: 6.4, max: 7, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Freelancer's Steadfast Walls",
-			img: "Gear/ArmorBldg_U014.png",
-			effects: {
-				2: [
-					{min: 0.4, max: 0.4, positive: true, type: "armorPierce"},
-					{min: 1.6, max: 1.8, positive: true, type: "health"},
-				],
-				6: [
-					{min: 1.2, max: 1.3, positive: true, type: "armorPierce"},
-					{min: 4.8, max: 5.3, positive: true, type: "health"},
-				],
-				7: [
-					{min: 1.4, max: 1.6, positive: true, type: "armorPierce"},
-					{min: 5.6, max: 6.1, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Vanguard Stone Fortifications",
-			img: "Gear/ArmorBldg_R010.png",
-			effects: {
-				5: [
-					{min: 0.8, max: 0.8, positive: true, type: "armorInfantry"},
-					{min: 6.2, max: 6.9, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Aged Defense Walls",
-			img: "Gear/ArmorBldg_U004.png",
-			effects: {
-				5: [
-					{min: 1.2, max: 1.3, positive: true, type: "armorPierce"},
-					{min: 4.9, max: 5.4, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Imperial Pine Fortifications",
-			img: "Gear/ArmorBldg_U012.png",
-			effects: {
-				3: [
-					{min: 0.5, max: 0.5, positive: true, type: "protection"},
-					{min: 2.4, max: 2.6, positive: true, type: "health"},
-				],
-				4: [
-					{min: 0.7, max: 0.7, positive: true, type: "protection"},
-					{min: 3.2, max: 3.5, positive: true, type: "health"},
-				],
-				5: [
-					{min: 0.8, max: 0.9, positive: true, type: "protection"},
-					{min: 4, max: 4.4, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Sturdy Walls",
-			img: "Gear/ArmorBldg_UA01.png",
-			effects: {
-				4: [
-					{min: 0.4, max: 0.4, positive: true, type: "armorInfantry"},
-					{min: 3.2, max: 3.5, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Novice's Engineered Braces",
-			img: "Gear/ArmorBldg_U013.png",
-			effects: {
-				2: [
-					{min: -0.6, max: -0.7, positive: true, type: "cost"},
-					{min: 0.8, max: 0.9, positive: true, type: "protection"},
-				],
-			}
-		},
-		{
-			name: "Sturdy Reinforced Walls",
-			img: "Gear/ArmorBldg_UA05.png",
-			effects: {
-				2: [
-					{min: 1.8, max: 2, positive: true, type: "health"},
 				],
 			}
 		},

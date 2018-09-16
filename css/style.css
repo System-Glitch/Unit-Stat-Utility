@@ -221,6 +221,7 @@ h4, p {
 }
 
 .gear-select {
+	display: none;
 	position: initial;
 	width: 32px;
 	height: 32px;
@@ -338,7 +339,7 @@ h4, p {
 	color: #fff;
 	opacity: .95;
 
-	display: block;
+	display: none;
 }
 
 .stats-selector:hover {

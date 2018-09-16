@@ -7,8 +7,9 @@ var units = {
 			health: 2250,
 			armorPierce: 0.80,
 			vision: 20,
-			timeBuild: 50
-		}
+			timeBuild: 30
+		},
+		gear: ["reinforcedConstruction", "constructionAddition"]
 	},
 	ArcheryRange: {
 		name: "ArcheryRange",

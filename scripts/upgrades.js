@@ -205,6 +205,55 @@ var upgrades = {
 				stone: 300
 			}
 		}
+	},
+	armoryShield: {
+		isChain: true,
+		noneArmoryShield: {
+			isChain: false,
+			name: "None",
+			img: "img/Slot/GearSlotGeneric_ua.png",
+			effects: [],
+			cost: {}
+		},
+		shieldRim: {
+			isChain: false,
+			name: "Shield Rim",
+			img: "img/Upgrades/ShieldRim.png",
+			effects: [
+				{amount: 20.0, positive: true, type: "armorPierce"}
+			],
+			cost: {
+				wood: 150,
+				gold: 150,
+				stone: 75
+			}
+		},
+		shieldTruss: {
+			isChain: false,
+			name: "Shield Truss",
+			img: "img/Upgrades/ShieldTruss.png",
+			effects: [
+				{amount: 20.0, positive: true, type: "armorPierce"}
+			],
+			cost: {
+				wood: 300,
+				gold: 300,
+				stone: 150
+			}
+		},
+		shieldBoss: {
+			isChain: false,
+			name: "Shield Boss",
+			img: "img/Upgrades/ShieldBoss.png",
+			effects: [
+				{amount: 20.0, positive: true, type: "armorPierce"}
+			],
+			cost: {
+				wood: 600,
+				gold: 600,
+				stone: 300
+			}
+		}
 	}
 };
 

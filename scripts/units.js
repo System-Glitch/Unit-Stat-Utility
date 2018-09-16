@@ -9,7 +9,8 @@ var units = {
 			vision: 20,
 			timeBuilding: 30
 		},
-		gear: ["reinforcedConstruction", "constructionAddition"]
+		gear: ["reinforcedConstruction", "constructionAddition"],
+		upgrades: ["ashlarMasonry"]
 	},
 	ArcheryRange: {
 		name: "ArcheryRange",

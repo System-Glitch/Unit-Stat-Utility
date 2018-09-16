@@ -11,6 +11,44 @@ var upgrades = {
 			gold: 100
 		}
 	},
+	murderHoles:  {
+		isChain: false,
+		name: "Murder Holes",
+		img: "img/Upgrades/MurderHoles.png",
+		effects: [
+			{amount: 25, positive: true, type: "damage"}
+		],
+		cost: {
+			wood: 50,
+			gold: 50
+		}
+	},
+	ashlarMasonry:  {
+		isChain: false,
+		name: "Ashlar Masonry",
+		img: "img/Upgrades/AshlarMasonry.png",
+		effects: [
+			{amount: 25.0, positive: true, type: "health"}
+		],
+		cost: {
+			wood: 100,
+			stone: 100
+		}
+	},
+	greekFire:  {
+		isChain: false,
+		name: "Greek Fire",
+		img: "img/Upgrades/GreekFire.png",
+		effects: [
+			{amount: 50.0, positive: true, type: "multiplierBuildings"},
+			{amount: 25.0, positive: true, type: "multiplierSiege"},
+			{amount: 25.0, positive: true, type: "multiplierShips"}
+		],
+		cost: {
+			wood: 200,
+			gold: 300
+		}
+	},
 	stables: {
 		isChain: true,
 		noneStables: {

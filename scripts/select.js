@@ -99,6 +99,7 @@ Select.prototype.hideDropdown = function() {
 
 Select.prototype.select = function(option) {
 
+	if(option == undefined) return;
 	let img;
 
 	switch(this.type) {

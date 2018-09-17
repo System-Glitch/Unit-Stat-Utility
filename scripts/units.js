@@ -683,7 +683,7 @@ var units = {
 				gold: 1200
 			}
 		},
-		gear: ["sword", "lightArmor", 'soldiersGear'],
+		gear: ["sword", "shield", "lightArmor", 'soldiersGear'],
 		upgrades: ["agogeDiscipline", "stables", "armoryMelee", "armoryArmor", "armoryShield"]
 	},
 	Hippopotamus: {name: "Hippopotamus", img: "Hippopotamus64.png"},

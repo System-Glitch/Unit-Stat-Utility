@@ -180,15 +180,26 @@ function updateStats() {
 		for(let i = 0 ; i < displays.length ; i++) {
 			let display = displays[i];
 			let original = parseFloat(display.dataset.original);
-
+				
 			if(effects[key].startsAtOne && original == 0)
 				original++;
 
 			let result = original;
 			let effect = modifiers[key];
 			let length = effect.length;
-			for(let j = 0 ; j < length ; j++) {
-				result *= effect[j];
+
+			if(effects[key].isArmor) {
+
+				for(let j = 0 ; j < length ; j++) {
+					result = 1 - (1 - result) / effect[j];
+				}
+				
+			} else {
+
+				for(let j = 0 ; j < length ; j++) {
+					result *= effect[j];
+				}
+				
 			}
 			display.textContent = round(result);
 

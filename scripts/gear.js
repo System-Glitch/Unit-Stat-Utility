@@ -3,7 +3,7 @@ var gear = {
 		{name: "None", img: 'Slot/BellyBowSlot_ua.png'},
 		{
 			name: "Artisan Belly Bow",
-			img: "Gear/BellyBow1H_L402.png",
+			img: "Gear/Generic/BellyBow/Bow_L91_ua.png",
 			effects: {
 				40: [
 					{min: 46.303000000000004, max: 51.177000000000014, positive: true, type: "damage"},
@@ -13,7 +13,7 @@ var gear = {
 		},
 		{
 			name: "Belly Bow of the Master Hunter",
-			img: "Gear/BellyBows_BBOTMH.png",
+			img: "Gear/Celeste/Generic/BellyBow/BellyBows_BBOTMH_ua.png",
 			effects: {
 				40: [
 					{min: 39.406, max: 43.55400000000001, positive: true, type: "damage"},
@@ -24,7 +24,7 @@ var gear = {
 		},
 		{
 			name: "King's Belly Bow",
-			img: "Gear/BellyBow1H_L401.png",
+			img: "Gear/Generic/BellyBow/Bow_L90_ua.png",
 			effects: {
 				40: [
 					{min: 49.7515, max: 54.98850000000001, positive: true, type: "damage"},
@@ -34,7 +34,7 @@ var gear = {
 		},
 		{
 			name: "Heron's Improved Belly Bow",
-			img: "Gear/BellyBow1H_E006.png",
+			img: "Gear/Generic/BellyBow/Bow_E60_ua.png",
 			effects: {
 				37: [
 					{min: 42.17999999999999, max: 46.61999999999999, positive: true, type: "damage"},
@@ -60,7 +60,7 @@ var gear = {
 		},
 		{
 			name: "Titan-Strength Belly Bow",
-			img: "Gear/BellyBow1H_E007.png",
+			img: "Gear/Generic/BellyBow/Bow_E60_ua.png",
 			effects: {
 				37: [
 					{min: 50.663500000000006, max: 55.99650000000002, positive: true, type: "damage"},
@@ -78,7 +78,7 @@ var gear = {
 		},
 		{
 			name: "Zeus' Lightning-Imbued Belly Bow",
-			img: "Gear/BellyBow1H_E005.png",
+			img: "Gear/Generic/BellyBow/Bow_E60_ua.png",
 			effects: {
 				37: [
 					{min: 35.70099999999999, max: 39.45899999999999, positive: true, type: "damage"},
@@ -104,7 +104,7 @@ var gear = {
 		},
 		{
 			name: "Iron-Banded Belly Bow",
-			img: "Gear/BellyBow1H_R011_VR.png",
+			img: "Gear/Generic/BellyBow/Bow_R32_ua.png",
 			effects: {
 				36: [
 					{min: 36.63199999999999, max: 40.488, positive: true, type: "damage"},
@@ -130,7 +130,7 @@ var gear = {
 		},
 		{
 			name: "Cedar Belly Bow",
-			img: "Gear/BellyBow1H_U002.png",
+			img: "Gear/Generic/BellyBow/Bow_U10_ua.png",
 			effects: {
 				32: [
 					{min: 24.823500000000006, max: 27.436500000000013, positive: true, type: "damage"},
@@ -163,7 +163,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Span Belly Bow",
-			img: "Gear/BellyBow1H_U005.png",
+			img: "Gear/Generic/BellyBow/Bow_U10_ua.png",
 			effects: {
 				39: [
 					{min: 31.616, max: 34.944, positive: true, type: "damage"},
@@ -173,7 +173,7 @@ var gear = {
 		},
 		{
 			name: "Medusa's Heartseeker",
-			img: "Gear/BellyBow1H_E101.png",
+			img: "Gear/Generic/BellyBow/Bow_E60_ua.png",
 			effects: {
 				38: [
 					{min: 36.917, max: 40.80300000000001, positive: true, type: "damage"},
@@ -183,7 +183,7 @@ var gear = {
 		},
 		{
 			name: "Heron's Battle Belly Bow",
-			img: "Gear/BellyBow1H_R010.png",
+			img: "Gear/Generic/BellyBow/Bow_R31_ua.png",
 			effects: {
 				33: [
 					{min: 9.433500000000016, max: 10.426500000000019, positive: true, type: "speed"},
@@ -204,7 +204,7 @@ var gear = {
 		},
 		{
 			name: "Cadmus' Dragon-Toothed Belly Bow",
-			img: "Gear/BellyBow1H_E004_VR.png",
+			img: "Gear/Generic/BellyBow/Bow_E60_ua.png",
 			effects: {
 				32: [
 					{min: 37.61999999999999, max: 41.58, positive: true, type: "damage"},
@@ -235,7 +235,7 @@ var gear = {
 		},
 		{
 			name: "Mycenaean Champion's Belly Bow",
-			img: "Gear/BellyBow1H_E008.png",
+			img: "Gear/Generic/BellyBow/Bow_E60_ua.png",
 			effects: {
 				31: [
 					{min: 38.71250000000002, max: 42.78750000000002, positive: true, type: "damage"},
@@ -261,7 +261,7 @@ var gear = {
 		},
 		{
 			name: "True-Striking Bow of Lelantos",
-			img: "Gear/BellyBow1H_R101.png",
+			img: "Gear/Generic/BellyBow/Bow_R30_ua.png",
 			effects: {
 				35: [
 					{min: 32.24299999999999, max: 35.63699999999999, positive: true, type: "damage"},
@@ -271,7 +271,7 @@ var gear = {
 		},
 		{
 			name: "Archanes' Bow of Kings",
-			img: "Gear/BellyBow1H_EA01.png",
+			img: "Gear/Generic/BellyBow/Bow_E60_ua.png",
 			effects: {
 				31: [
 					{min: 29.2695, max: 32.350500000000004, positive: true, type: "damage"},
@@ -297,7 +297,7 @@ var gear = {
 		},
 		{
 			name: "Dionysius' War Belly Bow",
-			img: "Gear/BellyBow1H_R009.png",
+			img: "Gear/Generic/BellyBow/Bow_R32_ua.png",
 			effects: {
 				30: [
 					{min: 31.50199999999999, max: 34.81799999999999, positive: true, type: "damage"},
@@ -323,7 +323,7 @@ var gear = {
 		},
 		{
 			name: "Tyrants' War Belly Bow",
-			img: "Gear/BellyBow1H_R008.png",
+			img: "Gear/Generic/BellyBow/Bow_R31_ua.png",
 			effects: {
 				29: [
 					{min: 30.95100000000001, max: 34.20900000000002, positive: true, type: "damage"},
@@ -349,7 +349,7 @@ var gear = {
 		},
 		{
 			name: "The Gut Ripper",
-			img: "Gear/BellyBow1H_E003.png",
+			img: "Gear/Generic/BellyBow/Bow_E60_ua.png",
 			effects: {
 				28: [
 					{min: 33.96249999999999, max: 37.537499999999994, positive: true, type: "damage"},
@@ -380,7 +380,7 @@ var gear = {
 		},
 		{
 			name: "Soldiers' Belly Bow",
-			img: "Gear/BellyBow1H_R007.png",
+			img: "Gear/Generic/BellyBow/Bow_R30_ua.png",
 			effects: {
 				27: [
 					{min: 16.17849999999999, max: 17.881499999999992, positive: true, type: "health"},
@@ -401,7 +401,7 @@ var gear = {
 		},
 		{
 			name: "Oak Belly Bow",
-			img: "Gear/BellyBow1H_U001.png",
+			img: "Gear/Generic/BellyBow/Bow_U10_ua.png",
 			effects: {
 				17: [
 					{min: 15.8935, max: 17.5665, positive: true, type: "damage"},
@@ -452,7 +452,7 @@ var gear = {
 		},
 		{
 			name: "Zopyros' Improved Belly Bow",
-			img: "Gear/BellyBow1H_R006.png",
+			img: "Gear/Generic/BellyBow/Bow_R32_ua.png",
 			effects: {
 				26: [
 					{min: 28.357499999999998, max: 31.342499999999998, positive: true, type: "damage"},
@@ -478,7 +478,7 @@ var gear = {
 		},
 		{
 			name: "Superior Span Belly Bow",
-			img: "Gear/BellyBow1H_U004.png",
+			img: "Gear/Generic/BellyBow/Bow_U10_ua.png",
 			effects: {
 				29: [
 					{min: 25.17499999999999, max: 27.82499999999999, positive: true, type: "damage"},
@@ -488,7 +488,7 @@ var gear = {
 		},
 		{
 			name: "Achilles' Belly Bow",
-			img: "Gear/BellyBow1H_E002.png",
+			img: "Gear/Generic/BellyBow/Bow_E60_ua.png",
 			effects: {
 				24: [
 					{min: 25.725999999999992, max: 28.43399999999999, positive: true, type: "damage"},
@@ -519,7 +519,7 @@ var gear = {
 		},
 		{
 			name: "Gray Iron Belly Bow",
-			img: "Gear/BellyBow1H_R005_VR.png",
+			img: "Gear/Generic/BellyBow/Bow_R31_ua.png",
 			effects: {
 				23: [
 					{min: 25.76399999999999, max: 28.475999999999992, positive: true, type: "damage"},
@@ -545,7 +545,7 @@ var gear = {
 		},
 		{
 			name: "Ivory Etched Belly Bow",
-			img: "Gear/BellyBow1H_U102.png",
+			img: "Gear/Generic/BellyBow/Bow_U10_ua.png",
 			effects: {
 				27: [
 					{min: 19.7125, max: 21.7875, positive: true, type: "damage"},
@@ -555,7 +555,7 @@ var gear = {
 		},
 		{
 			name: "Crete Champion Belly Bow",
-			img: "Gear/BellyBow1H_RA01.png",
+			img: "Gear/Generic/BellyBow/Bow_R30_ua.png",
 			effects: {
 				25: [
 					{min: 27.759, max: 30.681000000000004, positive: true, type: "damage"},
@@ -565,7 +565,7 @@ var gear = {
 		},
 		{
 			name: "Silver-Inlaid Belly Bow",
-			img: "Gear/BellyBow1H_R004.png",
+			img: "Gear/Generic/BellyBow/Bow_R32_ua.png",
 			effects: {
 				21: [
 					{min: 24.262999999999984, max: 26.816999999999986, positive: true, type: "damage"},
@@ -591,7 +591,7 @@ var gear = {
 		},
 		{
 			name: "Athenian Watch Belly Bow",
-			img: "Gear/BellyBow1H_R003.png",
+			img: "Gear/Generic/BellyBow/Bow_R31_ua.png",
 			effects: {
 				20: [
 					{min: 15.836500000000008, max: 17.50350000000001, positive: true, type: "damage"},
@@ -617,7 +617,7 @@ var gear = {
 		},
 		{
 			name: "Belly Bow of Gale-Force Winds",
-			img: "Gear/BellyBow1H_E001_VR.png",
+			img: "Gear/Generic/BellyBow/Bow_E60_ua.png",
 			effects: {
 				19: [
 					{min: 25.403000000000006, max: 28.077000000000012, positive: true, type: "damage"},
@@ -648,7 +648,7 @@ var gear = {
 		},
 		{
 			name: "Mycenaean Soldiers' Belly Bow",
-			img: "Gear/BellyBow1H_R012.png",
+			img: "Gear/Generic/BellyBow/Bow_R30_ua.png",
 			effects: {
 				19: [
 					{min: 24.443500000000007, max: 27.016500000000008, positive: true, type: "damage"},
@@ -669,7 +669,7 @@ var gear = {
 		},
 		{
 			name: "Enameled Obsidian Belly Bow",
-			img: "Gear/BellyBow1H_R002.png",
+			img: "Gear/Generic/BellyBow/Bow_R32_ua.png",
 			effects: {
 				18: [
 					{min: 19.560500000000015, max: 21.61950000000002, positive: true, type: "damage"},
@@ -695,7 +695,7 @@ var gear = {
 		},
 		{
 			name: "Heron's Belly Bow",
-			img: "Gear/BellyBow1H_R001.png",
+			img: "Gear/Generic/BellyBow/Bow_R31_ua.png",
 			effects: {
 				17: [
 					{min: 22.543500000000005, max: 24.91650000000001, positive: true, type: "damage"},
@@ -713,7 +713,7 @@ var gear = {
 		},
 		{
 			name: "Ornate Span Belly Bow",
-			img: "Gear/BellyBow1H_U003.png",
+			img: "Gear/Generic/BellyBow/Bow_U10_ua.png",
 			effects: {
 				19: [
 					{min: 18.544, max: 20.496000000000006, positive: true, type: "damage"},
@@ -723,7 +723,7 @@ var gear = {
 		},
 		{
 			name: "Ebony Ash Belly Bow",
-			img: "Gear/BellyBow1H_U101.png",
+			img: "Gear/Generic/BellyBow/Bow_U10_ua.png",
 			effects: {
 				14: [
 					{min: 12.711000000000013, max: 14.049000000000014, positive: true, type: "damage"},
@@ -741,7 +741,7 @@ var gear = {
 		},
 		{
 			name: "Artemis' Belly Bow",
-			img: "Gear/BellyBow1H_R013.png",
+			img: "Gear/Generic/BellyBow/Bow_R30_ua.png",
 			effects: {
 				7: [
 					{min: 12.217000000000004, max: 13.503000000000005, positive: true, type: "damage"},
@@ -770,7 +770,7 @@ var gear = {
 		{name: "None", img: 'Slot/BowSlot_ua.png'},
 		{
 			name: "Bow of Amenhotep",
-			img: "Gear/Bow1H_L001.png",
+			img: "Gear/Generic/Bow/Bow_L90_ua.(1,4,1,1).png",
 			effects: {
 				40: [
 					{min: 51.8985, max: 57.36150000000001, positive: true, type: "damage"},
@@ -780,7 +780,7 @@ var gear = {
 		},
 		{
 			name: "Bow of the Master Hunter",
-			img: "Gear/Bows1H_BOTMH.png",
+			img: "Gear/Generic/Bow/Bow_L90_ua.(1,4,1,1).png",
 			effects: {
 				40: [
 					{min: 38.589000000000006, max: 42.65100000000002, positive: true, type: "damage"},
@@ -790,7 +790,7 @@ var gear = {
 		},
 		{
 			name: "Longbow of Actaeon",
-			img: "Gear/Bow1H_L002_VR.png",
+			img: "Gear/Generic/Bow/Bow_L90_ua.(1,4,1,1).png",
 			effects: {
 				40: [
 					{min: 51.8985, max: 57.36150000000001, positive: true, type: "damage"},
@@ -800,7 +800,7 @@ var gear = {
 		},
 		{
 			name: "Recurve Bow of Theseus",
-			img: "Gear/Bow1H_L003.png",
+			img: "Gear/Generic/Bow/Bow_L90_ua.(1,4,1,1).png",
 			effects: {
 				40: [
 					{min: 51.8985, max: 57.36150000000001, positive: true, type: "damage"},
@@ -810,7 +810,7 @@ var gear = {
 		},
 		{
 			name: "Cyprus Champion Bow",
-			img: "Gear/Bow1H_E010.png",
+			img: "Gear/Generic/Bow/Bow_E60_ua.(1,4,1,1).png",
 			effects: {
 				40: [
 					{min: 41.220499999999994, max: 45.55949999999999, positive: true, type: "damage"},
@@ -820,7 +820,7 @@ var gear = {
 		},
 		{
 			name: "Hero-Slaying Bow",
-			img: "Gear/Bow1H_E008.png",
+			img: "Gear/Generic/Bow/Bow_E61_ua.(1,4,1,1).png",
 			effects: {
 				40: [
 					{min: 38.18049999999999, max: 42.19949999999999, positive: true, type: "damage"},
@@ -830,7 +830,7 @@ var gear = {
 		},
 		{
 			name: "Hero's Bow of Apollo",
-			img: "Gear/Bow1H_E006.png",
+			img: "Gear/Generic/Bow/Bow_E61_ua.(1,4,1,1).png",
 			effects: {
 				37: [
 					{min: 50.663500000000006, max: 55.99650000000002, positive: true, type: "damage"},
@@ -848,7 +848,7 @@ var gear = {
 		},
 		{
 			name: "Medusa's Bow of Slaughter",
-			img: "Gear/Bow1H_E007.png",
+			img: "Gear/Generic/Bow/Bow_E60_ua.(1,4,1,1).png",
 			effects: {
 				40: [
 					{min: 45.115500000000004, max: 49.864500000000014, positive: true, type: "damage"},
@@ -859,7 +859,7 @@ var gear = {
 		},
 		{
 			name: "Delian Adept's Bow",
-			img: "Gear/Bow1H_RC01_VR.png",
+			img: "Gear/Generic/Bow/Bow_R32_ua.(1,4,1,1).png",
 			effects: {
 				40: [
 					{min: 28.60449999999999, max: 31.615499999999994, positive: true, type: "damage"},
@@ -869,7 +869,7 @@ var gear = {
 		},
 		{
 			name: "Siege Bow of Artemis",
-			img: "Gear/Bow1H_R013.png",
+			img: "Gear/Generic/Bow/Bow_R31_ua.(1,4,1,1).png",
 			effects: {
 				36: [
 					{min: 36.63199999999999, max: 40.488, positive: true, type: "damage"},
@@ -895,7 +895,7 @@ var gear = {
 		},
 		{
 			name: "Cedar Bow",
-			img: "Gear/Bow1H_U003.png",
+			img: "Gear/Generic/Bow/Bow_U10_ua.(1,4,1,1).png",
 			effects: {
 				27: [
 					{min: 21.783500000000007, max: 24.076500000000006, positive: true, type: "damage"},
@@ -931,7 +931,7 @@ var gear = {
 		},
 		{
 			name: "Darius' Dire Bow",
-			img: "Gear/Bow1H_UB01.png",
+			img: "Gear/Generic/Bow/Bow_U11_ua.(1,4,1,1).png",
 			effects: {
 				30: [
 					{min: 18.496500000000008, max: 20.44350000000001, positive: true, type: "damage"},
@@ -981,7 +981,7 @@ var gear = {
 		},
 		{
 			name: "Perseus' Horse Bow",
-			img: "Gear/Bow1H_E005.png",
+			img: "Gear/Generic/Bow/Bow_E60_ua.(1,4,1,1).png",
 			effects: {
 				35: [
 					{min: 37.1165, max: 41.02350000000001, positive: true, type: "damage"},
@@ -1007,7 +1007,7 @@ var gear = {
 		},
 		{
 			name: "Odysseus' Fearless Bow",
-			img: "Gear/Bow1H_RB01_VR.png",
+			img: "Gear/Generic/Bow/Bow_R30_ua.(1,4,1,1).png",
 			effects: {
 				38: [
 					{min: 38.342, max: 42.378, positive: true, type: "damage"},
@@ -1021,7 +1021,7 @@ var gear = {
 		},
 		{
 			name: "Peerless Serpent Bow",
-			img: "Gear/Bow1H_U011.png",
+			img: "Gear/Generic/Bow/Bow_U11_ua.(1,4,1,1).png",
 			effects: {
 				38: [
 					{min: 30.941499999999984, max: 34.19849999999999, positive: true, type: "damage"},
@@ -1031,7 +1031,7 @@ var gear = {
 		},
 		{
 			name: "Spartan Marksman Bow",
-			img: "Gear/Bow1H_E009_VR.png",
+			img: "Gear/Generic/Bow/Bow_E61_ua.(1,4,1,1).png",
 			effects: {
 				36: [
 					{min: 43.937500000000014, max: 48.562500000000014, positive: true, type: "damage"},
@@ -1041,7 +1041,7 @@ var gear = {
 		},
 		{
 			name: "Dark Wood Horn Bow",
-			img: "Gear/Bow1H_R012.png",
+			img: "Gear/Generic/Bow/Bow_R33_ua.(1,4,1,1).png",
 			effects: {
 				36: [
 					{min: 119.548, max: 132.132, positive: true, type: "multiplierBuildings"},
@@ -1050,7 +1050,7 @@ var gear = {
 		},
 		{
 			name: "Arduinna's Hunting Bow",
-			img: "Gear/Bow1H_E103_VR.png",
+			img: "Gear/Generic/Bow/Bow_E61_ua.(1,4,1,1).png",
 			effects: {
 				35: [
 					{min: 34.409000000000006, max: 38.031000000000006, positive: true, type: "damage"},
@@ -1060,7 +1060,7 @@ var gear = {
 		},
 		{
 			name: "Hawk's-Eye Bow",
-			img: "Gear/Bow1H_R011.png",
+			img: "Gear/Generic/Bow/Bow_R32_ua.(1,4,1,1).png",
 			effects: {
 				31: [
 					{min: 30.561499999999988, max: 33.77849999999999, positive: true, type: "damage"},
@@ -1086,7 +1086,7 @@ var gear = {
 		},
 		{
 			name: "Runic Gryphon Bow",
-			img: "Gear/Bow1H_E004.png",
+			img: "Gear/Generic/Bow/Bow_E60_ua.(1,4,1,1).png",
 			effects: {
 				30: [
 					{min: 35.64399999999999, max: 39.396, positive: true, type: "damage"},
@@ -1117,7 +1117,7 @@ var gear = {
 		},
 		{
 			name: "Immaculate Horn Bow",
-			img: "Gear/Bow1H_U010.png",
+			img: "Gear/Generic/Bow/Bow_U10_ua.(1,4,1,1).png",
 			effects: {
 				33: [
 					{min: 27.911000000000005, max: 30.849000000000007, positive: true, type: "damage"},
@@ -1127,7 +1127,7 @@ var gear = {
 		},
 		{
 			name: "Runic Bow of the Serpent",
-			img: "Gear/Bow1H_R010.png",
+			img: "Gear/Generic/Bow/Bow_R31_ua.(1,4,1,1).png",
 			effects: {
 				31: [
 					{min: 32.679999999999986, max: 36.11999999999998, positive: true, type: "damage"},
@@ -1137,7 +1137,7 @@ var gear = {
 		},
 		{
 			name: "Oak Bow",
-			img: "Gear/Bow1H_U002.png",
+			img: "Gear/Generic/Bow/Bow_U10_ua.(1,4,1,1).png",
 			effects: {
 				17: [
 					{min: 15.8935, max: 17.5665, positive: true, type: "damage"},
@@ -1188,7 +1188,7 @@ var gear = {
 		},
 		{
 			name: "Argos Champion's Bow",
-			img: "Gear/Bow1H_E003.png",
+			img: "Gear/Generic/Bow/Bow_E60_ua.(1,4,1,1).png",
 			effects: {
 				30: [
 					{min: 35.9575, max: 39.742500000000014, positive: true, type: "damage"},
@@ -1199,7 +1199,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Bow of Set",
-			img: "Gear/Bow1H_R009.png",
+			img: "Gear/Generic/Bow/Bow_R30_ua.(1,4,1,1).png",
 			effects: {
 				26: [
 					{min: 22.2015, max: 24.538500000000003, positive: true, type: "damage"},
@@ -1225,7 +1225,7 @@ var gear = {
 		},
 		{
 			name: "Spartan Sapper Bow",
-			img: "Gear/Bow1H_R008.png",
+			img: "Gear/Generic/Bow/Bow_R33_ua.(1,4,1,1).png",
 			effects: {
 				25: [
 					{min: 27.49300000000001, max: 30.387000000000015, positive: true, type: "damage"},
@@ -1251,7 +1251,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Serpent Bow",
-			img: "Gear/Bow1H_U009.png",
+			img: "Gear/Generic/Bow/Bow_U11_ua.(1,4,1,1).png",
 			effects: {
 				28: [
 					{min: 24.491, max: 27.069000000000003, positive: true, type: "damage"},
@@ -1261,7 +1261,7 @@ var gear = {
 		},
 		{
 			name: "Champion Bow of Ares",
-			img: "Gear/Bow1H_E002_VR.png",
+			img: "Gear/Generic/Bow/Bow_E61_ua.(1,4,1,1).png",
 			effects: {
 				22: [
 					{min: 28.215000000000014, max: 31.18500000000002, positive: true, type: "damage"},
@@ -1292,7 +1292,7 @@ var gear = {
 		},
 		{
 			name: "Stag Horn Recurve Bow",
-			img: "Gear/Bow1H_R101_VR.png",
+			img: "Gear/Generic/Bow/Bow_R32_ua.(1,4,1,1).png",
 			effects: {
 				26: [
 					{min: 25.593000000000007, max: 28.28700000000001, positive: true, type: "damage"},
@@ -1302,7 +1302,7 @@ var gear = {
 		},
 		{
 			name: "Blessed Horn Bow",
-			img: "Gear/Bow1H_R007_VR.png",
+			img: "Gear/Generic/Bow/Bow_R31_ua.(1,4,1,1).png",
 			effects: {
 				21: [
 					{min: 21.926000000000013, max: 24.234000000000012, positive: true, type: "health"},
@@ -1328,7 +1328,7 @@ var gear = {
 		},
 		{
 			name: "Maltese Bow of the Falcon",
-			img: "Gear/Bow1H_R006.png",
+			img: "Gear/Generic/Bow/Bow_R30_ua.(1,4,1,1).png",
 			effects: {
 				19: [
 					{min: 19.1235, max: 21.136500000000005, positive: true, type: "damage"},
@@ -1354,7 +1354,7 @@ var gear = {
 		},
 		{
 			name: "Grand Horn Bow",
-			img: "Gear/Bow1H_U008_VR.png",
+			img: "Gear/Generic/Bow/Bow_U10_ua.(1,4,1,1).png",
 			effects: {
 				23: [
 					{min: 21.317999999999994, max: 23.561999999999994, positive: true, type: "damage"},
@@ -1364,7 +1364,7 @@ var gear = {
 		},
 		{
 			name: "Horus' Sky Bow",
-			img: "Gear/Bow1H_E001_VR.png",
+			img: "Gear/Generic/Bow/Bow_E60_ua.(1,4,1,1).png",
 			effects: {
 				18: [
 					{min: 24.386499999999995, max: 26.953499999999995, positive: true, type: "damage"},
@@ -1395,7 +1395,7 @@ var gear = {
 		},
 		{
 			name: "Strong Bow of the Serpent",
-			img: "Gear/Bow1H_R005.png",
+			img: "Gear/Generic/Bow/Bow_R33_ua.(1,4,1,1).png",
 			effects: {
 				17: [
 					{min: 14.069499999999989, max: 15.55049999999999, positive: true, type: "damage"},
@@ -1421,7 +1421,7 @@ var gear = {
 		},
 		{
 			name: "Crushing Siege Bow",
-			img: "Gear/Bow1H_RD01.png",
+			img: "Gear/Generic/Bow/Bow_R31_ua.(1,4,1,1).png",
 			effects: {
 				20: [
 					{min: 19.864500000000007, max: 21.955500000000008, positive: true, type: "damage"},
@@ -1431,7 +1431,7 @@ var gear = {
 		},
 		{
 			name: "Hero's Bow",
-			img: "Gear/Bow1H_U201.png",
+			img: "Gear/Generic/Bow/Bow_U11_ua.(1,4,1,1).png",
 			effects: {
 				20: [
 					{min: 17.746000000000006, max: 19.614000000000008, positive: true, type: "damage"},
@@ -1440,7 +1440,7 @@ var gear = {
 		},
 		{
 			name: "Ranger's Unyielding Bow",
-			img: "Gear/Bow1H_E102.png",
+			img: "Gear/Generic/Bow/Bow_E61_ua.(1,4,1,1).png",
 			effects: {
 				19: [
 					{min: 23.23699999999999, max: 25.682999999999996, positive: true, type: "health"},
@@ -1450,7 +1450,7 @@ var gear = {
 		},
 		{
 			name: "Ranger's Waylaying Bow",
-			img: "Gear/Bow1H_E101.png",
+			img: "Gear/Generic/Bow/Bow_E60_ua.(1,4,1,1).png",
 			effects: {
 				19: [
 					{min: 23.23699999999999, max: 25.682999999999996, positive: true, type: "damage"},
@@ -1460,7 +1460,7 @@ var gear = {
 		},
 		{
 			name: "Superior Serpent Bow",
-			img: "Gear/Bow1H_U007.png",
+			img: "Gear/Generic/Bow/Bow_U11_ua.(1,4,1,1).png",
 			effects: {
 				18: [
 					{min: 17.850499999999997, max: 19.729499999999994, positive: true, type: "damage"},
@@ -1470,7 +1470,7 @@ var gear = {
 		},
 		{
 			name: "Corinthian Sappers' Bow",
-			img: "Gear/Bow1H_R004.png",
+			img: "Gear/Generic/Bow/Bow_R32_ua.(1,4,1,1).png",
 			effects: {
 				13: [
 					{min: 1.7195000000000005, max: 1.9005000000000005, positive: true, type: "damage"},
@@ -1496,7 +1496,7 @@ var gear = {
 		},
 		{
 			name: "Spartan Hunter Bow",
-			img: "Gear/Bow1H_R003.png",
+			img: "Gear/Generic/Bow/Bow_R30_ua.(1,4,1,1).png",
 			effects: {
 				16: [
 					{min: 20.073500000000003, max: 22.186500000000002, positive: true, type: "damage"},
@@ -1506,7 +1506,7 @@ var gear = {
 		},
 		{
 			name: "Pine Bow",
-			img: "Gear/Bow1H_U001.png",
+			img: "Gear/Generic/Bow/Bow_U10_ua.(1,4,1,1).png",
 			effects: {
 				2: [
 					{min: 6.678500000000002, max: 7.3815000000000035, positive: true, type: "damage"},
@@ -1557,7 +1557,7 @@ var gear = {
 		},
 		{
 			name: "Nubian Conqueror Bow",
-			img: "Gear/Bow1H_R014.png",
+			img: "Gear/Generic/Bow/Bow_R31_ua.(1,4,1,1).png",
 			effects: {
 				15: [
 					{min: 19.189999999999994, max: 21.209999999999997, positive: true, type: "damage"},
@@ -1567,7 +1567,7 @@ var gear = {
 		},
 		{
 			name: "Fine Horn Bow",
-			img: "Gear/Bow1H_U006_VR.png",
+			img: "Gear/Generic/Bow/Bow_U10_ua.(1,4,1,1).png",
 			effects: {
 				13: [
 					{min: 14.535000000000002, max: 16.065000000000005, positive: true, type: "damage"},
@@ -1577,7 +1577,7 @@ var gear = {
 		},
 		{
 			name: "True-Striking Ash Bow",
-			img: "Gear/Bow1H_U101_VR.png",
+			img: "Gear/Generic/Bow/Bow_U10_ua.(1,4,1,1).png",
 			effects: {
 				12: [
 					{min: 11.590000000000009, max: 12.810000000000011, positive: true, type: "damage"},
@@ -1587,7 +1587,7 @@ var gear = {
 		},
 		{
 			name: "Titan-Forged Bow",
-			img: "Gear/Bow1H_R002_VR.png",
+			img: "Gear/Generic/Bow/Bow_R33_ua.(1,4,1,1).png",
 			effects: {
 				10: [
 					{min: 12.387999999999986, max: 13.691999999999984, positive: true, type: "damage"},
@@ -1597,7 +1597,7 @@ var gear = {
 		},
 		{
 			name: "Badari Rebel Bow",
-			img: "Gear/Bow1H_R001_VR.png",
+			img: "Gear/Generic/Bow/Bow_R32_ua.(1,4,1,1).png",
 			effects: {
 				9: [
 					{min: 8.834999999999997, max: 9.764999999999997, positive: true, type: "damage"},
@@ -1607,7 +1607,7 @@ var gear = {
 		},
 		{
 			name: "Ornate Serpent Bow",
-			img: "Gear/Bow1H_U005.png",
+			img: "Gear/Generic/Bow/Bow_U11_ua.(1,4,1,1).png",
 			effects: {
 				8: [
 					{min: 11.019999999999987, max: 12.179999999999987, positive: true, type: "damage"},
@@ -1617,7 +1617,7 @@ var gear = {
 		},
 		{
 			name: "Freelancer's Relentless Bow",
-			img: "Gear/Bow1H_R015.png",
+			img: "Gear/Generic/Bow/Bow_R32_ua.(1,4,1,1).png",
 			effects: {
 				4: [
 					{min: 8.008499999999982, max: 8.851499999999982, positive: true, type: "damage"},
@@ -1631,7 +1631,7 @@ var gear = {
 		},
 		{
 			name: "Freelancer's Steadfast Bow",
-			img: "Gear/Bow1H_U012_VR.png",
+			img: "Gear/Generic/Bow/Bow_U11_ua.(1,4,1,1).png",
 			effects: {
 				4: [
 					{min: 7.343499999999993, max: 8.116499999999993, positive: true, type: "damage"},
@@ -1645,7 +1645,7 @@ var gear = {
 		},
 		{
 			name: "Vanguard Recurve Bow",
-			img: "Gear/Bow1H_R016_VR.png",
+			img: "Gear/Generic/Bow/Bow_R31_ua.(1,4,1,1).png",
 			effects: {
 				5: [
 					{min: 10.507000000000001, max: 11.613000000000003, positive: true, type: "damage"},
@@ -1655,7 +1655,7 @@ var gear = {
 		},
 		{
 			name: "Aged Horn Bow",
-			img: "Gear/Bow1H_U004_VR.png",
+			img: "Gear/Generic/Bow/Bow_U10_ua.(1,4,1,1).png",
 			effects: {
 				3: [
 					{min: 7.56199999999999, max: 8.35799999999999, positive: true, type: "damage"},

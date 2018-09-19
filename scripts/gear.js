@@ -1668,7 +1668,7 @@ var gear = {
 		{name: "None", img: 'Slot/FireThrowerSlot_ua.png'},
 		{
 			name: "Oil Bags of War",
-			img: "Gear/FireThrower2H_L401.png",
+			img: "Gear/Generic/Firepots/Pot_L91_ua.png",
 			effects: {
 				40: [
 					{min: 61.37950000000001, max: 67.84050000000002, positive: true, type: "damage"},
@@ -1679,7 +1679,7 @@ var gear = {
 		},
 		{
 			name: "Oil Flask of Hatshepsut",
-			img: "Gear/FireThrower2H_L001.png",
+			img: "Gear/Generic/Firepots/Pot_L90_ua.png",
 			effects: {
 				40: [
 					{min: 71.66799999999999, max: 79.212, positive: true, type: "damage"},
@@ -1689,7 +1689,7 @@ var gear = {
 		},
 		{
 			name: "Dragon-Fire Flask",
-			img: "Gear/FireThrower2H_E005.png",
+			img: "Gear/Generic/Firepots/Pot_E60_ua.png",
 			effects: {
 				37: [
 					{min: 73.14999999999999, max: 80.85000000000001, positive: true, type: "damage"},
@@ -1707,7 +1707,7 @@ var gear = {
 		},
 		{
 			name: "Naphtha-Filled Bag",
-			img: "Gear/FireThrower2H_E006.png",
+			img: "Gear/Generic/Firepots/Pot_E60v2_ua.png",
 			effects: {
 				40: [
 					{min: 58.52, max: 64.68, positive: true, type: "damage"},
@@ -1718,7 +1718,7 @@ var gear = {
 		},
 		{
 			name: "Prometheus' Fire Pot",
-			img: "Gear/FireThrower2H_E004.png",
+			img: "Gear/Generic/Firepots/Pot_E60v2_ua.png",
 			effects: {
 				40: [
 					{min: 54.1975, max: 59.902499999999996, positive: true, type: "damage"},
@@ -1728,7 +1728,7 @@ var gear = {
 		},
 		{
 			name: "Athenian Acidic Fire Pot",
-			img: "Gear/FireThrower2H_R009.png",
+			img: "Gear/Generic/Firepots/Pot_R30v4_ua.png",
 			effects: {
 				36: [
 					{min: 43.054, max: 47.58600000000001, positive: true, type: "damage"},
@@ -1754,7 +1754,7 @@ var gear = {
 		},
 		{
 			name: "Legion Recruit's Oil Flask",
-			img: "Gear/FireThrower2H_RC01.png",
+			img: "Gear/Generic/Firepots/Pot_R30_ua.png",
 			effects: {
 				40: [
 					{min: 40.061499999999995, max: 44.278499999999994, positive: true, type: "damage"},
@@ -1764,7 +1764,7 @@ var gear = {
 		},
 		{
 			name: "Fine Leather Oil Bag",
-			img: "Gear/FireThrower2H_U003.png",
+			img: "Gear/Generic/Firepots/Pot_U10_ua.png",
 			effects: {
 				27: [
 					{min: 30.400000000000006, max: 33.60000000000001, positive: true, type: "damage"},
@@ -1800,7 +1800,7 @@ var gear = {
 		},
 		{
 			name: "Peerless Oil Bag",
-			img: "Gear/FireThrower2H_U011_VR.png",
+			img: "Gear/Generic/Firepots/Pot_U10v2_ua.png",
 			effects: {
 				40: [
 					{min: 43.88999999999999, max: 48.51, positive: true, type: "damage"},
@@ -1810,7 +1810,7 @@ var gear = {
 		},
 		{
 			name: "Batoshipip's Vicious Fire Flask",
-			img: "Gear/FireThrower2H_RB01.png",
+			img: "Gear/Generic/Firepots/Pot_R30_ua.png",
 			effects: {
 				36: [
 					{min: 43.054, max: 47.58600000000001, positive: true, type: "damage"},
@@ -1832,7 +1832,7 @@ var gear = {
 		},
 		{
 			name: "Greek Fire Pot",
-			img: "Gear/FireThrower2H_E101.png",
+			img: "Gear/Generic/Firepots/Pot_E60_ua.png",
 			effects: {
 				37: [
 					{min: 24.291500000000003, max: 26.848500000000005, positive: true, type: "critical"},
@@ -1842,7 +1842,7 @@ var gear = {
 		},
 		{
 			name: "Scraped Oil Pot",
-			img: "Gear/FireThrower2H_R008.png",
+			img: "Gear/Generic/Firepots/Pot_R30v3_ua.png",
 			effects: {
 				33: [
 					{min: 11.666, max: 12.894000000000002, positive: true, type: "speed"},
@@ -1868,7 +1868,7 @@ var gear = {
 		},
 		{
 			name: "Roof-Burner Oil Bag",
-			img: "Gear/FireThrower2H_E003.png",
+			img: "Gear/Generic/Firepots/Pot_E60_ua.png",
 			effects: {
 				31: [
 					{min: 47.38600000000001, max: 52.37400000000001, positive: true, type: "damage"},
@@ -1904,7 +1904,7 @@ var gear = {
 		},
 		{
 			name: "Extraordinary Glass Fire Pot",
-			img: "Gear/FireThrower2H_U010.png",
+			img: "Gear/Generic/Firepots/Pot_U10_ua.png",
 			effects: {
 				36: [
 					{min: 40.204, max: 44.436, positive: true, type: "damage"},
@@ -1914,7 +1914,7 @@ var gear = {
 		},
 		{
 			name: "Athenian Champion's Fire Pot",
-			img: "Gear/FireThrower2H_E007.png",
+			img: "Gear/Generic/Firepots/Pot_E60v2_ua.png",
 			effects: {
 				30: [
 					{min: 53.48499999999999, max: 59.115, positive: true, type: "damage"},
@@ -1944,7 +1944,7 @@ var gear = {
 		},
 		{
 			name: "Flasks of Banshee Fire",
-			img: "Gear/FireThrower2H_R102.png",
+			img: "Gear/Generic/Firepots/Pot_R30v2_ua.png",
 			effects: {
 				31: [
 					{min: 40.84049999999999, max: 45.1395, positive: true, type: "damage"},
@@ -1970,7 +1970,7 @@ var gear = {
 		},
 		{
 			name: "Oil-Filled Glass Bottle",
-			img: "Gear/FireThrower2H_R007.png",
+			img: "Gear/Generic/Firepots/Pot_R30_ua.png",
 			effects: {
 				32: [
 					{min: 45.163000000000004, max: 49.91700000000001, positive: true, type: "damage"},
@@ -1980,7 +1980,7 @@ var gear = {
 		},
 		{
 			name: "Sail-Burner Fire Pot",
-			img: "Gear/FireThrower2H_E002.png",
+			img: "Gear/Generic/Firepots/Pot_E60v2_ua.png",
 			effects: {
 				27: [
 					{min: 19.25650000000001, max: 21.28350000000001, positive: true, type: "health"},
@@ -2011,7 +2011,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Fire Flask",
-			img: "Gear/FireThrower2H_R010.png",
+			img: "Gear/Generic/Firepots/Pot_R30v4_ua.png",
 			effects: {
 				31: [
 					{min: 43.99449999999999, max: 48.62549999999999, positive: true, type: "damage"},
@@ -2021,7 +2021,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Oil Bag",
-			img: "Gear/FireThrower2H_U009_VR.png",
+			img: "Gear/Generic/Firepots/Pot_U10v2_ua.png",
 			effects: {
 				31: [
 					{min: 35.596499999999985, max: 39.343499999999985, positive: true, type: "damage"},
@@ -2031,7 +2031,7 @@ var gear = {
 		},
 		{
 			name: "Leather Oil Bag",
-			img: "Gear/FireThrower2H_U002.png",
+			img: "Gear/Generic/Firepots/Pot_U10v2_ua.png",
 			effects: {
 				17: [
 					{min: 21.849999999999998, max: 24.150000000000002, positive: true, type: "damage"},
@@ -2082,7 +2082,7 @@ var gear = {
 		},
 		{
 			name: "Flammable Oil Flask",
-			img: "Gear/FireThrower2H_R006.png",
+			img: "Gear/Generic/Firepots/Pot_R30v3_ua.png",
 			effects: {
 				25: [
 					{min: 36.9835, max: 40.8765, positive: true, type: "damage"},
@@ -2108,7 +2108,7 @@ var gear = {
 		},
 		{
 			name: "Securely Tied Oil Bag",
-			img: "Gear/FireThrower2H_R005.png",
+			img: "Gear/Generic/Firepots/Pot_R30v2_ua.png",
 			effects: {
 				22: [
 					{min: 25.146499999999993, max: 27.79349999999999, positive: true, type: "damage"},
@@ -2134,7 +2134,7 @@ var gear = {
 		},
 		{
 			name: "Remarkable Glass Fire Pot",
-			img: "Gear/FireThrower2H_U008.png",
+			img: "Gear/Generic/Firepots/Pot_U10_ua.png",
 			effects: {
 				26: [
 					{min: 30.989000000000004, max: 34.251000000000005, positive: true, type: "damage"},
@@ -2144,7 +2144,7 @@ var gear = {
 		},
 		{
 			name: "Flask of Phoenix Fire",
-			img: "Gear/FireThrower2H_E001.png",
+			img: "Gear/Generic/Firepots/Pot_E60_ua.png",
 			effects: {
 				20: [
 					{min: 33.7155, max: 37.264500000000005, positive: true, type: "damage"},
@@ -2175,7 +2175,7 @@ var gear = {
 		},
 		{
 			name: "Small Clay Pots",
-			img: "Gear/FireThrower2H_R101.png",
+			img: "Gear/Generic/Firepots/Pot_R30_ua.png",
 			effects: {
 				20: [
 					{min: 29.145999999999994, max: 32.214, positive: true, type: "damage"},
@@ -2201,7 +2201,7 @@ var gear = {
 		},
 		{
 			name: "Explosive Fire Pot",
-			img: "Gear/FireThrower2H_R004.png",
+			img: "Gear/Generic/Firepots/Pot_R30v4_ua.png",
 			effects: {
 				18: [
 					{min: 29.00349999999999, max: 32.05649999999999, positive: true, type: "damage"},
@@ -2227,7 +2227,7 @@ var gear = {
 		},
 		{
 			name: "Superior Oil Bag",
-			img: "Gear/FireThrower2H_U007_VR.png",
+			img: "Gear/Generic/Firepots/Pot_U10v2_ua.png",
 			effects: {
 				21: [
 					{min: 26.38149999999998, max: 29.158499999999982, positive: true, type: "damage"},
@@ -2237,7 +2237,7 @@ var gear = {
 		},
 		{
 			name: "Hero's Fire Pot",
-			img: "Gear/FireThrower2H_U201.png",
+			img: "Gear/Generic/Firepots/Pot_U10_ua.png",
 			effects: {
 				20: [
 					{min: 21.745499999999986, max: 24.034499999999987, positive: true, type: "damage"},
@@ -2247,7 +2247,7 @@ var gear = {
 		},
 		{
 			name: "Fiery Oil-Filled Bag",
-			img: "Gear/FireThrower2H_R003.png",
+			img: "Gear/Generic/Firepots/Pot_R30v3_ua.png",
 			effects: {
 				15: [
 					{min: 22.248999999999995, max: 24.590999999999994, positive: true, type: "damage"},
@@ -2273,7 +2273,7 @@ var gear = {
 		},
 		{
 			name: "Splattering Oil Flask",
-			img: "Gear/FireThrower2H_R002.png",
+			img: "Gear/Generic/Firepots/Pot_R30v2_ua.png",
 			effects: {
 				12: [
 					{min: 21.93549999999999, max: 24.244499999999988, positive: true, type: "damage"},
@@ -2299,7 +2299,7 @@ var gear = {
 		},
 		{
 			name: "Animal-Hide Oil Bag",
-			img: "Gear/FireThrower2H_U001.png",
+			img: "Gear/Generic/Firepots/Pot_U10_ua.png",
 			effects: {
 				7: [
 					{min: 13.300000000000011, max: 14.700000000000014, positive: true, type: "damage"},
@@ -2335,7 +2335,7 @@ var gear = {
 		},
 		{
 			name: "Fine Clay Fire Pot",
-			img: "Gear/FireThrower2H_U006.png",
+			img: "Gear/Generic/Firepots/Pot_U10_ua.png",
 			effects: {
 				16: [
 					{min: 21.954499999999985, max: 24.265499999999985, positive: true, type: "damage"},
@@ -2345,7 +2345,7 @@ var gear = {
 		},
 		{
 			name: "Cured Leather Oil Bag",
-			img: "Gear/FireThrower2H_U101.png",
+			img: "Gear/Generic/Firepots/Pot_U10v2_ua.png",
 			effects: {
 				9: [
 					{min: 10.250499999999988, max: 11.329499999999989, positive: true, type: "damage"},
@@ -2371,7 +2371,7 @@ var gear = {
 		},
 		{
 			name: "Thracian Fire Pot",
-			img: "Gear/FireThrower2H_R001.png",
+			img: "Gear/Generic/Firepots/Pot_R30_ua.png",
 			effects: {
 				7: [
 					{min: 12.226500000000003, max: 13.513500000000006, positive: true, type: "damage"},
@@ -2401,7 +2401,7 @@ var gear = {
 		},
 		{
 			name: "Standard Tanned Oil Bag",
-			img: "Gear/FireThrower2H_U005_VR.png",
+			img: "Gear/Generic/Firepots/Pot_U10v2_ua.png",
 			effects: {
 				11: [
 					{min: 17.299499999999995, max: 19.120499999999993, positive: true, type: "damage"},
@@ -2411,7 +2411,7 @@ var gear = {
 		},
 		{
 			name: "Aged Clay Fire Pot",
-			img: "Gear/FireThrower2H_U004.png",
+			img: "Gear/Generic/Firepots/Pot_U10_ua.png",
 			effects: {
 				6: [
 					{min: 8.293500000000014, max: 9.166500000000015, positive: true, type: "damage"},

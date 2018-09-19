@@ -3040,7 +3040,7 @@ var gear = {
 		{name: "None", img: 'Slot/GreatAxeSlot_ua.png'},
 		{
 			name: "Champion's Axe",
-			img: "Gear/Axe2H_L401.png",
+			img: "Gear/Generic/Axes/Axe_L90_ua.png",
 			effects: {
 				40: [
 					{min: 71.66799999999999, max: 79.212, positive: true, type: "damage"},
@@ -3050,7 +3050,7 @@ var gear = {
 		},
 		{
 			name: "Divine Axe",
-			img: "Gear/Axe2H_E005_LEG.png",
+			img: "Gear/Generic/Axes/Axe_L90_ua.png",
 			effects: {
 				40: [
 					{min: 37.71499999999998, max: 41.68499999999998, positive: true, type: "critical"},
@@ -3061,7 +3061,7 @@ var gear = {
 		},
 		{
 			name: "Double-Edged Axe",
-			img: "Gear/Axe2H_L402.png",
+			img: "Gear/Generic/Axes/Axe_L91_ua.png",
 			effects: {
 				40: [
 					{min: 71.66799999999999, max: 79.212, positive: true, type: "damage"},
@@ -3071,7 +3071,7 @@ var gear = {
 		},
 		{
 			name: "Amun's Axe of Ferocity",
-			img: "Gear/Axe2H_E008.png",
+			img: "Gear/Generic/Axes/Axe_E60_ua.png",
 			effects: {
 				37: [
 					{min: 73.14999999999999, max: 80.85000000000001, positive: true, type: "damage"},
@@ -3089,7 +3089,7 @@ var gear = {
 		},
 		{
 			name: "Golden Winged Axe of Ra",
-			img: "Gear/Axe2H_E009.png",
+			img: "Gear/Generic/Axes/Axe_E60_ua.png",
 			effects: {
 				37: [
 					{min: 50.663500000000006, max: 55.99650000000002, positive: true, type: "damage"},
@@ -3111,7 +3111,7 @@ var gear = {
 		},
 		{
 			name: "Legendary Whirlwind Axe",
-			img: "Gear/Axe2H_E006.png",
+			img: "Gear/Generic/Axes/Axe_E60_ua.png",
 			effects: {
 				37: [
 					{min: 54.70100000000001, max: 60.45900000000002, positive: true, type: "damage"},
@@ -3137,7 +3137,7 @@ var gear = {
 		},
 		{
 			name: "The Executioners Axe",
-			img: "Gear/Axe2H_E007.png",
+			img: "Gear/Generic/Axes/Axe_E60_ua.png",
 			effects: {
 				40: [
 					{min: 58.52, max: 64.68, positive: true, type: "damage"},
@@ -3148,7 +3148,7 @@ var gear = {
 		},
 		{
 			name: "Tarnished Executioner's Axe",
-			img: "Gear/Axe2H_R013.png",
+			img: "Gear/Generic/Axes/Axe_R30_ua.png",
 			effects: {
 				36: [
 					{min: 19.285000000000007, max: 21.31500000000001, positive: true, type: "health"},
@@ -3174,7 +3174,7 @@ var gear = {
 		},
 		{
 			name: "Iron Great Axe",
-			img: "Gear/Axe2H_U003.png",
+			img: "Gear/Generic/Axes/Axe_U10_ua.png",
 			effects: {
 				27: [
 					{min: 30.400000000000006, max: 33.60000000000001, positive: true, type: "damage"},
@@ -3210,7 +3210,7 @@ var gear = {
 		},
 		{
 			name: "Platanos' War Axe",
-			img: "Gear/Axe2H_EA01.png",
+			img: "Gear/Generic/Axes/Axe_E60_ua.png",
 			effects: {
 				34: [
 					{min: 51.233500000000014, max: 56.626500000000014, positive: true, type: "damage"},
@@ -3246,7 +3246,7 @@ var gear = {
 		},
 		{
 			name: "Bloodied Heavy Axe",
-			img: "Gear/Axe2H_R012.png",
+			img: "Gear/Generic/Axes/Axe_R32_ua.png",
 			effects: {
 				34: [
 					{min: 47.5, max: 52.5, positive: true, type: "damage"},
@@ -3272,7 +3272,7 @@ var gear = {
 		},
 		{
 			name: "Limb Chopper",
-			img: "Gear/Axe2H_E005.png",
+			img: "Gear/Generic/Axes/Axe_E60_ua.png",
 			effects: {
 				33: [
 					{min: 31.995999999999977, max: 35.363999999999976, positive: true, type: "critical"},
@@ -3303,7 +3303,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Broad Axe",
-			img: "Gear/Axe2H_U007.png",
+			img: "Gear/Generic/Axes/Axe_U11_ua.png",
 			effects: {
 				36: [
 					{min: 40.204, max: 44.436, positive: true, type: "damage"},
@@ -3313,7 +3313,7 @@ var gear = {
 		},
 		{
 			name: "Egyptian Champion's Axe",
-			img: "Gear/Axe2H_E010.png",
+			img: "Gear/Generic/Axes/Axe_E60_ua.png",
 			effects: {
 				31: [
 					{min: 54.976499999999994, max: 60.7635, positive: true, type: "damage"},
@@ -3339,7 +3339,7 @@ var gear = {
 		},
 		{
 			name: "General's Iron Great Axe",
-			img: "Gear/Axe2H_R011.png",
+			img: "Gear/Generic/Axes/Axe_R31_ua.png",
 			effects: {
 				31: [
 					{min: 43.99449999999999, max: 48.62549999999999, positive: true, type: "damage"},
@@ -3365,7 +3365,7 @@ var gear = {
 		},
 		{
 			name: "Osiris' Axe of the Underworld",
-			img: "Gear/Axe2H_E102.png",
+			img: "Gear/Generic/Axes/Axe_E60_ua.png",
 			effects: {
 				34: [
 					{min: 47.481, max: 52.479000000000006, positive: true, type: "damage"},
@@ -3375,7 +3375,7 @@ var gear = {
 		},
 		{
 			name: "Bloody Butcher's Great Axe",
-			img: "Gear/Axe2H_E004.png",
+			img: "Gear/Generic/Axes/Axe_E60_ua.png",
 			effects: {
 				29: [
 					{min: 45.12500000000001, max: 49.87500000000001, positive: true, type: "damage"},
@@ -3406,7 +3406,7 @@ var gear = {
 		},
 		{
 			name: "Rune-Bound War Axe",
-			img: "Gear/Axe2H_R010.png",
+			img: "Gear/Generic/Axes/Axe_R30_ua.png",
 			effects: {
 				33: [
 					{min: 46.3315, max: 51.20850000000001, positive: true, type: "damage"},
@@ -3416,7 +3416,7 @@ var gear = {
 		},
 		{
 			name: "Whirlwind Great Axe",
-			img: "Gear/Axe2H_R009_SR.png",
+			img: "Gear/Generic/Axes/Axe_R32_ua.png",
 			effects: {
 				28: [
 					{min: 22.904499999999985, max: 25.315499999999986, positive: true, type: "health"},
@@ -3442,7 +3442,7 @@ var gear = {
 		},
 		{
 			name: "Soldiers' War Axe",
-			img: "Gear/Axe2H_R008.png",
+			img: "Gear/Generic/Axes/Axe_R31_ua.png",
 			effects: {
 				27: [
 					{min: 39.32049999999999, max: 43.4595, positive: true, type: "damage"},
@@ -3468,7 +3468,7 @@ var gear = {
 		},
 		{
 			name: "Bronze Great Axe",
-			img: "Gear/Axe2H_U002.png",
+			img: "Gear/Generic/Axes/Axe_U10_ua.png",
 			effects: {
 				17: [
 					{min: 21.849999999999998, max: 24.150000000000002, positive: true, type: "damage"},
@@ -3519,7 +3519,7 @@ var gear = {
 		},
 		{
 			name: "Sandstorm Sunderer",
-			img: "Gear/Axe2H_U103.png",
+			img: "Gear/Generic/Axes/Axe_U11_ua.png",
 			effects: {
 				31: [
 					{min: 30.105499999999996, max: 33.274499999999996, positive: true, type: "damage"},
@@ -3529,7 +3529,7 @@ var gear = {
 		},
 		{
 			name: "The Great Cleaver",
-			img: "Gear/Axe2H_E003.png",
+			img: "Gear/Generic/Axes/Axe_E60_ua.png",
 			effects: {
 				26: [
 					{min: 41.24900000000002, max: 45.591000000000015, positive: true, type: "damage"},
@@ -3560,7 +3560,7 @@ var gear = {
 		},
 		{
 			name: "Silvered Long Axe",
-			img: "Gear/Axe2H_R007.png",
+			img: "Gear/Generic/Axes/Axe_R30_ua.png",
 			effects: {
 				25: [
 					{min: 36.9835, max: 40.8765, positive: true, type: "damage"},
@@ -3586,7 +3586,7 @@ var gear = {
 		},
 		{
 			name: "Ra's Dawnbringer Axe",
-			img: "Gear/Axe2H_E101.png",
+			img: "Gear/Generic/Axes/Axe_E60_ua.png",
 			effects: {
 				27: [
 					{min: 49.29549999999999, max: 54.4845, positive: true, type: "damage"},
@@ -3596,7 +3596,7 @@ var gear = {
 		},
 		{
 			name: "Ancient Naqada Great Axe",
-			img: "Gear/Axe2H_R006.png",
+			img: "Gear/Generic/Axes/Axe_R32_ua.png",
 			effects: {
 				22: [
 					{min: 33.47799999999998, max: 37.00199999999998, positive: true, type: "damage"},
@@ -3622,7 +3622,7 @@ var gear = {
 		},
 		{
 			name: "Superior Broad Axe",
-			img: "Gear/Axe2H_U006.png",
+			img: "Gear/Generic/Axes/Axe_U10_ua.png",
 			effects: {
 				26: [
 					{min: 30.989000000000004, max: 34.251000000000005, positive: true, type: "damage"},
@@ -3632,7 +3632,7 @@ var gear = {
 		},
 		{
 			name: "Ravager Axe of the Jackal",
-			img: "Gear/Axe2H_E002.png",
+			img: "Gear/Generic/Axes/Axe_E60_ua.png",
 			effects: {
 				21: [
 					{min: 35.017, max: 38.70300000000001, positive: true, type: "damage"},
@@ -3658,7 +3658,7 @@ var gear = {
 		},
 		{
 			name: "Ravager Heavy Axe",
-			img: "Gear/Axe2H_R005_SR.png",
+			img: "Gear/Generic/Axes/Axe_R31_ua.png",
 			effects: {
 				20: [
 					{min: 31.140999999999988, max: 34.41899999999999, positive: true, type: "damage"},
@@ -3684,7 +3684,7 @@ var gear = {
 		},
 		{
 			name: "Blessed Silver Great Axe",
-			img: "Gear/Axe2H_R004.png",
+			img: "Gear/Generic/Axes/Axe_R32_ua.png",
 			effects: {
 				19: [
 					{min: 30.18149999999999, max: 33.35849999999999, positive: true, type: "damage"},
@@ -3710,7 +3710,7 @@ var gear = {
 		},
 		{
 			name: "Egyptian Soldiers' Axe",
-			img: "Gear/Axe2H_R015.png",
+			img: "Gear/Generic/Axes/Axe_R30_ua.png",
 			effects: {
 				19: [
 					{min: 34.01000000000001, max: 37.59000000000001, positive: true, type: "damage"},
@@ -3731,7 +3731,7 @@ var gear = {
 		},
 		{
 			name: "Blood Drinker",
-			img: "Gear/Axe2H_E001.png",
+			img: "Gear/Generic/Axes/Axe_E60_ua.png",
 			effects: {
 				17: [
 					{min: 9.737500000000002, max: 10.762500000000005, positive: true, type: "speed"},
@@ -3752,7 +3752,7 @@ var gear = {
 		},
 		{
 			name: "Obsidian-Edged Executioner",
-			img: "Gear/Axe2H_U102.png",
+			img: "Gear/Generic/Axes/Axe_U11_ua.png",
 			effects: {
 				21: [
 					{min: 22.50549999999999, max: 24.87449999999999, positive: true, type: "damage"},
@@ -3762,7 +3762,7 @@ var gear = {
 		},
 		{
 			name: "Anubis' Axe of Culling",
-			img: "Gear/Axe2H_R101.png",
+			img: "Gear/Generic/Axes/Axe_R31_ua.png",
 			effects: {
 				16: [
 					{min: 26.647499999999997, max: 29.452499999999997, positive: true, type: "damage"},
@@ -3788,7 +3788,7 @@ var gear = {
 		},
 		{
 			name: "Crippling Great Axe",
-			img: "Gear/Axe2H_R003.png",
+			img: "Gear/Generic/Axes/Axe_R30_ua.png",
 			effects: {
 				13: [
 					{min: 23.113499999999984, max: 25.546499999999984, positive: true, type: "damage"},
@@ -3826,7 +3826,7 @@ var gear = {
 		},
 		{
 			name: "Hero's Axe",
-			img: "Gear/Axe2H_U201.png",
+			img: "Gear/Generic/Axes/Axe_U10_ua.png",
 			effects: {
 				20: [
 					{min: 21.745499999999986, max: 24.034499999999987, positive: true, type: "damage"},
@@ -3836,7 +3836,7 @@ var gear = {
 		},
 		{
 			name: "Copper Great Axe",
-			img: "Gear/Axe2H_U001.png",
+			img: "Gear/Generic/Axes/Axe_U10_ua.png",
 			effects: {
 				2: [
 					{min: 9.024999999999997, max: 9.974999999999996, positive: true, type: "damage"},
@@ -3887,7 +3887,7 @@ var gear = {
 		},
 		{
 			name: "Fine Broad Axe",
-			img: "Gear/Axe2H_U005.png",
+			img: "Gear/Generic/Axes/Axe_U11_ua.png",
 			effects: {
 				16: [
 					{min: 21.954499999999985, max: 24.265499999999985, positive: true, type: "damage"},
@@ -3897,7 +3897,7 @@ var gear = {
 		},
 		{
 			name: "Weighted Silver Axe",
-			img: "Gear/Axe2H_R002.png",
+			img: "Gear/Generic/Axes/Axe_R32_ua.png",
 			effects: {
 				11: [
 					{min: 23.37, max: 25.830000000000002, positive: true, type: "damage"},
@@ -3918,7 +3918,7 @@ var gear = {
 		},
 		{
 			name: "Nubian Tempest Axe",
-			img: "Gear/Axe2H_R014.png",
+			img: "Gear/Generic/Axes/Axe_R31_ua.png",
 			effects: {
 				13: [
 					{min: 23.113499999999984, max: 25.546499999999984, positive: true, type: "damage"},
@@ -3928,7 +3928,7 @@ var gear = {
 		},
 		{
 			name: "Balanced Battle Axe",
-			img: "Gear/Axe2H_U101.png",
+			img: "Gear/Generic/Axes/Axe_U11_ua.png",
 			effects: {
 				9: [
 					{min: 13.385500000000002, max: 14.794500000000005, positive: true, type: "damage"},
@@ -3954,7 +3954,7 @@ var gear = {
 		},
 		{
 			name: "Badari Guard Axe",
-			img: "Gear/Axe2H_R001.png",
+			img: "Gear/Generic/Axes/Axe_R30_ua.png",
 			effects: {
 				7: [
 					{min: 16.045499999999983, max: 17.734499999999983, positive: true, type: "damage"},
@@ -3980,7 +3980,7 @@ var gear = {
 		},
 		{
 			name: "Selket's Poisoned Axe",
-			img: "Gear/Axe2H_R016_SR.png",
+			img: "Gear/Generic/Axes/Axe_R31_ua.png",
 			effects: {
 				8: [
 					{min: 14.762999999999998, max: 16.317, positive: true, type: "damage"},
@@ -3990,7 +3990,7 @@ var gear = {
 		},
 		{
 			name: "Freelancer's Relentless Axe",
-			img: "Gear/Axe2H_R017_SR.png",
+			img: "Gear/Generic/Axes/Axe_R30_ua.png",
 			effects: {
 				4: [
 					{min: 10.80149999999999, max: 11.93849999999999, positive: true, type: "damage"},
@@ -4004,7 +4004,7 @@ var gear = {
 		},
 		{
 			name: "Primitive Broad Axe",
-			img: "Gear/Axe2H_U004.png",
+			img: "Gear/Generic/Axes/Axe_U10_ua.png",
 			effects: {
 				6: [
 					{min: 14.155000000000001, max: 15.645000000000003, positive: true, type: "damage"},

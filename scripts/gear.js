@@ -4015,8 +4015,8 @@ var gear = {
 	heavySpear: [
 		{name: "None", img: 'Slot/2hSpearSlot_ua.png'},
 		{
-			name: "Athena´s Long Spear",
-			img: "Gear/Spears2H_ALS.png",
+			name: "Athena's Long Spear",
+			img: "Gear/Celeste/Generic/Spears2H/Spears2H_ALS_ua.png",
 			effects: {
 				40: [
 					{min: 59.74550000000002, max: 66.03450000000002, positive: true, type: "damage"},
@@ -4027,7 +4027,7 @@ var gear = {
 		},
 		{
 			name: "Divine Spear",
-			img: "Gear/Spear2H_E005_LEG.png",
+			img: "Gear/Generic/Spears2H/Spear2H_L90_ua.png",
 			effects: {
 				40: [
 					{min: 25.97300000000001, max: 28.70700000000001, positive: true, type: "damage"},
@@ -4038,7 +4038,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Spear of Enkidu",
-			img: "Gear/Spear2H_L002_SR.png",
+			img: "Gear/Generic/Spears2H/Spear2H_L90_ua.png",
 			effects: {
 				40: [
 					{min: 71.66799999999999, max: 79.212, positive: true, type: "damage"},
@@ -4048,7 +4048,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Spear of Gilgamesh",
-			img: "Gear/Spear2H_L001.png",
+			img: "Gear/Generic/Spears2H/Spear2H_L90_ua.png",
 			effects: {
 				40: [
 					{min: 71.66799999999999, max: 79.212, positive: true, type: "damage"},
@@ -4058,7 +4058,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Spear of Sacrifice",
-			img: "Gear/Spears2H_HSOS.png",
+			img: "Gear/Celeste/Generic/Spears2H/Spears2H_HSOS_ua.png",
 			effects: {
 				40: [
 					{min: 59.337, max: 65.58300000000001, positive: true, type: "damage"},
@@ -4069,7 +4069,7 @@ var gear = {
 		},
 		{
 			name: "Crete Cohort Heavy Spear",
-			img: "Gear/Spear2H_EA01.png",
+			img: "Gear/Generic/Spears2H/Spear2H_E61_ua.png",
 			effects: {
 				40: [
 					{min: 58.52, max: 64.68, positive: true, type: "damage"},
@@ -4080,7 +4080,7 @@ var gear = {
 		},
 		{
 			name: "Cyprus Cohort Heavy Spear",
-			img: "Gear/Spear2H_E015.png",
+			img: "Gear/Generic/Spears2H/Spear2H_E62_ua.png",
 			effects: {
 				40: [
 					{min: 33.39249999999999, max: 36.90749999999999, positive: true, type: "damage"},
@@ -4090,7 +4090,7 @@ var gear = {
 		},
 		{
 			name: "Delian Preceptor's Heavy Spear",
-			img: "Gear/Spear2H_EC01.png",
+			img: "Gear/Generic/Spears2H/Spear2H_E60_ua.png",
 			effects: {
 				40: [
 					{min: 58.52, max: 64.68, positive: true, type: "damage"},
@@ -4100,7 +4100,7 @@ var gear = {
 		},
 		{
 			name: "Gold Horse-Catcher",
-			img: "Gear/Spear2H_E007_SR.png",
+			img: "Gear/Generic/Spears2H/Spear2H_E64_ua.png",
 			effects: {
 				40: [
 					{min: 58.52, max: 64.68, positive: true, type: "damage"},
@@ -4111,7 +4111,7 @@ var gear = {
 		},
 		{
 			name: "Leonidas' Horse Guard Spear",
-			img: "Gear/Spear2H_E008.png",
+			img: "Gear/Generic/Spears2H/Spear2H_E60_ua.png",
 			effects: {
 				40: [
 					{min: 41.220499999999994, max: 45.55949999999999, positive: true, type: "damage"},
@@ -4121,7 +4121,7 @@ var gear = {
 		},
 		{
 			name: "Pharaoh's Spear of Destiny",
-			img: "Gear/Spear2H_E006.png",
+			img: "Gear/Generic/Spears2H/Spear2H_E63_ua.png",
 			effects: {
 				37: [
 					{min: 73.14999999999999, max: 80.85000000000001, positive: true, type: "damage"},
@@ -4139,7 +4139,7 @@ var gear = {
 		},
 		{
 			name: "Spartan Champion's Heavy Spear",
-			img: "Gear/Spear2H_E013.png",
+			img: "Gear/Generic/Spears2H/Spear2H_E63_ua.png",
 			effects: {
 				40: [
 					{min: 68.39999999999996, max: 75.59999999999998, positive: true, type: "damage"},
@@ -4149,7 +4149,7 @@ var gear = {
 		},
 		{
 			name: "Legion Recruit's Heavy Spear",
-			img: "Gear/Spear2H_RC01.png",
+			img: "Gear/Generic/Spears2H/Spear2H_R33_ua.png",
 			effects: {
 				40: [
 					{min: 11.57099999999999, max: 12.78899999999999, positive: true, type: "speed"},
@@ -4159,7 +4159,7 @@ var gear = {
 		},
 		{
 			name: "Persian Thrusting Long Spear",
-			img: "Gear/Spear2H_R013_SR.png",
+			img: "Gear/Generic/Spears2H/Spear2H_R34_ua.png",
 			effects: {
 				36: [
 					{min: 40.27050000000001, max: 44.50950000000002, positive: true, type: "damage"},
@@ -4185,7 +4185,7 @@ var gear = {
 		},
 		{
 			name: "Cedar Long Spear",
-			img: "Gear/Spear2H_U003.png",
+			img: "Gear/Generic/Spears2H/Spear2H_U13_ua.png",
 			effects: {
 				27: [
 					{min: 30.400000000000006, max: 33.60000000000001, positive: true, type: "damage"},
@@ -4221,7 +4221,7 @@ var gear = {
 		},
 		{
 			name: "Peerless Broadhead Spear",
-			img: "Gear/Spear2H_U013.png",
+			img: "Gear/Generic/Spears2H/Spear2H_U13_ua.png",
 			effects: {
 				40: [
 					{min: 43.88999999999999, max: 48.51, positive: true, type: "damage"},
@@ -4231,7 +4231,7 @@ var gear = {
 		},
 		{
 			name: "Agamemnon's Heavy Spear",
-			img: "Gear/Spear2H_EB01.png",
+			img: "Gear/Generic/Spears2H/Spear2H_E63_ua.png",
 			effects: {
 				36: [
 					{min: 62.06349999999998, max: 68.59649999999999, positive: true, type: "damage"},
@@ -4253,7 +4253,7 @@ var gear = {
 		},
 		{
 			name: "Ra's Golden Spear of the Sun",
-			img: "Gear/Spear2H_E005.png",
+			img: "Gear/Generic/Spears2H/Spear2H_E62_ua.png",
 			effects: {
 				35: [
 					{min: 23.1705, max: 25.6095, positive: true, type: "damage"},
@@ -4284,7 +4284,7 @@ var gear = {
 		},
 		{
 			name: "Thoth's Silver Spear of the Moon",
-			img: "Gear/Spear2H_R012.png",
+			img: "Gear/Generic/Spears2H/Spear2H_R33_ua.png",
 			effects: {
 				33: [
 					{min: 46.3315, max: 51.20850000000001, positive: true, type: "damage"},
@@ -4310,7 +4310,7 @@ var gear = {
 		},
 		{
 			name: "Andrasta's Vengeful Impaler",
-			img: "Gear/Spear2H_E102.png",
+			img: "Gear/Generic/Spears2H/Spear2H_E61_ua.png",
 			effects: {
 				36: [
 					{min: 71.44, max: 78.96000000000001, positive: true, type: "damage"},
@@ -4319,7 +4319,7 @@ var gear = {
 		},
 		{
 			name: "Argos Cohort Heavy Spear",
-			img: "Gear/Spear2H_E012_SR.png",
+			img: "Gear/Generic/Spears2H/Spear2H_E60_ua.png",
 			effects: {
 				35: [
 					{min: 52.51599999999999, max: 58.044, positive: true, type: "damage"},
@@ -4330,7 +4330,7 @@ var gear = {
 		},
 		{
 			name: "Egyptian Champion's Long Spear",
-			img: "Gear/Spear2H_E014.png",
+			img: "Gear/Generic/Spears2H/Spear2H_E64_ua.png",
 			effects: {
 				31: [
 					{min: 36.974, max: 40.86600000000001, positive: true, type: "damage"},
@@ -4356,7 +4356,7 @@ var gear = {
 		},
 		{
 			name: "Jason's Long Spear",
-			img: "Gear/Spear2H_E004_SR.png",
+			img: "Gear/Generic/Spears2H/Spear2H_E62_ua.png",
 			effects: {
 				31: [
 					{min: 47.38600000000001, max: 52.37400000000001, positive: true, type: "damage"},
@@ -4387,7 +4387,7 @@ var gear = {
 		},
 		{
 			name: "Consummate Thrusting Spear",
-			img: "Gear/Spear2H_U015.png",
+			img: "Gear/Generic/Spears2H/Spear2H_U12_ua.png",
 			effects: {
 				35: [
 					{min: 39.28249999999999, max: 43.4175, positive: true, type: "damage"},
@@ -4397,7 +4397,7 @@ var gear = {
 		},
 		{
 			name: "Immaculate Long Spear",
-			img: "Gear/Spear2H_U012.png",
+			img: "Gear/Generic/Spears2H/Spear2H_U11_ua.png",
 			effects: {
 				35: [
 					{min: 39.28249999999999, max: 43.4175, positive: true, type: "damage"},
@@ -4407,7 +4407,7 @@ var gear = {
 		},
 		{
 			name: "Macedonian Heavy Spear",
-			img: "Gear/Spear2H_R011.png",
+			img: "Gear/Generic/Spears2H/Spear2H_R32_ua.png",
 			effects: {
 				29: [
 					{min: -10.237500000000004, max: -9.262500000000003, positive: true, type: "cost"},
@@ -4433,7 +4433,7 @@ var gear = {
 		},
 		{
 			name: "Horus' Immortal Spear",
-			img: "Gear/Spear2H_E011_SR.png",
+			img: "Gear/Generic/Spears2H/Spear2H_E61_ua.png",
 			effects: {
 				27: [
 					{min: 42.541, max: 47.019000000000005, positive: true, type: "damage"},
@@ -4464,7 +4464,7 @@ var gear = {
 		},
 		{
 			name: "Oak Long Spear",
-			img: "Gear/Spear2H_U002.png",
+			img: "Gear/Generic/Spears2H/Spear2H_U12_ua.png",
 			effects: {
 				17: [
 					{min: 21.849999999999998, max: 24.150000000000002, positive: true, type: "damage"},
@@ -4515,7 +4515,7 @@ var gear = {
 		},
 		{
 			name: "Set's War Spear of Death",
-			img: "Gear/Spear2H_E003.png",
+			img: "Gear/Generic/Spears2H/Spear2H_E60_ua.png",
 			effects: {
 				26: [
 					{min: 41.24900000000002, max: 45.591000000000015, positive: true, type: "damage"},
@@ -4546,7 +4546,7 @@ var gear = {
 		},
 		{
 			name: "Gleaming Long Spear",
-			img: "Gear/Spear2H_R010.png",
+			img: "Gear/Generic/Spears2H/Spear2H_R31_ua.png",
 			effects: {
 				30: [
 					{min: 42.825999999999986, max: 47.33399999999998, positive: true, type: "damage"},
@@ -4556,7 +4556,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Broadhead Spear",
-			img: "Gear/Spear2H_U011.png",
+			img: "Gear/Generic/Spears2H/Spear2H_U10_ua.png",
 			effects: {
 				30: [
 					{min: 34.675, max: 38.325, positive: true, type: "damage"},
@@ -4566,7 +4566,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Spartan Hunting Spear",
-			img: "Gear/Spear2H_R009_SR.png",
+			img: "Gear/Generic/Spears2H/Spear2H_R30_ua.png",
 			effects: {
 				25: [
 					{min: 36.9835, max: 40.8765, positive: true, type: "damage"},
@@ -4592,7 +4592,7 @@ var gear = {
 		},
 		{
 			name: "Areadbhar, Lugh's Bloodthirsty Spear",
-			img: "Gear/Spear2H_E101.png",
+			img: "Gear/Generic/Spears2H/Spear2H_E64_ua.png",
 			effects: {
 				27: [
 					{min: 36.35649999999998, max: 40.18349999999998, positive: true, type: "damage"},
@@ -4602,7 +4602,7 @@ var gear = {
 		},
 		{
 			name: "Long Athenian Hunting Spear",
-			img: "Gear/Spear2H_R007.png",
+			img: "Gear/Generic/Spears2H/Spear2H_R35_ua.png",
 			effects: {
 				23: [
 					{min: 34.646499999999996, max: 38.2935, positive: true, type: "damage"},
@@ -4628,7 +4628,7 @@ var gear = {
 		},
 		{
 			name: "Naqada Heavy Spear",
-			img: "Gear/Spear2H_R008.png",
+			img: "Gear/Generic/Spears2H/Spear2H_R36_ua.png",
 			effects: {
 				26: [
 					{min: 38.151999999999994, max: 42.168, positive: true, type: "damage"},
@@ -4642,7 +4642,7 @@ var gear = {
 		},
 		{
 			name: "Anubis' Undying Spear",
-			img: "Gear/Spear2H_E010_SR.png",
+			img: "Gear/Generic/Spears2H/Spear2H_E63_ua.png",
 			effects: {
 				22: [
 					{min: 36.31850000000001, max: 40.141500000000015, positive: true, type: "damage"},
@@ -4673,7 +4673,7 @@ var gear = {
 		},
 		{
 			name: "Black Enameled Heavy Spear",
-			img: "Gear/Spear2H_E002_SR.png",
+			img: "Gear/Generic/Spears2H/Spear2H_E62_ua.png",
 			effects: {
 				22: [
 					{min: 6.403000000000012, max: 7.077000000000013, positive: true, type: "speed"},
@@ -4704,7 +4704,7 @@ var gear = {
 		},
 		{
 			name: "Grand Long Spear",
-			img: "Gear/Spear2H_U010.png",
+			img: "Gear/Generic/Spears2H/Spear2H_U12_ua.png",
 			effects: {
 				25: [
 					{min: 30.0675, max: 33.2325, positive: true, type: "damage"},
@@ -4714,7 +4714,7 @@ var gear = {
 		},
 		{
 			name: "Superb Thrusting Spear",
-			img: "Gear/Spear2H_U014.png",
+			img: "Gear/Generic/Spears2H/Spear2H_U13_ua.png",
 			effects: {
 				25: [
 					{min: 22.714499999999987, max: 25.105499999999985, positive: true, type: "damage"},
@@ -4724,7 +4724,7 @@ var gear = {
 		},
 		{
 			name: "Egyptian Soldiers' Long Spear",
-			img: "Gear/Spear2H_R016.png",
+			img: "Gear/Generic/Spears2H/Spear2H_R34_ua.png",
 			effects: {
 				19: [
 					{min: 30.18149999999999, max: 33.35849999999999, positive: true, type: "damage"},
@@ -4750,7 +4750,7 @@ var gear = {
 		},
 		{
 			name: "Cruel Heavy Spear",
-			img: "Gear/Spear2H_RD01.png",
+			img: "Gear/Generic/Spears2H/Spear2H_E36_ua.png",
 			effects: {
 				22: [
 					{min: 33.7155, max: 37.264500000000005, positive: true, type: "damage"},
@@ -4760,7 +4760,7 @@ var gear = {
 		},
 		{
 			name: "Horse-Slaying Heavy Spear",
-			img: "Gear/Spear2H_R006.png",
+			img: "Gear/Generic/Spears2H/Spear2H_R32_ua.png",
 			effects: {
 				22: [
 					{min: 33.7155, max: 37.264500000000005, positive: true, type: "damage"},
@@ -4770,7 +4770,7 @@ var gear = {
 		},
 		{
 			name: "Hades' Underworld Spear",
-			img: "Gear/Spear2H_E009_SR.png",
+			img: "Gear/Generic/Spears2H/Spear2H_E61_ua.png",
 			effects: {
 				17: [
 					{min: 30.00100000000001, max: 33.15900000000001, positive: true, type: "damage"},
@@ -4801,7 +4801,7 @@ var gear = {
 		},
 		{
 			name: "Setma's Snake-Tooth Spear",
-			img: "Gear/Spear2H_E001.png",
+			img: "Gear/Generic/Spears2H/Spear2H_E60_ua.png",
 			effects: {
 				17: [
 					{min: 30.00100000000001, max: 33.15900000000001, positive: true, type: "damage"},
@@ -4832,7 +4832,7 @@ var gear = {
 		},
 		{
 			name: "Obsidian-Tipped Spear",
-			img: "Gear/Spear2H_R101.png",
+			img: "Gear/Generic/Spears2H/Spear2H_R31_ua.png",
 			effects: {
 				21: [
 					{min: 26.846999999999998, max: 29.673, positive: true, type: "damage"},
@@ -4842,7 +4842,7 @@ var gear = {
 		},
 		{
 			name: "Spartan Soldier Heavy Spear",
-			img: "Gear/Spear2H_R015.png",
+			img: "Gear/Generic/Spears2H/Spear2H_R33_ua.png",
 			effects: {
 				21: [
 					{min: 9.832499999999992, max: 10.867499999999993, positive: true, type: "range"},
@@ -4852,7 +4852,7 @@ var gear = {
 		},
 		{
 			name: "Boar-Sticking Spear",
-			img: "Gear/Spear2H_R005.png",
+			img: "Gear/Generic/Spears2H/Spear2H_R30_ua.png",
 			effects: {
 				16: [
 					{min: 13.898499999999988, max: 15.361499999999989, positive: true, type: "damage"},
@@ -4878,7 +4878,7 @@ var gear = {
 		},
 		{
 			name: "Long Spear of the Sun",
-			img: "Gear/Spear2H_R004.png",
+			img: "Gear/Generic/Spears2H/Spear2H_R36_ua.png",
 			effects: {
 				13: [
 					{min: 23.113499999999984, max: 25.546499999999984, positive: true, type: "damage"},
@@ -4916,7 +4916,7 @@ var gear = {
 		},
 		{
 			name: "Hero's Heavy Spear",
-			img: "Gear/Spear2H_U201.png",
+			img: "Gear/Generic/Spears2H/Spear2H_U11_ua.png",
 			effects: {
 				20: [
 					{min: 21.745499999999986, max: 24.034499999999987, positive: true, type: "damage"},
@@ -4926,7 +4926,7 @@ var gear = {
 		},
 		{
 			name: "Superior Broadhead Spear",
-			img: "Gear/Spear2H_U007.png",
+			img: "Gear/Generic/Spears2H/Spear2H_U11_ua.png",
 			effects: {
 				20: [
 					{min: 25.46, max: 28.14, positive: true, type: "damage"},
@@ -4936,7 +4936,7 @@ var gear = {
 		},
 		{
 			name: "Copper Heavy Spear",
-			img: "Gear/Spear2H_U001.png",
+			img: "Gear/Generic/Spears2H/Spear2H_U10_ua.png",
 			effects: {
 				2: [
 					{min: 9.024999999999997, max: 9.974999999999996, positive: true, type: "damage"},
@@ -4987,7 +4987,7 @@ var gear = {
 		},
 		{
 			name: "Thracian Broadhead Spear",
-			img: "Gear/Spear2H_R003.png",
+			img: "Gear/Generic/Spears2H/Spear2H_R35_ua.png",
 			effects: {
 				11: [
 					{min: 20.75749999999999, max: 22.942499999999992, positive: true, type: "damage"},
@@ -5013,7 +5013,7 @@ var gear = {
 		},
 		{
 			name: "Fine Thrusting Spear",
-			img: "Gear/Spear2H_U009.png",
+			img: "Gear/Generic/Spears2H/Spear2H_U10_ua.png",
 			effects: {
 				15: [
 					{min: 21.02349999999998, max: 23.23649999999998, positive: true, type: "damage"},
@@ -5023,7 +5023,7 @@ var gear = {
 		},
 		{
 			name: "Ornate Long Spear",
-			img: "Gear/Spear2H_U006.png",
+			img: "Gear/Generic/Spears2H/Spear2H_U13_ua.png",
 			effects: {
 				15: [
 					{min: 15.950499999999991, max: 17.629499999999993, positive: true, type: "damage"},
@@ -5033,7 +5033,7 @@ var gear = {
 		},
 		{
 			name: "Nubian Heavy Spear",
-			img: "Gear/Spear2H_R002.png",
+			img: "Gear/Generic/Spears2H/Spear2H_R34_ua.png",
 			effects: {
 				10: [
 					{min: 19.579499999999996, max: 21.640499999999996, positive: true, type: "damage"},
@@ -5059,7 +5059,7 @@ var gear = {
 		},
 		{
 			name: "Boar Tusk Spear",
-			img: "Gear/Spear2H_U102.png",
+			img: "Gear/Generic/Spears2H/Spear2H_U10_ua.png",
 			effects: {
 				12: [
 					{min: 13.756000000000004, max: 15.204000000000004, positive: true, type: "damage"},
@@ -5069,7 +5069,7 @@ var gear = {
 		},
 		{
 			name: "Badari Vizier's Long Spear",
-			img: "Gear/Spear2H_R001.png",
+			img: "Gear/Generic/Spears2H/Spear2H_R33_ua.png",
 			effects: {
 				7: [
 					{min: 3.5149999999999926, max: 3.884999999999992, positive: true, type: "speed"},
@@ -5091,7 +5091,7 @@ var gear = {
 		},
 		{
 			name: "Ordinary Broadhead Spear",
-			img: "Gear/Spear2H_U005.png",
+			img: "Gear/Generic/Spears2H/Spear2H_U12_ua.png",
 			effects: {
 				10: [
 					{min: 16.36849999999999, max: 18.09149999999999, positive: true, type: "damage"},
@@ -5101,7 +5101,7 @@ var gear = {
 		},
 		{
 			name: "Pathfinder's Dire Spear",
-			img: "Gear/Spear2H_U101.png",
+			img: "Gear/Generic/Spears2H/Spear2H_U11_ua.png",
 			effects: {
 				10: [
 					{min: 12.207499999999984, max: 13.492499999999984, positive: true, type: "damage"},
@@ -5111,7 +5111,7 @@ var gear = {
 		},
 		{
 			name: "The Vizier's Spear",
-			img: "Gear/Spear2H_R014.png",
+			img: "Gear/Generic/Spears2H/Spear2H_R32_ua.png",
 			effects: {
 				4: [
 					{min: 12.577999999999985, max: 13.901999999999983, positive: true, type: "damage"},
@@ -5137,7 +5137,7 @@ var gear = {
 		},
 		{
 			name: "Freelancer's Relentless Spear",
-			img: "Gear/Spear2H_R017.png",
+			img: "Gear/Generic/Spears2H/Spear2H_R30_ua.png",
 			effects: {
 				4: [
 					{min: 10.80149999999999, max: 11.93849999999999, positive: true, type: "damage"},
@@ -5151,7 +5151,7 @@ var gear = {
 		},
 		{
 			name: "Freelancer's Steadfast Spear",
-			img: "Gear/Spear2H_U016.png",
+			img: "Gear/Generic/Spears2H/Spear2H_U13_ua.png",
 			effects: {
 				4: [
 					{min: 9.5855, max: 10.5945, positive: true, type: "damage"},
@@ -5165,7 +5165,7 @@ var gear = {
 		},
 		{
 			name: "Vanguard Heavy Spear",
-			img: "Gear/Spear2H_R018.png",
+			img: "Gear/Generic/Spears2H/Spear2H_R31_ua.png",
 			effects: {
 				5: [
 					{min: 4.360499999999984, max: 4.819499999999982, positive: true, type: "multiplierCavalry"},
@@ -5175,7 +5175,7 @@ var gear = {
 		},
 		{
 			name: "Crete Steward Heavy Spear",
-			img: "Gear/Spear2H_UA01.png",
+			img: "Gear/Generic/Spears2H/Spear2H_U12_ua.png",
 			effects: {
 				5: [
 					{min: 11.590000000000009, max: 12.810000000000011, positive: true, type: "damage"},
@@ -5184,7 +5184,7 @@ var gear = {
 		},
 		{
 			name: "Primitive Long Spear",
-			img: "Gear/Spear2H_U004.png",
+			img: "Gear/Generic/Spears2H/Spear2H_U10_ua.png",
 			effects: {
 				5: [
 					{min: 11.713499999999996, max: 12.946499999999997, positive: true, type: "damage"},
@@ -5194,7 +5194,7 @@ var gear = {
 		},
 		{
 			name: "Simple Thrusting Spear",
-			img: "Gear/Spear2H_U008.png",
+			img: "Gear/Generic/Spears2H/Spear2H_U11_ua.png",
 			effects: {
 				5: [
 					{min: 11.713499999999996, max: 12.946499999999997, positive: true, type: "damage"},

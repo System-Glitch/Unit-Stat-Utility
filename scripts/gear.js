@@ -15390,7 +15390,7 @@ var gear = {
 		{name: "None", img: 'Slot/ArmorPlatingSlot_ua.png'},
 		{
 			name: "Armoring of Archimedes",
-			img: "Gear/ArmorPlt_L001.png",
+			img: "Gear/Celeste/Generic/Armor/Plt/ArmorPlt_HDW_ua.png",
 			effects: {
 				40: [
 					{min: 71.66799999999999, max: 79.212, positive: true, type: "health"},
@@ -15400,7 +15400,7 @@ var gear = {
 		},
 		{
 			name: "Divine Bronze Plating",
-			img: "Gear/ArmorPlt_R101_LEG.png",
+			img: "Gear/Celeste/Generic/Armor/Plt/ArmorPlt_HDW_ua.png",
 			effects: {
 				40: [
 					{min: 34.275999999999996, max: 37.884, positive: true, type: "health"},
@@ -15410,7 +15410,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Destroyer Weave",
-			img: "Gear/ArmorPlt_HDW.png",
+			img: "Gear/Celeste/Generic/Armor/Plt/ArmorPlt_HDW_ua.png",
 			effects: {
 				40: [
 					{min: 26.790000000000003, max: 29.610000000000003, positive: true, type: "damage"},
@@ -15419,7 +15419,7 @@ var gear = {
 		},
 		{
 			name: "Legion Warlord's Armoring",
-			img: "Gear/ArmorPlt_LC01.png",
+			img: "Gear/Celeste/Generic/Armor/Plt/ArmorPlt_HDW_ua.png",
 			effects: {
 				40: [
 					{min: 82.365, max: 91.03500000000001, positive: true, type: "health"},
@@ -15428,7 +15428,7 @@ var gear = {
 		},
 		{
 			name: "Sidings of the Argo",
-			img: "Gear/ArmorPlt_L002.png",
+			img: "Gear/Celeste/Generic/Armor/Plt/ArmorPlt_HDW_ua.png",
 			effects: {
 				40: [
 					{min: 71.66799999999999, max: 79.212, positive: true, type: "health"},
@@ -15438,7 +15438,7 @@ var gear = {
 		},
 		{
 			name: "Barinthus' Heavy Sidings",
-			img: "Gear/ArmorPlt_E102.png",
+			img: "Gear/Generic/Armor/Plt/Plt_E60_ua.png",
 			effects: {
 				40: [
 					{min: 58.52, max: 64.68, positive: true, type: "health"},
@@ -15448,7 +15448,7 @@ var gear = {
 		},
 		{
 			name: "Blessed Lion-Hide Covers",
-			img: "Gear/ArmorPlt_E008.png",
+			img: "Gear/Generic/Armor/Plt/Plt_E60_ua.png",
 			effects: {
 				40: [
 					{min: 58.52, max: 64.68, positive: true, type: "health"},
@@ -15459,7 +15459,7 @@ var gear = {
 		},
 		{
 			name: "Council Mentor's Plating",
-			img: "Gear/ArmorPlt_EC01.png",
+			img: "Gear/Generic/Armor/Plt/Plt_E60_ua.png",
 			effects: {
 				40: [
 					{min: 41.220499999999994, max: 45.55949999999999, positive: true, type: "health"},
@@ -15470,7 +15470,7 @@ var gear = {
 		},
 		{
 			name: "Hephaestus Carved Plating",
-			img: "Gear/ArmorPlt_E007.png",
+			img: "Gear/Generic/Armor/Plt/Plt_E60_ua.png",
 			effects: {
 				37: [
 					{min: 73.14999999999999, max: 80.85000000000001, positive: true, type: "health"},
@@ -15488,7 +15488,7 @@ var gear = {
 		},
 		{
 			name: "Runic Heavy Bronze Armoring",
-			img: "Gear/ArmorPlt_E006.png",
+			img: "Gear/Generic/Armor/Plt/Plt_E60_ua.png",
 			effects: {
 				40: [
 					{min: 58.52, max: 64.68, positive: true, type: "health"},
@@ -15499,7 +15499,7 @@ var gear = {
 		},
 		{
 			name: "Lion Heraldic Plating",
-			img: "Gear/ArmorPlt_R013.png",
+			img: "Gear/Generic/Armor/Plt/Plt_R30v2_ua.png",
 			effects: {
 				36: [
 					{min: 49.46649999999999, max: 54.6735, positive: true, type: "health"},
@@ -15525,7 +15525,7 @@ var gear = {
 		},
 		{
 			name: "Iron Armoring",
-			img: "Gear/ArmorPlt_U003.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10_ua.png",
 			effects: {
 				27: [
 					{min: 30.400000000000006, max: 33.60000000000001, positive: true, type: "health"},
@@ -15561,7 +15561,7 @@ var gear = {
 		},
 		{
 			name: "Plating of Zakros",
-			img: "Gear/ArmorPlt_EA01.png",
+			img: "Gear/Generic/Armor/Plt/Plt_E60_ua.png",
 			effects: {
 				36: [
 					{min: 54.910000000000004, max: 60.690000000000005, positive: true, type: "health"},
@@ -15587,7 +15587,7 @@ var gear = {
 		},
 		{
 			name: "Sidings of the White Rhino",
-			img: "Gear/ArmorPlt_E005.png",
+			img: "Gear/Generic/Armor/Plt/Plt_E60_ua.png",
 			effects: {
 				34: [
 					{min: 51.233500000000014, max: 56.626500000000014, positive: true, type: "health"},
@@ -15618,7 +15618,7 @@ var gear = {
 		},
 		{
 			name: "Hand-Fitted Sidings",
-			img: "Gear/ArmorPlt_R012.png",
+			img: "Gear/Generic/Armor/Plt/Plt_R30_ua.png",
 			effects: {
 				34: [
 					{min: 47.5, max: 52.5, positive: true, type: "health"},
@@ -15644,7 +15644,7 @@ var gear = {
 		},
 		{
 			name: "Peerless Scaled Plating",
-			img: "Gear/ArmorPlt_U015.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10v2_ua.png",
 			effects: {
 				38: [
 					{min: 42.04699999999999, max: 46.47299999999999, positive: true, type: "health"},
@@ -15654,7 +15654,7 @@ var gear = {
 		},
 		{
 			name: "Extraordinary Support Covers",
-			img: "Gear/ArmorPlt_U019.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10_ua.png",
 			effects: {
 				36: [
 					{min: 40.204, max: 44.436, positive: true, type: "health"},
@@ -15664,7 +15664,7 @@ var gear = {
 		},
 		{
 			name: "Athenian Champion's Plate Armoring",
-			img: "Gear/ArmorPlt_E009.png",
+			img: "Gear/Generic/Armor/Plt/Plt_E60_ua.png",
 			effects: {
 				28: [
 					{min: 50.50199999999998, max: 55.817999999999984, positive: true, type: "health"},
@@ -15702,7 +15702,7 @@ var gear = {
 		},
 		{
 			name: "Batoshipip's Vicious Plating",
-			img: "Gear/ArmorPlt_RB01.png",
+			img: "Gear/Generic/Armor/Plt/Plt_R30_ua.png",
 			effects: {
 				32: [
 					{min: 44.830499999999994, max: 49.5495, positive: true, type: "health"},
@@ -15724,7 +15724,7 @@ var gear = {
 		},
 		{
 			name: "Golden Runic Plating",
-			img: "Gear/ArmorPlt_E004.png",
+			img: "Gear/Generic/Armor/Plt/Plt_E60_ua.png",
 			effects: {
 				30: [
 					{min: 115.72899999999998, max: 127.911, positive: true, type: "armorInfantry"},
@@ -15755,7 +15755,7 @@ var gear = {
 		},
 		{
 			name: "Fire-Proofed Plates",
-			img: "Gear/ArmorPlt_R011.png",
+			img: "Gear/Generic/Armor/Plt/Plt_R30v2_ua.png",
 			effects: {
 				30: [
 					{min: 42.825999999999986, max: 47.33399999999998, positive: true, type: "health"},
@@ -15781,7 +15781,7 @@ var gear = {
 		},
 		{
 			name: "Hide of the Kraken",
-			img: "Gear/ArmorPlt_E101.png",
+			img: "Gear/Generic/Armor/Plt/Plt_E60_ua.png",
 			effects: {
 				29: [
 					{min: 41.5435, max: 45.916500000000006, positive: true, type: "health"},
@@ -15807,7 +15807,7 @@ var gear = {
 		},
 		{
 			name: "Consummate Siege Armoring",
-			img: "Gear/ArmorPlt_U014.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10_ua.png",
 			effects: {
 				33: [
 					{min: 37.43949999999999, max: 41.38049999999999, positive: true, type: "health"},
@@ -15817,7 +15817,7 @@ var gear = {
 		},
 		{
 			name: "Immaculate Sidings",
-			img: "Gear/ArmorPlt_U018.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10v2_ua.png",
 			effects: {
 				33: [
 					{min: 27.920499999999983, max: 30.859499999999983, positive: true, type: "health"},
@@ -15827,7 +15827,7 @@ var gear = {
 		},
 		{
 			name: "Finely Detailed Plating",
-			img: "Gear/ArmorPlt_R015.png",
+			img: "Gear/Generic/Armor/Plt/Plt_R30_ua.png",
 			effects: {
 				27: [
 					{min: 39.32049999999999, max: 43.4595, positive: true, type: "health"},
@@ -15853,7 +15853,7 @@ var gear = {
 		},
 		{
 			name: "Bronze Plate Sidings",
-			img: "Gear/ArmorPlt_U002.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10v2_ua.png",
 			effects: {
 				17: [
 					{min: 21.849999999999998, max: 24.150000000000002, positive: true, type: "health"},
@@ -15904,7 +15904,7 @@ var gear = {
 		},
 		{
 			name: "Herculean Gold Plates",
-			img: "Gear/ArmorPlt_E003.png",
+			img: "Gear/Generic/Armor/Plt/Plt_E60_ua.png",
 			effects: {
 				26: [
 					{min: 18.67700000000001, max: 20.64300000000001, positive: true, type: "damage"},
@@ -15925,7 +15925,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Bronze Armoring",
-			img: "Gear/ArmorPlt_R001.png",
+			img: "Gear/Generic/Armor/Plt/Plt_R30_ua.png",
 			effects: {
 				7: [
 					{min: 18.049999999999994, max: 19.949999999999992, positive: true, type: "health"},
@@ -16003,7 +16003,7 @@ var gear = {
 		},
 		{
 			name: "Rhino-Hide Covers",
-			img: "Gear/ArmorPlt_R010.png",
+			img: "Gear/Generic/Armor/Plt/Plt_R30v2_ua.png",
 			effects: {
 				30: [
 					{min: 42.825999999999986, max: 47.33399999999998, positive: true, type: "health"},
@@ -16013,7 +16013,7 @@ var gear = {
 		},
 		{
 			name: "Artificer's Bronze Plating",
-			img: "Gear/ArmorPlt_R101.png",
+			img: "Gear/Generic/Armor/Plt/Plt_R30_ua.png",
 			effects: {
 				24: [
 					{min: 22.572000000000003, max: 24.948000000000008, positive: true, type: "health"},
@@ -16039,7 +16039,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Engineered Plating",
-			img: "Gear/ArmorPlt_U013.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10v2_ua.png",
 			effects: {
 				28: [
 					{min: 32.83199999999999, max: 36.28799999999999, positive: true, type: "health"},
@@ -16049,7 +16049,7 @@ var gear = {
 		},
 		{
 			name: "Rune-Inscribed Plates",
-			img: "Gear/ArmorPlt_R008.png",
+			img: "Gear/Generic/Armor/Plt/Plt_R30_ua.png",
 			effects: {
 				23: [
 					{min: 34.646499999999996, max: 38.2935, positive: true, type: "health"},
@@ -16075,7 +16075,7 @@ var gear = {
 		},
 		{
 			name: "Cold-Forged Armoring",
-			img: "Gear/ArmorPlt_R009.png",
+			img: "Gear/Generic/Armor/Plt/Plt_R30_ua.png",
 			effects: {
 				26: [
 					{min: 43.31999999999999, max: 47.879999999999995, positive: true, type: "health"},
@@ -16084,7 +16084,7 @@ var gear = {
 		},
 		{
 			name: "Superb Mantle Covers",
-			img: "Gear/ArmorPlt_U017.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10_ua.png",
 			effects: {
 				26: [
 					{min: 30.989000000000004, max: 34.251000000000005, positive: true, type: "health"},
@@ -16094,7 +16094,7 @@ var gear = {
 		},
 		{
 			name: "Arrow-Proof Armoring",
-			img: "Gear/ArmorPlt_E002.png",
+			img: "Gear/Generic/Armor/Plt/Plt_E60_ua.png",
 			effects: {
 				21: [
 					{min: 35.017, max: 38.70300000000001, positive: true, type: "health"},
@@ -16125,7 +16125,7 @@ var gear = {
 		},
 		{
 			name: "Argos Silver Plating",
-			img: "Gear/ArmorPlt_R014.png",
+			img: "Gear/Generic/Armor/Plt/Plt_R30_ua.png",
 			effects: {
 				25: [
 					{min: 37.24949999999998, max: 41.17049999999999, positive: true, type: "health"},
@@ -16135,7 +16135,7 @@ var gear = {
 		},
 		{
 			name: "Benevolent Plate Siding",
-			img: "Gear/ArmorPlt_RA01.png",
+			img: "Gear/Generic/Armor/Plt/Plt_R30v2_ua.png",
 			effects: {
 				21: [
 					{min: 32.3095, max: 35.71050000000001, positive: true, type: "health"},
@@ -16157,7 +16157,7 @@ var gear = {
 		},
 		{
 			name: "Hand-Carved Sidings",
-			img: "Gear/ArmorPlt_R007.png",
+			img: "Gear/Generic/Armor/Plt/Plt_R30v2_ua.png",
 			effects: {
 				19: [
 					{min: 75.24, max: 83.16000000000001, positive: true, type: "armorInfantry"},
@@ -16183,7 +16183,7 @@ var gear = {
 		},
 		{
 			name: "Remarkable Sheet Sidings",
-			img: "Gear/ArmorPlt_U016.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10v2_ua.png",
 			effects: {
 				23: [
 					{min: 28.224499999999992, max: 31.195499999999996, positive: true, type: "health"},
@@ -16193,7 +16193,7 @@ var gear = {
 		},
 		{
 			name: "Superior Skirt Armoring",
-			img: "Gear/ArmorPlt_U012.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10_ua.png",
 			effects: {
 				23: [
 					{min: 28.224499999999992, max: 31.195499999999996, positive: true, type: "health"},
@@ -16203,7 +16203,7 @@ var gear = {
 		},
 		{
 			name: "Dragonskin Plates",
-			img: "Gear/ArmorPlt_E001.png",
+			img: "Gear/Generic/Armor/Plt/Plt_E60_ua.png",
 			effects: {
 				17: [
 					{min: 21.631500000000003, max: 23.908500000000004, positive: true, type: "health"},
@@ -16229,7 +16229,7 @@ var gear = {
 		},
 		{
 			name: "Blue Enamel Plating",
-			img: "Gear/ArmorPlt_R006.png",
+			img: "Gear/Generic/Armor/Plt/Plt_R30_ua.png",
 			effects: {
 				16: [
 					{min: 26.647499999999997, max: 29.452499999999997, positive: true, type: "health"},
@@ -16255,7 +16255,7 @@ var gear = {
 		},
 		{
 			name: "Crete Steward Plating",
-			img: "Gear/ArmorPlt_UA01.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10_ua.png",
 			effects: {
 				20: [
 					{min: 5.529000000000003, max: 6.111000000000003, positive: true, type: "armorPierce"},
@@ -16265,7 +16265,7 @@ var gear = {
 		},
 		{
 			name: "Hero's Plating",
-			img: "Gear/ArmorPlt_U201.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10v2_ua.png",
 			effects: {
 				20: [
 					{min: 21.745499999999986, max: 24.034499999999987, positive: true, type: "health"},
@@ -16275,7 +16275,7 @@ var gear = {
 		},
 		{
 			name: "Alligator-Hide Covers",
-			img: "Gear/ArmorPlt_R005.png",
+			img: "Gear/Generic/Armor/Plt/Plt_R30_ua.png",
 			effects: {
 				14: [
 					{min: 24.291500000000003, max: 26.848500000000005, positive: true, type: "health"},
@@ -16301,7 +16301,7 @@ var gear = {
 		},
 		{
 			name: "Scales of the Leviathan",
-			img: "Gear/ArmorPlt_R102.png",
+			img: "Gear/Generic/Armor/Plt/Plt_R30v2_ua.png",
 			effects: {
 				14: [
 					{min: 28.44299999999999, max: 31.43699999999999, positive: true, type: "vision"},
@@ -16327,7 +16327,7 @@ var gear = {
 		},
 		{
 			name: "Superior Storm Plating",
-			img: "Gear/ArmorPlt_U007.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10v2_ua.png",
 			effects: {
 				18: [
 					{min: 26.695000000000014, max: 29.505000000000017, positive: true, type: "health"},
@@ -16336,7 +16336,7 @@ var gear = {
 		},
 		{
 			name: "Copper Plate Sidings",
-			img: "Gear/ArmorPlt_U001.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10_ua.png",
 			effects: {
 				7: [
 					{min: 11.143499999999996, max: 12.316499999999998, positive: true, type: "health"},
@@ -16382,7 +16382,7 @@ var gear = {
 		},
 		{
 			name: "Ordinary Shingle Covers",
-			img: "Gear/ArmorPlt_U011.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10_ua.png",
 			effects: {
 				16: [
 					{min: 21.954499999999985, max: 24.265499999999985, positive: true, type: "health"},
@@ -16392,7 +16392,7 @@ var gear = {
 		},
 		{
 			name: "Turtle-Shell Plates",
-			img: "Gear/ArmorPlt_R004.png",
+			img: "Gear/Generic/Armor/Plt/Plt_R30v2_ua.png",
 			effects: {
 				11: [
 					{min: 20.75749999999999, max: 22.942499999999992, positive: true, type: "health"},
@@ -16418,7 +16418,7 @@ var gear = {
 		},
 		{
 			name: "Black Oak Sidings",
-			img: "Gear/ArmorPlt_R003.png",
+			img: "Gear/Generic/Armor/Plt/Plt_R30_ua.png",
 			effects: {
 				10: [
 					{min: 19.579499999999996, max: 21.640499999999996, positive: true, type: "health"},
@@ -16444,7 +16444,7 @@ var gear = {
 		},
 		{
 			name: "Thick Scaled Plating",
-			img: "Gear/ArmorPlt_R002.png",
+			img: "Gear/Generic/Armor/Plt/Plt_R30v2_ua.png",
 			effects: {
 				9: [
 					{min: 18.401499999999995, max: 20.3385, positive: true, type: "health"},
@@ -16470,7 +16470,7 @@ var gear = {
 		},
 		{
 			name: "Fine Overlapped Armoring",
-			img: "Gear/ArmorPlt_U006.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10_ua.png",
 			effects: {
 				13: [
 					{min: 19.161499999999997, max: 21.1785, positive: true, type: "health"},
@@ -16480,7 +16480,7 @@ var gear = {
 		},
 		{
 			name: "Ideal Folded Sidings",
-			img: "Gear/ArmorPlt_U010.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10v2_ua.png",
 			effects: {
 				13: [
 					{min: 19.161499999999997, max: 21.1785, positive: true, type: "health"},
@@ -16490,7 +16490,7 @@ var gear = {
 		},
 		{
 			name: "Hardened Bulwark Siding",
-			img: "Gear/ArmorPlt_U102.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10_ua.png",
 			effects: {
 				12: [
 					{min: 17.575000000000006, max: 19.425000000000008, positive: true, type: "health"},
@@ -16499,7 +16499,7 @@ var gear = {
 		},
 		{
 			name: "Great Runed Siding",
-			img: "Gear/ArmorPlt_UA02.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10v2_ua.png",
 			effects: {
 				10: [
 					{min: 14.145500000000004, max: 15.634500000000005, positive: true, type: "health"},
@@ -16509,7 +16509,7 @@ var gear = {
 		},
 		{
 			name: "Ornate Barrier Plating",
-			img: "Gear/ArmorPlt_U005.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10v2_ua.png",
 			effects: {
 				8: [
 					{min: 14.506499999999983, max: 16.033499999999982, positive: true, type: "health"},
@@ -16519,7 +16519,7 @@ var gear = {
 		},
 		{
 			name: "Freelancer's Steadfast Plating",
-			img: "Gear/ArmorPlt_U021.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10v2_ua.png",
 			effects: {
 				2: [
 					{min: 8.065499999999998, max: 8.914499999999999, positive: true, type: "health"},
@@ -16537,7 +16537,7 @@ var gear = {
 		},
 		{
 			name: "Simple Tanned Covers",
-			img: "Gear/ArmorPlt_U009.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10_ua.png",
 			effects: {
 				6: [
 					{min: 12.644499999999999, max: 13.975499999999998, positive: true, type: "health"},
@@ -16547,7 +16547,7 @@ var gear = {
 		},
 		{
 			name: "Aged Armoring",
-			img: "Gear/ArmorPlt_U004.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10_ua.png",
 			effects: {
 				3: [
 					{min: 9.85149999999999, max: 10.88849999999999, positive: true, type: "health"},
@@ -16557,7 +16557,7 @@ var gear = {
 		},
 		{
 			name: "Novice's Fortified Siding",
-			img: "Gear/ArmorPlt_U020.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10_ua.png",
 			effects: {
 				3: [
 					{min: 0.5794999999999995, max: 0.6404999999999994, positive: true, type: "speed"},
@@ -16567,7 +16567,7 @@ var gear = {
 		},
 		{
 			name: "Weathered Sidings",
-			img: "Gear/ArmorPlt_U008.png",
+			img: "Gear/Generic/Armor/Plt/Plt_U10v2_ua.png",
 			effects: {
 				3: [
 					{min: 9.85149999999999, max: 10.88849999999999, positive: true, type: "health"},

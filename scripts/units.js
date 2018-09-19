@@ -95,7 +95,7 @@ var units = {
 			timeTrain: 10,
 			population: 1
 		},
-		gear: ["arrow"]
+		gear: ["bow", "arrow"]
 	},
 	BCaravan: {
 		name: "BCaravan",

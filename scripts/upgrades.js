@@ -1,4 +1,25 @@
 var upgrades = {
+	championHippikon: {
+		isChain: false,
+		name: "Hippikon Champion",
+		img: "img/Upgrades/HippikonChampion.png",
+		effects: [
+			{amount: -33.3, positive: true, type: "population"}
+		],
+		cost: {
+			gold: 1200
+		}
+	},
+	championBallista: {
+		name: "Ballista Champion",
+		img: "img/Upgrades/BallistaChampion.png",
+		effects: [
+			{amount: 20.0, positive: true, type: "speed"}
+		],
+		cost: {
+			gold: 1000
+		}
+	},
 	agogeDiscipline: {
 		isChain: false,
 		name: "Agoge Discipline",

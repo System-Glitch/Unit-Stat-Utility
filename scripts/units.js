@@ -40,17 +40,8 @@ var units = {
 			timeTrain: 30,
 			population: 5
 		},
-		champion: {
-			name: "Ballista Champion",
-			img: "img/Upgrades/BallistaChampion.png",
-			effects: [
-				{amount: 20.0, positive: true, type: "speed"}
-			],
-			cost: {
-				gold: 1000
-			}
-		},
-		gear: ["armorPlating"]
+		gear: ["armorPlating"],
+		upgrades: ["championBallista"]
 	},
 	Barracks: {
 		name: "Barracks",
@@ -673,18 +664,8 @@ var units = {
 			armorPierce: 0.3,
 			armorCrush: 0.3
 		},
-		champion: {
-			name: "Hippikon Champion",
-			img: "img/Upgrades/HippikonChampion.png",
-			effects: [
-				{amount: -33.3, positive: true, type: "population"}
-			],
-			cost: {
-				gold: 1200
-			}
-		},
 		gear: ["sword", "shield", "lightArmor", 'soldiersGear'],
-		upgrades: ["agogeDiscipline", "stables", "armoryMelee", "armoryArmor", "armoryShield"]
+		upgrades: ["championHippikon", "agogeDiscipline", "stables", "armoryMelee", "armoryArmor", "armoryShield"]
 	},
 	Hippopotamus: {name: "Hippopotamus", img: "Hippopotamus64.png"},
 	Hoplite: {name: "Hoplite", img: "Hoplite64.png"},

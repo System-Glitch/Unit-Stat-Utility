@@ -3,10 +3,6 @@ var selectsElements = [];
 var gearSelectors = [];
 var unitSelectors = [];
 var gearSelectorIcon = document.getElementById('gear-selector-unit-icon');
-let championUpgrade = null;
-let championUpgradeElement = document.getElementById("champion-upgrade");
-let championTooltip = document.getElementById("champion-upgrade-tooltip");
-let championUpgradeActive = document.getElementById("champion-upgrade-active");
 
 var Select = function(element, imgPath, type) {
 	this.type = type;
@@ -140,38 +136,8 @@ function updateSelects() {
 	}
 }
 
-function updateChampionUpgrade(unit) {
-	
-	
-	championTooltip.innerHTML = "";
-	championUpgradeElement.classList.remove("active");
-	championUpgradeActive.value = 0;
-
-	if(unit.champion != undefined) {
-
-		championUpgradeElement.style.display = "inline-block";
-		championUpgrade = unit.champion;
-
-		championTooltip.innerHTML = '<span class="upgrade-title">' + championUpgrade.name + '</span>';
-		championTooltip.innerHTML += createCostSpan(championUpgrade.cost);
-		championUpgradeElement.src = championUpgrade.img;
-
-		for(let key in championUpgrade.effects) {
-			let effect = championUpgrade.effects[key];
-			let html = components.upgradeEffect(effects[effect.type].name, effect.amount);
-			let element = createEffectElement(html, effect.positive);
-			championTooltip.appendChild(element);
-		}
-
-	} else {
-		championUpgrade = null;
-		championUpgradeElement.style.display = "none";
-	}
-}
-
 function updateUpgrades(unit) {
 	hideAllUpgrades();
-	updateChampionUpgrade(unit);
 
 	for(let key in unit.upgrades) {
 		let upgrade = unit.upgrades[key];
@@ -266,20 +232,5 @@ function registerHideListener() {
 	});
 }
 
-function registerChampionUpgrade() {
-	championUpgradeElement.addEventListener('click', function(event) {
-		if(!championUpgradeElement.classList.contains("active")) {
-			championUpgradeActive.value = "1";
-			championUpgradeElement.classList.add("active");
-		} else {
-			championUpgradeActive.value = "0";
-			championUpgradeElement.classList.remove("active");
-		}
-
-		updateStats();
-	});
-}
-
 registerHideListener();
 registerSelects();
-registerChampionUpgrade();

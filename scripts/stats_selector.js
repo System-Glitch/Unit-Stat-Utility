@@ -145,15 +145,6 @@ function updateStats() {
 		}
 	}
 
-	//Champion upgrade
-	if(championUpgrade != null && championUpgradeActive.value == 1) {
-		for(let j = 0 ; j < championUpgrade.effects.length ; j++) {
-			let effect = championUpgrade.effects[j];
-			let mod = parseFloat(effect.amount);
-			modifiers[effect.type].push(effect.type === "critical" ? mod : 1+(mod/100));
-		}
-	}
-
 	//Upgrades
 	for(let key in upgradeElements) {
 		let element = upgradeElements[key];

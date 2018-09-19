@@ -12598,7 +12598,7 @@ var gear = {
 		{name: "None", img: 'Slot/ArrowSlot_ua.png'},
 		{
 			name: "Arrows of Actaeon",
-			img: "Gear/ArrowOH_L001.png",
+			img: "Gear/Generic/Arrows/Arrow_L90_ua.png",
 			effects: {
 				40: [
 					{min: 9.272000000000011, max: 10.248000000000014, positive: true, type: "damage"},
@@ -12608,7 +12608,7 @@ var gear = {
 		},
 		{
 			name: "Arrows of Amenhotep",
-			img: "Gear/ArrowOH_L003.png",
+			img: "Gear/Generic/Arrows/Arrow_L90_ua.png",
 			effects: {
 				40: [
 					{min: 9.272000000000011, max: 10.248000000000014, positive: true, type: "damage"},
@@ -12618,7 +12618,7 @@ var gear = {
 		},
 		{
 			name: "Arrows of Darkness",
-			img: "Gear/Arrows_AOD.png",
+			img: "Gear/Generic/Arrows/Arrow_L90_ua.png",
 			effects: {
 				40: [
 					{min: 8.34100000000001, max: 9.21900000000001, positive: true, type: "damage"},
@@ -12629,7 +12629,7 @@ var gear = {
 		},
 		{
 			name: "Arrows of Theseus",
-			img: "Gear/ArrowOH_L002.png",
+			img: "Gear/Generic/Arrows/Arrow_L90_ua.png",
 			effects: {
 				40: [
 					{min: 9.272000000000011, max: 10.248000000000014, positive: true, type: "damage"},
@@ -12639,7 +12639,7 @@ var gear = {
 		},
 		{
 			name: "Legion Warlord's Arrows",
-			img: "Gear/ArrowOH_LC01.png",
+			img: "Gear/Generic/Arrows/Arrow_L90_ua.png",
 			effects: {
 				40: [
 					{min: 15.8745, max: 17.5455, positive: true, type: "damage"},
@@ -12648,7 +12648,7 @@ var gear = {
 		},
 		{
 			name: "Arrows of the Moon",
-			img: "Gear/ArrowOH_E008.png",
+			img: "Gear/Generic/Arrows/Arrow_E60v2_ua.png",
 			effects: {
 				40: [
 					{min: 10.62099999999999, max: 11.738999999999988, positive: true, type: "damage"},
@@ -12658,7 +12658,7 @@ var gear = {
 		},
 		{
 			name: "Athena's Graceful Arrows",
-			img: "Gear/ArrowOH_E006.png",
+			img: "Gear/Generic/Arrows/Arrow_E61_ua.png",
 			effects: {
 				40: [
 					{min: 15.466000000000003, max: 17.094000000000005, positive: true, type: "damage"},
@@ -12667,7 +12667,7 @@ var gear = {
 		},
 		{
 			name: "Cyprus Champion Arrows",
-			img: "Gear/ArrowOH_E016.png",
+			img: "Gear/Generic/Arrows/Arrow_E60_ua.png",
 			effects: {
 				40: [
 					{min: 8.863500000000014, max: 9.796500000000018, positive: true, type: "damage"},
@@ -12678,7 +12678,7 @@ var gear = {
 		},
 		{
 			name: "Delian Preceptor's Arrows",
-			img: "Gear/ArrowOH_EC01_VR.png",
+			img: "Gear/Generic/Arrows/Arrow_E60_ua.png",
 			effects: {
 				40: [
 					{min: 7.523999999999994, max: 8.315999999999994, positive: true, type: "damage"},
@@ -12688,7 +12688,7 @@ var gear = {
 		},
 		{
 			name: "Pharaoh's Blessed Arrows",
-			img: "Gear/ArrowOH_E007_VR.png",
+			img: "Gear/Generic/Arrows/Arrow_E60_ua.png",
 			effects: {
 				37: [
 					{min: 7.039500000000005, max: 7.780500000000006, positive: true, type: "damage"},
@@ -12714,7 +12714,7 @@ var gear = {
 		},
 		{
 			name: "Spartan Flight Arrows",
-			img: "Gear/ArrowOH_R013_VR.png",
+			img: "Gear/Generic/Arrows/Arrow_R30v2_ua.png",
 			effects: {
 				36: [
 					{min: 6.99200000000001, max: 7.728000000000012, positive: true, type: "damage"},
@@ -12745,7 +12745,7 @@ var gear = {
 		},
 		{
 			name: "Extraordinary Arrows",
-			img: "Gear/ArrowOH_U011.png",
+			img: "Gear/Generic/Arrows/Arrow_U11_ua.png",
 			effects: {
 				40: [
 					{min: 9.623499999999995, max: 10.636499999999996, positive: true, type: "damage"},
@@ -12756,7 +12756,7 @@ var gear = {
 		},
 		{
 			name: "Iron-Point Arrows",
-			img: "Gear/ArrowOH_U003_VR.png",
+			img: "Gear/Generic/Arrows/Arrow_U10_ua.png",
 			effects: {
 				27: [
 					{min: 5.205999999999996, max: 5.753999999999996, positive: true, type: "damage"},
@@ -12802,7 +12802,7 @@ var gear = {
 		},
 		{
 			name: "Arrows of the Sun",
-			img: "Gear/ArrowOH_E005.png",
+			img: "Gear/Generic/Arrows/Arrow_E60v2_ua.png",
 			effects: {
 				35: [
 					{min: 9.48099999999999, max: 10.47899999999999, positive: true, type: "damage"},
@@ -12833,7 +12833,7 @@ var gear = {
 		},
 		{
 			name: "Darius' Dire Arrows",
-			img: "Gear/ArrowOH_UB01.png",
+			img: "Gear/Generic/Arrows/Arrow_U11_ua.png",
 			effects: {
 				35: [
 					{min: 7.181999999999989, max: 7.937999999999989, positive: true, type: "damage"},
@@ -12859,7 +12859,7 @@ var gear = {
 		},
 		{
 			name: "Hardwood Arrows of the Eagle",
-			img: "Gear/ArrowOH_R012.png",
+			img: "Gear/Generic/Arrows/Arrow_R30_ua.png",
 			effects: {
 				33: [
 					{min: 6.5075, max: 7.192500000000001, positive: true, type: "health"},
@@ -12885,7 +12885,7 @@ var gear = {
 		},
 		{
 			name: "Peerless Barbed Arrows",
-			img: "Gear/ArrowOH_U010_VR.png",
+			img: "Gear/Generic/Arrows/Arrow_U10_ua.png",
 			effects: {
 				36: [
 					{min: 5.880500000000006, max: 6.499500000000007, positive: true, type: "damage"},
@@ -12896,7 +12896,7 @@ var gear = {
 		},
 		{
 			name: "Athenian Champion's Arrows",
-			img: "Gear/ArrowOH_E009.png",
+			img: "Gear/Generic/Arrows/Arrow_E60v2_ua.png",
 			effects: {
 				28: [
 					{min: 8.179499999999985, max: 9.040499999999986, positive: true, type: "damage"},
@@ -12934,7 +12934,7 @@ var gear = {
 		},
 		{
 			name: "Celtic War Arrows",
-			img: "Gear/ArrowOH_E102_VR.png",
+			img: "Gear/Generic/Arrows/Arrow_E60_ua.png",
 			effects: {
 				34: [
 					{min: 7.314999999999996, max: 8.084999999999996, positive: true, type: "critical"},
@@ -12944,7 +12944,7 @@ var gear = {
 		},
 		{
 			name: "Chiron's Deadly Arrows",
-			img: "Gear/ArrowOH_E004_VR.png",
+			img: "Gear/Generic/Arrows/Arrow_E61_ua.png",
 			effects: {
 				30: [
 					{min: 5.9090000000000025, max: 6.531000000000004, positive: true, type: "damage"},
@@ -12975,7 +12975,7 @@ var gear = {
 		},
 		{
 			name: "King Narmer's Dreaded Arrows",
-			img: "Gear/ArrowOH_EB01.png",
+			img: "Gear/Generic/Arrows/Arrow_E61_ua.png",
 			effects: {
 				31: [
 					{min: 12.473499999999996, max: 13.786499999999998, positive: true, type: "damage"},
@@ -12993,7 +12993,7 @@ var gear = {
 		},
 		{
 			name: "Cruelly Barbed Arrows",
-			img: "Gear/ArrowOH_R011.png",
+			img: "Gear/Generic/Arrows/Arrow_R31_ua.png",
 			effects: {
 				32: [
 					{min: 8.578500000000004, max: 9.481500000000006, positive: true, type: "damage"},
@@ -13003,7 +13003,7 @@ var gear = {
 		},
 		{
 			name: "Bronze-Point Arrows",
-			img: "Gear/ArrowOH_U002_VR.png",
+			img: "Gear/Generic/Arrows/Arrow_U10_ua.png",
 			effects: {
 				17: [
 					{min: 3.9710000000000054, max: 4.3890000000000065, positive: true, type: "damage"},
@@ -13069,7 +13069,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Broadhead Arrows",
-			img: "Gear/ArrowOH_U009_VR.png",
+			img: "Gear/Generic/Arrows/Arrow_U11_ua.png",
 			effects: {
 				31: [
 					{min: 7.827999999999982, max: 8.65199999999998, positive: true, type: "damage"},
@@ -13079,7 +13079,7 @@ var gear = {
 		},
 		{
 			name: "Hades' Flaming Arrows",
-			img: "Gear/ArrowOH_E003.png",
+			img: "Gear/Generic/Arrows/Arrow_E60_ua.png",
 			effects: {
 				26: [
 					{min: 3.106499999999995, max: 3.433499999999995, positive: true, type: "damage"},
@@ -13105,7 +13105,7 @@ var gear = {
 		},
 		{
 			name: "Gallic Arrows",
-			img: "Gear/ArrowOH_R101.png",
+			img: "Gear/Generic/Arrows/Arrow_R30v2_ua.png",
 			effects: {
 				29: [
 					{min: 6.878000000000002, max: 7.602000000000002, positive: true, type: "vision"},
@@ -13115,7 +13115,7 @@ var gear = {
 		},
 		{
 			name: "Razor-Sharp Arrows",
-			img: "Gear/ArrowOH_R010.png",
+			img: "Gear/Generic/Arrows/Arrow_R30_ua.png",
 			effects: {
 				25: [
 					{min: 7.049000000000004, max: 7.791000000000005, positive: true, type: "damage"},
@@ -13141,7 +13141,7 @@ var gear = {
 		},
 		{
 			name: "Dark Flight Arrows",
-			img: "Gear/ArrowOH_E101.png",
+			img: "Gear/Generic/Arrows/Arrow_E61_ua.png",
 			effects: {
 				27: [
 					{min: 11.713499999999996, max: 12.946499999999997, positive: true, type: "damage"},
@@ -13150,7 +13150,7 @@ var gear = {
 		},
 		{
 			name: "Arrows of the Forest",
-			img: "Gear/ArrowOH_ED01.png",
+			img: "Gear/Generic/Arrows/Arrow_E60_ua.png",
 			effects: {
 				26: [
 					{min: 6.754500000000015, max: 7.465500000000017, positive: true, type: "damage"},
@@ -13161,7 +13161,7 @@ var gear = {
 		},
 		{
 			name: "Oil-Drenched Arrows",
-			img: "Gear/ArrowOH_R009.png",
+			img: "Gear/Generic/Arrows/Arrow_R31_ua.png",
 			effects: {
 				22: [
 					{min: 6.631000000000007, max: 7.3290000000000095, positive: true, type: "damage"},
@@ -13187,7 +13187,7 @@ var gear = {
 		},
 		{
 			name: "Remarkable Barbed Arrows",
-			img: "Gear/ArrowOH_U008.png",
+			img: "Gear/Generic/Arrows/Arrow_U10_ua.png",
 			effects: {
 				26: [
 					{min: 3.8854999999999937, max: 4.294499999999993, positive: true, type: "damage"},
@@ -13198,7 +13198,7 @@ var gear = {
 		},
 		{
 			name: "Ra's Golden Arrows",
-			img: "Gear/ArrowOH_E002.png",
+			img: "Gear/Generic/Arrows/Arrow_E60v2_ua.png",
 			effects: {
 				20: [
 					{min: 4.512500000000009, max: 4.9875000000000105, positive: true, type: "damage"},
@@ -13224,7 +13224,7 @@ var gear = {
 		},
 		{
 			name: "Black Flight Arrows",
-			img: "Gear/ArrowOH_R008_VR.png",
+			img: "Gear/Generic/Arrows/Arrow_R30v2_ua.png",
 			effects: {
 				18: [
 					{min: 4.284500000000013, max: 4.735500000000015, positive: true, type: "damage"},
@@ -13260,7 +13260,7 @@ var gear = {
 		},
 		{
 			name: "Broadhead Arrows",
-			img: "Gear/ArrowOH_R007.png",
+			img: "Gear/Generic/Arrows/Arrow_R30_ua.png",
 			effects: {
 				17: [
 					{min: 5.491000000000007, max: 6.069000000000008, positive: true, type: "damage"},
@@ -13286,7 +13286,7 @@ var gear = {
 		},
 		{
 			name: "Superior Broadhead Arrows",
-			img: "Gear/ArrowOH_U007_VR.png",
+			img: "Gear/Generic/Arrows/Arrow_U11_ua.png",
 			effects: {
 				21: [
 					{min: 6.060999999999986, max: 6.698999999999986, positive: true, type: "damage"},
@@ -13296,7 +13296,7 @@ var gear = {
 		},
 		{
 			name: "Gold-Tipped Arrows",
-			img: "Gear/ArrowOH_E001_VR.png",
+			img: "Gear/Generic/Arrows/Arrow_E60_ua.png",
 			effects: {
 				17: [
 					{min: 4.1895000000000024, max: 4.630500000000003, positive: true, type: "damage"},
@@ -13322,7 +13322,7 @@ var gear = {
 		},
 		{
 			name: "Hero's Arrows",
-			img: "Gear/ArrowOH_U201_VR.png",
+			img: "Gear/Generic/Arrows/Arrow_U11_ua.png",
 			effects: {
 				20: [
 					{min: 4.978, max: 5.502000000000001, positive: true, type: "damage"},
@@ -13332,7 +13332,7 @@ var gear = {
 		},
 		{
 			name: "Silver-Point Arrows",
-			img: "Gear/ArrowOH_R006.png",
+			img: "Gear/Generic/Arrows/Arrow_R31_ua.png",
 			effects: {
 				18: [
 					{min: 2.1469999999999954, max: 2.3729999999999953, positive: true, type: "damage"},
@@ -13343,7 +13343,7 @@ var gear = {
 		},
 		{
 			name: "Falcon Feather-Fletched Arrows",
-			img: "Gear/ArrowOH_R005_VR.png",
+			img: "Gear/Generic/Arrows/Arrow_R30v2_ua.png",
 			effects: {
 				12: [
 					{min: 3.2584999999999997, max: 3.6014999999999997, positive: true, type: "damage"},
@@ -13369,7 +13369,7 @@ var gear = {
 		},
 		{
 			name: "Copper-Point Arrows",
-			img: "Gear/ArrowOH_U001_VR.png",
+			img: "Gear/Generic/Arrows/Arrow_U10_ua.png",
 			effects: {
 				2: [
 					{min: 1.7384999999999984, max: 1.9214999999999982, positive: true, type: "damage"},
@@ -13435,7 +13435,7 @@ var gear = {
 		},
 		{
 			name: "Ornate Barbed Arrows",
-			img: "Gear/ArrowOH_U006_VR.png",
+			img: "Gear/Generic/Arrows/Arrow_U10_ua.png",
 			effects: {
 				16: [
 					{min: 3.401000000000005, max: 3.7590000000000057, positive: true, type: "damage"},
@@ -13446,7 +13446,7 @@ var gear = {
 		},
 		{
 			name: "Desert Hunter's Arrows",
-			img: "Gear/ArrowOH_R004.png",
+			img: "Gear/Generic/Arrows/Arrow_R30_ua.png",
 			effects: {
 				11: [
 					{min: 3.0875000000000186, max: 3.4125000000000205, positive: true, type: "damage"},
@@ -13477,7 +13477,7 @@ var gear = {
 		},
 		{
 			name: "Tempered Bane of Achilles",
-			img: "Gear/ArrowOH_R014.png",
+			img: "Gear/Generic/Arrows/Arrow_R31_ua.png",
 			effects: {
 				15: [
 					{min: 5.015999999999996, max: 5.543999999999996, positive: true, type: "damage"},
@@ -13487,7 +13487,7 @@ var gear = {
 		},
 		{
 			name: "Barbed Hunting Arrows",
-			img: "Gear/ArrowOH_U102.png",
+			img: "Gear/Generic/Arrows/Arrow_U11_ua.png",
 			effects: {
 				10: [
 					{min: 3.7620000000000076, max: 4.158000000000008, positive: true, type: "damage"},
@@ -13508,7 +13508,7 @@ var gear = {
 		},
 		{
 			name: "Elis Sharpened Arrows",
-			img: "Gear/ArrowOH_R003.png",
+			img: "Gear/Generic/Arrows/Arrow_R30v2_ua.png",
 			effects: {
 				9: [
 					{min: 3.7810000000000055, max: 4.1790000000000065, positive: true, type: "damage"},
@@ -13534,7 +13534,7 @@ var gear = {
 		},
 		{
 			name: "Desert Nomad's Footed Arrows",
-			img: "Gear/ArrowOH_R002.png",
+			img: "Gear/Generic/Arrows/Arrow_R31_ua.png",
 			effects: {
 				7: [
 					{min: 8.312499999999991, max: 9.187499999999991, positive: true, type: "range"},
@@ -13555,7 +13555,7 @@ var gear = {
 		},
 		{
 			name: "Fine Broadhead Arrows",
-			img: "Gear/ArrowOH_U005_VR.png",
+			img: "Gear/Generic/Arrows/Arrow_U11_ua.png",
 			effects: {
 				11: [
 					{min: 4.103999999999991, max: 4.53599999999999, positive: true, type: "damage"},
@@ -13565,7 +13565,7 @@ var gear = {
 		},
 		{
 			name: "Freelancer's Relentless Arrows",
-			img: "Gear/ArrowOH_R016.png",
+			img: "Gear/Generic/Arrows/Arrow_R31_ua.png",
 			effects: {
 				7: [
 					{min: 3.3059999999999943, max: 3.653999999999994, positive: true, type: "damage"},
@@ -13579,7 +13579,7 @@ var gear = {
 		},
 		{
 			name: "Painted Arrows",
-			img: "Gear/ArrowOH_R001_VR.png",
+			img: "Gear/Generic/Arrows/Arrow_R30v2_ua.png",
 			effects: {
 				7: [
 					{min: 2.498499999999999, max: 2.761499999999999, positive: true, type: "damage"},
@@ -13597,7 +13597,7 @@ var gear = {
 		},
 		{
 			name: "True-Shot Arrows",
-			img: "Gear/ArrowOH_U101.png",
+			img: "Gear/Generic/Arrows/Arrow_U11_ua.png",
 			effects: {
 				4: [
 					{min: 2.5649999999999915, max: 2.834999999999991, positive: true, type: "damage"},
@@ -13618,7 +13618,7 @@ var gear = {
 		},
 		{
 			name: "Primitive Barbed Arrows",
-			img: "Gear/ArrowOH_U004_VR.png",
+			img: "Gear/Generic/Arrows/Arrow_U10_ua.png",
 			effects: {
 				6: [
 					{min: 1.9760000000000144, max: 2.184000000000016, positive: true, type: "damage"},
@@ -13629,7 +13629,7 @@ var gear = {
 		},
 		{
 			name: "Vanguard Ranger Arrows",
-			img: "Gear/ArrowOH_R015.png",
+			img: "Gear/Generic/Arrows/Arrow_R30_ua.png",
 			effects: {
 				5: [
 					{min: 2.213500000000009, max: 2.4465000000000106, positive: true, type: "damage"},

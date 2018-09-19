@@ -2424,7 +2424,7 @@ var gear = {
 		{name: "None", img: 'Slot/NetSlot_ua.png'},
 		{
 			name: "Council Overseer's Fishing Net",
-			img: "Gear/FishingNet1H_LC01.png",
+			img: "Gear/Generic/Fishnets/Net_L90_ua.png",
 			effects: {
 				40: [
 					{min: 14.364, max: 15.876000000000001, positive: true, type: "gatherFish"},
@@ -2434,7 +2434,7 @@ var gear = {
 		},
 		{
 			name: "Nets of the Argo",
-			img: "Gear/FishingNet1H_L001.png",
+			img: "Gear/Generic/Fishnets/Net_L90_ua.png",
 			effects: {
 				40: [
 					{min: 17.8125, max: 19.6875, positive: true, type: "gatherFish"},
@@ -2444,7 +2444,7 @@ var gear = {
 		},
 		{
 			name: "Delian Preceptor's Fishing Net",
-			img: "Gear/FishingNet1H_EC01.png",
+			img: "Gear/Generic/Fishnets/Net_E60_ua.png",
 			effects: {
 				40: [
 					{min: 16.56799999999999, max: 18.31199999999999, positive: true, type: "gatherFish"},
@@ -2454,7 +2454,7 @@ var gear = {
 		},
 		{
 			name: "Nets of the Moon",
-			img: "Gear/FishingNet1H_E004.png",
+			img: "Gear/Generic/Fishnets/Net_E61_ua.png",
 			effects: {
 				40: [
 					{min: 19.569999999999993, max: 21.629999999999995, positive: true, type: "gatherFish"},
@@ -2463,7 +2463,7 @@ var gear = {
 		},
 		{
 			name: "Nets of the Wind-Catcher",
-			img: "Gear/FishingNet1H_E005.png",
+			img: "Gear/Generic/Fishnets/Net_E60_ua.png",
 			effects: {
 				40: [
 					{min: 8.350499999999988, max: 9.229499999999986, positive: true, type: "gatherFish"},
@@ -2474,7 +2474,7 @@ var gear = {
 		},
 		{
 			name: "Oppian's Nets",
-			img: "Gear/FishingNet1H_E006.png",
+			img: "Gear/Generic/Fishnets/Net_E61_ua.png",
 			effects: {
 				35: [
 					{min: 12.074499999999999, max: 13.3455, positive: true, type: "gatherFish"},
@@ -2510,7 +2510,7 @@ var gear = {
 		},
 		{
 			name: "Legion Recruit's Fishing Net",
-			img: "Gear/FishingNet1H_RC01.png",
+			img: "Gear/Generic/Fishnets/Net_R30_ua.png",
 			effects: {
 				40: [
 					{min: 13.727500000000006, max: 15.172500000000007, positive: true, type: "gatherFish"},
@@ -2520,7 +2520,7 @@ var gear = {
 		},
 		{
 			name: "Minoan Hooks",
-			img: "Gear/FishingNet1H_R007.png",
+			img: "Gear/Generic/Fishnets/Net_R32_ua.png",
 			effects: {
 				36: [
 					{min: 14.155000000000001, max: 15.645000000000003, positive: true, type: "gatherFish"},
@@ -2541,7 +2541,7 @@ var gear = {
 		},
 		{
 			name: "Weighted Nets",
-			img: "Gear/FishingNet1H_U003.png",
+			img: "Gear/Generic/Fishnets/Net_U11_ua.png",
 			effects: {
 				27: [
 					{min: 7.457500000000001, max: 8.242500000000001, positive: true, type: "gatherFish"},
@@ -2577,7 +2577,7 @@ var gear = {
 		},
 		{
 			name: "Peerless Nets",
-			img: "Gear/FishingNet1H_U007.png",
+			img: "Gear/Generic/Fishnets/Net_U11_ua.png",
 			effects: {
 				39: [
 					{min: 10.183999999999996, max: 11.255999999999995, positive: true, type: "gatherFish"},
@@ -2587,7 +2587,7 @@ var gear = {
 		},
 		{
 			name: "Bone Hooks",
-			img: "Gear/FishingNet1H_R006.png",
+			img: "Gear/Generic/Fishnets/Net_R31_ua.png",
 			effects: {
 				32: [
 					{min: 11.371500000000012, max: 12.568500000000014, positive: true, type: "gatherFish"},
@@ -2613,7 +2613,7 @@ var gear = {
 		},
 		{
 			name: "Nets of Poseidon",
-			img: "Gear/FishingNet1H_E003.png",
+			img: "Gear/Generic/Fishnets/Net_E60_ua.png",
 			effects: {
 				30: [
 					{min: 1.7384999999999984, max: 1.9214999999999982, positive: true, type: "speed"},
@@ -2644,7 +2644,7 @@ var gear = {
 		},
 		{
 			name: "Rugged Nets",
-			img: "Gear/FishingNet1H_U102.png",
+			img: "Gear/Generic/Fishnets/Net_U10_ua.png",
 			effects: {
 				29: [
 					{min: 6.782999999999991, max: 7.496999999999991, positive: true, type: "gatherFish"},
@@ -2670,7 +2670,7 @@ var gear = {
 		},
 		{
 			name: "Balanced Nets",
-			img: "Gear/FishingNet1H_U002.png",
+			img: "Gear/Generic/Fishnets/Net_U11_ua.png",
 			effects: {
 				17: [
 					{min: -12.075000000000001, max: -10.924999999999999, positive: true, type: "cost"},
@@ -2721,7 +2721,7 @@ var gear = {
 		},
 		{
 			name: "River Nets of Plenty",
-			img: "Gear/FishingNet1H_E002.png",
+			img: "Gear/Generic/Fishnets/Net_E61_ua.png",
 			effects: {
 				26: [
 					{min: 10.317000000000002, max: 11.403000000000004, positive: true, type: "gatherFish"},
@@ -2752,7 +2752,7 @@ var gear = {
 		},
 		{
 			name: "Trawl Nets",
-			img: "Gear/FishingNet1H_R005.png",
+			img: "Gear/Generic/Fishnets/Net_R32_ua.png",
 			effects: {
 				30: [
 					{min: 10.782500000000015, max: 11.917500000000016, positive: true, type: "gatherFish"},
@@ -2762,7 +2762,7 @@ var gear = {
 		},
 		{
 			name: "Trusty Nets",
-			img: "Gear/FishingNet1H_R008.png",
+			img: "Gear/Generic/Fishnets/Net_R30_ua.png",
 			effects: {
 				30: [
 					{min: 10.782500000000015, max: 11.917500000000016, positive: true, type: "gatherFish"},
@@ -2772,7 +2772,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Nets",
-			img: "Gear/FishingNet1H_U006.png",
+			img: "Gear/Generic/Fishnets/Net_U10_ua.png",
 			effects: {
 				29: [
 					{min: 8.360000000000007, max: 9.240000000000009, positive: true, type: "gatherFish"},
@@ -2782,7 +2782,7 @@ var gear = {
 		},
 		{
 			name: "Nets of Sequana",
-			img: "Gear/FishingNet1H_R101.png",
+			img: "Gear/Generic/Fishnets/Net_R31_ua.png",
 			effects: {
 				27: [
 					{min: 11.162499999999993, max: 12.337499999999993, positive: true, type: "gatherFish"},
@@ -2791,7 +2791,7 @@ var gear = {
 		},
 		{
 			name: "Throw Nets",
-			img: "Gear/FishingNet1H_R004.png",
+			img: "Gear/Generic/Fishnets/Net_R30_ua.png",
 			effects: {
 				21: [
 					{min: 13.043499999999996, max: 14.416499999999997, positive: true, type: "damage"},
@@ -2817,7 +2817,7 @@ var gear = {
 		},
 		{
 			name: "Kek-Blessed Nets",
-			img: "Gear/FishingNet1H_E001.png",
+			img: "Gear/Generic/Fishnets/Net_E60_ua.png",
 			effects: {
 				20: [
 					{min: 9.347999999999983, max: 10.331999999999981, positive: true, type: "gatherFish"},
@@ -2843,7 +2843,7 @@ var gear = {
 		},
 		{
 			name: "Lightweight Nets",
-			img: "Gear/FishingNet1H_RD01.png",
+			img: "Gear/Generic/Fishnets/Net_R31_ua.png",
 			effects: {
 				24: [
 					{min: 3.543499999999989, max: 3.9164999999999885, positive: true, type: "gatherFish"},
@@ -2853,7 +2853,7 @@ var gear = {
 		},
 		{
 			name: "Silk-Lined Nets",
-			img: "Gear/FishingNet1H_R003.png",
+			img: "Gear/Generic/Fishnets/Net_R32_ua.png",
 			effects: {
 				21: [
 					{min: 9.167500000000002, max: 10.132500000000002, positive: true, type: "gatherFish"},
@@ -2862,7 +2862,7 @@ var gear = {
 		},
 		{
 			name: "Cast Nets",
-			img: "Gear/FishingNet1H_R001.png",
+			img: "Gear/Generic/Fishnets/Net_R30_ua.png",
 			effects: {
 				8: [
 					{min: 4.303500000000011, max: 4.756500000000012, positive: true, type: "gatherFish"},
@@ -2920,7 +2920,7 @@ var gear = {
 		},
 		{
 			name: "Hero's Nets",
-			img: "Gear/FishingNet1H_U201.png",
+			img: "Gear/Generic/Fishnets/Net_U10_ua.png",
 			effects: {
 				20: [
 					{min: 5.434000000000013, max: 6.006000000000015, positive: true, type: "gatherFish"},
@@ -2930,7 +2930,7 @@ var gear = {
 		},
 		{
 			name: "Superior Nets",
-			img: "Gear/FishingNet1H_U005.png",
+			img: "Gear/Generic/Fishnets/Net_U11_ua.png",
 			effects: {
 				19: [
 					{min: 6.080000000000005, max: 6.720000000000006, positive: true, type: "gatherFish"},
@@ -2940,7 +2940,7 @@ var gear = {
 		},
 		{
 			name: "Long Lines",
-			img: "Gear/FishingNet1H_R002.png",
+			img: "Gear/Generic/Fishnets/Net_R31_ua.png",
 			effects: {
 				14: [
 					{min: 2.78350000000001, max: 3.076500000000011, positive: true, type: "gatherFish"},
@@ -2966,7 +2966,7 @@ var gear = {
 		},
 		{
 			name: "Durable Nets",
-			img: "Gear/FishingNet1H_U001.png",
+			img: "Gear/Generic/Fishnets/Net_U11_ua.png",
 			effects: {
 				2: [
 					{min: 2.232499999999986, max: 2.4674999999999847, positive: true, type: "gatherFish"},
@@ -3017,7 +3017,7 @@ var gear = {
 		},
 		{
 			name: "Fine Nets",
-			img: "Gear/FishingNet1H_U004.png",
+			img: "Gear/Generic/Fishnets/Net_U10_ua.png",
 			effects: {
 				9: [
 					{min: 3.8000000000000034, max: 4.200000000000004, positive: true, type: "gatherFish"},
@@ -3027,7 +3027,7 @@ var gear = {
 		},
 		{
 			name: "Novice's Beguiling Fishing Hooks",
-			img: "Gear/FishingNet1H_U008.png",
+			img: "Gear/Generic/Fishnets/Net_U10_ua.png",
 			effects: {
 				3: [
 					{min: 1.852500000000007, max: 2.047500000000008, positive: true, type: "gatherFish"},

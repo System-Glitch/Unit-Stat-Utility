@@ -141,7 +141,7 @@ function updateStats() {
 		for(let j = 0 ; j < selector.effects.length ; j++) {
 			let effect = selector.effects[j];
 			let mod = parseFloat(effect.element.value);
-			modifiers[effect.type].push(1+(mod/100));
+			modifiers[effect.type].push(effect.type === "critical" ? mod : 1+(mod/100));
 		}
 	}
 
@@ -150,7 +150,7 @@ function updateStats() {
 		for(let j = 0 ; j < championUpgrade.effects.length ; j++) {
 			let effect = championUpgrade.effects[j];
 			let mod = parseFloat(effect.amount);
-			modifiers[effect.type].push(1+(mod/100));
+			modifiers[effect.type].push(effect.type === "critical" ? mod : 1+(mod/100));
 		}
 	}
 
@@ -169,7 +169,7 @@ function updateStats() {
 			for(let j = 0 ; j < upgrade.effects.length ; j++) {
 				let effect = upgrade.effects[j];
 				let mod = parseFloat(effect.amount);
-				modifiers[effect.type].push(1+(mod/100));
+				modifiers[effect.type].push(effect.type === "critical" ? mod : 1+(mod/100));
 			}
 		}
 	}
@@ -190,15 +190,18 @@ function updateStats() {
 
 			if(effects[key].isArmor) {
 
-				for(let j = 0 ; j < length ; j++) {
+				for(let j = 0 ; j < length ; j++)
 					result = 1 - (1 - result) / effect[j];
-				}
 				
+			} else if(key === "critical") {
+
+				for(let j = 0 ; j < length ; j++)
+					result += effect[j];
+
 			} else {
 
-				for(let j = 0 ; j < length ; j++) {
+				for(let j = 0 ; j < length ; j++)
 					result *= effect[j];
-				}
 				
 			}
 			display.textContent = round(result);

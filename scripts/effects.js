@@ -21,7 +21,7 @@ var effects = {
 	multiplierVillager: {name: "Bonus vs. Villager", startsAtOne: true},
 	snare: {name: "Snare", startsAtOne: false},
 	snareResist: {name: "Snare Resist", startsAtOne: false},
-	critical: {name: "Critical Hit Chance", startsAtOne: true},
+	critical: {name: "Critical Hit Chance", startsAtOne: false},
 	timeTrain: {name: "Train Time", startsAtOne: false},
 	timeBuilding: {name: "Build Time", startsAtOne: false},
 	range: {name: "Maximum Range", startsAtOne: false},

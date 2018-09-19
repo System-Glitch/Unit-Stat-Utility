@@ -16580,7 +16580,7 @@ var gear = {
 		{name: "None", img: 'Slot/ClothArmorSlot_ua.png'},
 		{
 			name: "Divine High Vizier's Robes",
-			img: "Gear/ArmorCloth_DHVR.png",
+			img: "Gear/Generic/Armor/Clth/Clth_L90_ua.png",
 			effects: {
 				40: [
 					{min: 30.53299999999999, max: 33.74699999999999, positive: true, type: "damage"},
@@ -16589,7 +16589,7 @@ var gear = {
 		},
 		{
 			name: "Divine Vest of Foresight",
-			img: "Gear/ArmorClth_R016_LEG.png",
+			img: "Gear/Generic/Armor/Clth/Clth_L90_ua.png",
 			effects: {
 				40: [
 					{min: 24.32, max: 26.880000000000003, positive: true, type: "vision"},
@@ -16598,7 +16598,7 @@ var gear = {
 		},
 		{
 			name: "Robes of Menes",
-			img: "Gear/ArmorClth_L003.png",
+			img: "Gear/Generic/Armor/Clth/Clth_L90_ua.png",
 			effects: {
 				40: [
 					{min: 61.37950000000001, max: 67.84050000000002, positive: true, type: "health"},
@@ -16608,7 +16608,7 @@ var gear = {
 		},
 		{
 			name: "Tunic of Actaeon",
-			img: "Gear/ArmorClth_L002.png",
+			img: "Gear/Generic/Armor/Clth/Clth_L90_ua.png",
 			effects: {
 				40: [
 					{min: 61.37950000000001, max: 67.84050000000002, positive: true, type: "health"},
@@ -16618,7 +16618,7 @@ var gear = {
 		},
 		{
 			name: "Tunic of the Collector",
-			img: "Gear/ArmorCloth_TOTC.png",
+			img: "Gear/Generic/Armor/Clth/Clth_L90_ua.png",
 			effects: {
 				40: [
 					{min: 59.74550000000002, max: 66.03450000000002, positive: true, type: "health"},
@@ -16629,7 +16629,7 @@ var gear = {
 		},
 		{
 			name: "Vest of Theseus",
-			img: "Gear/ArmorClth_L001.png",
+			img: "Gear/Generic/Armor/Clth/Clth_L90_ua.png",
 			effects: {
 				40: [
 					{min: 61.37950000000001, max: 67.84050000000002, positive: true, type: "health"},
@@ -16639,7 +16639,7 @@ var gear = {
 		},
 		{
 			name: "Athena's Blessed Tunic of Defense",
-			img: "Gear/ArmorClth_E008.png",
+			img: "Gear/Generic/Armor/Clth/Clth_E60_ua.png",
 			effects: {
 				35: [
 					{min: 69.73, max: 77.07000000000001, positive: true, type: "health"},
@@ -16663,7 +16663,7 @@ var gear = {
 		},
 		{
 			name: "Punic Runic Tunic",
-			img: "Gear/ArmorClth_E007.png",
+			img: "Gear/Generic/Armor/Clth/Clth_E60_ua.png",
 			effects: {
 				40: [
 					{min: 58.52, max: 64.68, positive: true, type: "health"},
@@ -16674,7 +16674,7 @@ var gear = {
 		},
 		{
 			name: "Sand-Skin Chiton",
-			img: "Gear/ArmorClth_EA02.png",
+			img: "Gear/Generic/Armor/Clth/Clth_E60_ua.png",
 			effects: {
 				40: [
 					{min: 58.52, max: 64.68, positive: true, type: "health"},
@@ -16684,7 +16684,7 @@ var gear = {
 		},
 		{
 			name: "The Emperor's Finest Robe",
-			img: "Gear/ArmorClth_E009.png",
+			img: "Gear/Generic/Armor/Clth/Clth_E60_ua.png",
 			effects: {
 				40: [
 					{min: 58.52, max: 64.68, positive: true, type: "health"},
@@ -16695,7 +16695,7 @@ var gear = {
 		},
 		{
 			name: "Chiton of the Jackal",
-			img: "Gear/ArmorClth_R013.png",
+			img: "Gear/Generic/Armor/Clth/Clth_R30v2_ua.png",
 			effects: {
 				36: [
 					{min: 43.054, max: 47.58600000000001, positive: true, type: "health"},
@@ -16721,7 +16721,7 @@ var gear = {
 		},
 		{
 			name: "Delian Adept's Robes",
-			img: "Gear/ArmorClth_RC02.png",
+			img: "Gear/Generic/Armor/Clth/Clth_R30v2_ua.png",
 			effects: {
 				40: [
 					{min: 47.082, max: 52.038000000000004, positive: true, type: "health"},
@@ -16731,7 +16731,7 @@ var gear = {
 		},
 		{
 			name: "Legion Recruit's Tunic",
-			img: "Gear/ArmorClth_RC01.png",
+			img: "Gear/Generic/Armor/Clth/Clth_R30v2_ua.png",
 			effects: {
 				40: [
 					{min: 6.298500000000002, max: 6.961500000000003, positive: true, type: "vision"},
@@ -16741,7 +16741,7 @@ var gear = {
 		},
 		{
 			name: "Reinforced Linen Chiton",
-			img: "Gear/ArmorClth_U003.png",
+			img: "Gear/Generic/Armor/Clth/Clth_U10v2_ua.png",
 			effects: {
 				27: [
 					{min: 30.400000000000006, max: 33.60000000000001, positive: true, type: "health"},
@@ -16777,7 +16777,7 @@ var gear = {
 		},
 		{
 			name: "Ahapitep's Devout Vest",
-			img: "Gear/ArmorClth_RB01.png",
+			img: "Gear/Generic/Armor/Clth/Clth_R30_ua.png",
 			effects: {
 				36: [
 					{min: 56.620000000000005, max: 62.58000000000001, positive: true, type: "health"},
@@ -16795,7 +16795,7 @@ var gear = {
 		},
 		{
 			name: "Ancient Trojan Guard Chiton",
-			img: "Gear/ArmorClth_E006.png",
+			img: "Gear/Generic/Armor/Clth/Clth_E60_ua.png",
 			effects: {
 				34: [
 					{min: 51.233500000000014, max: 56.626500000000014, positive: true, type: "health"},
@@ -16826,7 +16826,7 @@ var gear = {
 		},
 		{
 			name: "Noble's Robes",
-			img: "Gear/ArmorClth_R012.png",
+			img: "Gear/Generic/Armor/Clth/Clth_R30_ua.png",
 			effects: {
 				34: [
 					{min: 47.5, max: 52.5, positive: true, type: "health"},
@@ -16852,7 +16852,7 @@ var gear = {
 		},
 		{
 			name: "Memphis Militia Tunic",
-			img: "Gear/ArmorClth_R011.png",
+			img: "Gear/Generic/Armor/Clth/Clth_R30v2_ua.png",
 			effects: {
 				32: [
 					{min: 22.628999999999994, max: 25.011, positive: true, type: "damage"},
@@ -16873,7 +16873,7 @@ var gear = {
 		},
 		{
 			name: "Frostbane Bearskin Cloak",
-			img: "Gear/ArmorClth_E102.png",
+			img: "Gear/Generic/Armor/Clth/Clth_E60_ua.png",
 			effects: {
 				31: [
 					{min: 43.918500000000016, max: 48.54150000000002, positive: true, type: "health"},
@@ -16899,7 +16899,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Fitted Peplos",
-			img: "Gear/ArmorClth_U011.png",
+			img: "Gear/Generic/Armor/Clth/Clth_U10v2_ua.png",
 			effects: {
 				35: [
 					{min: 39.28249999999999, max: 43.4175, positive: true, type: "health"},
@@ -16909,7 +16909,7 @@ var gear = {
 		},
 		{
 			name: "Peerless Embroidered Robes",
-			img: "Gear/ArmorClth_U015.png",
+			img: "Gear/Generic/Armor/Clth/Clth_U10_ua.png",
 			effects: {
 				35: [
 					{min: 39.28249999999999, max: 43.4175, positive: true, type: "health"},
@@ -16919,7 +16919,7 @@ var gear = {
 		},
 		{
 			name: "Shroud of the Agile Boar",
-			img: "Gear/ArmorClth_E103.png",
+			img: "Gear/Generic/Armor/Clth/Clth_E60_ua.png",
 			effects: {
 				34: [
 					{min: 55.3375, max: 61.1625, positive: true, type: "health"},
@@ -16929,7 +16929,7 @@ var gear = {
 		},
 		{
 			name: "Cyprus Steward Tunic",
-			img: "Gear/ArmorClth_U016.png",
+			img: "Gear/Generic/Armor/Clth/Clth_U10_ua.png",
 			effects: {
 				34: [
 					{min: 32.03399999999999, max: 35.40599999999999, positive: true, type: "health"},
@@ -16939,7 +16939,7 @@ var gear = {
 		},
 		{
 			name: "Robes of the Guardian",
-			img: "Gear/ArmorClth_E005.png",
+			img: "Gear/Generic/Armor/Clth/Clth_E60_ua.png",
 			effects: {
 				29: [
 					{min: 45.12500000000001, max: 49.87500000000001, positive: true, type: "health"},
@@ -16970,7 +16970,7 @@ var gear = {
 		},
 		{
 			name: "Ancient Cretan Robes",
-			img: "Gear/ArmorClth_R010.png",
+			img: "Gear/Generic/Armor/Clth/Clth_R30_ua.png",
 			effects: {
 				33: [
 					{min: 46.3315, max: 51.20850000000001, positive: true, type: "health"},
@@ -16980,7 +16980,7 @@ var gear = {
 		},
 		{
 			name: "Immaculate Commoner Clothes",
-			img: "Gear/ArmorClth_U009.png",
+			img: "Gear/Generic/Armor/Clth/Clth_U10_ua.png",
 			effects: {
 				33: [
 					{min: 37.43949999999999, max: 41.38049999999999, positive: true, type: "health"},
@@ -16990,7 +16990,7 @@ var gear = {
 		},
 		{
 			name: "Spartan Practice Vests",
-			img: "Gear/ArmorClth_R009.png",
+			img: "Gear/Generic/Armor/Clth/Clth_R30v2_ua.png",
 			effects: {
 				26: [
 					{min: 38.151999999999994, max: 42.168, positive: true, type: "health"},
@@ -17020,7 +17020,7 @@ var gear = {
 		},
 		{
 			name: "Reinforced Wool Peplos",
-			img: "Gear/ArmorClth_U002.png",
+			img: "Gear/Generic/Armor/Clth/Clth_U10v2_ua.png",
 			effects: {
 				17: [
 					{min: 21.849999999999998, max: 24.150000000000002, positive: true, type: "health"},
@@ -17071,7 +17071,7 @@ var gear = {
 		},
 		{
 			name: "High Vizier's Robe",
-			img: "Gear/ArmorClth_E004.png",
+			img: "Gear/Generic/Armor/Clth/Clth_E60_ua.png",
 			effects: {
 				25: [
 					{min: 23.3605, max: 25.8195, positive: true, type: "damage"},
@@ -17092,7 +17092,7 @@ var gear = {
 		},
 		{
 			name: "Alligator-Hide Chiton",
-			img: "Gear/ArmorClth_R008.png",
+			img: "Gear/Generic/Armor/Clth/Clth_R30_ua.png",
 			effects: {
 				24: [
 					{min: 31.226499999999994, max: 34.5135, positive: true, type: "health"},
@@ -17118,7 +17118,7 @@ var gear = {
 		},
 		{
 			name: "Cyclops-Skin Chiton",
-			img: "Gear/ArmorClth_E003.png",
+			img: "Gear/Generic/Armor/Clth/Clth_E60_ua.png",
 			effects: {
 				22: [
 					{min: 36.31850000000001, max: 40.141500000000015, positive: true, type: "health"},
@@ -17149,7 +17149,7 @@ var gear = {
 		},
 		{
 			name: "Spartan Champion's Tunic",
-			img: "Gear/ArmorClth_E010.png",
+			img: "Gear/Generic/Armor/Clth/Clth_E60_ua.png",
 			effects: {
 				26: [
 					{min: 47.51899999999999, max: 52.521, positive: true, type: "health"},
@@ -17159,7 +17159,7 @@ var gear = {
 		},
 		{
 			name: "Blessed Priest Robes",
-			img: "Gear/ArmorClth_R007.png",
+			img: "Gear/Generic/Armor/Clth/Clth_R30_ua.png",
 			effects: {
 				22: [
 					{min: 83.80900000000001, max: 92.63100000000001, positive: true, type: "armorInfantry"},
@@ -17185,7 +17185,7 @@ var gear = {
 		},
 		{
 			name: "Worker's Cloth",
-			img: "Gear/ArmorClth_ED01.png",
+			img: "Gear/Generic/Armor/Clth/Clth_E60_ua.png",
 			effects: {
 				25: [
 					{min: 41.382, max: 45.73800000000001, positive: true, type: "health"},
@@ -17196,7 +17196,7 @@ var gear = {
 		},
 		{
 			name: "Argos Leather Padded Vests",
-			img: "Gear/ArmorClth_R014.png",
+			img: "Gear/Generic/Armor/Clth/Clth_R30v2_ua.png",
 			effects: {
 				25: [
 					{min: 37.24949999999998, max: 41.17049999999999, positive: true, type: "health"},
@@ -17206,7 +17206,7 @@ var gear = {
 		},
 		{
 			name: "Crete Noble Robes",
-			img: "Gear/ArmorClth_RA01.png",
+			img: "Gear/Generic/Armor/Clth/Clth_R30v2_ua.png",
 			effects: {
 				25: [
 					{min: 36.9835, max: 40.8765, positive: true, type: "health"},
@@ -17216,7 +17216,7 @@ var gear = {
 		},
 		{
 			name: "Remarkable Tanned Peplos",
-			img: "Gear/ArmorClth_U010.png",
+			img: "Gear/Generic/Armor/Clth/Clth_U10_ua.png",
 			effects: {
 				25: [
 					{min: 30.0675, max: 33.2325, positive: true, type: "health"},
@@ -17226,7 +17226,7 @@ var gear = {
 		},
 		{
 			name: "Superbly Stitched Robes",
-			img: "Gear/ArmorClth_U014.png",
+			img: "Gear/Generic/Armor/Clth/Clth_U10v2_ua.png",
 			effects: {
 				25: [
 					{min: 30.0675, max: 33.2325, positive: true, type: "health"},
@@ -17236,7 +17236,7 @@ var gear = {
 		},
 		{
 			name: "Triple-Stitched Chiton",
-			img: "Gear/ArmorClth_R006.png",
+			img: "Gear/Generic/Armor/Clth/Clth_R30v2_ua.png",
 			effects: {
 				24: [
 					{min: 31.226499999999994, max: 34.5135, positive: true, type: "health"},
@@ -17246,7 +17246,7 @@ var gear = {
 		},
 		{
 			name: "Royal Guard Tunic",
-			img: "Gear/ArmorClth_E002.png",
+			img: "Gear/Generic/Armor/Clth/Clth_E60_ua.png",
 			effects: {
 				19: [
 					{min: 32.414000000000016, max: 35.82600000000002, positive: true, type: "health"},
@@ -17277,7 +17277,7 @@ var gear = {
 		},
 		{
 			name: "Shroud of Armenoi",
-			img: "Gear/ArmorClth_EA01.png",
+			img: "Gear/Generic/Armor/Clth/Clth_E60_ua.png",
 			effects: {
 				23: [
 					{min: 37.62000000000001, max: 41.58000000000002, positive: true, type: "health"},
@@ -17288,7 +17288,7 @@ var gear = {
 		},
 		{
 			name: "Superior Woven Clothes",
-			img: "Gear/ArmorClth_U008.png",
+			img: "Gear/Generic/Armor/Clth/Clth_U10v2_ua.png",
 			effects: {
 				23: [
 					{min: 28.224499999999992, max: 31.195499999999996, positive: true, type: "health"},
@@ -17298,7 +17298,7 @@ var gear = {
 		},
 		{
 			name: "Corinth Militia Tunic",
-			img: "Gear/ArmorClth_R005.png",
+			img: "Gear/Generic/Armor/Clth/Clth_R30_ua.png",
 			effects: {
 				18: [
 					{min: 29.00349999999999, max: 32.05649999999999, positive: true, type: "health"},
@@ -17324,7 +17324,7 @@ var gear = {
 		},
 		{
 			name: "Tunic of Winter Solstice",
-			img: "Gear/ArmorClth_R101.png",
+			img: "Gear/Generic/Armor/Clth/Clth_R30_ua.png",
 			effects: {
 				22: [
 					{min: 31.568500000000004, max: 34.89150000000001, positive: true, type: "health"},
@@ -17334,7 +17334,7 @@ var gear = {
 		},
 		{
 			name: "Ranger's Unrelenting Vest",
-			img: "Gear/ArmorClth_E101.png",
+			img: "Gear/Generic/Armor/Clth/Clth_E60_ua.png",
 			effects: {
 				20: [
 					{min: 33.40199999999999, max: 36.91799999999999, positive: true, type: "health"},
@@ -17344,7 +17344,7 @@ var gear = {
 		},
 		{
 			name: "Silver Lynx Fur-Lined Tunic",
-			img: "Gear/ArmorClth_E001.png",
+			img: "Gear/Generic/Armor/Clth/Clth_E60_ua.png",
 			effects: {
 				17: [
 					{min: 30.00100000000001, max: 33.15900000000001, positive: true, type: "health"},
@@ -17370,7 +17370,7 @@ var gear = {
 		},
 		{
 			name: "Hero's Tunic",
-			img: "Gear/ArmorClth_R201.png",
+			img: "Gear/Generic/Armor/Clth/Clth_R30_ua.png",
 			effects: {
 				20: [
 					{min: 35.34000000000001, max: 39.06000000000001, positive: true, type: "health"},
@@ -17379,7 +17379,7 @@ var gear = {
 		},
 		{
 			name: "Lucky Soldiers' Chiton",
-			img: "Gear/ArmorClth_R004.png",
+			img: "Gear/Generic/Armor/Clth/Clth_R30v2_ua.png",
 			effects: {
 				15: [
 					{min: 25.4695, max: 28.150500000000005, positive: true, type: "health"},
@@ -17409,7 +17409,7 @@ var gear = {
 		},
 		{
 			name: "Finely Tailored Robes",
-			img: "Gear/ArmorClth_U102.png",
+			img: "Gear/Generic/Armor/Clth/Clth_U10_ua.png",
 			effects: {
 				19: [
 					{min: 20.985499999999988, max: 23.19449999999999, positive: true, type: "health"},
@@ -17419,7 +17419,7 @@ var gear = {
 		},
 		{
 			name: "Vest of Winter's Dusk",
-			img: "Gear/ArmorClth_R102.png",
+			img: "Gear/Generic/Armor/Clth/Clth_R30v2_ua.png",
 			effects: {
 				14: [
 					{min: 22.7525, max: 25.147500000000004, positive: true, type: "health"},
@@ -17445,7 +17445,7 @@ var gear = {
 		},
 		{
 			name: "Adepts' Robes",
-			img: "Gear/ArmorClth_R003.png",
+			img: "Gear/Generic/Armor/Clth/Clth_R30_ua.png",
 			effects: {
 				2: [
 					{min: 7.713999999999994, max: 8.525999999999994, positive: true, type: "health"},
@@ -17511,7 +17511,7 @@ var gear = {
 		},
 		{
 			name: "Cloth Himation",
-			img: "Gear/ArmorClth_U001.png",
+			img: "Gear/Generic/Armor/Clth/Clth_U10v2_ua.png",
 			effects: {
 				2: [
 					{min: 9.024999999999997, max: 9.974999999999996, positive: true, type: "health"},
@@ -17562,7 +17562,7 @@ var gear = {
 		},
 		{
 			name: "Fine Hide Peplos",
-			img: "Gear/ArmorClth_U007.png",
+			img: "Gear/Generic/Armor/Clth/Clth_U10v2_ua.png",
 			effects: {
 				15: [
 					{min: 21.02349999999998, max: 23.23649999999998, positive: true, type: "health"},
@@ -17572,7 +17572,7 @@ var gear = {
 		},
 		{
 			name: "Ordinary Peasant Robes",
-			img: "Gear/ArmorClth_U013.png",
+			img: "Gear/Generic/Armor/Clth/Clth_U10_ua.png",
 			effects: {
 				15: [
 					{min: 21.02349999999998, max: 23.23649999999998, positive: true, type: "health"},
@@ -17582,7 +17582,7 @@ var gear = {
 		},
 		{
 			name: "Desert Wanderer Robes",
-			img: "Gear/ArmorClth_R015.png",
+			img: "Gear/Generic/Armor/Clth/Clth_R30v2_ua.png",
 			effects: {
 				13: [
 					{min: 23.113499999999984, max: 25.546499999999984, positive: true, type: "health"},
@@ -17592,7 +17592,7 @@ var gear = {
 		},
 		{
 			name: "Farmer's Linen Tunic",
-			img: "Gear/ArmorClth_U101.png",
+			img: "Gear/Generic/Armor/Clth/Clth_U10v2_ua.png",
 			effects: {
 				8: [
 					{min: 12.625500000000002, max: 13.954500000000003, positive: true, type: "health"},
@@ -17640,7 +17640,7 @@ var gear = {
 		},
 		{
 			name: "Fine Work Clothes",
-			img: "Gear/ArmorClth_U005.png",
+			img: "Gear/Generic/Armor/Clth/Clth_U10v2_ua.png",
 			effects: {
 				13: [
 					{min: 13.575500000000002, max: 15.004500000000004, positive: true, type: "health"},
@@ -17650,7 +17650,7 @@ var gear = {
 		},
 		{
 			name: "Strong Quilted Armor",
-			img: "Gear/ArmorClth_UA03.png",
+			img: "Gear/Generic/Armor/Clth/Clth_U10_ua.png",
 			effects: {
 				4: [
 					{min: 9.5855, max: 10.5945, positive: true, type: "health"},
@@ -17692,7 +17692,7 @@ var gear = {
 		},
 		{
 			name: "Double-Stitched Chiton",
-			img: "Gear/ArmorClth_R001.png",
+			img: "Gear/Generic/Armor/Clth/Clth_R30v2_ua.png",
 			effects: {
 				7: [
 					{min: 4.009000000000001, max: 4.431000000000002, positive: true, type: "speed"},
@@ -17714,7 +17714,7 @@ var gear = {
 		},
 		{
 			name: "Rough Tunic",
-			img: "Gear/ArmorClth_UA01.png",
+			img: "Gear/Generic/Armor/Clth/Clth_U10_ua.png",
 			effects: {
 				9: [
 					{min: 13.385500000000002, max: 14.794500000000005, positive: true, type: "health"},
@@ -17724,7 +17724,7 @@ var gear = {
 		},
 		{
 			name: "Homer's Vest of Foresight",
-			img: "Gear/ArmorClth_R016.png",
+			img: "Gear/Generic/Armor/Clth/Clth_R30_ua.png",
 			effects: {
 				7: [
 					{min: 22.562500000000004, max: 24.937500000000004, positive: true, type: "vision"},
@@ -17733,7 +17733,7 @@ var gear = {
 		},
 		{
 			name: "Freelancer's Steadfast Tunic",
-			img: "Gear/ArmorClth_U017.png",
+			img: "Gear/Generic/Armor/Clth/Clth_U10_ua.png",
 			effects: {
 				6: [
 					{min: 11.105500000000001, max: 12.274500000000002, positive: true, type: "health"},
@@ -17747,7 +17747,7 @@ var gear = {
 		},
 		{
 			name: "Spartan Guard Tunic",
-			img: "Gear/ArmorClth_R002.png",
+			img: "Gear/Generic/Armor/Clth/Clth_R30_ua.png",
 			effects: {
 				6: [
 					{min: 14.867499999999986, max: 16.432499999999987, positive: true, type: "health"},
@@ -17757,7 +17757,7 @@ var gear = {
 		},
 		{
 			name: "Crete Steward Robes",
-			img: "Gear/ArmorClth_UA02.png",
+			img: "Gear/Generic/Armor/Clth/Clth_U10v2_ua.png",
 			effects: {
 				5: [
 					{min: 10.3455, max: 11.434500000000002, positive: true, type: "health"},
@@ -17767,7 +17767,7 @@ var gear = {
 		},
 		{
 			name: "Simple Hide Peplos",
-			img: "Gear/ArmorClth_U006.png",
+			img: "Gear/Generic/Armor/Clth/Clth_U10_ua.png",
 			effects: {
 				5: [
 					{min: 11.713499999999996, max: 12.946499999999997, positive: true, type: "health"},
@@ -17777,7 +17777,7 @@ var gear = {
 		},
 		{
 			name: "Plain Rustic Robes",
-			img: "Gear/ArmorClth_U012.png",
+			img: "Gear/Generic/Armor/Clth/Clth_U10v2_ua.png",
 			effects: {
 				3: [
 					{min: 9.85149999999999, max: 10.88849999999999, positive: true, type: "health"},
@@ -17787,7 +17787,7 @@ var gear = {
 		},
 		{
 			name: "Weathered Work Clothes",
-			img: "Gear/ArmorClth_U004.png",
+			img: "Gear/Generic/Armor/Clth/Clth_U10_ua.png",
 			effects: {
 				3: [
 					{min: 9.85149999999999, max: 10.88849999999999, positive: true, type: "health"},

@@ -5207,7 +5207,7 @@ var gear = {
 		{name: "None", img: 'Slot/StaffSlot_ua.png'},
 		{
 			name: "Staff of Amenhotep",
-			img: "Gear/Staff2H_L002.png",
+			img: "Gear/Generic/Staves/Staff_L90_ua.png",
 			effects: {
 				40: [
 					{min: 80.17999999999999, max: 88.61999999999999, positive: true, type: "healing"},
@@ -5217,7 +5217,7 @@ var gear = {
 		},
 		{
 			name: "Staff of the Oracle",
-			img: "Gear/Staff2H_L001_VR.png",
+			img: "Gear/Generic/Staves/Staff_L90_ua.png",
 			effects: {
 				40: [
 					{min: 32.148, max: 35.532000000000004, positive: true, type: "range"},
@@ -5227,7 +5227,7 @@ var gear = {
 		},
 		{
 			name: "Diamond Staff of Hermes",
-			img: "Gear/Staff2H_E008_VR.png",
+			img: "Gear/Generic/Staves/Staff_E63_ua.png",
 			effects: {
 				37: [
 					{min: 16.596499999999985, max: 18.343499999999985, positive: true, type: "range"},
@@ -5253,7 +5253,7 @@ var gear = {
 		},
 		{
 			name: "High Priest's Celestial Staff",
-			img: "Gear/Staff2H_E009.png",
+			img: "Gear/Generic/Staves/Staff_E66_ua.png",
 			effects: {
 				40: [
 					{min: 76.91199999999999, max: 85.008, positive: true, type: "healing"},
@@ -5263,7 +5263,7 @@ var gear = {
 		},
 		{
 			name: "Inscribed Engineer's Staff",
-			img: "Gear/Staff2H_E007_VR.png",
+			img: "Gear/Generic/Staves/Staff_E62_ua.png",
 			effects: {
 				37: [
 					{min: 16.596499999999985, max: 18.343499999999985, positive: true, type: "range"},
@@ -5289,7 +5289,7 @@ var gear = {
 		},
 		{
 			name: "Set's Hieroglyphic Nature Staff",
-			img: "Gear/Staff2H_E006.png",
+			img: "Gear/Generic/Staves/Staff_E61_ua.png",
 			effects: {
 				40: [
 					{min: 1.3395000000000001, max: 1.4805000000000001, positive: true, type: "speed"},
@@ -5300,7 +5300,7 @@ var gear = {
 		},
 		{
 			name: "Time-Worn Wololo Staff",
-			img: "Gear/Staff2H_E010.png",
+			img: "Gear/Generic/Staves/Staff_E60_ua.png",
 			effects: {
 				37: [
 					{min: 73.14999999999999, max: 80.85000000000001, positive: true, type: "damage"},
@@ -5318,7 +5318,7 @@ var gear = {
 		},
 		{
 			name: "Ancient Wololo Staff",
-			img: "Gear/Staff2H_R013.png",
+			img: "Gear/Generic/Staves/Staff_R33_ua.png",
 			effects: {
 				36: [
 					{min: -2.2994999999999917, max: -2.0804999999999922, positive: true, type: "cost"},
@@ -5344,7 +5344,7 @@ var gear = {
 		},
 		{
 			name: "Cedar Staff",
-			img: "Gear/Staff2H_U003_VR.png",
+			img: "Gear/Generic/Staves/Staff_U11_ua.png",
 			effects: {
 				27: [
 					{min: 2.460499999999982, max: 2.7194999999999805, positive: true, type: "range"},
@@ -5400,7 +5400,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Empyrean Staff",
-			img: "Gear/Staff2H_U015.png",
+			img: "Gear/Generic/Staves/Staff_U13_ua.png",
 			effects: {
 				40: [
 					{min: -73.69950000000001, max: -66.68050000000001, positive: true, type: "convertSiegeRate"},
@@ -5410,7 +5410,7 @@ var gear = {
 		},
 		{
 			name: "Peerless Empyrean Staff",
-			img: "Gear/Staff2H_U014.png",
+			img: "Gear/Generic/Staves/Staff_U12_ua.png",
 			effects: {
 				40: [
 					{min: -13.734000000000002, max: -12.426000000000002, positive: true, type: "convertInfantryRate"},
@@ -5420,7 +5420,7 @@ var gear = {
 		},
 		{
 			name: "Iron-Wrought Staff",
-			img: "Gear/Staff2H_R012.png",
+			img: "Gear/Generic/Staves/Staff_R32_ua.png",
 			effects: {
 				34: [
 					{min: -21.735000000000007, max: -19.665000000000006, positive: true, type: "convertSiegeRate"},
@@ -5446,7 +5446,7 @@ var gear = {
 		},
 		{
 			name: "Consummate Holy Staff",
-			img: "Gear/Staff2H_U013.png",
+			img: "Gear/Generic/Staves/Staff_U11_ua.png",
 			effects: {
 				38: [
 					{min: -13.167000000000007, max: -11.913000000000006, positive: true, type: "convertCavalryRate"},
@@ -5456,7 +5456,7 @@ var gear = {
 		},
 		{
 			name: "Druantia's True Oak Staff",
-			img: "Gear/Staff2H_E101_VR.png",
+			img: "Gear/Generic/Staves/Staff_E60_ua.png",
 			effects: {
 				37: [
 					{min: 35.482499999999995, max: 39.217499999999994, positive: true, type: "range"},
@@ -5466,7 +5466,7 @@ var gear = {
 		},
 		{
 			name: "Golden Great Ankh Staff",
-			img: "Gear/Staff2H_E005.png",
+			img: "Gear/Generic/Staves/Staff_E64_ua.png",
 			effects: {
 				33: [
 					{min: 66.36699999999998, max: 73.353, positive: true, type: "healing"},
@@ -5492,7 +5492,7 @@ var gear = {
 		},
 		{
 			name: "Master Healer's Staff",
-			img: "Gear/Staff2H_R011.png",
+			img: "Gear/Generic/Staves/Staff_R31_ua.png",
 			effects: {
 				32: [
 					{min: 53.71299999999999, max: 59.367, positive: true, type: "healing"},
@@ -5518,7 +5518,7 @@ var gear = {
 		},
 		{
 			name: "Egyptian Champion Priest's Staff",
-			img: "Gear/Staff2H_E011.png",
+			img: "Gear/Generic/Staves/Staff_E61_ua.png",
 			effects: {
 				31: [
 					{min: 14.316500000000005, max: 15.823500000000006, positive: true, type: "range"},
@@ -5544,7 +5544,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Gold Staff of Thoth",
-			img: "Gear/Staff2H_E004_VR.png",
+			img: "Gear/Generic/Staves/Staff_E63_ua.png",
 			effects: {
 				29: [
 					{min: 14.1645, max: 15.6555, positive: true, type: "range"},
@@ -5575,7 +5575,7 @@ var gear = {
 		},
 		{
 			name: "Sturdy Azure Staff",
-			img: "Gear/Staff2H_R010.png",
+			img: "Gear/Generic/Staves/Staff_R30_ua.png",
 			effects: {
 				33: [
 					{min: -21.588000000000005, max: -19.532, positive: true, type: "convertCavalryRate"},
@@ -5585,7 +5585,7 @@ var gear = {
 		},
 		{
 			name: "Staff of Holy Binding",
-			img: "Gear/Staff2H_R103.png",
+			img: "Gear/Generic/Staves/Staff_R36_ua.png",
 			effects: {
 				32: [
 					{min: 37.5535, max: 41.5065, positive: true, type: "damage"},
@@ -5596,7 +5596,7 @@ var gear = {
 		},
 		{
 			name: "Sacrificial Staff of Rituals",
-			img: "Gear/Staff2H_U102_VR.png",
+			img: "Gear/Generic/Staves/Staff_U10_ua.png",
 			effects: {
 				32: [
 					{min: 28.62349999999999, max: 31.636499999999987, positive: true, type: "damage"},
@@ -5606,7 +5606,7 @@ var gear = {
 		},
 		{
 			name: "Ahapitep's Devout Staff",
-			img: "Gear/Staff2H_RB01.png",
+			img: "Gear/Generic/Staves/Staff_R34_ua.png",
 			effects: {
 				26: [
 					{min: 44.67849999999999, max: 49.381499999999996, positive: true, type: "healing"},
@@ -5636,7 +5636,7 @@ var gear = {
 		},
 		{
 			name: "Vizier's Hook Staff",
-			img: "Gear/Staff2H_R009.png",
+			img: "Gear/Generic/Staves/Staff_R35_ua.png",
 			effects: {
 				27: [
 					{min: 14.002999999999998, max: 15.476999999999999, positive: true, type: "armorInfantry"},
@@ -5662,7 +5662,7 @@ var gear = {
 		},
 		{
 			name: "Extraordinary Celestial Staff",
-			img: "Gear/Staff2H_U012.png",
+			img: "Gear/Generic/Staves/Staff_U10_ua.png",
 			effects: {
 				31: [
 					{min: -11.182500000000005, max: -10.117500000000003, positive: true, type: "convertSiegeRate"},
@@ -5672,7 +5672,7 @@ var gear = {
 		},
 		{
 			name: "Oak Holy Staff",
-			img: "Gear/Staff2H_U002_VR.png",
+			img: "Gear/Generic/Staves/Staff_U13_ua.png",
 			effects: {
 				17: [
 					{min: 1.9854999999999923, max: 2.1944999999999917, positive: true, type: "range"},
@@ -5753,7 +5753,7 @@ var gear = {
 		},
 		{
 			name: "Hera's Eagle-Eye Staff",
-			img: "Gear/Staff2H_E003_VR.png",
+			img: "Gear/Generic/Staves/Staff_E62_ua.png",
 			effects: {
 				26: [
 					{min: 22.438999999999997, max: 24.801, positive: true, type: "range"},
@@ -5784,7 +5784,7 @@ var gear = {
 		},
 		{
 			name: "Immaculate Empyrean Staff",
-			img: "Gear/Staff2H_U011.png",
+			img: "Gear/Generic/Staves/Staff_U13_ua.png",
 			effects: {
 				30: [
 					{min: 34.675, max: 38.325, positive: true, type: "damage"},
@@ -5794,7 +5794,7 @@ var gear = {
 		},
 		{
 			name: "Silver Ankh Staff",
-			img: "Gear/Staff2H_R008.png",
+			img: "Gear/Generic/Staves/Staff_R34_ua.png",
 			effects: {
 				24: [
 					{min: 6.5169999999999995, max: 7.202999999999999, positive: true, type: "vision"},
@@ -5820,7 +5820,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Sacred Staff",
-			img: "Gear/Staff2H_U010.png",
+			img: "Gear/Generic/Staves/Staff_U12_ua.png",
 			effects: {
 				28: [
 					{min: -10.657500000000004, max: -9.642500000000004, positive: true, type: "convertCavalryRate"},
@@ -5830,7 +5830,7 @@ var gear = {
 		},
 		{
 			name: "Ra's Staff of the Soldier",
-			img: "Gear/Staff2H_E002_VR.png",
+			img: "Gear/Generic/Staves/Staff_E61_ua.png",
 			effects: {
 				22: [
 					{min: 11.846500000000002, max: 13.093500000000002, positive: true, type: "range"},
@@ -5861,7 +5861,7 @@ var gear = {
 		},
 		{
 			name: "Staff of The Four Winds",
-			img: "Gear/Staff2H_R102.png",
+			img: "Gear/Generic/Staves/Staff_R33_ua.png",
 			effects: {
 				22: [
 					{min: 38.000000000000014, max: 42.000000000000014, positive: true, type: "damage"},
@@ -5882,7 +5882,7 @@ var gear = {
 		},
 		{
 			name: "Delphi Seer's Staff",
-			img: "Gear/Staff2H_R007.png",
+			img: "Gear/Generic/Staves/Staff_R32_ua.png",
 			effects: {
 				20: [
 					{min: 31.140999999999988, max: 34.41899999999999, positive: true, type: "damage"},
@@ -5908,7 +5908,7 @@ var gear = {
 		},
 		{
 			name: "Staff of the Many",
-			img: "Gear/Staff2H_ED01.png",
+			img: "Gear/Generic/Staves/Staff_E61_ua.png",
 			effects: {
 				22: [
 					{min: -7.990500000000006, max: -7.229500000000005, positive: true, type: "cost"},
@@ -5918,7 +5918,7 @@ var gear = {
 		},
 		{
 			name: "Rune-Inscribed Staff",
-			img: "Gear/Staff2H_R006_VR.png",
+			img: "Gear/Generic/Staves/Staff_R31_ua.png",
 			effects: {
 				18: [
 					{min: 20.624499999999987, max: 22.795499999999986, positive: true, type: "range"},
@@ -5944,7 +5944,7 @@ var gear = {
 		},
 		{
 			name: "Club Staff of Siege",
-			img: "Gear/Staff2H_R005.png",
+			img: "Gear/Generic/Staves/Staff_R30_ua.png",
 			effects: {
 				17: [
 					{min: -13.65, max: -12.35, positive: true, type: "convertSiegeRate"},
@@ -5970,7 +5970,7 @@ var gear = {
 		},
 		{
 			name: "Majestic Holy Staff",
-			img: "Gear/Staff2H_U009.png",
+			img: "Gear/Generic/Staves/Staff_U11_ua.png",
 			effects: {
 				21: [
 					{min: 16.957500000000007, max: 18.74250000000001, positive: true, type: "damage"},
@@ -5980,7 +5980,7 @@ var gear = {
 		},
 		{
 			name: "Golden Ankh Staff",
-			img: "Gear/Staff2H_E001_VR.png",
+			img: "Gear/Generic/Staves/Staff_E60_ua.png",
 			effects: {
 				17: [
 					{min: 9.946500000000002, max: 10.993500000000003, positive: true, type: "range"},
@@ -6006,7 +6006,7 @@ var gear = {
 		},
 		{
 			name: "Grand Celestial Staff",
-			img: "Gear/Staff2H_U008.png",
+			img: "Gear/Generic/Staves/Staff_U10_ua.png",
 			effects: {
 				20: [
 					{min: -8.547000000000002, max: -7.733000000000001, positive: true, type: "convertInfantryRate"},
@@ -6016,7 +6016,7 @@ var gear = {
 		},
 		{
 			name: "Jeweled Staff",
-			img: "Gear/Staff2H_R004.png",
+			img: "Gear/Generic/Staves/Staff_R36_ua.png",
 			effects: {
 				18: [
 					{min: 36.35649999999998, max: 40.18349999999998, positive: true, type: "healing"},
@@ -6026,7 +6026,7 @@ var gear = {
 		},
 		{
 			name: "Silver Hook Staff",
-			img: "Gear/Staff2H_R003.png",
+			img: "Gear/Generic/Staves/Staff_R35_ua.png",
 			effects: {
 				14: [
 					{min: -33.33750000000001, max: -30.16250000000001, positive: true, type: "convertCavalryRate"},
@@ -6052,7 +6052,7 @@ var gear = {
 		},
 		{
 			name: "Superior Holy Staff",
-			img: "Gear/Staff2H_U007.png",
+			img: "Gear/Generic/Staves/Staff_U13_ua.png",
 			effects: {
 				18: [
 					{min: 15.086000000000006, max: 16.674000000000007, positive: true, type: "armorPierce"},
@@ -6062,7 +6062,7 @@ var gear = {
 		},
 		{
 			name: "Augur's Tempered Staff",
-			img: "Gear/Staff2H_R101.png",
+			img: "Gear/Generic/Staves/Staff_R30_ua.png",
 			effects: {
 				17: [
 					{min: -21.04199999999999, max: -19.037999999999993, positive: true, type: "convertInfantryRate"},
@@ -6072,7 +6072,7 @@ var gear = {
 		},
 		{
 			name: "Egyptian Soldier Priest's Staff",
-			img: "Gear/Staff2H_R015.png",
+			img: "Gear/Generic/Staves/Staff_R34_ua.png",
 			effects: {
 				13: [
 					{min: 7.020499999999986, max: 7.759499999999985, positive: true, type: "range"},
@@ -6098,7 +6098,7 @@ var gear = {
 		},
 		{
 			name: "Pine Holy Staff",
-			img: "Gear/Staff2H_U001_VR.png",
+			img: "Gear/Generic/Staves/Staff_U10_ua.png",
 			effects: {
 				3: [
 					{min: 2.8214999999999844, max: 3.118499999999983, positive: true, type: "range"},
@@ -6174,7 +6174,7 @@ var gear = {
 		},
 		{
 			name: "Nubian Conqueror Staff",
-			img: "Gear/Staff2H_R014.png",
+			img: "Gear/Generic/Staves/Staff_R33_ua.png",
 			effects: {
 				15: [
 					{min: -12.705, max: -11.495, positive: true, type: "convertInfantryRate"},
@@ -6184,7 +6184,7 @@ var gear = {
 		},
 		{
 			name: "Ebony Ash Staff",
-			img: "Gear/Staff2H_U101.png",
+			img: "Gear/Generic/Staves/Staff_U11_ua.png",
 			effects: {
 				9: [
 					{min: 15.009999999999991, max: 16.589999999999993, positive: true, type: "damage"},
@@ -6205,7 +6205,7 @@ var gear = {
 		},
 		{
 			name: "Staff of the Healers",
-			img: "Gear/Staff2H_R001.png",
+			img: "Gear/Generic/Staves/Staff_R32_ua.png",
 			effects: {
 				8: [
 					{min: 13.30949999999999, max: 14.710499999999989, positive: true, type: "healing"},
@@ -6231,7 +6231,7 @@ var gear = {
 		},
 		{
 			name: "Ornate Sacred Staff",
-			img: "Gear/Staff2H_U006.png",
+			img: "Gear/Generic/Staves/Staff_U12_ua.png",
 			effects: {
 				11: [
 					{min: 4.49349999999999, max: 4.966499999999989, positive: true, type: "health"},
@@ -6241,7 +6241,7 @@ var gear = {
 		},
 		{
 			name: "Bastet's Ebony Staff",
-			img: "Gear/Staff2H_R002_VR.png",
+			img: "Gear/Generic/Staves/Staff_R31_ua.png",
 			effects: {
 				10: [
 					{min: 6.089499999999983, max: 6.7304999999999815, positive: true, type: "range"},
@@ -6251,7 +6251,7 @@ var gear = {
 		},
 		{
 			name: "Ordinary Holy Staff",
-			img: "Gear/Staff2H_U005.png",
+			img: "Gear/Generic/Staves/Staff_U11_ua.png",
 			effects: {
 				8: [
 					{min: -5.008500000000008, max: -4.531500000000007, positive: true, type: "convertInfantryRate"},
@@ -6261,7 +6261,7 @@ var gear = {
 		},
 		{
 			name: "Aged Celestial Staff",
-			img: "Gear/Staff2H_U004.png",
+			img: "Gear/Generic/Staves/Staff_U10_ua.png",
 			effects: {
 				6: [
 					{min: -4.378500000000008, max: -3.9615000000000067, positive: true, type: "convertCavalryRate"},

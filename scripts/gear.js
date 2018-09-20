@@ -6274,7 +6274,7 @@ var gear = {
 		{name: "None", img: 'Slot/JavelinSlot_ua.png'},
 		{
 			name: "Divine Blessed Javelin",
-			img: "Gear/Javelin2H_E101_LEG.png",
+			img: "Gear/Generic/Javelins/Javelin_L91_ua.png",
 			effects: {
 				40: [
 					{min: 33.27850000000001, max: 36.78150000000001, positive: true, type: "damage"},
@@ -6285,7 +6285,7 @@ var gear = {
 		},
 		{
 			name: "Javelin of Sinuhe",
-			img: "Gear/Javalin2H_L001.png",
+			img: "Gear/Generic/Javelins/Javelin_L90_ua.png",
 			effects: {
 				40: [
 					{min: 51.8985, max: 57.36150000000001, positive: true, type: "damage"},
@@ -6295,7 +6295,7 @@ var gear = {
 		},
 		{
 			name: "Javelin of the Sky",
-			img: "Gear/Javalin2H_L401.png",
+			img: "Gear/Generic/Javelins/Javelin_L91_ua.png",
 			effects: {
 				40: [
 					{min: 43.263000000000005, max: 47.81700000000001, positive: true, type: "damage"},
@@ -6305,7 +6305,7 @@ var gear = {
 		},
 		{
 			name: "The Curse of the Archer",
-			img: "Gear/Javalins_TCOTA.png",
+			img: "Gear/Generic/Javelins/Javelin_L91_ua.png",
 			effects: {
 				40: [
 					{min: 41.62900000000001, max: 46.01100000000002, positive: true, type: "damage"},
@@ -6315,7 +6315,7 @@ var gear = {
 		},
 		{
 			name: "Ares' Vulture-Claw Javelin",
-			img: "Gear/Javalin2H_E006.png",
+			img: "Gear/Generic/Javelins/Javelin_E61_ua.png",
 			effects: {
 				37: [
 					{min: 35.70099999999999, max: 39.45899999999999, positive: true, type: "damage"},
@@ -6337,7 +6337,7 @@ var gear = {
 		},
 		{
 			name: "Council Mentor's Javelin",
-			img: "Gear/Javalin2H_EC02.png",
+			img: "Gear/Generic/Javelins/Javelin_E60_ua.png",
 			effects: {
 				40: [
 					{min: 35.14050000000001, max: 38.83950000000001, positive: true, type: "damage"},
@@ -6347,7 +6347,7 @@ var gear = {
 		},
 		{
 			name: "Envoy of Thanatos",
-			img: "Gear/Javelin2H_EA02.png",
+			img: "Gear/Generic/Javelins/Javelin_E60_ua.png",
 			effects: {
 				40: [
 					{min: 13.29999999999999, max: 14.699999999999989, positive: true, type: "multiplierInfantry"},
@@ -6358,7 +6358,7 @@ var gear = {
 		},
 		{
 			name: "Hermes' Winged Javelin",
-			img: "Gear/Javalin2H_E008.png",
+			img: "Gear/Generic/Javelins/Javelin_E61_ua.png",
 			effects: {
 				37: [
 					{min: 50.663500000000006, max: 55.99650000000002, positive: true, type: "damage"},
@@ -6376,7 +6376,7 @@ var gear = {
 		},
 		{
 			name: "Legion Enforcer's Javelin",
-			img: "Gear/Javalin2H_EC01.png",
+			img: "Gear/Generic/Javelins/Javelin_E60_ua.png",
 			effects: {
 				40: [
 					{min: 38.18049999999999, max: 42.19949999999999, positive: true, type: "damage"},
@@ -6387,7 +6387,7 @@ var gear = {
 		},
 		{
 			name: "Prometheus' Guided Javelin",
-			img: "Gear/Javalin2H_E007.png",
+			img: "Gear/Generic/Javelins/Javelin_E60_ua.png",
 			effects: {
 				40: [
 					{min: 45.115500000000004, max: 49.864500000000014, positive: true, type: "damage"},
@@ -6398,7 +6398,7 @@ var gear = {
 		},
 		{
 			name: "Delian Adept's Javelin",
-			img: "Gear/Javalin2H_RC01.png",
+			img: "Gear/Generic/Javelins/Javelin_R31_ua.png",
 			effects: {
 				40: [
 					{min: 43.57650000000001, max: 48.16350000000001, positive: true, type: "damage"},
@@ -6407,7 +6407,7 @@ var gear = {
 		},
 		{
 			name: "Ivory Javelin of the Eagle",
-			img: "Gear/Javalin2H_R013_VR.png",
+			img: "Gear/Generic/Javelins/Javelin_R31_ua.png",
 			effects: {
 				36: [
 					{min: 36.63199999999999, max: 40.488, positive: true, type: "damage"},
@@ -6433,7 +6433,7 @@ var gear = {
 		},
 		{
 			name: "Consummate War Javelin",
-			img: "Gear/Javalin2H_U011.png",
+			img: "Gear/Generic/Javelins/Javelin_U13_ua.png",
 			effects: {
 				40: [
 					{min: 32.29050000000001, max: 35.68950000000001, positive: true, type: "damage"},
@@ -6443,7 +6443,7 @@ var gear = {
 		},
 		{
 			name: "Iron-Tipped Javelin",
-			img: "Gear/Javalin2H_U003.png",
+			img: "Gear/Generic/Javelins/Javelin_U11_ua.png",
 			effects: {
 				27: [
 					{min: 21.783500000000007, max: 24.076500000000006, positive: true, type: "damage"},
@@ -6479,7 +6479,7 @@ var gear = {
 		},
 		{
 			name: "Peerless Weighted Javelin",
-			img: "Gear/Javalin2H_U007.png",
+			img: "Gear/Generic/Javelins/Javelin_U12_ua.png",
 			effects: {
 				40: [
 					{min: 32.29050000000001, max: 35.68950000000001, positive: true, type: "damage"},
@@ -6489,7 +6489,7 @@ var gear = {
 		},
 		{
 			name: "The Archer's Bane",
-			img: "Gear/Javalin2H_E005.png",
+			img: "Gear/Generic/Javelins/Javelin_E60_ua.png",
 			effects: {
 				34: [
 					{min: 36.214, max: 40.025999999999996, positive: true, type: "damage"},
@@ -6515,7 +6515,7 @@ var gear = {
 		},
 		{
 			name: "Deadly War Javelin",
-			img: "Gear/Javalin2H_R012.png",
+			img: "Gear/Generic/Javelins/Javelin_R30_ua.png",
 			effects: {
 				33: [
 					{min: 37.05950000000001, max: 40.96050000000002, positive: true, type: "health"},
@@ -6536,7 +6536,7 @@ var gear = {
 		},
 		{
 			name: "Thorakites Guard Javelin",
-			img: "Gear/Javalin2H_R011.png",
+			img: "Gear/Generic/Javelins/Javelin_R33_ua.png",
 			effects: {
 				32: [
 					{min: 29.934500000000014, max: 33.08550000000002, positive: true, type: "damage"},
@@ -6562,7 +6562,7 @@ var gear = {
 		},
 		{
 			name: "Crete Cohort Javelin",
-			img: "Gear/Javelin2H_EA01.png",
+			img: "Gear/Generic/Javelins/Javelin_E61_ua.png",
 			effects: {
 				35: [
 					{min: 37.1165, max: 41.02350000000001, positive: true, type: "damage"},
@@ -6572,7 +6572,7 @@ var gear = {
 		},
 		{
 			name: "Hyperion's Messenger",
-			img: "Gear/Javelin2H_E102.png",
+			img: "Gear/Generic/Javelins/Javelin_E60_ua.png",
 			effects: {
 				35: [
 					{min: 31.70149999999999, max: 35.03849999999999, positive: true, type: "damage"},
@@ -6582,7 +6582,7 @@ var gear = {
 		},
 		{
 			name: "Mycenaean Champion's Javelin",
-			img: "Gear/Javalin2H_E009.png",
+			img: "Gear/Generic/Javelins/Javelin_E61_ua.png",
 			effects: {
 				31: [
 					{min: 38.71250000000002, max: 42.78750000000002, positive: true, type: "damage"},
@@ -6608,7 +6608,7 @@ var gear = {
 		},
 		{
 			name: "Brontes' Blinder Javelin",
-			img: "Gear/Javalin2H_E004.png",
+			img: "Gear/Generic/Javelins/Javelin_E60_ua.png",
 			effects: {
 				30: [
 					{min: 35.64399999999999, max: 39.396, positive: true, type: "damage"},
@@ -6639,7 +6639,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Piercing Javelin",
-			img: "Gear/Javalin2H_R010.png",
+			img: "Gear/Generic/Javelins/Javelin_R32_ua.png",
 			effects: {
 				32: [
 					{min: 32.11000000000001, max: 35.490000000000016, positive: true, type: "damage"},
@@ -6649,7 +6649,7 @@ var gear = {
 		},
 		{
 			name: "Athena's Blessed Javelin",
-			img: "Gear/Javelin2H_E101.png",
+			img: "Gear/Generic/Javelins/Javelin_E61_ua.png",
 			effects: {
 				28: [
 					{min: 28.851500000000005, max: 31.88850000000001, positive: true, type: "damage"},
@@ -6675,7 +6675,7 @@ var gear = {
 		},
 		{
 			name: "Silver War Javelin",
-			img: "Gear/Javalin2H_R009_VR.png",
+			img: "Gear/Generic/Javelins/Javelin_R31_ua.png",
 			effects: {
 				27: [
 					{min: 29.221999999999987, max: 32.29799999999999, positive: true, type: "damage"},
@@ -6701,7 +6701,7 @@ var gear = {
 		},
 		{
 			name: "Bronze-Tipped Javelin",
-			img: "Gear/Javalin2H_U002.png",
+			img: "Gear/Generic/Javelins/Javelin_U13_ua.png",
 			effects: {
 				17: [
 					{min: 15.8935, max: 17.5665, positive: true, type: "damage"},
@@ -6752,7 +6752,7 @@ var gear = {
 		},
 		{
 			name: "Apollo's Sun Javelin",
-			img: "Gear/Javalin2H_E003.png",
+			img: "Gear/Generic/Javelins/Javelin_E60_ua.png",
 			effects: {
 				26: [
 					{min: 7.314999999999996, max: 8.084999999999996, positive: true, type: "speed"},
@@ -6778,7 +6778,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Weighted Javelin",
-			img: "Gear/Javalin2H_U006.png",
+			img: "Gear/Generic/Javelins/Javelin_U10_ua.png",
 			effects: {
 				30: [
 					{min: 25.858999999999998, max: 28.581, positive: true, type: "damage"},
@@ -6788,7 +6788,7 @@ var gear = {
 		},
 		{
 			name: "Extraordinary War Javelin",
-			img: "Gear/Javalin2H_U010.png",
+			img: "Gear/Generic/Javelins/Javelin_U11_ua.png",
 			effects: {
 				30: [
 					{min: 25.858999999999998, max: 28.581, positive: true, type: "damage"},
@@ -6798,7 +6798,7 @@ var gear = {
 		},
 		{
 			name: "Obsidian-Tipped Javelin",
-			img: "Gear/Javelin2H_R101.png",
+			img: "Gear/Generic/Javelins/Javelin_R30_ua.png",
 			effects: {
 				28: [
 					{min: 24.21549999999999, max: 26.76449999999999, positive: true, type: "damage"},
@@ -6808,7 +6808,7 @@ var gear = {
 		},
 		{
 			name: "Silver Enameled Javelin",
-			img: "Gear/Javalin2H_R008.png",
+			img: "Gear/Generic/Javelins/Javelin_R33_ua.png",
 			effects: {
 				23: [
 					{min: 25.76399999999999, max: 28.475999999999992, positive: true, type: "damage"},
@@ -6834,7 +6834,7 @@ var gear = {
 		},
 		{
 			name: "Olympian's Choice Javelin",
-			img: "Gear/Javalin2H_E002.png",
+			img: "Gear/Generic/Javelins/Javelin_E61_ua.png",
 			effects: {
 				22: [
 					{min: 28.215000000000014, max: 31.18500000000002, positive: true, type: "damage"},
@@ -6865,7 +6865,7 @@ var gear = {
 		},
 		{
 			name: "Whalebone Javelin",
-			img: "Gear/Javalin2H_R007.png",
+			img: "Gear/Generic/Javelins/Javelin_R32_ua.png",
 			effects: {
 				21: [
 					{min: 14.877000000000006, max: 16.44300000000001, positive: true, type: "damage"},
@@ -6891,7 +6891,7 @@ var gear = {
 		},
 		{
 			name: "Grand War Javelin",
-			img: "Gear/Javelin2H_U102.png",
+			img: "Gear/Generic/Javelins/Javelin_U10_ua.png",
 			effects: {
 				25: [
 					{min: 20.833500000000004, max: 23.02650000000001, positive: true, type: "damage"},
@@ -6900,7 +6900,7 @@ var gear = {
 		},
 		{
 			name: "Athenian Weighted Javelin",
-			img: "Gear/Javalin2H_R006.png",
+			img: "Gear/Generic/Javelins/Javelin_R31_ua.png",
 			effects: {
 				19: [
 					{min: 22.51499999999999, max: 24.884999999999987, positive: true, type: "damage"},
@@ -6926,7 +6926,7 @@ var gear = {
 		},
 		{
 			name: "Iphicrates' Short Javelin",
-			img: "Gear/Javalin2H_E001.png",
+			img: "Gear/Generic/Javelins/Javelin_E60_ua.png",
 			effects: {
 				18: [
 					{min: 20.995000000000008, max: 23.20500000000001, positive: true, type: "damage"},
@@ -6957,7 +6957,7 @@ var gear = {
 		},
 		{
 			name: "Crete Champion Javelin",
-			img: "Gear/Javelin2H_RA01.png",
+			img: "Gear/Generic/Javelins/Javelin_R30_ua.png",
 			effects: {
 				20: [
 					{min: 22.628999999999994, max: 25.011, positive: true, type: "damage"},
@@ -6967,7 +6967,7 @@ var gear = {
 		},
 		{
 			name: "Jagged-Tipped Javelin",
-			img: "Gear/Javalin2H_R005.png",
+			img: "Gear/Generic/Javelins/Javelin_R33_ua.png",
 			effects: {
 				16: [
 					{min: 19.893000000000004, max: 21.987000000000005, positive: true, type: "damage"},
@@ -6993,7 +6993,7 @@ var gear = {
 		},
 		{
 			name: "Hero's Javelin",
-			img: "Gear/Javalin2H_U201.png",
+			img: "Gear/Generic/Javelins/Javelin_U12_ua.png",
 			effects: {
 				20: [
 					{min: 16.39700000000001, max: 18.123000000000008, positive: true, type: "damage"},
@@ -7003,7 +7003,7 @@ var gear = {
 		},
 		{
 			name: "Remarkable War Javelin",
-			img: "Gear/Javalin2H_U009.png",
+			img: "Gear/Generic/Javelins/Javelin_U13_ua.png",
 			effects: {
 				20: [
 					{min: 17.423, max: 19.257, positive: true, type: "damage"},
@@ -7013,7 +7013,7 @@ var gear = {
 		},
 		{
 			name: "Superior Weighted Javelin",
-			img: "Gear/Javalin2H_U005.png",
+			img: "Gear/Generic/Javelins/Javelin_U12_ua.png",
 			effects: {
 				20: [
 					{min: 19.23749999999999, max: 21.26249999999999, positive: true, type: "damage"},
@@ -7023,7 +7023,7 @@ var gear = {
 		},
 		{
 			name: "Mycenaean Soldiers' Javelin",
-			img: "Gear/Javalin2H_R014.png",
+			img: "Gear/Generic/Javelins/Javelin_R32_ua.png",
 			effects: {
 				15: [
 					{min: 20.643500000000003, max: 22.816500000000005, positive: true, type: "damage"},
@@ -7044,7 +7044,7 @@ var gear = {
 		},
 		{
 			name: "Iron Broadhead Javelin",
-			img: "Gear/Javalin2H_R004.png",
+			img: "Gear/Generic/Javelins/Javelin_R31_ua.png",
 			effects: {
 				13: [
 					{min: 15.770000000000014, max: 17.430000000000017, positive: true, type: "health"},
@@ -7070,7 +7070,7 @@ var gear = {
 		},
 		{
 			name: "Copper-Tipped Javelin",
-			img: "Gear/Javalin2H_U001.png",
+			img: "Gear/Generic/Javelins/Javelin_U10_ua.png",
 			effects: {
 				2: [
 					{min: 6.678500000000002, max: 7.3815000000000035, positive: true, type: "damage"},
@@ -7121,7 +7121,7 @@ var gear = {
 		},
 		{
 			name: "Athenian Guard Javelin",
-			img: "Gear/Javalin2H_R003.png",
+			img: "Gear/Generic/Javelins/Javelin_R30_ua.png",
 			effects: {
 				11: [
 					{min: 16.97650000000001, max: 18.763500000000008, positive: true, type: "damage"},
@@ -7142,7 +7142,7 @@ var gear = {
 		},
 		{
 			name: "Sharp War Javelin",
-			img: "Gear/Javalin2H_R002.png",
+			img: "Gear/Generic/Javelins/Javelin_R33_ua.png",
 			effects: {
 				9: [
 					{min: 9.47149999999999, max: 10.46849999999999, positive: true, type: "damage"},
@@ -7168,7 +7168,7 @@ var gear = {
 		},
 		{
 			name: "Bronze Artificer Javelin",
-			img: "Gear/Javelin2H_U101.png",
+			img: "Gear/Generic/Javelins/Javelin_U11_ua.png",
 			effects: {
 				9: [
 					{min: 11.067500000000004, max: 12.232500000000007, positive: true, type: "damage"},
@@ -7189,7 +7189,7 @@ var gear = {
 		},
 		{
 			name: "Mycenaean Militia Javelin",
-			img: "Gear/Javalin2H_R001.png",
+			img: "Gear/Generic/Javelins/Javelin_R31_ua.png",
 			effects: {
 				7: [
 					{min: 13.233500000000019, max: 14.626500000000023, positive: true, type: "damage"},
@@ -7207,7 +7207,7 @@ var gear = {
 		},
 		{
 			name: "Titan's Punisher",
-			img: "Gear/Javelin2H_R015.png",
+			img: "Gear/Generic/Javelins/Javelin_R30_ua.png",
 			effects: {
 				10: [
 					{min: 12.387999999999986, max: 13.691999999999984, positive: true, type: "damage"},
@@ -7217,7 +7217,7 @@ var gear = {
 		},
 		{
 			name: "Ordinary War Javelin",
-			img: "Gear/Javalin2H_U008.png",
+			img: "Gear/Generic/Javelins/Javelin_U11_ua.png",
 			effects: {
 				10: [
 					{min: 12.445, max: 13.755000000000003, positive: true, type: "damage"},
@@ -7227,7 +7227,7 @@ var gear = {
 		},
 		{
 			name: "Ornate Weighted Javelin",
-			img: "Gear/Javalin2H_U004.png",
+			img: "Gear/Generic/Javelins/Javelin_U10_ua.png",
 			effects: {
 				10: [
 					{min: 12.426000000000002, max: 13.734000000000002, positive: true, type: "damage"},
@@ -7237,7 +7237,7 @@ var gear = {
 		},
 		{
 			name: "Freelancer's Relentless Javelin",
-			img: "Gear/Javalin2H_R016.png",
+			img: "Gear/Generic/Javelins/Javelin_R32_ua.png",
 			effects: {
 				7: [
 					{min: 12.217000000000004, max: 13.503000000000005, positive: true, type: "damage"},

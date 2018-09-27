@@ -13642,7 +13642,7 @@ var gear = {
 		{name: "None", img: 'Slot/ShieldSlot_ua.png'},
 		{
 			name: "Shield of Bellerophon",
-			img: "Gear/Shield1H_L001.png",
+			img: "Gear/Generic/Shields/Shield_L90_ua.png",
 			effects: {
 				40: [
 					{min: 7.523999999999994, max: 8.315999999999994, positive: true, type: "health"},
@@ -13653,7 +13653,7 @@ var gear = {
 		},
 		{
 			name: "Shield of Lycurgus",
-			img: "Gear/Shield1H_L003.png",
+			img: "Gear/Generic/Shields/Shield_L90_ua.png",
 			effects: {
 				40: [
 					{min: 7.523999999999994, max: 8.315999999999994, positive: true, type: "health"},
@@ -13664,7 +13664,7 @@ var gear = {
 		},
 		{
 			name: "Shield of Rostam",
-			img: "Gear/Shield1H_L002.png",
+			img: "Gear/Generic/Shields/Shield_L90_ua.png",
 			effects: {
 				40: [
 					{min: 5.3105000000000055, max: 5.869500000000007, positive: true, type: "health"},
@@ -13675,7 +13675,7 @@ var gear = {
 		},
 		{
 			name: "Ares' War Shield",
-			img: "Gear/Shield1H_E008.png",
+			img: "Gear/Generic/Shields/Shield_E62_ua.png",
 			effects: {
 				37: [
 					{min: 5.405499999999995, max: 5.9744999999999955, positive: true, type: "health"},
@@ -13701,7 +13701,7 @@ var gear = {
 		},
 		{
 			name: "Blessed Glyph Shield",
-			img: "Gear/Shield1H_E007.png",
+			img: "Gear/Generic/Shields/Shield_E60_ua.png",
 			effects: {
 				40: [
 					{min: 8.863500000000014, max: 9.796500000000018, positive: true, type: "health"},
@@ -13712,7 +13712,7 @@ var gear = {
 		},
 		{
 			name: "Golden Shield of the Lion",
-			img: "Gear/Shield1H_E006.png",
+			img: "Gear/Generic/Shields/Shield_E65_ua.png",
 			effects: {
 				40: [
 					{min: 7.523999999999994, max: 8.315999999999994, positive: true, type: "health"},
@@ -13723,7 +13723,7 @@ var gear = {
 		},
 		{
 			name: "Spartan Champion's Shield",
-			img: "Gear/Shield1H_E009.png",
+			img: "Gear/Generic/Shields/Shield_E62_ua.png",
 			effects: {
 				40: [
 					{min: 7.523999999999994, max: 8.315999999999994, positive: true, type: "health"},
@@ -13733,7 +13733,7 @@ var gear = {
 		},
 		{
 			name: "Council Acolyte's Shield",
-			img: "Gear/Shield1H_RC01.png",
+			img: "Gear/Generic/Shields/Shield_R32_ua.png",
 			effects: {
 				40: [
 					{min: 10.791999999999993, max: 11.927999999999992, positive: true, type: "health"},
@@ -13743,7 +13743,7 @@ var gear = {
 		},
 		{
 			name: "Hades' Blessed Shield",
-			img: "Gear/Shield1H_R013.png",
+			img: "Gear/Generic/Shields/Shield_R38_ua.png",
 			effects: {
 				36: [
 					{min: 6.99200000000001, max: 7.728000000000012, positive: true, type: "health"},
@@ -13769,7 +13769,7 @@ var gear = {
 		},
 		{
 			name: "Cedar Shield",
-			img: "Gear/Shield1H_U003.png",
+			img: "Gear/Generic/Shields/Shield_U10_ua.png",
 			effects: {
 				27: [
 					{min: 4.521999999999987, max: 4.997999999999986, positive: true, type: "health"},
@@ -13815,7 +13815,7 @@ var gear = {
 		},
 		{
 			name: "Immaculate Heavy Shield",
-			img: "Gear/Shield1H_U010.png",
+			img: "Gear/Generic/Shields/Shield_U10_ua.png",
 			effects: {
 				40: [
 					{min: 7.352999999999992, max: 8.126999999999992, positive: true, type: "health"},
@@ -13825,7 +13825,7 @@ var gear = {
 		},
 		{
 			name: "King Minos' Radiant Shield",
-			img: "Gear/Shield1H_EB01.png",
+			img: "Gear/Generic/Shields/Shield_E61_ua.png",
 			effects: {
 				36: [
 					{min: 6.878000000000002, max: 7.602000000000002, positive: true, type: "health"},
@@ -13847,7 +13847,7 @@ var gear = {
 		},
 		{
 			name: "Peerless Heavy Shield",
-			img: "Gear/Shield1H_U008.png",
+			img: "Gear/Generic/Shields/Shield_U15_ua.png",
 			effects: {
 				39: [
 					{min: 7.200999999999987, max: 7.958999999999986, positive: true, type: "health"},
@@ -13857,7 +13857,7 @@ var gear = {
 		},
 		{
 			name: "Cuchulainn's Scarred Defender",
-			img: "Gear/Shield1H_E101.png",
+			img: "Gear/Generic/Shields/Shield_E64_ua.png",
 			effects: {
 				38: [
 					{min: 5.528999999999981, max: 6.11099999999998, positive: true, type: "health"},
@@ -13867,7 +13867,7 @@ var gear = {
 		},
 		{
 			name: "Ajax's Heavy War Shield",
-			img: "Gear/Shield1H_E005.png",
+			img: "Gear/Generic/Shields/Shield_E63_ua.png",
 			effects: {
 				33: [
 					{min: 6.3934999999999915, max: 7.066499999999992, positive: true, type: "health"},
@@ -13898,7 +13898,7 @@ var gear = {
 		},
 		{
 			name: "Shield of Fallen Heroes",
-			img: "Gear/Shield1H_R012.png",
+			img: "Gear/Generic/Shields/Shield_R37_ua.png",
 			effects: {
 				37: [
 					{min: 7.1535000000000135, max: 7.906500000000015, positive: true, type: "health"},
@@ -13908,7 +13908,7 @@ var gear = {
 		},
 		{
 			name: "Camel-Hide Wall Shield",
-			img: "Gear/Shield1H_R011.png",
+			img: "Gear/Generic/Shields/Shield_R30_ua.png",
 			effects: {
 				32: [
 					{min: 4.122999999999989, max: 4.556999999999988, positive: true, type: "health"},
@@ -13934,7 +13934,7 @@ var gear = {
 		},
 		{
 			name: "Argos Cohort Shield",
-			img: "Gear/Shield1H_E003.png",
+			img: "Gear/Generic/Shields/Shield_E61_ua.png",
 			effects: {
 				35: [
 					{min: 6.716499999999998, max: 7.423499999999999, positive: true, type: "health"},
@@ -13945,7 +13945,7 @@ var gear = {
 		},
 		{
 			name: "Crete Cohort Shield",
-			img: "Gear/Shield1H_EA01.png",
+			img: "Gear/Generic/Shields/Shield_E65_ua.png",
 			effects: {
 				35: [
 					{min: 5.519499999999982, max: 6.100499999999982, positive: true, type: "health"},
@@ -13956,7 +13956,7 @@ var gear = {
 		},
 		{
 			name: "Set's Serpent-Skin Shield",
-			img: "Gear/Shield1H_E004.png",
+			img: "Gear/Generic/Shields/Shield_E64_ua.png",
 			effects: {
 				30: [
 					{min: 4.170500000000005, max: 4.609500000000005, positive: true, type: "health"},
@@ -13987,7 +13987,7 @@ var gear = {
 		},
 		{
 			name: "Onyx-Bound Hoplon",
-			img: "Gear/Shield1H_R010.png",
+			img: "Gear/Generic/Shields/Shield_R33_ua.png",
 			effects: {
 				32: [
 					{min: 6.346000000000018, max: 7.014000000000021, positive: true, type: "health"},
@@ -13997,7 +13997,7 @@ var gear = {
 		},
 		{
 			name: "Superior Light Buckler",
-			img: "Gear/Shield1H_U102.png",
+			img: "Gear/Generic/Shields/Shield_U10_ua.png",
 			effects: {
 				32: [
 					{min: 6.6405000000000065, max: 7.339500000000008, positive: true, type: "health"},
@@ -14007,7 +14007,7 @@ var gear = {
 		},
 		{
 			name: "Gladiator's Shield",
-			img: "Gear/Shield1H_R009.png",
+			img: "Gear/Generic/Shields/Shield_R36_ua.png",
 			effects: {
 				27: [
 					{min: 5.538500000000002, max: 6.121500000000002, positive: true, type: "health"},
@@ -14033,7 +14033,7 @@ var gear = {
 		},
 		{
 			name: "Oak Shield",
-			img: "Gear/Shield1H_U002.png",
+			img: "Gear/Generic/Shields/Shield_U11_ua.png",
 			effects: {
 				17: [
 					{min: 3.4769999999999968, max: 3.8429999999999964, positive: true, type: "health"},
@@ -14099,7 +14099,7 @@ var gear = {
 		},
 		{
 			name: "Swift Shield",
-			img: "Gear/Shield1H_RD01.png",
+			img: "Gear/Generic/Shields/Shield_R36_ua.png",
 			effects: {
 				30: [
 					{min: 4.968500000000001, max: 5.491500000000002, positive: true, type: "health"},
@@ -14109,7 +14109,7 @@ var gear = {
 		},
 		{
 			name: "Majestic Heavy Shield",
-			img: "Gear/Shield1H_U009.png",
+			img: "Gear/Generic/Shields/Shield_U14_ua.png",
 			effects: {
 				30: [
 					{min: 5.83299999999999, max: 6.446999999999989, positive: true, type: "health"},
@@ -14119,7 +14119,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Heavy Shield",
-			img: "Gear/Shield1H_U007.png",
+			img: "Gear/Generic/Shields/Shield_U13_ua.png",
 			effects: {
 				29: [
 					{min: 5.680999999999986, max: 6.278999999999985, positive: true, type: "health"},
@@ -14129,7 +14129,7 @@ var gear = {
 		},
 		{
 			name: "Rhino-Hide Bound Shield",
-			img: "Gear/Shield1H_R008.png",
+			img: "Gear/Generic/Shields/Shield_R34_ua.png",
 			effects: {
 				24: [
 					{min: 5.054000000000013, max: 5.5860000000000145, positive: true, type: "health"},
@@ -14155,7 +14155,7 @@ var gear = {
 		},
 		{
 			name: "Trojan Wall Shield",
-			img: "Gear/Shield1H_E002.png",
+			img: "Gear/Generic/Shields/Shield_E63_ua.png",
 			effects: {
 				22: [
 					{min: 4.854499999999993, max: 5.365499999999992, positive: true, type: "health"},
@@ -14186,7 +14186,7 @@ var gear = {
 		},
 		{
 			name: "Unbreakable Shield",
-			img: "Gear/Shield1H_R102.png",
+			img: "Gear/Generic/Shields/Shield_R35_ua.png",
 			effects: {
 				25: [
 					{min: 4.569500000000003, max: 5.050500000000003, positive: true, type: "health"},
@@ -14196,7 +14196,7 @@ var gear = {
 		},
 		{
 			name: "Retainer's Shield",
-			img: "Gear/Shield1H_R007.png",
+			img: "Gear/Generic/Shields/Shield_R38_ua.png",
 			effects: {
 				20: [
 					{min: 4.626500000000018, max: 5.11350000000002, positive: true, type: "health"},
@@ -14222,7 +14222,7 @@ var gear = {
 		},
 		{
 			name: "Spiked Tower Shield",
-			img: "Gear/Shield1H_R006.png",
+			img: "Gear/Generic/Shields/Shield_R31_ua.png",
 			effects: {
 				18: [
 					{min: 2.85949999999998, max: 3.1604999999999785, positive: true, type: "health"},
@@ -14248,7 +14248,7 @@ var gear = {
 		},
 		{
 			name: "Gorgon's Mirror Shield",
-			img: "Gear/Shield1H_E001.png",
+			img: "Gear/Generic/Shields/Shield_E60_ua.png",
 			effects: {
 				17: [
 					{min: 2.8784999999999994, max: 3.1814999999999993, positive: true, type: "health"},
@@ -14279,7 +14279,7 @@ var gear = {
 		},
 		{
 			name: "Spartan Polemarch Shield",
-			img: "Gear/Shield1H_R003.png",
+			img: "Gear/Generic/Shields/Shield_R37_ua.png",
 			effects: {
 				21: [
 					{min: 3.2014999999999847, max: 3.5384999999999835, positive: true, type: "health"},
@@ -14289,7 +14289,7 @@ var gear = {
 		},
 		{
 			name: "Barricade of the Dunes",
-			img: "Gear/Shield1H_R101.png",
+			img: "Gear/Generic/Shields/Shield_R37_ua.png",
 			effects: {
 				14: [
 					{min: 6.1749999999999945, max: 6.824999999999995, positive: true, type: "health"},
@@ -14316,7 +14316,7 @@ var gear = {
 		},
 		{
 			name: "Hero's Shield",
-			img: "Gear/Shield1H_U201.png",
+			img: "Gear/Generic/Shields/Shield_U13_ua.png",
 			effects: {
 				20: [
 					{min: 2.7644999999999906, max: 3.05549999999999, positive: true, type: "health"},
@@ -14326,7 +14326,7 @@ var gear = {
 		},
 		{
 			name: "Remarkable Heavy Shield",
-			img: "Gear/Shield1H_U006.png",
+			img: "Gear/Generic/Shields/Shield_U12_ua.png",
 			effects: {
 				20: [
 					{min: 4.531499999999986, max: 5.008499999999985, positive: true, type: "health"},
@@ -14336,7 +14336,7 @@ var gear = {
 		},
 		{
 			name: "Superior Heavy Shield",
-			img: "Gear/Shield1H_U004.png",
+			img: "Gear/Generic/Shields/Shield_U11_ua.png",
 			effects: {
 				19: [
 					{min: 4.370000000000004, max: 4.8300000000000045, positive: true, type: "health"},
@@ -14346,7 +14346,7 @@ var gear = {
 		},
 		{
 			name: "Ancient Badari Shield",
-			img: "Gear/Shield1H_R005.png",
+			img: "Gear/Generic/Shields/Shield_R34_ua.png",
 			effects: {
 				14: [
 					{min: 3.6005000000000043, max: 3.9795000000000047, positive: true, type: "health"},
@@ -14372,7 +14372,7 @@ var gear = {
 		},
 		{
 			name: "Wolf-Engraved Shield",
-			img: "Gear/Shield1H_R004.png",
+			img: "Gear/Generic/Shields/Shield_R32_ua.png",
 			effects: {
 				13: [
 					{min: 3.4295000000000018, max: 3.7905000000000024, positive: true, type: "health"},
@@ -14398,7 +14398,7 @@ var gear = {
 		},
 		{
 			name: "Hector's Deflector",
-			img: "Gear/Shield1H_R014.png",
+			img: "Gear/Generic/Shields/Shield_R31_ua.png",
 			effects: {
 				16: [
 					{min: 3.4959999999999947, max: 3.863999999999994, positive: true, type: "health"},
@@ -14408,7 +14408,7 @@ var gear = {
 		},
 		{
 			name: "Pine Shield",
-			img: "Gear/Shield1H_U001.png",
+			img: "Gear/Generic/Shields/Shield_U10_ua.png",
 			effects: {
 				3: [
 					{min: 1.6719999999999846, max: 1.847999999999983, positive: true, type: "health"},
@@ -14470,7 +14470,7 @@ var gear = {
 		},
 		{
 			name: "Tempered Shield of Achilles",
-			img: "Gear/Shield1H_R017.png",
+			img: "Gear/Generic/Shields/Shield_R33_ua.png",
 			effects: {
 				15: [
 					{min: 3.125499999999993, max: 3.454499999999993, positive: true, type: "health"},
@@ -14480,7 +14480,7 @@ var gear = {
 		},
 		{
 			name: "Gazelle-Hide Shield",
-			img: "Gear/Shield1H_R002.png",
+			img: "Gear/Generic/Shields/Shield_R30_ua.png",
 			effects: {
 				9: [
 					{min: 2.8595000000000015, max: 3.1605000000000016, positive: true, type: "health"},
@@ -14506,7 +14506,7 @@ var gear = {
 		},
 		{
 			name: "Mycenaean Tower Shield",
-			img: "Gear/Shield1H_R015.png",
+			img: "Gear/Generic/Shields/Shield_R36_ua.png",
 			effects: {
 				13: [
 					{min: 1.140000000000001, max: 1.2600000000000011, positive: true, type: "health"},
@@ -14516,7 +14516,7 @@ var gear = {
 		},
 		{
 			name: "Ornate Heavy Shield",
-			img: "Gear/Shield1H_U005.png",
+			img: "Gear/Generic/Shields/Shield_U10_ua.png",
 			effects: {
 				10: [
 					{min: 3.0400000000000027, max: 3.360000000000003, positive: true, type: "health"},
@@ -14526,7 +14526,7 @@ var gear = {
 		},
 		{
 			name: "Pathfinder's Deft Buckler",
-			img: "Gear/Shield1H_U101.png",
+			img: "Gear/Generic/Shields/Shield_U14_ua.png",
 			effects: {
 				10: [
 					{min: 2.1565000000000154, max: 2.3835000000000175, positive: true, type: "health"},
@@ -14536,7 +14536,7 @@ var gear = {
 		},
 		{
 			name: "Badari Rebel Hoplon",
-			img: "Gear/Shield1H_R001.png",
+			img: "Gear/Generic/Shields/Shield_R30_ua.png",
 			effects: {
 				9: [
 					{min: 2.8595000000000015, max: 3.1605000000000016, positive: true, type: "health"},
@@ -14546,7 +14546,7 @@ var gear = {
 		},
 		{
 			name: "Freelancer's Steadfast Shield",
-			img: "Gear/Shield1H_U017.png",
+			img: "Gear/Generic/Shields/Shield_R31_ua.png",
 			effects: {
 				3: [
 					{min: 1.6719999999999846, max: 1.847999999999983, positive: true, type: "health"},
@@ -14560,7 +14560,7 @@ var gear = {
 		},
 		{
 			name: "Freelancer's Relentless Shield",
-			img: "Gear/Shield1H_R016.png",
+			img: "Gear/Generic/Shields/Shield_U12_ua.png",
 			effects: {
 				4: [
 					{min: 2.6410000000000045, max: 2.919000000000005, positive: true, type: "damage"},
@@ -14573,7 +14573,7 @@ var gear = {
 		{name: "None", img: 'Slot/TorcSlot_ua.png'},
 		{
 			name: "Divine Torc",
-			img: "Gear/Torc_E107_LEG.png",
+			img: "Gear/Celt/Torc/Torc_L90_ua.(1,4,1,1).png",
 			effects: {
 				40: [
 					{min: 25.97300000000001, max: 28.70700000000001, positive: true, type: "health"},
@@ -14583,7 +14583,7 @@ var gear = {
 		},
 		{
 			name: "Priceless Torc",
-			img: "Gear/Torc_L401.png",
+			img: "Gear/Celt/Torc/Torc_L90_ua.(1,4,1,1).png",
 			effects: {
 				40: [
 					{min: 56.6485, max: 62.61150000000001, positive: true, type: "health"},
@@ -14593,7 +14593,7 @@ var gear = {
 		},
 		{
 			name: "Swift Torc",
-			img: "Gear/Torc_L402.png",
+			img: "Gear/Celt/Torc/Torc_L90_ua.(1,4,1,1).png",
 			effects: {
 				40: [
 					{min: 2.213500000000009, max: 2.4465000000000106, positive: true, type: "speed"},
@@ -14603,7 +14603,7 @@ var gear = {
 		},
 		{
 			name: "Thorgrim's Torc of Crushing",
-			img: "Gear/Torc_E111.png",
+			img: "Gear/Celt/Torc/Torc_E62_ua.(1,4,1,1).png",
 			effects: {
 				40: [
 					{min: 49.86549999999999, max: 55.1145, positive: true, type: "health"},
@@ -14614,7 +14614,7 @@ var gear = {
 		},
 		{
 			name: "Torc of the Death Dealer",
-			img: "Gear/Torc_E108.png",
+			img: "Gear/Celt/Torc/Torc_E60_ua.(1,4,1,1).png",
 			effects: {
 				37: [
 					{min: 50.663500000000006, max: 55.99650000000002, positive: true, type: "health"},
@@ -14636,7 +14636,7 @@ var gear = {
 		},
 		{
 			name: "Sculpted Bone Torc",
-			img: "Gear/Torc_R111.png",
+			img: "Gear/Celt/Torc/Torc_R62_ua.(1,4,1,1).png",
 			effects: {
 				30: [
 					{min: 36.556000000000004, max: 40.404, positive: true, type: "health"},
@@ -14686,7 +14686,7 @@ var gear = {
 		},
 		{
 			name: "Iron Torc",
-			img: "Gear/Torc_U103.png",
+			img: "Gear/Celt/Torc/Torc_U11_ua.(1,4,1,1).png",
 			effects: {
 				38: [
 					{min: 35.91000000000001, max: 39.69000000000001, positive: true, type: "health"},
@@ -14704,7 +14704,7 @@ var gear = {
 		},
 		{
 			name: "Torc of the Battle Master",
-			img: "Gear/Torc_E107.png",
+			img: "Gear/Celt/Torc/Torc_E62_ua.(1,4,1,1).png",
 			effects: {
 				35: [
 					{min: 23.1705, max: 25.6095, positive: true, type: "health"},
@@ -14730,7 +14730,7 @@ var gear = {
 		},
 		{
 			name: "Torc of the Soothsayer",
-			img: "Gear/Torc_E106.png",
+			img: "Gear/Celt/Torc/Torc_E61_ua.(1,4,1,1).png",
 			effects: {
 				33: [
 					{min: 31.995999999999977, max: 35.363999999999976, positive: true, type: "health"},
@@ -14761,7 +14761,7 @@ var gear = {
 		},
 		{
 			name: "Marble-Inlaid Torc",
-			img: "Gear/Torc_R110.png",
+			img: "Gear/Celt/Torc/Torc_R32_ua.(1,4,1,1).png",
 			effects: {
 				37: [
 					{min: 42.01849999999999, max: 46.44149999999999, positive: true, type: "health"},
@@ -14771,7 +14771,7 @@ var gear = {
 		},
 		{
 			name: "Artisan Iron Torc",
-			img: "Gear/Torc_U106.png",
+			img: "Gear/Celt/Torc/Torc_U10_ua.(1,4,1,1).png",
 			effects: {
 				35: [
 					{min: 24.59549999999999, max: 27.18449999999999, positive: true, type: "health"},
@@ -14792,7 +14792,7 @@ var gear = {
 		},
 		{
 			name: "Torc of the Horse Master",
-			img: "Gear/Torc_E105.png",
+			img: "Gear/Celt/Torc/Torc_E60_ua.(1,4,1,1).png",
 			effects: {
 				31: [
 					{min: 43.918500000000016, max: 48.54150000000002, positive: true, type: "health"},
@@ -14823,7 +14823,7 @@ var gear = {
 		},
 		{
 			name: "Artisan Bronze Torc",
-			img: "Gear/Torc_U105.png",
+			img: "Gear/Celt/Torc/Torc_U13_ua.(1,4,1,1).png",
 			effects: {
 				29: [
 					{min: 28.585499999999996, max: 31.594499999999996, positive: true, type: "health"},
@@ -14853,7 +14853,7 @@ var gear = {
 		},
 		{
 			name: "Rexor's Torc of Culling",
-			img: "Gear/Torc_E110.png",
+			img: "Gear/Celt/Torc/Torc_E61_ua.(1,4,1,1).png",
 			effects: {
 				31: [
 					{min: 40.44149999999999, max: 44.698499999999996, positive: true, type: "health"},
@@ -14863,7 +14863,7 @@ var gear = {
 		},
 		{
 			name: "Torc of the Pathfinder",
-			img: "Gear/Torc_E104.png",
+			img: "Gear/Celt/Torc/Torc_E62_ua.(1,4,1,1).png",
 			effects: {
 				25: [
 					{min: 18.09750000000001, max: 20.002500000000012, positive: true, type: "health"},
@@ -14893,7 +14893,7 @@ var gear = {
 		},
 		{
 			name: "Artisan Copper Torc",
-			img: "Gear/Torc_U104.png",
+			img: "Gear/Celt/Torc/Torc_U13_ua.(1,4,1,1).png",
 			effects: {
 				24: [
 					{min: 24.78549999999999, max: 27.39449999999999, positive: true, type: "health"},
@@ -14919,7 +14919,7 @@ var gear = {
 		},
 		{
 			name: "Bran's Training Torc",
-			img: "Gear/Torc_E109.png",
+			img: "Gear/Celt/Torc/Torc_E60_ua.(1,4,1,1).png",
 			effects: {
 				27: [
 					{min: 36.35649999999998, max: 40.18349999999998, positive: true, type: "health"},
@@ -14929,7 +14929,7 @@ var gear = {
 		},
 		{
 			name: "Ivory-Inlaid Torc",
-			img: "Gear/Torc_R109.png",
+			img: "Gear/Celt/Torc/Torc_R31_ua.(1,4,1,1).png",
 			effects: {
 				26: [
 					{min: 31.739500000000003, max: 35.08050000000001, positive: true, type: "health"},
@@ -14940,7 +14940,7 @@ var gear = {
 		},
 		{
 			name: "Torc of the Berserker",
-			img: "Gear/Torc_E103.png",
+			img: "Gear/Celt/Torc/Torc_E61_ua.(1,4,1,1).png",
 			effects: {
 				20: [
 					{min: 31.29300000000001, max: 34.58700000000002, positive: true, type: "health"},
@@ -14966,7 +14966,7 @@ var gear = {
 		},
 		{
 			name: "Peasant's Humble Torc",
-			img: "Gear/Torc_R107.png",
+			img: "Gear/Celt/Torc/Torc_R31_ua.(1,4,1,1).png",
 			effects: {
 				20: [
 					{min: 23.398499999999995, max: 25.861499999999996, positive: true, type: "health"},
@@ -14992,7 +14992,7 @@ var gear = {
 		},
 		{
 			name: "Noble's Jeweled Torc",
-			img: "Gear/Torc_R106.png",
+			img: "Gear/Celt/Torc/Torc_R30_ua.(1,4,1,1).png",
 			effects: {
 				19: [
 					{min: 28.262499999999985, max: 31.237499999999986, positive: true, type: "health"},
@@ -15018,7 +15018,7 @@ var gear = {
 		},
 		{
 			name: "Bronze Torc",
-			img: "Gear/Torc_U102.png",
+			img: "Gear/Celt/Torc/Torc_U10_ua.(1,4,1,1).png",
 			effects: {
 				15: [
 					{min: 18.3825, max: 20.317500000000003, positive: true, type: "health"},
@@ -15060,7 +15060,7 @@ var gear = {
 		},
 		{
 			name: "Remarkable Torc",
-			img: "Gear/Torc_U112.png",
+			img: "Gear/Celt/Torc/Torc_U11_ua.(1,4,1,1).png",
 			effects: {
 				21: [
 					{min: 24.766499999999994, max: 27.373499999999993, positive: true, type: "health"},
@@ -15070,7 +15070,7 @@ var gear = {
 		},
 		{
 			name: "Ranger's Stalwart Torc",
-			img: "Gear/Torc_E101.png",
+			img: "Gear/Celt/Torc/Torc_E61_ua.(1,4,1,1).png",
 			effects: {
 				20: [
 					{min: 23.483999999999984, max: 25.955999999999985, positive: true, type: "health"},
@@ -15080,7 +15080,7 @@ var gear = {
 		},
 		{
 			name: "Torc of the Headhunter",
-			img: "Gear/Torc_E102.png",
+			img: "Gear/Celt/Torc/Torc_E60_ua.(1,4,1,1).png",
 			effects: {
 				14: [
 					{min: 24.21550000000001, max: 26.764500000000016, positive: true, type: "health"},
@@ -15114,7 +15114,7 @@ var gear = {
 		},
 		{
 			name: "Obsidian-Circled Torc",
-			img: "Gear/Torc_R105.png",
+			img: "Gear/Celt/Torc/Torc_R33_ua.(1,4,1,1).png",
 			effects: {
 				14: [
 					{min: 27.360000000000003, max: 30.240000000000006, positive: true, type: "health"},
@@ -15141,7 +15141,7 @@ var gear = {
 		},
 		{
 			name: "Iron-Wrought Torc",
-			img: "Gear/Torc_R104.png",
+			img: "Gear/Celt/Torc/Torc_R32_ua.(1,4,1,1).png",
 			effects: {
 				14: [
 					{min: 21.223000000000003, max: 23.457000000000004, positive: true, type: "health"},
@@ -15167,7 +15167,7 @@ var gear = {
 		},
 		{
 			name: "Obsidian-Inlaid Torc",
-			img: "Gear/Torc_R108.png",
+			img: "Gear/Celt/Torc/Torc_R30_ua.(1,4,1,1).png",
 			effects: {
 				18: [
 					{min: 24.386499999999995, max: 26.953499999999995, positive: true, type: "health"},
@@ -15177,7 +15177,7 @@ var gear = {
 		},
 		{
 			name: "Superior Torc",
-			img: "Gear/Torc_U111.png",
+			img: "Gear/Celt/Torc/Torc_U12_ua.(1,4,1,1).png",
 			effects: {
 				18: [
 					{min: 22.173000000000002, max: 24.507000000000005, positive: true, type: "health"},
@@ -15188,7 +15188,7 @@ var gear = {
 		},
 		{
 			name: "Ancient Gold Torc",
-			img: "Gear/Torc_R102.png",
+			img: "Gear/Celt/Torc/Torc_R30_ua.(1,4,1,1).png",
 			effects: {
 				17: [
 					{min: 24.491, max: 27.069000000000003, positive: true, type: "health"},
@@ -15198,7 +15198,7 @@ var gear = {
 		},
 		{
 			name: "Sacred Ebony Ash Torc",
-			img: "Gear/Torc_R103.png",
+			img: "Gear/Celt/Torc/Torc_R31_ua.(1,4,1,1).png",
 			effects: {
 				12: [
 					{min: 9.139000000000006, max: 10.101000000000006, positive: true, type: "health"},
@@ -15228,7 +15228,7 @@ var gear = {
 		},
 		{
 			name: "Superb Torc",
-			img: "Gear/Torc_U115.png",
+			img: "Gear/Celt/Torc/Torc_U12_ua.(1,4,1,1).png",
 			effects: {
 				17: [
 					{min: 18.26849999999999, max: 20.19149999999999, positive: true, type: "health"},
@@ -15238,7 +15238,7 @@ var gear = {
 		},
 		{
 			name: "Copper Torc",
-			img: "Gear/Torc_U101.png",
+			img: "Gear/Celt/Torc/Torc_U13_ua.(1,4,1,1).png",
 			effects: {
 				2: [
 					{min: 8.255499999999998, max: 9.124499999999998, positive: true, type: "health"},
@@ -15296,7 +15296,7 @@ var gear = {
 		},
 		{
 			name: "Fine Torc",
-			img: "Gear/Torc_U110.png",
+			img: "Gear/Celt/Torc/Torc_U10_ua.(1,4,1,1).png",
 			effects: {
 				14: [
 					{min: 15.247499999999986, max: 16.852499999999985, positive: true, type: "health"},
@@ -15306,7 +15306,7 @@ var gear = {
 		},
 		{
 			name: "Blessed Battle Torc",
-			img: "Gear/Torc_R101.png",
+			img: "Gear/Celt/Torc/Torc_R33_ua.(1,4,1,1).png",
 			effects: {
 				6: [
 					{min: 7.153499999999992, max: 7.906499999999992, positive: true, type: "health"},
@@ -15336,7 +15336,7 @@ var gear = {
 		},
 		{
 			name: "Ornate Torc",
-			img: "Gear/Torc_U114.png",
+			img: "Gear/Celt/Torc/Torc_U11_ua.(1,4,1,1).png",
 			effects: {
 				11: [
 					{min: 0.5700000000000005, max: 0.6300000000000006, positive: true, type: "speed"},
@@ -15346,7 +15346,7 @@ var gear = {
 		},
 		{
 			name: "Ordinary Torc",
-			img: "Gear/Torc_U109.png",
+			img: "Gear/Celt/Torc/Torc_U13_ua.(1,4,1,1).png",
 			effects: {
 				10: [
 					{min: 15.732000000000019, max: 17.388000000000023, positive: true, type: "health"},
@@ -15356,7 +15356,7 @@ var gear = {
 		},
 		{
 			name: "Weathered Torc",
-			img: "Gear/Torc_U108.png",
+			img: "Gear/Celt/Torc/Torc_U11_ua.(1,4,1,1).png",
 			effects: {
 				6: [
 					{min: 12.2455, max: 13.534500000000001, positive: true, type: "health"},
@@ -15366,7 +15366,7 @@ var gear = {
 		},
 		{
 			name: "Aged Torc",
-			img: "Gear/Torc_U113.png",
+			img: "Gear/Celt/Torc/Torc_U10_ua.(1,4,1,1).png",
 			effects: {
 				5: [
 					{min: 4.4554999999999945, max: 4.924499999999994, positive: true, type: "health"},
@@ -15376,7 +15376,7 @@ var gear = {
 		},
 		{
 			name: "Primitive Torc",
-			img: "Gear/Torc_U107.png",
+			img: "Gear/Celt/Torc/Torc_U10_ua.(1,4,1,1).png",
 			effects: {
 				2: [
 					{min: 8.63550000000002, max: 9.544500000000022, positive: true, type: "health"},

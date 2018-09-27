@@ -8212,7 +8212,7 @@ var gear = {
 		{name: "None", img: 'Slot/ScepterSlot_ua.png'},
 		{
 			name: "Jewel-Covered Scepter",
-			img: "Gear/Scepter2H_L402.png",
+			img: "Gear/Generic/Scepters/Scepter_L91_ua.png",
 			effects: {
 				40: [
 					{min: 67.1935, max: 74.26650000000001, positive: true, type: "empowerDropoff"},
@@ -8222,7 +8222,7 @@ var gear = {
 		},
 		{
 			name: "Scepter of the Pharaoh",
-			img: "Gear/Scepter2H_L401.png",
+			img: "Gear/Generic/Scepters/Scepter_L90_ua.png",
 			effects: {
 				40: [
 					{min: 76.494, max: 84.54600000000002, positive: true, type: "empowerDropoff"},
@@ -8233,7 +8233,7 @@ var gear = {
 		},
 		{
 			name: "Amun-Ra Scepter of the Kings",
-			img: "Gear/Scepter2H_E010.png",
+			img: "Gear/Generic/Scepters/Scepter_E61_ua.png",
 			effects: {
 				37: [
 					{min: 89.34749999999998, max: 98.75249999999998, positive: true, type: "empowerDropoff"},
@@ -8251,7 +8251,7 @@ var gear = {
 		},
 		{
 			name: "Blessed Glyphic Scepter of Horus",
-			img: "Gear/Scepter2H_E008.png",
+			img: "Gear/Generic/Scepters/Scepter_E61_ua.png",
 			effects: {
 				40: [
 					{min: 72.0005, max: 79.57950000000001, positive: true, type: "empowerDropoff"},
@@ -8262,7 +8262,7 @@ var gear = {
 		},
 		{
 			name: "Ra-Atum Scepter of Divine Light",
-			img: "Gear/Scepter2H_E009.png",
+			img: "Gear/Generic/Scepters/Scepter_E60_ua.png",
 			effects: {
 				40: [
 					{min: 72.0005, max: 79.57950000000001, positive: true, type: "empowerDropoff"},
@@ -8273,7 +8273,7 @@ var gear = {
 		},
 		{
 			name: "Ra-Horakhty Scepter of Rulership",
-			img: "Gear/Scepter2H_E007.png",
+			img: "Gear/Generic/Scepters/Scepter_E60_ua.png",
 			effects: {
 				37: [
 					{min: 13.86999999999999, max: 15.329999999999991, positive: true, type: "speed"},
@@ -8299,7 +8299,7 @@ var gear = {
 		},
 		{
 			name: "Ra's High Priestess' Golden Scepter",
-			img: "Gear/Scepter2H_E006.png",
+			img: "Gear/Generic/Scepters/Scepter_E61_ua.png",
 			effects: {
 				37: [
 					{min: -13.219500000000002, max: -11.960500000000001, positive: true, type: "cost"},
@@ -8325,7 +8325,7 @@ var gear = {
 		},
 		{
 			name: "Gem-Encrusted Gold Scepter",
-			img: "Gear/Scepter2H_R013.png",
+			img: "Gear/Generic/Scepters/Scepter_R32_ua.png",
 			effects: {
 				36: [
 					{min: 58.10200000000001, max: 64.21800000000002, positive: true, type: "empowerDropoff"},
@@ -8351,7 +8351,7 @@ var gear = {
 		},
 		{
 			name: "Gold Scepter",
-			img: "Gear/Scepter2H_U003.png",
+			img: "Gear/Generic/Scepters/Scepter_E61_ua.png",
 			effects: {
 				32: [
 					{min: 42.3225, max: 46.777499999999996, positive: true, type: "empowerDropoff"},
@@ -8384,7 +8384,7 @@ var gear = {
 		},
 		{
 			name: "Amun-Ra's Scepter of Leadership",
-			img: "Gear/Scepter2H_E005.png",
+			img: "Gear/Generic/Scepters/Scepter_E60_ua.png",
 			effects: {
 				35: [
 					{min: 64.163, max: 70.91700000000002, positive: true, type: "empowerDropoff"},
@@ -8415,7 +8415,7 @@ var gear = {
 		},
 		{
 			name: "Scepter of Stylos",
-			img: "Gear/Scepter2H_EA01.png",
+			img: "Gear/Generic/Scepters/Scepter_E61_ua.png",
 			effects: {
 				36: [
 					{min: 65.73049999999999, max: 72.6495, positive: true, type: "empowerDropoff"},
@@ -8437,7 +8437,7 @@ var gear = {
 		},
 		{
 			name: "Ra's Scepter of the Eclipse",
-			img: "Gear/Scepter2H_E101.png",
+			img: "Gear/Generic/Scepters/Scepter_E61_ua.png",
 			effects: {
 				37: [
 					{min: 58.31100000000001, max: 64.44900000000001, positive: true, type: "empowerDropoff"},
@@ -8447,7 +8447,7 @@ var gear = {
 		},
 		{
 			name: "North Star Scepter",
-			img: "Gear/Scepter2H_R012.png",
+			img: "Gear/Generic/Scepters/Scepter_R31_ua.png",
 			effects: {
 				37: [
 					{min: 59.46050000000001, max: 65.71950000000001, positive: true, type: "empowerDropoff"},
@@ -8457,7 +8457,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Spiral Scepter",
-			img: "Gear/Scepter2H_U011.png",
+			img: "Gear/Generic/Scepters/Scepter_U11_ua.png",
 			effects: {
 				36: [
 					{min: 40.964000000000006, max: 45.276, positive: true, type: "empowerDropoff"},
@@ -8467,7 +8467,7 @@ var gear = {
 		},
 		{
 			name: "Ra's Grand Scepter of Tears",
-			img: "Gear/Scepter2H_E004.png",
+			img: "Gear/Generic/Scepters/Scepter_E60_ua.png",
 			effects: {
 				31: [
 					{min: 57.892999999999994, max: 63.987, positive: true, type: "empowerDropoff"},
@@ -8498,7 +8498,7 @@ var gear = {
 		},
 		{
 			name: "Polished Heraldic Scepter",
-			img: "Gear/Scepter2H_R011.png",
+			img: "Gear/Generic/Scepters/Scepter_R32_ua.png",
 			effects: {
 				30: [
 					{min: 53.3995, max: 59.02050000000001, positive: true, type: "empowerDropoff"},
@@ -8528,7 +8528,7 @@ var gear = {
 		},
 		{
 			name: "Scepter of the Scorpion",
-			img: "Gear/Scepter2H_R102.png",
+			img: "Gear/Generic/Scepters/Scepter_R30_ua.png",
 			effects: {
 				35: [
 					{min: 48.07, max: 53.13, positive: true, type: "empowerDropoff"},
@@ -8538,7 +8538,7 @@ var gear = {
 		},
 		{
 			name: "Immaculate Spiral Scepter",
-			img: "Gear/Scepter2H_U010.png",
+			img: "Gear/Generic/Scepters/Scepter_U10_ua.png",
 			effects: {
 				33: [
 					{min: 34.067, max: 37.653, positive: true, type: "empowerDropoff"},
@@ -8548,7 +8548,7 @@ var gear = {
 		},
 		{
 			name: "Evening Star Scepter",
-			img: "Gear/Scepter2H_R010.png",
+			img: "Gear/Generic/Scepters/Scepter_R31_ua.png",
 			effects: {
 				32: [
 					{min: 56.32550000000002, max: 62.25450000000002, positive: true, type: "empowerDropoff"},
@@ -8558,7 +8558,7 @@ var gear = {
 		},
 		{
 			name: "Scepter of the True Dawn",
-			img: "Gear/Scepter2H_U102.png",
+			img: "Gear/Generic/Scepters/Scepter_U10_ua.png",
 			effects: {
 				32: [
 					{min: 34.17150000000001, max: 37.76850000000002, positive: true, type: "empowerDropoff"},
@@ -8568,7 +8568,7 @@ var gear = {
 		},
 		{
 			name: "Silver Scepter",
-			img: "Gear/Scepter2H_U002.png",
+			img: "Gear/Generic/Scepters/Scepter_U11_ua.png",
 			effects: {
 				17: [
 					{min: 26.647499999999997, max: 29.452499999999997, positive: true, type: "empowerDropoff"},
@@ -8619,7 +8619,7 @@ var gear = {
 		},
 		{
 			name: "Ra's Blessed Sun Scepter of Duty",
-			img: "Gear/Scepter2H_E003.png",
+			img: "Gear/Generic/Scepters/Scepter_E61_ua.png",
 			effects: {
 				26: [
 					{min: 50.05549999999999, max: 55.32449999999999, positive: true, type: "empowerDropoff"},
@@ -8650,7 +8650,7 @@ var gear = {
 		},
 		{
 			name: "Soothing Gold Scepter",
-			img: "Gear/Scepter2H_R009.png",
+			img: "Gear/Generic/Scepters/Scepter_R30_ua.png",
 			effects: {
 				25: [
 					{min: 17.489499999999992, max: 19.330499999999994, positive: true, type: "healing"},
@@ -8676,7 +8676,7 @@ var gear = {
 		},
 		{
 			name: "Grand Hammered Scepter",
-			img: "Gear/Scepter2H_U009.png",
+			img: "Gear/Generic/Scepters/Scepter_U11_ua.png",
 			effects: {
 				26: [
 					{min: 38.456, max: 42.504000000000005, positive: true, type: "empowerDropoff"},
@@ -8686,7 +8686,7 @@ var gear = {
 		},
 		{
 			name: "Twisted Gold Scepter",
-			img: "Gear/Scepter2H_R007.png",
+			img: "Gear/Generic/Scepters/Scepter_R32_ua.png",
 			effects: {
 				21: [
 					{min: 40.23250000000002, max: 44.46750000000002, positive: true, type: "empowerDropoff"},
@@ -8712,7 +8712,7 @@ var gear = {
 		},
 		{
 			name: "Golden Mnevis Bull Scepter",
-			img: "Gear/Scepter2H_E002.png",
+			img: "Gear/Generic/Scepters/Scepter_E60_ua.png",
 			effects: {
 				20: [
 					{min: 40.650499999999994, max: 44.92949999999999, positive: true, type: "empowerDropoff"},
@@ -8743,7 +8743,7 @@ var gear = {
 		},
 		{
 			name: "Amun's Obsidian Scepter of Dusk",
-			img: "Gear/Scepter2H_R101.png",
+			img: "Gear/Generic/Scepters/Scepter_R31_ua.png",
 			effects: {
 				19: [
 					{min: 34.798500000000004, max: 38.461500000000015, positive: true, type: "empowerDropoff"},
@@ -8769,7 +8769,7 @@ var gear = {
 		},
 		{
 			name: "Superior Spiral Scepter",
-			img: "Gear/Scepter2H_U008.png",
+			img: "Gear/Generic/Scepters/Scepter_U10_ua.png",
 			effects: {
 				23: [
 					{min: 35.00750000000001, max: 38.69250000000001, positive: true, type: "empowerDropoff"},
@@ -8779,7 +8779,7 @@ var gear = {
 		},
 		{
 			name: "Dawn Star Scepter",
-			img: "Gear/Scepter2H_R006.png",
+			img: "Gear/Generic/Scepters/Scepter_R30_ua.png",
 			effects: {
 				18: [
 					{min: 35.8435, max: 39.616499999999995, positive: true, type: "empowerDropoff"},
@@ -8805,7 +8805,7 @@ var gear = {
 		},
 		{
 			name: "Scepter of Morale",
-			img: "Gear/Scepter2H_R005.png",
+			img: "Gear/Generic/Scepters/Scepter_R32_ua.png",
 			effects: {
 				16: [
 					{min: 28.946499999999997, max: 31.9935, positive: true, type: "empowerBuildRate"},
@@ -8831,7 +8831,7 @@ var gear = {
 		},
 		{
 			name: "Hero's Scepter",
-			img: "Gear/Scepter2H_U201.png",
+			img: "Gear/Generic/Scepters/Scepter_U10_ua.png",
 			effects: {
 				20: [
 					{min: 20.795500000000008, max: 22.984500000000008, positive: true, type: "empowerDropoff"},
@@ -8841,7 +8841,7 @@ var gear = {
 		},
 		{
 			name: "Ra's Scepter of the Sun",
-			img: "Gear/Scepter2H_E001.png",
+			img: "Gear/Generic/Scepters/Scepter_U60_ua.png",
 			effects: {
 				17: [
 					{min: 35.948, max: 39.732000000000006, positive: true, type: "empowerDropoff"},
@@ -8862,7 +8862,7 @@ var gear = {
 		},
 		{
 			name: "Day Star Scepter",
-			img: "Gear/Scepter2H_R004.png",
+			img: "Gear/Generic/Scepters/Scepter_R30_ua.png",
 			effects: {
 				14: [
 					{min: 29.991500000000006, max: 33.148500000000006, positive: true, type: "empowerDropoff"},
@@ -8888,7 +8888,7 @@ var gear = {
 		},
 		{
 			name: "Vizier's Royal Scepter",
-			img: "Gear/Scepter2H_R014.png",
+			img: "Gear/Generic/Scepters/Scepter_R31_ua.png",
 			effects: {
 				17: [
 					{min: 34.38050000000001, max: 37.99950000000001, positive: true, type: "empowerDropoff"},
@@ -8898,7 +8898,7 @@ var gear = {
 		},
 		{
 			name: "Copper Scepter",
-			img: "Gear/Scepter2H_U001.png",
+			img: "Gear/Generic/Scepters/Scepter_U10_ua.png",
 			effects: {
 				2: [
 					{min: 10.972499999999993, max: 12.127499999999994, positive: true, type: "empowerDropoff"},
@@ -8949,7 +8949,7 @@ var gear = {
 		},
 		{
 			name: "Fine Hammered Scepter",
-			img: "Gear/Scepter2H_U007.png",
+			img: "Gear/Generic/Scepters/Scepter_U11_ua.png",
 			effects: {
 				16: [
 					{min: 19.855000000000004, max: 21.945000000000007, positive: true, type: "empowerDropoff"},
@@ -8959,7 +8959,7 @@ var gear = {
 		},
 		{
 			name: "Hammered Silver Scepter",
-			img: "Gear/Scepter2H_R003.png",
+			img: "Gear/Generic/Scepters/Scepter_R32_ua.png",
 			effects: {
 				11: [
 					{min: 25.602500000000006, max: 28.297500000000007, positive: true, type: "empowerDropoff"},
@@ -8985,7 +8985,7 @@ var gear = {
 		},
 		{
 			name: "Twisted Silver Scepter",
-			img: "Gear/Scepter2H_R002.png",
+			img: "Gear/Generic/Scepters/Scepter_R31_ua.png",
 			effects: {
 				9: [
 					{min: 22.67650000000001, max: 25.063500000000012, positive: true, type: "empowerDropoff"},
@@ -9011,7 +9011,7 @@ var gear = {
 		},
 		{
 			name: "Ornate Spiral Scepter",
-			img: "Gear/Scepter2H_U006.png",
+			img: "Gear/Generic/Scepters/Scepter_U10_ua.png",
 			effects: {
 				13: [
 					{min: 23.512500000000006, max: 25.987500000000008, positive: true, type: "empowerDropoff"},
@@ -9021,7 +9021,7 @@ var gear = {
 		},
 		{
 			name: "Sacred Jeweled Scepter",
-			img: "Gear/Scepter2H_U101.png",
+			img: "Gear/Generic/Scepters/Scepter_U11_ua.png",
 			effects: {
 				9: [
 					{min: 18.28749999999999, max: 20.212499999999988, positive: true, type: "empowerDropoff"},
@@ -9042,7 +9042,7 @@ var gear = {
 		},
 		{
 			name: "Bastet's Ebony Scepter",
-			img: "Gear/Scepter2H_R001.png",
+			img: "Gear/Generic/Scepters/Scepter_R32_ua.png",
 			effects: {
 				10: [
 					{min: 24.139499999999998, max: 26.680500000000002, positive: true, type: "empowerDropoff"},
@@ -9052,7 +9052,7 @@ var gear = {
 		},
 		{
 			name: "Ideal Hammered Scepter",
-			img: "Gear/Scepter2H_U005.png",
+			img: "Gear/Generic/Scepters/Scepter_U11_ua.png",
 			effects: {
 				10: [
 					{min: 20.064000000000004, max: 22.176000000000005, positive: true, type: "empowerDropoff"},
@@ -9062,7 +9062,7 @@ var gear = {
 		},
 		{
 			name: "Selket's Scorpion Scepter",
-			img: "Gear/Scepter2H_R015.png",
+			img: "Gear/Generic/Scepters/Scepter_R31_ua.png",
 			effects: {
 				8: [
 					{min: 18.28749999999999, max: 20.212499999999988, positive: true, type: "empowerDropoff"},
@@ -9072,7 +9072,7 @@ var gear = {
 		},
 		{
 			name: "Scepter of Knossos",
-			img: "Gear/Scepter2H_RA01.png",
+			img: "Gear/Generic/Scepters/Scepter_R30_ua.png",
 			effects: {
 				5: [
 					{min: 14.629999999999992, max: 16.16999999999999, positive: true, type: "empowerDropoff"},
@@ -9090,7 +9090,7 @@ var gear = {
 		},
 		{
 			name: "Primitive Spiral Scepter",
-			img: "Gear/Scepter2H_U004.png",
+			img: "Gear/Generic/Scepters/Scepter_U10_ua.png",
 			effects: {
 				5: [
 					{min: 14.316500000000005, max: 15.823500000000006, positive: true, type: "empowerDropoff"},
@@ -9100,7 +9100,7 @@ var gear = {
 		},
 		{
 			name: "Freelancer's Relentless Scepter",
-			img: "Gear/Scepter2H_R008.png",
+			img: "Gear/Generic/Scepters/Scepter_R30_ua.png",
 			effects: {
 				4: [
 					{min: 12.33099999999999, max: 13.628999999999992, positive: true, type: "empowerDropoff"},
@@ -9113,7 +9113,7 @@ var gear = {
 		{name: "None", img: 'Slot/SlingsSlot_ua.png'},
 		{
 			name: "Precision Sling",
-			img: "Gear/Sling2H_L401_VR.png",
+			img: "Gear/Generic/Slings/Sling_L90_ua.png",
 			effects: {
 				40: [
 					{min: 61.37950000000001, max: 67.84050000000002, positive: true, type: "damage"},
@@ -9124,7 +9124,7 @@ var gear = {
 		},
 		{
 			name: "Sling of Protection",
-			img: "Gear/Sling2H_L402.png",
+			img: "Gear/Generic/Slings/Sling_L91_ua.png",
 			effects: {
 				40: [
 					{min: 71.66799999999999, max: 79.212, positive: true, type: "damage"},
@@ -9134,7 +9134,7 @@ var gear = {
 		},
 		{
 			name: "Egyptian Champion's Sling",
-			img: "Gear/Sling2H_E009.png",
+			img: "Gear/Generic/Slings/Sling_E61_ua.png",
 			effects: {
 				37: [
 					{min: 63.92549999999998, max: 70.65449999999998, positive: true, type: "damage"},
@@ -9156,7 +9156,7 @@ var gear = {
 		},
 		{
 			name: "Mut's Braided Battle Sling",
-			img: "Gear/Sling2H_E007.png",
+			img: "Gear/Generic/Slings/Sling_E61_ua.png",
 			effects: {
 				37: [
 					{min: 73.14999999999999, max: 80.85000000000001, positive: true, type: "damage"},
@@ -9174,7 +9174,7 @@ var gear = {
 		},
 		{
 			name: "Royal Hunting Sling of the Moon",
-			img: "Gear/Sling2H_E008.png",
+			img: "Gear/Generic/Slings/Sling_E60_ua.png",
 			effects: {
 				37: [
 					{min: 42.57899999999999, max: 47.06099999999999, positive: true, type: "health"},
@@ -9200,7 +9200,7 @@ var gear = {
 		},
 		{
 			name: "Whistling Doom War Sling",
-			img: "Gear/Sling2H_E006.png",
+			img: "Gear/Generic/Slings/Sling_E60_ua.png",
 			effects: {
 				37: [
 					{min: 54.70100000000001, max: 60.45900000000002, positive: true, type: "damage"},
@@ -9226,7 +9226,7 @@ var gear = {
 		},
 		{
 			name: "Council Acolyte's Sling",
-			img: "Gear/Sling2H_RC01.png",
+			img: "Gear/Generic/Slings/Sling_R32_ua.png",
 			effects: {
 				40: [
 					{min: 54.102500000000006, max: 59.797500000000014, positive: true, type: "damage"},
@@ -9236,7 +9236,7 @@ var gear = {
 		},
 		{
 			name: "Masterwork Hunter Sling",
-			img: "Gear/Sling2H_R013_VR.png",
+			img: "Gear/Generic/Slings/Sling_R31_ua.png",
 			effects: {
 				36: [
 					{min: 49.46649999999999, max: 54.6735, positive: true, type: "damage"},
@@ -9262,7 +9262,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Leather Sling",
-			img: "Gear/Sling2H_U003.png",
+			img: "Gear/Generic/Slings/Sling_U11_ua.png",
 			effects: {
 				32: [
 					{min: 34.675, max: 38.325, positive: true, type: "damage"},
@@ -9295,7 +9295,7 @@ var gear = {
 		},
 		{
 			name: "Peerless War Sling",
-			img: "Gear/Sling2H_U007.png",
+			img: "Gear/Generic/Slings/Sling_U11_ua.png",
 			effects: {
 				40: [
 					{min: 43.88999999999999, max: 48.51, positive: true, type: "damage"},
@@ -9305,7 +9305,7 @@ var gear = {
 		},
 		{
 			name: "Giant-Slaying War Sling",
-			img: "Gear/Sling2H_E005.png",
+			img: "Gear/Generic/Slings/Sling_E61_ua.png",
 			effects: {
 				34: [
 					{min: 51.233500000000014, max: 56.626500000000014, positive: true, type: "damage"},
@@ -9336,7 +9336,7 @@ var gear = {
 		},
 		{
 			name: "Sling of Stylos",
-			img: "Gear/Sling2H_EA01.png",
+			img: "Gear/Generic/Slings/Sling_E60_ua.png",
 			effects: {
 				36: [
 					{min: 71.44, max: 78.96000000000001, positive: true, type: "damage"},
@@ -9348,7 +9348,7 @@ var gear = {
 		},
 		{
 			name: "Wadjet's Battle Sling",
-			img: "Gear/Sling2H_R012.png",
+			img: "Gear/Generic/Slings/Sling_R30_ua.png",
 			effects: {
 				33: [
 					{min: 46.3315, max: 51.20850000000001, positive: true, type: "damage"},
@@ -9374,7 +9374,7 @@ var gear = {
 		},
 		{
 			name: "Khepri's Scarab Sling",
-			img: "Gear/Sling2H_E101.png",
+			img: "Gear/Generic/Slings/Sling_E60_ua.png",
 			effects: {
 				35: [
 					{min: 44.8115, max: 49.5285, positive: true, type: "damage"},
@@ -9384,7 +9384,7 @@ var gear = {
 		},
 		{
 			name: "Bast's Blessed Battle Sling",
-			img: "Gear/Sling2H_E004.png",
+			img: "Gear/Generic/Slings/Sling_E60_ua.png",
 			effects: {
 				30: [
 					{min: 46.103500000000004, max: 50.95650000000001, positive: true, type: "damage"},
@@ -9415,7 +9415,7 @@ var gear = {
 		},
 		{
 			name: "Pharaoh's War Sling",
-			img: "Gear/Sling2H_R011.png",
+			img: "Gear/Generic/Slings/Sling_R33_ua.png",
 			effects: {
 				29: [
 					{min: -10.237500000000004, max: -9.262500000000003, positive: true, type: "cost"},
@@ -9441,7 +9441,7 @@ var gear = {
 		},
 		{
 			name: "Leather Sling",
-			img: "Gear/Sling2H_U002.png",
+			img: "Gear/Generic/Slings/Sling_U11_ua.png",
 			effects: {
 				17: [
 					{min: 21.849999999999998, max: 24.150000000000002, positive: true, type: "damage"},
@@ -9492,7 +9492,7 @@ var gear = {
 		},
 		{
 			name: "Whistling Battle Sling",
-			img: "Gear/Sling2H_R010.png",
+			img: "Gear/Generic/Slings/Sling_R32_ua.png",
 			effects: {
 				26: [
 					{min: 38.151999999999994, max: 42.168, positive: true, type: "damage"},
@@ -9518,7 +9518,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional War Sling",
-			img: "Gear/Sling2H_U006.png",
+			img: "Gear/Generic/Slings/Sling_U10_ua.png",
 			effects: {
 				30: [
 					{min: 34.675, max: 38.325, positive: true, type: "damage"},
@@ -9528,7 +9528,7 @@ var gear = {
 		},
 		{
 			name: "Hathor's Hunting Sling",
-			img: "Gear/Sling2H_E003_VR.png",
+			img: "Gear/Generic/Slings/Sling_E61_ua.png",
 			effects: {
 				25: [
 					{min: 39.95700000000001, max: 44.16300000000001, positive: true, type: "damage"},
@@ -9559,7 +9559,7 @@ var gear = {
 		},
 		{
 			name: "Sling of the Sandwraith",
-			img: "Gear/Sling2H_R101.png",
+			img: "Gear/Generic/Slings/Sling_R31_ua.png",
 			effects: {
 				27: [
 					{min: 26.999, max: 29.841000000000005, positive: true, type: "damage"},
@@ -9569,7 +9569,7 @@ var gear = {
 		},
 		{
 			name: "The Huntsmen's Sling",
-			img: "Gear/Sling2H_R009_VR.png",
+			img: "Gear/Generic/Slings/Sling_R30_ua.png",
 			effects: {
 				22: [
 					{min: 33.47799999999998, max: 37.00199999999998, positive: true, type: "damage"},
@@ -9595,7 +9595,7 @@ var gear = {
 		},
 		{
 			name: "Sacred Scarab Battle Sling",
-			img: "Gear/Sling2H_E002.png",
+			img: "Gear/Generic/Slings/Sling_E61_ua.png",
 			effects: {
 				21: [
 					{min: 35.017, max: 38.70300000000001, positive: true, type: "damage"},
@@ -9626,7 +9626,7 @@ var gear = {
 		},
 		{
 			name: "Silver Braided Battle Sling",
-			img: "Gear/Sling2H_R008.png",
+			img: "Gear/Generic/Slings/Sling_R33_ua.png",
 			effects: {
 				20: [
 					{min: 31.140999999999988, max: 34.41899999999999, positive: true, type: "damage"},
@@ -9652,7 +9652,7 @@ var gear = {
 		},
 		{
 			name: "Egyptian Soldiers' Sling",
-			img: "Gear/Sling2H_R015.png",
+			img: "Gear/Generic/Slings/Sling_R32_ua.png",
 			effects: {
 				19: [
 					{min: 34.01000000000001, max: 37.59000000000001, positive: true, type: "damage"},
@@ -9673,7 +9673,7 @@ var gear = {
 		},
 		{
 			name: "Vizier's Deadly War Sling",
-			img: "Gear/Sling2H_E001_VR.png",
+			img: "Gear/Generic/Slings/Sling_E60_ua.png",
 			effects: {
 				18: [
 					{min: 31.312000000000005, max: 34.60800000000001, positive: true, type: "damage"},
@@ -9704,7 +9704,7 @@ var gear = {
 		},
 		{
 			name: "Sobek's Crocodile-Hide War Sling",
-			img: "Gear/Sling2H_U102.png",
+			img: "Gear/Generic/Slings/Sling_U10_ua.png",
 			effects: {
 				22: [
 					{min: 21.831, max: 24.129, positive: true, type: "damage"},
@@ -9714,7 +9714,7 @@ var gear = {
 		},
 		{
 			name: "Anubite War Sling",
-			img: "Gear/Sling2H_R007.png",
+			img: "Gear/Generic/Slings/Sling_R31_ua.png",
 			effects: {
 				17: [
 					{min: 27.82549999999999, max: 30.754499999999993, positive: true, type: "damage"},
@@ -9740,7 +9740,7 @@ var gear = {
 		},
 		{
 			name: "Ancient Naqada War Sling",
-			img: "Gear/Sling2H_R006.png",
+			img: "Gear/Generic/Slings/Sling_R30_ua.png",
 			effects: {
 				7: [
 					{min: 16.045499999999983, max: 17.734499999999983, positive: true, type: "damage"},
@@ -9802,7 +9802,7 @@ var gear = {
 		},
 		{
 			name: "Hero's War Sling",
-			img: "Gear/Sling2H_U201.png",
+			img: "Gear/Generic/Slings/Sling_U10_ua.png",
 			effects: {
 				20: [
 					{min: 21.745499999999986, max: 24.034499999999987, positive: true, type: "damage"},
@@ -9812,7 +9812,7 @@ var gear = {
 		},
 		{
 			name: "Superior War Sling",
-			img: "Gear/Sling2H_U005.png",
+			img: "Gear/Generic/Slings/Sling_U11_ua.png",
 			effects: {
 				20: [
 					{min: 25.46, max: 28.14, positive: true, type: "damage"},
@@ -9822,7 +9822,7 @@ var gear = {
 		},
 		{
 			name: "Abydos Soldier Battle Sling",
-			img: "Gear/Sling2H_R005.png",
+			img: "Gear/Generic/Slings/Sling_R32_ua.png",
 			effects: {
 				14: [
 					{min: 6.070500000000006, max: 6.709500000000007, positive: true, type: "speed"},
@@ -9848,7 +9848,7 @@ var gear = {
 		},
 		{
 			name: "Vizier's Royal Sling",
-			img: "Gear/Sling2H_R014.png",
+			img: "Gear/Generic/Slings/Sling_R33_ua.png",
 			effects: {
 				17: [
 					{min: 27.82549999999999, max: 30.754499999999993, positive: true, type: "damage"},
@@ -9858,7 +9858,7 @@ var gear = {
 		},
 		{
 			name: "Rawhide Sling",
-			img: "Gear/Sling2H_U001.png",
+			img: "Gear/Generic/Slings/Sling_U10_ua.png",
 			effects: {
 				2: [
 					{min: 9.024999999999997, max: 9.974999999999996, positive: true, type: "damage"},
@@ -9909,7 +9909,7 @@ var gear = {
 		},
 		{
 			name: "Crete Champion Sling",
-			img: "Gear/Sling2H_RA01.png",
+			img: "Gear/Generic/Slings/Sling_R31_ua.png",
 			effects: {
 				15: [
 					{min: 25.4695, max: 28.150500000000005, positive: true, type: "damage"},
@@ -9919,7 +9919,7 @@ var gear = {
 		},
 		{
 			name: "Desert Nomad Hunting Sling",
-			img: "Gear/Sling2H_R004.png",
+			img: "Gear/Generic/Slings/Sling_R30_ua.png",
 			effects: {
 				11: [
 					{min: 15.798499999999988, max: 17.46149999999999, positive: true, type: "damage"},
@@ -9945,7 +9945,7 @@ var gear = {
 		},
 		{
 			name: "Envenomed Sling of The Cobra",
-			img: "Gear/Sling2H_U101.png",
+			img: "Gear/Generic/Slings/Sling_U11_ua.png",
 			effects: {
 				9: [
 					{min: 15.009999999999991, max: 16.589999999999993, positive: true, type: "damage"},
@@ -9966,7 +9966,7 @@ var gear = {
 		},
 		{
 			name: "Nubian Battle Sling",
-			img: "Gear/Sling2H_R002.png",
+			img: "Gear/Generic/Slings/Sling_R33_ua.png",
 			effects: {
 				8: [
 					{min: 17.2235, max: 19.036500000000004, positive: true, type: "damage"},
@@ -9992,7 +9992,7 @@ var gear = {
 		},
 		{
 			name: "War Sling of the Badari Kings",
-			img: "Gear/Sling2H_R001.png",
+			img: "Gear/Generic/Slings/Sling_R32_ua.png",
 			effects: {
 				7: [
 					{min: 16.045499999999983, max: 17.734499999999983, positive: true, type: "damage"},
@@ -10014,7 +10014,7 @@ var gear = {
 		},
 		{
 			name: "Standard War Sling",
-			img: "Gear/Sling2H_U004.png",
+			img: "Gear/Generic/Slings/Sling_U10_ua.png",
 			effects: {
 				10: [
 					{min: 16.36849999999999, max: 18.09149999999999, positive: true, type: "damage"},
@@ -10024,7 +10024,7 @@ var gear = {
 		},
 		{
 			name: "Selket's Venomous Sling",
-			img: "Gear/Sling2H_R016.png",
+			img: "Gear/Generic/Slings/Sling_R31_ua.png",
 			effects: {
 				8: [
 					{min: 14.762999999999998, max: 16.317, positive: true, type: "damage"},
@@ -10034,7 +10034,7 @@ var gear = {
 		},
 		{
 			name: "Freelancer's Relentless Sling",
-			img: "Gear/Sling2H_R003.png",
+			img: "Gear/Generic/Slings/Sling_R30_ua.png",
 			effects: {
 				4: [
 					{min: 14.060000000000011, max: 15.540000000000015, positive: true, type: "damage"},
@@ -11033,7 +11033,7 @@ var gear = {
 		{name: "None", img: 'Slot/ToolSlot_ua.png'},
 		{
 			name: "Delian Archon's Hammer",
-			img: "Gear/Tool1H_LC01.png",
+			img: "Gear/Generic/Tools/Tool_L90_ua.png",
 			effects: {
 				40: [
 					{min: 17.8125, max: 19.6875, positive: true, type: "gatherFish"},
@@ -11046,7 +11046,7 @@ var gear = {
 		},
 		{
 			name: "Divine Hammer of Construction",
-			img: "Gear/Tools_DHOC.png",
+			img: "Gear/Generic/Tools/Tool_L90_ua.png",
 			effects: {
 				40: [
 					{min: 13.547000000000004, max: 14.973000000000006, positive: true, type: "gatherFish"},
@@ -11059,7 +11059,7 @@ var gear = {
 		},
 		{
 			name: "Hammer of Kaveh",
-			img: "Gear/Tool1H_L001.png",
+			img: "Gear/Generic/Tools/Tool_L90_ua.png",
 			effects: {
 				40: [
 					{min: 16.52999999999999, max: 18.269999999999992, positive: true, type: "gatherFish"},
@@ -11072,7 +11072,7 @@ var gear = {
 		},
 		{
 			name: "Tools of Weyland",
-			img: "Gear/Tool1H_L002.png",
+			img: "Gear/Generic/Tools/Tool_L90_ua.png",
 			effects: {
 				40: [
 					{min: 9.272000000000011, max: 10.248000000000014, positive: true, type: "gatherFish"},
@@ -11084,7 +11084,7 @@ var gear = {
 		},
 		{
 			name: "Chiron's Rune-Inscribed Axe",
-			img: "Gear/Tool1H_E007.png",
+			img: "Gear/Generic/Tools/Tool_E61_ua.png",
 			effects: {
 				40: [
 					{min: 13.280999999999993, max: 14.678999999999993, positive: true, type: "gatherFish"},
@@ -11096,7 +11096,7 @@ var gear = {
 		},
 		{
 			name: "Council Mentor's Hammer",
-			img: "Gear/Tool1H_EC01.png",
+			img: "Gear/Generic/Tools/Tool_E60_ua.png",
 			effects: {
 				40: [
 					{min: 14.839000000000011, max: 16.401000000000014, positive: true, type: "gatherFish"},
@@ -11109,7 +11109,7 @@ var gear = {
 		},
 		{
 			name: "Overflowing Fruit Basket",
-			img: "Gear/Tool1H_E006.png",
+			img: "Gear/Generic/Tools/Tool_E60_ua.png",
 			effects: {
 				37: [
 					{min: 11.466500000000003, max: 12.673500000000004, positive: true, type: "gatherFish"},
@@ -11143,7 +11143,7 @@ var gear = {
 		},
 		{
 			name: "Stone-Shattering Pick",
-			img: "Gear/Tool1H_E009.png",
+			img: "Gear/Generic/Tools/Tool_E61_ua.png",
 			effects: {
 				40: [
 					{min: 9.224499999999997, max: 10.195499999999997, positive: true, type: "gatherFish"},
@@ -11156,7 +11156,7 @@ var gear = {
 		},
 		{
 			name: "Titans' Tools",
-			img: "Gear/Tool1H_E008.png",
+			img: "Gear/Generic/Tools/Tool_E60_ua.png",
 			effects: {
 				37: [
 					{min: 12.663500000000019, max: 13.99650000000002, positive: true, type: "gatherFish"},
@@ -11186,7 +11186,7 @@ var gear = {
 		},
 		{
 			name: "Worker's Axe of Cleaving",
-			img: "Gear/Tool1H_E102.png",
+			img: "Gear/Generic/Tools/Tool_E60_ua.png",
 			effects: {
 				40: [
 					{min: 13.547000000000004, max: 14.973000000000006, positive: true, type: "gatherFish"},
@@ -11198,7 +11198,7 @@ var gear = {
 		},
 		{
 			name: "Legion Recruit's Hammer",
-			img: "Gear/Tool1H_RC01.png",
+			img: "Gear/Generic/Tools/Tool_R33_ua.png",
 			effects: {
 				40: [
 					{min: 4.958999999999981, max: 5.480999999999979, positive: true, type: "gatherFish"},
@@ -11210,7 +11210,7 @@ var gear = {
 		},
 		{
 			name: "Worker's Durable Shovel",
-			img: "Gear/Tool1H_R013.png",
+			img: "Gear/Generic/Tools/Tool_R31_ua.png",
 			effects: {
 				30: [
 					{min: 9.784999999999997, max: 10.814999999999998, positive: true, type: "gatherFish"},
@@ -11293,7 +11293,7 @@ var gear = {
 		},
 		{
 			name: "Iron Tools",
-			img: "Gear/Tool1H_U003.png",
+			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				27: [
 					{min: 7.457500000000001, max: 8.242500000000001, positive: true, type: "gatherFish"},
@@ -11359,7 +11359,7 @@ var gear = {
 		},
 		{
 			name: "Peerless Farmer Picks",
-			img: "Gear/Tool1H_U019.png",
+			img: "Gear/Generic/Tools/Tool_U11_ua.png",
 			effects: {
 				40: [
 					{min: 12.217000000000004, max: 13.503000000000005, positive: true, type: "gatherFish"},
@@ -11371,7 +11371,7 @@ var gear = {
 		},
 		{
 			name: "Consummate Worker Shovels",
-			img: "Gear/Tool1H_U018.png",
+			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				38: [
 					{min: 10.412000000000013, max: 11.508000000000017, positive: true, type: "gatherFish"},
@@ -11384,7 +11384,7 @@ var gear = {
 		},
 		{
 			name: "Miner's True Pick of Prospecting",
-			img: "Gear/Tool1H_E101.png",
+			img: "Gear/Generic/Tools/Tool_E61_ua.png",
 			effects: {
 				37: [
 					{min: 10.649500000000007, max: 11.770500000000009, positive: true, type: "gatherFish"},
@@ -11396,7 +11396,7 @@ var gear = {
 		},
 		{
 			name: "Blessed Hammer of Construction",
-			img: "Gear/Tool1H_E005.png",
+			img: "Gear/Generic/Tools/Tool_E60_ua.png",
 			effects: {
 				32: [
 					{min: 11.191000000000011, max: 12.369000000000012, positive: true, type: "gatherFish"},
@@ -11437,7 +11437,7 @@ var gear = {
 		},
 		{
 			name: "Craftsman's Hammer",
-			img: "Gear/Tool1H_R012.png",
+			img: "Gear/Generic/Tools/Tool_R30_ua.png",
 			effects: {
 				36: [
 					{min: 12.54950000000001, max: 13.870500000000012, positive: true, type: "gatherFish"},
@@ -11450,7 +11450,7 @@ var gear = {
 		},
 		{
 			name: "Extraordinary Woodsman Axes",
-			img: "Gear/Tool1H_U017.png",
+			img: "Gear/Generic/Tools/Tool_U11_ua.png",
 			effects: {
 				36: [
 					{min: 7.495499999999997, max: 8.284499999999998, positive: true, type: "gatherFish"},
@@ -11462,7 +11462,7 @@ var gear = {
 		},
 		{
 			name: "Immaculate Wicker Baskets",
-			img: "Gear/Tool1H_U016.png",
+			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				35: [
 					{min: 3.7144999999999917, max: 4.105499999999991, positive: true, type: "gatherFish"},
@@ -11474,7 +11474,7 @@ var gear = {
 		},
 		{
 			name: "Dull Iron Stone Pick",
-			img: "Gear/Tool1H_R011.png",
+			img: "Gear/Generic/Tools/Tool_R33_ua.png",
 			effects: {
 				34: [
 					{min: 11.96050000000001, max: 13.219500000000014, positive: true, type: "gatherFish"},
@@ -11486,7 +11486,7 @@ var gear = {
 		},
 		{
 			name: "Cyprus Steward Work Tools",
-			img: "Gear/Tool1H_U021.png",
+			img: "Gear/Generic/Tools/Tool_U11_ua.png",
 			effects: {
 				34: [
 					{min: 8.094000000000015, max: 8.94600000000002, positive: true, type: "gatherFish"},
@@ -11499,7 +11499,7 @@ var gear = {
 		},
 		{
 			name: "Cold Iron Shovel",
-			img: "Gear/Tool1H_R102.png",
+			img: "Gear/Generic/Tools/Tool_R32_ua.png",
 			effects: {
 				33: [
 					{min: 10.924999999999999, max: 12.075000000000001, positive: true, type: "gatherFish"},
@@ -11512,7 +11512,7 @@ var gear = {
 		},
 		{
 			name: "The Tree Splitter",
-			img: "Gear/Tool1H_E004.png",
+			img: "Gear/Generic/Tools/Tool_E61_ua.png",
 			effects: {
 				28: [
 					{min: 10.962999999999996, max: 12.116999999999996, positive: true, type: "gatherFish"},
@@ -11558,7 +11558,7 @@ var gear = {
 		},
 		{
 			name: "Rusty Lumberjack's Axe",
-			img: "Gear/Tool1H_R010.png",
+			img: "Gear/Generic/Tools/Tool_R31_ua.png",
 			effects: {
 				32: [
 					{min: 11.371500000000012, max: 12.568500000000014, positive: true, type: "gatherFish"},
@@ -11571,7 +11571,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Hide Basket",
-			img: "Gear/Tool1H_U103.png",
+			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				32: [
 					{min: 4.683500000000011, max: 5.176500000000013, positive: true, type: "gatherFish"},
@@ -11583,7 +11583,7 @@ var gear = {
 		},
 		{
 			name: "Working-Class Tools",
-			img: "Gear/Tool1H_R009.png",
+			img: "Gear/Generic/Tools/Tool_R30_ua.png",
 			effects: {
 				27: [
 					{min: 3.600499999999983, max: 3.9794999999999816, positive: true, type: "gatherFish"},
@@ -11619,7 +11619,7 @@ var gear = {
 		},
 		{
 			name: "Bronze Tools",
-			img: "Gear/Tool1H_U002.png",
+			img: "Gear/Generic/Tools/Tool_U11_ua.png",
 			effects: {
 				17: [
 					{min: 5.367499999999999, max: 5.9325, positive: true, type: "gatherFish"},
@@ -11715,7 +11715,7 @@ var gear = {
 		},
 		{
 			name: "Laborer's Large Shovel",
-			img: "Gear/Tool1H_R008.png",
+			img: "Gear/Generic/Tools/Tool_R33_ua.png",
 			effects: {
 				26: [
 					{min: 8.682999999999993, max: 9.596999999999994, positive: true, type: "gatherFish"},
@@ -11751,7 +11751,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Farmer Picks",
-			img: "Gear/Tool1H_U015.png",
+			img: "Gear/Generic/Tools/Tool_U11_ua.png",
 			effects: {
 				30: [
 					{min: 8.588000000000003, max: 9.492000000000003, positive: true, type: "gatherFish"},
@@ -11763,7 +11763,7 @@ var gear = {
 		},
 		{
 			name: "Geb's Shovel of Tunneling",
-			img: "Gear/Tool1H_E003.png",
+			img: "Gear/Generic/Tools/Tool_E60_ua.png",
 			effects: {
 				25: [
 					{min: 9.993999999999996, max: 11.045999999999996, positive: true, type: "gatherFish"},
@@ -11804,7 +11804,7 @@ var gear = {
 		},
 		{
 			name: "Cold Iron Pick",
-			img: "Gear/Tool1H_R007.png",
+			img: "Gear/Generic/Tools/Tool_R32_ua.png",
 			effects: {
 				24: [
 					{min: 7.875499999999997, max: 8.704499999999998, positive: true, type: "gatherFish"},
@@ -11845,7 +11845,7 @@ var gear = {
 		},
 		{
 			name: "Magnificent Worker Tools",
-			img: "Gear/Tool1H_U014.png",
+			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				28: [
 					{min: 8.132000000000012, max: 8.988000000000014, positive: true, type: "gatherFish"},
@@ -11858,7 +11858,7 @@ var gear = {
 		},
 		{
 			name: "Magnificent Farmer Shovels",
-			img: "Gear/Tool1H_U013.png",
+			img: "Gear/Generic/Tools/Tool_U11_ua.png",
 			effects: {
 				26: [
 					{min: 7.675999999999998, max: 8.483999999999998, positive: true, type: "gatherFish"},
@@ -11870,7 +11870,7 @@ var gear = {
 		},
 		{
 			name: "Pan's Terrific Tools",
-			img: "Gear/Tool1H_E002.png",
+			img: "Gear/Generic/Tools/Tool_E61_ua.png",
 			effects: {
 				21: [
 					{min: 4.436499999999996, max: 4.903499999999997, positive: true, type: "gatherFish"},
@@ -11906,7 +11906,7 @@ var gear = {
 		},
 		{
 			name: "Master-Crafted Hammer",
-			img: "Gear/Tool1H_R101.png",
+			img: "Gear/Generic/Tools/Tool_R31_ua.png",
 			effects: {
 				25: [
 					{min: 8.72099999999999, max: 9.638999999999989, positive: true, type: "gatherFish"},
@@ -11918,7 +11918,7 @@ var gear = {
 		},
 		{
 			name: "Grand Wicker Baskets",
-			img: "Gear/Tool1H_U012.png",
+			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				25: [
 					{min: 7.448000000000002, max: 8.232000000000003, positive: true, type: "gatherFish"},
@@ -11931,7 +11931,7 @@ var gear = {
 		},
 		{
 			name: "Handcrafted Tools",
-			img: "Gear/Tool1H_ED01.png",
+			img: "Gear/Generic/Tools/Tool_E61_ua.png",
 			effects: {
 				24: [
 					{min: 6.336499999999998, max: 7.003499999999998, positive: true, type: "gatherFish"},
@@ -11943,7 +11943,7 @@ var gear = {
 		},
 		{
 			name: "Blunt Woodsman's Axe",
-			img: "Gear/Tool1H_R006.png",
+			img: "Gear/Generic/Tools/Tool_R30_ua.png",
 			effects: {
 				20: [
 					{min: 7.837500000000001, max: 8.662500000000001, positive: true, type: "gatherFish"},
@@ -11979,7 +11979,7 @@ var gear = {
 		},
 		{
 			name: "Two-Handed Sledgehammer",
-			img: "Gear/Tool1H_R005.png",
+			img: "Gear/Generic/Tools/Tool_R33_ua.png",
 			effects: {
 				19: [
 					{min: 7.543000000000013, max: 8.337000000000014, positive: true, type: "gatherFish"},
@@ -12020,7 +12020,7 @@ var gear = {
 		},
 		{
 			name: "Hephaestus' Archaic Pick",
-			img: "Gear/Tool1H_E001.png",
+			img: "Gear/Generic/Tools/Tool_E60_ua.png",
 			effects: {
 				17: [
 					{min: 7.410000000000006, max: 8.190000000000008, positive: true, type: "gatherFish"},
@@ -12061,7 +12061,7 @@ var gear = {
 		},
 		{
 			name: "Sturdy Silver Pick",
-			img: "Gear/Tool1H_R004.png",
+			img: "Gear/Generic/Tools/Tool_R32_ua.png",
 			effects: {
 				16: [
 					{min: 6.659500000000005, max: 7.360500000000005, positive: true, type: "gatherFish"},
@@ -12102,7 +12102,7 @@ var gear = {
 		},
 		{
 			name: "Hero's Hammer",
-			img: "Gear/Tool1H_U201.png",
+			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				20: [
 					{min: 5.994499999999993, max: 6.6254999999999935, positive: true, type: "gatherFish"},
@@ -12114,7 +12114,7 @@ var gear = {
 		},
 		{
 			name: "Superior Farmer Picks",
-			img: "Gear/Tool1H_U011.png",
+			img: "Gear/Generic/Tools/Tool_U11_ua.png",
 			effects: {
 				20: [
 					{min: 6.308000000000001, max: 6.972000000000002, positive: true, type: "gatherFish"},
@@ -12126,7 +12126,7 @@ var gear = {
 		},
 		{
 			name: "Superb Worker Shovels",
-			img: "Gear/Tool1H_U010.png",
+			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				18: [
 					{min: 5.852000000000009, max: 6.468000000000011, positive: true, type: "gatherFish"},
@@ -12138,7 +12138,7 @@ var gear = {
 		},
 		{
 			name: "Badari Digging Spade",
-			img: "Gear/Tool1H_R003.png",
+			img: "Gear/Generic/Tools/Tool_R31_ua.png",
 			effects: {
 				12: [
 					{min: 5.481500000000008, max: 6.058500000000009, positive: true, type: "gatherFish"},
@@ -12174,7 +12174,7 @@ var gear = {
 		},
 		{
 			name: "Copper Tools",
-			img: "Gear/Tool1H_U001.png",
+			img: "Gear/Generic/Tools/Tool_U11_ua.png",
 			effects: {
 				2: [
 					{min: 2.232499999999986, max: 2.4674999999999847, positive: true, type: "gatherFish"},
@@ -12270,7 +12270,7 @@ var gear = {
 		},
 		{
 			name: "Fine Woodsman Axes",
-			img: "Gear/Tool1H_U009.png",
+			img: "Gear/Generic/Tools/Tool_U11_ua.png",
 			effects: {
 				16: [
 					{min: 5.396000000000017, max: 5.96400000000002, positive: true, type: "gatherFish"},
@@ -12282,7 +12282,7 @@ var gear = {
 		},
 		{
 			name: "Ornate Wicker Baskets",
-			img: "Gear/Tool1H_U008.png",
+			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				15: [
 					{min: 5.804499999999993, max: 6.4154999999999935, positive: true, type: "gatherFish"},
@@ -12294,7 +12294,7 @@ var gear = {
 		},
 		{
 			name: "Worn Two-Headed Axe",
-			img: "Gear/Tool1H_R002.png",
+			img: "Gear/Generic/Tools/Tool_R30_ua.png",
 			effects: {
 				10: [
 					{min: 4.892500000000009, max: 5.407500000000011, positive: true, type: "gatherFish"},
@@ -12330,7 +12330,7 @@ var gear = {
 		},
 		{
 			name: "Artificer's Tools",
-			img: "Gear/Tool1H_U102.png",
+			img: "Gear/Generic/Tools/Tool_U11_ua.png",
 			effects: {
 				9: [
 					{min: 3.695499999999994, max: 4.084499999999993, positive: true, type: "gatherFish"},
@@ -12366,7 +12366,7 @@ var gear = {
 		},
 		{
 			name: "Dull Skinning Knife",
-			img: "Gear/Tool1H_R001.png",
+			img: "Gear/Generic/Tools/Tool_R33_ua.png",
 			effects: {
 				7: [
 					{min: 1.605499999999992, max: 1.774499999999991, positive: true, type: "gatherFish"},
@@ -12402,7 +12402,7 @@ var gear = {
 		},
 		{
 			name: "Telescopic Fruit Picker",
-			img: "Gear/Tool1H_E010.png",
+			img: "Gear/Generic/Tools/Tool_E60_ua.png",
 			effects: {
 				10: [
 					{min: 7.277, max: 8.043000000000001, positive: true, type: "gatherFish"},
@@ -12414,7 +12414,7 @@ var gear = {
 		},
 		{
 			name: "Crete Steward Hatchet",
-			img: "Gear/Tool1H_UA01.png",
+			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				10: [
 					{min: 3.9044999999999916, max: 4.315499999999991, positive: true, type: "gatherFish"},
@@ -12426,7 +12426,7 @@ var gear = {
 		},
 		{
 			name: "Ordinary Farmer Picks",
-			img: "Gear/Tool1H_U007.png",
+			img: "Gear/Generic/Tools/Tool_U11_ua.png",
 			effects: {
 				10: [
 					{min: 4.028, max: 4.451999999999999, positive: true, type: "gatherFish"},
@@ -12439,7 +12439,7 @@ var gear = {
 		},
 		{
 			name: "Grand Hammer of the Pharaohs",
-			img: "Gear/Tool1H_E011.png",
+			img: "Gear/Generic/Tools/Tool_E61_ua.png",
 			effects: {
 				9: [
 					{min: 4.246499999999997, max: 4.693499999999996, positive: true, type: "gatherFish"},
@@ -12453,7 +12453,7 @@ var gear = {
 		},
 		{
 			name: "The Vizier's Axe",
-			img: "Gear/Tool1H_R015.png",
+			img: "Gear/Generic/Tools/Tool_R32_ua.png",
 			effects: {
 				4: [
 					{min: 2.6125000000000074, max: 2.8875000000000086, positive: true, type: "gatherFish"},
@@ -12494,7 +12494,7 @@ var gear = {
 		},
 		{
 			name: "Fine Worker Shovels",
-			img: "Gear/Tool1H_U006.png",
+			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				8: [
 					{min: 3.572000000000007, max: 3.9480000000000084, positive: true, type: "gatherFish"},
@@ -12506,7 +12506,7 @@ var gear = {
 		},
 		{
 			name: "The Master's Tools",
-			img: "Gear/Tool1H_R014.png",
+			img: "Gear/Generic/Tools/Tool_R31_ua.png",
 			effects: {
 				3: [
 					{min: 2.8310000000000044, max: 3.1290000000000053, positive: true, type: "gatherFish"},
@@ -12547,7 +12547,7 @@ var gear = {
 		},
 		{
 			name: "Primitive Woodsman Axes",
-			img: "Gear/Tool1H_U005.png",
+			img: "Gear/Generic/Tools/Tool_U11_ua.png",
 			effects: {
 				6: [
 					{min: 3.201500000000006, max: 3.5385000000000066, positive: true, type: "gatherFish"},
@@ -12559,7 +12559,7 @@ var gear = {
 		},
 		{
 			name: "Vanguard Gathering Tools",
-			img: "Gear/Tool1H_R016.png",
+			img: "Gear/Generic/Tools/Tool_R30_ua.png",
 			effects: {
 				5: [
 					{min: 1.4534999999999876, max: 1.6064999999999863, positive: true, type: "gatherFish"},
@@ -12571,7 +12571,7 @@ var gear = {
 		},
 		{
 			name: "Aged Wicker Baskets",
-			img: "Gear/Tool1H_U004.png",
+			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				5: [
 					{min: 1.2254999999999916, max: 1.3544999999999907, positive: true, type: "gatherFish"},
@@ -12583,7 +12583,7 @@ var gear = {
 		},
 		{
 			name: "Novice's Exceptional Tools",
-			img: "Gear/Tool1H_U020.png",
+			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				3: [
 					{min: 2.3654999999999924, max: 2.614499999999992, positive: true, type: "gatherFish"},

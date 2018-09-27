@@ -17800,7 +17800,7 @@ var gear = {
 		{name: "None", img: 'Slot/MedArmorSlot_ua.png'},
 		{
 			name: "Breastplate of Enkidu",
-			img: "Gear/ArmorMed_L002.png",
+			img: "Gear/Generic/Armor/Inf/Inf_L90v2_ua.png",
 			effects: {
 				40: [
 					{min: 71.66799999999999, max: 79.212, positive: true, type: "health"},
@@ -17810,7 +17810,7 @@ var gear = {
 		},
 		{
 			name: "Breastplate of Gilgamesh",
-			img: "Gear/ArmorMed_L001.png",
+			img: "Gear/Generic/Armor/Inf/Inf_L90_ua.png",
 			effects: {
 				40: [
 					{min: 71.66799999999999, max: 79.212, positive: true, type: "health"},
@@ -17820,7 +17820,7 @@ var gear = {
 		},
 		{
 			name: "Cuirass of Rostam",
-			img: "Gear/ArmorMed_L003.png",
+			img: "Gear/Generic/Armor/Inf/Inf_L90_ua.png",
 			effects: {
 				40: [
 					{min: 71.66799999999999, max: 79.212, positive: true, type: "health"},
@@ -17830,7 +17830,7 @@ var gear = {
 		},
 		{
 			name: "Delian Archon's Cuirass",
-			img: "Gear/ArmorMed_LC01.png",
+			img: "Gear/Generic/Armor/Inf/Inf_L90_ua.png",
 			effects: {
 				40: [
 					{min: 82.365, max: 91.03500000000001, positive: true, type: "health"},
@@ -17839,7 +17839,7 @@ var gear = {
 		},
 		{
 			name: "Divine Breastplate",
-			img: "Gear/ArmorMed_E007_LEG.png",
+			img: "Gear/Generic/Armor/Inf/Inf_L90_ua.png",
 			effects: {
 				40: [
 					{min: 56.6485, max: 62.61150000000001, positive: true, type: "health"},
@@ -17849,7 +17849,7 @@ var gear = {
 		},
 		{
 			name: "Apocalypse Breastplate",
-			img: "Gear/ArmorMed_E007.png",
+			img: "Gear/Generic/Armor/Inf/Inf_E60_ua.png",
 			effects: {
 				37: [
 					{min: 54.70100000000001, max: 60.45900000000002, positive: true, type: "health"},
@@ -17871,7 +17871,7 @@ var gear = {
 		},
 		{
 			name: "Breastplate of Ares",
-			img: "Gear/ArmorMed_E004.png",
+			img: "Gear/Generic/Armor/Inf/Inf_E60_ua.png",
 			effects: {
 				40: [
 					{min: 19.569999999999993, max: 21.629999999999995, positive: true, type: "speed"},
@@ -17880,7 +17880,7 @@ var gear = {
 		},
 		{
 			name: "Breastplate of Athena",
-			img: "Gear/ArmorMed_E102.png",
+			img: "Gear/Generic/Armor/Inf/Inf_E60_ua.png",
 			effects: {
 				40: [
 					{min: 49.86549999999999, max: 55.1145, positive: true, type: "health"},
@@ -17890,7 +17890,7 @@ var gear = {
 		},
 		{
 			name: "Crete Cohort Cuirass",
-			img: "Gear/ArmorMed_EA01.png",
+			img: "Gear/Generic/Armor/Inf/Inf_E60_ua.png",
 			effects: {
 				40: [
 					{min: 49.86549999999999, max: 55.1145, positive: true, type: "health"},
@@ -17901,7 +17901,7 @@ var gear = {
 		},
 		{
 			name: "Cuirass of Achilles",
-			img: "Gear/ArmorMed_E006.png",
+			img: "Gear/Generic/Armor/Inf/Inf_E60_ua.png",
 			effects: {
 				40: [
 					{min: 58.52, max: 64.68, positive: true, type: "health"},
@@ -17912,7 +17912,7 @@ var gear = {
 		},
 		{
 			name: "Cyprus Cohort Cuirass",
-			img: "Gear/ArmorMed_E014.png",
+			img: "Gear/Generic/Armor/Inf/Inf_E60_ua.png",
 			effects: {
 				40: [
 					{min: 67.99149999999999, max: 75.1485, positive: true, type: "health"},
@@ -17922,7 +17922,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Anubite Armor",
-			img: "Gear/ArmorMed_E008.png",
+			img: "Gear/Generic/Armor/Inf/Inf_E60_ua.png",
 			effects: {
 				37: [
 					{min: 73.14999999999999, max: 80.85000000000001, positive: true, type: "health"},
@@ -17940,7 +17940,7 @@ var gear = {
 		},
 		{
 			name: "Legion Enforcer's Breastplate",
-			img: "Gear/ArmorMed_EC01.png",
+			img: "Gear/Generic/Armor/Inf/Inf_E60_ua.png",
 			effects: {
 				40: [
 					{min: 58.52, max: 64.68, positive: true, type: "health"},
@@ -17951,7 +17951,7 @@ var gear = {
 		},
 		{
 			name: "Council Acolyte's Armor",
-			img: "Gear/ArmorMed_RC01.png",
+			img: "Gear/Generic/Armor/Inf/Inf_R30_ua.png",
 			effects: {
 				40: [
 					{min: 54.102500000000006, max: 59.797500000000014, positive: true, type: "health"},
@@ -17961,7 +17961,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Iron-Spiked Armor",
-			img: "Gear/ArmorMed_R013.png",
+			img: "Gear/Generic/Armor/Inf/Inf_R30_ua.png",
 			effects: {
 				36: [
 					{min: 49.46649999999999, max: 54.6735, positive: true, type: "health"},
@@ -17987,7 +17987,7 @@ var gear = {
 		},
 		{
 			name: "Iron Breastplate",
-			img: "Gear/ArmorMed_U003.png",
+			img: "Gear/Generic/Armor/Inf/Inf_U10v2_ua.png",
 			effects: {
 				27: [
 					{min: 30.400000000000006, max: 33.60000000000001, positive: true, type: "health"},
@@ -18023,7 +18023,7 @@ var gear = {
 		},
 		{
 			name: "Agamemnon's Breastplate",
-			img: "Gear/ArmorMed_EB01.png",
+			img: "Gear/Generic/Armor/Inf/Inf_E60_ua.png",
 			effects: {
 				36: [
 					{min: 62.06349999999998, max: 68.59649999999999, positive: true, type: "health"},
@@ -18045,7 +18045,7 @@ var gear = {
 		},
 		{
 			name: "The Hero's Cuirass",
-			img: "Gear/ArmorMed_E005.png",
+			img: "Gear/Generic/Armor/Inf/Inf_E60_ua.png",
 			effects: {
 				35: [
 					{min: 16.919499999999992, max: 18.70049999999999, positive: true, type: "damage"},
@@ -18076,7 +18076,7 @@ var gear = {
 		},
 		{
 			name: "Peerless Battle Breastplate",
-			img: "Gear/ArmorMed_U011.png",
+			img: "Gear/Generic/Armor/Inf/Inf_U10v2_ua.png",
 			effects: {
 				38: [
 					{min: 42.04699999999999, max: 46.47299999999999, positive: true, type: "health"},
@@ -18086,7 +18086,7 @@ var gear = {
 		},
 		{
 			name: "Chieftain Guard Cuirass",
-			img: "Gear/ArmorMed_R102.png",
+			img: "Gear/Generic/Armor/Inf/Inf_R30v2_ua.png",
 			effects: {
 				37: [
 					{min: 42.01849999999999, max: 46.44149999999999, positive: true, type: "health"},
@@ -18096,7 +18096,7 @@ var gear = {
 		},
 		{
 			name: "Cuirass of Odysseus",
-			img: "Gear/ArmorMed_E101.png",
+			img: "Gear/Generic/Armor/Inf/Inf_E60_ua.png",
 			effects: {
 				36: [
 					{min: 71.44, max: 78.96000000000001, positive: true, type: "health"},
@@ -18105,7 +18105,7 @@ var gear = {
 		},
 		{
 			name: "Kraken-Scale Breastplate",
-			img: "Gear/ArmorMed_E012.png",
+			img: "Gear/Generic/Armor/Inf/Inf_E60_ua.png",
 			effects: {
 				32: [
 					{min: 48.668499999999995, max: 53.7915, positive: true, type: "health"},
@@ -18136,7 +18136,7 @@ var gear = {
 		},
 		{
 			name: "Spartan Champion's Cuirass",
-			img: "Gear/ArmorMed_E013.png",
+			img: "Gear/Generic/Armor/Inf/Inf_E60_ua.png",
 			effects: {
 				36: [
 					{min: 62.434, max: 69.006, positive: true, type: "health"},
@@ -18146,7 +18146,7 @@ var gear = {
 		},
 		{
 			name: "Megaran Militia Breastplate",
-			img: "Gear/ArmorMed_R011.png",
+			img: "Gear/Generic/Armor/Inf/Inf_R30v2_ua.png",
 			effects: {
 				29: [
 					{min: 36.30900000000001, max: 40.131000000000014, positive: true, type: "health"},
@@ -18180,7 +18180,7 @@ var gear = {
 		},
 		{
 			name: "Memphis Guard Scale Armor",
-			img: "Gear/ArmorMed_R012.png",
+			img: "Gear/Generic/Armor/Inf/Inf_R30_ua.png",
 			effects: {
 				35: [
 					{min: 48.668499999999995, max: 53.7915, positive: true, type: "health"},
@@ -18190,7 +18190,7 @@ var gear = {
 		},
 		{
 			name: "Immaculate Captain Cuirass",
-			img: "Gear/ArmorMed_U010.png",
+			img: "Gear/Generic/Armor/Inf/Inf_U10_ua.png",
 			effects: {
 				33: [
 					{min: 37.43949999999999, max: 41.38049999999999, positive: true, type: "health"},
@@ -18200,7 +18200,7 @@ var gear = {
 		},
 		{
 			name: "Iron Artificer Breastplate",
-			img: "Gear/ArmorMed_U102.png",
+			img: "Gear/Generic/Armor/Inf/Inf_U10_ua.png",
 			effects: {
 				29: [
 					{min: 28.585499999999996, max: 31.594499999999996, positive: true, type: "health"},
@@ -18226,7 +18226,7 @@ var gear = {
 		},
 		{
 			name: "Set's Desert Cuirass",
-			img: "Gear/ArmorMed_E011.png",
+			img: "Gear/Generic/Armor/Inf/Inf_E60_ua.png",
 			effects: {
 				27: [
 					{min: 42.541, max: 47.019000000000005, positive: true, type: "health"},
@@ -18257,7 +18257,7 @@ var gear = {
 		},
 		{
 			name: "Athenian Light Cuirass",
-			img: "Gear/ArmorMed_R010.png",
+			img: "Gear/Generic/Armor/Inf/Inf_R30_ua.png",
 			effects: {
 				31: [
 					{min: 43.99449999999999, max: 48.62549999999999, positive: true, type: "health"},
@@ -18267,7 +18267,7 @@ var gear = {
 		},
 		{
 			name: "Bronze Breastplate",
-			img: "Gear/ArmorMed_U002.png",
+			img: "Gear/Generic/Armor/Inf/Inf_U10v2_ua.png",
 			effects: {
 				17: [
 					{min: 21.849999999999998, max: 24.150000000000002, positive: true, type: "health"},
@@ -18318,7 +18318,7 @@ var gear = {
 		},
 		{
 			name: "Alligator-Scale Armor",
-			img: "Gear/ArmorMed_R009.png",
+			img: "Gear/Generic/Armor/Inf/Inf_R30_ua.png",
 			effects: {
 				26: [
 					{min: 33.2595, max: 36.76050000000001, positive: true, type: "health"},
@@ -18344,7 +18344,7 @@ var gear = {
 		},
 		{
 			name: "Ra's Blessed Breastplate",
-			img: "Gear/ArmorMed_E003.png",
+			img: "Gear/Generic/Armor/Inf/Inf_E60_ua.png",
 			effects: {
 				25: [
 					{min: 39.95700000000001, max: 44.16300000000001, positive: true, type: "health"},
@@ -18375,7 +18375,7 @@ var gear = {
 		},
 		{
 			name: "Gray Iron-Spiked Armor",
-			img: "Gear/ArmorMed_R008.png",
+			img: "Gear/Generic/Armor/Inf/Inf_R30v2_ua.png",
 			effects: {
 				24: [
 					{min: 10.630499999999989, max: 11.749499999999989, positive: true, type: "damage"},
@@ -18401,7 +18401,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Light Breastplate",
-			img: "Gear/ArmorMed_U009.png",
+			img: "Gear/Generic/Armor/Inf/Inf_U10v2_ua.png",
 			effects: {
 				28: [
 					{min: 32.83199999999999, max: 36.28799999999999, positive: true, type: "health"},
@@ -18411,7 +18411,7 @@ var gear = {
 		},
 		{
 			name: "Argos Sentry Cuirass",
-			img: "Gear/ArmorMed_E010.png",
+			img: "Gear/Generic/Armor/Inf/Inf_E60_ua.png",
 			effects: {
 				25: [
 					{min: 40.223, max: 44.45700000000001, positive: true, type: "health"},
@@ -18421,7 +18421,7 @@ var gear = {
 		},
 		{
 			name: "Argos Scale Armor",
-			img: "Gear/ArmorMed_R016.png",
+			img: "Gear/Generic/Armor/Inf/Inf_R30v2_ua.png",
 			effects: {
 				25: [
 					{min: 36.9835, max: 40.8765, positive: true, type: "health"},
@@ -18431,7 +18431,7 @@ var gear = {
 		},
 		{
 			name: "Ra's Blessed Breastplate",
-			img: "Gear/ArmorMed_R007_SR.png",
+			img: "Gear/Generic/Armor/Inf/Inf_R30_ua.png",
 			effects: {
 				21: [
 					{min: 32.3095, max: 35.71050000000001, positive: true, type: "health"},
@@ -18457,7 +18457,7 @@ var gear = {
 		},
 		{
 			name: "Ajax's Heavy Cuirass",
-			img: "Gear/ArmorMed_E002.png",
+			img: "Gear/Generic/Armor/Inf/Inf_E60_ua.png",
 			effects: {
 				19: [
 					{min: 32.414000000000016, max: 35.82600000000002, positive: true, type: "health"},
@@ -18488,7 +18488,7 @@ var gear = {
 		},
 		{
 			name: "Embossed Cuirass",
-			img: "Gear/ArmorMed_R006.png",
+			img: "Gear/Generic/Armor/Inf/Inf_R30v2_ua.png",
 			effects: {
 				19: [
 					{min: 30.18149999999999, max: 33.35849999999999, positive: true, type: "health"},
@@ -18514,7 +18514,7 @@ var gear = {
 		},
 		{
 			name: "Remarkable Battle Cuirass",
-			img: "Gear/ArmorMed_U008.png",
+			img: "Gear/Generic/Armor/Inf/Inf_U10_ua.png",
 			effects: {
 				23: [
 					{min: 28.224499999999992, max: 31.195499999999996, positive: true, type: "health"},
@@ -18524,7 +18524,7 @@ var gear = {
 		},
 		{
 			name: "Cretan Guard Breastplate",
-			img: "Gear/ArmorMed_R101.png",
+			img: "Gear/Generic/Armor/Inf/Inf_R30_ua.png",
 			effects: {
 				21: [
 					{min: 27.122500000000006, max: 29.97750000000001, positive: true, type: "health"},
@@ -18534,7 +18534,7 @@ var gear = {
 		},
 		{
 			name: "Argos Guard Breastplate",
-			img: "Gear/ArmorMed_E009.png",
+			img: "Gear/Generic/Armor/Inf/Inf_E60_ua.png",
 			effects: {
 				20: [
 					{min: 33.93400000000002, max: 37.50600000000002, positive: true, type: "health"},
@@ -18545,7 +18545,7 @@ var gear = {
 		},
 		{
 			name: "Wolf Fur-Trimmed Armor",
-			img: "Gear/ArmorMed_E001.png",
+			img: "Gear/Generic/Armor/Inf/Inf_E60_ua.png",
 			effects: {
 				17: [
 					{min: 30.00100000000001, max: 33.15900000000001, positive: true, type: "health"},
@@ -18571,7 +18571,7 @@ var gear = {
 		},
 		{
 			name: "Hero's Breastplate",
-			img: "Gear/ArmorMed_R201.png",
+			img: "Gear/Generic/Armor/Inf/Inf_R30_ua.png",
 			effects: {
 				20: [
 					{min: 35.34000000000001, max: 39.06000000000001, positive: true, type: "health"},
@@ -18580,7 +18580,7 @@ var gear = {
 		},
 		{
 			name: "Snake-Scale Armor",
-			img: "Gear/ArmorMed_R005.png",
+			img: "Gear/Generic/Armor/Inf/Inf_R30v2_ua.png",
 			effects: {
 				16: [
 					{min: 16.900500000000015, max: 18.67950000000002, positive: true, type: "health"},
@@ -18606,7 +18606,7 @@ var gear = {
 		},
 		{
 			name: "Superior Sentry Breastplate",
-			img: "Gear/ArmorMed_U007.png",
+			img: "Gear/Generic/Armor/Inf/Inf_U10v20_ua.png",
 			effects: {
 				18: [
 					{min: 23.81649999999999, max: 26.323499999999996, positive: true, type: "health"},
@@ -18616,7 +18616,7 @@ var gear = {
 		},
 		{
 			name: "Egyptian Battle Cuirass",
-			img: "Gear/ArmorMed_R015.png",
+			img: "Gear/Generic/Armor/Inf/Inf_R30v2_ua.png",
 			effects: {
 				17: [
 					{min: 20.96649999999999, max: 23.17349999999999, positive: true, type: "health"},
@@ -18626,7 +18626,7 @@ var gear = {
 		},
 		{
 			name: "Mycenaean Spiked Armor",
-			img: "Gear/ArmorMed_R014.png",
+			img: "Gear/Generic/Armor/Inf/Inf_R30_ua.png",
 			effects: {
 				17: [
 					{min: 8.4265, max: 9.313500000000001, positive: true, type: "damage"},
@@ -18636,7 +18636,7 @@ var gear = {
 		},
 		{
 			name: "Spartan Polemarch Cuirass",
-			img: "Gear/ArmorMed_R004.png",
+			img: "Gear/Generic/Armor/Inf/Inf_R30v2_ua.png",
 			effects: {
 				16: [
 					{min: 26.647499999999997, max: 29.452499999999997, positive: true, type: "health"},
@@ -18646,7 +18646,7 @@ var gear = {
 		},
 		{
 			name: "Copper Breastplate",
-			img: "Gear/ArmorMed_U001.png",
+			img: "Gear/Generic/Armor/Inf/Inf_U10_ua.png",
 			effects: {
 				2: [
 					{min: 9.024999999999997, max: 9.974999999999996, positive: true, type: "health"},
@@ -18697,7 +18697,7 @@ var gear = {
 		},
 		{
 			name: "Theban Scale Armor",
-			img: "Gear/ArmorMed_R003.png",
+			img: "Gear/Generic/Armor/Inf/Inf_R30_ua.png",
 			effects: {
 				10: [
 					{min: 12.578000000000007, max: 13.902000000000008, positive: true, type: "health"},
@@ -18723,7 +18723,7 @@ var gear = {
 		},
 		{
 			name: "Bronze Artificer Breastplate",
-			img: "Gear/ArmorMed_U101.png",
+			img: "Gear/Generic/Armor/Inf/Inf_U10_ua.png",
 			effects: {
 				9: [
 					{min: 15.009999999999991, max: 16.589999999999993, positive: true, type: "health"},
@@ -18744,7 +18744,7 @@ var gear = {
 		},
 		{
 			name: "Ornate Scaled Cuirass",
-			img: "Gear/ArmorMed_U006.png",
+			img: "Gear/Generic/Armor/Inf/Inf_U10_ua.png",
 			effects: {
 				13: [
 					{min: 19.161499999999997, max: 21.1785, positive: true, type: "health"},
@@ -18754,7 +18754,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Silver Breastplate",
-			img: "Gear/ArmorMed_R002.png",
+			img: "Gear/Generic/Armor/Inf/Inf_R30v2_ua.png",
 			effects: {
 				2: [
 					{min: 11.40000000000001, max: 12.600000000000012, positive: true, type: "health"},
@@ -18793,7 +18793,7 @@ var gear = {
 		},
 		{
 			name: "Mycenaean Cuirass",
-			img: "Gear/ArmorMed_R001.png",
+			img: "Gear/Generic/Armor/Inf/Inf_R30_ua.png",
 			effects: {
 				7: [
 					{min: 16.045499999999983, max: 17.734499999999983, positive: true, type: "health"},
@@ -18819,7 +18819,7 @@ var gear = {
 		},
 		{
 			name: "Aegis of the Titans",
-			img: "Gear/ArmorMed_R017.png",
+			img: "Gear/Generic/Armor/Inf/Inf_R30v2_ua.png",
 			effects: {
 				10: [
 					{min: 16.900499999999994, max: 18.679499999999997, positive: true, type: "health"},
@@ -18829,7 +18829,7 @@ var gear = {
 		},
 		{
 			name: "Ideal Infantry Breastplate",
-			img: "Gear/ArmorMed_U005.png",
+			img: "Gear/Generic/Armor/Inf/Inf_U10v2_ua.png",
 			effects: {
 				8: [
 					{min: 14.506499999999983, max: 16.033499999999982, positive: true, type: "health"},
@@ -18839,7 +18839,7 @@ var gear = {
 		},
 		{
 			name: "Freelancer's Steadfast Cuirass",
-			img: "Gear/ArmorMed_U012.png",
+			img: "Gear/Generic/Armor/Inf/Inf_U10v2_ua.png",
 			effects: {
 				3: [
 					{min: 8.825499999999998, max: 9.7545, positive: true, type: "health"},
@@ -18857,7 +18857,7 @@ var gear = {
 		},
 		{
 			name: "Vanguard Scale Breastplate",
-			img: "Gear/ArmorMed_R018.png",
+			img: "Gear/Generic/Armor/Inf/Inf_R30_ua.png",
 			effects: {
 				5: [
 					{min: 13.765500000000001, max: 15.214500000000003, positive: true, type: "health"},
@@ -18867,7 +18867,7 @@ var gear = {
 		},
 		{
 			name: "Aged Guard Cuirass",
-			img: "Gear/ArmorMed_U004.png",
+			img: "Gear/Generic/Armor/Inf/Inf_U10_ua.png",
 			effects: {
 				3: [
 					{min: 9.85149999999999, max: 10.88849999999999, positive: true, type: "health"},

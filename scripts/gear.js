@@ -25416,7 +25416,7 @@ var gear = {
 		{name: "None", img: 'Slot/PriestGearSlot_ua.png'},
 		{
 			name: "Council Overseer's Talisman",
-			img: "Gear/Gear_Prst_LC01.png",
+			img: "Gear/Generic/Gear/Prst/Talisman_L90_ua.png",
 			effects: {
 				40: [
 					{min: 34.618, max: 38.26200000000001, positive: true, type: "health"},
@@ -25425,7 +25425,7 @@ var gear = {
 		},
 		{
 			name: "Tablet of the Dead",
-			img: "Gear/Gear_Prst_L001.png",
+			img: "Gear/Generic/Gear/Prst/Talisman_L90_ua.png",
 			effects: {
 				40: [
 					{min: -15.487499999999997, max: -14.012499999999996, positive: true, type: "timeTrain"},
@@ -25434,7 +25434,7 @@ var gear = {
 		},
 		{
 			name: "Ma'at-Blessed Sandals",
-			img: "Gear/Gear_Prst_E001.png",
+			img: "Gear/Generic/Gear/Prst/Sandals_E60_ua.png",
 			effects: {
 				37: [
 					{min: 7.8090000000000055, max: 8.631000000000007, positive: true, type: "speed"},
@@ -25452,7 +25452,7 @@ var gear = {
 		},
 		{
 			name: "Osiris' Golden Idol",
-			img: "Gear/Gear_Prst_E002.png",
+			img: "Gear/Generic/Gear/Prst/Idol_E60_ua.png",
 			effects: {
 				37: [
 					{min: -13.639500000000004, max: -12.3405, positive: true, type: "timeTrain"},
@@ -25470,7 +25470,7 @@ var gear = {
 		},
 		{
 			name: "Runic Prayer Beads",
-			img: "Gear/Gear_Prst_E003.png",
+			img: "Gear/Generic/Gear/Prst/Breads_E60_ua.png",
 			effects: {
 				37: [
 					{min: -17.2515, max: -15.6085, positive: true, type: "cost"},
@@ -25492,7 +25492,7 @@ var gear = {
 		},
 		{
 			name: "Six Demon Bag",
-			img: "Gear/Gear_Prst_E102.png",
+			img: "Gear/Generic/Gear/Prst/Idol_E60_ua.png",
 			effects: {
 				30: [
 					{min: 26.172500000000007, max: 28.92750000000001, positive: true, type: "health"},
@@ -25531,7 +25531,7 @@ var gear = {
 		},
 		{
 			name: "Zeus' Talisman of Wisdom",
-			img: "Gear/Gear_Prst_E004.png",
+			img: "Gear/Generic/Gear/Prst/Talisman_E60_ua.png",
 			effects: {
 				37: [
 					{min: 155.75249999999997, max: 172.1475, positive: true, type: "conversionResistance"},
@@ -25549,7 +25549,7 @@ var gear = {
 		},
 		{
 			name: "Detailed Silver Idol",
-			img: "Gear/Gear_Prst_R006.png",
+			img: "Gear/Generic/Gear/Prst/Idol_R30_ua.png",
 			effects: {
 				31: [
 					{min: -9.9645, max: -9.015499999999998, positive: true, type: "timeTrain"},
@@ -25585,7 +25585,7 @@ var gear = {
 		},
 		{
 			name: "Legion Recruit's Sandals",
-			img: "Gear/Gear_Prst_RC01.png",
+			img: "Gear/Generic/Gear/Prst/Sandals_R30_ua.png",
 			effects: {
 				40: [
 					{min: 67.95349999999999, max: 75.10650000000001, positive: true, type: "armorInfantry"},
@@ -25594,7 +25594,7 @@ var gear = {
 		},
 		{
 			name: "Talisman of The Four Winds",
-			img: "Gear/Gear_Prst_R102.png",
+			img: "Gear/Generic/Gear/Prst/Talisman_R30_ua.png",
 			effects: {
 				35: [
 					{min: 121.83749999999996, max: 134.66249999999997, positive: true, type: "conversionResistance"},
@@ -25618,7 +25618,7 @@ var gear = {
 		},
 		{
 			name: "Peerless Golden Talisman",
-			img: "Gear/Gear_Prst_U008.png",
+			img: "Gear/Generic/Gear/Prst/Talisman_U11_ua.png",
 			effects: {
 				39: [
 					{min: 109.08849999999998, max: 120.57149999999999, positive: true, type: "conversionResistance"},
@@ -25627,7 +25627,7 @@ var gear = {
 		},
 		{
 			name: "Hermes' Sandals",
-			img: "Gear/Gear_Prst_R003.png",
+			img: "Gear/Generic/Gear/Prst/Sandals_R32_ua.png",
 			effects: {
 				31: [
 					{min: 5.433999999999992, max: 6.005999999999991, positive: true, type: "speed"},
@@ -25648,7 +25648,7 @@ var gear = {
 		},
 		{
 			name: "Fancy Prayer Beads",
-			img: "Gear/Gear_Prst_R009.png",
+			img: "Gear/Generic/Gear/Prst/Breads_R31_ua.png",
 			effects: {
 				30: [
 					{min: -12.033000000000005, max: -10.887000000000004, positive: true, type: "cost"},
@@ -25674,7 +25674,7 @@ var gear = {
 		},
 		{
 			name: "Pure Silver Talisman",
-			img: "Gear/Gear_Prst_R012.png",
+			img: "Gear/Generic/Gear/Prst/Talisman_R32_ua.png",
 			effects: {
 				30: [
 					{min: 108.2905, max: 119.6895, positive: true, type: "conversionResistance"},
@@ -25695,7 +25695,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Warding Idol",
-			img: "Gear/Gear_Prst_U007.png",
+			img: "Gear/Generic/Gear/Prst/Idol_U11_ua.png",
 			effects: {
 				34: [
 					{min: -8.809499999999998, max: -7.970499999999997, positive: true, type: "timeTrain"},
@@ -25704,7 +25704,7 @@ var gear = {
 		},
 		{
 			name: "Silver Talisman",
-			img: "Gear/Gear_Prst_R011.png",
+			img: "Gear/Generic/Gear/Prst/Talisman_R31_ua.png",
 			effects: {
 				26: [
 					{min: 97.41299999999998, max: 107.667, positive: true, type: "conversionResistance"},
@@ -25725,7 +25725,7 @@ var gear = {
 		},
 		{
 			name: "Comfy Sandals",
-			img: "Gear/Gear_Prst_R002.png",
+			img: "Gear/Generic/Gear/Prst/Sandals_R31_ua.png",
 			effects: {
 				20: [
 					{min: 4.084999999999993, max: 4.514999999999993, positive: true, type: "speed"},
@@ -25761,7 +25761,7 @@ var gear = {
 		},
 		{
 			name: "Hand-Carved Nubian Idol",
-			img: "Gear/Gear_Prst_R005.png",
+			img: "Gear/Generic/Gear/Prst/Idol_R32_ua.png",
 			effects: {
 				26: [
 					{min: -8.652000000000003, max: -7.828000000000001, positive: true, type: "timeTrain"},
@@ -25779,7 +25779,7 @@ var gear = {
 		},
 		{
 			name: "Immaculate Sculpted Talisman",
-			img: "Gear/Gear_Prst_U006.png",
+			img: "Gear/Generic/Gear/Prst/Talisman_U10_ua.png",
 			effects: {
 				29: [
 					{min: 87.42849999999999, max: 96.63149999999999, positive: true, type: "conversionResistance"},
@@ -25788,7 +25788,7 @@ var gear = {
 		},
 		{
 			name: "Prayer Beads",
-			img: "Gear/Gear_Prst_R008.png",
+			img: "Gear/Generic/Gear/Prst/Breads_R32_ua.png",
 			effects: {
 				23: [
 					{min: -9.7545, max: -8.825499999999998, positive: true, type: "cost"},
@@ -25814,7 +25814,7 @@ var gear = {
 		},
 		{
 			name: "Gilded Talisman",
-			img: "Gear/Gear_Prst_R010.png",
+			img: "Gear/Generic/Gear/Prst/Talisman_R30_ua.png",
 			effects: {
 				21: [
 					{min: 83.55249999999998, max: 92.3475, positive: true, type: "conversionResistance"},
@@ -25835,7 +25835,7 @@ var gear = {
 		},
 		{
 			name: "Superb Holy Idol",
-			img: "Gear/Gear_Prst_U005.png",
+			img: "Gear/Generic/Gear/Prst/Idol_U10_ua.png",
 			effects: {
 				24: [
 					{min: -6.709500000000007, max: -6.070500000000006, positive: true, type: "timeTrain"},
@@ -25844,7 +25844,7 @@ var gear = {
 		},
 		{
 			name: "Ivory Prayer Beads",
-			img: "Gear/Gear_Prst_R007.png",
+			img: "Gear/Generic/Gear/Prst/Breads_R31_ua.png",
 			effects: {
 				19: [
 					{min: -8.6835, max: -7.8565, positive: true, type: "cost"},
@@ -25870,7 +25870,7 @@ var gear = {
 		},
 		{
 			name: "Leather-Bound Sandals",
-			img: "Gear/Gear_Prst_R001.png",
+			img: "Gear/Generic/Gear/Prst/Sandals_R30_ua.png",
 			effects: {
 				18: [
 					{min: 3.7810000000000055, max: 4.1790000000000065, positive: true, type: "speed"},
@@ -25891,7 +25891,7 @@ var gear = {
 		},
 		{
 			name: "Superior Runic Talisman",
-			img: "Gear/Gear_Prst_U004.png",
+			img: "Gear/Generic/Gear/Prst/Talisma_U11_ua.png",
 			effects: {
 				19: [
 					{min: 64.81849999999999, max: 71.6415, positive: true, type: "conversionResistance"},
@@ -25900,7 +25900,7 @@ var gear = {
 		},
 		{
 			name: "Ahapitep's Devout Sandals",
-			img: "Gear/Gear_Prst_RB01.png",
+			img: "Gear/Generic/Gear/Prst/Sandals_R30_ua.png",
 			effects: {
 				8: [
 					{min: 2.1564999999999945, max: 2.383499999999994, positive: true, type: "speed"},
@@ -25939,7 +25939,7 @@ var gear = {
 		},
 		{
 			name: "Augur's Adroit Sandals",
-			img: "Gear/Gear_Prst_E101.png",
+			img: "Gear/Generic/Gear/Prst/Sandals_E60_ua.png",
 			effects: {
 				17: [
 					{min: 4.5790000000000015, max: 5.061000000000003, positive: true, type: "speed"},
@@ -25948,7 +25948,7 @@ var gear = {
 		},
 		{
 			name: "Thoth's Prayer Beads",
-			img: "Gear/Gear_Prst_R013.png",
+			img: "Gear/Generic/Gear/Prst/Breads_R30_ua.png",
 			effects: {
 				17: [
 					{min: -8.011500000000003, max: -7.248500000000003, positive: true, type: "cost"},
@@ -25958,7 +25958,7 @@ var gear = {
 		},
 		{
 			name: "Ornate Blessing Idol",
-			img: "Gear/Gear_Prst_U003.png",
+			img: "Gear/Generic/Gear/Prst/Idol_U11_ua.png",
 			effects: {
 				14: [
 					{min: -4.787999999999997, max: -4.331999999999997, positive: true, type: "timeTrain"},
@@ -25967,7 +25967,7 @@ var gear = {
 		},
 		{
 			name: "Bastet's Ebony Idol",
-			img: "Gear/Gear_Prst_R004.png",
+			img: "Gear/Generic/Gear/Prst/Idol_R31_ua.png",
 			effects: {
 				10: [
 					{min: -4.588500000000008, max: -4.151500000000007, positive: true, type: "timeTrain"},
@@ -25976,7 +25976,7 @@ var gear = {
 		},
 		{
 			name: "Finely Etched Talisman",
-			img: "Gear/Gear_Prst_U002.png",
+			img: "Gear/Generic/Gear/Prst/Talisman_U10_ua.png",
 			effects: {
 				9: [
 					{min: 41.372499999999995, max: 45.7275, positive: true, type: "conversionResistance"},
@@ -25985,7 +25985,7 @@ var gear = {
 		},
 		{
 			name: "Exalted Idol of Drust",
-			img: "Gear/Gear_Prst_R101.png",
+			img: "Gear/Generic/Gear/Prst/Idol_R30_ua.png",
 			effects: {
 				8: [
 					{min: -4.157999999999997, max: -3.761999999999997, positive: true, type: "timeTrain"},
@@ -25994,7 +25994,7 @@ var gear = {
 		},
 		{
 			name: "Primitive Temple Idol",
-			img: "Gear/Gear_Prst_U001.png",
+			img: "Gear/Generic/Gear/Prst/Idol_U10_ua.png",
 			effects: {
 				4: [
 					{min: -2.583000000000007, max: -2.3370000000000064, positive: true, type: "timeTrain"},

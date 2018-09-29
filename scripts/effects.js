@@ -72,4 +72,4 @@ function loadEffects() {
 	}
 }
 
-loadEffects();
+//loadEffects();

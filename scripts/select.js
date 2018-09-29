@@ -234,3 +234,4 @@ function registerHideListener() {
 
 registerHideListener();
 registerSelects();
+updateSelects();

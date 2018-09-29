@@ -24673,7 +24673,7 @@ var gear = {
 		{name: "None", img: 'Slot/RamSlot_ua.png'},
 		{
 			name: "Ram Head of Khnum",
-			img: "Gear/RamHead2H_L001.png",
+			img: "Gear/Generic/Ramheads/Ram_L90_ua.png",
 			effects: {
 				40: [
 					{min: 71.66799999999999, max: 79.212, positive: true, type: "damage"},
@@ -24683,7 +24683,7 @@ var gear = {
 		},
 		{
 			name: "Sturdy Ram Head",
-			img: "Gear/RamHead2H_L401.png",
+			img: "Gear/Generic/Ramheads/Ram_L91_ua.png",
 			effects: {
 				40: [
 					{min: 71.66799999999999, max: 79.212, positive: true, type: "damage"},
@@ -24693,7 +24693,7 @@ var gear = {
 		},
 		{
 			name: "Delian Preceptor's Ram Head",
-			img: "Gear/RamHead2H_EC02.png",
+			img: "Gear/Generic/Ramheads/Ram_E60_ua.png",
 			effects: {
 				40: [
 					{min: 58.52, max: 64.68, positive: true, type: "damage"},
@@ -24704,7 +24704,7 @@ var gear = {
 		},
 		{
 			name: "Fist of Kronos",
-			img: "Gear/RamHead2H_E005.png",
+			img: "Gear/Generic/Ramheads/Ram_E60_ua.png",
 			effects: {
 				37: [
 					{min: 54.70100000000001, max: 60.45900000000002, positive: true, type: "damage"},
@@ -24730,7 +24730,7 @@ var gear = {
 		},
 		{
 			name: "Legion Enforcer's Ram Head",
-			img: "Gear/RamHead2H_EC01.png",
+			img: "Gear/Generic/Ramheads/Ram_E60_ua.png",
 			effects: {
 				40: [
 					{min: 58.52, max: 64.68, positive: true, type: "damage"},
@@ -24740,7 +24740,7 @@ var gear = {
 		},
 		{
 			name: "Pharaoh's Ram Head",
-			img: "Gear/RamHead2H_E006.png",
+			img: "Gear/Generic/Ramheads/Ram_E61_ua.png",
 			effects: {
 				40: [
 					{min: 45.543, max: 50.33700000000001, positive: true, type: "damage"},
@@ -24750,7 +24750,7 @@ var gear = {
 		},
 		{
 			name: "Ram Head of Aries",
-			img: "Gear/RamHead2H_E004.png",
+			img: "Gear/Generic/Ramheads/Ram_E62_ua.png",
 			effects: {
 				40: [
 					{min: 58.52, max: 64.68, positive: true, type: "damage"},
@@ -24761,7 +24761,7 @@ var gear = {
 		},
 		{
 			name: "Council Acolyte's Ram Head",
-			img: "Gear/RamHead2H_RC01.png",
+			img: "Gear/Generic/Ramheads/Ram_R30_ua.png",
 			effects: {
 				40: [
 					{min: 43.57650000000001, max: 48.16350000000001, positive: true, type: "health"},
@@ -24771,7 +24771,7 @@ var gear = {
 		},
 		{
 			name: "Dark Iron Reinforced Ram",
-			img: "Gear/RamHead2H_R009.png",
+			img: "Gear/Generic/Ramheads/Ram_R33_ua.png",
 			effects: {
 				36: [
 					{min: 49.46649999999999, max: 54.6735, positive: true, type: "damage"},
@@ -24797,7 +24797,7 @@ var gear = {
 		},
 		{
 			name: "Consummate Ram Head",
-			img: "Gear/RamHead2H_U011.png",
+			img: "Gear/Generic/Ramheads/Ram_U13_ua.png",
 			effects: {
 				40: [
 					{min: 43.88999999999999, max: 48.51, positive: true, type: "damage"},
@@ -24807,7 +24807,7 @@ var gear = {
 		},
 		{
 			name: "Iron Ram Head",
-			img: "Gear/RamHead2H_U003.png",
+			img: "Gear/Generic/Ramheads/Ram_U11_ua.png",
 			effects: {
 				27: [
 					{min: 30.400000000000006, max: 33.60000000000001, positive: true, type: "damage"},
@@ -24843,7 +24843,7 @@ var gear = {
 		},
 		{
 			name: "Peerless Ram Head",
-			img: "Gear/RamHead2H_U010.png",
+			img: "Gear/Generic/Ramheads/Ram_U12_ua.png",
 			effects: {
 				38: [
 					{min: 42.04699999999999, max: 46.47299999999999, positive: true, type: "damage"},
@@ -24853,7 +24853,7 @@ var gear = {
 		},
 		{
 			name: "Ardwinna's Great Boar Ram",
-			img: "Gear/RamHead2H_E102.png",
+			img: "Gear/Generic/Ramheads/Ram_E62_ua.png",
 			effects: {
 				37: [
 					{min: 73.14999999999999, max: 80.85000000000001, positive: true, type: "damage"},
@@ -24862,7 +24862,7 @@ var gear = {
 		},
 		{
 			name: "Ram of the Furies",
-			img: "Gear/RamHead2H_E003.png",
+			img: "Gear/Generic/Ramheads/Ram_E61_ua.png",
 			effects: {
 				32: [
 					{min: 48.668499999999995, max: 53.7915, positive: true, type: "health"},
@@ -24888,7 +24888,7 @@ var gear = {
 		},
 		{
 			name: "Iron-Bound Ram Head",
-			img: "Gear/RamHead2H_R008.png",
+			img: "Gear/Generic/Ramheads/Ram_R33_ua.png",
 			effects: {
 				30: [
 					{min: 42.825999999999986, max: 47.33399999999998, positive: true, type: "damage"},
@@ -24922,7 +24922,7 @@ var gear = {
 		},
 		{
 			name: "Athenian Champion's Ram Head",
-			img: "Gear/RamHead2H_E007.png",
+			img: "Gear/Generic/Ramheads/Ram_E60_ua.png",
 			effects: {
 				31: [
 					{min: 54.976499999999994, max: 60.7635, positive: true, type: "damage"},
@@ -24948,7 +24948,7 @@ var gear = {
 		},
 		{
 			name: "Dark-Iron Battle Ram",
-			img: "Gear/RamHead2H_U102.png",
+			img: "Gear/Generic/Ramheads/Ram_U10_ua.png",
 			effects: {
 				33: [
 					{min: 23.81649999999999, max: 26.323499999999996, positive: true, type: "damage"},
@@ -24958,7 +24958,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Iron Ram Head",
-			img: "Gear/RamHead2H_R007.png",
+			img: "Gear/Generic/Ramheads/Ram_R32_ua.png",
 			effects: {
 				31: [
 					{min: 43.99449999999999, max: 48.62549999999999, positive: true, type: "damage"},
@@ -24968,7 +24968,7 @@ var gear = {
 		},
 		{
 			name: "Bronze Ram Head",
-			img: "Gear/RamHead2H_U002.png",
+			img: "Gear/Generic/Ramheads/Ram_U13_ua.png",
 			effects: {
 				17: [
 					{min: 21.849999999999998, max: 24.150000000000002, positive: true, type: "damage"},
@@ -25019,7 +25019,7 @@ var gear = {
 		},
 		{
 			name: "Ra's Golden Fist",
-			img: "Gear/RamHead2H_E002.png",
+			img: "Gear/Generic/Ramheads/Ram_E62_ua.png",
 			effects: {
 				26: [
 					{min: 41.24900000000002, max: 45.591000000000015, positive: true, type: "damage"},
@@ -25050,7 +25050,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Ram Head",
-			img: "Gear/RamHead2H_U009.png",
+			img: "Gear/Generic/Ramheads/Ram_U11_ua.png",
 			effects: {
 				30: [
 					{min: 34.675, max: 38.325, positive: true, type: "damage"},
@@ -25060,7 +25060,7 @@ var gear = {
 		},
 		{
 			name: "Anvil of Hephaestus",
-			img: "Gear/RamHead2H_E101.png",
+			img: "Gear/Generic/Ramheads/Ram_E61_ua.png",
 			effects: {
 				24: [
 					{min: 41.724, max: 46.11600000000001, positive: true, type: "damage"},
@@ -25086,7 +25086,7 @@ var gear = {
 		},
 		{
 			name: "Studded Iron Ram Head",
-			img: "Gear/RamHead2H_R006.png",
+			img: "Gear/Generic/Ramheads/Ram_R31_ua.png",
 			effects: {
 				24: [
 					{min: 16.473, max: 18.207, positive: true, type: "damage"},
@@ -25112,7 +25112,7 @@ var gear = {
 		},
 		{
 			name: "Majestic Ram Head",
-			img: "Gear/RamHead2H_U008.png",
+			img: "Gear/Generic/Ramheads/Ram_U10_ua.png",
 			effects: {
 				28: [
 					{min: 32.83199999999999, max: 36.28799999999999, positive: true, type: "damage"},
@@ -25122,7 +25122,7 @@ var gear = {
 		},
 		{
 			name: "The Minotaur's Horn",
-			img: "Gear/RamHead2H_E001.png",
+			img: "Gear/Generic/Ramheads/Ram_E62_ua.png",
 			effects: {
 				19: [
 					{min: 32.414000000000016, max: 35.82600000000002, positive: true, type: "damage"},
@@ -25153,7 +25153,7 @@ var gear = {
 		},
 		{
 			name: "Lightly Reinforced Ram",
-			img: "Gear/RamHead2H_R005.png",
+			img: "Gear/Generic/Ramheads/Ram_R30_ua.png",
 			effects: {
 				23: [
 					{min: 21.8405, max: 24.139499999999998, positive: true, type: "damage"},
@@ -25163,7 +25163,7 @@ var gear = {
 		},
 		{
 			name: "Wallbreaker",
-			img: "Gear/RamHead2H_RD01.png",
+			img: "Gear/Generic/Ramheads/Ram_R33_ua.png",
 			effects: {
 				22: [
 					{min: 21.346500000000013, max: 23.593500000000013, positive: true, type: "damage"},
@@ -25173,7 +25173,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Iron Ram Head",
-			img: "Gear/RamHead2H_R004.png",
+			img: "Gear/Generic/Ramheads/Ram_R34_ua.png",
 			effects: {
 				17: [
 					{min: 27.82549999999999, max: 30.754499999999993, positive: true, type: "damage"},
@@ -25199,7 +25199,7 @@ var gear = {
 		},
 		{
 			name: "Studded Ram Head",
-			img: "Gear/RamHead2H_R003.png",
+			img: "Gear/Generic/Ramheads/Ram_R33_ua.png",
 			effects: {
 				14: [
 					{min: 24.291500000000003, max: 26.848500000000005, positive: true, type: "damage"},
@@ -25233,7 +25233,7 @@ var gear = {
 		},
 		{
 			name: "Hero's Ram Head",
-			img: "Gear/RamHead2H_U201.png",
+			img: "Gear/Generic/Ramheads/Ram_U12_ua.png",
 			effects: {
 				20: [
 					{min: -5.753999999999996, max: -5.205999999999996, positive: true, type: "cost"},
@@ -25243,7 +25243,7 @@ var gear = {
 		},
 		{
 			name: "Remarkable Ram Head",
-			img: "Gear/RamHead2H_U007.png",
+			img: "Gear/Generic/Ramheads/Ram_U13_ua.png",
 			effects: {
 				20: [
 					{min: 25.46, max: 28.14, positive: true, type: "damage"},
@@ -25253,7 +25253,7 @@ var gear = {
 		},
 		{
 			name: "Superior Ram Head",
-			img: "Gear/RamHead2H_U006.png",
+			img: "Gear/Generic/Ramheads/Ram_U12_ua.png",
 			effects: {
 				18: [
 					{min: -6.237000000000002, max: -5.643000000000001, positive: true, type: "cost"},
@@ -25263,7 +25263,7 @@ var gear = {
 		},
 		{
 			name: "Artificer's Ram Head",
-			img: "Gear/RamHead2H_U101.png",
+			img: "Gear/Generic/Ramheads/Ram_U11_ua.png",
 			effects: {
 				9: [
 					{min: 15.009999999999991, max: 16.589999999999993, positive: true, type: "damage"},
@@ -25293,7 +25293,7 @@ var gear = {
 		},
 		{
 			name: "Copper Ram Head",
-			img: "Gear/RamHead2H_U001.png",
+			img: "Gear/Generic/Ramheads/Ram_U10_ua.png",
 			effects: {
 				9: [
 					{min: 12.568500000000007, max: 13.891500000000008, positive: true, type: "damage"},
@@ -25331,7 +25331,7 @@ var gear = {
 		},
 		{
 			name: "Nubian Conqueror Ram Head",
-			img: "Gear/RamHead2H_R010.png",
+			img: "Gear/Generic/Ramheads/Ram_R32_ua.png",
 			effects: {
 				15: [
 					{min: 16.330500000000015, max: 18.049500000000016, positive: true, type: "damage"},
@@ -25341,7 +25341,7 @@ var gear = {
 		},
 		{
 			name: "Reinforced Ram",
-			img: "Gear/RamHead2H_R002.png",
+			img: "Gear/Generic/Ramheads/Ram_R31_ua.png",
 			effects: {
 				11: [
 					{min: 15.798499999999988, max: 17.46149999999999, positive: true, type: "damage"},
@@ -25367,7 +25367,7 @@ var gear = {
 		},
 		{
 			name: "Helios' Heavy Ram",
-			img: "Gear/RamHead2H_R001.png",
+			img: "Gear/Generic/Ramheads/Ram_R30_ua.png",
 			effects: {
 				7: [
 					{min: 13.233500000000019, max: 14.626500000000023, positive: true, type: "health"},
@@ -25393,7 +25393,7 @@ var gear = {
 		},
 		{
 			name: "Fine Ram Head",
-			img: "Gear/RamHead2H_U005.png",
+			img: "Gear/Generic/Ramheads/Ram_U11_ua.png",
 			effects: {
 				11: [
 					{min: 17.299499999999995, max: 19.120499999999993, positive: true, type: "damage"},
@@ -25403,7 +25403,7 @@ var gear = {
 		},
 		{
 			name: "Ordinary Ram Head",
-			img: "Gear/RamHead2H_U004.png",
+			img: "Gear/Generic/Ramheads/Ram_U10_ua.png",
 			effects: {
 				8: [
 					{min: 14.506499999999983, max: 16.033499999999982, positive: true, type: "damage"},

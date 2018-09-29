@@ -180,6 +180,18 @@ function updateDefaultStats(unit) {
 	}
 }
 
+function updateGearSelectorImages(selector) {
+	if(selector.dataset.shownOnce == undefined) {
+		let options = selector.getElementsByClassName('select-dropdown')[0].getElementsByClassName('select-option');
+		let category = selector.id.replace('gear-select-', '');
+		for(let i = 0 ; i < options.length ; i++) {
+			let option = options[i];
+			option.getElementsByClassName('select-img')[0].src = 'img/' + gear[category][option.dataset.gear].img;
+		}
+		selector.dataset.shownOnce = 1;
+	}
+}
+
 function updateGearSelectors(unit) {
 
 	//Hide all
@@ -193,7 +205,9 @@ function updateGearSelectors(unit) {
 	//Show only correct ones
 	for(let i = 0 ; i < unit.gear.length ; i++) {
 		let category = unit.gear[i];
-		document.getElementById("gear-select-" + category).style.display = "inline-block";
+		let selector = document.getElementById("gear-select-" + category);
+		selector.style.display = "inline-block";
+		updateGearSelectorImages(selector);
 	}
 }
 

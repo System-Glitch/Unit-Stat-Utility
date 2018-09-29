@@ -48,7 +48,7 @@ function createOptionElement(innerHTML) {
 }
 
 function createUnitOptionElement(id, innerHTML, unit) {
-	let element =  createOptionElement(innerHTML);
+	let element = createOptionElement(innerHTML);
 	element.dataset.unit = id;
 	return element;
 }
@@ -70,7 +70,7 @@ function loadUnits() {
 }
 
 function createGearOptionElement(innerHTML, gear, category) {
-	let element =  createOptionElement(innerHTML);
+	let element = createOptionElement(innerHTML);
 	element.dataset.gear = gear;
 	element.dataset.category = category;
 	return element;
@@ -108,7 +108,7 @@ function loadGear() {
 		setTimeout(function() {
 			for(let categoryKey in category) {
 				let item = category[categoryKey];
-				addGearOption(categoryKey, 'img/' + item["img"], item["name"], select, key);
+				addGearOption(categoryKey, 'data:', item["name"], select, key);
 			}
 		}, i++);
 	}

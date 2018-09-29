@@ -26006,7 +26006,7 @@ var gear = {
 		{name: "None", img: 'Slot/ScoutSpecialSlot_ua.png'},
 		{
 			name: "Lens of Menes",
-			img: "Gear/Scout1H_L001.png",
+			img: "Gear/Generic/Gear/Scout/LOS_L90_ua.png",
 			effects: {
 				40: [
 					{min: 71.0125, max: 78.4875, positive: true, type: "vision"},
@@ -26015,7 +26015,7 @@ var gear = {
 		},
 		{
 			name: "Scout's Protector",
-			img: "Gear/Scout1H_L401.png",
+			img: "Gear/Generic/Gear/Scout/Helm_L90_ua.png",
 			effects: {
 				40: [
 					{min: 45.428999999999995, max: 50.21099999999999, positive: true, type: "health"},
@@ -26024,7 +26024,7 @@ var gear = {
 		},
 		{
 			name: "Ahdeeda's Horse Shoes",
-			img: "Gear/Scout1H_R004.png",
+			img: "Gear/Generic/Gear/Scout/Speed_R30_ua.png",
 			effects: {
 				12: [
 					{min: 10.069999999999988, max: 11.129999999999987, positive: true, type: "speed"},
@@ -26078,7 +26078,7 @@ var gear = {
 		},
 		{
 			name: "Looking Glass",
-			img: "Gear/Scout1H_R002.png",
+			img: "Gear/Generic/Gear/Scout/LOS_R30_ua.png",
 			effects: {
 				7: [
 					{min: 19.180500000000016, max: 21.19950000000002, positive: true, type: "vision"},
@@ -26147,7 +26147,7 @@ var gear = {
 		},
 		{
 			name: "Mounted Noose Pole",
-			img: "Gear/Scout1H_R003.png",
+			img: "Gear/Generic/Gear/Scout/Hunting_R30_ua.png",
 			effects: {
 				12: [
 					{min: 91.02900000000001, max: 100.61100000000003, positive: true, type: "damage"},
@@ -26201,7 +26201,7 @@ var gear = {
 		},
 		{
 			name: "Mummy Bandages",
-			img: "Gear/Scout1H_R005.png",
+			img: "Gear/Generic/Gear/Scout/Health_R30_ua.png",
 			effects: {
 				12: [
 					{min: 0, max: 0, positive: true, type: "selfHeal"},
@@ -26255,7 +26255,7 @@ var gear = {
 		},
 		{
 			name: "Quick Build Watch Post",
-			img: "Gear/Scout1H_R001.png",
+			img: "Gear/Generic/Gear/Scout/Tower_R30_ua.png",
 			effects: {
 				10: [
 					{min: 105.22200000000001, max: 116.29800000000003, positive: true, type: "watchPostConstructionSpeed"},
@@ -26264,7 +26264,7 @@ var gear = {
 		},
 		{
 			name: "Novice's Ranger Helm",
-			img: "Gear/Scout1H_U001.png",
+			img: "Gear/Generic/Gear/Scout/Helm_U10_ua.png",
 			effects: {
 				3: [
 					{min: 6.079999999999984, max: 6.719999999999983, positive: true, type: "health"},

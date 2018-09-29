@@ -28400,7 +28400,7 @@ var gear = {
 		{name: "None", img: 'Slot/HornSlot_ua.png'},
 		{
 			name: "Battle Horn of the North",
-			img: "Gear/WarHorn_E101_LEG.png",
+			img: "Gear/Celt/WarHorn/Horn_L91_ua.png",
 			effects: {
 				40: [
 					{min: 22.7715, max: 25.168500000000005, positive: true, type: "critical"},
@@ -28409,7 +28409,7 @@ var gear = {
 		},
 		{
 			name: "Divine Battle Horn",
-			img: "Gear/WarHorn_E104_LEG.png",
+			img: "Gear/Celt/WarHorn/Horn_L90_ua.png",
 			effects: {
 				40: [
 					{min: 34.8175, max: 38.48250000000001, positive: true, type: "damage"},
@@ -28418,7 +28418,7 @@ var gear = {
 		},
 		{
 			name: "Elite Battle Horn",
-			img: "Gear/WarHorn_L401.png",
+			img: "Gear/Celt/WarHorn/Horn_L90_ua.png",
 			effects: {
 				40: [
 					{min: 25.042000000000005, max: 27.678000000000008, positive: true, type: "damage"},
@@ -28428,7 +28428,7 @@ var gear = {
 		},
 		{
 			name: "Enduring War Horn",
-			img: "Gear/WarHorn_L402.png",
+			img: "Gear/Celt/WarHorn/Horn_L91_ua.png",
 			effects: {
 				40: [
 					{min: 26.790000000000003, max: 29.610000000000003, positive: true, type: "damage"},
@@ -28438,7 +28438,7 @@ var gear = {
 		},
 		{
 			name: "Aoifa's Vengeful War Horn",
-			img: "Gear/WarHorn_E108.png",
+			img: "Gear/Celt/WarHorn/Horn_E60_ua.png",
 			effects: {
 				40: [
 					{min: 22.05900000000002, max: 24.38100000000002, positive: true, type: "damage"},
@@ -28448,7 +28448,7 @@ var gear = {
 		},
 		{
 			name: "Battle Horn of the Maelstrom",
-			img: "Gear/WarHorn_E105.png",
+			img: "Gear/Celt/WarHorn/Horn_E61_ua.png",
 			effects: {
 				37: [
 					{min: 22.277499999999993, max: 24.62249999999999, positive: true, type: "health"},
@@ -28470,7 +28470,7 @@ var gear = {
 		},
 		{
 			name: "Battle Horn of the Victor",
-			img: "Gear/WarHorn_E104.png",
+			img: "Gear/Celt/WarHorn/Horn_E60_ua.png",
 			effects: {
 				35: [
 					{min: 29.782499999999988, max: 32.91749999999999, positive: true, type: "damage"},
@@ -28494,7 +28494,7 @@ var gear = {
 		},
 		{
 			name: "War Horn of the Berserker",
-			img: "Gear/WarHorn_R109.png",
+			img: "Gear/Celt/WarHorn/Horn_R31_ua.png",
 			effects: {
 				26: [
 					{min: 19.427499999999988, max: 21.47249999999999, positive: true, type: "health"},
@@ -28545,7 +28545,7 @@ var gear = {
 		},
 		{
 			name: "Artisan Iron War Horn",
-			img: "Gear/WarHorn_U106.png",
+			img: "Gear/Celt/WarHorn/Horn_U10_ua.png",
 			effects: {
 				37: [
 					{min: 17.546499999999984, max: 19.393499999999985, positive: true, type: "damage"},
@@ -28563,7 +28563,7 @@ var gear = {
 		},
 		{
 			name: "Iron War Horn",
-			img: "Gear/WarHorn_U103.png",
+			img: "Gear/Celt/WarHorn/Horn_U11_ua.png",
 			effects: {
 				40: [
 					{min: 18.686499999999988, max: 20.653499999999987, positive: true, type: "health"},
@@ -28572,7 +28572,7 @@ var gear = {
 		},
 		{
 			name: "Cuchulainn's Blighted War Horn",
-			img: "Gear/WarHorn_E107.png",
+			img: "Gear/Celt/WarHorn/Horn_E61_ua.png",
 			effects: {
 				37: [
 					{min: 26.362500000000004, max: 29.13750000000001, positive: true, type: "vision"},
@@ -28582,7 +28582,7 @@ var gear = {
 		},
 		{
 			name: "Dreaded Horn of Woe",
-			img: "Gear/WarHorn_R112.png",
+			img: "Gear/Celt/WarHorn/Horn_R32_ua.png",
 			effects: {
 				36: [
 					{min: 24.946999999999992, max: 27.572999999999997, positive: true, type: "damage"},
@@ -28591,7 +28591,7 @@ var gear = {
 		},
 		{
 			name: "Artisan Bronze War Horn",
-			img: "Gear/WarHorn_U105.png",
+			img: "Gear/Celt/WarHorn/Horn_U11_ua.png",
 			effects: {
 				27: [
 					{min: 14.031499999999994, max: 15.508499999999994, positive: true, type: "damage"},
@@ -28627,7 +28627,7 @@ var gear = {
 		},
 		{
 			name: "Battle Horn of Dragon Breath",
-			img: "Gear/WarHorn_E103.png",
+			img: "Gear/Celt/WarHorn/Horn_E61_ua.png",
 			effects: {
 				26: [
 					{min: 17.460999999999995, max: 19.298999999999996, positive: true, type: "damage"},
@@ -28669,7 +28669,7 @@ var gear = {
 		},
 		{
 			name: "Scytale's Ruined War Horn",
-			img: "Gear/WarHorn_E106_SR.png",
+			img: "Gear/Celt/WarHorn/Horn_E60_ua.png",
 			effects: {
 				33: [
 					{min: 28.680499999999984, max: 31.699499999999983, positive: true, type: "health"},
@@ -28678,7 +28678,7 @@ var gear = {
 		},
 		{
 			name: "Sacrificial Horn of Blood",
-			img: "Gear/WarHorn_R111.png",
+			img: "Gear/Celt/WarHorn/Horn_R31_ua.png",
 			effects: {
 				32: [
 					{min: 17.09999999999999, max: 18.899999999999995, positive: true, type: "health"},
@@ -28688,7 +28688,7 @@ var gear = {
 		},
 		{
 			name: "Exalted Horn of Carnage",
-			img: "Gear/WarHorn_R110.png",
+			img: "Gear/Celt/WarHorn/Horn_R30_ua.png",
 			effects: {
 				28: [
 					{min: 15.646499999999985, max: 17.293499999999984, positive: true, type: "damage"},
@@ -28698,7 +28698,7 @@ var gear = {
 		},
 		{
 			name: "War Horn of the Bloodied",
-			img: "Gear/WarHorn_R108.png",
+			img: "Gear/Celt/WarHorn/Horn_R30_ua.png",
 			effects: {
 				24: [
 					{min: 8.578500000000004, max: 9.481500000000006, positive: true, type: "damage"},
@@ -28724,7 +28724,7 @@ var gear = {
 		},
 		{
 			name: "Battle Horn of the Crescent Moon",
-			img: "Gear/WarHorn_E102.png",
+			img: "Gear/Celt/WarHorn/Horn_E60_ua.png",
 			effects: {
 				22: [
 					{min: 15.532499999999997, max: 17.167499999999997, positive: true, type: "damage"},
@@ -28750,7 +28750,7 @@ var gear = {
 		},
 		{
 			name: "Bronze War Horn",
-			img: "Gear/WarHorn_U102.png",
+			img: "Gear/Celt/WarHorn/Horn_U10_ua.png",
 			effects: {
 				21: [
 					{min: 11.922499999999994, max: 13.177499999999993, positive: true, type: "health"},
@@ -28774,7 +28774,7 @@ var gear = {
 		},
 		{
 			name: "War Horn of the West",
-			img: "Gear/WarHorn_R107.png",
+			img: "Gear/Celt/WarHorn/Horn_R32_ua.png",
 			effects: {
 				20: [
 					{min: -3.7169999999999987, max: -3.3629999999999987, positive: true, type: "cost"},
@@ -28800,7 +28800,7 @@ var gear = {
 		},
 		{
 			name: "War Horn of the South",
-			img: "Gear/WarHorn_R106.png",
+			img: "Gear/Celt/WarHorn/Horn_R31_ua.png",
 			effects: {
 				19: [
 					{min: 13.071999999999994, max: 14.447999999999995, positive: true, type: "damage"},
@@ -28826,7 +28826,7 @@ var gear = {
 		},
 		{
 			name: "Battle Horn of the Night Wind",
-			img: "Gear/WarHorn_E101.png",
+			img: "Gear/Celt/WarHorn/Horn_E61_ua.png",
 			effects: {
 				18: [
 					{min: 18.30649999999999, max: 20.23349999999999, positive: true, type: "critical"},
@@ -28847,7 +28847,7 @@ var gear = {
 		},
 		{
 			name: "Artisan Copper War Horn",
-			img: "Gear/WarHorn_U104.png",
+			img: "Gear/Celt/WarHorn/Horn_U11_ua.png",
 			effects: {
 				17: [
 					{min: 9.139000000000006, max: 10.101000000000006, positive: true, type: "damage"},
@@ -28873,7 +28873,7 @@ var gear = {
 		},
 		{
 			name: "Superior War Horn",
-			img: "Gear/WarHorn_U109.png",
+			img: "Gear/Celt/WarHorn/Horn_U10_ua.png",
 			effects: {
 				21: [
 					{min: 11.922499999999994, max: 13.177499999999993, positive: true, type: "damage"},
@@ -28882,7 +28882,7 @@ var gear = {
 		},
 		{
 			name: "War Horn of the East",
-			img: "Gear/WarHorn_R105.png",
+			img: "Gear/Celt/WarHorn/Horn_R30_ua.png",
 			effects: {
 				14: [
 					{min: 10.716000000000001, max: 11.844000000000001, positive: true, type: "health"},
@@ -28916,7 +28916,7 @@ var gear = {
 		},
 		{
 			name: "War Horn of the North",
-			img: "Gear/WarHorn_R103.png",
+			img: "Gear/Celt/WarHorn/Horn_R31_ua.png",
 			effects: {
 				17: [
 					{min: 12.444999999999979, max: 13.754999999999978, positive: true, type: "damage"},
@@ -28926,7 +28926,7 @@ var gear = {
 		},
 		{
 			name: "War Horn of the Raider",
-			img: "Gear/WarHorn_R104.png",
+			img: "Gear/Celt/WarHorn/Horn_R32_ua.png",
 			effects: {
 				17: [
 					{min: 14.696500000000006, max: 16.243500000000008, positive: true, type: "damage"},
@@ -28935,7 +28935,7 @@ var gear = {
 		},
 		{
 			name: "War Horn of the Blizzard",
-			img: "Gear/WarHorn_R113.png",
+			img: "Gear/Celt/WarHorn/Horn_R32_ua.png",
 			effects: {
 				14: [
 					{min: 11.038999999999987, max: 12.200999999999986, positive: true, type: "damage"},
@@ -28953,7 +28953,7 @@ var gear = {
 		},
 		{
 			name: "Copper War Horn",
-			img: "Gear/WarHorn_U101.png",
+			img: "Gear/Celt/WarHorn/Horn_U10_ua.png",
 			effects: {
 				3: [
 					{min: 4.436499999999996, max: 4.903499999999997, positive: true, type: "damage"},
@@ -29015,7 +29015,7 @@ var gear = {
 		},
 		{
 			name: "Outrider's Savage War Horn",
-			img: "Gear/WarHorn_R101.png",
+			img: "Gear/Celt/WarHorn/Horn_R30_ua.png",
 			effects: {
 				13: [
 					{min: 8.853999999999996, max: 9.785999999999994, positive: true, type: "damage"},
@@ -29025,7 +29025,7 @@ var gear = {
 		},
 		{
 			name: "War Horn of the Vanguard",
-			img: "Gear/WarHorn_R102.png",
+			img: "Gear/Celt/WarHorn/Horn_R30_ua.png",
 			effects: {
 				9: [
 					{min: 9.870499999999987, max: 10.909499999999989, positive: true, type: "health"},
@@ -29046,7 +29046,7 @@ var gear = {
 		},
 		{
 			name: "Fine War Horn",
-			img: "Gear/WarHorn_U108.png",
+			img: "Gear/Celt/WarHorn/Horn_U11_ua.png",
 			effects: {
 				13: [
 					{min: 7.467, max: 8.253, positive: true, type: "damage"},
@@ -29056,7 +29056,7 @@ var gear = {
 		},
 		{
 			name: "Primitive War Horn",
-			img: "Gear/WarHorn_U107.png",
+			img: "Gear/Celt/WarHorn/Horn_U10_ua.png",
 			effects: {
 				5: [
 					{min: 5.614499999999993, max: 6.205499999999993, positive: true, type: "damage"},
@@ -29068,7 +29068,7 @@ var gear = {
 		{name: "None", img: 'Slot/WarPaintSlot_ua.png'},
 		{
 			name: "Boudicca's Battle Markings",
-			img: "Gear/Warpaint_L401.png",
+			img: "Gear/Celt/Warpaint/WarPaint_L90_ua.png",
 			effects: {
 				40: [
 					{min: 12.777500000000005, max: 14.122500000000008, positive: true, type: "damage"},
@@ -29078,7 +29078,7 @@ var gear = {
 		},
 		{
 			name: "Divine Warpaint",
-			img: "Gear/Warpaint_E110_LEG.png",
+			img: "Gear/Celt/Warpaint/WarPaint_L91_ua.png",
 			effects: {
 				40: [
 					{min: 16.891000000000016, max: 18.669000000000022, positive: true, type: "damage"},
@@ -29087,7 +29087,7 @@ var gear = {
 		},
 		{
 			name: "Mark of Combat",
-			img: "Gear/Warpaint_L402.png",
+			img: "Gear/Celt/Warpaint/WarPaint_L91_ua.png",
 			effects: {
 				40: [
 					{min: 11.903500000000017, max: 13.15650000000002, positive: true, type: "health"},
@@ -29097,7 +29097,7 @@ var gear = {
 		},
 		{
 			name: "Battle Brand of Scathach",
-			img: "Gear/Warpaint_E114_SR.png",
+			img: "Gear/Celt/Warpaint/WarPaint_E63_ua.png",
 			effects: {
 				40: [
 					{min: 0.446499999999993, max: 0.4934999999999923, positive: true, type: "speed"},
@@ -29108,7 +29108,7 @@ var gear = {
 		},
 		{
 			name: "Taranis' Visage of Vanquishing",
-			img: "Gear/Warpaint_E110.png",
+			img: "Gear/Celt/Warpaint/WarPaint_E62_ua.png",
 			effects: {
 				37: [
 					{min: 14.468499999999988, max: 15.991499999999988, positive: true, type: "damage"},
@@ -29126,7 +29126,7 @@ var gear = {
 		},
 		{
 			name: "Warpaint of the Anvil",
-			img: "Gear/Warpaint_R108.png",
+			img: "Gear/Celt/Warpaint/WarPaint_R30_ua.png",
 			effects: {
 				37: [
 					{min: 10.108000000000004, max: 11.172000000000004, positive: true, type: "damage"},
@@ -29148,7 +29148,7 @@ var gear = {
 		},
 		{
 			name: "Mark of the Hammer",
-			img: "Gear/Warpaint_U107.png",
+			img: "Gear/Celt/Warpaint/WarPaint_U12_ua.png",
 			effects: {
 				31: [
 					{min: 6.858999999999982, max: 7.580999999999982, positive: true, type: "damage"},
@@ -29194,7 +29194,7 @@ var gear = {
 		},
 		{
 			name: "Warpaint of the Berserker",
-			img: "Gear/Warpaint_R117.png",
+			img: "Gear/Celt/Warpaint/WarPaint_R31_ua.png",
 			effects: {
 				35: [
 					{min: 10.734999999999998, max: 11.865, positive: true, type: "damage"},
@@ -29216,7 +29216,7 @@ var gear = {
 		},
 		{
 			name: "Epona's Visage of Quickening",
-			img: "Gear/Warpaint_E109.png",
+			img: "Gear/Celt/Warpaint/WarPaint_E61_ua.png",
 			effects: {
 				35: [
 					{min: 10.260000000000009, max: 11.34000000000001, positive: true, type: "damage"},
@@ -29234,7 +29234,7 @@ var gear = {
 		},
 		{
 			name: "Warpaint of the Cavalier",
-			img: "Gear/Warpaint_R107.png",
+			img: "Gear/Celt/Warpaint/WarPaint_R34_ua.png",
 			effects: {
 				34: [
 					{min: 10.203000000000015, max: 11.277000000000017, positive: true, type: "health"},
@@ -29256,7 +29256,7 @@ var gear = {
 		},
 		{
 			name: "Brand of the Northern Star",
-			img: "Gear/Warpaint_R116_SR.png",
+			img: "Gear/Celt/Warpaint/WarPaint_R32_ua.png",
 			effects: {
 				36: [
 					{min: 0.39899999999999824, max: 0.44099999999999806, positive: true, type: "speed"},
@@ -29267,7 +29267,7 @@ var gear = {
 		},
 		{
 			name: "Arduinnna's Visage of Renewal",
-			img: "Gear/Warpaint_E108.png",
+			img: "Gear/Celt/Warpaint/WarPaint_E60_ua.png",
 			effects: {
 				31: [
 					{min: 9.272000000000011, max: 10.248000000000014, positive: true, type: "damage"},
@@ -29293,7 +29293,7 @@ var gear = {
 		},
 		{
 			name: "Battle Brand of Balor",
-			img: "Gear/Warpaint_E111.png",
+			img: "Gear/Celt/Warpaint/WarPaint_E62_ua.png",
 			effects: {
 				34: [
 					{min: 9.252999999999993, max: 10.226999999999993, positive: true, type: "damage"},
@@ -29303,7 +29303,7 @@ var gear = {
 		},
 		{
 			name: "Warpaint of the Gauntlet",
-			img: "Gear/Warpaint_R106.png",
+			img: "Gear/Celt/Warpaint/WarPaint_R33_ua.png",
 			effects: {
 				31: [
 					{min: 3.6669999999999967, max: 4.052999999999996, positive: true, type: "armorCavalry"},
@@ -29321,7 +29321,7 @@ var gear = {
 		},
 		{
 			name: "Warpaint of the Noble",
-			img: "Gear/Warpaint_R105.png",
+			img: "Gear/Celt/Warpaint/WarPaint_R32_ua.png",
 			effects: {
 				29: [
 					{min: 8.283999999999995, max: 9.155999999999995, positive: true, type: "damage"},
@@ -29347,7 +29347,7 @@ var gear = {
 		},
 		{
 			name: "Brand of the Rising Sun",
-			img: "Gear/Warpaint_R115.png",
+			img: "Gear/Celt/Warpaint/WarPaint_R31_ua.png",
 			effects: {
 				32: [
 					{min: 8.208000000000004, max: 9.072000000000005, positive: true, type: "damage"},
@@ -29357,7 +29357,7 @@ var gear = {
 		},
 		{
 			name: "Barinthus' Visage of Grounding",
-			img: "Gear/Warpaint_E107_SR.png",
+			img: "Gear/Celt/Warpaint/WarPaint_E63_ua.png",
 			effects: {
 				28: [
 					{min: 0.3230000000000066, max: 0.3570000000000073, positive: true, type: "speed"},
@@ -29383,7 +29383,7 @@ var gear = {
 		},
 		{
 			name: "Battle Brand of Nuada Silverhand",
-			img: "Gear/Warpaint_E113_SR.png",
+			img: "Gear/Celt/Warpaint/WarPaint_E61_ua.png",
 			effects: {
 				30: [
 					{min: 0.3515000000000035, max: 0.38850000000000384, positive: true, type: "speed"},
@@ -29394,7 +29394,7 @@ var gear = {
 		},
 		{
 			name: "Mark of the Raider",
-			img: "Gear/Warpaint_U106.png",
+			img: "Gear/Celt/Warpaint/WarPaint_U11_ua.png",
 			effects: {
 				23: [
 					{min: 5.4909999999999854, max: 6.068999999999985, positive: true, type: "damage"},
@@ -29432,7 +29432,7 @@ var gear = {
 		},
 		{
 			name: "Morrigan's Visage of Smiting",
-			img: "Gear/Warpaint_E106.png",
+			img: "Gear/Celt/Warpaint/WarPaint_E62_ua.png",
 			effects: {
 				25: [
 					{min: 8.056, max: 8.903999999999998, positive: true, type: "damage"},
@@ -29458,7 +29458,7 @@ var gear = {
 		},
 		{
 			name: "Brand of the Waning Moon",
-			img: "Gear/Warpaint_R114_SR.png",
+			img: "Gear/Celt/Warpaint/WarPaint_R30_ua.png",
 			effects: {
 				29: [
 					{min: 0.33250000000000557, max: 0.36750000000000616, positive: true, type: "speed"},
@@ -29469,7 +29469,7 @@ var gear = {
 		},
 		{
 			name: "Battle Brand of Lugh",
-			img: "Gear/Warpaint_E112.png",
+			img: "Gear/Celt/Warpaint/WarPaint_E60_ua.png",
 			effects: {
 				27: [
 					{min: 7.941999999999989, max: 8.777999999999988, positive: true, type: "damage"},
@@ -29479,7 +29479,7 @@ var gear = {
 		},
 		{
 			name: "Brand of the Savage Boar",
-			img: "Gear/Warpaint_R110.png",
+			img: "Gear/Celt/Warpaint/WarPaint_R34_ua.png",
 			effects: {
 				27: [
 					{min: 6.5169999999999995, max: 7.202999999999999, positive: true, type: "damage"},
@@ -29489,7 +29489,7 @@ var gear = {
 		},
 		{
 			name: "Druantia's Visage of Foresight",
-			img: "Gear/Warpaint_E105.png",
+			img: "Gear/Celt/Warpaint/WarPaint_E61_ua.png",
 			effects: {
 				22: [
 					{min: 7.28650000000002, max: 8.053500000000023, positive: true, type: "damage"},
@@ -29515,7 +29515,7 @@ var gear = {
 		},
 		{
 			name: "Brand of the Four Winds",
-			img: "Gear/Warpaint_R113.png",
+			img: "Gear/Celt/Warpaint/WarPaint_R33_ua.png",
 			effects: {
 				25: [
 					{min: 7.314999999999996, max: 8.084999999999996, positive: true, type: "damage"},
@@ -29525,7 +29525,7 @@ var gear = {
 		},
 		{
 			name: "Warpaint of the Pillager",
-			img: "Gear/Warpaint_R102.png",
+			img: "Gear/Celt/Warpaint/WarPaint_R34_ua.png",
 			effects: {
 				21: [
 					{min: 6.6880000000000015, max: 7.392000000000002, positive: true, type: "damage"},
@@ -29551,7 +29551,7 @@ var gear = {
 		},
 		{
 			name: "Mark of the Steadfast",
-			img: "Gear/Warpaint_U105.png",
+			img: "Gear/Celt/Warpaint/WarPaint_U10_ua.png",
 			effects: {
 				19: [
 					{min: 4.806999999999998, max: 5.312999999999998, positive: true, type: "damage"},
@@ -29581,7 +29581,7 @@ var gear = {
 		},
 		{
 			name: "Brand of the Fleet Stag",
-			img: "Gear/Warpaint_R112.png",
+			img: "Gear/Celt/Warpaint/WarPaint_R32_ua.png",
 			effects: {
 				22: [
 					{min: 6.631000000000007, max: 7.3290000000000095, positive: true, type: "damage"},
@@ -29591,7 +29591,7 @@ var gear = {
 		},
 		{
 			name: "Warpaint of the Tracker",
-			img: "Gear/Warpaint_R101.png",
+			img: "Gear/Celt/Warpaint/WarPaint_R33_ua.png",
 			effects: {
 				18: [
 					{min: 7.618999999999982, max: 8.420999999999982, positive: true, type: "vision"},
@@ -29617,7 +29617,7 @@ var gear = {
 		},
 		{
 			name: "Mark of the Guard",
-			img: "Gear/Warpaint_U115.png",
+			img: "Gear/Celt/Warpaint/WarPaint_U13_ua.png",
 			effects: {
 				21: [
 					{min: 5.775999999999996, max: 6.383999999999997, positive: true, type: "damage"},
@@ -29627,7 +29627,7 @@ var gear = {
 		},
 		{
 			name: "Andrasta's Visage of Fury",
-			img: "Gear/Warpaint_E104.png",
+			img: "Gear/Celt/Warpaint/WarPaint_E60_ua.png",
 			effects: {
 				14: [
 					{min: 5.396000000000017, max: 5.96400000000002, positive: true, type: "damage"},
@@ -29661,7 +29661,7 @@ var gear = {
 		},
 		{
 			name: "Ranger's Dauntless Warpaint",
-			img: "Gear/Warpaint_E102.png",
+			img: "Gear/Celt/Warpaint/WarPaint_E60_ua.png",
 			effects: {
 				20: [
 					{min: 6.194000000000013, max: 6.846000000000016, positive: true, type: "health"},
@@ -29671,7 +29671,7 @@ var gear = {
 		},
 		{
 			name: "Ranger's Malevolent Warpaint",
-			img: "Gear/Warpaint_E103.png",
+			img: "Gear/Celt/Warpaint/WarPaint_E61_ua.png",
 			effects: {
 				20: [
 					{min: 6.194000000000013, max: 6.846000000000016, positive: true, type: "damage"},
@@ -29681,7 +29681,7 @@ var gear = {
 		},
 		{
 			name: "Ranger's Perilous Warpaint",
-			img: "Gear/Warpaint_E101.png",
+			img: "Gear/Celt/Warpaint/WarPaint_E63_ua.png",
 			effects: {
 				20: [
 					{min: 6.194000000000013, max: 6.846000000000016, positive: true, type: "damage"},
@@ -29691,7 +29691,7 @@ var gear = {
 		},
 		{
 			name: "Brand of the Charging Bull",
-			img: "Gear/Warpaint_R111.png",
+			img: "Gear/Celt/Warpaint/WarPaint_R31_ua.png",
 			effects: {
 				19: [
 					{min: 5.946999999999998, max: 6.5729999999999995, positive: true, type: "damage"},
@@ -29701,7 +29701,7 @@ var gear = {
 		},
 		{
 			name: "Mark of the Captain",
-			img: "Gear/Warpaint_U114.png",
+			img: "Gear/Celt/Warpaint/WarPaint_U12_ua.png",
 			effects: {
 				19: [
 					{min: 5.376999999999998, max: 5.942999999999999, positive: true, type: "damage"},
@@ -29711,7 +29711,7 @@ var gear = {
 		},
 		{
 			name: "Mark of the Veteran",
-			img: "Gear/Warpaint_U104.png",
+			img: "Gear/Celt/Warpaint/WarPaint_U13_ua.png",
 			effects: {
 				13: [
 					{min: 2.3084999999999987, max: 2.551499999999999, positive: true, type: "health"},
@@ -29741,7 +29741,7 @@ var gear = {
 		},
 		{
 			name: "Brand of the Stalking Raven",
-			img: "Gear/Warpaint_R109.png",
+			img: "Gear/Celt/Warpaint/WarPaint_R30_ua.png",
 			effects: {
 				17: [
 					{min: 4.113500000000011, max: 4.546500000000012, positive: true, type: "damage"},
@@ -29751,7 +29751,7 @@ var gear = {
 		},
 		{
 			name: "Mark of the Sergeant",
-			img: "Gear/Warpaint_U113.png",
+			img: "Gear/Celt/Warpaint/WarPaint_U13_ua.png",
 			effects: {
 				17: [
 					{min: 4.978, max: 5.502000000000001, positive: true, type: "damage"},
@@ -29761,7 +29761,7 @@ var gear = {
 		},
 		{
 			name: "Mark of the Ram",
-			img: "Gear/Warpaint_U112.png",
+			img: "Gear/Celt/Warpaint/WarPaint_U11_ua.png",
 			effects: {
 				15: [
 					{min: 4.607499999999999, max: 5.0924999999999985, positive: true, type: "damage"},
@@ -29771,7 +29771,7 @@ var gear = {
 		},
 		{
 			name: "Mark of the Warrior",
-			img: "Gear/Warpaint_U103.png",
+			img: "Gear/Celt/Warpaint/WarPaint_U12_ua.png",
 			effects: {
 				10: [
 					{min: 3.7620000000000076, max: 4.158000000000008, positive: true, type: "damage"},
@@ -29792,7 +29792,7 @@ var gear = {
 		},
 		{
 			name: "Mark of the Horseman",
-			img: "Gear/Warpaint_U111.png",
+			img: "Gear/Celt/Warpaint/WarPaint_U12_ua.png",
 			effects: {
 				12: [
 					{min: 3.0400000000000027, max: 3.360000000000003, positive: true, type: "damage"},
@@ -29802,7 +29802,7 @@ var gear = {
 		},
 		{
 			name: "Mark of the Besieger",
-			img: "Gear/Warpaint_U102.png",
+			img: "Gear/Celt/Warpaint/WarPaint_U11_ua.png",
 			effects: {
 				7: [
 					{min: 0.7504999999999806, max: 0.8294999999999786, positive: true, type: "multiplierBuildings"},
@@ -29828,7 +29828,7 @@ var gear = {
 		},
 		{
 			name: "Mark of the Chieftain",
-			img: "Gear/Warpaint_U110.png",
+			img: "Gear/Celt/Warpaint/WarPaint_U11_ua.png",
 			effects: {
 				9: [
 					{min: 1.2920000000000054, max: 1.428000000000006, positive: true, type: "armorInfantry"},
@@ -29838,7 +29838,7 @@ var gear = {
 		},
 		{
 			name: "Mark of the Scout",
-			img: "Gear/Warpaint_U109.png",
+			img: "Gear/Celt/Warpaint/WarPaint_U10_ua.png",
 			effects: {
 				7: [
 					{min: 3.106499999999995, max: 3.433499999999995, positive: true, type: "health"},
@@ -29848,7 +29848,7 @@ var gear = {
 		},
 		{
 			name: "Mark of the Rider",
-			img: "Gear/Warpaint_U101.png",
+			img: "Gear/Celt/Warpaint/WarPaint_U10_ua.png",
 			effects: {
 				2: [
 					{min: 1.9760000000000144, max: 2.184000000000016, positive: true, type: "damage"},
@@ -29874,7 +29874,7 @@ var gear = {
 		},
 		{
 			name: "Mark of the Loyalist",
-			img: "Gear/Warpaint_U108_SR.png",
+			img: "Gear/Celt/Warpaint/WarPaint_U10_ua.png",
 			effects: {
 				3: [
 					{min: 2.270500000000003, max: 2.5095000000000036, positive: true, type: "damage"},

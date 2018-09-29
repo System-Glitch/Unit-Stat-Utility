@@ -12595,7 +12595,7 @@ var gear = {
 		},
 	],
 	throwingArm: [
-		{name: "None", img: 'Slot/throwingArmSlot_ua.png'},
+		{name: "None", img: 'Slot/BallistaArmSlot_ua.png'},
 		{
 			name: "Blessed Dionysus´ Throwing Arm",
 			img: "Gear/Ballista2H_BDTA",

@@ -3,7 +3,7 @@ var effects = {
 	health: {name: "Health", startsAtOne: false},
 	speed: {name: "Movement Speed", startsAtOne: false},
 	cost: {name: "Cost", startsAtOne: false},
-	protection: {name: "Bonus Damage Protection", startsAtOne: true},
+	protection: {name: "Bonus Damage Protection", startsAtOne: true}, //Missing effect
 	armorPierce: {name: "Pierce Armor", startsAtOne: false, isArmor: true},
 	armorInfantry: {name: "Melee-Infantry Armor", startsAtOne: false, isArmor: true},
 	armorCavalry: {name: "Melee-Cavalry Armor", startsAtOne: false, isArmor: true},
@@ -19,8 +19,8 @@ var effects = {
 	multiplierSiege: {name: "Siege Bonus Damage", startsAtOne: true},
 	multiplierHuntable: {name: "Bonus vs. Huntable", startsAtOne: true},
 	multiplierVillager: {name: "Bonus vs. Villager", startsAtOne: true},
-	snare: {name: "Snare", startsAtOne: false},
-	snareResist: {name: "Snare Resist", startsAtOne: false},
+	snare: {name: "Snare", startsAtOne: false}, //Missing effect
+	snareResist: {name: "Snare Resist", startsAtOne: false}, //Missing effect
 	critical: {name: "Critical Hit Chance", startsAtOne: false},
 	timeTrain: {name: "Train Time", startsAtOne: false},
 	timeBuilding: {name: "Build Time", startsAtOne: false},
@@ -32,25 +32,24 @@ var effects = {
 	gatherStone: {name: "Gathering Stone", startsAtOne: false},
 	gatherBerry: {name: "Gathering Berries", startsAtOne: false},
 	gatherHunt: {name: "Gathering Huntable", startsAtOne: false},
-	gatherHerdable: {name: "Gathering Herdable", startsAtOne: false},
+	gatherHerdable: {name: "Gathering Herdable", startsAtOne: false}, //Missing effect
 	gatherFarm: {name: "Gathering Farms", startsAtOne: false},
 	buildingSpeed: {name: "Buildings Construction Speed", startsAtOne: false},
 	healing: {name: "Healing", startsAtOne: false},
 	healRange: {name: "Healing Range", startsAtOne: false},
-	healConstant: {name: "Healing Rate", startsAtOne: false},
+	healRate: {name: "Healing Rate", startsAtOne: false},
 	empowerDropoff: {name: "Empower Dropoff", startsAtOne: false},
-	empowerTrainRate: {name: "Empower Train Rate", startsAtOne: false},
-	empowerBuildRate: {name: "Empower Build Rate", startsAtOne: false},
-	conversionResistance: {name: "Conversion Resistance", startsAtOne: false},
+	empowerTrainRate: {name: "Empower Train Rate", startsAtOne: false}, //Missing effect
+	empowerBuildRate: {name: "Empower Build Rate", startsAtOne: false}, //Missing effect
+	conversionResistance: {name: "Conversion Resistance", startsAtOne: false}, //Missing effect
 	conversionRate: {name: "Conversion Rate", startsAtOne: false},
 	convertInfantryRate: {name: "Convert Infantry Rate", startsAtOne: false},
 	convertSiegeRate: {name: "Convert Siege Rate", startsAtOne: false},
 	convertCavalryRate: {name: "Convert Cavalry Rate", startsAtOne: false},
 	conversionRange: {name: "Conversion Range", startsAtOne: false},
-	empowerTrain: {name: "Train Time", startsAtOne: false},
-	empowerResearch: {name: "Train/Research Rate", startsAtOne: false},
-	carryCapacity: {name: "Carry Capacity", startsAtOne: false},
-	trade: {name: "Trade", startsAtOne: false},
+	empowerResearch: {name: "Train/Research Rate", startsAtOne: false}, //Missing effect
+	carryCapacity: {name: "Carry Capacity", startsAtOne: false}, //Needs to be filled manually
+	trade: {name: "Trade", startsAtOne: false}, //Needs to be filled manually
 	selfHeal: {name: "Enables Self-Heal Action", startsAtOne: true},
 	watchPostConstructionSpeed: {name: "Watch Post Construction Speed", startsAtOne: true}
 }
@@ -65,6 +64,7 @@ function createEffectElement(effect, effectName) {
 }
 
 function loadEffects() {
+	if(effectsContainer == undefined) return;
 	console.log("Loading effects...");
 	for(let key in effects) {
 		if(key != "cost")

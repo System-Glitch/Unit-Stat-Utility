@@ -23132,7 +23132,7 @@ var gear = {
 		{name: "None", img: 'Slot/SiegeGearSlot_ua.png'},
 		{
 			name: "Beams of Khnum",
-			img: "Gear/Gear_Siege_L002.png",
+			img: "Gear/Generic/Gear/Siege/HBeam_L90_ua.png",
 			effects: {
 				40: [
 					{min: -19.351500000000005, max: -17.5085, positive: true, type: "cost"},
@@ -23142,7 +23142,7 @@ var gear = {
 		},
 		{
 			name: "Divine Heavy Cedar Beams",
-			img: "Gear/Gear_Siege_DHCB.png",
+			img: "Gear/Generic/Gear/Siege/HBeam_L90_ua.png",
 			effects: {
 				40: [
 					{min: 20.605499999999985, max: 22.77449999999999, positive: false, type: "cost"},
@@ -23153,7 +23153,7 @@ var gear = {
 		},
 		{
 			name: "Wheels of Archimedes",
-			img: "Gear/Gear_Siege_L001.png",
+			img: "Gear/Generic/Gear/Siege/Wheel_L90_ua.png",
 			effects: {
 				40: [
 					{min: 8.759000000000006, max: 9.681000000000006, positive: true, type: "speed"},
@@ -23162,7 +23162,7 @@ var gear = {
 		},
 		{
 			name: "Aristotle's Axle Designs",
-			img: "Gear/Gear_Siege_E002.png",
+			img: "Gear/Generic/Gear/Siege/Axle_E60_ua.png",
 			effects: {
 				37: [
 					{min: -13.639500000000004, max: -12.3405, positive: true, type: "timeTrain"},
@@ -23180,7 +23180,7 @@ var gear = {
 		},
 		{
 			name: "Black Iron Wheels",
-			img: "Gear/Gear_Siege_E001.png",
+			img: "Gear/Generic/Gear/Siege/Wheel_E60_ua.png",
 			effects: {
 				37: [
 					{min: 7.8090000000000055, max: 8.631000000000007, positive: true, type: "speed"},
@@ -23198,7 +23198,7 @@ var gear = {
 		},
 		{
 			name: "Hand Carved Cedar Beams",
-			img: "Gear/Gear_Siege_E003.png",
+			img: "Gear/Generic/Gear/Siege/LBeam_E60_ua.png",
 			effects: {
 				37: [
 					{min: -17.2515, max: -15.6085, positive: true, type: "cost"},
@@ -23220,7 +23220,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Cedar Beams",
-			img: "Gear/Gear_Siege_E005.png",
+			img: "Gear/Generic/Gear/Siege/HBeam_E60_ua.png",
 			effects: {
 				37: [
 					{min: 18.505999999999986, max: 20.453999999999986, positive: false, type: "cost"},
@@ -23246,7 +23246,7 @@ var gear = {
 		},
 		{
 			name: "Legion Enforcer's Wheels",
-			img: "Gear/Gear_Siege_EC01.png",
+			img: "Gear/Generic/Gear/Siege/Wheel_E60_ua.png",
 			effects: {
 				40: [
 					{min: 33.39249999999999, max: 36.90749999999999, positive: true, type: "health"},
@@ -23255,7 +23255,7 @@ var gear = {
 		},
 		{
 			name: "Masterful Cedar Beam",
-			img: "Gear/Gear_Siege_E101.png",
+			img: "Gear/Generic/Gear/Siege/HBeam_E60_ua.png",
 			effects: {
 				37: [
 					{min: -5.974500000000007, max: -5.405500000000006, positive: false, type: "damage"},
@@ -23277,7 +23277,7 @@ var gear = {
 		},
 		{
 			name: "Masterful Cedar Joints",
-			img: "Gear/Gear_Siege_E004.png",
+			img: "Gear/Generic/Gear/Siege/LBeam_E60_ua.png",
 			effects: {
 				37: [
 					{min: -17.2515, max: -15.6085, positive: true, type: "cost"},
@@ -23303,7 +23303,7 @@ var gear = {
 		},
 		{
 			name: "The Spine of Balor",
-			img: "Gear/Gear_Siege_E102.png",
+			img: "Gear/Generic/Gear/Siege/Axle_E60_ua.png",
 			effects: {
 				37: [
 					{min: 7.8090000000000055, max: 8.631000000000007, positive: true, type: "speed"},
@@ -23321,7 +23321,7 @@ var gear = {
 		},
 		{
 			name: "Council Acolyte's Wheels",
-			img: "Gear/Gear_Siege_RC02.png",
+			img: "Gear/Generic/Gear/Siege/Wheel_R30_ua.png",
 			effects: {
 				40: [
 					{min: 6.716499999999998, max: 7.423499999999999, positive: true, type: "speed"},
@@ -23330,7 +23330,7 @@ var gear = {
 		},
 		{
 			name: "Delian Adept's Wheels",
-			img: "Gear/Gear_Siege_RC01.png",
+			img: "Gear/Generic/Gear/Siege/Wheel_R30_ua.png",
 			effects: {
 				40: [
 					{min: 27.26499999999999, max: 30.134999999999994, positive: true, type: "damage"},
@@ -23339,7 +23339,7 @@ var gear = {
 		},
 		{
 			name: "Iron Reinforced Joints",
-			img: "Gear/Gear_Siege_R012.png",
+			img: "Gear/Generic/Gear/Siege/Joint_R31_ua.png",
 			effects: {
 				30: [
 					{min: -12.033000000000005, max: -10.887000000000004, positive: true, type: "cost"},
@@ -23400,7 +23400,7 @@ var gear = {
 		},
 		{
 			name: "Wayland's Axle Design",
-			img: "Gear/Gear_Siege_R102.png",
+			img: "Gear/Generic/Gear/Siege/Axle_R30_ua.png",
 			effects: {
 				37: [
 					{min: -11.5395, max: -10.4405, positive: true, type: "timeTrain"},
@@ -23418,7 +23418,7 @@ var gear = {
 		},
 		{
 			name: "King Minos' Radiant Wheels",
-			img: "Gear/Gear_Siege_EB01.png",
+			img: "Gear/Generic/Gear/Siege/Wheel_E60_ua.png",
 			effects: {
 				30: [
 					{min: 6.545499999999996, max: 7.234499999999996, positive: true, type: "speed"},
@@ -23445,7 +23445,7 @@ var gear = {
 		},
 		{
 			name: "Homer's Axle Design",
-			img: "Gear/Gear_Siege_R006.png",
+			img: "Gear/Generic/Gear/Siege/Axle_R31_ua.png",
 			effects: {
 				32: [
 					{min: -10.227000000000004, max: -9.253000000000004, positive: true, type: "timeTrain"},
@@ -23466,7 +23466,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Axles",
-			img: "Gear/Gear_Siege_U004.png",
+			img: "Gear/Generic/Gear/Siege/Axle_U10_ua.png",
 			effects: {
 				35: [
 					{min: -9.019499999999999, max: -8.160499999999997, positive: true, type: "timeTrain"},
@@ -23475,7 +23475,7 @@ var gear = {
 		},
 		{
 			name: "Iron Wheel Spokes",
-			img: "Gear/Gear_Siege_R003.png",
+			img: "Gear/Generic/Gear/Siege/Wheel_R30_ua.png",
 			effects: {
 				20: [
 					{min: 3.866499999999996, max: 4.273499999999996, positive: true, type: "speed"},
@@ -23496,7 +23496,7 @@ var gear = {
 		},
 		{
 			name: "Silver Reinforced Arms",
-			img: "Gear/Gear_Siege_R015.png",
+			img: "Gear/Generic/Gear/Siege/HBeam_R32_ua.png",
 			effects: {
 				29: [
 					{min: 12.653999999999998, max: 13.985999999999999, positive: false, type: "cost"},
@@ -23527,7 +23527,7 @@ var gear = {
 		},
 		{
 			name: "Sneferu's Siege Beam Design",
-			img: "Gear/Gear_Siege_R009.png",
+			img: "Gear/Generic/Gear/Siege/LBeam_R31_ua.png",
 			effects: {
 				29: [
 					{min: -11.707499999999994, max: -10.592499999999992, positive: true, type: "cost"},
@@ -23553,7 +23553,7 @@ var gear = {
 		},
 		{
 			name: "Silver-Shod Wheels",
-			img: "Gear/Gear_Siege_R002.png",
+			img: "Gear/Generic/Gear/Siege/Wheel_R32_ua.png",
 			effects: {
 				26: [
 					{min: 4.996999999999998, max: 5.522999999999998, positive: true, type: "speed"},
@@ -23574,7 +23574,7 @@ var gear = {
 		},
 		{
 			name: "Iron Reinforced Beams",
-			img: "Gear/Gear_Siege_R008.png",
+			img: "Gear/Generic/Gear/Siege/HBeam_R30_ua.png",
 			effects: {
 				25: [
 					{min: -10.405499999999996, max: -9.414499999999997, positive: true, type: "cost"},
@@ -23600,7 +23600,7 @@ var gear = {
 		},
 		{
 			name: "Simplified Joinings",
-			img: "Gear/Gear_Siege_R011.png",
+			img: "Gear/Generic/Gear/Siege/Joint_R30_ua.png",
 			effects: {
 				25: [
 					{min: -10.405499999999996, max: -9.414499999999997, positive: true, type: "cost"},
@@ -23631,7 +23631,7 @@ var gear = {
 		},
 		{
 			name: "Iron-Banded Axle",
-			img: "Gear/Gear_Siege_R005.png",
+			img: "Gear/Generic/Gear/Siege/Axle_R32_ua.png",
 			effects: {
 				24: [
 					{min: -8.127000000000002, max: -7.3530000000000015, positive: true, type: "timeTrain"},
@@ -23652,7 +23652,7 @@ var gear = {
 		},
 		{
 			name: "Reinforced Oak Trestles",
-			img: "Gear/Gear_Siege_R014.png",
+			img: "Gear/Generic/Gear/Siege/HBeam_R31_ua.png",
 			effects: {
 				24: [
 					{min: 11.152999999999995, max: 12.326999999999995, positive: false, type: "cost"},
@@ -23683,7 +23683,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Oak Wheels",
-			img: "Gear/Gear_Siege_R001.png",
+			img: "Gear/Generic/Gear/Siege/Wheel_R30_ua.png",
 			effects: {
 				21: [
 					{min: 4.236999999999997, max: 4.682999999999997, positive: true, type: "speed"},
@@ -23704,7 +23704,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Support Beams",
-			img: "Gear/Gear_Siege_R013.png",
+			img: "Gear/Generic/Gear/Siege/HBeam_R31_ua.png",
 			effects: {
 				21: [
 					{min: 10.069999999999988, max: 11.129999999999987, positive: false, type: "cost"},
@@ -23735,7 +23735,7 @@ var gear = {
 		},
 		{
 			name: "Superior Axles",
-			img: "Gear/Gear_Siege_U003.png",
+			img: "Gear/Generic/Gear/Siege/Axle_U10_ua.png",
 			effects: {
 				25: [
 					{min: -6.919500000000007, max: -6.260500000000007, positive: true, type: "timeTrain"},
@@ -23744,7 +23744,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Oak Axles",
-			img: "Gear/Gear_Siege_R004.png",
+			img: "Gear/Generic/Gear/Siege/Axle_R32_ua.png",
 			effects: {
 				20: [
 					{min: -7.077000000000003, max: -6.403000000000001, positive: true, type: "timeTrain"},
@@ -23765,7 +23765,7 @@ var gear = {
 		},
 		{
 			name: "Light Oak Beams",
-			img: "Gear/Gear_Siege_R007.png",
+			img: "Gear/Generic/Gear/Siege/Wheel_R31_ua.png",
 			effects: {
 				20: [
 					{min: -9.019499999999999, max: -8.160499999999997, positive: true, type: "cost"},
@@ -23791,7 +23791,7 @@ var gear = {
 		},
 		{
 			name: "Spiked Iron Wheels",
-			img: "Gear/Gear_Siege_R101.png",
+			img: "Gear/Generic/Gear/Siege/Wheel_R31_ua.png",
 			effects: {
 				19: [
 					{min: 3.7239999999999904, max: 4.11599999999999, positive: true, type: "speed"},
@@ -23812,7 +23812,7 @@ var gear = {
 		},
 		{
 			name: "Beveled Oak Joints",
-			img: "Gear/Gear_Siege_R010.png",
+			img: "Gear/Generic/Gear/Siege/Joint_R32_ua.png",
 			effects: {
 				18: [
 					{min: -8.347500000000002, max: -7.552500000000001, positive: true, type: "cost"},
@@ -23843,7 +23843,7 @@ var gear = {
 		},
 		{
 			name: "Rugged Beams",
-			img: "Gear/Gear_Siege_ED01.png",
+			img: "Gear/Generic/Gear/Siege/HBeam_E60_ua.png",
 			effects: {
 				20: [
 					{min: 10.459500000000007, max: 11.56050000000001, positive: true, type: "damage"},
@@ -23853,7 +23853,7 @@ var gear = {
 		},
 		{
 			name: "Mycenaean Siege Beams",
-			img: "Gear/Gear_Siege_R016.png",
+			img: "Gear/Generic/Gear/Siege/HBeam_R30_ua.png",
 			effects: {
 				17: [
 					{min: 8.815999999999999, max: 9.744, positive: false, type: "cost"},
@@ -23864,7 +23864,7 @@ var gear = {
 		},
 		{
 			name: "Fine Axles",
-			img: "Gear/Gear_Siege_U002.png",
+			img: "Gear/Generic/Gear/Siege/Axle_U11_ua.png",
 			effects: {
 				15: [
 					{min: -5.008500000000008, max: -4.531500000000007, positive: true, type: "timeTrain"},
@@ -23873,7 +23873,7 @@ var gear = {
 		},
 		{
 			name: "Standard Axles",
-			img: "Gear/Gear_Siege_U001.png",
+			img: "Gear/Generic/Gear/Siege/Axle_U10_ua.png",
 			effects: {
 				10: [
 					{min: -3.9060000000000015, max: -3.5340000000000007, positive: true, type: "timeTrain"},

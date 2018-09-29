@@ -780,7 +780,7 @@ var units = {
 	TravelShip: {name: "TravelShip", img: "TravelShip64.png"},
 	Treasury: {name: "Treasury", img: "Treasury64.png"},
 	Tree: {name: "Tree", img: "Tree64.png"},
-	Villager: {name: "Villager", img: "Villager64.png"},
+	Villager: {name: "Villager", img: "Villager64.png", gear: ["workTool", "clothArmor", "laborerGear"]},
 	VillagerFemale: {name: "VillagerFemale", img: "VillagerFemale64.png"},
 	VillagerMale: {name: "VillagerMale", img: "VillagerMale64.png"},
 	Vulture: {name: "Vulture", img: "Vulture64.png"},

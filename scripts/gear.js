@@ -20590,7 +20590,7 @@ var gear = {
 		{name: "None", img: 'Slot/CivGearSlot_ua.png'},
 		{
 			name: "Blessed Food of Athens",
-			img: "Gear/Gear_Vill_SH.png",
+			img: "Gear/Celeste/Generic/Gear/Vill/Gear_Vill_SH_ua.png",
 			effects: {
 				40: [
 					{min: -4.940250000000004, max: -4.469750000000003, positive: true, type: "timeTrain"},
@@ -20600,7 +20600,7 @@ var gear = {
 		},
 		{
 			name: "Hood of Weyland",
-			img: "Gear/Gear_Vill_L001.png",
+			img: "Gear/Generic/Gear/Vill/Hat_L90_ua.png",
 			effects: {
 				40: [
 					{min: 3.9710000000000054, max: 4.3890000000000065, positive: true, type: "speed"},
@@ -20610,7 +20610,7 @@ var gear = {
 		},
 		{
 			name: "Talisman of Khufu",
-			img: "Gear/Gear_Vill_L002.png",
+			img: "Gear/Generic/Gear/Vill/Pendant_L90_ua.png",
 			effects: {
 				40: [
 					{min: 80.17999999999999, max: 88.61999999999999, positive: true, type: "conversionResistance"},
@@ -20620,7 +20620,7 @@ var gear = {
 		},
 		{
 			name: "Ambrosia of the Gods",
-			img: "Gear/Gear_Vill_E004.png",
+			img: "Gear/Generic/Gear/Vill/Food_E60_ua.png",
 			effects: {
 				37: [
 					{min: -7.780499999999995, max: -7.039499999999995, positive: true, type: "cost"},
@@ -20638,7 +20638,7 @@ var gear = {
 		},
 		{
 			name: "Hera's Talisman of Purity",
-			img: "Gear/Gear_Vill_E002.png",
+			img: "Gear/Generic/Gear/Vill/Pendant_E60_ua.png",
 			effects: {
 				37: [
 					{min: 14.468499999999988, max: 15.991499999999988, positive: true, type: "damage"},
@@ -20660,7 +20660,7 @@ var gear = {
 		},
 		{
 			name: "Plato's Tool Selection",
-			img: "Gear/Gear_Vill_E003.png",
+			img: "Gear/Generic/Gear/Vill/Tools_E60_ua.png",
 			effects: {
 				37: [
 					{min: -6.36300000000001, max: -5.7570000000000086, positive: true, type: "timeTrain"},
@@ -20682,7 +20682,7 @@ var gear = {
 		},
 		{
 			name: "Reinforced Work Hat",
-			img: "Gear/Gear_Vill_E001.png",
+			img: "Gear/Generic/Gear/Vill/Hat_E60_ua.png",
 			effects: {
 				37: [
 					{min: 3.7145000000000126, max: 4.105500000000014, positive: true, type: "speed"},
@@ -20704,7 +20704,7 @@ var gear = {
 		},
 		{
 			name: "Delian Adept's Hood",
-			img: "Gear/Gear_Vill_RC01.png",
+			img: "Gear/Generic/Gear/Vill/Hat_R32_ua.png",
 			effects: {
 				40: [
 					{min: 6.716499999999998, max: 7.423499999999999, positive: true, type: "speed"},
@@ -20713,7 +20713,7 @@ var gear = {
 		},
 		{
 			name: "Runic Medallion of Geb",
-			img: "Gear/Gear_Vill_R006.png",
+			img: "Gear/Generic/Gear/Vill/Pendant_R32_ua.png",
 			effects: {
 				32: [
 					{min: 10.81099999999999, max: 11.948999999999991, positive: true, type: "damage"},
@@ -20755,7 +20755,7 @@ var gear = {
 		},
 		{
 			name: "Studded Leather Cap",
-			img: "Gear/Gear_Vill_R003.png",
+			img: "Gear/Generic/Gear/Vill/Hat_R32_ua.png",
 			effects: {
 				31: [
 					{min: 2.5555000000000136, max: 2.8245000000000156, positive: true, type: "speed"},
@@ -20801,7 +20801,7 @@ var gear = {
 		},
 		{
 			name: "Brooch of King Leir",
-			img: "Gear/Gear_Vill_E101.png",
+			img: "Gear/Generic/Gear/Vill/Pendant_E60_ua.png",
 			effects: {
 				35: [
 					{min: 149.63449999999997, max: 165.3855, positive: true, type: "conversionResistance"},
@@ -20816,7 +20816,7 @@ var gear = {
 		},
 		{
 			name: "Goibniu's Mead of Eternal Life",
-			img: "Gear/Gear_Vill_E102.png",
+			img: "Gear/Generic/Gear/Vill/Food_E60_ua.png",
 			effects: {
 				37: [
 					{min: -8.630999999999993, max: -7.808999999999993, positive: true, type: "timeTrain"},
@@ -20825,7 +20825,7 @@ var gear = {
 		},
 		{
 			name: "Pharaoh's Hand-Picked Tools",
-			img: "Gear/Gear_Vill_R009.png",
+			img: "Gear/Generic/Gear/Vill/Tools_R32_ua.png",
 			effects: {
 				30: [
 					{min: -5.848499999999997, max: -5.2914999999999965, positive: true, type: "timeTrain"},
@@ -20846,7 +20846,7 @@ var gear = {
 		},
 		{
 			name: "Salted Boar Flanks",
-			img: "Gear/Gear_Vill_R012.png",
+			img: "Gear/Generic/Gear/Vill/Food_R31_ua.png",
 			effects: {
 				30: [
 					{min: -5.491500000000002, max: -4.968500000000001, positive: true, type: "cost"},
@@ -20867,7 +20867,7 @@ var gear = {
 		},
 		{
 			name: "Cyprus Steward Hood",
-			img: "Gear/Gear_Vill_U005.png",
+			img: "Gear/Generic/Gear/Vill/Hat_U11_ua.png",
 			effects: {
 				34: [
 					{min: 2.052000000000006, max: 2.268000000000007, positive: true, type: "speed"},
@@ -20877,7 +20877,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Villager Hood",
-			img: "Gear/Gear_Vill_U004.png",
+			img: "Gear/Generic/Gear/Vill/Hat_U11_ua.png",
 			effects: {
 				34: [
 					{min: 2.4035000000000095, max: 2.6565000000000105, positive: true, type: "speed"},
@@ -20887,7 +20887,7 @@ var gear = {
 		},
 		{
 			name: "Cured Bearskin Cap",
-			img: "Gear/Gear_Vill_R101.png",
+			img: "Gear/Generic/Gear/Vill/Hat_R30_ua.png",
 			effects: {
 				28: [
 					{min: 25.611999999999984, max: 28.307999999999982, positive: true, type: "vision"},
@@ -20905,7 +20905,7 @@ var gear = {
 		},
 		{
 			name: "Embossed Training Tools",
-			img: "Gear/Gear_Vill_R008.png",
+			img: "Gear/Generic/Gear/Vill/Tools_R30_ua.png",
 			effects: {
 				25: [
 					{min: -5.354999999999993, max: -4.8449999999999935, positive: true, type: "timeTrain"},
@@ -20926,7 +20926,7 @@ var gear = {
 		},
 		{
 			name: "Fancy Sheepskin Cap",
-			img: "Gear/Gear_Vill_R002.png",
+			img: "Gear/Generic/Gear/Vill/Hat_R31_ua.png",
 			effects: {
 				25: [
 					{min: 2.1565000000000154, max: 2.3835000000000175, positive: true, type: "speed"},
@@ -20952,7 +20952,7 @@ var gear = {
 		},
 		{
 			name: "Nile Honey Jar",
-			img: "Gear/Gear_Vill_R011.png",
+			img: "Gear/Generic/Gear/Vill/Food_R32_ua.png",
 			effects: {
 				25: [
 					{min: -5.050500000000003, max: -4.569500000000003, positive: true, type: "cost"},
@@ -20973,7 +20973,7 @@ var gear = {
 		},
 		{
 			name: "Delphic Talisman",
-			img: "Gear/Gear_Vill_R005.png",
+			img: "Gear/Generic/Gear/Vill/Pendant_R31_ua.png",
 			effects: {
 				24: [
 					{min: 8.863499999999995, max: 9.796499999999995, positive: true, type: "damage"},
@@ -20999,7 +20999,7 @@ var gear = {
 		},
 		{
 			name: "Broad-Brimmed Hat",
-			img: "Gear/Gear_Vill_R001.png",
+			img: "Gear/Generic/Gear/Vill/Hat_R32_ua.png",
 			effects: {
 				21: [
 					{min: 1.8905000000000027, max: 2.0895000000000032, positive: true, type: "speed"},
@@ -21025,7 +21025,7 @@ var gear = {
 		},
 		{
 			name: "Preserved Foods",
-			img: "Gear/Gear_Vill_R010.png",
+			img: "Gear/Generic/Gear/Vill/Food_R30_ua.png",
 			effects: {
 				20: [
 					{min: -4.262999999999997, max: -3.856999999999997, positive: true, type: "cost"},
@@ -21046,7 +21046,7 @@ var gear = {
 		},
 		{
 			name: "Superb Farmer Hood",
-			img: "Gear/Gear_Vill_U003.png",
+			img: "Gear/Generic/Gear/Vill/Hat_U10_ua.png",
 			effects: {
 				24: [
 					{min: 1.833500000000009, max: 2.02650000000001, positive: true, type: "speed"},
@@ -21056,7 +21056,7 @@ var gear = {
 		},
 		{
 			name: "Training Tools",
-			img: "Gear/Gear_Vill_R007.png",
+			img: "Gear/Generic/Gear/Vill/Tools_R31_ua.png",
 			effects: {
 				18: [
 					{min: -4.178999999999995, max: -3.780999999999995, positive: true, type: "timeTrain"},
@@ -21077,7 +21077,7 @@ var gear = {
 		},
 		{
 			name: "Nut's Lucky Pendant",
-			img: "Gear/Gear_Vill_R004.png",
+			img: "Gear/Generic/Gear/Vill/Pendant_R30_ua.png",
 			effects: {
 				17: [
 					{min: 6.868500000000003, max: 7.5915000000000035, positive: true, type: "damage"},
@@ -21103,7 +21103,7 @@ var gear = {
 		},
 		{
 			name: "Hood of the Resolute",
-			img: "Gear/Gear_Vill_R102.png",
+			img: "Gear/Generic/Gear/Vill/Hat_R31_ua.png",
 			effects: {
 				14: [
 					{min: -3.506999999999999, max: -3.1729999999999983, positive: true, type: "timeTrain"},
@@ -21127,7 +21127,7 @@ var gear = {
 		},
 		{
 			name: "Ornate Worker Hood",
-			img: "Gear/Gear_Vill_U002.png",
+			img: "Gear/Generic/Gear/Vill/Hat_U11_ua.png",
 			effects: {
 				14: [
 					{min: 1.2635000000000085, max: 1.3965000000000094, positive: true, type: "speed"},
@@ -21137,7 +21137,7 @@ var gear = {
 		},
 		{
 			name: "Vanguard Leather Hood",
-			img: "Gear/Gear_Vill_R013.png",
+			img: "Gear/Generic/Gear/Vill/Hat_R30_ua.png",
 			effects: {
 				5: [
 					{min: 0.9025000000000061, max: 0.9975000000000067, positive: true, type: "speed"},
@@ -21147,7 +21147,7 @@ var gear = {
 		},
 		{
 			name: "Simple Peasant Hood",
-			img: "Gear/Gear_Vill_U001.png",
+			img: "Gear/Generic/Gear/Vill/Hat_U10_ua.png",
 			effects: {
 				4: [
 					{min: 0.693500000000008, max: 0.7665000000000088, positive: true, type: "speed"},

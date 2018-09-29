@@ -19657,7 +19657,7 @@ var gear = {
 		{name: "None", img: 'Slot/WallsSlot_ua.png'},
 		{
 			name: "Council Overseer's Walls",
-			img: "Gear/ArmorBldg_LC01.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_L90_ua.png",
 			effects: {
 				40: [
 					{min: 82.365, max: 91.03500000000001, positive: true, type: "health"},
@@ -19666,7 +19666,7 @@ var gear = {
 		},
 		{
 			name: "Walls of Kaveh",
-			img: "Gear/ArmorBldg_L001.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_L90_ua.png",
 			effects: {
 				40: [
 					{min: 7.523999999999994, max: 8.315999999999994, positive: true, type: "armorInfantry"},
@@ -19676,7 +19676,7 @@ var gear = {
 		},
 		{
 			name: "Walls of Khufu",
-			img: "Gear/ArmorBldg_L002.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_L90_ua.png",
 			effects: {
 				40: [
 					{min: 15.456500000000005, max: 17.083500000000008, positive: true, type: "armorPierce"},
@@ -19686,7 +19686,7 @@ var gear = {
 		},
 		{
 			name: "Walls of Olympus",
-			img: "Gear/ArmorBldg_L003.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_L90_ua.png",
 			effects: {
 				40: [
 					{min: 12.369000000000009, max: 13.671000000000012, positive: true, type: "protection"},
@@ -19696,7 +19696,7 @@ var gear = {
 		},
 		{
 			name: "Walls of the Architect",
-			img: "Gear/ArmorBuilding_WOTA.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_L90_ua.png",
 			effects: {
 				40: [
 					{min: -6.772500000000001, max: -6.1274999999999995, positive: true, type: "cost"},
@@ -19707,7 +19707,7 @@ var gear = {
 		},
 		{
 			name: "Walls of the Master Defender",
-			img: "Gear/ArmorBuilding_WOTMD.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_L90_ua.png",
 			effects: {
 				40: [
 					{min: 15.865000000000002, max: 17.535000000000004, positive: true, type: "armorCrush"},
@@ -19718,7 +19718,7 @@ var gear = {
 		},
 		{
 			name: "Geb's Blessed Wall",
-			img: "Gear/ArmorBldg_E004.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_E60_ua.png",
 			effects: {
 				40: [
 					{min: 4.901999999999987, max: 5.417999999999987, positive: true, type: "armorInfantry"},
@@ -19729,7 +19729,7 @@ var gear = {
 		},
 		{
 			name: "The Indomitable Shield Wall",
-			img: "Gear/ArmorBldg_E006.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_E60_ua.png",
 			effects: {
 				40: [
 					{min: 78.27999999999997, max: 86.51999999999998, positive: true, type: "health"},
@@ -19738,7 +19738,7 @@ var gear = {
 		},
 		{
 			name: "Wall of the Titans",
-			img: "Gear/ArmorBldg_E005.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_E60_ua.png",
 			effects: {
 				37: [
 					{min: 11.191000000000011, max: 12.369000000000012, positive: true, type: "damage"},
@@ -19760,7 +19760,7 @@ var gear = {
 		},
 		{
 			name: "Walls of the Mountain",
-			img: "Gear/ArmorBldg_EA03.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_E60_ua.png",
 			effects: {
 				40: [
 					{min: 58.52, max: 64.68, positive: true, type: "health"},
@@ -19771,7 +19771,7 @@ var gear = {
 		},
 		{
 			name: "Delian Adept's Wall Braces",
-			img: "Gear/ArmorBldg_RC02.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_R30v2_ua.png",
 			effects: {
 				40: [
 					{min: 61.94000000000001, max: 68.46000000000002, positive: true, type: "health"},
@@ -19780,7 +19780,7 @@ var gear = {
 		},
 		{
 			name: "Legion Recruit's Fortifications",
-			img: "Gear/ArmorBldg_RC01.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_R30v2_ua.png",
 			effects: {
 				40: [
 					{min: 40.061499999999995, max: 44.278499999999994, positive: true, type: "health"},
@@ -19790,7 +19790,7 @@ var gear = {
 		},
 		{
 			name: "Obsidian Walls",
-			img: "Gear/ArmorBldg_RA02.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_R30v2_ua.png",
 			effects: {
 				36: [
 					{min: 56.620000000000005, max: 62.58000000000001, positive: true, type: "health"},
@@ -19811,7 +19811,7 @@ var gear = {
 		},
 		{
 			name: "Cedar Reinforced Walls",
-			img: "Gear/ArmorBldg_U003.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_U10v2_ua.png",
 			effects: {
 				27: [
 					{min: 30.400000000000006, max: 33.60000000000001, positive: true, type: "health"},
@@ -19847,7 +19847,7 @@ var gear = {
 		},
 		{
 			name: "Peerless Bastion Reinforcements",
-			img: "Gear/ArmorBldg_U011.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_U10v2_ua.png",
 			effects: {
 				40: [
 					{min: 43.88999999999999, max: 48.51, positive: true, type: "health"},
@@ -19857,7 +19857,7 @@ var gear = {
 		},
 		{
 			name: "Walls of Vasiliki",
-			img: "Gear/ArmorBldg_EA02.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_E60_ua.png",
 			effects: {
 				35: [
 					{min: 13.432999999999996, max: 14.846999999999998, positive: true, type: "armorPierce"},
@@ -19888,7 +19888,7 @@ var gear = {
 		},
 		{
 			name: "Contrebis' Wall Braces",
-			img: "Gear/ArmorBldg_E101.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_E60_ua.png",
 			effects: {
 				37: [
 					{min: 127.03400000000002, max: 140.40600000000003, positive: true, type: "armorCrush"},
@@ -19898,7 +19898,7 @@ var gear = {
 		},
 		{
 			name: "Stone Reinforced Walls",
-			img: "Gear/ArmorBldg_R007.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_R30_ua.png",
 			effects: {
 				31: [
 					{min: 5.101500000000008, max: 5.6385000000000085, positive: true, type: "vision"},
@@ -19932,7 +19932,7 @@ var gear = {
 		},
 		{
 			name: "Bandit-Proof Walls",
-			img: "Gear/ArmorBldg_E003.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_E60_ua.png",
 			effects: {
 				31: [
 					{min: 47.38600000000001, max: 52.37400000000001, positive: true, type: "health"},
@@ -19958,7 +19958,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Guard Walls",
-			img: "Gear/ArmorBldg_U010.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_U10_ua.png",
 			effects: {
 				35: [
 					{min: 9.46199999999999, max: 10.45799999999999, positive: true, type: "armorPierce"},
@@ -19968,7 +19968,7 @@ var gear = {
 		},
 		{
 			name: "Iron-Sheathed Walls",
-			img: "Gear/ArmorBldg_R006.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_R30v2_ua.png",
 			effects: {
 				34: [
 					{min: 9.015499999999998, max: 9.9645, positive: true, type: "protection"},
@@ -19978,7 +19978,7 @@ var gear = {
 		},
 		{
 			name: "Cedar Wall Braces",
-			img: "Gear/ArmorBldg_U102.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_U10v2_ua.png",
 			effects: {
 				28: [
 					{min: 3.5244999999999913, max: 3.895499999999991, positive: true, type: "armorInfantry"},
@@ -20008,7 +20008,7 @@ var gear = {
 		},
 		{
 			name: "Oak Reinforced Walls",
-			img: "Gear/ArmorBldg_U002.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_U10_ua.png",
 			effects: {
 				17: [
 					{min: 21.849999999999998, max: 24.150000000000002, positive: true, type: "health"},
@@ -20059,7 +20059,7 @@ var gear = {
 		},
 		{
 			name: "Walls of Earthen Strength",
-			img: "Gear/ArmorBldg_E002.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_E60_ua.png",
 			effects: {
 				26: [
 					{min: 41.24900000000002, max: 45.591000000000015, positive: true, type: "health"},
@@ -20085,7 +20085,7 @@ var gear = {
 		},
 		{
 			name: "Crete Engineer Walls",
-			img: "Gear/ArmorBldg_RA01.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_R30_ua.png",
 			effects: {
 				30: [
 					{min: 9.937000000000001, max: 10.983000000000004, positive: true, type: "armorPierce"},
@@ -20095,7 +20095,7 @@ var gear = {
 		},
 		{
 			name: "Superb Stronghold Reinforcements",
-			img: "Gear/ArmorBldg_U009.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_U10_ua.png",
 			effects: {
 				30: [
 					{min: 4.341500000000007, max: 4.798500000000008, positive: true, type: "armorCavalry"},
@@ -20106,7 +20106,7 @@ var gear = {
 		},
 		{
 			name: "Naqada Braced Walls",
-			img: "Gear/ArmorBldg_R005.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_R30_ua.png",
 			effects: {
 				23: [
 					{min: 30.210000000000004, max: 33.39000000000001, positive: true, type: "health"},
@@ -20132,7 +20132,7 @@ var gear = {
 		},
 		{
 			name: "Kalami Reinforced Walls",
-			img: "Gear/ArmorBldg_UA06.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_U10v2_ua.png",
 			effects: {
 				21: [
 					{min: 25.27, max: 27.930000000000003, positive: true, type: "health"},
@@ -20156,7 +20156,7 @@ var gear = {
 		},
 		{
 			name: "Strengthened Walls",
-			img: "Gear/ArmorBldg_EA01.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_E60_ua.png",
 			effects: {
 				25: [
 					{min: 40.223, max: 44.45700000000001, positive: true, type: "health"},
@@ -20167,7 +20167,7 @@ var gear = {
 		},
 		{
 			name: "Remarkable Engineered Walls",
-			img: "Gear/ArmorBldg_U008.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_U10v2_ua.png",
 			effects: {
 				25: [
 					{min: 30.0675, max: 33.2325, positive: true, type: "health"},
@@ -20177,7 +20177,7 @@ var gear = {
 		},
 		{
 			name: "Hand-Carved Wall Braces",
-			img: "Gear/ArmorBldg_E001.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_E60_ua.png",
 			effects: {
 				19: [
 					{min: 8.682999999999993, max: 9.596999999999994, positive: true, type: "armorCrush"},
@@ -20208,7 +20208,7 @@ var gear = {
 		},
 		{
 			name: "Mycenaean Reinforced Walls",
-			img: "Gear/ArmorBldg_R004.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_R30v2_ua.png",
 			effects: {
 				22: [
 					{min: 8.046499999999998, max: 8.8935, positive: true, type: "armorPierce"},
@@ -20218,7 +20218,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Walls",
-			img: "Gear/ArmorBldg_ED01.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_E60_ua.png",
 			effects: {
 				21: [
 					{min: 45.78999999999999, max: 50.61, positive: true, type: "health"},
@@ -20227,7 +20227,7 @@ var gear = {
 		},
 		{
 			name: "Bronze-Sheathed Walls",
-			img: "Gear/ArmorBldg_R003.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_R30_ua.png",
 			effects: {
 				15: [
 					{min: 5.034999999999994, max: 5.564999999999993, positive: true, type: "protection"},
@@ -20263,7 +20263,7 @@ var gear = {
 		},
 		{
 			name: "Hero's Reinforced Walls",
-			img: "Gear/ArmorBldg_U201.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_U10_ua.png",
 			effects: {
 				20: [
 					{min: 24.41500000000001, max: 26.98500000000001, positive: true, type: "health"},
@@ -20272,7 +20272,7 @@ var gear = {
 		},
 		{
 			name: "Strong Walls",
-			img: "Gear/ArmorBldg_UD01.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_U10v2_ua.png",
 			effects: {
 				20: [
 					{min: 2.7644999999999906, max: 3.05549999999999, positive: true, type: "armorInfantry"},
@@ -20282,7 +20282,7 @@ var gear = {
 		},
 		{
 			name: "Superior Keep Reinforcements",
-			img: "Gear/ArmorBldg_U007.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_U10v2_ua.png",
 			effects: {
 				20: [
 					{min: 25.46, max: 28.14, positive: true, type: "health"},
@@ -20292,7 +20292,7 @@ var gear = {
 		},
 		{
 			name: "Reinforced Walls",
-			img: "Gear/ArmorBldg_UA03.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_U10v2_ua.png",
 			effects: {
 				16: [
 					{min: 2.3844999999999903, max: 2.6354999999999897, positive: true, type: "armorInfantry"},
@@ -20310,7 +20310,7 @@ var gear = {
 		},
 		{
 			name: "Pine Reinforced Walls",
-			img: "Gear/ArmorBldg_U001.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_U10v2_ua.png",
 			effects: {
 				2: [
 					{min: 9.024999999999997, max: 9.974999999999996, positive: true, type: "health"},
@@ -20361,7 +20361,7 @@ var gear = {
 		},
 		{
 			name: "Argos Reinforced Walls",
-			img: "Gear/ArmorBldg_R009.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_R30v2_ua.png",
 			effects: {
 				15: [
 					{min: 25.298499999999997, max: 27.9615, positive: true, type: "health"},
@@ -20371,7 +20371,7 @@ var gear = {
 		},
 		{
 			name: "Superior Imperial Fortifications",
-			img: "Gear/ArmorBldg_R008.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_R30v2_ua.png",
 			effects: {
 				15: [
 					{min: -1.385999999999999, max: -1.253999999999999, positive: true, type: "cost"},
@@ -20381,7 +20381,7 @@ var gear = {
 		},
 		{
 			name: "Wood Double-Braced Walls",
-			img: "Gear/ArmorBldg_R002.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_R30_ua.png",
 			effects: {
 				11: [
 					{min: 16.97650000000001, max: 18.763500000000008, positive: true, type: "health"},
@@ -20407,7 +20407,7 @@ var gear = {
 		},
 		{
 			name: "Crete Steward Heavy Walls",
-			img: "Gear/ArmorBldg_UA02.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_U10_ua.png",
 			effects: {
 				15: [
 					{min: 3.6669999999999967, max: 4.052999999999996, positive: true, type: "protection"},
@@ -20417,7 +20417,7 @@ var gear = {
 		},
 		{
 			name: "Standard Bulwark Walls",
-			img: "Gear/ArmorBldg_U006.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_U10_ua.png",
 			effects: {
 				15: [
 					{min: 5.262999999999989, max: 5.8169999999999895, positive: true, type: "armorPierce"},
@@ -20427,7 +20427,7 @@ var gear = {
 		},
 		{
 			name: "Silver Wall Braces",
-			img: "Gear/ArmorBldg_R101.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_R30_ua.png",
 			effects: {
 				13: [
 					{min: 8.435999999999998, max: 9.324, positive: true, type: "armorPierce"},
@@ -20437,7 +20437,7 @@ var gear = {
 		},
 		{
 			name: "Thick Brick Walls",
-			img: "Gear/ArmorBldg_R001.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_R30v2_ua.png",
 			effects: {
 				7: [
 					{min: 4.103999999999991, max: 4.53599999999999, positive: true, type: "armorPierce"},
@@ -20473,7 +20473,7 @@ var gear = {
 		},
 		{
 			name: "Ordinary Reinforcements",
-			img: "Gear/ArmorBldg_U005.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_U10v2_ua.png",
 			effects: {
 				10: [
 					{min: 2.061500000000005, max: 2.2785000000000055, positive: true, type: "armorCavalry"},
@@ -20484,7 +20484,7 @@ var gear = {
 		},
 		{
 			name: "Stone Walls",
-			img: "Gear/ArmorBldg_UA04.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_U10_ua.png",
 			effects: {
 				6: [
 					{min: 2.213500000000009, max: 2.4465000000000106, positive: true, type: "protection"},
@@ -20502,7 +20502,7 @@ var gear = {
 		},
 		{
 			name: "Freelancer's Steadfast Walls",
-			img: "Gear/ArmorBldg_U014.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_U10v2_ua.png",
 			effects: {
 				2: [
 					{min: 2.1564999999999945, max: 2.383499999999994, positive: true, type: "armorPierce"},
@@ -20520,7 +20520,7 @@ var gear = {
 		},
 		{
 			name: "Vanguard Stone Fortifications",
-			img: "Gear/ArmorBldg_R010.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_R30_ua.png",
 			effects: {
 				5: [
 					{min: 1.795499999999992, max: 1.9844999999999913, positive: true, type: "armorInfantry"},
@@ -20530,7 +20530,7 @@ var gear = {
 		},
 		{
 			name: "Aged Defense Walls",
-			img: "Gear/ArmorBldg_U004.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_U10_ua.png",
 			effects: {
 				5: [
 					{min: 3.0590000000000006, max: 3.3810000000000007, positive: true, type: "armorPierce"},
@@ -20540,7 +20540,7 @@ var gear = {
 		},
 		{
 			name: "Imperial Pine Fortifications",
-			img: "Gear/ArmorBldg_U012.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_U10_ua.png",
 			effects: {
 				3: [
 					{min: 1.9000000000000017, max: 2.100000000000002, positive: true, type: "protection"},
@@ -20558,7 +20558,7 @@ var gear = {
 		},
 		{
 			name: "Sturdy Walls",
-			img: "Gear/ArmorBldg_UA01.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_U10v2_ua.png",
 			effects: {
 				4: [
 					{min: 1.2444999999999895, max: 1.3754999999999884, positive: true, type: "armorInfantry"},
@@ -20568,7 +20568,7 @@ var gear = {
 		},
 		{
 			name: "Novice's Engineered Braces",
-			img: "Gear/ArmorBldg_U013.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_U10_ua.png",
 			effects: {
 				2: [
 					{min: -3.6854999999999905, max: -3.3344999999999914, positive: true, type: "cost"},
@@ -20578,7 +20578,7 @@ var gear = {
 		},
 		{
 			name: "Sturdy Reinforced Walls",
-			img: "Gear/ArmorBldg_UA05.png",
+			img: "Gear/Generic/Armor/Bldg/Bldg_U10_ua.png",
 			effects: {
 				2: [
 					{min: 9.024999999999997, max: 9.974999999999996, positive: true, type: "health"},

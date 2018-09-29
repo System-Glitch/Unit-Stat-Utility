@@ -22228,7 +22228,7 @@ var gear = {
 		{name: "None", img: 'Slot/BldgGearSlot_ua.png'},
 		{
 			name: "Athenian Training Manual",
-			img: "Gear/Gear_Bldg_ATM.png",
+			img: "Gear/Celeste/Generic/Gear/Bldg/Gear_Bldg_ATM_ua.png",
 			effects: {
 				40: [
 					{min: 9.575999999999999, max: 10.584000000000001, positive: true, type: "empowerResearch"},
@@ -22237,7 +22237,7 @@ var gear = {
 		},
 		{
 			name: "Construction Blueprints of Khufu",
-			img: "Gear/Gear_Bldg_L001.png",
+			img: "Gear/Generic/Gear/Bldg/BluePrint_L90_ua.png",
 			effects: {
 				40: [
 					{min: -15.487499999999997, max: -14.012499999999996, positive: true, type: "timeBuilding"},
@@ -22246,7 +22246,7 @@ var gear = {
 		},
 		{
 			name: "Delian Archon's Blueprints",
-			img: "Gear/Gear_Bldg_LC01.png",
+			img: "Gear/Generic/Gear/Bldg/BluePrint_L90_ua.png",
 			effects: {
 				40: [
 					{min: -8.746500000000005, max: -7.913500000000003, positive: true, type: "timeBuilding"},
@@ -22256,7 +22256,7 @@ var gear = {
 		},
 		{
 			name: "Divine Wall Joints",
-			img: "Gear/Gear_Bldg_R102_LEG.png",
+			img: "Gear/Generic/Gear/Bldg/BluePrint_L90_ua.png",
 			effects: {
 				40: [
 					{min: -12.778500000000005, max: -11.561500000000002, positive: true, type: "cost"},
@@ -22265,7 +22265,7 @@ var gear = {
 		},
 		{
 			name: "Lookouts of Olympus",
-			img: "Gear/Gear_Bldg_L003.png",
+			img: "Gear/Generic/Gear/Bldg/Lookout_L90_ua.png",
 			effects: {
 				40: [
 					{min: 43.37699999999999, max: 47.94299999999999, positive: true, type: "vision"},
@@ -22274,7 +22274,7 @@ var gear = {
 		},
 		{
 			name: "Wall Joints of Kaveh",
-			img: "Gear/Gear_Bldg_L002.png",
+			img: "Gear/Generic/Gear/Bldg/WJoint_L90_ua.png",
 			effects: {
 				40: [
 					{min: -19.351500000000005, max: -17.5085, positive: true, type: "cost"},
@@ -22284,7 +22284,7 @@ var gear = {
 		},
 		{
 			name: "Wall Joints of the Architect",
-			img: "Gear/GearBldg_WJOTA.png",
+			img: "Gear/Generic/Gear/Bldg/WJoint_L90_ua.png",
 			effects: {
 				40: [
 					{min: -7.675499999999994, max: -6.944499999999994, positive: true, type: "cost"},
@@ -22294,7 +22294,7 @@ var gear = {
 		},
 		{
 			name: "Adept Construction Blueprints",
-			img: "Gear/Gear_Bldg_E003.png",
+			img: "Gear/Generic/Gear/Bldg/BluePrint_E60_ua.png",
 			effects: {
 				37: [
 					{min: -13.639500000000004, max: -12.3405, positive: true, type: "timeBuilding"},
@@ -22312,7 +22312,7 @@ var gear = {
 		},
 		{
 			name: "Ares' Training Manual",
-			img: "Gear/Gear_Bldg_E002.png",
+			img: "Gear/Generic/Gear/Bldg/Manual_E60_ua.png",
 			effects: {
 				37: [
 					{min: 7.8090000000000055, max: 8.631000000000007, positive: true, type: "empowerResearch"},
@@ -22330,7 +22330,7 @@ var gear = {
 		},
 		{
 			name: "Eagle-Eyed Lookouts",
-			img: "Gear/Gear_Bldg_E001.png",
+			img: "Gear/Generic/Gear/Bldg/Lookout_E60_ua.png",
 			effects: {
 				37: [
 					{min: 39.03549999999998, max: 43.14449999999999, positive: true, type: "vision"},
@@ -22348,7 +22348,7 @@ var gear = {
 		},
 		{
 			name: "Masterwork Wall Joints",
-			img: "Gear/Gear_Bldg_E004.png",
+			img: "Gear/Generic/Gear/Bldg/WJoint_E60_ua.png",
 			effects: {
 				30: [
 					{min: -14.458499999999992, max: -13.081499999999993, positive: true, type: "cost"},
@@ -22398,7 +22398,7 @@ var gear = {
 		},
 		{
 			name: "Council Acolyte's Blueprints",
-			img: "Gear/Gear_Bldg_RC02.png",
+			img: "Gear/Generic/Gear/Bldg/BluePrint_R30_ua.png",
 			effects: {
 				40: [
 					{min: -11.875499999999999, max: -10.744499999999999, positive: true, type: "timeBuilding"},
@@ -22407,7 +22407,7 @@ var gear = {
 		},
 		{
 			name: "Expert Lookouts",
-			img: "Gear/Gear_Bldg_R003.png",
+			img: "Gear/Generic/Gear/Bldg/Lookout_R30_ua.png",
 			effects: {
 				31: [
 					{min: 27.806499999999996, max: 30.733499999999996, positive: true, type: "vision"},
@@ -22443,7 +22443,7 @@ var gear = {
 		},
 		{
 			name: "Legion Recruit's Lookouts",
-			img: "Gear/Gear_Bldg_RC01.png",
+			img: "Gear/Generic/Gear/Bldg/Lookout_R30_ua.png",
 			effects: {
 				40: [
 					{min: 33.98149999999999, max: 37.55849999999999, positive: true, type: "vision"},
@@ -22452,7 +22452,7 @@ var gear = {
 		},
 		{
 			name: "Reinforced Wall Joints",
-			img: "Gear/Gear_Bldg_R012.png",
+			img: "Gear/Generic/Gear/Bldg/WJoint_R32_ua.png",
 			effects: {
 				30: [
 					{min: -12.033000000000005, max: -10.887000000000004, positive: true, type: "cost"},
@@ -22502,7 +22502,7 @@ var gear = {
 		},
 		{
 			name: "Thoth's Rules of Training",
-			img: "Gear/Gear_Bldg_R006.png",
+			img: "Gear/Generic/Gear/Bldg/Manual_R31_ua.png",
 			effects: {
 				29: [
 					{min: 5.149000000000002, max: 5.691000000000003, positive: true, type: "empowerResearch"},
@@ -22544,7 +22544,7 @@ var gear = {
 		},
 		{
 			name: "Elder's Scholarly Blueprints",
-			img: "Gear/Gear_Bldg_UB01.png",
+			img: "Gear/Generic/Gear/Bldg/BluePrint_U11_ua.png",
 			effects: {
 				15: [
 					{min: -4.063500000000007, max: -3.676500000000006, positive: true, type: "timeBuilding"},
@@ -22628,7 +22628,7 @@ var gear = {
 		},
 		{
 			name: "Contrebis' Master-Forging Design",
-			img: "Gear/Gear_Bldg_E101.png",
+			img: "Gear/Generic/Gear/Bldg/Manual_E60_ua.png",
 			effects: {
 				37: [
 					{min: -14.059500000000003, max: -12.720500000000001, positive: true, type: "timeBuilding"},
@@ -22637,7 +22637,7 @@ var gear = {
 		},
 		{
 			name: "Djoser's Royal Construction Blueprints",
-			img: "Gear/Gear_Bldg_R009.png",
+			img: "Gear/Generic/Gear/Bldg/BluePrint_R30_ua.png",
 			effects: {
 				35: [
 					{min: -11.014499999999998, max: -9.965499999999999, positive: true, type: "timeBuilding"},
@@ -22646,7 +22646,7 @@ var gear = {
 		},
 		{
 			name: "Wall Joints of Lebena",
-			img: "Gear/Gear_Bldg_UA03.png",
+			img: "Gear/Generic/Gear/Bldg/WJoint_U11_ua.png",
 			effects: {
 				32: [
 					{min: -9.008999999999999, max: -8.150999999999998, positive: true, type: "cost"},
@@ -22664,7 +22664,7 @@ var gear = {
 		},
 		{
 			name: "Artisan Training Manual",
-			img: "Gear/Gear_Bldg_U004.png",
+			img: "Gear/Generic/Gear/Bldg/Manual_U11_ua.png",
 			effects: {
 				34: [
 					{min: 4.806999999999998, max: 5.312999999999998, positive: true, type: "empowerResearch"},
@@ -22673,7 +22673,7 @@ var gear = {
 		},
 		{
 			name: "Hunter's Lookouts",
-			img: "Gear/Gear_Bldg_R101.png",
+			img: "Gear/Generic/Gear/Bldg/Lookout_R32_ua.png",
 			effects: {
 				27: [
 					{min: 25.16549999999999, max: 27.814499999999992, positive: true, type: "vision"},
@@ -22694,7 +22694,7 @@ var gear = {
 		},
 		{
 			name: "Iron Wall Joints",
-			img: "Gear/Gear_Bldg_R102.png",
+			img: "Gear/Generic/Gear/Bldg/WJoint_R30_ua.png",
 			effects: {
 				27: [
 					{min: -11.056499999999994, max: -10.003499999999994, positive: true, type: "cost"},
@@ -22715,7 +22715,7 @@ var gear = {
 		},
 		{
 			name: "The Grand Architect's Blueprints",
-			img: "Gear/Gear_Bldg_R008.png",
+			img: "Gear/Generic/Gear/Bldg/BluePrint_R32_ua.png",
 			effects: {
 				25: [
 					{min: -8.389500000000009, max: -7.590500000000008, positive: true, type: "timeBuilding"},
@@ -22736,7 +22736,7 @@ var gear = {
 		},
 		{
 			name: "Knossos-Style Wall Joinings",
-			img: "Gear/Gear_Bldg_R011.png",
+			img: "Gear/Generic/Gear/Bldg/WJoint_R32_ua.png",
 			effects: {
 				24: [
 					{min: -10.079999999999998, max: -9.119999999999997, positive: true, type: "cost"},
@@ -22762,7 +22762,7 @@ var gear = {
 		},
 		{
 			name: "Trained Lookouts",
-			img: "Gear/Gear_Bldg_R002.png",
+			img: "Gear/Generic/Gear/Bldg/Lookout_R31_ua.png",
 			effects: {
 				24: [
 					{min: 22.942499999999985, max: 25.357499999999984, positive: true, type: "vision"},
@@ -22783,7 +22783,7 @@ var gear = {
 		},
 		{
 			name: "Elder's Scholarly Wall Joints",
-			img: "Gear/Gear_Bldg_UB02.png",
+			img: "Gear/Generic/Gear/Bldg/WJoint_U11_ua.png",
 			effects: {
 				26: [
 					{min: -7.3815000000000035, max: -6.678500000000002, positive: true, type: "cost"},
@@ -22801,7 +22801,7 @@ var gear = {
 		},
 		{
 			name: "Spartan Training Manual",
-			img: "Gear/Gear_Bldg_R005.png",
+			img: "Gear/Generic/Gear/Bldg/Manual_R32_ua.png",
 			effects: {
 				27: [
 					{min: 5.149000000000002, max: 5.691000000000003, positive: true, type: "empowerResearch"},
@@ -22810,7 +22810,7 @@ var gear = {
 		},
 		{
 			name: "Improved Wall Joints",
-			img: "Gear/Gear_Bldg_R010.png",
+			img: "Gear/Generic/Gear/Bldg/WJoint_R31_ua.png",
 			effects: {
 				19: [
 					{min: -8.6835, max: -7.8565, positive: true, type: "cost"},
@@ -22844,7 +22844,7 @@ var gear = {
 		},
 		{
 			name: "Mycenaean Construction Blueprints",
-			img: "Gear/Gear_Bldg_R007.png",
+			img: "Gear/Generic/Gear/Bldg/BluePrint_R31_ua.png",
 			effects: {
 				21: [
 					{min: -7.339500000000008, max: -6.6405000000000065, positive: true, type: "timeBuilding"},
@@ -22865,7 +22865,7 @@ var gear = {
 		},
 		{
 			name: "Basic Training Methods",
-			img: "Gear/Gear_Bldg_R004.png",
+			img: "Gear/Generic/Gear/Bldg/Manual_R31_ua.png",
 			effects: {
 				20: [
 					{min: 4.084999999999993, max: 4.514999999999993, positive: true, type: "empowerResearch"},
@@ -22886,7 +22886,7 @@ var gear = {
 		},
 		{
 			name: "Superior Training Manual",
-			img: "Gear/Gear_Bldg_U003.png",
+			img: "Gear/Generic/Gear/Bldg/Manual_U10_ua.png",
 			effects: {
 				24: [
 					{min: 3.9234999999999896, max: 4.3364999999999885, positive: true, type: "empowerResearch"},
@@ -22895,7 +22895,7 @@ var gear = {
 		},
 		{
 			name: "Pharaoh's Training Manual",
-			img: "Gear/Gear_Bldg_R014.png",
+			img: "Gear/Generic/Gear/Bldg/Manual_R31_ua.png",
 			effects: {
 				22: [
 					{min: 4.389000000000002, max: 4.851000000000002, positive: true, type: "empowerResearch"},
@@ -22904,7 +22904,7 @@ var gear = {
 		},
 		{
 			name: "Esteemed Training Manual",
-			img: "Gear/Gear_Bldg_RA01.png",
+			img: "Gear/Generic/Gear/Bldg/Manual_R30_ua.png",
 			effects: {
 				21: [
 					{min: 4.236999999999997, max: 4.682999999999997, positive: true, type: "empowerResearch"},
@@ -22913,7 +22913,7 @@ var gear = {
 		},
 		{
 			name: "Lookouts",
-			img: "Gear/Gear_Bldg_R001.png",
+			img: "Gear/Generic/Gear/Bldg/Lookout_R30_ua.png",
 			effects: {
 				20: [
 					{min: 20.415499999999987, max: 22.56449999999999, positive: true, type: "vision"},
@@ -22922,7 +22922,7 @@ var gear = {
 		},
 		{
 			name: "Lookout of the Four Winds",
-			img: "Gear/Gear_Bldg_R103.png",
+			img: "Gear/Generic/Gear/Bldg/Lookout_R30_ua.png",
 			effects: {
 				14: [
 					{min: 15.855500000000005, max: 17.524500000000007, positive: true, type: "vision"},
@@ -22946,7 +22946,7 @@ var gear = {
 		},
 		{
 			name: "Monastiraki's Construction Blueprints",
-			img: "Gear/Gear_Bldg_RA02.png",
+			img: "Gear/Generic/Gear/Bldg/BluePrint_R31_ua.png",
 			effects: {
 				15: [
 					{min: -5.764500000000006, max: -5.215500000000005, positive: true, type: "timeBuilding"},
@@ -22967,7 +22967,7 @@ var gear = {
 		},
 		{
 			name: "Luminary Lookouts",
-			img: "Gear/Gear_Bldg_UA02.png",
+			img: "Gear/Generic/Gear/Bldg/Lookout_U11_ua.png",
 			effects: {
 				11: [
 					{min: 9.984499999999997, max: 11.035499999999999, positive: true, type: "vision"},
@@ -22994,7 +22994,7 @@ var gear = {
 		},
 		{
 			name: "Ordinary Training Scroll",
-			img: "Gear/Gear_Bldg_U002.png",
+			img: "Gear/Generic/Gear/Bldg/BluePrint_U11_ua.png",
 			effects: {
 				14: [
 					{min: 2.688499999999999, max: 2.9714999999999994, positive: true, type: "empowerResearch"},
@@ -23003,7 +23003,7 @@ var gear = {
 		},
 		{
 			name: "Gournia Construction Blueprints",
-			img: "Gear/Gear_Bldg_RA03.png",
+			img: "Gear/Generic/Gear/Bldg/BluePrint_R30_ua.png",
 			effects: {
 				7: [
 					{min: -3.7695000000000047, max: -3.410500000000004, positive: true, type: "timeBuilding"},
@@ -23030,7 +23030,7 @@ var gear = {
 		},
 		{
 			name: "Leather Training Manual",
-			img: "Gear/Gear_Bldg_UA05.png",
+			img: "Gear/Generic/Gear/Bldg/Manual_U10_ua.png",
 			effects: {
 				8: [
 					{min: 1.6339999999999888, max: 1.8059999999999876, positive: true, type: "empowerResearch"},
@@ -23048,7 +23048,7 @@ var gear = {
 		},
 		{
 			name: "Lookouts of Khania",
-			img: "Gear/Gear_Bldg_UA04.png",
+			img: "Gear/Generic/Gear/Bldg/Lookout_U11_ua.png",
 			effects: {
 				6: [
 					{min: 7.295999999999998, max: 8.063999999999998, positive: true, type: "vision"},
@@ -23069,7 +23069,7 @@ var gear = {
 		},
 		{
 			name: "Elder's Scholarly Training Manual",
-			img: "Gear/Gear_Bldg_UB03.png",
+			img: "Gear/Generic/Gear/Bldg/Manual_U11_ua.png",
 			effects: {
 				2: [
 					{min: 1.0639999999999883, max: 1.175999999999987, positive: true, type: "empowerResearch"},
@@ -23093,7 +23093,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Wall Joints",
-			img: "Gear/Gear_Bldg_UA01.png",
+			img: "Gear/Generic/Gear/Bldg/WJoint_U11_ua.png",
 			effects: {
 				6: [
 					{min: -3.370500000000002, max: -3.0495000000000014, positive: true, type: "cost"},
@@ -23102,7 +23102,7 @@ var gear = {
 		},
 		{
 			name: "Vanguard Training Scroll",
-			img: "Gear/Gear_Bldg_R013.png",
+			img: "Gear/Generic/Gear/Bldg/BluePrint_R30_ua.png",
 			effects: {
 				5: [
 					{min: 1.8810000000000038, max: 2.079000000000004, positive: true, type: "empowerResearch"},
@@ -23111,7 +23111,7 @@ var gear = {
 		},
 		{
 			name: "Weathered Training Scroll",
-			img: "Gear/Gear_Bldg_U001.png",
+			img: "Gear/Generic/Gear/Bldg/BluePrint_U11_ua.png",
 			effects: {
 				4: [
 					{min: 1.4535000000000087, max: 1.6065000000000096, positive: true, type: "empowerResearch"},
@@ -23120,7 +23120,7 @@ var gear = {
 		},
 		{
 			name: "Training Scroll of Amnisos",
-			img: "Gear/Gear_Bldg_UA06.png",
+			img: "Gear/Generic/Gear/Bldg/BluePrint_U11_ua.png",
 			effects: {
 				2: [
 					{min: 1.1115000000000042, max: 1.2285000000000046, positive: true, type: "empowerResearch"},

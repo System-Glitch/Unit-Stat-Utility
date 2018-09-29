@@ -4750,7 +4750,7 @@ var gear = {
 		},
 		{
 			name: "Cruel Heavy Spear",
-			img: "Gear/Generic/Spears2H/Spear2H_E36_ua.png",
+			img: "Gear/Generic/Spears2H/Spear2H_E63_ua.png",
 			effects: {
 				22: [
 					{min: 33.7155, max: 37.264500000000005, positive: true, type: "damage"},
@@ -5253,7 +5253,7 @@ var gear = {
 		},
 		{
 			name: "High Priest's Celestial Staff",
-			img: "Gear/Generic/Staves/Staff_E66_ua.png",
+			img: "Gear/Generic/Staves/Staff_E64_ua.png",
 			effects: {
 				40: [
 					{min: 76.91199999999999, max: 85.008, positive: true, type: "healing"},
@@ -7280,7 +7280,7 @@ var gear = {
 		},
 		{
 			name: "Light Spear of the King",
-			img: "Gear/Celeste/Generic/Spears1H/Spear1H_LSOTK_ua.png",
+			img: "Gear/Celeste/Generic/Spears1H/Spears1H_LSOTK_ua.png",
 			effects: {
 				40: [
 					{min: 43.263000000000005, max: 47.81700000000001, positive: true, type: "damage"},
@@ -8841,7 +8841,7 @@ var gear = {
 		},
 		{
 			name: "Ra's Scepter of the Sun",
-			img: "Gear/Generic/Scepters/Scepter_U60_ua.png",
+			img: "Gear/Generic/Scepters/Scepter_E60_ua.png",
 			effects: {
 				17: [
 					{min: 35.948, max: 39.732000000000006, positive: true, type: "empowerDropoff"},
@@ -12721,7 +12721,7 @@ var gear = {
 		},
 		{
 			name: "Cedar Throwing Arm",
-			img: "Gear/Generic/Ballista/Ballista_U22_ua.(1,4,1,1).png",
+			img: "Gear/Generic/Ballista/Ballista_U11_ua.(1,4,1,1).png",
 			effects: {
 				32: [
 					{min: 24.823500000000006, max: 27.436500000000013, positive: true, type: "damage"},
@@ -16201,7 +16201,7 @@ var gear = {
 		},
 		{
 			name: "Sculpted Bone Torc",
-			img: "Gear/Celt/Torc/Torc_R62_ua.(1,4,1,1).png",
+			img: "Gear/Celt/Torc/Torc_R32_ua.(1,4,1,1).png",
 			effects: {
 				30: [
 					{min: 36.556000000000004, max: 40.404, positive: true, type: "health"},
@@ -20171,7 +20171,7 @@ var gear = {
 		},
 		{
 			name: "Superior Sentry Breastplate",
-			img: "Gear/Generic/Armor/Inf/Inf_U10v20_ua.png",
+			img: "Gear/Generic/Armor/Inf/Inf_U10v2_ua.png",
 			effects: {
 				18: [
 					{min: 23.81649999999999, max: 26.323499999999996, positive: true, type: "health"},
@@ -25470,7 +25470,7 @@ var gear = {
 		},
 		{
 			name: "Runic Prayer Beads",
-			img: "Gear/Generic/Gear/Prst/Breads_E60_ua.png",
+			img: "Gear/Generic/Gear/Prst/Beads_E60_ua.png",
 			effects: {
 				37: [
 					{min: -17.2515, max: -15.6085, positive: true, type: "cost"},
@@ -25648,7 +25648,7 @@ var gear = {
 		},
 		{
 			name: "Fancy Prayer Beads",
-			img: "Gear/Generic/Gear/Prst/Breads_R31_ua.png",
+			img: "Gear/Generic/Gear/Prst/Beads_R31_ua.png",
 			effects: {
 				30: [
 					{min: -12.033000000000005, max: -10.887000000000004, positive: true, type: "cost"},
@@ -25788,7 +25788,7 @@ var gear = {
 		},
 		{
 			name: "Prayer Beads",
-			img: "Gear/Generic/Gear/Prst/Breads_R32_ua.png",
+			img: "Gear/Generic/Gear/Prst/Beads_R32_ua.png",
 			effects: {
 				23: [
 					{min: -9.7545, max: -8.825499999999998, positive: true, type: "cost"},
@@ -25844,7 +25844,7 @@ var gear = {
 		},
 		{
 			name: "Ivory Prayer Beads",
-			img: "Gear/Generic/Gear/Prst/Breads_R31_ua.png",
+			img: "Gear/Generic/Gear/Prst/Beads_R31_ua.png",
 			effects: {
 				19: [
 					{min: -8.6835, max: -7.8565, positive: true, type: "cost"},
@@ -25891,7 +25891,7 @@ var gear = {
 		},
 		{
 			name: "Superior Runic Talisman",
-			img: "Gear/Generic/Gear/Prst/Talisma_U11_ua.png",
+			img: "Gear/Generic/Gear/Prst/Talisman_U11_ua.png",
 			effects: {
 				19: [
 					{min: 64.81849999999999, max: 71.6415, positive: true, type: "conversionResistance"},
@@ -25948,7 +25948,7 @@ var gear = {
 		},
 		{
 			name: "Thoth's Prayer Beads",
-			img: "Gear/Generic/Gear/Prst/Breads_R30_ua.png",
+			img: "Gear/Generic/Gear/Prst/Beads_R30_ua.png",
 			effects: {
 				17: [
 					{min: -8.011500000000003, max: -7.248500000000003, positive: true, type: "cost"},
@@ -26621,7 +26621,7 @@ var gear = {
 		},
 		{
 			name: "Athenian Riveted Rudder",
-			img: "Gear/Generic/Gear/Boat/Rudder_R330_ua.png",
+			img: "Gear/Generic/Gear/Boat/Rudder_R33_ua.png",
 			effects: {
 				26: [
 					{min: -8.652000000000003, max: -7.828000000000001, positive: true, type: "timeTrain"},
@@ -26663,7 +26663,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Fitted Oar",
-			img: "Gear/Generic/Gear/Boat/Sail_U10_ua.png",
+			img: "Gear/Generic/Gear/Boat/Oar_U10_ua.png",
 			effects: {
 				30: [
 					{min: 4.351000000000006, max: 4.809000000000006, positive: true, type: "speed"},

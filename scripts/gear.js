@@ -26940,7 +26940,7 @@ var gear = {
 		{name: "None", img: 'Slot/GearSlot_ua.png'},
 		{
 			name: "Battle Scrolls of Gilgamesh",
-			img: "Gear/Gear_L003.png",
+			img: "Gear/Generic/Gear/Inf/Scrolls_L90_ua.png",
 			effects: {
 				40: [
 					{min: -19.351500000000005, max: -17.5085, positive: true, type: "cost"},
@@ -26950,7 +26950,7 @@ var gear = {
 		},
 		{
 			name: "Greaves of Enkidu",
-			img: "Gear/Gear_L001.png",
+			img: "Gear/Generic/Gear/Inf/Greaves_L90_ua.png",
 			effects: {
 				40: [
 					{min: -35.50050000000001, max: -32.11950000000001, positive: false, type: "speed"},
@@ -26960,7 +26960,7 @@ var gear = {
 		},
 		{
 			name: "Legion Warlord's Greaves",
-			img: "Gear/Gear_LC01.png",
+			img: "Gear/Generic/Gear/Inf/Greaves_L90_ua.png",
 			effects: {
 				40: [
 					{min: 17.50849999999999, max: 19.351499999999994, positive: true, type: "health"},
@@ -26969,7 +26969,7 @@ var gear = {
 		},
 		{
 			name: "Master Assassin's Gauntlets",
-			img: "Gear/Gear_MAG.png",
+			img: "Gear/Celeste/Generic/Gear/Inf/Gear_MAG_ua.png",
 			effects: {
 				40: [
 					{min: 20.605499999999985, max: 22.77449999999999, positive: false, type: "cost"},
@@ -26980,7 +26980,7 @@ var gear = {
 		},
 		{
 			name: "Medal of Lycurgus",
-			img: "Gear/Gear_L002.png",
+			img: "Gear/Generic/Gear/Inf/Medals_L90_ua.png",
 			effects: {
 				40: [
 					{min: 173.90699999999998, max: 192.21300000000002, positive: true, type: "conversionResistance"},
@@ -26989,7 +26989,7 @@ var gear = {
 		},
 		{
 			name: "Amun's Twice-Blessed Auxilia Belt",
-			img: "Gear/Gear_E005.png",
+			img: "Gear/Generic/Gear/Inf/Belt_E60_ua.png",
 			effects: {
 				37: [
 					{min: -17.2515, max: -15.6085, positive: true, type: "cost"},
@@ -27015,7 +27015,7 @@ var gear = {
 		},
 		{
 			name: "Argonaut Helm",
-			img: "Gear/Gear_E001.png",
+			img: "Gear/Generic/Gear/Inf/Helm_E60_ua.png",
 			effects: {
 				37: [
 					{min: 39.03549999999998, max: 43.14449999999999, positive: true, type: "vision"},
@@ -27033,7 +27033,7 @@ var gear = {
 		},
 		{
 			name: "Fell-Handed Gauntlets of the Chieftain",
-			img: "Gear/Gear_E103F.png",
+			img: "Gear/Generic/Gear/Inf/Gloves_E60_ua.png",
 			effects: {
 				40: [
 					{min: -8.315999999999994, max: -7.523999999999994, positive: true, type: "cost"},
@@ -27042,7 +27042,7 @@ var gear = {
 		},
 		{
 			name: "Hephaestus-Forged Greaves",
-			img: "Gear/Gear_E007.png",
+			img: "Gear/Generic/Gear/Inf/Greaves_E60_ua.png",
 			effects: {
 				37: [
 					{min: -31.941000000000003, max: -28.899, positive: false, type: "speed"},
@@ -27064,7 +27064,7 @@ var gear = {
 		},
 		{
 			name: "Heracles' Practice Sword",
-			img: "Gear/Gear_E003.png",
+			img: "Gear/Generic/Gear/Inf/Practice_E60_ua.png",
 			effects: {
 				37: [
 					{min: -13.639500000000004, max: -12.3405, positive: true, type: "timeTrain"},
@@ -27082,7 +27082,7 @@ var gear = {
 		},
 		{
 			name: "Osiran Embossed Boots",
-			img: "Gear/Gear_E002.png",
+			img: "Gear/Generic/Gear/Inf/Boot_E60_ua.png",
 			effects: {
 				37: [
 					{min: 7.8090000000000055, max: 8.631000000000007, positive: true, type: "speed"},
@@ -27100,7 +27100,7 @@ var gear = {
 		},
 		{
 			name: "Perseus' Training Scrolls",
-			img: "Gear/Gear_E004.png",
+			img: "Gear/Generic/Gear/Inf/Scrolls_E60_ua.png",
 			effects: {
 				37: [
 					{min: -17.2515, max: -15.6085, positive: true, type: "cost"},
@@ -27122,7 +27122,7 @@ var gear = {
 		},
 		{
 			name: "Ramses' Heavy Gauntlets of the Sun",
-			img: "Gear/Gear_E006.png",
+			img: "Gear/Generic/Gear/Inf/Gloves_E60_ua.png",
 			effects: {
 				37: [
 					{min: 18.505999999999986, max: 20.453999999999986, positive: false, type: "cost"},
@@ -27148,7 +27148,7 @@ var gear = {
 		},
 		{
 			name: "Zealots' Medal of Honor",
-			img: "Gear/Gear_E008.png",
+			img: "Gear/Generic/Gear/Inf/Medals_E60_ua.png",
 			effects: {
 				37: [
 					{min: 155.75249999999997, max: 172.1475, positive: true, type: "conversionResistance"},
@@ -27166,7 +27166,7 @@ var gear = {
 		},
 		{
 			name: "Inscribed Heavy Greaves",
-			img: "Gear/Gear_R021.png",
+			img: "Gear/Generic/Gear/Inf/Greaves_R31_ua.png",
 			effects: {
 				30: [
 					{min: -22.638, max: -20.482000000000003, positive: false, type: "speed"},
@@ -27216,7 +27216,7 @@ var gear = {
 		},
 		{
 			name: "Seth's Rimmed Helmet",
-			img: "Gear/Gear_R003.png",
+			img: "Gear/Generic/Gear/Inf/Helm_R31_ua.png",
 			effects: {
 				31: [
 					{min: 27.806499999999996, max: 30.733499999999996, positive: true, type: "vision"},
@@ -27252,7 +27252,7 @@ var gear = {
 		},
 		{
 			name: "Odysseus' Fearless Gauntlets",
-			img: "Gear/Gear_RB01.png",
+			img: "Gear/Generic/Gear/Inf/Gloves_R30_ua.png",
 			effects: {
 				37: [
 					{min: 15.465999999999983, max: 17.093999999999983, positive: false, type: "cost"},
@@ -27273,7 +27273,7 @@ var gear = {
 		},
 		{
 			name: "Cyprus Guard Greaves",
-			img: "Gear/Gear_R034.png",
+			img: "Gear/Generic/Gear/Inf/Greaves_R32_ua.png",
 			effects: {
 				37: [
 					{min: -26.481, max: -23.958999999999996, positive: false, type: "speed"},
@@ -27283,7 +27283,7 @@ var gear = {
 		},
 		{
 			name: "Agamemnon's Greaves",
-			img: "Gear/Gear_EB01.png",
+			img: "Gear/Generic/Gear/Inf/Greaves_E60_ua.png",
 			effects: {
 				30: [
 					{min: 6.545499999999996, max: 7.234499999999996, positive: true, type: "speed"},
@@ -27310,7 +27310,7 @@ var gear = {
 		},
 		{
 			name: "Hand-Carved Practice Weapons",
-			img: "Gear/Gear_R009.png",
+			img: "Gear/Generic/Gear/Inf/Practice_R30_ua.png",
 			effects: {
 				31: [
 					{min: -9.9645, max: -9.015499999999998, positive: true, type: "timeTrain"},
@@ -27334,7 +27334,7 @@ var gear = {
 		},
 		{
 			name: "Brooch of Exalted Champions",
-			img: "Gear/Gear_R104.png",
+			img: "Gear/Generic/Gear/Inf/Medals_R30_ua.png",
 			effects: {
 				35: [
 					{min: 122.55949999999999, max: 135.4605, positive: true, type: "conversionResistance"},
@@ -27343,7 +27343,7 @@ var gear = {
 		},
 		{
 			name: "Bran's Winged Helm",
-			img: "Gear/Gear_E102.png",
+			img: "Gear/Generic/Gear/Inf/Helm_E60_ua.png",
 			effects: {
 				34: [
 					{min: 36.67949999999998, max: 40.54049999999999, positive: true, type: "vision"},
@@ -27352,7 +27352,7 @@ var gear = {
 		},
 		{
 			name: "Imhotep's Hardened Gauntlets",
-			img: "Gear/Gear_R018.png",
+			img: "Gear/Generic/Gear/Inf/Gloves_R32_ua.png",
 			effects: {
 				30: [
 					{min: 13.005500000000001, max: 14.374500000000001, positive: false, type: "cost"},
@@ -27383,7 +27383,7 @@ var gear = {
 		},
 		{
 			name: "Olympian Banded Boots",
-			img: "Gear/Gear_R006.png",
+			img: "Gear/Generic/Gear/Inf/Boot_R31_ua.png",
 			effects: {
 				30: [
 					{min: 5.291500000000007, max: 5.848500000000009, positive: true, type: "speed"},
@@ -27404,7 +27404,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Marching Boots",
-			img: "Gear/Gear_U010.png",
+			img: "Gear/Generic/Gear/Inf/Boot_U11_ua.png",
 			effects: {
 				34: [
 					{min: 4.806999999999998, max: 5.312999999999998, positive: true, type: "speed"},
@@ -27413,7 +27413,7 @@ var gear = {
 		},
 		{
 			name: "Peerless Embossed Greaves",
-			img: "Gear/Gear_U014.png",
+			img: "Gear/Generic/Gear/Inf/Greaves_U10_ua.png",
 			effects: {
 				34: [
 					{min: -20.800499999999996, max: -18.819499999999994, positive: false, type: "speed"},
@@ -27423,7 +27423,7 @@ var gear = {
 		},
 		{
 			name: "Peerless Rimmed Helmets",
-			img: "Gear/Gear_U016.png",
+			img: "Gear/Generic/Gear/Inf/Helm_U11_ua.png",
 			effects: {
 				34: [
 					{min: 24.728499999999997, max: 27.3315, positive: true, type: "vision"},
@@ -27432,7 +27432,7 @@ var gear = {
 		},
 		{
 			name: "Peerless Training Weapons",
-			img: "Gear/Gear_U012.png",
+			img: "Gear/Generic/Gear/Inf/Practice_U10_ua.png",
 			effects: {
 				34: [
 					{min: -8.809499999999998, max: -7.970499999999997, positive: true, type: "timeTrain"},
@@ -27441,7 +27441,7 @@ var gear = {
 		},
 		{
 			name: "Soldiers' Medal of Faith",
-			img: "Gear/Gear_R024.png",
+			img: "Gear/Generic/Gear/Inf/Medals_R30_ua.png",
 			effects: {
 				29: [
 					{min: 105.66849999999998, max: 116.7915, positive: true, type: "conversionResistance"},
@@ -27462,7 +27462,7 @@ var gear = {
 		},
 		{
 			name: "Spartan Instructor's Scrolls",
-			img: "Gear/Gear_R012.png",
+			img: "Gear/Generic/Gear/Inf/Scrolls_R30_ua.png",
 			effects: {
 				29: [
 					{min: -11.707499999999994, max: -10.592499999999992, positive: true, type: "cost"},
@@ -27488,7 +27488,7 @@ var gear = {
 		},
 		{
 			name: "Iron-Studded Militia Belt",
-			img: "Gear/Gear_R015.png",
+			img: "Gear/Generic/Gear/Inf/Belt_R31_ua.png",
 			effects: {
 				28: [
 					{min: -11.381999999999994, max: -10.297999999999995, positive: true, type: "cost"},
@@ -27519,7 +27519,7 @@ var gear = {
 		},
 		{
 			name: "Ancient Badari Battle Scrolls",
-			img: "Gear/Gear_R011.png",
+			img: "Gear/Generic/Gear/Inf/Scrolls_R32_ua.png",
 			effects: {
 				26: [
 					{min: -10.730999999999996, max: -9.708999999999994, positive: true, type: "cost"},
@@ -27545,7 +27545,7 @@ var gear = {
 		},
 		{
 			name: "Medal of Bravery",
-			img: "Gear/Gear_R023.png",
+			img: "Gear/Generic/Gear/Inf/Medals_R31_ua.png",
 			effects: {
 				26: [
 					{min: 97.41299999999998, max: 107.667, positive: true, type: "conversionResistance"},
@@ -27566,7 +27566,7 @@ var gear = {
 		},
 		{
 			name: "Theban Auxilia Belt",
-			img: "Gear/Gear_R014.png",
+			img: "Gear/Generic/Gear/Inf/Belt_R30_ua.png",
 			effects: {
 				26: [
 					{min: -10.730999999999996, max: -9.708999999999994, positive: true, type: "cost"},
@@ -27597,7 +27597,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Rhino-Leather Boots",
-			img: "Gear/Gear_R005.png",
+			img: "Gear/Generic/Gear/Inf/Boot_R30_ua.png",
 			effects: {
 				25: [
 					{min: 4.8449999999999935, max: 5.354999999999993, positive: true, type: "speed"},
@@ -27618,7 +27618,7 @@ var gear = {
 		},
 		{
 			name: "Iron-Banded Gauntlets",
-			img: "Gear/Gear_R017.png",
+			img: "Gear/Generic/Gear/Inf/Gloves_R31_ua.png",
 			effects: {
 				25: [
 					{min: 11.247999999999983, max: 12.431999999999984, positive: false, type: "cost"},
@@ -27649,7 +27649,7 @@ var gear = {
 		},
 		{
 			name: "Ox-Engraved Greaves",
-			img: "Gear/Gear_R020.png",
+			img: "Gear/Generic/Gear/Inf/Greaves_R30_ua.png",
 			effects: {
 				25: [
 					{min: -19.887, max: -17.993000000000002, positive: false, type: "speed"},
@@ -27675,7 +27675,7 @@ var gear = {
 		},
 		{
 			name: "Sturdy Practice Weapons",
-			img: "Gear/Gear_R008.png",
+			img: "Gear/Generic/Gear/Inf/Practice_R31_ua.png",
 			effects: {
 				20: [
 					{min: -7.077000000000003, max: -6.403000000000001, positive: true, type: "timeTrain"},
@@ -27711,7 +27711,7 @@ var gear = {
 		},
 		{
 			name: "Epona's Boar-Hide Boots",
-			img: "Gear/Gear_E101.png",
+			img: "Gear/Generic/Gear/Inf/Boot_E60_ua.png",
 			effects: {
 				28: [
 					{min: 6.479000000000004, max: 7.161000000000004, positive: true, type: "speed"},
@@ -27720,7 +27720,7 @@ var gear = {
 		},
 		{
 			name: "Horsehair Plume Helmet",
-			img: "Gear/Gear_R002.png",
+			img: "Gear/Generic/Gear/Inf/Helm_R32_ua.png",
 			effects: {
 				24: [
 					{min: 22.942499999999985, max: 25.357499999999984, positive: true, type: "vision"},
@@ -27741,7 +27741,7 @@ var gear = {
 		},
 		{
 			name: "Greaves of the Fallen Titan",
-			img: "Gear/Gear_R103.png",
+			img: "Gear/Generic/Gear/Inf/Greaves_R31_ua.png",
 			effects: {
 				25: [
 					{min: -9.114, max: -8.245999999999999, positive: false, type: "speed"},
@@ -27751,7 +27751,7 @@ var gear = {
 		},
 		{
 			name: "Oak Practice Weapons",
-			img: "Gear/Gear_R007.png",
+			img: "Gear/Generic/Gear/Inf/Practice_R32_ua.png",
 			effects: {
 				21: [
 					{min: -7.339500000000008, max: -6.6405000000000065, positive: true, type: "timeTrain"},
@@ -27772,7 +27772,7 @@ var gear = {
 		},
 		{
 			name: "Solid Leather Boots",
-			img: "Gear/Gear_R004.png",
+			img: "Gear/Generic/Gear/Inf/Boot_R30_ua.png",
 			effects: {
 				21: [
 					{min: 4.236999999999997, max: 4.682999999999997, positive: true, type: "speed"},
@@ -27793,7 +27793,7 @@ var gear = {
 		},
 		{
 			name: "Grand Practice Weapons",
-			img: "Gear/Gear_U011.png",
+			img: "Gear/Generic/Gear/Inf/Practice_U11_ua.png",
 			effects: {
 				24: [
 					{min: -6.709500000000007, max: -6.070500000000006, positive: true, type: "timeTrain"},
@@ -27802,7 +27802,7 @@ var gear = {
 		},
 		{
 			name: "Grand Studded Helmets",
-			img: "Gear/Gear_U015.png",
+			img: "Gear/Generic/Gear/Inf/Helm_U10_ua.png",
 			effects: {
 				24: [
 					{min: 19.094999999999985, max: 21.104999999999983, positive: true, type: "vision"},
@@ -27811,7 +27811,7 @@ var gear = {
 		},
 		{
 			name: "Magnificent Lacquered Greaves",
-			img: "Gear/Gear_U013.png",
+			img: "Gear/Generic/Gear/Inf/Greaves_U11_ua.png",
 			effects: {
 				24: [
 					{min: -16.148999999999994, max: -14.610999999999994, positive: false, type: "speed"},
@@ -27821,7 +27821,7 @@ var gear = {
 		},
 		{
 			name: "Superior Lined Boots",
-			img: "Gear/Gear_U009.png",
+			img: "Gear/Generic/Gear/Inf/Boot_U11_ua.png",
 			effects: {
 				24: [
 					{min: 3.9234999999999896, max: 4.3364999999999885, positive: true, type: "speed"},
@@ -27830,7 +27830,7 @@ var gear = {
 		},
 		{
 			name: "Athenian Militia Belt",
-			img: "Gear/Gear_R013.png",
+			img: "Gear/Generic/Gear/Inf/Belt_R32_ua.png",
 			effects: {
 				19: [
 					{min: -8.6835, max: -7.8565, positive: true, type: "cost"},
@@ -27861,7 +27861,7 @@ var gear = {
 		},
 		{
 			name: "Warrior Training Scrolls",
-			img: "Gear/Gear_R010.png",
+			img: "Gear/Generic/Gear/Inf/Scrolls_R31_ua.png",
 			effects: {
 				19: [
 					{min: -8.6835, max: -7.8565, positive: true, type: "cost"},
@@ -27887,7 +27887,7 @@ var gear = {
 		},
 		{
 			name: "Wide-Brimmed Helmet",
-			img: "Gear/Gear_R001.png",
+			img: "Gear/Generic/Gear/Inf/Helm_R30_ua.png",
 			effects: {
 				19: [
 					{min: 19.446499999999986, max: 21.49349999999999, positive: true, type: "vision"},
@@ -27908,7 +27908,7 @@ var gear = {
 		},
 		{
 			name: "Medal of Service",
-			img: "Gear/Gear_R022.png",
+			img: "Gear/Generic/Gear/Inf/Medals_R31_ua.png",
 			effects: {
 				18: [
 					{min: 75.1735, max: 83.08650000000002, positive: true, type: "conversionResistance"},
@@ -27929,7 +27929,7 @@ var gear = {
 		},
 		{
 			name: "Runic Heavy Greaves",
-			img: "Gear/Gear_R019.png",
+			img: "Gear/Generic/Gear/Inf/Greaves_R32_ua.png",
 			effects: {
 				15: [
 					{min: -14.07, max: -12.73, positive: false, type: "speed"},
@@ -27967,7 +27967,7 @@ var gear = {
 		},
 		{
 			name: "Tempered Helm of Achilles",
-			img: "Gear/Gear_R032.png",
+			img: "Gear/Generic/Gear/Inf/Helm_R30_ua.png",
 			effects: {
 				12: [
 					{min: 2.3084999999999987, max: 2.551499999999999, positive: true, type: "speed"},
@@ -28017,7 +28017,7 @@ var gear = {
 		},
 		{
 			name: "Hector's Spiked Gauntlets",
-			img: "Gear/Gear_R016.png",
+			img: "Gear/Generic/Gear/Inf/Gloves_R32_ua.png",
 			effects: {
 				17: [
 					{min: 8.625999999999998, max: 9.533999999999999, positive: false, type: "cost"},
@@ -28048,7 +28048,7 @@ var gear = {
 		},
 		{
 			name: "Finely Crafted Boots",
-			img: "Gear/Gear_UD01.png",
+			img: "Gear/Generic/Gear/Inf/Boot_U11_ua.png",
 			effects: {
 				21: [
 					{min: 2.869, max: 3.1710000000000007, positive: true, type: "speed"},
@@ -28057,7 +28057,7 @@ var gear = {
 		},
 		{
 			name: "Mycenaean Heavy Gloves",
-			img: "Gear/Gear_R026.png",
+			img: "Gear/Generic/Gear/Inf/Gloves_R31_ua.png",
 			effects: {
 				17: [
 					{min: 8.815999999999999, max: 9.744, positive: false, type: "cost"},
@@ -28073,7 +28073,7 @@ var gear = {
 		},
 		{
 			name: "Obsidian-Inlaid Belt",
-			img: "Gear/Gear_R102F.png",
+			img: "Gear/Generic/Gear/Inf/Belt_R30_ua.png",
 			effects: {
 				18: [
 					{min: -3.947999999999997, max: -3.5719999999999965, positive: true, type: "cost"},
@@ -28082,7 +28082,7 @@ var gear = {
 		},
 		{
 			name: "Clitus' Doomstep Greaves",
-			img: "Gear/Gear_R031.png",
+			img: "Gear/Generic/Gear/Inf/Greaves_R31_ua.png",
 			effects: {
 				7: [
 					{min: 1.6909999999999825, max: 1.8689999999999807, positive: true, type: "speed"},
@@ -28132,7 +28132,7 @@ var gear = {
 		},
 		{
 			name: "Mycenaean Militia Belt",
-			img: "Gear/Gear_R025.png",
+			img: "Gear/Generic/Gear/Inf/Belt_R30_ua.png",
 			effects: {
 				17: [
 					{min: -8.011500000000003, max: -7.248500000000003, positive: true, type: "cost"},
@@ -28143,7 +28143,7 @@ var gear = {
 		},
 		{
 			name: "Nubian Service Medal",
-			img: "Gear/Gear_R027.png",
+			img: "Gear/Generic/Gear/Inf/Medals_R32_ua.png",
 			effects: {
 				17: [
 					{min: 72.72249999999998, max: 80.37749999999998, positive: true, type: "conversionResistance"},
@@ -28152,7 +28152,7 @@ var gear = {
 		},
 		{
 			name: "Sesostris' Training Scrolls",
-			img: "Gear/Gear_R028.png",
+			img: "Gear/Generic/Gear/Inf/Scrolls_R31_ua.png",
 			effects: {
 				17: [
 					{min: -8.011500000000003, max: -7.248500000000003, positive: true, type: "cost"},
@@ -28162,7 +28162,7 @@ var gear = {
 		},
 		{
 			name: "Autolycus Training Scrolls",
-			img: "Gear/Gear_R030.png",
+			img: "Gear/Generic/Gear/Inf/Scrolls_R30_ua.png",
 			effects: {
 				5: [
 					{min: -4.063499999999996, max: -3.676499999999996, positive: true, type: "cost"},
@@ -28212,7 +28212,7 @@ var gear = {
 		},
 		{
 			name: "Gauntlets of Command",
-			img: "Gear/Gear_R029.png",
+			img: "Gear/Generic/Gear/Inf/Gloves_R30_ua.png",
 			effects: {
 				5: [
 					{min: 4.445999999999995, max: 4.913999999999995, positive: false, type: "cost"},
@@ -28273,7 +28273,7 @@ var gear = {
 		},
 		{
 			name: "Fine Enameled Helmets",
-			img: "Gear/Gear_U008.png",
+			img: "Gear/Generic/Gear/Inf/Helm_U10_ua.png",
 			effects: {
 				14: [
 					{min: 13.271499999999993, max: 14.668499999999995, positive: true, type: "vision"},
@@ -28282,7 +28282,7 @@ var gear = {
 		},
 		{
 			name: "Ordinary Sentry Boots",
-			img: "Gear/Gear_U002.png",
+			img: "Gear/Generic/Gear/Inf/Boot_U10_ua.png",
 			effects: {
 				14: [
 					{min: 2.688499999999999, max: 2.9714999999999994, positive: true, type: "speed"},
@@ -28291,7 +28291,7 @@ var gear = {
 		},
 		{
 			name: "Ornate Battle Greaves",
-			img: "Gear/Gear_U006.png",
+			img: "Gear/Generic/Gear/Inf/Greaves_U10_ua.png",
 			effects: {
 				14: [
 					{min: -11.465999999999998, max: -10.373999999999995, positive: false, type: "speed"},
@@ -28301,7 +28301,7 @@ var gear = {
 		},
 		{
 			name: "Standard Training Weapons",
-			img: "Gear/Gear_U004.png",
+			img: "Gear/Generic/Gear/Inf/Practice_U11_ua.png",
 			effects: {
 				14: [
 					{min: -4.787999999999997, max: -4.331999999999997, positive: true, type: "timeTrain"},
@@ -28310,7 +28310,7 @@ var gear = {
 		},
 		{
 			name: "Outrider's Harbinger Helm",
-			img: "Gear/Gear_R101.png",
+			img: "Gear/Generic/Gear/Inf/Helm_R30_ua.png",
 			effects: {
 				13: [
 					{min: 15.247499999999986, max: 16.852499999999985, positive: true, type: "vision"},
@@ -28319,7 +28319,7 @@ var gear = {
 		},
 		{
 			name: "Darius' Dire Helmet",
-			img: "Gear/Gear_UB01.png",
+			img: "Gear/Generic/Gear/Inf/Helm_U11_ua.png",
 			effects: {
 				7: [
 					{min: 7.7804999999999875, max: 8.599499999999987, positive: true, type: "vision"},
@@ -28340,7 +28340,7 @@ var gear = {
 		},
 		{
 			name: "Vanguard Heavy Greaves",
-			img: "Gear/Gear_R033.png",
+			img: "Gear/Generic/Gear/Inf/Greaves_R30_ua.png",
 			effects: {
 				5: [
 					{min: -8.084999999999996, max: -7.314999999999996, positive: false, type: "speed"},
@@ -28350,7 +28350,7 @@ var gear = {
 		},
 		{
 			name: "Plain Rounded Helmets",
-			img: "Gear/Gear_U007.png",
+			img: "Gear/Generic/Gear/Inf/Helm_U11_ua.png",
 			effects: {
 				4: [
 					{min: 7.324499999999994, max: 8.095499999999994, positive: true, type: "vision"},
@@ -28359,7 +28359,7 @@ var gear = {
 		},
 		{
 			name: "Primitive Practice Weapons",
-			img: "Gear/Gear_U003.png",
+			img: "Gear/Generic/Gear/Inf/Practice_U10_ua.png",
 			effects: {
 				4: [
 					{min: -2.583000000000007, max: -2.3370000000000064, positive: true, type: "timeTrain"},
@@ -28368,7 +28368,7 @@ var gear = {
 		},
 		{
 			name: "Simple Soldier Greaves",
-			img: "Gear/Gear_U005.png",
+			img: "Gear/Generic/Gear/Inf/Greaves_U10_ua.png",
 			effects: {
 				4: [
 					{min: -6.362999999999999, max: -5.756999999999999, positive: false, type: "speed"},
@@ -28378,7 +28378,7 @@ var gear = {
 		},
 		{
 			name: "Weathered Guard Boots",
-			img: "Gear/Gear_U001.png",
+			img: "Gear/Generic/Gear/Inf/Boot_U10_ua.png",
 			effects: {
 				4: [
 					{min: 1.4535000000000087, max: 1.6065000000000096, positive: true, type: "speed"},
@@ -28387,7 +28387,7 @@ var gear = {
 		},
 		{
 			name: "Novice's Forgotten Medal",
-			img: "Gear/Gear_U017.png",
+			img: "Gear/Generic/Gear/Inf/Medals_U10_ua.png",
 			effects: {
 				2: [
 					{min: 1.1020000000000052, max: 1.2180000000000057, positive: true, type: "damage"},

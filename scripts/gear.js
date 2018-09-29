@@ -26276,7 +26276,7 @@ var gear = {
 		{name: "None", img: 'Slot/BoatGearSlot_ua.png'},
 		{
 			name: "Oars of Hatshepsut",
-			img: "Gear/Gear_Boat_L002.png",
+			img: "Gear/Generic/Gear/Boat/Oar_L90_ua.png",
 			effects: {
 				40: [
 					{min: 8.759000000000006, max: 9.681000000000006, positive: true, type: "speed"},
@@ -26285,7 +26285,7 @@ var gear = {
 		},
 		{
 			name: "Oars of the Argo",
-			img: "Gear/Gear_Boat_L001.png",
+			img: "Gear/Generic/Gear/Boat/Oar_L90_ua.png",
 			effects: {
 				40: [
 					{min: -19.351500000000005, max: -17.5085, positive: true, type: "cost"},
@@ -26295,7 +26295,7 @@ var gear = {
 		},
 		{
 			name: "Hull of the Dolphin",
-			img: "Gear/Gear_Boat_E004.png",
+			img: "Gear/Generic/Gear/Boat/THull_E60_ua.png",
 			effects: {
 				37: [
 					{min: -17.2515, max: -15.6085, positive: true, type: "cost"},
@@ -26321,7 +26321,7 @@ var gear = {
 		},
 		{
 			name: "Hull of the Leviathan",
-			img: "Gear/Gear_Boat_E005.png",
+			img: "Gear/Generic/Gear/Boat/RHull_E60_ua.png",
 			effects: {
 				37: [
 					{min: 18.505999999999986, max: 20.453999999999986, positive: false, type: "cost"},
@@ -26347,7 +26347,7 @@ var gear = {
 		},
 		{
 			name: "Masterwork Oars",
-			img: "Gear/Gear_Boat_E003.png",
+			img: "Gear/Generic/Gear/Boat/Oar_E60_ua.png",
 			effects: {
 				37: [
 					{min: -17.2515, max: -15.6085, positive: true, type: "cost"},
@@ -26369,7 +26369,7 @@ var gear = {
 		},
 		{
 			name: "Poseidon's Blessed Sails",
-			img: "Gear/Gear_Boat_E001.png",
+			img: "Gear/Generic/Gear/Boat/Sail_E60_ua.png",
 			effects: {
 				37: [
 					{min: 7.8090000000000055, max: 8.631000000000007, positive: true, type: "speed"},
@@ -26387,7 +26387,7 @@ var gear = {
 		},
 		{
 			name: "Sobek's Rudder of the Dolphin",
-			img: "Gear/Gear_Boat_E002.png",
+			img: "Gear/Generic/Gear/Boat/Rudder_E60_ua.png",
 			effects: {
 				37: [
 					{min: -13.639500000000004, max: -12.3405, positive: true, type: "timeTrain"},
@@ -26405,7 +26405,7 @@ var gear = {
 		},
 		{
 			name: "Council Acolyte's Sails",
-			img: "Gear/Gear_Boat_RC01.png",
+			img: "Gear/Generic/Gear/Boat/Sail_R31_ua.png",
 			effects: {
 				40: [
 					{min: 6.716499999999998, max: 7.423499999999999, positive: true, type: "speed"},
@@ -26414,7 +26414,7 @@ var gear = {
 		},
 		{
 			name: "Sicyon Reinforced Hull",
-			img: "Gear/Gear_Boat_R015.png",
+			img: "Gear/Generic/Gear/Boat/RHull_R32_ua.png",
 			effects: {
 				31: [
 					{min: 13.356999999999985, max: 14.762999999999984, positive: false, type: "cost"},
@@ -26470,7 +26470,7 @@ var gear = {
 		},
 		{
 			name: "Sturdy Iolcos Oars",
-			img: "Gear/Gear_Boat_R009.png",
+			img: "Gear/Generic/Gear/Boat/Oar_R30_ua.png",
 			effects: {
 				32: [
 					{min: -12.684000000000003, max: -11.476, positive: true, type: "cost"},
@@ -26512,7 +26512,7 @@ var gear = {
 		},
 		{
 			name: "Peerless Heavy Oar",
-			img: "Gear/Gear_Boat_U004.png",
+			img: "Gear/Generic/Gear/Boat/Oar_U11_ua.png",
 			effects: {
 				39: [
 					{min: 5.376999999999998, max: 5.942999999999999, positive: true, type: "speed"},
@@ -26521,7 +26521,7 @@ var gear = {
 		},
 		{
 			name: "Albion's Rune-Forged Hull",
-			img: "Gear/Gear_Boat_E101.png",
+			img: "Gear/Generic/Gear/Boat/RHull_E60_ua.png",
 			effects: {
 				37: [
 					{min: 31.226499999999994, max: 34.5135, positive: true, type: "health"},
@@ -26530,7 +26530,7 @@ var gear = {
 		},
 		{
 			name: "Tjaru Hand-Fitted Hull",
-			img: "Gear/Gear_Boat_R012.png",
+			img: "Gear/Generic/Gear/Boat/THull_R32_ua.png",
 			effects: {
 				31: [
 					{min: -12.358499999999992, max: -11.181499999999993, positive: true, type: "cost"},
@@ -26561,7 +26561,7 @@ var gear = {
 		},
 		{
 			name: "Batoshipip's Vicious Sails",
-			img: "Gear/Gear_Boat_RB01.png",
+			img: "Gear/Generic/Gear/Boat/Sail_R30_ua.png",
 			effects: {
 				31: [
 					{min: 5.433999999999992, max: 6.005999999999991, positive: true, type: "speed"},
@@ -26579,7 +26579,7 @@ var gear = {
 		},
 		{
 			name: "Sails of the West Wind",
-			img: "Gear/Gear_Boat_R003.png",
+			img: "Gear/Generic/Gear/Boat/Sail_R32_ua.png",
 			effects: {
 				30: [
 					{min: 5.291500000000007, max: 5.848500000000009, positive: true, type: "speed"},
@@ -26600,7 +26600,7 @@ var gear = {
 		},
 		{
 			name: "Nubian River Rudder",
-			img: "Gear/Gear_Boat_R006.png",
+			img: "Gear/Generic/Gear/Boat/Rudder_R31_ua.png",
 			effects: {
 				29: [
 					{min: -9.439499999999999, max: -8.540499999999998, positive: true, type: "timeTrain"},
@@ -26621,7 +26621,7 @@ var gear = {
 		},
 		{
 			name: "Athenian Riveted Rudder",
-			img: "Gear/Gear_Boat_R005.png",
+			img: "Gear/Generic/Gear/Boat/Rudder_R330_ua.png",
 			effects: {
 				26: [
 					{min: -8.652000000000003, max: -7.828000000000001, positive: true, type: "timeTrain"},
@@ -26642,7 +26642,7 @@ var gear = {
 		},
 		{
 			name: "Seth-Blessed Sails",
-			img: "Gear/Gear_Boat_R002.png",
+			img: "Gear/Generic/Gear/Boat/Sail_R31_ua.png",
 			effects: {
 				26: [
 					{min: 4.996999999999998, max: 5.522999999999998, positive: true, type: "speed"},
@@ -26663,7 +26663,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Fitted Oar",
-			img: "Gear/Gear_Boat_U003.png",
+			img: "Gear/Generic/Gear/Boat/Sail_U10_ua.png",
 			effects: {
 				30: [
 					{min: 4.351000000000006, max: 4.809000000000006, positive: true, type: "speed"},
@@ -26672,7 +26672,7 @@ var gear = {
 		},
 		{
 			name: "Athenian Light Hull",
-			img: "Gear/Gear_Boat_R011.png",
+			img: "Gear/Generic/Gear/Boat/THull_R31_ua.png",
 			effects: {
 				25: [
 					{min: -10.405499999999996, max: -9.414499999999997, positive: true, type: "cost"},
@@ -26703,7 +26703,7 @@ var gear = {
 		},
 		{
 			name: "Reinforced Cedar Hull",
-			img: "Gear/Gear_Boat_R014.png",
+			img: "Gear/Generic/Gear/Boat/RHull_R31_ua.png",
 			effects: {
 				25: [
 					{min: 11.247999999999983, max: 12.431999999999984, positive: false, type: "cost"},
@@ -26734,7 +26734,7 @@ var gear = {
 		},
 		{
 			name: "Sturdy River-Worn Oars",
-			img: "Gear/Gear_Boat_R008.png",
+			img: "Gear/Generic/Gear/Boat/Oar_R32_ua.png",
 			effects: {
 				23: [
 					{min: -9.7545, max: -8.825499999999998, positive: true, type: "cost"},
@@ -26760,7 +26760,7 @@ var gear = {
 		},
 		{
 			name: "Hand-Carved Oars",
-			img: "Gear/Gear_Boat_R007.png",
+			img: "Gear/Generic/Gear/Boat/Oar_R30_ua.png",
 			effects: {
 				21: [
 					{min: -9.355499999999997, max: -8.464499999999996, positive: true, type: "cost"},
@@ -26786,7 +26786,7 @@ var gear = {
 		},
 		{
 			name: "Llyr's Storm Sails",
-			img: "Gear/Gear_Boat_R103.png",
+			img: "Gear/Generic/Gear/Boat/Sail_R32_ua.png",
 			effects: {
 				25: [
 					{min: 4.246499999999997, max: 4.693499999999996, positive: true, type: "speed"},
@@ -26796,7 +26796,7 @@ var gear = {
 		},
 		{
 			name: "Reinforced Hull",
-			img: "Gear/Gear_Boat_R013.png",
+			img: "Gear/Generic/Gear/Boat/RHull_R30_ua.png",
 			effects: {
 				21: [
 					{min: 10.069999999999988, max: 11.129999999999987, positive: false, type: "cost"},
@@ -26827,7 +26827,7 @@ var gear = {
 		},
 		{
 			name: "Seaworthy Sails",
-			img: "Gear/Gear_Boat_R001.png",
+			img: "Gear/Generic/Gear/Boat/Sail_R31_ua.png",
 			effects: {
 				20: [
 					{min: 4.084999999999993, max: 4.514999999999993, positive: true, type: "speed"},
@@ -26848,7 +26848,7 @@ var gear = {
 		},
 		{
 			name: "Solid Oak Rudder",
-			img: "Gear/Gear_Boat_R004.png",
+			img: "Gear/Generic/Gear/Boat/Rudder_R30_ua.png",
 			effects: {
 				19: [
 					{min: -6.814500000000008, max: -6.165500000000007, positive: true, type: "timeTrain"},
@@ -26869,7 +26869,7 @@ var gear = {
 		},
 		{
 			name: "Thin Hull",
-			img: "Gear/Gear_Boat_R010.png",
+			img: "Gear/Generic/Gear/Boat/THull_R30_ua.png",
 			effects: {
 				17: [
 					{min: -8.011500000000003, max: -7.248500000000003, positive: true, type: "cost"},
@@ -26900,7 +26900,7 @@ var gear = {
 		},
 		{
 			name: "Grand River Oar",
-			img: "Gear/Gear_Boat_U002.png",
+			img: "Gear/Generic/Gear/Boat/Oar_U11_ua.png",
 			effects: {
 				19: [
 					{min: 3.3059999999999943, max: 3.653999999999994, positive: true, type: "speed"},
@@ -26909,7 +26909,7 @@ var gear = {
 		},
 		{
 			name: "Outrider's Resolute Oars",
-			img: "Gear/Gear_Boat_R101.png",
+			img: "Gear/Generic/Gear/Boat/Oar_R31_ua.png",
 			effects: {
 				16: [
 					{min: -7.675499999999994, max: -6.944499999999994, positive: true, type: "cost"},
@@ -26919,7 +26919,7 @@ var gear = {
 		},
 		{
 			name: "Outrider's Fleet Sails",
-			img: "Gear/Gear_Boat_R102.png",
+			img: "Gear/Generic/Gear/Boat/Sail_R30_ua.png",
 			effects: {
 				12: [
 					{min: 2.869, max: 3.1710000000000007, positive: true, type: "speed"},
@@ -26928,7 +26928,7 @@ var gear = {
 		},
 		{
 			name: "Ordinary Heavy Oar",
-			img: "Gear/Gear_Boat_U001.png",
+			img: "Gear/Generic/Gear/Boat/Oar_U10_ua.png",
 			effects: {
 				9: [
 					{min: 2.0710000000000037, max: 2.2890000000000046, positive: true, type: "speed"},
@@ -29883,7 +29883,5 @@ var gear = {
 				],
 			}
 		},
-	],
-
-
+	]
 }

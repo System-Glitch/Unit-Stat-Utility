@@ -99,7 +99,8 @@ var units = {
 			speed: 6,
 			timeTrain: 15,
 			population: 1
-		}
+		},
+		gear: ["merchantGear", "clothArmor", "laborerGear"]
 	},
 	BChariotArcher: {
 		name: "BChariotArcher",

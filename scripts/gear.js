@@ -13371,6 +13371,794 @@ var gear = {
 			}
 		},
 	],
+	merchantGear: [
+		{name: "None", img: 'Slot/MerchLogSlot_ua.png'},
+		{
+			name: "Merchant Log of Sinuhe",
+			img: "Gear/Generic/Merchant/Log_L90_ua.png",
+			effects: {
+				40: [
+					{min: 15.247500000000006, max: 16.85250000000001, positive: true, type: "trade"},
+					{min: 43.785499999999985, max: 48.394499999999994, positive: true, type: "snareResist"},
+					{min: 1.7765000000000153, max: 1.963500000000017, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Merchant's Bounty",
+			img: "Gear/Generic/Merchant/Log_L91_ua.png",
+			effects: {
+				40: [
+					{min: 16.52999999999999, max: 18.269999999999992, positive: true, type: "trade"},
+					{min: -1.4805000000000001, max: -1.3395000000000001, positive: true, type: "cost"},
+					{min: 0.8739999999999881, max: 0.9659999999999869, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Council Mentor's Merchant Log",
+			img: "Gear/Generic/Merchant/Log_E60_ua.png",
+			effects: {
+				40: [
+					{min: 14.839000000000011, max: 16.401000000000014, positive: true, type: "trade"},
+					{min: 7.096499999999999, max: 7.843499999999999, positive: true, type: "health"},
+					{min: 1.3204999999999811, max: 1.4594999999999791, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Epona's Hunting Kit",
+			img: "Gear/Generic/Merchant/Log_E60_ua.png",
+			effects: {
+				40: [
+					{min: 12.2645, max: 13.5555, positive: true, type: "trade"},
+					{min: 18.962, max: 20.958000000000002, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Nectar-Filled Water Barrel",
+			img: "Gear/Generic/Merchant/Log_E61_ua.png",
+			effects: {
+				37: [
+					{min: 13.86999999999999, max: 15.329999999999991, positive: true, type: "trade"},
+					{min: 2.8974999999999973, max: 3.202499999999997, positive: true, type: "speed"},
+				],
+				38: [
+					{min: 14.192999999999998, max: 15.686999999999998, positive: true, type: "trade"},
+					{min: 2.9639999999999898, max: 3.275999999999989, positive: true, type: "speed"},
+				],
+				39: [
+					{min: 14.516000000000004, max: 16.044000000000004, positive: true, type: "trade"},
+					{min: 3.0305000000000035, max: 3.3495000000000044, positive: true, type: "speed"},
+				],
+				40: [
+					{min: 14.839000000000011, max: 16.401000000000014, positive: true, type: "trade"},
+					{min: 3.0969999999999964, max: 3.422999999999996, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Styx-Infused Impenetrable Armor",
+			img: "Gear/Generic/Merchant/Log_E60_ua.png",
+			effects: {
+				40: [
+					{min: 58.52, max: 64.68, positive: true, type: "health"},
+					{min: -3.4124999999999974, max: -3.0874999999999972, positive: true, type: "cost"},
+				],
+			}
+		},
+		{
+			name: "Titan-Bound Gaff Stick",
+			img: "Gear/Generic/Merchant/Log_E62_ua.png",
+			effects: {
+				40: [
+					{min: 19.569999999999993, max: 21.629999999999995, positive: true, type: "trade"},
+				],
+			}
+		},
+		{
+			name: "Delian Adept's Merchant Log",
+			img: "Gear/Generic/Merchant/Log_R30_ua.png",
+			effects: {
+				40: [
+					{min: 13.727500000000006, max: 15.172500000000007, positive: true, type: "trade"},
+					{min: 1.3395000000000001, max: 1.4805000000000001, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Expert Gaff Handler",
+			img: "Gear/Generic/Merchant/Log_R31_ua.png",
+			effects: {
+				35: [
+					{min: 12.254999999999999, max: 13.545000000000002, positive: true, type: "trade"},
+					{min: 39.55800000000001, max: 43.72200000000001, positive: true, type: "snareResist"},
+				],
+				36: [
+					{min: 12.54950000000001, max: 13.870500000000012, positive: true, type: "trade"},
+					{min: 40.48900000000001, max: 44.75100000000001, positive: true, type: "snareResist"},
+				],
+				37: [
+					{min: 12.844000000000019, max: 14.196000000000023, positive: true, type: "trade"},
+					{min: 41.419999999999995, max: 45.779999999999994, positive: true, type: "snareResist"},
+				],
+				38: [
+					{min: 13.138500000000008, max: 14.52150000000001, positive: true, type: "trade"},
+					{min: 42.351, max: 46.809, positive: true, type: "snareResist"},
+				],
+				39: [
+					{min: 13.432999999999996, max: 14.846999999999998, positive: true, type: "trade"},
+					{min: 43.282000000000004, max: 47.838, positive: true, type: "snareResist"},
+				],
+				40: [
+					{min: 13.727500000000006, max: 15.172500000000007, positive: true, type: "trade"},
+					{min: 44.213, max: 48.86700000000001, positive: true, type: "snareResist"},
+				],
+			}
+		},
+		{
+			name: "Peerless Water Bags",
+			img: "Gear/Generic/Merchant/Log_U11_ua.png",
+			effects: {
+				40: [
+					{min: 10.868000000000004, max: 12.012000000000006, positive: true, type: "trade"},
+					{min: 0.9310000000000029, max: 1.0290000000000032, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Thick Merchant Log",
+			img: "Gear/Generic/Merchant/Log_U11_ua.png",
+			effects: {
+				27: [
+					{min: 7.457500000000001, max: 8.242500000000001, positive: true, type: "trade"},
+				],
+				32: [
+					{min: 8.502499999999992, max: 9.397499999999992, positive: true, type: "trade"},
+				],
+				33: [
+					{min: 8.71149999999999, max: 9.628499999999988, positive: true, type: "trade"},
+				],
+				34: [
+					{min: 8.920499999999986, max: 9.859499999999986, positive: true, type: "trade"},
+				],
+				35: [
+					{min: 9.129499999999986, max: 10.090499999999984, positive: true, type: "trade"},
+				],
+				36: [
+					{min: 9.338500000000005, max: 10.321500000000006, positive: true, type: "trade"},
+				],
+				37: [
+					{min: 9.547500000000003, max: 10.552500000000006, positive: true, type: "trade"},
+				],
+				38: [
+					{min: 9.7565, max: 10.783500000000002, positive: true, type: "trade"},
+				],
+				39: [
+					{min: 9.965499999999999, max: 11.014499999999998, positive: true, type: "trade"},
+				],
+				40: [
+					{min: 10.174499999999997, max: 11.245499999999998, positive: true, type: "trade"},
+				],
+			}
+		},
+		{
+			name: "Really Tasty Carrot",
+			img: "Gear/Generic/Merchant/Log_R30_ua.png",
+			effects: {
+				34: [
+					{min: 7.38150000000001, max: 8.15850000000001, positive: true, type: "trade"},
+					{min: 4.683499999999991, max: 5.176499999999989, positive: true, type: "speed"},
+				],
+				35: [
+					{min: 7.562000000000011, max: 8.358000000000013, positive: true, type: "trade"},
+					{min: 4.7974999999999985, max: 5.302499999999999, positive: true, type: "speed"},
+				],
+				36: [
+					{min: 7.742500000000012, max: 8.557500000000013, positive: true, type: "trade"},
+					{min: 4.911499999999986, max: 5.4284999999999854, positive: true, type: "speed"},
+				],
+				37: [
+					{min: 7.923000000000013, max: 8.757000000000016, positive: true, type: "trade"},
+					{min: 5.025499999999995, max: 5.554499999999995, positive: true, type: "speed"},
+				],
+				38: [
+					{min: 8.103500000000015, max: 8.956500000000016, positive: true, type: "trade"},
+					{min: 5.139499999999982, max: 5.680499999999981, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "The Ambrosial Carrot",
+			img: "Gear/Generic/Merchant/Log_E62_ua.png",
+			effects: {
+				32: [
+					{min: 12.254999999999999, max: 13.545000000000002, positive: true, type: "trade"},
+					{min: 1.4725000000000066, max: 1.6275000000000073, positive: true, type: "speed"},
+					{min: 9.908500000000005, max: 10.951500000000008, positive: true, type: "armorPierce"},
+				],
+				33: [
+					{min: 12.578000000000007, max: 13.902000000000008, positive: true, type: "trade"},
+					{min: 1.5105000000000024, max: 1.6695000000000026, positive: true, type: "speed"},
+					{min: 10.165, max: 11.235, positive: true, type: "armorPierce"},
+				],
+				34: [
+					{min: 12.900999999999991, max: 14.258999999999991, positive: true, type: "trade"},
+					{min: 1.5484999999999982, max: 1.711499999999998, positive: true, type: "speed"},
+					{min: 10.421500000000012, max: 11.518500000000014, positive: true, type: "armorPierce"},
+				],
+				35: [
+					{min: 13.223999999999998, max: 14.615999999999998, positive: true, type: "trade"},
+					{min: 1.5865000000000151, max: 1.7535000000000167, positive: true, type: "speed"},
+					{min: 10.678000000000004, max: 11.802000000000007, positive: true, type: "armorPierce"},
+				],
+				36: [
+					{min: 13.547000000000004, max: 14.973000000000006, positive: true, type: "trade"},
+					{min: 1.624500000000011, max: 1.795500000000012, positive: true, type: "speed"},
+					{min: 10.934499999999998, max: 12.085499999999998, positive: true, type: "armorPierce"},
+				],
+			}
+		},
+		{
+			name: "Nomad Camel Tack",
+			img: "Gear/Generic/Merchant/Log_R32_ua.png",
+			effects: {
+				31: [
+					{min: 11.077000000000004, max: 12.243000000000004, positive: true, type: "trade"},
+					{min: 10.202999999999994, max: 11.276999999999996, positive: true, type: "armorInfantry"},
+				],
+				32: [
+					{min: 11.371500000000012, max: 12.568500000000014, positive: true, type: "trade"},
+					{min: 10.469000000000007, max: 11.571000000000007, positive: true, type: "armorInfantry"},
+				],
+				33: [
+					{min: 11.666, max: 12.894000000000002, positive: true, type: "trade"},
+					{min: 10.734999999999998, max: 11.865, positive: true, type: "armorInfantry"},
+				],
+				34: [
+					{min: 11.96050000000001, max: 13.219500000000014, positive: true, type: "trade"},
+					{min: 11.00099999999999, max: 12.158999999999992, positive: true, type: "armorInfantry"},
+				],
+				35: [
+					{min: 12.254999999999999, max: 13.545000000000002, positive: true, type: "trade"},
+					{min: 11.267000000000003, max: 12.453000000000003, positive: true, type: "armorInfantry"},
+				],
+			}
+		},
+		{
+			name: "Aten's Blessed Camel Barding",
+			img: "Gear/Generic/Merchant/Log_E60_ua.png",
+			effects: {
+				28: [
+					{min: 10.962999999999996, max: 12.116999999999996, positive: true, type: "trade"},
+					{min: 32.49949999999998, max: 35.92049999999999, positive: true, type: "snareResist"},
+					{min: 13.765499999999982, max: 15.21449999999998, positive: true, type: "armorCavalry"},
+				],
+				29: [
+					{min: 11.286000000000001, max: 12.474000000000004, positive: true, type: "trade"},
+					{min: 33.43999999999999, max: 36.95999999999999, positive: true, type: "snareResist"},
+					{min: 14.1645, max: 15.6555, positive: true, type: "armorCavalry"},
+				],
+				30: [
+					{min: 11.609000000000009, max: 12.83100000000001, positive: true, type: "trade"},
+					{min: 34.38049999999999, max: 37.99949999999999, positive: true, type: "snareResist"},
+					{min: 14.563499999999998, max: 16.0965, positive: true, type: "armorCavalry"},
+				],
+				31: [
+					{min: 11.931999999999993, max: 13.187999999999994, positive: true, type: "trade"},
+					{min: 35.32099999999999, max: 39.038999999999994, positive: true, type: "snareResist"},
+					{min: 14.962499999999997, max: 16.537499999999998, positive: true, type: "armorCavalry"},
+				],
+				32: [
+					{min: 12.254999999999999, max: 13.545000000000002, positive: true, type: "trade"},
+					{min: 36.26149999999999, max: 40.0785, positive: true, type: "snareResist"},
+					{min: 15.361499999999994, max: 16.978499999999997, positive: true, type: "armorCavalry"},
+				],
+			}
+		},
+		{
+			name: "Noble's Travel Log",
+			img: "Gear/Generic/Merchant/Log_E61_ua.png",
+			effects: {
+				32: [
+					{min: 16.14999999999999, max: 17.849999999999994, positive: true, type: "trade"},
+				],
+			}
+		},
+		{
+			name: "Helios' Mule Barding",
+			img: "Gear/Generic/Merchant/Log_R31_ua.png",
+			effects: {
+				32: [
+					{min: 11.371500000000012, max: 12.568500000000014, positive: true, type: "trade"},
+					{min: 5.234499999999993, max: 5.785499999999993, positive: true, type: "vision"},
+				],
+			}
+		},
+		{
+			name: "Detailed Merchant Log",
+			img: "Gear/Generic/Merchant/Log_U10_ua.png",
+			effects: {
+				17: [
+					{min: 5.367499999999999, max: 5.9325, positive: true, type: "trade"},
+				],
+				18: [
+					{min: 5.576499999999998, max: 6.163499999999997, positive: true, type: "trade"},
+				],
+				19: [
+					{min: 5.785499999999995, max: 6.394499999999995, positive: true, type: "trade"},
+				],
+				20: [
+					{min: 5.994499999999993, max: 6.6254999999999935, positive: true, type: "trade"},
+				],
+				21: [
+					{min: 6.203499999999991, max: 6.856499999999992, positive: true, type: "trade"},
+				],
+				22: [
+					{min: 6.41249999999999, max: 7.087499999999989, positive: true, type: "trade"},
+				],
+				23: [
+					{min: 6.621499999999988, max: 7.318499999999987, positive: true, type: "trade"},
+				],
+				24: [
+					{min: 6.830499999999986, max: 7.549499999999985, positive: true, type: "trade"},
+				],
+				25: [
+					{min: 7.039500000000005, max: 7.780500000000006, positive: true, type: "trade"},
+				],
+				26: [
+					{min: 7.248500000000003, max: 8.011500000000003, positive: true, type: "trade"},
+				],
+				27: [
+					{min: 7.457500000000001, max: 8.242500000000001, positive: true, type: "trade"},
+				],
+				28: [
+					{min: 7.6665, max: 8.473500000000001, positive: true, type: "trade"},
+				],
+				29: [
+					{min: 7.875499999999997, max: 8.704499999999998, positive: true, type: "trade"},
+				],
+				30: [
+					{min: 8.084499999999995, max: 8.935499999999994, positive: true, type: "trade"},
+				],
+				31: [
+					{min: 8.293499999999993, max: 9.166499999999994, positive: true, type: "trade"},
+				],
+			}
+		},
+		{
+			name: "Exceptional Water Bags",
+			img: "Gear/Generic/Merchant/Log_U10_ua.png",
+			effects: {
+				31: [
+					{min: 8.815999999999999, max: 9.744, positive: true, type: "trade"},
+					{min: 3.372499999999987, max: 3.727499999999986, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Hyena-Wrapped Gaff Stick",
+			img: "Gear/Generic/Merchant/Log_R30_ua.png",
+			effects: {
+				30: [
+					{min: 8.037, max: 8.883000000000001, positive: true, type: "speed"},
+					{min: 112.92649999999999, max: 124.81349999999999, positive: true, type: "snareResist"},
+				],
+			}
+		},
+		{
+			name: "Three-Headed Gaff Stick of Cerberus",
+			img: "Gear/Generic/Merchant/Log_E62_ua.png",
+			effects: {
+				25: [
+					{min: 8.825499999999998, max: 9.7545, positive: true, type: "trade"},
+					{min: -2.3099999999999903, max: -2.0899999999999914, positive: true, type: "cost"},
+					{min: 0.892999999999986, max: 0.9869999999999846, positive: true, type: "speed"},
+				],
+				26: [
+					{min: 9.110499999999988, max: 10.069499999999987, positive: true, type: "trade"},
+					{min: -2.383499999999994, max: -2.1564999999999945, positive: true, type: "cost"},
+					{min: 0.9214999999999829, max: 1.018499999999981, positive: true, type: "speed"},
+				],
+				27: [
+					{min: 9.395499999999998, max: 10.3845, positive: true, type: "trade"},
+					{min: -2.4569999999999976, max: -2.2229999999999976, positive: true, type: "cost"},
+					{min: 0.9499999999999797, max: 1.0499999999999776, positive: true, type: "speed"},
+				],
+				28: [
+					{min: 9.680499999999988, max: 10.699499999999986, positive: true, type: "trade"},
+					{min: -2.5305000000000013, max: -2.2895000000000008, positive: true, type: "cost"},
+					{min: 0.9784999999999977, max: 1.0814999999999975, positive: true, type: "speed"},
+				],
+				29: [
+					{min: 9.965499999999999, max: 11.014499999999998, positive: true, type: "trade"},
+					{min: -2.603999999999993, max: -2.3559999999999937, positive: true, type: "cost"},
+					{min: 1.0069999999999946, max: 1.112999999999994, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Blessed Camel Armor",
+			img: "Gear/Generic/Merchant/Log_R32_ua.png",
+			effects: {
+				23: [
+					{min: 8.721000000000009, max: 9.639000000000012, positive: true, type: "trade"},
+					{min: 8.32199999999999, max: 9.197999999999992, positive: true, type: "armorPierce"},
+				],
+				24: [
+					{min: 9.015499999999998, max: 9.9645, positive: true, type: "trade"},
+					{min: 8.597500000000002, max: 9.502500000000003, positive: true, type: "armorPierce"},
+				],
+				25: [
+					{min: 9.310000000000008, max: 10.290000000000008, positive: true, type: "trade"},
+					{min: 8.872999999999992, max: 9.806999999999993, positive: true, type: "armorPierce"},
+				],
+				26: [
+					{min: 9.604500000000018, max: 10.61550000000002, positive: true, type: "trade"},
+					{min: 9.148500000000006, max: 10.111500000000007, positive: true, type: "armorPierce"},
+				],
+				27: [
+					{min: 9.899000000000006, max: 10.941000000000008, positive: true, type: "trade"},
+					{min: 9.423999999999994, max: 10.415999999999995, positive: true, type: "armorPierce"},
+				],
+			}
+		},
+		{
+			name: "Horus' Runic Camel Tack",
+			img: "Gear/Generic/Merchant/Log_E61_ua.png",
+			effects: {
+				21: [
+					{min: 5.149000000000002, max: 5.691000000000003, positive: true, type: "trade"},
+					{min: 2.346500000000016, max: 2.5935000000000175, positive: true, type: "speed"},
+					{min: 9.604499999999996, max: 10.615499999999995, positive: true, type: "health"},
+				],
+				22: [
+					{min: 5.339000000000002, max: 5.901000000000003, positive: true, type: "trade"},
+					{min: 2.432000000000006, max: 2.6880000000000073, positive: true, type: "speed"},
+					{min: 9.956, max: 11.004000000000001, positive: true, type: "health"},
+				],
+				23: [
+					{min: 5.529000000000003, max: 6.111000000000003, positive: true, type: "trade"},
+					{min: 2.517500000000018, max: 2.78250000000002, positive: true, type: "speed"},
+					{min: 10.307500000000005, max: 11.392500000000005, positive: true, type: "health"},
+				],
+				24: [
+					{min: 5.719000000000003, max: 6.321000000000003, positive: true, type: "trade"},
+					{min: 2.6030000000000086, max: 2.8770000000000095, positive: true, type: "speed"},
+					{min: 10.659000000000006, max: 11.78100000000001, positive: true, type: "health"},
+				],
+				25: [
+					{min: 5.9090000000000025, max: 6.531000000000004, positive: true, type: "trade"},
+					{min: 2.6885000000000203, max: 2.9715000000000225, positive: true, type: "speed"},
+					{min: 11.01049999999999, max: 12.169499999999989, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Cured Deer-Hide Wrappings",
+			img: "Gear/Generic/Merchant/Log_R31_ua.png",
+			effects: {
+				21: [
+					{min: 7.619000000000004, max: 8.421000000000005, positive: true, type: "trade"},
+					{min: 1.0830000000000073, max: 1.197000000000008, positive: true, type: "speed"},
+				],
+				22: [
+					{min: 7.894499999999995, max: 8.725499999999995, positive: true, type: "trade"},
+					{min: 1.121000000000003, max: 1.2390000000000034, positive: true, type: "speed"},
+				],
+				23: [
+					{min: 8.169999999999986, max: 9.029999999999985, positive: true, type: "trade"},
+					{min: 1.158999999999999, max: 1.2809999999999988, positive: true, type: "speed"},
+				],
+				24: [
+					{min: 8.445499999999997, max: 9.334499999999997, positive: true, type: "trade"},
+					{min: 1.1969999999999947, max: 1.3229999999999942, positive: true, type: "speed"},
+				],
+				25: [
+					{min: 8.72099999999999, max: 9.638999999999989, positive: true, type: "trade"},
+					{min: 1.2350000000000116, max: 1.3650000000000129, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Ram-Head Water Bags",
+			img: "Gear/Generic/Merchant/Log_R30_ua.png",
+			effects: {
+				19: [
+					{min: 7.543000000000013, max: 8.337000000000014, positive: true, type: "trade"},
+					{min: 0.7410000000000028, max: 0.8190000000000031, positive: true, type: "speed"},
+				],
+				20: [
+					{min: 7.837500000000001, max: 8.662500000000001, positive: true, type: "trade"},
+					{min: 0.7694999999999996, max: 0.8504999999999996, positive: true, type: "speed"},
+				],
+				21: [
+					{min: 8.132000000000012, max: 8.988000000000014, positive: true, type: "trade"},
+					{min: 0.7980000000000176, max: 0.8820000000000194, positive: true, type: "speed"},
+				],
+				22: [
+					{min: 8.4265, max: 9.313500000000001, positive: true, type: "trade"},
+					{min: 0.8265000000000144, max: 0.913500000000016, positive: true, type: "speed"},
+				],
+				23: [
+					{min: 8.721000000000009, max: 9.639000000000012, positive: true, type: "trade"},
+					{min: 0.8550000000000113, max: 0.9450000000000125, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Gold-Studded Merchant Barding",
+			img: "Gear/Generic/Merchant/Log_E60_ua.png",
+			effects: {
+				18: [
+					{min: 7.732999999999992, max: 8.546999999999992, positive: true, type: "trade"},
+					{min: 4.151500000000007, max: 4.588500000000008, positive: true, type: "health"},
+					{min: 0.6934999999999869, max: 0.7664999999999855, positive: true, type: "speed"},
+				],
+				19: [
+					{min: 8.056, max: 8.903999999999998, positive: true, type: "trade"},
+					{min: 4.322500000000009, max: 4.7775000000000105, positive: true, type: "health"},
+					{min: 0.7219999999999838, max: 0.7979999999999821, positive: true, type: "speed"},
+				],
+				20: [
+					{min: 8.379000000000005, max: 9.261000000000006, positive: true, type: "trade"},
+					{min: 4.493500000000012, max: 4.966500000000012, positive: true, type: "health"},
+					{min: 0.7504999999999806, max: 0.8294999999999786, positive: true, type: "speed"},
+				],
+				21: [
+					{min: 8.70199999999999, max: 9.61799999999999, positive: true, type: "trade"},
+					{min: 4.664499999999992, max: 5.155499999999992, positive: true, type: "health"},
+					{min: 0.7789999999999986, max: 0.8609999999999984, positive: true, type: "speed"},
+				],
+				22: [
+					{min: 9.024999999999997, max: 9.974999999999996, positive: true, type: "trade"},
+					{min: 4.835499999999994, max: 5.344499999999995, positive: true, type: "health"},
+					{min: 0.8074999999999954, max: 0.892499999999995, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Superior Water Bags",
+			img: "Gear/Generic/Merchant/Log_U11_ua.png",
+			effects: {
+				21: [
+					{min: 6.536000000000018, max: 7.224000000000021, positive: true, type: "trade"},
+					{min: 0.5700000000000005, max: 0.6300000000000006, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Helios' Mule Tack",
+			img: "Gear/Generic/Merchant/Log_R32_ua.png",
+			effects: {
+				16: [
+					{min: 6.659500000000005, max: 7.360500000000005, positive: true, type: "trade"},
+					{min: 6.573999999999993, max: 7.265999999999993, positive: true, type: "armorInfantry"},
+				],
+				17: [
+					{min: 6.954000000000014, max: 7.686000000000017, positive: true, type: "trade"},
+					{min: 6.8590000000000035, max: 7.581000000000005, positive: true, type: "armorInfantry"},
+				],
+				18: [
+					{min: 7.248500000000003, max: 8.011500000000003, positive: true, type: "trade"},
+					{min: 7.143999999999993, max: 7.895999999999994, positive: true, type: "armorInfantry"},
+				],
+				19: [
+					{min: 7.543000000000013, max: 8.337000000000014, positive: true, type: "trade"},
+					{min: 7.429000000000004, max: 8.211000000000006, positive: true, type: "armorInfantry"},
+				],
+				20: [
+					{min: 7.837500000000001, max: 8.662500000000001, positive: true, type: "trade"},
+					{min: 7.713999999999994, max: 8.525999999999994, positive: true, type: "armorInfantry"},
+				],
+			}
+		},
+		{
+			name: "Light Camel Barding",
+			img: "Gear/Generic/Merchant/Log_R31_ua.png",
+			effects: {
+				15: [
+					{min: 7.1724999999999905, max: 7.9274999999999896, positive: true, type: "speed"},
+				],
+				16: [
+					{min: 7.5049999999999955, max: 8.294999999999996, positive: true, type: "speed"},
+				],
+				17: [
+					{min: 7.837500000000001, max: 8.662500000000001, positive: true, type: "speed"},
+				],
+				18: [
+					{min: 8.169999999999986, max: 9.029999999999985, positive: true, type: "speed"},
+				],
+				19: [
+					{min: 8.502499999999992, max: 9.397499999999992, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Leather Mule Armor",
+			img: "Gear/Generic/Merchant/Log_R30_ua.png",
+			effects: {
+				13: [
+					{min: 5.776000000000018, max: 6.38400000000002, positive: true, type: "trade"},
+					{min: 5.719000000000003, max: 6.321000000000003, positive: true, type: "armorPierce"},
+				],
+				14: [
+					{min: 6.070500000000006, max: 6.709500000000007, positive: true, type: "trade"},
+					{min: 6.0039999999999925, max: 6.635999999999992, positive: true, type: "armorPierce"},
+				],
+				15: [
+					{min: 6.365000000000016, max: 7.035000000000018, positive: true, type: "trade"},
+					{min: 6.289000000000003, max: 6.951000000000004, positive: true, type: "armorPierce"},
+				],
+				16: [
+					{min: 6.659500000000005, max: 7.360500000000005, positive: true, type: "trade"},
+					{min: 6.573999999999993, max: 7.265999999999993, positive: true, type: "armorPierce"},
+				],
+				17: [
+					{min: 6.954000000000014, max: 7.686000000000017, positive: true, type: "trade"},
+					{min: 6.8590000000000035, max: 7.581000000000005, positive: true, type: "armorPierce"},
+				],
+			}
+		},
+		{
+			name: "Merchant Log",
+			img: "Gear/Generic/Merchant/Log_U10_ua.png",
+			effects: {
+				3: [
+					{min: 2.4415000000000053, max: 2.698500000000006, positive: true, type: "trade"},
+				],
+				4: [
+					{min: 2.650500000000003, max: 2.929500000000004, positive: true, type: "trade"},
+				],
+				5: [
+					{min: 2.8595000000000015, max: 3.1605000000000016, positive: true, type: "trade"},
+				],
+				6: [
+					{min: 3.0684999999999993, max: 3.3914999999999997, positive: true, type: "trade"},
+				],
+				7: [
+					{min: 3.2774999999999976, max: 3.6224999999999974, positive: true, type: "trade"},
+				],
+				8: [
+					{min: 3.4864999999999955, max: 3.8534999999999955, positive: true, type: "trade"},
+				],
+				9: [
+					{min: 3.695499999999994, max: 4.084499999999993, positive: true, type: "trade"},
+				],
+				10: [
+					{min: 3.9044999999999916, max: 4.315499999999991, positive: true, type: "trade"},
+				],
+				11: [
+					{min: 4.1134999999999895, max: 4.546499999999989, positive: true, type: "trade"},
+				],
+				12: [
+					{min: 4.322499999999988, max: 4.7774999999999865, positive: true, type: "trade"},
+				],
+				13: [
+					{min: 4.531499999999986, max: 5.008499999999985, positive: true, type: "trade"},
+				],
+				14: [
+					{min: 4.740500000000005, max: 5.239500000000006, positive: true, type: "trade"},
+				],
+				15: [
+					{min: 4.949500000000003, max: 5.470500000000004, positive: true, type: "trade"},
+				],
+				16: [
+					{min: 5.158500000000001, max: 5.701500000000002, positive: true, type: "trade"},
+				],
+			}
+		},
+		{
+			name: "Royal Merchant Log",
+			img: "Gear/Generic/Merchant/Log_R32_ua.png",
+			effects: {
+				10: [
+					{min: 2.5649999999999915, max: 2.834999999999991, positive: true, type: "trade"},
+					{min: 2.5649999999999915, max: 2.834999999999991, positive: true, type: "speed"},
+				],
+				11: [
+					{min: 2.716999999999996, max: 3.0029999999999957, positive: true, type: "trade"},
+					{min: 2.716999999999996, max: 3.0029999999999957, positive: true, type: "speed"},
+				],
+				12: [
+					{min: 2.869, max: 3.1710000000000007, positive: true, type: "trade"},
+					{min: 2.869, max: 3.1710000000000007, positive: true, type: "speed"},
+				],
+				13: [
+					{min: 3.021000000000005, max: 3.3390000000000053, positive: true, type: "trade"},
+					{min: 3.021000000000005, max: 3.3390000000000053, positive: true, type: "speed"},
+				],
+				14: [
+					{min: 3.172999999999988, max: 3.506999999999987, positive: true, type: "trade"},
+					{min: 3.172999999999988, max: 3.506999999999987, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Explorer's Log",
+			img: "Gear/Generic/Merchant/Log_U10_ua.png",
+			effects: {
+				9: [
+					{min: 3.695499999999994, max: 4.084499999999993, positive: true, type: "trade"},
+				],
+				10: [
+					{min: 3.9044999999999916, max: 4.315499999999991, positive: true, type: "trade"},
+				],
+				11: [
+					{min: 4.1134999999999895, max: 4.546499999999989, positive: true, type: "trade"},
+				],
+				12: [
+					{min: 4.322499999999988, max: 4.7774999999999865, positive: true, type: "trade"},
+				],
+				13: [
+					{min: 4.531499999999986, max: 5.008499999999985, positive: true, type: "trade"},
+				],
+			}
+		},
+		{
+			name: "Gaff Handler",
+			img: "Gear/Generic/Merchant/Log_R31_ua.png",
+			effects: {
+				7: [
+					{min: 4.009000000000001, max: 4.431000000000002, positive: true, type: "trade"},
+					{min: 14.820000000000013, max: 16.380000000000017, positive: true, type: "snareResist"},
+				],
+				8: [
+					{min: 4.303500000000011, max: 4.756500000000012, positive: true, type: "trade"},
+					{min: 15.884000000000002, max: 17.556000000000004, positive: true, type: "snareResist"},
+				],
+				9: [
+					{min: 4.598, max: 5.082, positive: true, type: "trade"},
+					{min: 16.948000000000008, max: 18.732000000000014, positive: true, type: "snareResist"},
+				],
+				10: [
+					{min: 4.892500000000009, max: 5.407500000000011, positive: true, type: "trade"},
+					{min: 18.012, max: 19.908, positive: true, type: "snareResist"},
+				],
+				11: [
+					{min: 5.187000000000019, max: 5.733000000000022, positive: true, type: "trade"},
+					{min: 19.076000000000008, max: 21.08400000000001, positive: true, type: "snareResist"},
+				],
+				12: [
+					{min: 5.481500000000008, max: 6.058500000000009, positive: true, type: "trade"},
+					{min: 20.139999999999993, max: 22.259999999999998, positive: true, type: "snareResist"},
+				],
+			}
+		},
+		{
+			name: "Ideal Water Bags",
+			img: "Gear/Generic/Merchant/Log_U10_ua.png",
+			effects: {
+				11: [
+					{min: 4.256000000000016, max: 4.704000000000018, positive: true, type: "trade"},
+					{min: 1.795499999999992, max: 1.9844999999999913, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Boar-Head Water Bags",
+			img: "Gear/Generic/Merchant/Log_R30_ua.png",
+			effects: {
+				7: [
+					{min: 4.009000000000001, max: 4.431000000000002, positive: true, type: "trade"},
+					{min: 0.39899999999999824, max: 0.44099999999999806, positive: true, type: "speed"},
+				],
+				8: [
+					{min: 4.303500000000011, max: 4.756500000000012, positive: true, type: "trade"},
+					{min: 0.4275000000000162, max: 0.4725000000000179, positive: true, type: "speed"},
+				],
+				9: [
+					{min: 4.598, max: 5.082, positive: true, type: "trade"},
+					{min: 0.45600000000001306, max: 0.5040000000000144, positive: true, type: "speed"},
+				],
+				10: [
+					{min: 4.892500000000009, max: 5.407500000000011, positive: true, type: "trade"},
+					{min: 0.4845000000000099, max: 0.535500000000011, positive: true, type: "speed"},
+				],
+			}
+		},
+	],
 	arrow: [
 		{name: "None", img: 'Slot/ArrowSlot_ua.png'},
 		{
@@ -23877,794 +24665,6 @@ var gear = {
 			effects: {
 				10: [
 					{min: -3.9060000000000015, max: -3.5340000000000007, positive: true, type: "timeTrain"},
-				],
-			}
-		},
-	],
-	merchantGear: [
-		{name: "None", img: 'Slot/MerchLogSlot_ua.png'},
-		{
-			name: "Merchant Log of Sinuhe",
-			img: "Gear/Merchant2H_L001.png",
-			effects: {
-				40: [
-					{min: 15.247500000000006, max: 16.85250000000001, positive: true, type: "trade"},
-					{min: 43.785499999999985, max: 48.394499999999994, positive: true, type: "snareResist"},
-					{min: 1.7765000000000153, max: 1.963500000000017, positive: true, type: "speed"},
-				],
-			}
-		},
-		{
-			name: "Merchant's Bounty",
-			img: "Gear/Merchant2H_L401.png",
-			effects: {
-				40: [
-					{min: 16.52999999999999, max: 18.269999999999992, positive: true, type: "trade"},
-					{min: -1.4805000000000001, max: -1.3395000000000001, positive: true, type: "cost"},
-					{min: 0.8739999999999881, max: 0.9659999999999869, positive: true, type: "speed"},
-				],
-			}
-		},
-		{
-			name: "Council Mentor's Merchant Log",
-			img: "Gear/Merchant2H_EC01.png",
-			effects: {
-				40: [
-					{min: 14.839000000000011, max: 16.401000000000014, positive: true, type: "trade"},
-					{min: 7.096499999999999, max: 7.843499999999999, positive: true, type: "health"},
-					{min: 1.3204999999999811, max: 1.4594999999999791, positive: true, type: "speed"},
-				],
-			}
-		},
-		{
-			name: "Epona's Hunting Kit",
-			img: "Gear/Merchant2H_E102.png",
-			effects: {
-				40: [
-					{min: 12.2645, max: 13.5555, positive: true, type: "trade"},
-					{min: 18.962, max: 20.958000000000002, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Nectar-Filled Water Barrel",
-			img: "Gear/Merchant2H_E007.png",
-			effects: {
-				37: [
-					{min: 13.86999999999999, max: 15.329999999999991, positive: true, type: "trade"},
-					{min: 2.8974999999999973, max: 3.202499999999997, positive: true, type: "speed"},
-				],
-				38: [
-					{min: 14.192999999999998, max: 15.686999999999998, positive: true, type: "trade"},
-					{min: 2.9639999999999898, max: 3.275999999999989, positive: true, type: "speed"},
-				],
-				39: [
-					{min: 14.516000000000004, max: 16.044000000000004, positive: true, type: "trade"},
-					{min: 3.0305000000000035, max: 3.3495000000000044, positive: true, type: "speed"},
-				],
-				40: [
-					{min: 14.839000000000011, max: 16.401000000000014, positive: true, type: "trade"},
-					{min: 3.0969999999999964, max: 3.422999999999996, positive: true, type: "speed"},
-				],
-			}
-		},
-		{
-			name: "Styx-Infused Impenetrable Armor",
-			img: "Gear/Merchant2H_E006.png",
-			effects: {
-				40: [
-					{min: 58.52, max: 64.68, positive: true, type: "health"},
-					{min: -3.4124999999999974, max: -3.0874999999999972, positive: true, type: "cost"},
-				],
-			}
-		},
-		{
-			name: "Titan-Bound Gaff Stick",
-			img: "Gear/Merchant2H_E008.png",
-			effects: {
-				40: [
-					{min: 19.569999999999993, max: 21.629999999999995, positive: true, type: "trade"},
-				],
-			}
-		},
-		{
-			name: "Delian Adept's Merchant Log",
-			img: "Gear/Merchant2H_RC01.png",
-			effects: {
-				40: [
-					{min: 13.727500000000006, max: 15.172500000000007, positive: true, type: "trade"},
-					{min: 1.3395000000000001, max: 1.4805000000000001, positive: true, type: "speed"},
-				],
-			}
-		},
-		{
-			name: "Expert Gaff Handler",
-			img: "Gear/Merchant2H_R013.png",
-			effects: {
-				35: [
-					{min: 12.254999999999999, max: 13.545000000000002, positive: true, type: "trade"},
-					{min: 39.55800000000001, max: 43.72200000000001, positive: true, type: "snareResist"},
-				],
-				36: [
-					{min: 12.54950000000001, max: 13.870500000000012, positive: true, type: "trade"},
-					{min: 40.48900000000001, max: 44.75100000000001, positive: true, type: "snareResist"},
-				],
-				37: [
-					{min: 12.844000000000019, max: 14.196000000000023, positive: true, type: "trade"},
-					{min: 41.419999999999995, max: 45.779999999999994, positive: true, type: "snareResist"},
-				],
-				38: [
-					{min: 13.138500000000008, max: 14.52150000000001, positive: true, type: "trade"},
-					{min: 42.351, max: 46.809, positive: true, type: "snareResist"},
-				],
-				39: [
-					{min: 13.432999999999996, max: 14.846999999999998, positive: true, type: "trade"},
-					{min: 43.282000000000004, max: 47.838, positive: true, type: "snareResist"},
-				],
-				40: [
-					{min: 13.727500000000006, max: 15.172500000000007, positive: true, type: "trade"},
-					{min: 44.213, max: 48.86700000000001, positive: true, type: "snareResist"},
-				],
-			}
-		},
-		{
-			name: "Peerless Water Bags",
-			img: "Gear/Merchant2H_U007.png",
-			effects: {
-				40: [
-					{min: 10.868000000000004, max: 12.012000000000006, positive: true, type: "trade"},
-					{min: 0.9310000000000029, max: 1.0290000000000032, positive: true, type: "speed"},
-				],
-			}
-		},
-		{
-			name: "Thick Merchant Log",
-			img: "Gear/Merchant2H_U003.png",
-			effects: {
-				27: [
-					{min: 7.457500000000001, max: 8.242500000000001, positive: true, type: "trade"},
-				],
-				32: [
-					{min: 8.502499999999992, max: 9.397499999999992, positive: true, type: "trade"},
-				],
-				33: [
-					{min: 8.71149999999999, max: 9.628499999999988, positive: true, type: "trade"},
-				],
-				34: [
-					{min: 8.920499999999986, max: 9.859499999999986, positive: true, type: "trade"},
-				],
-				35: [
-					{min: 9.129499999999986, max: 10.090499999999984, positive: true, type: "trade"},
-				],
-				36: [
-					{min: 9.338500000000005, max: 10.321500000000006, positive: true, type: "trade"},
-				],
-				37: [
-					{min: 9.547500000000003, max: 10.552500000000006, positive: true, type: "trade"},
-				],
-				38: [
-					{min: 9.7565, max: 10.783500000000002, positive: true, type: "trade"},
-				],
-				39: [
-					{min: 9.965499999999999, max: 11.014499999999998, positive: true, type: "trade"},
-				],
-				40: [
-					{min: 10.174499999999997, max: 11.245499999999998, positive: true, type: "trade"},
-				],
-			}
-		},
-		{
-			name: "Really Tasty Carrot",
-			img: "Gear/Merchant2H_R012.png",
-			effects: {
-				34: [
-					{min: 7.38150000000001, max: 8.15850000000001, positive: true, type: "trade"},
-					{min: 4.683499999999991, max: 5.176499999999989, positive: true, type: "speed"},
-				],
-				35: [
-					{min: 7.562000000000011, max: 8.358000000000013, positive: true, type: "trade"},
-					{min: 4.7974999999999985, max: 5.302499999999999, positive: true, type: "speed"},
-				],
-				36: [
-					{min: 7.742500000000012, max: 8.557500000000013, positive: true, type: "trade"},
-					{min: 4.911499999999986, max: 5.4284999999999854, positive: true, type: "speed"},
-				],
-				37: [
-					{min: 7.923000000000013, max: 8.757000000000016, positive: true, type: "trade"},
-					{min: 5.025499999999995, max: 5.554499999999995, positive: true, type: "speed"},
-				],
-				38: [
-					{min: 8.103500000000015, max: 8.956500000000016, positive: true, type: "trade"},
-					{min: 5.139499999999982, max: 5.680499999999981, positive: true, type: "speed"},
-				],
-			}
-		},
-		{
-			name: "The Ambrosial Carrot",
-			img: "Gear/Merchant2H_E005.png",
-			effects: {
-				32: [
-					{min: 12.254999999999999, max: 13.545000000000002, positive: true, type: "trade"},
-					{min: 1.4725000000000066, max: 1.6275000000000073, positive: true, type: "speed"},
-					{min: 9.908500000000005, max: 10.951500000000008, positive: true, type: "armorPierce"},
-				],
-				33: [
-					{min: 12.578000000000007, max: 13.902000000000008, positive: true, type: "trade"},
-					{min: 1.5105000000000024, max: 1.6695000000000026, positive: true, type: "speed"},
-					{min: 10.165, max: 11.235, positive: true, type: "armorPierce"},
-				],
-				34: [
-					{min: 12.900999999999991, max: 14.258999999999991, positive: true, type: "trade"},
-					{min: 1.5484999999999982, max: 1.711499999999998, positive: true, type: "speed"},
-					{min: 10.421500000000012, max: 11.518500000000014, positive: true, type: "armorPierce"},
-				],
-				35: [
-					{min: 13.223999999999998, max: 14.615999999999998, positive: true, type: "trade"},
-					{min: 1.5865000000000151, max: 1.7535000000000167, positive: true, type: "speed"},
-					{min: 10.678000000000004, max: 11.802000000000007, positive: true, type: "armorPierce"},
-				],
-				36: [
-					{min: 13.547000000000004, max: 14.973000000000006, positive: true, type: "trade"},
-					{min: 1.624500000000011, max: 1.795500000000012, positive: true, type: "speed"},
-					{min: 10.934499999999998, max: 12.085499999999998, positive: true, type: "armorPierce"},
-				],
-			}
-		},
-		{
-			name: "Nomad Camel Tack",
-			img: "Gear/Merchant2H_R011.png",
-			effects: {
-				31: [
-					{min: 11.077000000000004, max: 12.243000000000004, positive: true, type: "trade"},
-					{min: 10.202999999999994, max: 11.276999999999996, positive: true, type: "armorInfantry"},
-				],
-				32: [
-					{min: 11.371500000000012, max: 12.568500000000014, positive: true, type: "trade"},
-					{min: 10.469000000000007, max: 11.571000000000007, positive: true, type: "armorInfantry"},
-				],
-				33: [
-					{min: 11.666, max: 12.894000000000002, positive: true, type: "trade"},
-					{min: 10.734999999999998, max: 11.865, positive: true, type: "armorInfantry"},
-				],
-				34: [
-					{min: 11.96050000000001, max: 13.219500000000014, positive: true, type: "trade"},
-					{min: 11.00099999999999, max: 12.158999999999992, positive: true, type: "armorInfantry"},
-				],
-				35: [
-					{min: 12.254999999999999, max: 13.545000000000002, positive: true, type: "trade"},
-					{min: 11.267000000000003, max: 12.453000000000003, positive: true, type: "armorInfantry"},
-				],
-			}
-		},
-		{
-			name: "Aten's Blessed Camel Barding",
-			img: "Gear/Merchant2H_E004.png",
-			effects: {
-				28: [
-					{min: 10.962999999999996, max: 12.116999999999996, positive: true, type: "trade"},
-					{min: 32.49949999999998, max: 35.92049999999999, positive: true, type: "snareResist"},
-					{min: 13.765499999999982, max: 15.21449999999998, positive: true, type: "armorCavalry"},
-				],
-				29: [
-					{min: 11.286000000000001, max: 12.474000000000004, positive: true, type: "trade"},
-					{min: 33.43999999999999, max: 36.95999999999999, positive: true, type: "snareResist"},
-					{min: 14.1645, max: 15.6555, positive: true, type: "armorCavalry"},
-				],
-				30: [
-					{min: 11.609000000000009, max: 12.83100000000001, positive: true, type: "trade"},
-					{min: 34.38049999999999, max: 37.99949999999999, positive: true, type: "snareResist"},
-					{min: 14.563499999999998, max: 16.0965, positive: true, type: "armorCavalry"},
-				],
-				31: [
-					{min: 11.931999999999993, max: 13.187999999999994, positive: true, type: "trade"},
-					{min: 35.32099999999999, max: 39.038999999999994, positive: true, type: "snareResist"},
-					{min: 14.962499999999997, max: 16.537499999999998, positive: true, type: "armorCavalry"},
-				],
-				32: [
-					{min: 12.254999999999999, max: 13.545000000000002, positive: true, type: "trade"},
-					{min: 36.26149999999999, max: 40.0785, positive: true, type: "snareResist"},
-					{min: 15.361499999999994, max: 16.978499999999997, positive: true, type: "armorCavalry"},
-				],
-			}
-		},
-		{
-			name: "Noble's Travel Log",
-			img: "Gear/Merchant2H_E101.png",
-			effects: {
-				32: [
-					{min: 16.14999999999999, max: 17.849999999999994, positive: true, type: "trade"},
-				],
-			}
-		},
-		{
-			name: "Helios' Mule Barding",
-			img: "Gear/Merchant2H_R010.png",
-			effects: {
-				32: [
-					{min: 11.371500000000012, max: 12.568500000000014, positive: true, type: "trade"},
-					{min: 5.234499999999993, max: 5.785499999999993, positive: true, type: "vision"},
-				],
-			}
-		},
-		{
-			name: "Detailed Merchant Log",
-			img: "Gear/Merchant2H_U002.png",
-			effects: {
-				17: [
-					{min: 5.367499999999999, max: 5.9325, positive: true, type: "trade"},
-				],
-				18: [
-					{min: 5.576499999999998, max: 6.163499999999997, positive: true, type: "trade"},
-				],
-				19: [
-					{min: 5.785499999999995, max: 6.394499999999995, positive: true, type: "trade"},
-				],
-				20: [
-					{min: 5.994499999999993, max: 6.6254999999999935, positive: true, type: "trade"},
-				],
-				21: [
-					{min: 6.203499999999991, max: 6.856499999999992, positive: true, type: "trade"},
-				],
-				22: [
-					{min: 6.41249999999999, max: 7.087499999999989, positive: true, type: "trade"},
-				],
-				23: [
-					{min: 6.621499999999988, max: 7.318499999999987, positive: true, type: "trade"},
-				],
-				24: [
-					{min: 6.830499999999986, max: 7.549499999999985, positive: true, type: "trade"},
-				],
-				25: [
-					{min: 7.039500000000005, max: 7.780500000000006, positive: true, type: "trade"},
-				],
-				26: [
-					{min: 7.248500000000003, max: 8.011500000000003, positive: true, type: "trade"},
-				],
-				27: [
-					{min: 7.457500000000001, max: 8.242500000000001, positive: true, type: "trade"},
-				],
-				28: [
-					{min: 7.6665, max: 8.473500000000001, positive: true, type: "trade"},
-				],
-				29: [
-					{min: 7.875499999999997, max: 8.704499999999998, positive: true, type: "trade"},
-				],
-				30: [
-					{min: 8.084499999999995, max: 8.935499999999994, positive: true, type: "trade"},
-				],
-				31: [
-					{min: 8.293499999999993, max: 9.166499999999994, positive: true, type: "trade"},
-				],
-			}
-		},
-		{
-			name: "Exceptional Water Bags",
-			img: "Gear/Merchant2H_U006.png",
-			effects: {
-				31: [
-					{min: 8.815999999999999, max: 9.744, positive: true, type: "trade"},
-					{min: 3.372499999999987, max: 3.727499999999986, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Hyena-Wrapped Gaff Stick",
-			img: "Gear/Merchant2H_R009.png",
-			effects: {
-				30: [
-					{min: 8.037, max: 8.883000000000001, positive: true, type: "speed"},
-					{min: 112.92649999999999, max: 124.81349999999999, positive: true, type: "snareResist"},
-				],
-			}
-		},
-		{
-			name: "Three-Headed Gaff Stick of Cerberus",
-			img: "Gear/Merchant2H_E003.png",
-			effects: {
-				25: [
-					{min: 8.825499999999998, max: 9.7545, positive: true, type: "trade"},
-					{min: -2.3099999999999903, max: -2.0899999999999914, positive: true, type: "cost"},
-					{min: 0.892999999999986, max: 0.9869999999999846, positive: true, type: "speed"},
-				],
-				26: [
-					{min: 9.110499999999988, max: 10.069499999999987, positive: true, type: "trade"},
-					{min: -2.383499999999994, max: -2.1564999999999945, positive: true, type: "cost"},
-					{min: 0.9214999999999829, max: 1.018499999999981, positive: true, type: "speed"},
-				],
-				27: [
-					{min: 9.395499999999998, max: 10.3845, positive: true, type: "trade"},
-					{min: -2.4569999999999976, max: -2.2229999999999976, positive: true, type: "cost"},
-					{min: 0.9499999999999797, max: 1.0499999999999776, positive: true, type: "speed"},
-				],
-				28: [
-					{min: 9.680499999999988, max: 10.699499999999986, positive: true, type: "trade"},
-					{min: -2.5305000000000013, max: -2.2895000000000008, positive: true, type: "cost"},
-					{min: 0.9784999999999977, max: 1.0814999999999975, positive: true, type: "speed"},
-				],
-				29: [
-					{min: 9.965499999999999, max: 11.014499999999998, positive: true, type: "trade"},
-					{min: -2.603999999999993, max: -2.3559999999999937, positive: true, type: "cost"},
-					{min: 1.0069999999999946, max: 1.112999999999994, positive: true, type: "speed"},
-				],
-			}
-		},
-		{
-			name: "Blessed Camel Armor",
-			img: "Gear/Merchant2H_R008.png",
-			effects: {
-				23: [
-					{min: 8.721000000000009, max: 9.639000000000012, positive: true, type: "trade"},
-					{min: 8.32199999999999, max: 9.197999999999992, positive: true, type: "armorPierce"},
-				],
-				24: [
-					{min: 9.015499999999998, max: 9.9645, positive: true, type: "trade"},
-					{min: 8.597500000000002, max: 9.502500000000003, positive: true, type: "armorPierce"},
-				],
-				25: [
-					{min: 9.310000000000008, max: 10.290000000000008, positive: true, type: "trade"},
-					{min: 8.872999999999992, max: 9.806999999999993, positive: true, type: "armorPierce"},
-				],
-				26: [
-					{min: 9.604500000000018, max: 10.61550000000002, positive: true, type: "trade"},
-					{min: 9.148500000000006, max: 10.111500000000007, positive: true, type: "armorPierce"},
-				],
-				27: [
-					{min: 9.899000000000006, max: 10.941000000000008, positive: true, type: "trade"},
-					{min: 9.423999999999994, max: 10.415999999999995, positive: true, type: "armorPierce"},
-				],
-			}
-		},
-		{
-			name: "Horus' Runic Camel Tack",
-			img: "Gear/Merchant2H_E002.png",
-			effects: {
-				21: [
-					{min: 5.149000000000002, max: 5.691000000000003, positive: true, type: "trade"},
-					{min: 2.346500000000016, max: 2.5935000000000175, positive: true, type: "speed"},
-					{min: 9.604499999999996, max: 10.615499999999995, positive: true, type: "health"},
-				],
-				22: [
-					{min: 5.339000000000002, max: 5.901000000000003, positive: true, type: "trade"},
-					{min: 2.432000000000006, max: 2.6880000000000073, positive: true, type: "speed"},
-					{min: 9.956, max: 11.004000000000001, positive: true, type: "health"},
-				],
-				23: [
-					{min: 5.529000000000003, max: 6.111000000000003, positive: true, type: "trade"},
-					{min: 2.517500000000018, max: 2.78250000000002, positive: true, type: "speed"},
-					{min: 10.307500000000005, max: 11.392500000000005, positive: true, type: "health"},
-				],
-				24: [
-					{min: 5.719000000000003, max: 6.321000000000003, positive: true, type: "trade"},
-					{min: 2.6030000000000086, max: 2.8770000000000095, positive: true, type: "speed"},
-					{min: 10.659000000000006, max: 11.78100000000001, positive: true, type: "health"},
-				],
-				25: [
-					{min: 5.9090000000000025, max: 6.531000000000004, positive: true, type: "trade"},
-					{min: 2.6885000000000203, max: 2.9715000000000225, positive: true, type: "speed"},
-					{min: 11.01049999999999, max: 12.169499999999989, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Cured Deer-Hide Wrappings",
-			img: "Gear/Merchant2H_R101.png",
-			effects: {
-				21: [
-					{min: 7.619000000000004, max: 8.421000000000005, positive: true, type: "trade"},
-					{min: 1.0830000000000073, max: 1.197000000000008, positive: true, type: "speed"},
-				],
-				22: [
-					{min: 7.894499999999995, max: 8.725499999999995, positive: true, type: "trade"},
-					{min: 1.121000000000003, max: 1.2390000000000034, positive: true, type: "speed"},
-				],
-				23: [
-					{min: 8.169999999999986, max: 9.029999999999985, positive: true, type: "trade"},
-					{min: 1.158999999999999, max: 1.2809999999999988, positive: true, type: "speed"},
-				],
-				24: [
-					{min: 8.445499999999997, max: 9.334499999999997, positive: true, type: "trade"},
-					{min: 1.1969999999999947, max: 1.3229999999999942, positive: true, type: "speed"},
-				],
-				25: [
-					{min: 8.72099999999999, max: 9.638999999999989, positive: true, type: "trade"},
-					{min: 1.2350000000000116, max: 1.3650000000000129, positive: true, type: "speed"},
-				],
-			}
-		},
-		{
-			name: "Ram-Head Water Bags",
-			img: "Gear/Merchant2H_R007.png",
-			effects: {
-				19: [
-					{min: 7.543000000000013, max: 8.337000000000014, positive: true, type: "trade"},
-					{min: 0.7410000000000028, max: 0.8190000000000031, positive: true, type: "speed"},
-				],
-				20: [
-					{min: 7.837500000000001, max: 8.662500000000001, positive: true, type: "trade"},
-					{min: 0.7694999999999996, max: 0.8504999999999996, positive: true, type: "speed"},
-				],
-				21: [
-					{min: 8.132000000000012, max: 8.988000000000014, positive: true, type: "trade"},
-					{min: 0.7980000000000176, max: 0.8820000000000194, positive: true, type: "speed"},
-				],
-				22: [
-					{min: 8.4265, max: 9.313500000000001, positive: true, type: "trade"},
-					{min: 0.8265000000000144, max: 0.913500000000016, positive: true, type: "speed"},
-				],
-				23: [
-					{min: 8.721000000000009, max: 9.639000000000012, positive: true, type: "trade"},
-					{min: 0.8550000000000113, max: 0.9450000000000125, positive: true, type: "speed"},
-				],
-			}
-		},
-		{
-			name: "Gold-Studded Merchant Barding",
-			img: "Gear/Merchant2H_E001.png",
-			effects: {
-				18: [
-					{min: 7.732999999999992, max: 8.546999999999992, positive: true, type: "trade"},
-					{min: 4.151500000000007, max: 4.588500000000008, positive: true, type: "health"},
-					{min: 0.6934999999999869, max: 0.7664999999999855, positive: true, type: "speed"},
-				],
-				19: [
-					{min: 8.056, max: 8.903999999999998, positive: true, type: "trade"},
-					{min: 4.322500000000009, max: 4.7775000000000105, positive: true, type: "health"},
-					{min: 0.7219999999999838, max: 0.7979999999999821, positive: true, type: "speed"},
-				],
-				20: [
-					{min: 8.379000000000005, max: 9.261000000000006, positive: true, type: "trade"},
-					{min: 4.493500000000012, max: 4.966500000000012, positive: true, type: "health"},
-					{min: 0.7504999999999806, max: 0.8294999999999786, positive: true, type: "speed"},
-				],
-				21: [
-					{min: 8.70199999999999, max: 9.61799999999999, positive: true, type: "trade"},
-					{min: 4.664499999999992, max: 5.155499999999992, positive: true, type: "health"},
-					{min: 0.7789999999999986, max: 0.8609999999999984, positive: true, type: "speed"},
-				],
-				22: [
-					{min: 9.024999999999997, max: 9.974999999999996, positive: true, type: "trade"},
-					{min: 4.835499999999994, max: 5.344499999999995, positive: true, type: "health"},
-					{min: 0.8074999999999954, max: 0.892499999999995, positive: true, type: "speed"},
-				],
-			}
-		},
-		{
-			name: "Superior Water Bags",
-			img: "Gear/Merchant2H_U005.png",
-			effects: {
-				21: [
-					{min: 6.536000000000018, max: 7.224000000000021, positive: true, type: "trade"},
-					{min: 0.5700000000000005, max: 0.6300000000000006, positive: true, type: "speed"},
-				],
-			}
-		},
-		{
-			name: "Helios' Mule Tack",
-			img: "Gear/Merchant2H_R006.png",
-			effects: {
-				16: [
-					{min: 6.659500000000005, max: 7.360500000000005, positive: true, type: "trade"},
-					{min: 6.573999999999993, max: 7.265999999999993, positive: true, type: "armorInfantry"},
-				],
-				17: [
-					{min: 6.954000000000014, max: 7.686000000000017, positive: true, type: "trade"},
-					{min: 6.8590000000000035, max: 7.581000000000005, positive: true, type: "armorInfantry"},
-				],
-				18: [
-					{min: 7.248500000000003, max: 8.011500000000003, positive: true, type: "trade"},
-					{min: 7.143999999999993, max: 7.895999999999994, positive: true, type: "armorInfantry"},
-				],
-				19: [
-					{min: 7.543000000000013, max: 8.337000000000014, positive: true, type: "trade"},
-					{min: 7.429000000000004, max: 8.211000000000006, positive: true, type: "armorInfantry"},
-				],
-				20: [
-					{min: 7.837500000000001, max: 8.662500000000001, positive: true, type: "trade"},
-					{min: 7.713999999999994, max: 8.525999999999994, positive: true, type: "armorInfantry"},
-				],
-			}
-		},
-		{
-			name: "Light Camel Barding",
-			img: "Gear/Merchant2H_R005.png",
-			effects: {
-				15: [
-					{min: 7.1724999999999905, max: 7.9274999999999896, positive: true, type: "speed"},
-				],
-				16: [
-					{min: 7.5049999999999955, max: 8.294999999999996, positive: true, type: "speed"},
-				],
-				17: [
-					{min: 7.837500000000001, max: 8.662500000000001, positive: true, type: "speed"},
-				],
-				18: [
-					{min: 8.169999999999986, max: 9.029999999999985, positive: true, type: "speed"},
-				],
-				19: [
-					{min: 8.502499999999992, max: 9.397499999999992, positive: true, type: "speed"},
-				],
-			}
-		},
-		{
-			name: "Leather Mule Armor",
-			img: "Gear/Merchant2H_R004.png",
-			effects: {
-				13: [
-					{min: 5.776000000000018, max: 6.38400000000002, positive: true, type: "trade"},
-					{min: 5.719000000000003, max: 6.321000000000003, positive: true, type: "armorPierce"},
-				],
-				14: [
-					{min: 6.070500000000006, max: 6.709500000000007, positive: true, type: "trade"},
-					{min: 6.0039999999999925, max: 6.635999999999992, positive: true, type: "armorPierce"},
-				],
-				15: [
-					{min: 6.365000000000016, max: 7.035000000000018, positive: true, type: "trade"},
-					{min: 6.289000000000003, max: 6.951000000000004, positive: true, type: "armorPierce"},
-				],
-				16: [
-					{min: 6.659500000000005, max: 7.360500000000005, positive: true, type: "trade"},
-					{min: 6.573999999999993, max: 7.265999999999993, positive: true, type: "armorPierce"},
-				],
-				17: [
-					{min: 6.954000000000014, max: 7.686000000000017, positive: true, type: "trade"},
-					{min: 6.8590000000000035, max: 7.581000000000005, positive: true, type: "armorPierce"},
-				],
-			}
-		},
-		{
-			name: "Merchant Log",
-			img: "Gear/Merchant2H_U001.png",
-			effects: {
-				3: [
-					{min: 2.4415000000000053, max: 2.698500000000006, positive: true, type: "trade"},
-				],
-				4: [
-					{min: 2.650500000000003, max: 2.929500000000004, positive: true, type: "trade"},
-				],
-				5: [
-					{min: 2.8595000000000015, max: 3.1605000000000016, positive: true, type: "trade"},
-				],
-				6: [
-					{min: 3.0684999999999993, max: 3.3914999999999997, positive: true, type: "trade"},
-				],
-				7: [
-					{min: 3.2774999999999976, max: 3.6224999999999974, positive: true, type: "trade"},
-				],
-				8: [
-					{min: 3.4864999999999955, max: 3.8534999999999955, positive: true, type: "trade"},
-				],
-				9: [
-					{min: 3.695499999999994, max: 4.084499999999993, positive: true, type: "trade"},
-				],
-				10: [
-					{min: 3.9044999999999916, max: 4.315499999999991, positive: true, type: "trade"},
-				],
-				11: [
-					{min: 4.1134999999999895, max: 4.546499999999989, positive: true, type: "trade"},
-				],
-				12: [
-					{min: 4.322499999999988, max: 4.7774999999999865, positive: true, type: "trade"},
-				],
-				13: [
-					{min: 4.531499999999986, max: 5.008499999999985, positive: true, type: "trade"},
-				],
-				14: [
-					{min: 4.740500000000005, max: 5.239500000000006, positive: true, type: "trade"},
-				],
-				15: [
-					{min: 4.949500000000003, max: 5.470500000000004, positive: true, type: "trade"},
-				],
-				16: [
-					{min: 5.158500000000001, max: 5.701500000000002, positive: true, type: "trade"},
-				],
-			}
-		},
-		{
-			name: "Royal Merchant Log",
-			img: "Gear/Merchant2H_R003.png",
-			effects: {
-				10: [
-					{min: 2.5649999999999915, max: 2.834999999999991, positive: true, type: "trade"},
-					{min: 2.5649999999999915, max: 2.834999999999991, positive: true, type: "speed"},
-				],
-				11: [
-					{min: 2.716999999999996, max: 3.0029999999999957, positive: true, type: "trade"},
-					{min: 2.716999999999996, max: 3.0029999999999957, positive: true, type: "speed"},
-				],
-				12: [
-					{min: 2.869, max: 3.1710000000000007, positive: true, type: "trade"},
-					{min: 2.869, max: 3.1710000000000007, positive: true, type: "speed"},
-				],
-				13: [
-					{min: 3.021000000000005, max: 3.3390000000000053, positive: true, type: "trade"},
-					{min: 3.021000000000005, max: 3.3390000000000053, positive: true, type: "speed"},
-				],
-				14: [
-					{min: 3.172999999999988, max: 3.506999999999987, positive: true, type: "trade"},
-					{min: 3.172999999999988, max: 3.506999999999987, positive: true, type: "speed"},
-				],
-			}
-		},
-		{
-			name: "Explorer's Log",
-			img: "Gear/Merchant2H_U101.png",
-			effects: {
-				9: [
-					{min: 3.695499999999994, max: 4.084499999999993, positive: true, type: "trade"},
-				],
-				10: [
-					{min: 3.9044999999999916, max: 4.315499999999991, positive: true, type: "trade"},
-				],
-				11: [
-					{min: 4.1134999999999895, max: 4.546499999999989, positive: true, type: "trade"},
-				],
-				12: [
-					{min: 4.322499999999988, max: 4.7774999999999865, positive: true, type: "trade"},
-				],
-				13: [
-					{min: 4.531499999999986, max: 5.008499999999985, positive: true, type: "trade"},
-				],
-			}
-		},
-		{
-			name: "Gaff Handler",
-			img: "Gear/Merchant2H_R002.png",
-			effects: {
-				7: [
-					{min: 4.009000000000001, max: 4.431000000000002, positive: true, type: "trade"},
-					{min: 14.820000000000013, max: 16.380000000000017, positive: true, type: "snareResist"},
-				],
-				8: [
-					{min: 4.303500000000011, max: 4.756500000000012, positive: true, type: "trade"},
-					{min: 15.884000000000002, max: 17.556000000000004, positive: true, type: "snareResist"},
-				],
-				9: [
-					{min: 4.598, max: 5.082, positive: true, type: "trade"},
-					{min: 16.948000000000008, max: 18.732000000000014, positive: true, type: "snareResist"},
-				],
-				10: [
-					{min: 4.892500000000009, max: 5.407500000000011, positive: true, type: "trade"},
-					{min: 18.012, max: 19.908, positive: true, type: "snareResist"},
-				],
-				11: [
-					{min: 5.187000000000019, max: 5.733000000000022, positive: true, type: "trade"},
-					{min: 19.076000000000008, max: 21.08400000000001, positive: true, type: "snareResist"},
-				],
-				12: [
-					{min: 5.481500000000008, max: 6.058500000000009, positive: true, type: "trade"},
-					{min: 20.139999999999993, max: 22.259999999999998, positive: true, type: "snareResist"},
-				],
-			}
-		},
-		{
-			name: "Ideal Water Bags",
-			img: "Gear/Merchant2H_U004.png",
-			effects: {
-				11: [
-					{min: 4.256000000000016, max: 4.704000000000018, positive: true, type: "trade"},
-					{min: 1.795499999999992, max: 1.9844999999999913, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Boar-Head Water Bags",
-			img: "Gear/Merchant2H_R001.png",
-			effects: {
-				7: [
-					{min: 4.009000000000001, max: 4.431000000000002, positive: true, type: "trade"},
-					{min: 0.39899999999999824, max: 0.44099999999999806, positive: true, type: "speed"},
-				],
-				8: [
-					{min: 4.303500000000011, max: 4.756500000000012, positive: true, type: "trade"},
-					{min: 0.4275000000000162, max: 0.4725000000000179, positive: true, type: "speed"},
-				],
-				9: [
-					{min: 4.598, max: 5.082, positive: true, type: "trade"},
-					{min: 0.45600000000001306, max: 0.5040000000000144, positive: true, type: "speed"},
-				],
-				10: [
-					{min: 4.892500000000009, max: 5.407500000000011, positive: true, type: "trade"},
-					{min: 0.4845000000000099, max: 0.535500000000011, positive: true, type: "speed"},
 				],
 			}
 		},

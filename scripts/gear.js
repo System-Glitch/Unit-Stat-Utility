@@ -12598,7 +12598,7 @@ var gear = {
 		{name: "None", img: 'Slot/BallistaArmSlot_ua.png'},
 		{
 			name: "Blessed Dionysus´ Throwing Arm",
-			img: "Gear/Ballista2H_BDTA",
+			img: "Gear/Generic/Ballista/Ballista_L90_ua.(1,4,1,1).png",
 			effects: {
 				40: [
 					{min: 22.002000000000002, max: 24.318000000000005, positive: true, type: "damage"},
@@ -12609,7 +12609,7 @@ var gear = {
 		},
 		{
 			name: "Blessed Throwing Arm",
-			img: "Gear/Ballista2H_L401_VR",
+			img: "Gear/Generic/Ballista/Ballista_L90_ua.(1,4,1,1).png",
 			effects: {
 				40: [
 					{min: 46.303000000000004, max: 51.177000000000014, positive: true, type: "damage"},
@@ -12619,7 +12619,7 @@ var gear = {
 		},
 		{
 			name: "Siege Arm of Archimedes",
-			img: "Gear/Ballista2H_L001",
+			img: "Gear/Generic/Ballista/Ballista_L90_ua.(1,4,1,1).png",
 			effects: {
 				40: [
 					{min: 49.7515, max: 54.98850000000001, positive: true, type: "damage"},
@@ -12629,7 +12629,7 @@ var gear = {
 		},
 		{
 			name: "Arm of Atlas",
-			img: "Gear/Ballista2H_E005",
+			img: "Gear/Generic/Ballista/Ballista_E60_ua.(1,4,1,1).png",
 			effects: {
 				40: [
 					{min: 32.5185, max: 35.941500000000005, positive: true, type: "damage"},
@@ -12640,7 +12640,7 @@ var gear = {
 		},
 		{
 			name: "The Long Arm of Lugh",
-			img: "Gear/Ballista2H_E101",
+			img: "Gear/Generic/Ballista/Ballista_E61_ua.(1,4,1,1).png",
 			effects: {
 				37: [
 					{min: 50.663500000000006, max: 55.99650000000002, positive: true, type: "damage"},
@@ -12658,7 +12658,7 @@ var gear = {
 		},
 		{
 			name: "Themis' Arm of Justice",
-			img: "Gear/Ballista2H_E006_VR",
+			img: "Gear/Generic/Ballista/Ballista_E61_ua.(1,4,1,1).png",
 			effects: {
 				40: [
 					{min: 38.18049999999999, max: 42.19949999999999, positive: true, type: "damage"},
@@ -12669,7 +12669,7 @@ var gear = {
 		},
 		{
 			name: "Throwing Arm of the Titans",
-			img: "Gear/Ballista2H_E007_VR",
+			img: "Gear/Generic/Ballista/Ballista_E60_ua.(1,4,1,1).png",
 			effects: {
 				37: [
 					{min: 38.54149999999999, max: 42.598499999999994, positive: true, type: "damage"},
@@ -12695,7 +12695,7 @@ var gear = {
 		},
 		{
 			name: "Siege Arm of the Elephant",
-			img: "Gear/Ballista2H_R011_VR",
+			img: "Gear/Generic/Ballista/Ballista_R31_ua.(1,4,1,1).png",
 			effects: {
 				36: [
 					{min: 49.46649999999999, max: 54.6735, positive: true, type: "damage"},
@@ -12721,7 +12721,7 @@ var gear = {
 		},
 		{
 			name: "Cedar Throwing Arm",
-			img: "Gear/Ballista2H_U002",
+			img: "Gear/Generic/Ballista/Ballista_U22_ua.(1,4,1,1).png",
 			effects: {
 				32: [
 					{min: 24.823500000000006, max: 27.436500000000013, positive: true, type: "damage"},
@@ -12754,7 +12754,7 @@ var gear = {
 		},
 		{
 			name: "Peerless Spring Throwing Arm",
-			img: "Gear/Ballista2H_U008_VR",
+			img: "Gear/Generic/Ballista/Ballista_U11_ua.(1,4,1,1).png",
 			effects: {
 				40: [
 					{min: 31.369, max: 34.67100000000001, positive: true, type: "damage"},
@@ -12764,7 +12764,7 @@ var gear = {
 		},
 		{
 			name: "Immaculate Custom Throwing Arm",
-			img: "Gear/Ballista2H_U007",
+			img: "Gear/Generic/Ballista/Ballista_U10_ua.(1,4,1,1).png",
 			effects: {
 				39: [
 					{min: 30.71350000000001, max: 33.946500000000015, positive: true, type: "damage"},
@@ -12774,7 +12774,7 @@ var gear = {
 		},
 		{
 			name: "Vizier's Custom Siege Arm",
-			img: "Gear/Ballista2H_R010",
+			img: "Gear/Generic/Ballista/Ballista_R30_ua.(1,4,1,1).png",
 			effects: {
 				34: [
 					{min: 33.41150000000001, max: 36.92850000000002, positive: true, type: "damage"},
@@ -12800,7 +12800,7 @@ var gear = {
 		},
 		{
 			name: "Pan's Frightening Arm",
-			img: "Gear/Ballista2H_E004_VR",
+			img: "Gear/Generic/Ballista/Ballista_E60_ua.(1,4,1,1).png",
 			effects: {
 				33: [
 					{min: 35.31150000000002, max: 39.028500000000015, positive: true, type: "damage"},
@@ -12831,7 +12831,7 @@ var gear = {
 		},
 		{
 			name: "Oak Throwing Arm",
-			img: "Gear/Ballista2H_U001",
+			img: "Gear/Generic/Ballista/Ballista_U10_ua.(1,4,1,1).png",
 			effects: {
 				17: [
 					{min: 15.8935, max: 17.5665, positive: true, type: "damage"},
@@ -12900,7 +12900,7 @@ var gear = {
 		},
 		{
 			name: "Athenian Champion's Siege Arm",
-			img: "Gear/Ballista2H_E008",
+			img: "Gear/Generic/Ballista/Ballista_E61_ua.(1,4,1,1).png",
 			effects: {
 				30: [
 					{min: 37.667500000000004, max: 41.63250000000001, positive: true, type: "damage"},
@@ -12930,7 +12930,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Banded Long-Siege Arm",
-			img: "Gear/Ballista2H_R009",
+			img: "Gear/Generic/Ballista/Ballista_R31_ua.(1,4,1,1).png",
 			effects: {
 				35: [
 					{min: 34.58950000000001, max: 38.23050000000001, positive: true, type: "damage"},
@@ -12940,7 +12940,7 @@ var gear = {
 		},
 		{
 			name: "Trojan Elongated Siege Arm",
-			img: "Gear/Ballista2H_R008_VR",
+			img: "Gear/Generic/Ballista/Ballista_R30_ua.(1,4,1,1).png",
 			effects: {
 				31: [
 					{min: 14.497000000000005, max: 16.023000000000007, positive: true, type: "health"},
@@ -12966,7 +12966,7 @@ var gear = {
 		},
 		{
 			name: "Dionysus' Throwing Arm",
-			img: "Gear/Ballista2H_E003",
+			img: "Gear/Generic/Ballista/Ballista_E60_ua.(1,4,1,1).png",
 			effects: {
 				30: [
 					{min: 17.251999999999995, max: 19.067999999999998, positive: true, type: "damage"},
@@ -12997,7 +12997,7 @@ var gear = {
 		},
 		{
 			name: "Rune-Forged Siege Throwing Arm",
-			img: "Gear/Ballista2H_R102",
+			img: "Gear/Generic/Ballista/Ballista_R31_ua.(1,4,1,1).png",
 			effects: {
 				29: [
 					{min: 27.930000000000003, max: 30.870000000000008, positive: true, type: "damage"},
@@ -13023,7 +13023,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Cedar Throwing Arm",
-			img: "Gear/Ballista2H_R007",
+			img: "Gear/Generic/Ballista/Ballista_R30_ua.(1,4,1,1).png",
 			effects: {
 				32: [
 					{min: 32.11000000000001, max: 35.490000000000016, positive: true, type: "damage"},
@@ -13033,7 +13033,7 @@ var gear = {
 		},
 		{
 			name: "Extraordinary Banded Throwing Arm",
-			img: "Gear/Ballista2H_U006_VR",
+			img: "Gear/Generic/Ballista/Ballista_U11_ua.(1,4,1,1).png",
 			effects: {
 				31: [
 					{min: 25.4695, max: 28.150500000000005, positive: true, type: "damage"},
@@ -13043,7 +13043,7 @@ var gear = {
 		},
 		{
 			name: "Spartan Siege Arm",
-			img: "Gear/Ballista2H_R006",
+			img: "Gear/Generic/Ballista/Ballista_R31_ua.(1,4,1,1).png",
 			effects: {
 				26: [
 					{min: 27.426500000000015, max: 30.313500000000023, positive: true, type: "damage"},
@@ -13069,7 +13069,7 @@ var gear = {
 		},
 		{
 			name: "Boulder-Tossing Arm",
-			img: "Gear/Ballista2H_E002_VR",
+			img: "Gear/Generic/Ballista/Ballista_E61_ua.(1,4,1,1).png",
 			effects: {
 				25: [
 					{min: 28.62350000000001, max: 31.636500000000016, positive: true, type: "damage"},
@@ -13100,7 +13100,7 @@ var gear = {
 		},
 		{
 			name: "King Minos' Radiant Siege Arm",
-			img: "Gear/Ballista2H_EB01",
+			img: "Gear/Generic/Ballista/Ballista_E61_ua.(1,4,1,1).png",
 			effects: {
 				27: [
 					{min: 34.2475, max: 37.852500000000006, positive: true, type: "damage"},
@@ -13118,7 +13118,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Tempered Throwing Arm",
-			img: "Gear/Ballista2H_U005",
+			img: "Gear/Generic/Ballista/Ballista_U10_ua.(1,4,1,1).png",
 			effects: {
 				29: [
 					{min: 24.462500000000006, max: 27.03750000000001, positive: true, type: "damage"},
@@ -13128,7 +13128,7 @@ var gear = {
 		},
 		{
 			name: "Half-Moon Curved Throwing Arm",
-			img: "Gear/Ballista2H_R005",
+			img: "Gear/Generic/Ballista/Ballista_R30_ua.(1,4,1,1).png",
 			effects: {
 				24: [
 					{min: 25.75450000000001, max: 28.465500000000016, positive: true, type: "damage"},
@@ -13154,7 +13154,7 @@ var gear = {
 		},
 		{
 			name: "Dark Iron Siege Throwing Arm",
-			img: "Gear/Ballista2H_R101",
+			img: "Gear/Generic/Ballista/Ballista_R31_ua.(1,4,1,1).png",
 			effects: {
 				22: [
 					{min: 22.714500000000008, max: 25.105500000000013, positive: true, type: "damage"},
@@ -13180,7 +13180,7 @@ var gear = {
 		},
 		{
 			name: "Tightened Boar-Sinew Throwing Arm",
-			img: "Gear/Ballista2H_R004",
+			img: "Gear/Generic/Ballista/Ballista_R30_ua.(1,4,1,1).png",
 			effects: {
 				22: [
 					{min: 21.108999999999995, max: 23.330999999999996, positive: true, type: "damage"},
@@ -13206,7 +13206,7 @@ var gear = {
 		},
 		{
 			name: "Tightened Throwing Arm",
-			img: "Gear/Ballista2H_R003",
+			img: "Gear/Generic/Ballista/Ballista_R31_ua.(1,4,1,1).png",
 			effects: {
 				21: [
 					{min: 26.34350000000001, max: 29.116500000000013, positive: true, type: "damage"},
@@ -13227,7 +13227,7 @@ var gear = {
 		},
 		{
 			name: "Torsion-Spring Arm",
-			img: "Gear/Ballista2H_E001",
+			img: "Gear/Generic/Ballista/Ballista_E60_ua.(1,4,1,1).png",
 			effects: {
 				20: [
 					{min: 24.23450000000001, max: 26.785500000000013, positive: true, type: "damage"},
@@ -13258,7 +13258,7 @@ var gear = {
 		},
 		{
 			name: "Elongated Throwing Arm",
-			img: "Gear/Ballista2H_R002_VR",
+			img: "Gear/Generic/Ballista/Ballista_R31_ua.(1,4,1,1).png",
 			effects: {
 				18: [
 					{min: 18.3825, max: 20.317500000000003, positive: true, type: "damage"},
@@ -13284,7 +13284,7 @@ var gear = {
 		},
 		{
 			name: "Arm of the North",
-			img: "Gear/Ballista2H_ED01",
+			img: "Gear/Generic/Ballista/Ballista_E60_ua.(1,4,1,1).png",
 			effects: {
 				21: [
 					{min: 25.39350000000001, max: 28.066500000000012, positive: true, type: "damage"},
@@ -13295,7 +13295,7 @@ var gear = {
 		},
 		{
 			name: "Grand Elongated Throwing Arm",
-			img: "Gear/Ballista2H_U004_VR",
+			img: "Gear/Generic/Ballista/Ballista_U11_ua.(1,4,1,1).png",
 			effects: {
 				21: [
 					{min: 19.142500000000002, max: 21.157500000000002, positive: true, type: "damage"},
@@ -13305,7 +13305,7 @@ var gear = {
 		},
 		{
 			name: "Curved Throwing Arm",
-			img: "Gear/Ballista2H_R001",
+			img: "Gear/Generic/Ballista/Ballista_R30_ua.(1,4,1,1).png",
 			effects: {
 				17: [
 					{min: 20.0925, max: 22.207500000000003, positive: true, type: "damage"},
@@ -13327,7 +13327,7 @@ var gear = {
 		},
 		{
 			name: "Mighty Argos Siege Arm",
-			img: "Gear/Ballista2H_R012",
+			img: "Gear/Generic/Ballista/Ballista_R30_ua.(1,4,1,1).png",
 			effects: {
 				20: [
 					{min: 22.4105, max: 24.7695, positive: true, type: "damage"},
@@ -13337,7 +13337,7 @@ var gear = {
 		},
 		{
 			name: "Hero's Throwing Arm",
-			img: "Gear/Ballista2H_U201_VR",
+			img: "Gear/Generic/Ballista/Ballista_U11_ua.(1,4,1,1).png",
 			effects: {
 				20: [
 					{min: 15.855500000000005, max: 17.524500000000007, positive: true, type: "damage"},
@@ -13347,7 +13347,7 @@ var gear = {
 		},
 		{
 			name: "Superior Throwing Arm",
-			img: "Gear/Ballista2H_U003",
+			img: "Gear/Generic/Ballista/Ballista_U10_ua.(1,4,1,1).png",
 			effects: {
 				19: [
 					{min: 18.021500000000017, max: 19.918500000000023, positive: true, type: "damage"},
@@ -13357,7 +13357,7 @@ var gear = {
 		},
 		{
 			name: "Artificer's Siege Throwing Arm",
-			img: "Gear/Ballista2H_U101",
+			img: "Gear/Generic/Ballista/Ballista_U10_ua.(1,4,1,1).png",
 			effects: {
 				14: [
 					{min: 14.202500000000017, max: 15.697500000000021, positive: true, type: "damage"},

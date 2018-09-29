@@ -1683,7 +1683,7 @@ var gear = {
 			effects: {
 				40: [
 					{min: 71.66799999999999, max: 79.212, positive: true, type: "damage"},
-					{min: 18.5535, max: 20.506500000000003, positive: true, type: "multiplerShips"},
+					{min: 18.5535, max: 20.506500000000003, positive: true, type: "multiplierShips"},
 				],
 			}
 		},
@@ -1712,7 +1712,7 @@ var gear = {
 				40: [
 					{min: 58.52, max: 64.68, positive: true, type: "damage"},
 					{min: 5.775999999999996, max: 6.383999999999997, positive: true, type: "critical"},
-					{min: 17.73649999999999, max: 19.603499999999986, positive: true, type: "multiplerShips"},
+					{min: 17.73649999999999, max: 19.603499999999986, positive: true, type: "multiplierShips"},
 				],
 			}
 		},
@@ -1732,23 +1732,23 @@ var gear = {
 			effects: {
 				36: [
 					{min: 43.054, max: 47.58600000000001, positive: true, type: "damage"},
-					{min: 27.616500000000016, max: 30.52350000000002, positive: true, type: "multiplerShips"},
+					{min: 27.616500000000016, max: 30.52350000000002, positive: true, type: "multiplierShips"},
 				],
 				37: [
 					{min: 44.06099999999999, max: 48.699, positive: true, type: "damage"},
-					{min: 28.253000000000007, max: 31.22700000000001, positive: true, type: "multiplerShips"},
+					{min: 28.253000000000007, max: 31.22700000000001, positive: true, type: "multiplierShips"},
 				],
 				38: [
 					{min: 45.06800000000001, max: 49.81200000000001, positive: true, type: "damage"},
-					{min: 28.8895, max: 31.930500000000006, positive: true, type: "multiplerShips"},
+					{min: 28.8895, max: 31.930500000000006, positive: true, type: "multiplierShips"},
 				],
 				39: [
 					{min: 46.075, max: 50.92500000000001, positive: true, type: "damage"},
-					{min: 29.525999999999996, max: 32.634, positive: true, type: "multiplerShips"},
+					{min: 29.525999999999996, max: 32.634, positive: true, type: "multiplierShips"},
 				],
 				40: [
 					{min: 47.082, max: 52.038000000000004, positive: true, type: "damage"},
-					{min: 30.16250000000001, max: 33.33750000000001, positive: true, type: "multiplerShips"},
+					{min: 30.16250000000001, max: 33.33750000000001, positive: true, type: "multiplierShips"},
 				],
 			}
 		},
@@ -1908,7 +1908,7 @@ var gear = {
 			effects: {
 				36: [
 					{min: 40.204, max: 44.436, positive: true, type: "damage"},
-					{min: 11.39999999999999, max: 12.599999999999989, positive: true, type: "multiplerShips"},
+					{min: 11.39999999999999, max: 12.599999999999989, positive: true, type: "multiplierShips"},
 				],
 			}
 		},
@@ -1918,27 +1918,27 @@ var gear = {
 			effects: {
 				30: [
 					{min: 53.48499999999999, max: 59.115, positive: true, type: "damage"},
-					{min: 14.249999999999991, max: 15.749999999999991, positive: true, type: "multiplerShips"},
+					{min: 14.249999999999991, max: 15.749999999999991, positive: true, type: "multiplierShips"},
 				],
 				31: [
 					{min: 54.976499999999994, max: 60.7635, positive: true, type: "damage"},
-					{min: 14.63949999999999, max: 16.180499999999988, positive: true, type: "multiplerShips"},
+					{min: 14.63949999999999, max: 16.180499999999988, positive: true, type: "multiplierShips"},
 				],
 				32: [
 					{min: 56.46799999999998, max: 62.411999999999985, positive: true, type: "damage"},
-					{min: 15.02899999999999, max: 16.61099999999999, positive: true, type: "multiplerShips"},
+					{min: 15.02899999999999, max: 16.61099999999999, positive: true, type: "multiplierShips"},
 				],
 				33: [
 					{min: 57.959499999999984, max: 64.06049999999999, positive: true, type: "damage"},
-					{min: 15.41849999999999, max: 17.04149999999999, positive: true, type: "multiplerShips"},
+					{min: 15.41849999999999, max: 17.04149999999999, positive: true, type: "multiplierShips"},
 				],
 				34: [
 					{min: 59.450999999999986, max: 65.70899999999999, positive: true, type: "damage"},
-					{min: 15.807999999999986, max: 17.471999999999987, positive: true, type: "multiplerShips"},
+					{min: 15.807999999999986, max: 17.471999999999987, positive: true, type: "multiplierShips"},
 				],
 				35: [
 					{min: 60.942499999999974, max: 67.35749999999997, positive: true, type: "damage"},
-					{min: 16.197499999999987, max: 17.902499999999986, positive: true, type: "multiplerShips"},
+					{min: 16.197499999999987, max: 17.902499999999986, positive: true, type: "multiplierShips"},
 				],
 			}
 		},
@@ -1985,27 +1985,27 @@ var gear = {
 				27: [
 					{min: 19.25650000000001, max: 21.28350000000001, positive: true, type: "health"},
 					{min: 5.405499999999995, max: 5.9744999999999955, positive: true, type: "critical"},
-					{min: 20.33, max: 22.47, positive: true, type: "multiplerShips"},
+					{min: 20.33, max: 22.47, positive: true, type: "multiplierShips"},
 				],
 				28: [
 					{min: 19.83600000000001, max: 21.92400000000001, positive: true, type: "health"},
 					{min: 5.566999999999998, max: 6.152999999999999, positive: true, type: "critical"},
-					{min: 20.938000000000013, max: 23.142000000000014, positive: true, type: "multiplerShips"},
+					{min: 20.938000000000013, max: 23.142000000000014, positive: true, type: "multiplierShips"},
 				],
 				29: [
 					{min: 20.41550000000001, max: 22.56450000000001, positive: true, type: "health"},
 					{min: 5.728500000000001, max: 6.331500000000003, positive: true, type: "critical"},
-					{min: 21.54600000000001, max: 23.81400000000001, positive: true, type: "multiplerShips"},
+					{min: 21.54600000000001, max: 23.81400000000001, positive: true, type: "multiplierShips"},
 				],
 				30: [
 					{min: 20.995000000000008, max: 23.20500000000001, positive: true, type: "health"},
 					{min: 5.890000000000005, max: 6.510000000000006, positive: true, type: "critical"},
-					{min: 22.154000000000007, max: 24.486000000000008, positive: true, type: "multiplerShips"},
+					{min: 22.154000000000007, max: 24.486000000000008, positive: true, type: "multiplierShips"},
 				],
 				31: [
 					{min: 21.574500000000008, max: 23.84550000000001, positive: true, type: "health"},
 					{min: 6.051500000000008, max: 6.68850000000001, positive: true, type: "critical"},
-					{min: 22.762000000000004, max: 25.158000000000005, positive: true, type: "multiplerShips"},
+					{min: 22.762000000000004, max: 25.158000000000005, positive: true, type: "multiplierShips"},
 				],
 			}
 		},
@@ -2015,7 +2015,7 @@ var gear = {
 			effects: {
 				31: [
 					{min: 43.99449999999999, max: 48.62549999999999, positive: true, type: "damage"},
-					{min: 12.378499999999987, max: 13.681499999999987, positive: true, type: "multiplerShips"},
+					{min: 12.378499999999987, max: 13.681499999999987, positive: true, type: "multiplierShips"},
 				],
 			}
 		},
@@ -2138,7 +2138,7 @@ var gear = {
 			effects: {
 				26: [
 					{min: 30.989000000000004, max: 34.251000000000005, positive: true, type: "damage"},
-					{min: 9.110499999999988, max: 10.069499999999987, positive: true, type: "multiplerShips"},
+					{min: 9.110499999999988, max: 10.069499999999987, positive: true, type: "multiplierShips"},
 				],
 			}
 		},
@@ -2205,23 +2205,23 @@ var gear = {
 			effects: {
 				18: [
 					{min: 29.00349999999999, max: 32.05649999999999, positive: true, type: "damage"},
-					{min: 8.378999999999984, max: 9.260999999999981, positive: true, type: "multiplerShips"},
+					{min: 8.378999999999984, max: 9.260999999999981, positive: true, type: "multiplierShips"},
 				],
 				19: [
 					{min: 30.18149999999999, max: 33.35849999999999, positive: true, type: "damage"},
-					{min: 8.71149999999999, max: 9.628499999999988, positive: true, type: "multiplerShips"},
+					{min: 8.71149999999999, max: 9.628499999999988, positive: true, type: "multiplierShips"},
 				],
 				20: [
 					{min: 31.359499999999983, max: 34.660499999999985, positive: true, type: "damage"},
-					{min: 9.043999999999995, max: 9.995999999999997, positive: true, type: "multiplerShips"},
+					{min: 9.043999999999995, max: 9.995999999999997, positive: true, type: "multiplierShips"},
 				],
 				21: [
 					{min: 32.53749999999998, max: 35.96249999999998, positive: true, type: "damage"},
-					{min: 9.3765, max: 10.363500000000002, positive: true, type: "multiplerShips"},
+					{min: 9.3765, max: 10.363500000000002, positive: true, type: "multiplierShips"},
 				],
 				22: [
 					{min: 33.7155, max: 37.264500000000005, positive: true, type: "damage"},
-					{min: 9.708999999999985, max: 10.730999999999984, positive: true, type: "multiplerShips"},
+					{min: 9.708999999999985, max: 10.730999999999984, positive: true, type: "multiplierShips"},
 				],
 			}
 		},
@@ -2241,7 +2241,7 @@ var gear = {
 			effects: {
 				20: [
 					{min: 21.745499999999986, max: 24.034499999999987, positive: true, type: "damage"},
-					{min: 6.640499999999985, max: 7.339499999999985, positive: true, type: "multiplerShips"},
+					{min: 6.640499999999985, max: 7.339499999999985, positive: true, type: "multiplierShips"},
 				],
 			}
 		},
@@ -2339,7 +2339,7 @@ var gear = {
 			effects: {
 				16: [
 					{min: 21.954499999999985, max: 24.265499999999985, positive: true, type: "damage"},
-					{min: 6.630999999999987, max: 7.3289999999999855, positive: true, type: "multiplerShips"},
+					{min: 6.630999999999987, max: 7.3289999999999855, positive: true, type: "multiplierShips"},
 				],
 			}
 		},
@@ -2415,7 +2415,7 @@ var gear = {
 			effects: {
 				6: [
 					{min: 8.293500000000014, max: 9.166500000000015, positive: true, type: "damage"},
-					{min: 16.301999999999996, max: 18.017999999999997, positive: true, type: "multiplerShips"},
+					{min: 16.301999999999996, max: 18.017999999999997, positive: true, type: "multiplierShips"},
 				],
 			}
 		},
@@ -2468,7 +2468,7 @@ var gear = {
 				40: [
 					{min: 8.350499999999988, max: 9.229499999999986, positive: true, type: "gatherFish"},
 					{min: 7.049000000000004, max: 7.791000000000005, positive: true, type: "speed"},
-					{min: 10.639999999999988, max: 11.75999999999999, positive: true, type: "multiplerShips"},
+					{min: 10.639999999999988, max: 11.75999999999999, positive: true, type: "multiplierShips"},
 				],
 			}
 		},
@@ -2479,32 +2479,32 @@ var gear = {
 				35: [
 					{min: 12.074499999999999, max: 13.3455, positive: true, type: "gatherFish"},
 					{min: 10.678000000000004, max: 11.802000000000007, positive: true, type: "range"},
-					{min: 24.111, max: 26.649000000000004, positive: true, type: "multiplerShips"},
+					{min: 24.111, max: 26.649000000000004, positive: true, type: "multiplierShips"},
 				],
 				36: [
 					{min: 12.369000000000009, max: 13.671000000000012, positive: true, type: "gatherFish"},
 					{min: 10.934499999999998, max: 12.085499999999998, positive: true, type: "range"},
-					{min: 24.6905, max: 27.289500000000004, positive: true, type: "multiplerShips"},
+					{min: 24.6905, max: 27.289500000000004, positive: true, type: "multiplierShips"},
 				],
 				37: [
 					{min: 12.663500000000019, max: 13.99650000000002, positive: true, type: "gatherFish"},
 					{min: 11.191000000000011, max: 12.369000000000012, positive: true, type: "range"},
-					{min: 25.27, max: 27.930000000000003, positive: true, type: "multiplerShips"},
+					{min: 25.27, max: 27.930000000000003, positive: true, type: "multiplierShips"},
 				],
 				38: [
 					{min: 12.958000000000007, max: 14.322000000000008, positive: true, type: "gatherFish"},
 					{min: 11.447500000000003, max: 12.652500000000005, positive: true, type: "range"},
-					{min: 25.8495, max: 28.570500000000003, positive: true, type: "multiplerShips"},
+					{min: 25.8495, max: 28.570500000000003, positive: true, type: "multiplierShips"},
 				],
 				39: [
 					{min: 13.252499999999996, max: 14.647499999999996, positive: true, type: "gatherFish"},
 					{min: 11.703999999999997, max: 12.935999999999996, positive: true, type: "range"},
-					{min: 26.429, max: 29.211000000000002, positive: true, type: "multiplerShips"},
+					{min: 26.429, max: 29.211000000000002, positive: true, type: "multiplierShips"},
 				],
 				40: [
 					{min: 13.547000000000004, max: 14.973000000000006, positive: true, type: "gatherFish"},
 					{min: 11.96050000000001, max: 13.219500000000014, positive: true, type: "range"},
-					{min: 27.008499999999998, max: 29.8515, positive: true, type: "multiplerShips"},
+					{min: 27.008499999999998, max: 29.8515, positive: true, type: "multiplierShips"},
 				],
 			}
 		},
@@ -2726,27 +2726,27 @@ var gear = {
 				26: [
 					{min: 10.317000000000002, max: 11.403000000000004, positive: true, type: "gatherFish"},
 					{min: 12.967499999999985, max: 14.332499999999984, positive: true, type: "armorPierce"},
-					{min: 10.478500000000006, max: 11.581500000000007, positive: true, type: "multiplerShips"},
+					{min: 10.478500000000006, max: 11.581500000000007, positive: true, type: "multiplierShips"},
 				],
 				27: [
 					{min: 10.64000000000001, max: 11.76000000000001, positive: true, type: "gatherFish"},
 					{min: 13.366499999999983, max: 14.773499999999983, positive: true, type: "armorPierce"},
-					{min: 10.801500000000011, max: 11.938500000000015, positive: true, type: "multiplerShips"},
+					{min: 10.801500000000011, max: 11.938500000000015, positive: true, type: "multiplierShips"},
 				],
 				28: [
 					{min: 10.962999999999996, max: 12.116999999999996, positive: true, type: "gatherFish"},
 					{min: 13.765499999999982, max: 15.21449999999998, positive: true, type: "armorPierce"},
-					{min: 11.124499999999998, max: 12.295499999999997, positive: true, type: "multiplerShips"},
+					{min: 11.124499999999998, max: 12.295499999999997, positive: true, type: "multiplierShips"},
 				],
 				29: [
 					{min: 11.286000000000001, max: 12.474000000000004, positive: true, type: "gatherFish"},
 					{min: 14.1645, max: 15.6555, positive: true, type: "armorPierce"},
-					{min: 11.447500000000003, max: 12.652500000000005, positive: true, type: "multiplerShips"},
+					{min: 11.447500000000003, max: 12.652500000000005, positive: true, type: "multiplierShips"},
 				],
 				30: [
 					{min: 11.609000000000009, max: 12.83100000000001, positive: true, type: "gatherFish"},
 					{min: 14.563499999999998, max: 16.0965, positive: true, type: "armorPierce"},
-					{min: 11.77050000000001, max: 13.009500000000012, positive: true, type: "multiplerShips"},
+					{min: 11.77050000000001, max: 13.009500000000012, positive: true, type: "multiplierShips"},
 				],
 			}
 		},
@@ -4015,7 +4015,7 @@ var gear = {
 	heavySpear: [
 		{name: "None", img: 'Slot/2hSpearSlot_ua.png'},
 		{
-			name: "Athena's Long Spear",
+			name: "Athena´s Long Spear",
 			img: "Gear/Celeste/Generic/Spears2H/Spears2H_ALS_ua.png",
 			effects: {
 				40: [
@@ -12590,6 +12590,783 @@ var gear = {
 					{min: 1.852500000000007, max: 2.047500000000008, positive: true, type: "gatherWood"},
 					{min: 1.852500000000007, max: 2.047500000000008, positive: true, type: "gatherGold"},
 					{min: 1.852500000000007, max: 2.047500000000008, positive: true, type: "gatherStone"},
+				],
+			}
+		},
+	],
+	throwingArm: [
+		{name: "None", img: 'Slot/throwingArmSlot_ua.png'},
+		{
+			name: "Blessed Dionysus´ Throwing Arm",
+			img: "Gear/Ballista2H_BDTA",
+			effects: {
+				40: [
+					{min: 22.002000000000002, max: 24.318000000000005, positive: true, type: "damage"},
+					{min: 17.650999999999996, max: 19.509, positive: true, type: "vision"},
+					{min: 23.398499999999995, max: 25.861499999999996, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Blessed Throwing Arm",
+			img: "Gear/Ballista2H_L401_VR",
+			effects: {
+				40: [
+					{min: 46.303000000000004, max: 51.177000000000014, positive: true, type: "damage"},
+					{min: 13.708499999999987, max: 15.151499999999988, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Siege Arm of Archimedes",
+			img: "Gear/Ballista2H_L001",
+			effects: {
+				40: [
+					{min: 49.7515, max: 54.98850000000001, positive: true, type: "damage"},
+					{min: 13.708499999999987, max: 15.151499999999988, positive: true, type: "multiplierBuildings"},
+				],
+			}
+		},
+		{
+			name: "Arm of Atlas",
+			img: "Gear/Ballista2H_E005",
+			effects: {
+				40: [
+					{min: 32.5185, max: 35.941500000000005, positive: true, type: "damage"},
+					{min: 27.008499999999998, max: 29.8515, positive: true, type: "multiplierBuildings"},
+					{min: 6.650000000000006, max: 7.350000000000007, positive: true, type: "critical"},
+				],
+			}
+		},
+		{
+			name: "The Long Arm of Lugh",
+			img: "Gear/Ballista2H_E101",
+			effects: {
+				37: [
+					{min: 50.663500000000006, max: 55.99650000000002, positive: true, type: "damage"},
+				],
+				38: [
+					{min: 51.8415, max: 57.29850000000001, positive: true, type: "damage"},
+				],
+				39: [
+					{min: 53.0195, max: 58.600500000000004, positive: true, type: "damage"},
+				],
+				40: [
+					{min: 54.1975, max: 59.902499999999996, positive: true, type: "damage"},
+				],
+			}
+		},
+		{
+			name: "Themis' Arm of Justice",
+			img: "Gear/Ballista2H_E006_VR",
+			effects: {
+				40: [
+					{min: 38.18049999999999, max: 42.19949999999999, positive: true, type: "damage"},
+					{min: 7.096499999999999, max: 7.843499999999999, positive: true, type: "critical"},
+					{min: 7.979999999999984, max: 8.819999999999984, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Throwing Arm of the Titans",
+			img: "Gear/Ballista2H_E007_VR",
+			effects: {
+				37: [
+					{min: 38.54149999999999, max: 42.598499999999994, positive: true, type: "damage"},
+					{min: 0.4274999999999951, max: 0.4724999999999946, positive: true, type: "speed"},
+					{min: 12.444999999999979, max: 13.754999999999978, positive: true, type: "range"},
+				],
+				38: [
+					{min: 39.4345, max: 43.58550000000001, positive: true, type: "damage"},
+					{min: 0.43699999999999406, max: 0.48299999999999343, positive: true, type: "speed"},
+					{min: 12.72999999999999, max: 14.06999999999999, positive: true, type: "range"},
+				],
+				39: [
+					{min: 40.32750000000001, max: 44.57250000000001, positive: true, type: "damage"},
+					{min: 0.446499999999993, max: 0.4934999999999923, positive: true, type: "speed"},
+					{min: 13.015, max: 14.385000000000002, positive: true, type: "range"},
+				],
+				40: [
+					{min: 41.220499999999994, max: 45.55949999999999, positive: true, type: "damage"},
+					{min: 0.45599999999999197, max: 0.5039999999999911, positive: true, type: "speed"},
+					{min: 13.29999999999999, max: 14.699999999999989, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Siege Arm of the Elephant",
+			img: "Gear/Ballista2H_R011_VR",
+			effects: {
+				36: [
+					{min: 49.46649999999999, max: 54.6735, positive: true, type: "damage"},
+					{min: 6.621500000000009, max: 7.31850000000001, positive: true, type: "range"},
+				],
+				37: [
+					{min: 50.62549999999999, max: 55.954499999999996, positive: true, type: "damage"},
+					{min: 6.773500000000013, max: 7.4865000000000155, positive: true, type: "range"},
+				],
+				38: [
+					{min: 51.78449999999999, max: 57.235499999999995, positive: true, type: "damage"},
+					{min: 6.925500000000017, max: 7.65450000000002, positive: true, type: "range"},
+				],
+				39: [
+					{min: 52.94350000000001, max: 58.516500000000015, positive: true, type: "damage"},
+					{min: 7.077500000000001, max: 7.822500000000002, positive: true, type: "range"},
+				],
+				40: [
+					{min: 54.102500000000006, max: 59.797500000000014, positive: true, type: "damage"},
+					{min: 7.229500000000005, max: 7.990500000000006, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Cedar Throwing Arm",
+			img: "Gear/Ballista2H_U002",
+			effects: {
+				32: [
+					{min: 24.823500000000006, max: 27.436500000000013, positive: true, type: "damage"},
+				],
+				33: [
+					{min: 25.431500000000003, max: 28.108500000000003, positive: true, type: "damage"},
+				],
+				34: [
+					{min: 26.03950000000002, max: 28.78050000000003, positive: true, type: "damage"},
+				],
+				35: [
+					{min: 26.647500000000015, max: 29.452500000000022, positive: true, type: "damage"},
+				],
+				36: [
+					{min: 27.255500000000012, max: 30.12450000000002, positive: true, type: "damage"},
+				],
+				37: [
+					{min: 27.86350000000001, max: 30.796500000000016, positive: true, type: "damage"},
+				],
+				38: [
+					{min: 28.471500000000006, max: 31.468500000000006, positive: true, type: "damage"},
+				],
+				39: [
+					{min: 29.079500000000024, max: 32.14050000000003, positive: true, type: "damage"},
+				],
+				40: [
+					{min: 29.6875, max: 32.8125, positive: true, type: "damage"},
+				],
+			}
+		},
+		{
+			name: "Peerless Spring Throwing Arm",
+			img: "Gear/Ballista2H_U008_VR",
+			effects: {
+				40: [
+					{min: 31.369, max: 34.67100000000001, positive: true, type: "damage"},
+					{min: 6.004000000000014, max: 6.636000000000015, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Immaculate Custom Throwing Arm",
+			img: "Gear/Ballista2H_U007",
+			effects: {
+				39: [
+					{min: 30.71350000000001, max: 33.946500000000015, positive: true, type: "damage"},
+					{min: 9.024999999999997, max: 9.974999999999996, positive: true, type: "multiplierBuildings"},
+				],
+			}
+		},
+		{
+			name: "Vizier's Custom Siege Arm",
+			img: "Gear/Ballista2H_R010",
+			effects: {
+				34: [
+					{min: 33.41150000000001, max: 36.92850000000002, positive: true, type: "damage"},
+					{min: -0.8714999999999973, max: -0.7884999999999975, positive: true, type: "cost"},
+				],
+				35: [
+					{min: 34.228500000000004, max: 37.83150000000001, positive: true, type: "damage"},
+					{min: -0.8925000000000066, max: -0.807500000000006, positive: true, type: "cost"},
+				],
+				36: [
+					{min: 35.0455, max: 38.734500000000004, positive: true, type: "damage"},
+					{min: -0.9135000000000043, max: -0.8265000000000039, positive: true, type: "cost"},
+				],
+				37: [
+					{min: 35.86249999999999, max: 39.637499999999996, positive: true, type: "damage"},
+					{min: -0.934500000000002, max: -0.8455000000000018, positive: true, type: "cost"},
+				],
+				38: [
+					{min: 36.67950000000001, max: 40.540500000000016, positive: true, type: "damage"},
+					{min: -0.9554999999999997, max: -0.8644999999999997, positive: true, type: "cost"},
+				],
+			}
+		},
+		{
+			name: "Pan's Frightening Arm",
+			img: "Gear/Ballista2H_E004_VR",
+			effects: {
+				33: [
+					{min: 35.31150000000002, max: 39.028500000000015, positive: true, type: "damage"},
+					{min: 3.0114999999999847, max: 3.328499999999983, positive: true, type: "critical"},
+					{min: 9.043999999999995, max: 9.995999999999997, positive: true, type: "range"},
+				],
+				34: [
+					{min: 36.214, max: 40.025999999999996, positive: true, type: "damage"},
+					{min: 3.0874999999999972, max: 3.4124999999999974, positive: true, type: "critical"},
+					{min: 9.271999999999991, max: 10.24799999999999, positive: true, type: "range"},
+				],
+				35: [
+					{min: 37.1165, max: 41.02350000000001, positive: true, type: "damage"},
+					{min: 3.163499999999989, max: 3.496499999999988, positive: true, type: "critical"},
+					{min: 9.499999999999986, max: 10.499999999999986, positive: true, type: "range"},
+				],
+				36: [
+					{min: 38.019000000000005, max: 42.021000000000015, positive: true, type: "damage"},
+					{min: 3.2394999999999805, max: 3.580499999999979, positive: true, type: "critical"},
+					{min: 9.727999999999982, max: 10.751999999999983, positive: true, type: "range"},
+				],
+				37: [
+					{min: 38.921499999999995, max: 43.0185, positive: true, type: "damage"},
+					{min: 3.3154999999999935, max: 3.6644999999999928, positive: true, type: "critical"},
+					{min: 9.956, max: 11.004000000000001, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Oak Throwing Arm",
+			img: "Gear/Ballista2H_U001",
+			effects: {
+				17: [
+					{min: 15.8935, max: 17.5665, positive: true, type: "damage"},
+				],
+				18: [
+					{min: 16.511000000000013, max: 18.24900000000002, positive: true, type: "damage"},
+				],
+				19: [
+					{min: 17.12850000000001, max: 18.931500000000014, positive: true, type: "damage"},
+				],
+				20: [
+					{min: 17.746000000000006, max: 19.614000000000008, positive: true, type: "damage"},
+				],
+				21: [
+					{min: 18.363500000000002, max: 20.2965, positive: true, type: "damage"},
+				],
+				22: [
+					{min: 18.981000000000016, max: 20.97900000000002, positive: true, type: "damage"},
+				],
+				23: [
+					{min: 19.598500000000016, max: 21.661500000000018, positive: true, type: "damage"},
+				],
+				24: [
+					{min: 20.216000000000008, max: 22.34400000000001, positive: true, type: "damage"},
+				],
+				25: [
+					{min: 20.833500000000004, max: 23.02650000000001, positive: true, type: "damage"},
+				],
+				26: [
+					{min: 21.450999999999997, max: 23.709, positive: true, type: "damage"},
+				],
+				27: [
+					{min: 22.068500000000018, max: 24.39150000000002, positive: true, type: "damage"},
+				],
+				28: [
+					{min: 22.68600000000001, max: 25.074000000000016, positive: true, type: "damage"},
+				],
+				29: [
+					{min: 23.303500000000007, max: 25.75650000000001, positive: true, type: "damage"},
+				],
+				30: [
+					{min: 23.921000000000003, max: 26.439000000000004, positive: true, type: "damage"},
+				],
+				31: [
+					{min: 24.538500000000017, max: 27.121500000000022, positive: true, type: "damage"},
+				],
+				32: [
+					{min: 25.156000000000013, max: 27.804000000000016, positive: true, type: "damage"},
+				],
+				33: [
+					{min: 25.77350000000001, max: 28.48650000000001, positive: true, type: "damage"},
+				],
+				34: [
+					{min: 26.391000000000002, max: 29.169000000000008, positive: true, type: "damage"},
+				],
+				35: [
+					{min: 27.008499999999998, max: 29.8515, positive: true, type: "damage"},
+				],
+				36: [
+					{min: 27.626000000000015, max: 30.534000000000017, positive: true, type: "damage"},
+				],
+				37: [
+					{min: 28.243500000000008, max: 31.216500000000014, positive: true, type: "damage"},
+				],
+			}
+		},
+		{
+			name: "Athenian Champion's Siege Arm",
+			img: "Gear/Ballista2H_E008",
+			effects: {
+				30: [
+					{min: 37.667500000000004, max: 41.63250000000001, positive: true, type: "damage"},
+					{min: 10.763499999999995, max: 11.896499999999994, positive: true, type: "multiplierBuildings"},
+				],
+				31: [
+					{min: 38.71250000000002, max: 42.78750000000002, positive: true, type: "damage"},
+					{min: 11.057999999999984, max: 12.221999999999982, positive: true, type: "multiplierBuildings"},
+				],
+				32: [
+					{min: 39.75750000000001, max: 43.94250000000001, positive: true, type: "damage"},
+					{min: 11.352499999999994, max: 12.547499999999994, positive: true, type: "multiplierBuildings"},
+				],
+				33: [
+					{min: 40.8025, max: 45.097500000000004, positive: true, type: "damage"},
+					{min: 11.646999999999982, max: 12.872999999999982, positive: true, type: "multiplierBuildings"},
+				],
+				34: [
+					{min: 41.84750000000001, max: 46.25250000000001, positive: true, type: "damage"},
+					{min: 11.941499999999992, max: 13.198499999999994, positive: true, type: "multiplierBuildings"},
+				],
+				35: [
+					{min: 42.8925, max: 47.4075, positive: true, type: "damage"},
+					{min: 12.235999999999981, max: 13.523999999999981, positive: true, type: "multiplierBuildings"},
+				],
+			}
+		},
+		{
+			name: "Heavy Banded Long-Siege Arm",
+			img: "Gear/Ballista2H_R009",
+			effects: {
+				35: [
+					{min: 34.58950000000001, max: 38.23050000000001, positive: true, type: "damage"},
+					{min: 3.239500000000002, max: 3.580500000000002, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Trojan Elongated Siege Arm",
+			img: "Gear/Ballista2H_R008_VR",
+			effects: {
+				31: [
+					{min: 14.497000000000005, max: 16.023000000000007, positive: true, type: "health"},
+					{min: 6.184500000000015, max: 6.835500000000017, positive: true, type: "range"},
+				],
+				32: [
+					{min: 14.877000000000006, max: 16.44300000000001, positive: true, type: "health"},
+					{min: 6.346000000000018, max: 7.014000000000021, positive: true, type: "range"},
+				],
+				33: [
+					{min: 15.257000000000009, max: 16.86300000000001, positive: true, type: "health"},
+					{min: 6.5075, max: 7.192500000000001, positive: true, type: "range"},
+				],
+				34: [
+					{min: 15.636999999999986, max: 17.282999999999987, positive: true, type: "health"},
+					{min: 6.669000000000003, max: 7.371000000000005, positive: true, type: "range"},
+				],
+				35: [
+					{min: 16.016999999999985, max: 17.702999999999985, positive: true, type: "health"},
+					{min: 6.830500000000007, max: 7.549500000000008, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Dionysus' Throwing Arm",
+			img: "Gear/Ballista2H_E003",
+			effects: {
+				30: [
+					{min: 17.251999999999995, max: 19.067999999999998, positive: true, type: "damage"},
+					{min: 13.850999999999992, max: 15.308999999999994, positive: true, type: "vision"},
+					{min: 18.363500000000002, max: 20.2965, positive: true, type: "range"},
+				],
+				31: [
+					{min: 17.72699999999999, max: 19.59299999999999, positive: true, type: "damage"},
+					{min: 14.230999999999993, max: 15.728999999999994, positive: true, type: "vision"},
+					{min: 18.86699999999999, max: 20.852999999999987, positive: true, type: "range"},
+				],
+				32: [
+					{min: 18.201999999999998, max: 20.118000000000002, positive: true, type: "damage"},
+					{min: 14.610999999999994, max: 16.148999999999994, positive: true, type: "vision"},
+					{min: 19.370499999999996, max: 21.409499999999998, positive: true, type: "range"},
+				],
+				33: [
+					{min: 18.67699999999999, max: 20.64299999999999, positive: true, type: "damage"},
+					{min: 14.990999999999994, max: 16.568999999999996, positive: true, type: "vision"},
+					{min: 19.874000000000002, max: 21.966000000000008, positive: true, type: "range"},
+				],
+				34: [
+					{min: 19.151999999999997, max: 21.168000000000003, positive: true, type: "damage"},
+					{min: 15.370999999999992, max: 16.988999999999994, positive: true, type: "vision"},
+					{min: 20.37749999999999, max: 22.522499999999994, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Rune-Forged Siege Throwing Arm",
+			img: "Gear/Ballista2H_R102",
+			effects: {
+				29: [
+					{min: 27.930000000000003, max: 30.870000000000008, positive: true, type: "damage"},
+					{min: 4.474500000000013, max: 4.945500000000015, positive: true, type: "critical"},
+				],
+				30: [
+					{min: 28.709, max: 31.731000000000005, positive: true, type: "damage"},
+					{min: 4.598, max: 5.082, positive: true, type: "critical"},
+				],
+				31: [
+					{min: 29.488, max: 32.592, positive: true, type: "damage"},
+					{min: 4.721500000000007, max: 5.218500000000009, positive: true, type: "critical"},
+				],
+				32: [
+					{min: 30.267, max: 33.453, positive: true, type: "damage"},
+					{min: 4.845000000000015, max: 5.355000000000016, positive: true, type: "critical"},
+				],
+				33: [
+					{min: 31.046, max: 34.314, positive: true, type: "damage"},
+					{min: 4.968500000000001, max: 5.491500000000002, positive: true, type: "critical"},
+				],
+			}
+		},
+		{
+			name: "Heavy Cedar Throwing Arm",
+			img: "Gear/Ballista2H_R007",
+			effects: {
+				32: [
+					{min: 32.11000000000001, max: 35.490000000000016, positive: true, type: "damage"},
+					{min: 9.35749999999998, max: 10.34249999999998, positive: true, type: "multiplierBuildings"},
+				],
+			}
+		},
+		{
+			name: "Extraordinary Banded Throwing Arm",
+			img: "Gear/Ballista2H_U006_VR",
+			effects: {
+				31: [
+					{min: 25.4695, max: 28.150500000000005, positive: true, type: "damage"},
+					{min: 5.215500000000016, max: 5.764500000000019, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Spartan Siege Arm",
+			img: "Gear/Ballista2H_R006",
+			effects: {
+				26: [
+					{min: 27.426500000000015, max: 30.313500000000023, positive: true, type: "damage"},
+					{min: 0.6364999999999932, max: 0.7034999999999925, positive: true, type: "speed"},
+				],
+				27: [
+					{min: 28.26250000000001, max: 31.23750000000001, positive: true, type: "damage"},
+					{min: 0.6554999999999911, max: 0.7244999999999902, positive: true, type: "speed"},
+				],
+				28: [
+					{min: 29.098500000000023, max: 32.161500000000025, positive: true, type: "damage"},
+					{min: 0.674499999999989, max: 0.7454999999999878, positive: true, type: "speed"},
+				],
+				29: [
+					{min: 29.934500000000014, max: 33.08550000000002, positive: true, type: "damage"},
+					{min: 0.6934999999999869, max: 0.7664999999999855, positive: true, type: "speed"},
+				],
+				30: [
+					{min: 30.770500000000006, max: 34.00950000000001, positive: true, type: "damage"},
+					{min: 0.7124999999999848, max: 0.7874999999999832, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Boulder-Tossing Arm",
+			img: "Gear/Ballista2H_E002_VR",
+			effects: {
+				25: [
+					{min: 28.62350000000001, max: 31.636500000000016, positive: true, type: "damage"},
+					{min: 3.875999999999995, max: 4.2839999999999945, positive: true, type: "critical"},
+					{min: 5.082500000000009, max: 5.617500000000011, positive: true, type: "range"},
+				],
+				26: [
+					{min: 29.544999999999995, max: 32.654999999999994, positive: true, type: "damage"},
+					{min: 3.9995000000000025, max: 4.420500000000003, positive: true, type: "critical"},
+					{min: 5.243999999999992, max: 5.795999999999991, positive: true, type: "range"},
+				],
+				27: [
+					{min: 30.4665, max: 33.673500000000004, positive: true, type: "damage"},
+					{min: 4.122999999999989, max: 4.556999999999988, positive: true, type: "critical"},
+					{min: 5.405499999999995, max: 5.9744999999999955, positive: true, type: "range"},
+				],
+				28: [
+					{min: 31.388000000000005, max: 34.69200000000001, positive: true, type: "damage"},
+					{min: 4.246499999999997, max: 4.693499999999996, positive: true, type: "critical"},
+					{min: 5.566999999999998, max: 6.152999999999999, positive: true, type: "range"},
+				],
+				29: [
+					{min: 32.3095, max: 35.71050000000001, positive: true, type: "damage"},
+					{min: 4.370000000000004, max: 4.8300000000000045, positive: true, type: "critical"},
+					{min: 5.728500000000001, max: 6.331500000000003, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "King Minos' Radiant Siege Arm",
+			img: "Gear/Ballista2H_EB01",
+			effects: {
+				27: [
+					{min: 34.2475, max: 37.852500000000006, positive: true, type: "damage"},
+					{min: 9.594999999999997, max: 10.604999999999999, positive: true, type: "multiplierBuildings"},
+				],
+				28: [
+					{min: 35.282999999999994, max: 38.99699999999999, positive: true, type: "damage"},
+					{min: 9.879999999999988, max: 10.919999999999987, positive: true, type: "multiplierBuildings"},
+				],
+				29: [
+					{min: 36.31850000000001, max: 40.141500000000015, positive: true, type: "damage"},
+					{min: 10.165, max: 11.235, positive: true, type: "multiplierBuildings"},
+				],
+			}
+		},
+		{
+			name: "Exceptional Tempered Throwing Arm",
+			img: "Gear/Ballista2H_U005",
+			effects: {
+				29: [
+					{min: 24.462500000000006, max: 27.03750000000001, positive: true, type: "damage"},
+					{min: 7.428999999999983, max: 8.210999999999983, positive: true, type: "multiplierBuildings"},
+				],
+			}
+		},
+		{
+			name: "Half-Moon Curved Throwing Arm",
+			img: "Gear/Ballista2H_R005",
+			effects: {
+				24: [
+					{min: 25.75450000000001, max: 28.465500000000016, positive: true, type: "damage"},
+					{min: 2.6600000000000024, max: 2.9400000000000026, positive: true, type: "health"},
+				],
+				25: [
+					{min: 26.590500000000002, max: 29.3895, positive: true, type: "damage"},
+					{min: 2.745500000000014, max: 3.0345000000000155, positive: true, type: "health"},
+				],
+				26: [
+					{min: 27.426500000000015, max: 30.313500000000023, positive: true, type: "damage"},
+					{min: 2.8310000000000044, max: 3.1290000000000053, positive: true, type: "health"},
+				],
+				27: [
+					{min: 28.26250000000001, max: 31.23750000000001, positive: true, type: "damage"},
+					{min: 2.916499999999995, max: 3.2234999999999947, positive: true, type: "health"},
+				],
+				28: [
+					{min: 29.098500000000023, max: 32.161500000000025, positive: true, type: "damage"},
+					{min: 3.002000000000007, max: 3.3180000000000076, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Dark Iron Siege Throwing Arm",
+			img: "Gear/Ballista2H_R101",
+			effects: {
+				22: [
+					{min: 22.714500000000008, max: 25.105500000000013, positive: true, type: "damage"},
+					{min: 10.829999999999988, max: 11.969999999999988, positive: true, type: "multiplierBuildings"},
+				],
+				23: [
+					{min: 23.503000000000004, max: 25.977000000000007, positive: true, type: "damage"},
+					{min: 11.20049999999999, max: 12.379499999999988, positive: true, type: "multiplierBuildings"},
+				],
+				24: [
+					{min: 24.291500000000003, max: 26.848500000000005, positive: true, type: "damage"},
+					{min: 11.57099999999999, max: 12.78899999999999, positive: true, type: "multiplierBuildings"},
+				],
+				25: [
+					{min: 25.080000000000002, max: 27.720000000000002, positive: true, type: "damage"},
+					{min: 11.941499999999992, max: 13.198499999999994, positive: true, type: "multiplierBuildings"},
+				],
+				26: [
+					{min: 25.868499999999997, max: 28.591499999999996, positive: true, type: "damage"},
+					{min: 12.311999999999994, max: 13.607999999999993, positive: true, type: "multiplierBuildings"},
+				],
+			}
+		},
+		{
+			name: "Tightened Boar-Sinew Throwing Arm",
+			img: "Gear/Ballista2H_R004",
+			effects: {
+				22: [
+					{min: 21.108999999999995, max: 23.330999999999996, positive: true, type: "damage"},
+					{min: 6.099000000000003, max: 6.741000000000004, positive: true, type: "vision"},
+				],
+				23: [
+					{min: 21.8405, max: 24.139499999999998, positive: true, type: "damage"},
+					{min: 6.308000000000001, max: 6.972000000000002, positive: true, type: "vision"},
+				],
+				24: [
+					{min: 22.572000000000003, max: 24.948000000000008, positive: true, type: "damage"},
+					{min: 6.5169999999999995, max: 7.202999999999999, positive: true, type: "vision"},
+				],
+				25: [
+					{min: 23.303500000000007, max: 25.75650000000001, positive: true, type: "damage"},
+					{min: 6.726000000000019, max: 7.434000000000021, positive: true, type: "vision"},
+				],
+				26: [
+					{min: 24.03500000000001, max: 26.565000000000012, positive: true, type: "damage"},
+					{min: 6.9350000000000165, max: 7.665000000000019, positive: true, type: "vision"},
+				],
+			}
+		},
+		{
+			name: "Tightened Throwing Arm",
+			img: "Gear/Ballista2H_R003",
+			effects: {
+				21: [
+					{min: 26.34350000000001, max: 29.116500000000013, positive: true, type: "damage"},
+				],
+				22: [
+					{min: 27.29350000000001, max: 30.166500000000013, positive: true, type: "damage"},
+				],
+				23: [
+					{min: 28.243500000000008, max: 31.216500000000014, positive: true, type: "damage"},
+				],
+				24: [
+					{min: 29.19350000000001, max: 32.266500000000015, positive: true, type: "damage"},
+				],
+				25: [
+					{min: 30.143500000000014, max: 33.31650000000002, positive: true, type: "damage"},
+				],
+			}
+		},
+		{
+			name: "Torsion-Spring Arm",
+			img: "Gear/Ballista2H_E001",
+			effects: {
+				20: [
+					{min: 24.23450000000001, max: 26.785500000000013, positive: true, type: "damage"},
+					{min: 9.7755, max: 10.804499999999999, positive: true, type: "multiplierBuildings"},
+					{min: 2.241999999999985, max: 2.4779999999999838, positive: true, type: "critical"},
+				],
+				21: [
+					{min: 25.165500000000012, max: 27.814500000000013, positive: true, type: "damage"},
+					{min: 10.145999999999999, max: 11.214, positive: true, type: "multiplierBuildings"},
+					{min: 2.3274999999999966, max: 2.5724999999999967, positive: true, type: "critical"},
+				],
+				22: [
+					{min: 26.096500000000013, max: 28.84350000000002, positive: true, type: "damage"},
+					{min: 10.5165, max: 11.623500000000003, positive: true, type: "multiplierBuildings"},
+					{min: 2.4129999999999874, max: 2.666999999999986, positive: true, type: "critical"},
+				],
+				23: [
+					{min: 27.027499999999996, max: 29.872499999999995, positive: true, type: "damage"},
+					{min: 10.887000000000004, max: 12.033000000000005, positive: true, type: "multiplierBuildings"},
+					{min: 2.498499999999999, max: 2.761499999999999, positive: true, type: "critical"},
+				],
+				24: [
+					{min: 27.958499999999997, max: 30.901500000000002, positive: true, type: "damage"},
+					{min: 11.257500000000004, max: 12.442500000000006, positive: true, type: "multiplierBuildings"},
+					{min: 2.5839999999999894, max: 2.8559999999999888, positive: true, type: "critical"},
+				],
+			}
+		},
+		{
+			name: "Elongated Throwing Arm",
+			img: "Gear/Ballista2H_R002_VR",
+			effects: {
+				18: [
+					{min: 18.3825, max: 20.317500000000003, positive: true, type: "damage"},
+					{min: 8.578500000000004, max: 9.481500000000006, positive: true, type: "range"},
+				],
+				19: [
+					{min: 19.1235, max: 21.136500000000005, positive: true, type: "damage"},
+					{min: 8.920499999999986, max: 9.859499999999986, positive: true, type: "range"},
+				],
+				20: [
+					{min: 19.864500000000007, max: 21.955500000000008, positive: true, type: "damage"},
+					{min: 9.262499999999992, max: 10.237499999999994, positive: true, type: "range"},
+				],
+				21: [
+					{min: 20.605500000000006, max: 22.77450000000001, positive: true, type: "damage"},
+					{min: 9.604499999999996, max: 10.615499999999995, positive: true, type: "range"},
+				],
+				22: [
+					{min: 21.346500000000013, max: 23.593500000000013, positive: true, type: "damage"},
+					{min: 9.946500000000002, max: 10.993500000000003, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Arm of the North",
+			img: "Gear/Ballista2H_ED01",
+			effects: {
+				21: [
+					{min: 25.39350000000001, max: 28.066500000000012, positive: true, type: "damage"},
+					{min: 2.3274999999999966, max: 2.5724999999999967, positive: true, type: "critical"},
+					{min: 6.763999999999993, max: 7.475999999999993, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Grand Elongated Throwing Arm",
+			img: "Gear/Ballista2H_U004_VR",
+			effects: {
+				21: [
+					{min: 19.142500000000002, max: 21.157500000000002, positive: true, type: "damage"},
+					{min: 3.885500000000015, max: 4.294500000000017, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Curved Throwing Arm",
+			img: "Gear/Ballista2H_R001",
+			effects: {
+				17: [
+					{min: 20.0925, max: 22.207500000000003, positive: true, type: "damage"},
+					{min: 6.1749999999999945, max: 6.824999999999995, positive: true, type: "multiplierBuildings"},
+				],
+				18: [
+					{min: 20.938000000000013, max: 23.142000000000014, positive: true, type: "damage"},
+					{min: 6.431499999999987, max: 7.108499999999987, positive: true, type: "multiplierBuildings"},
+				],
+				19: [
+					{min: 21.783500000000007, max: 24.076500000000006, positive: true, type: "damage"},
+					{min: 6.68799999999998, max: 7.391999999999979, positive: true, type: "multiplierBuildings"},
+				],
+				20: [
+					{min: 22.628999999999994, max: 25.011, positive: true, type: "damage"},
+					{min: 6.944499999999994, max: 7.675499999999994, positive: true, type: "multiplierBuildings"},
+				],
+			}
+		},
+		{
+			name: "Mighty Argos Siege Arm",
+			img: "Gear/Ballista2H_R012",
+			effects: {
+				20: [
+					{min: 22.4105, max: 24.7695, positive: true, type: "damage"},
+					{min: 6.725999999999997, max: 7.4339999999999975, positive: true, type: "multiplierBuildings"},
+				],
+			}
+		},
+		{
+			name: "Hero's Throwing Arm",
+			img: "Gear/Ballista2H_U201_VR",
+			effects: {
+				20: [
+					{min: 15.855500000000005, max: 17.524500000000007, positive: true, type: "damage"},
+					{min: 3.3155000000000143, max: 3.6645000000000163, positive: true, type: "range"},
+				],
+			}
+		},
+		{
+			name: "Superior Throwing Arm",
+			img: "Gear/Ballista2H_U003",
+			effects: {
+				19: [
+					{min: 18.021500000000017, max: 19.918500000000023, positive: true, type: "damage"},
+					{min: 5.433999999999992, max: 6.005999999999991, positive: true, type: "multiplierBuildings"},
+				],
+			}
+		},
+		{
+			name: "Artificer's Siege Throwing Arm",
+			img: "Gear/Ballista2H_U101",
+			effects: {
+				14: [
+					{min: 14.202500000000017, max: 15.697500000000021, positive: true, type: "damage"},
+				],
+				15: [
+					{min: 14.829500000000012, max: 16.390500000000014, positive: true, type: "damage"},
+				],
+				16: [
+					{min: 15.456500000000005, max: 17.083500000000008, positive: true, type: "damage"},
 				],
 			}
 		},
@@ -29106,5 +29883,7 @@ var gear = {
 				],
 			}
 		},
-	]
+	],
+
+
 }

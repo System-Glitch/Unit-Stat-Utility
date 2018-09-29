@@ -40,7 +40,7 @@ var units = {
 			timeTrain: 30,
 			population: 5
 		},
-		gear: ["armorPlating", "engineeringAccessory"],
+		gear: ["throwingArm", "armorPlating", "engineeringAccessory"],
 		upgrades: ["championBallista"]
 	},
 	Barracks: {

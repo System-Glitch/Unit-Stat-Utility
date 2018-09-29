@@ -21160,7 +21160,7 @@ var gear = {
 		{name: "None", img: 'Slot/LightArmorSlot_ua.png'},
 		{
 			name: "Divine Runed Gorget",
-			img: "Gear/ArmorLgt_R008_LEG.png",
+			img: "Gear/Generic/Armor/Cav/Cav_L90_ua.png",
 			effects: {
 				40: [
 					{min: 28.832499999999985, max: 31.86749999999999, positive: true, type: "armorCavalry"},
@@ -21170,7 +21170,7 @@ var gear = {
 		},
 		{
 			name: "Gorget of Bellerophon",
-			img: "Gear/ArmorLgt_L001.png",
+			img: "Gear/Generic/Armor/Cav/Cav_L90_ua.png",
 			effects: {
 				40: [
 					{min: 71.66799999999999, max: 79.212, positive: true, type: "health"},
@@ -21180,7 +21180,7 @@ var gear = {
 		},
 		{
 			name: "Horse Armor of Sargon",
-			img: "Gear/ArmorLgt_L002.png",
+			img: "Gear/Generic/Armor/Cav/Cav_L90v2_ua.png",
 			effects: {
 				40: [
 					{min: 71.66799999999999, max: 79.212, positive: true, type: "health"},
@@ -21190,7 +21190,7 @@ var gear = {
 		},
 		{
 			name: "Ajax's Arrow-Proof Gorget",
-			img: "Gear/ArmorLgt_E008.png",
+			img: "Gear/Generic/Armor/Cav/Cav_E60_ua.png",
 			effects: {
 				40: [
 					{min: 58.52, max: 64.68, positive: true, type: "health"},
@@ -21201,7 +21201,7 @@ var gear = {
 		},
 		{
 			name: "Chimera's Leather Hide",
-			img: "Gear/ArmorLgt_EA02.png",
+			img: "Gear/Generic/Armor/Cav/Cav_E60_ua.png",
 			effects: {
 				40: [
 					{min: 24.3295, max: 26.8905, positive: true, type: "protection"},
@@ -21211,7 +21211,7 @@ var gear = {
 		},
 		{
 			name: "Poseidon's Blessed Flank Plates",
-			img: "Gear/ArmorLgt_E009.png",
+			img: "Gear/Generic/Armor/Cav/Cav_E60_ua.png",
 			effects: {
 				37: [
 					{min: 63.54549999999998, max: 70.23449999999998, positive: true, type: "health"},
@@ -21233,7 +21233,7 @@ var gear = {
 		},
 		{
 			name: "Ra's Gem-Studded Leather Armor",
-			img: "Gear/ArmorLgt_E007.png",
+			img: "Gear/Generic/Armor/Cav/Cav_E60_ua.png",
 			effects: {
 				37: [
 					{min: 137.13249999999996, max: 151.56749999999997, positive: true, type: "armorInfantry"},
@@ -21259,7 +21259,7 @@ var gear = {
 		},
 		{
 			name: "The High King's Horse Armor",
-			img: "Gear/ArmorLgt_E006.png",
+			img: "Gear/Generic/Armor/Cav/Cav_E60_ua.png",
 			effects: {
 				40: [
 					{min: 58.52, max: 64.68, positive: true, type: "health"},
@@ -21270,7 +21270,7 @@ var gear = {
 		},
 		{
 			name: "Elite Guard Armor",
-			img: "Gear/ArmorLgt_R013.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30_ua.png",
 			effects: {
 				36: [
 					{min: 49.46649999999999, max: 54.6735, positive: true, type: "health"},
@@ -21296,7 +21296,7 @@ var gear = {
 		},
 		{
 			name: "Studded Armor",
-			img: "Gear/ArmorLgt_U003.png",
+			img: "Gear/Generic/Armor/Cav/Cav_U10v2_ua.png",
 			effects: {
 				27: [
 					{min: 30.400000000000006, max: 33.60000000000001, positive: true, type: "health"},
@@ -21332,7 +21332,7 @@ var gear = {
 		},
 		{
 			name: "Athena's Golden Gorget",
-			img: "Gear/ArmorLgt_E005.png",
+			img: "Gear/Generic/Armor/Cav/Cav_E60_ua.png",
 			effects: {
 				35: [
 					{min: 52.51599999999999, max: 58.044, positive: true, type: "health"},
@@ -21358,7 +21358,7 @@ var gear = {
 		},
 		{
 			name: "Heavy Dull-Iron Gorget",
-			img: "Gear/ArmorLgt_R012.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30_ua.png",
 			effects: {
 				34: [
 					{min: 47.5, max: 52.5, positive: true, type: "health"},
@@ -21384,7 +21384,7 @@ var gear = {
 		},
 		{
 			name: "Peerless Rider's Gorget",
-			img: "Gear/ArmorLgt_U011.png",
+			img: "Gear/Generic/Armor/Cav/Cav_U10v2_ua.png",
 			effects: {
 				38: [
 					{min: 42.04699999999999, max: 46.47299999999999, positive: true, type: "health"},
@@ -21394,7 +21394,7 @@ var gear = {
 		},
 		{
 			name: "Leather Armor of the Ether",
-			img: "Gear/ArmorLgt_EA01.png",
+			img: "Gear/Generic/Armor/Cav/Cav_E60_ua.png",
 			effects: {
 				31: [
 					{min: 12.140999999999991, max: 13.41899999999999, positive: true, type: "armorPierce"},
@@ -21435,7 +21435,7 @@ var gear = {
 		},
 		{
 			name: "Cyprus Guard Gorget",
-			img: "Gear/ArmorLgt_R019.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30v2_ua.png",
 			effects: {
 				37: [
 					{min: 57.95, max: 64.05000000000001, positive: true, type: "health"},
@@ -21444,7 +21444,7 @@ var gear = {
 		},
 		{
 			name: "Barinthus' Golden Gorget",
-			img: "Gear/ArmorLgt_R102.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30v2_ua.png",
 			effects: {
 				35: [
 					{min: 38.921500000000016, max: 43.018500000000024, positive: true, type: "health"},
@@ -21454,7 +21454,7 @@ var gear = {
 		},
 		{
 			name: "Epona's Scout Armor",
-			img: "Gear/ArmorLgt_E101.png",
+			img: "Gear/Generic/Armor/Cav/Cav_E60_ua.png",
 			effects: {
 				34: [
 					{min: 47.481, max: 52.479000000000006, positive: true, type: "health"},
@@ -21464,7 +21464,7 @@ var gear = {
 		},
 		{
 			name: "Ivory-Inlaid Horse Armor",
-			img: "Gear/ArmorLgt_R011.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30_ua.png",
 			effects: {
 				30: [
 					{min: 106.90350000000001, max: 118.15650000000002, positive: true, type: "armorInfantry"},
@@ -21490,7 +21490,7 @@ var gear = {
 		},
 		{
 			name: "Ancient Minoan Armor",
-			img: "Gear/ArmorLgt_E004.png",
+			img: "Gear/Generic/Armor/Cav/Cav_E60_ua.png",
 			effects: {
 				29: [
 					{min: 45.12500000000001, max: 49.87500000000001, positive: true, type: "health"},
@@ -21521,7 +21521,7 @@ var gear = {
 		},
 		{
 			name: "Exceptional Fitted Armor",
-			img: "Gear/ArmorLgt_U010.png",
+			img: "Gear/Generic/Armor/Cav/Cav_U10_ua.png",
 			effects: {
 				33: [
 					{min: 37.43949999999999, max: 41.38049999999999, positive: true, type: "health"},
@@ -21531,7 +21531,7 @@ var gear = {
 		},
 		{
 			name: "Spartan Champion's Cavalry Armor",
-			img: "Gear/ArmorLgt_E010.png",
+			img: "Gear/Generic/Armor/Cav/Cav_E60_ua.png",
 			effects: {
 				31: [
 					{min: 54.976499999999994, max: 60.7635, positive: true, type: "health"},
@@ -21541,7 +21541,7 @@ var gear = {
 		},
 		{
 			name: "Leather Armor",
-			img: "Gear/ArmorLgt_U002.png",
+			img: "Gear/Generic/Armor/Cav/Cav_U10v2_ua.png",
 			effects: {
 				17: [
 					{min: 21.849999999999998, max: 24.150000000000002, positive: true, type: "health"},
@@ -21592,7 +21592,7 @@ var gear = {
 		},
 		{
 			name: "Argos Champion's Cavalry Armor",
-			img: "Gear/ArmorLgt_E003.png",
+			img: "Gear/Generic/Armor/Cav/Cav_E60_ua.png",
 			effects: {
 				30: [
 					{min: 46.41699999999999, max: 51.303, positive: true, type: "health"},
@@ -21603,7 +21603,7 @@ var gear = {
 		},
 		{
 			name: "King Narmer's Dreaded Gorget",
-			img: "Gear/ArmorLgt_EB01.png",
+			img: "Gear/Generic/Armor/Cav/Cav_E60_ua.png",
 			effects: {
 				26: [
 					{min: 23.284499999999987, max: 25.735499999999988, positive: true, type: "health"},
@@ -21629,7 +21629,7 @@ var gear = {
 		},
 		{
 			name: "Horse Guard Flank Plates",
-			img: "Gear/ArmorLgt_R010.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30_ua.png",
 			effects: {
 				30: [
 					{min: 42.825999999999986, max: 47.33399999999998, positive: true, type: "health"},
@@ -21639,7 +21639,7 @@ var gear = {
 		},
 		{
 			name: "Abydos Militia Leather Armor",
-			img: "Gear/ArmorLgt_R009.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30_ua.png",
 			effects: {
 				24: [
 					{min: 35.815, max: 39.58500000000001, positive: true, type: "health"},
@@ -21665,7 +21665,7 @@ var gear = {
 		},
 		{
 			name: "Immaculate Scaled Gorget",
-			img: "Gear/ArmorLgt_U009.png",
+			img: "Gear/Generic/Armor/Cav/Cav_U10v2_ua.png",
 			effects: {
 				28: [
 					{min: 32.83199999999999, max: 36.28799999999999, positive: true, type: "health"},
@@ -21675,7 +21675,7 @@ var gear = {
 		},
 		{
 			name: "Sun-Runed Gorget",
-			img: "Gear/ArmorLgt_R008.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30v2_ua.png",
 			effects: {
 				22: [
 					{min: 24.88049999999998, max: 27.49949999999998, positive: true, type: "armorCavalry"},
@@ -21701,7 +21701,7 @@ var gear = {
 		},
 		{
 			name: "Bandit King's Gorget",
-			img: "Gear/ArmorLgt_E002.png",
+			img: "Gear/Generic/Armor/Cav/Cav_E60_ua.png",
 			effects: {
 				21: [
 					{min: 20.586499999999987, max: 22.75349999999999, positive: true, type: "health"},
@@ -21727,7 +21727,7 @@ var gear = {
 		},
 		{
 			name: "Argos Mounted Armor",
-			img: "Gear/ArmorLgt_R016.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30v2_ua.png",
 			effects: {
 				25: [
 					{min: 36.9835, max: 40.8765, positive: true, type: "health"},
@@ -21737,7 +21737,7 @@ var gear = {
 		},
 		{
 			name: "Armor of the North",
-			img: "Gear/ArmorLgt_RD01.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30_ua.png",
 			effects: {
 				25: [
 					{min: 32.24299999999999, max: 35.63699999999999, positive: true, type: "health"},
@@ -21747,7 +21747,7 @@ var gear = {
 		},
 		{
 			name: "Naxos Guard Leather Armor",
-			img: "Gear/ArmorLgt_R007.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30v2_ua.png",
 			effects: {
 				19: [
 					{min: 30.18149999999999, max: 33.35849999999999, positive: true, type: "health"},
@@ -21773,7 +21773,7 @@ var gear = {
 		},
 		{
 			name: "Remarkable Cavalry Armor",
-			img: "Gear/ArmorLgt_U008.png",
+			img: "Gear/Generic/Armor/Cav/Cav_U10_ua.png",
 			effects: {
 				23: [
 					{min: 28.224499999999992, max: 31.195499999999996, positive: true, type: "health"},
@@ -21783,7 +21783,7 @@ var gear = {
 		},
 		{
 			name: "Pharaoh's Heavy Armor",
-			img: "Gear/ArmorLgt_R020.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30_ua.png",
 			effects: {
 				22: [
 					{min: 21.346500000000013, max: 23.593500000000013, positive: true, type: "health"},
@@ -21793,7 +21793,7 @@ var gear = {
 		},
 		{
 			name: "Phaistos' Horse Armor",
-			img: "Gear/ArmorLgt_RA01.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30_ua.png",
 			effects: {
 				21: [
 					{min: 3.2014999999999847, max: 3.5384999999999835, positive: true, type: "critical"},
@@ -21803,7 +21803,7 @@ var gear = {
 		},
 		{
 			name: "Agamemnon's Leather Armor",
-			img: "Gear/ArmorLgt_E001.png",
+			img: "Gear/Generic/Armor/Cav/Cav_E60_ua.png",
 			effects: {
 				17: [
 					{min: 30.00100000000001, max: 33.15900000000001, positive: true, type: "health"},
@@ -21829,7 +21829,7 @@ var gear = {
 		},
 		{
 			name: "Custom-Fitted Horse Armor",
-			img: "Gear/ArmorLgt_R006.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30v2_ua.png",
 			effects: {
 				20: [
 					{min: 31.359499999999983, max: 34.660499999999985, positive: true, type: "health"},
@@ -21839,7 +21839,7 @@ var gear = {
 		},
 		{
 			name: "Hero's Armor",
-			img: "Gear/ArmorLgt_R201.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30v2_ua.png",
 			effects: {
 				20: [
 					{min: 35.34000000000001, max: 39.06000000000001, positive: true, type: "health"},
@@ -21848,7 +21848,7 @@ var gear = {
 		},
 		{
 			name: "Silver Soldier Gorget",
-			img: "Gear/ArmorLgt_R004.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30v2_ua.png",
 			effects: {
 				13: [
 					{min: 8.322000000000012, max: 9.198000000000013, positive: true, type: "damage"},
@@ -21886,7 +21886,7 @@ var gear = {
 		},
 		{
 			name: "Nubian Banded-Leather",
-			img: "Gear/ArmorLgt_R005.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30_ua.png",
 			effects: {
 				15: [
 					{min: 25.4695, max: 28.150500000000005, positive: true, type: "health"},
@@ -21912,7 +21912,7 @@ var gear = {
 		},
 		{
 			name: "Superior Rawhide Gorget",
-			img: "Gear/ArmorLgt_U007.png",
+			img: "Gear/Generic/Armor/Cav/Cav_U10v2_ua.png",
 			effects: {
 				18: [
 					{min: 23.81649999999999, max: 26.323499999999996, positive: true, type: "health"},
@@ -21922,7 +21922,7 @@ var gear = {
 		},
 		{
 			name: "Mycenaean Leather Gorget",
-			img: "Gear/ArmorLgt_R014.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30_ua.png",
 			effects: {
 				17: [
 					{min: 27.82549999999999, max: 30.754499999999993, positive: true, type: "health"},
@@ -21932,7 +21932,7 @@ var gear = {
 		},
 		{
 			name: "Pik Scout Armor",
-			img: "Gear/ArmorLgt_R101.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30v2_ua.png",
 			effects: {
 				17: [
 					{min: 25.868499999999997, max: 28.591499999999996, positive: true, type: "health"},
@@ -21942,7 +21942,7 @@ var gear = {
 		},
 		{
 			name: "Studded Battle Gorget",
-			img: "Gear/ArmorLgt_R015.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30v2_ua.png",
 			effects: {
 				17: [
 					{min: 31.350000000000005, max: 34.650000000000006, positive: true, type: "health"},
@@ -21951,7 +21951,7 @@ var gear = {
 		},
 		{
 			name: "Pylos Heavy Horse Armor",
-			img: "Gear/ArmorLgt_R003.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30_ua.png",
 			effects: {
 				12: [
 					{min: 21.93549999999999, max: 24.244499999999988, positive: true, type: "health"},
@@ -21977,7 +21977,7 @@ var gear = {
 		},
 		{
 			name: "Rawhide Armor",
-			img: "Gear/ArmorLgt_U001.png",
+			img: "Gear/Generic/Armor/Cav/Cav_U10v2_ua.png",
 			effects: {
 				2: [
 					{min: 9.024999999999997, max: 9.974999999999996, positive: true, type: "health"},
@@ -22028,7 +22028,7 @@ var gear = {
 		},
 		{
 			name: "Leather Artificer Armor",
-			img: "Gear/ArmorLgt_U102.png",
+			img: "Gear/Generic/Armor/Cav/Cav_U10_ua.png",
 			effects: {
 				9: [
 					{min: 13.385500000000002, max: 14.794500000000005, positive: true, type: "health"},
@@ -22049,7 +22049,7 @@ var gear = {
 		},
 		{
 			name: "Ornate Rawhide Armor",
-			img: "Gear/ArmorLgt_U006.png",
+			img: "Gear/Generic/Armor/Cav/Cav_U10_ua.png",
 			effects: {
 				13: [
 					{min: 19.161499999999997, max: 21.1785, positive: true, type: "health"},
@@ -22059,7 +22059,7 @@ var gear = {
 		},
 		{
 			name: "Banded Horse Armor",
-			img: "Gear/ArmorLgt_RA02.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30_ua.png",
 			effects: {
 				6: [
 					{min: 14.867499999999986, max: 16.432499999999987, positive: true, type: "health"},
@@ -22093,7 +22093,7 @@ var gear = {
 		},
 		{
 			name: "Black-Studded Leather",
-			img: "Gear/ArmorLgt_R001.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30_ua.png",
 			effects: {
 				8: [
 					{min: 17.2235, max: 19.036500000000004, positive: true, type: "health"},
@@ -22119,7 +22119,7 @@ var gear = {
 		},
 		{
 			name: "Spartan Scout Cavalry Armor",
-			img: "Gear/ArmorLgt_R002.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30v2_ua.png",
 			effects: {
 				11: [
 					{min: 20.75749999999999, max: 22.942499999999992, positive: true, type: "health"},
@@ -22129,7 +22129,7 @@ var gear = {
 		},
 		{
 			name: "Crete Steward Leather Armor",
-			img: "Gear/ArmorLgt_UA01.png",
+			img: "Gear/Generic/Armor/Cav/Cav_U10_ua.png",
 			effects: {
 				10: [
 					{min: 3.7525000000000084, max: 4.14750000000001, positive: true, type: "armorInfantry"},
@@ -22139,7 +22139,7 @@ var gear = {
 		},
 		{
 			name: "Fine Rawhide Gorget",
-			img: "Gear/ArmorLgt_U005.png",
+			img: "Gear/Generic/Armor/Cav/Cav_U10v2_ua.png",
 			effects: {
 				8: [
 					{min: 14.506499999999983, max: 16.033499999999982, positive: true, type: "health"},
@@ -22149,7 +22149,7 @@ var gear = {
 		},
 		{
 			name: "Draco's Blackened Gorget",
-			img: "Gear/ArmorLgt_R017.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30v2_ua.png",
 			effects: {
 				7: [
 					{min: 1.0354999999999914, max: 1.1444999999999905, positive: false, type: "cost"},
@@ -22159,7 +22159,7 @@ var gear = {
 		},
 		{
 			name: "Freelancer's Steadfast Gorget",
-			img: "Gear/ArmorLgt_U013.png",
+			img: "Gear/Generic/Armor/Cav/Cav_U10v2_ua.png",
 			effects: {
 				6: [
 					{min: 11.105500000000001, max: 12.274500000000002, positive: true, type: "health"},
@@ -22173,7 +22173,7 @@ var gear = {
 		},
 		{
 			name: "Vanguard Leather Gorget",
-			img: "Gear/ArmorLgt_R018.png",
+			img: "Gear/Generic/Armor/Cav/Cav_R30_ua.png",
 			effects: {
 				5: [
 					{min: 13.765500000000001, max: 15.214500000000003, positive: true, type: "health"},
@@ -22183,7 +22183,7 @@ var gear = {
 		},
 		{
 			name: "Horse Master's Leather",
-			img: "Gear/ArmorLgt_UA02.png",
+			img: "Gear/Generic/Armor/Cav/Cav_U10_ua.png",
 			effects: {
 				2: [
 					{min: 2.061500000000005, max: 2.2785000000000055, positive: true, type: "armorCavalry"},
@@ -22205,7 +22205,7 @@ var gear = {
 		},
 		{
 			name: "Novice's Sacred Hauberk",
-			img: "Gear/ArmorLgt_U012.png",
+			img: "Gear/Generic/Armor/Cav/Cav_U10_ua.png",
 			effects: {
 				3: [
 					{min: 4.778500000000001, max: 5.281500000000001, positive: true, type: "protection"},
@@ -22215,7 +22215,7 @@ var gear = {
 		},
 		{
 			name: "Primitive Rawhide Armor",
-			img: "Gear/ArmorLgt_U004.png",
+			img: "Gear/Generic/Armor/Cav/Cav_U10_ua.png",
 			effects: {
 				3: [
 					{min: 9.85149999999999, max: 10.88849999999999, positive: true, type: "health"},

@@ -70,6 +70,94 @@ var upgrades = {
 			gold: 300
 		}
 	},
+	divineVision: {
+		isChain: false,
+		name: "Divine vision",
+		img: "img/Upgrades/DivineVision.png",
+		effects: [
+			{amount: 20.0, positive: true, type: "conversionRange"},
+			{amount: 20.0, positive: true, type: "vision"}
+		],
+		cost: {
+			wood: 200,
+			gold: 300
+		}
+	},
+	paidinBlood: {
+		isChain: false,
+		name: "Paid in Blood",
+		img: "img/Upgrades/PaidinBlood.png",
+		effects: [
+			{amount: -30, positive: true, type: "cost"}
+		],
+		cost: {
+			food: 200,
+			gold: 200
+		}
+	},
+	essenceoftheCobra: {
+		isChain: false,
+		name: "Essence of the Cobra",
+		img: "img/Upgrades/EssenceoftheCobra.png",
+		effects: [
+			{amount: 30, positive: true, type: "speed"}
+		],
+		cost: {
+			food: 200,
+			gold: 200
+		}
+	},
+	divineProduction: {
+		isChain: false,
+		name: "Divine Production",
+		img: "img/Upgrades/DivineProduction.png",
+		effects: [
+			{amount: -40, positive: true, type: "timeTrain"}
+		],
+		cost: {
+			food: 250,
+			gold: 250
+		}
+	},
+	strengthoftheGods: {
+		isChain: false,
+		name: "Strength of the Gods",
+		img: "img/Upgrades/StrengthoftheGods.png",
+		effects: [
+			{amount: 50, positive: true, type: "health"}
+		],
+		cost: {
+			food: 250,
+			gold: 250
+		}
+	},
+	touchofRa: {
+		isChain: false,
+		name: "Touch of Ra ",
+		img: "img/Upgrades/TouchofRa.png",
+		effects: [
+			{amount: 40, positive: true, type: "healRate"}
+		],
+		cost: {
+			food: 150,
+			gold: 150
+		}
+	},
+	sightoftheSun: {
+		isChain: false,
+		name: "Sight of the Sun",
+		img: "img/Upgrades/SightoftheSun.png",
+		effects: [
+			{amount: 25, positive: true, type: "healRange"},
+			{amount: 25, positive: true, type: "conversionRange"},
+			{amount: 25, positive: true, type: "chaosRange"},
+			{amount: 25, positive: true, type: "vision"},
+		],
+		cost: {
+			food: 150,
+			gold: 150
+		}
+	},
 	stables: {
 		isChain: true,
 		noneStables: {
@@ -165,6 +253,100 @@ var upgrades = {
 				gold: 600
 			}
 		},
+	},
+	barracks: {
+		isChain: true,
+		noneBarracks: {
+			isChain: false,
+			name: "None",
+			img: "img/Slot/GearSlotGeneric_ua.png",
+			effects: [],
+			cost: {}
+		},
+		conditioning: {
+			isChain: false,
+			name: "Conditioning",
+			img: "img/Upgrades/Conditioning.png",
+			effects: [
+				{amount: -20, positive: true, type: "timeTrain"}
+			],
+			cost: {
+				food: 150,
+				gold: 100
+			}
+		},
+		combinedArms: {
+			isChain: false,
+			name: "Combined Arms",
+			img: "img/Upgrades/CombinedArms.png",
+			effects: [
+				{amount: -30, positive: true, type: "timeTrain"}
+			],
+			cost: {
+				food: 300,
+				gold: 200
+			}
+		},
+		closeCombatExpertise: {
+			isChain: false,
+			name: "Close-Combat Expertise",
+			img: "img/Upgrades/Close-CombatExpertise.png",
+			effects: [
+				{amount: 15, positive: true, type: "health"},
+				{amount: 15, positive: true, type: "damage"}
+			],
+			cost: {
+				food: 900,
+				gold: 600
+			}
+		}		
+	},
+	archery: {
+		isChain: true,
+		noneArchery: {
+			isChain: false,
+			name: "None",
+			img: "img/Slot/GearSlotGeneric_ua.png",
+			effects: [],
+			cost: {}
+		},
+		marksmanship: {
+			isChain: false,
+			name: "Marksmanship",
+			img: "img/Upgrades/Marksmanship.png",
+			effects: [
+				{amount: 20, positive: true, type: "vision"}
+			],
+			cost: {
+				wood: 75,
+				gold: 50
+			}
+		},
+		improvedFletching: {
+			isChain: false,
+			name: "Improved Fletching",
+			img: "img/Upgrades/ImprovedFletching.png",
+			effects: [
+				{amount: 30, positive: true, type: "vision"}
+			],
+			cost: {
+				wood: 150,
+				gold: 100
+			}
+		},
+		compositeBow: {
+			isChain: false,
+			name: "Composite Bow",
+			img: "img/Upgrades/CompositeBow.png",
+			effects: [
+				{amount: 10, positive: true, type: "damage"},
+				{amount: 20, positive: true, type: "range"}
+			],
+			cost: {
+				wood: 900,
+				gold: 600
+			}
+		}		
 	},
 	armoryMelee: {
 		isChain: true,

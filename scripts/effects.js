@@ -38,6 +38,7 @@ var effects = {
 	healing: {name: "Healing", startsAtOne: false},
 	healRange: {name: "Healing Range", startsAtOne: false},
 	healRate: {name: "Healing Rate", startsAtOne: false},
+	chaosRange: {name: "Chaos Range", startsAtOne: false}, //Missing effect
 	empowerDropoff: {name: "Empower Dropoff", startsAtOne: false},
 	empowerTrainRate: {name: "Empower Train Rate", startsAtOne: false}, //Missing effect
 	empowerBuildRate: {name: "Empower Build Rate", startsAtOne: false}, //Missing effect

@@ -158,6 +158,55 @@ var upgrades = {
 			gold: 150
 		}
 	},
+	fishing: {
+		isChain: true,
+		noneFishing: {
+			isChain: false,
+			name: "None",
+			img: "img/Slot/GearSlotGeneric_ua.png",
+			effects: [],
+			cost: {}
+		},
+		netLures: {
+			isChain: false,
+			name: "Net Lures",
+			img: "img/Upgrades/NetLures.png",
+			effects: [
+				{amount: 20.0, positive: true, type: "gatherFish"},
+				{amount: 50.0, positive: true, type: "carryCapacity"},
+			],
+			cost: {
+				wood: 75,
+				gold: 50
+			}
+		},
+		netWeights: {
+			isChain: false,
+			name: "Net Weights",
+			img: "img/Upgrades/NetWeights.png",
+			effects: [
+				{amount: 20.0, positive: true, type: "gatherFish"},
+				{amount: 50.0, positive: true, type: "carryCapacity"},
+			],
+			cost: {
+				wood: 150,
+				gold: 100
+			}
+		},
+		netLandline: {
+			isChain: false,
+			name: "Net Landline",
+			img: "img/Upgrades/NetLandline.png",
+			effects: [
+				{amount: 20.0, positive: true, type: "gatherFish"},
+				{amount: 50.0, positive: true, type: "carryCapacity"},
+			],
+			cost: {
+				wood: 300,
+				gold: 200
+			}
+		}
+	}
 	stables: {
 		isChain: true,
 		noneStables: {

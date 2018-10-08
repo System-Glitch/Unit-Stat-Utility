@@ -173,7 +173,7 @@ var upgrades = {
 			img: "img/Upgrades/NetLures.png",
 			effects: [
 				{amount: 20.0, positive: true, type: "gatherFish"},
-				{amount: 50.0, positive: true, type: "carryCapacity"},
+				{amount: 50.0, positive: true, type: "carryCapacity"}
 			],
 			cost: {
 				wood: 75,
@@ -186,7 +186,7 @@ var upgrades = {
 			img: "img/Upgrades/NetWeights.png",
 			effects: [
 				{amount: 20.0, positive: true, type: "gatherFish"},
-				{amount: 50.0, positive: true, type: "carryCapacity"},
+				{amount: 50.0, positive: true, type: "carryCapacity"}
 			],
 			cost: {
 				wood: 150,
@@ -199,14 +199,14 @@ var upgrades = {
 			img: "img/Upgrades/NetLandline.png",
 			effects: [
 				{amount: 20.0, positive: true, type: "gatherFish"},
-				{amount: 50.0, positive: true, type: "carryCapacity"},
+				{amount: 50.0, positive: true, type: "carryCapacity"}
 			],
 			cost: {
 				wood: 300,
 				gold: 200
 			}
 		}
-	}
+	},
 	stables: {
 		isChain: true,
 		noneStables: {

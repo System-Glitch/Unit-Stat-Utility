@@ -3,6 +3,10 @@ var effects = {
 	health: {name: "Health", startsAtOne: false},
 	speed: {name: "Movement Speed", startsAtOne: false},
 	cost: {name: "Cost", startsAtOne: false},
+	costFood: {name: "Food Cost", startsAtOne: false},
+	costGold: {name: "Gold Cost", startsAtOne: false},
+	costWood: {name: "Wood Cost", startsAtOne: false},
+	costStone: {name: "Stone Cost", startsAtOne: false},
 	protection: {name: "Bonus Damage Protection", startsAtOne: true}, //Missing effect
 	armorPierce: {name: "Pierce Armor", startsAtOne: false, isArmor: true},
 	armorInfantry: {name: "Melee-Infantry Armor", startsAtOne: false, isArmor: true},
@@ -68,7 +72,7 @@ function loadEffects() {
 	if(effectsContainer == undefined) return;
 	console.log("Loading effects...");
 	for(let key in effects) {
-		if(key != "cost")
+		if(key.indexOf("cost") != 0)
 			createEffectElement(key, effects[key].name);
 	}
 }

@@ -197,20 +197,13 @@ function updateStats() {
 			}
 			display.textContent = round(result);
 
-			if((result == 0 || (result == 1 && effects[key].startsAtOne)) && key != "cost")
+			if((result == 0 || (result == 1 && effects[key].startsAtOne)) && key.indexOf("cost") != 0)
 				display.parentElement.style.display = "none";
 			else
 				display.parentElement.style.display = "block";
 		}
 	}
 
-	//ARMORY UPGRADES FORMULA
-	/*
-	armor=1-A/B
-
-	A= 1-base armor
-	B=1+armor value from upgrade
-	*/
 }
 
 registerHideStatSelectorsListener();

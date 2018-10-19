@@ -99,7 +99,7 @@ var upgrades = {
 		img: "img/Upgrades/SpearmanChampionEgyptian.png",
 		effects: [
 			{amount: 25, positive: true, type: "health"},
-			{amount: -100, positive: true, type: "cost"},
+			{amount: -100, positive: true, type: "costGold"},
 			{amount: -50, positive: true, type: "timeTrain"}
 		],
 		cost: {

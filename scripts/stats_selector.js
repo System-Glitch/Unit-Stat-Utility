@@ -131,8 +131,10 @@ function registerHideStatSelectorsListener() {
 
 function updateStats() {
 	let modifiers = {};
-	for(let key in effects)
-		modifiers[key] = [];
+	for(let key in effects) {
+		if(key != "cost")
+			modifiers[key] = [];
+	}
 
 
 	//Gear
@@ -141,7 +143,15 @@ function updateStats() {
 		for(let j = 0 ; j < selector.effects.length ; j++) {
 			let effect = selector.effects[j];
 			let mod = parseFloat(effect.element.value);
-			modifiers[effect.type].push(effect.type === "critical" ? mod : 1+(mod/100));
+
+			if(effect.type == "cost") {
+				let val = 1+(mod/100);
+				modifiers["costFood"].push(val);
+				modifiers["costWood"].push(val);
+				modifiers["costGold"].push(val);
+				modifiers["costStone"].push(val);
+			} else
+				modifiers[effect.type].push(effect.type === "critical" ? mod : 1+(mod/100));
 		}
 	}
 

@@ -83,6 +83,33 @@ var upgrades = {
 			gold: 300
 		}
 	},
+	touchofRa: {
+		isChain: false,
+		name: "Touch of Ra ",
+		img: "img/Upgrades/TouchofRa.png",
+		effects: [
+			{amount: 40, positive: true, type: "healRate"}
+		],
+		cost: {
+			food: 150,
+			gold: 150
+		}
+	},
+	sightoftheSun: {
+		isChain: false,
+		name: "Sight of the Sun",
+		img: "img/Upgrades/SightoftheSun.png",
+		effects: [
+			{amount: 25, positive: true, type: "healRange"},
+			{amount: 25, positive: true, type: "conversionRange"},
+			{amount: 25, positive: true, type: "chaosRange"},
+			{amount: 25, positive: true, type: "vision"},
+		],
+		cost: {
+			food: 150,
+			gold: 150
+		}
+	},
 	paidinBlood: {
 		isChain: false,
 		name: "Paid in Blood",
@@ -129,33 +156,6 @@ var upgrades = {
 		cost: {
 			food: 250,
 			gold: 250
-		}
-	},
-	touchofRa: {
-		isChain: false,
-		name: "Touch of Ra ",
-		img: "img/Upgrades/TouchofRa.png",
-		effects: [
-			{amount: 40, positive: true, type: "healRate"}
-		],
-		cost: {
-			food: 150,
-			gold: 150
-		}
-	},
-	sightoftheSun: {
-		isChain: false,
-		name: "Sight of the Sun",
-		img: "img/Upgrades/SightoftheSun.png",
-		effects: [
-			{amount: 25, positive: true, type: "healRange"},
-			{amount: 25, positive: true, type: "conversionRange"},
-			{amount: 25, positive: true, type: "chaosRange"},
-			{amount: 25, positive: true, type: "vision"},
-		],
-		cost: {
-			food: 150,
-			gold: 150
 		}
 	},
 	fishing: {
@@ -446,6 +446,55 @@ var upgrades = {
 			}
 		}
 	},
+	armoryArrows: {
+		isChain: true,
+		noneArmoryArrows: {
+			isChain: false,
+			name: "None",
+			img: "img/Slot/GearSlotGeneric_ua.png",
+			effects: [],
+			cost: {}
+		},
+		barbedArrows: {
+			isChain: false,
+			name: "Barbed Arrows",
+			img: "img/Upgrades/BarbedArrows.png",
+			effects: [
+				{amount: 20.0, positive: true, type: "damage"}
+			],
+			cost: {
+				wood: 150,
+				gold: 150,
+				stone: 75
+			}
+		},
+		broadheadArrows: {
+			isChain: false,
+			name: "Broadhead Arrows",
+			img: "img/Upgrades/BroadheadArrows.png",
+			effects: [
+				{amount: 20.0, positive: true, type: "damage"}
+			],
+			cost: {
+				wood: 300,
+				gold: 300,
+				stone: 150
+			}
+		},
+		bodkinArrows: {
+			isChain: false,
+			name: "Bodkin Arrows",
+			img: "img/Upgrades/BodkinArrows.png",
+			effects: [
+				{amount: 20.0, positive: true, type: "damage"}
+			],
+			cost: {
+				wood: 600,
+				gold: 600,
+				stone: 300
+			}
+		}
+	},
 	armoryArmor: {
 		isChain: true,
 		noneArmoryArmor: {
@@ -545,55 +594,6 @@ var upgrades = {
 				{amount: 20.0, positive: true, type: "armorInfantry"},
 				{amount: 20.0, positive: true, type: "armorCavalry"},
 				{amount: 20.0, positive: true, type: "armorPierce"}
-			],
-			cost: {
-				wood: 600,
-				gold: 600,
-				stone: 300
-			}
-		}
-	},
-	armoryArrows: {
-		isChain: true,
-		noneArmoryArrows: {
-			isChain: false,
-			name: "None",
-			img: "img/Slot/GearSlotGeneric_ua.png",
-			effects: [],
-			cost: {}
-		},
-		barbedArrows: {
-			isChain: false,
-			name: "Barbed Arrows",
-			img: "img/Upgrades/BarbedArrows.png",
-			effects: [
-				{amount: 20.0, positive: true, type: "damage"}
-			],
-			cost: {
-				wood: 150,
-				gold: 150,
-				stone: 75
-			}
-		},
-		broadheadArrows: {
-			isChain: false,
-			name: "Broadhead Arrows",
-			img: "img/Upgrades/BroadheadArrows.png",
-			effects: [
-				{amount: 20.0, positive: true, type: "damage"}
-			],
-			cost: {
-				wood: 300,
-				gold: 300,
-				stone: 150
-			}
-		},
-		bodkinArrows: {
-			isChain: false,
-			name: "Bodkin Arrows",
-			img: "img/Upgrades/BodkinArrows.png",
-			effects: [
-				{amount: 20.0, positive: true, type: "damage"}
 			],
 			cost: {
 				wood: 600,

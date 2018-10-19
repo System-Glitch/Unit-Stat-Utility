@@ -20,6 +20,92 @@ var upgrades = {
 			gold: 1000
 		}
 	},
+	championChariotArcher: {
+		isChain: false,
+		name: "Chariot Archer Champion",
+		img: "img/Upgrades/ChariotArcherChampion.png",
+		effects: [
+			{amount: 25, positive: true, type: "health"},
+			{amount: 50, positive: true, type: "multiplierInfantry"}
+		],
+		cost: {
+			gold: 800
+		}
+	},
+	championElephantArcher: {
+		isChain: false,
+		name: "Elephant Archer Champion",
+		img: "img/Upgrades/ElephantArcherChampion.png",
+		effects: [
+			{amount: -20, positive: true, type: "population"}
+		],
+		cost: {
+			gold: 1200
+		}
+	},
+	championSlinger: {
+		isChain: false,
+		name: "Slinger Champion",
+		img: "img/Upgrades/SlingerChampion.png",
+		effects: [
+			{amount: 50, positive: true, type: "armorPierce"},
+			{amount: -20, positive: true, type: "timeTrain"},
+			{amount: 25, positive: true, type: "vision"}
+		],
+		cost: {
+			gold: 350
+		}
+	},
+	championCamelRider: {
+		isChain: false,
+		name: "Camel Ride Champion",
+		img: "img/Upgrades/CamelRiderChampion.png",
+		effects: [
+			{amount: 100, positive: true, type: "multiplierRanged"},
+			{amount: 25, positive: true, type: "armorPierce"}
+		],
+		cost: {
+			gold: 400
+		}
+	},
+	championWarElephant: {
+		isChain: false,
+		name: "War Elephant Champion",
+		img: "img/Upgrades/WarElephantChampion.png",
+		effects: [
+			{amount: 25, positive: true, type: "armorPierce"},
+			{amount: 50, positive: true, type: "conversionResistance"}
+		],
+		cost: {
+			gold: 1200
+		}
+	},
+	championAxeman: {
+		isChain: false,
+		name: "Axeman Champion",
+		img: "img/Upgrades/AxemanChampion.png",
+		effects: [
+			{amount: 25, positive: true, type: "health"},
+			{amount: 15, positive: true, type: "damage"},
+			{amount: 100, positive: true, type: "splash"}
+		],
+		cost: {
+			gold: 350
+		}
+	},
+	championSpearmanEgypt: {
+		isChain: false,
+		name: "Spearman Champion",
+		img: "img/Upgrades/SpearmanChampionEgyptian.png",
+		effects: [
+			{amount: 25, positive: true, type: "health"},
+			{amount: -100, positive: true, type: "cost"},
+			{amount: -50, positive: true, type: "timeTrain"}
+		],
+		cost: {
+			gold: 350
+		}
+	},
 	agogeDiscipline: {
 		isChain: false,
 		name: "Agoge Discipline",

@@ -16,6 +16,31 @@ var StatsSelector = function(element, unitObject) {
 	statSelectorsElements.push(this.element);
 }
 
+StatsSelector.prototype.loadExisting = function() {
+	let that = this;
+
+	this.effectsContainer = this.element.getElementsByClassName("effects-container")[0];
+	this.levelContainer = this.element.getElementsByClassName("level-container")[0];
+	
+	let levels = this.element.getElementsByClassName("level");
+	for(let i = 0 ; i < levels.length ; i++) {
+		levels[i].onclick = function(ev) { that.loadLevel(ev.target.textContent) };
+	}
+
+	let sliders = this.element.getElementsByClassName("gear-stat");
+	for(let i = 0 ; i < sliders.length ; i++) {
+		let element = sliders[i];
+		let valueElement = element.getElementsByClassName('stat-selector-value')[0];
+		let inputElement = element.getElementsByClassName('stat-selector-slider')[0];
+		inputElement.oninput = function(event) {
+			valueElement.textContent = round(inputElement.value);
+			that.unitObject.updateStats();
+		};
+		this.effects.push({type: element.dataset.effect, element: inputElement});
+	}
+
+};
+
 StatsSelector.prototype.loadGear = function(gear) {
 	this.gear = gear;
 	this.clear();
@@ -65,12 +90,12 @@ StatsSelector.prototype.clearEffects = function() {
 
 StatsSelector.prototype.addEffect = function(effect) {
 	let html = components.gearEffect(effects[effect.type].name, round(effect.min), round(effect.max));
-	let element = createEffectElement(html, effect.positive);
+	let element = createEffectElement(html, effect);
 	let valueElement = element.getElementsByClassName('stat-selector-value')[0];
 	let inputElement = element.getElementsByClassName('stat-selector-slider')[0];
 	var that = this;
 	
-	element.oninput = function(event) {
+	inputElement.oninput = function(event) {
 		valueElement.textContent = round(inputElement.value);
 		that.unitObject.updateStats();
 	}
@@ -112,10 +137,11 @@ function createLevelContainer() {
 	return element;
 }
 
-function createEffectElement(innerHTML, positive) {
+function createEffectElement(innerHTML, effect) {
 	let element = document.createElement("div");
 	element.classList.add("gear-stat");
-	element.classList.add(positive ? "text-positive" : "text-negative");
+	element.classList.add(effect.positive ? "text-positive" : "text-negative");
+	element.dataset.effect = effect.type;
 	element.innerHTML = innerHTML;
 	return element;
 }

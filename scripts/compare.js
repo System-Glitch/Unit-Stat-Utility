@@ -10,6 +10,13 @@ function duplicateUnitDOM(unit) {
 	div.getElementsByClassName("compare-button")[0].addEventListener("click", compareClicked);
 
 	div.getElementsByClassName("select-search")[0].value = unit.getElementsByClassName("select-search")[0].value;
+
+	let statSelectorsSrc = unit.getElementsByClassName("stat-selector-slider");
+	let statSelectorsDest = div.getElementsByClassName("stat-selector-slider");
+	for(let i = 0 ; i < statSelectorsSrc.length ; i++) {
+		statSelectorsDest[i].value = statSelectorsSrc[i].value;
+	}
+
 	return div;
 }
 

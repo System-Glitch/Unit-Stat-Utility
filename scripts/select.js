@@ -66,7 +66,9 @@ var Select = function(element, imgPath, type, unitObject) {
 				} else if(type == "gear") {
 					this.category = option.dataset.category;
 					this.gearId = option.dataset.gear;
-					this.gear = gear[this.category][this.gearId];	
+					this.gear = gear[this.category][this.gearId];
+					this.statsSelector.gear = this.gear;
+					this.statsSelector.loadExisting();
 				}
 			}
 		}

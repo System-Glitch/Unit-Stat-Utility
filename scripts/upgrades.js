@@ -780,7 +780,7 @@ function createUpgradeTooptip(upgrade) {
 		let effect = upgrade.effects[key];
 
 		let html = components.upgradeEffect(effects[effect.type].name, effect.amount);
-		let element = createEffectElement(html, effect.positive);
+		let element = createEffectElement(html, effect);
 		tooltip.appendChild(element);
 	}
 	return tooltip;

@@ -59,7 +59,7 @@ var effects = {
 	watchPostConstructionSpeed: {name: "Watch Post Construction Speed", startsAtOne: true}
 }
 
-var effectsContainer = document.getElementById("effects-container");
+var effectsContainer = document.getElementsByClassName("effects-display-container")[0];
 
 function createEffectElement(effect, effectName) {
 	let container = document.createElement("p");

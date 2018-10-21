@@ -4,8 +4,9 @@ var gearSelectors = [];
 var unitSelectors = [];
 var gearSelectorIcon = document.getElementById('gear-selector-unit-icon');
 
-var Select = function(element, imgPath, type) {
+var Select = function(element, imgPath, type, unitObject) {
 	this.type = type;
+	this.unitObject = unitObject;
 	this.imgPath = imgPath;
 	this.element = element;
 	this.dropdown = element.getElementsByClassName("select-dropdown")[0];
@@ -27,7 +28,7 @@ var Select = function(element, imgPath, type) {
 		this.category = undefined;
 		this.gearId = undefined;
 		this.gear = undefined;
-		this.statsSelector = new StatsSelector(element.getElementsByClassName("stats-selector")[0]);
+		this.statsSelector = new StatsSelector(element.getElementsByClassName("stats-selector")[0], this.unitObject);
 
 		this.cog = this.container.getElementsByClassName('cog')[0];
 		this.cog.onclick = function(event) {
@@ -39,8 +40,9 @@ var Select = function(element, imgPath, type) {
 
 	for(let i = 0 ; i < this.optionsElements.length ; i++) {
 		let optionElement = this.optionsElements[i];
+		let j = i;
 		optionElement.onclick = function(event) {
-			that.select(optionElement);
+			that.select(j);
 			that.hideDropdown();
 			event.stopPropagation();
 		}
@@ -51,8 +53,25 @@ var Select = function(element, imgPath, type) {
 		that.search(event.target.value);
 	};
 
-	if(this.optionsElements.length > 0)
-		this.select(this.optionsElements[0]);
+	if(this.optionsElements.length > 0) {
+
+		if(this.container.dataset.initialized == 0) {
+			this.select(0);
+		} else {
+			var option = this.optionsElements[this.container.dataset.option];
+			if(option != undefined) {
+				if(type == "unit") {
+					this.unitId = option.dataset.unit;
+					this.unit = units[this.unitId];
+				} else if(type == "gear") {
+					this.category = option.dataset.category;
+					this.gearId = option.dataset.gear;
+					this.gear = gear[this.category][this.gearId];	
+				}
+			}
+		}
+
+	}
 
 }
 
@@ -61,8 +80,9 @@ Select.prototype.updateOptions = function() {
 	this.optionsElements = this.dropdown.getElementsByClassName("select-option");
 	for(let i = 0 ; i < this.optionsElements.length ; i++) {
 		let optionElement = this.optionsElements[i];
+		let j = i;
 		optionElement.onclick = function(event) {
-			that.select(optionElement);
+			that.select(j);
 			that.hideDropdown();
 			event.stopPropagation();
 		}
@@ -93,8 +113,9 @@ Select.prototype.hideDropdown = function() {
 	this.dropdown.style.display = "none";
 }
 
-Select.prototype.select = function(option) {
+Select.prototype.select = function(optionIndex) {
 
+	var option = this.optionsElements[optionIndex];
 	if(option == undefined) return;
 	let img;
 
@@ -103,10 +124,10 @@ Select.prototype.select = function(option) {
 			this.unitId = option.dataset.unit;
 			this.unit = units[this.unitId];
 			img = this.unit["img"];
-			updateUpgrades(this.unit);
-			updateDefaultStats(this.unit);
-			updateGearSelectors(this.unit);
-			resetGear();
+			this.unitObject.updateUpgrades(this.unit);
+			this.unitObject.updateDefaultStats(this.unit);
+			this.unitObject.updateGearSelectors(this.unit);
+			this.unitObject.resetGear();
 			break;
 		case "gear":
 			if(option != undefined) {
@@ -116,22 +137,26 @@ Select.prototype.select = function(option) {
 				this.statsSelector.loadGear(this.gear);
 				img = this.gear["img"];
 			}
-			updateStats();
 			break;
 	}
 
 	if(this.type == "unit") {
 		this.selectedOption.innerHTML = option.innerHTML;
-		gearSelectorIcon.src = this.imgPath + img;
+		this.unitObject.gearSelectorIcon.src = this.imgPath + img;
 	} else if(this.type == "gear") {
 		this.selectedOption.getElementsByClassName('gear-select-img')[0].src = this.imgPath + img;
 	}
+
+	this.container.dataset.option = optionIndex;
+	this.container.dataset.initialized = 1;
+
+	this.unitObject.updateStats();
 }
 
 function updateSelects() {
 	for(let key in gearSelectors) {
 		let select = gearSelectors[key];
-		select.select(select.optionsElements[0]); 
+		select.select(0); 
 		select.updateOptions();
 	}
 }
@@ -214,7 +239,7 @@ function updateGearSelectors(unit) {
 function resetGear() {
 	for(let i = 0 ; i < gearSelectors.length ; i++) {
 		let selector = gearSelectors[i];
-		selector.select(selector.optionsElements[0]);
+		selector.select(0);
 	}
 }
 
@@ -247,5 +272,5 @@ function registerHideListener() {
 }
 
 registerHideListener();
-registerSelects();
-updateSelects();
+//registerSelects();
+//updateSelects();

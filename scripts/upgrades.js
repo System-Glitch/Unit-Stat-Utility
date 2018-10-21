@@ -745,6 +745,7 @@ var upgradeElements = {};
 
 function createUpgradeElement(key, upgrade, chain) {
 	let container = document.createElement('div');
+	container.dataset.upgrade = key;
 
 	let icon = document.createElement('img');
 	icon.classList.add("upgrade");
@@ -906,4 +907,4 @@ function loadUpgrades() {
 	}
 }
 
-loadUpgrades();
+//loadUpgrades();

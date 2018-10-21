@@ -69,6 +69,10 @@ a:hover {
 	color: #f9a304;
 }
 
+.mt-1 {
+	margin-top: 1rem;
+}
+
 .mt-2 {
 	margin-top: 2rem;
 }
@@ -260,7 +264,7 @@ h4, p {
 	}
 }
 
-#gear-selector-container {
+.gear-selector-container {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -268,13 +272,13 @@ h4, p {
 	margin: auto;
 }
 
-#gear-selector-unit-icon {
+.gear-selector-unit-icon {
 	width: 64px;
 	height: 64px;
 	margin-right: 10px;
 }
 
-#gear-selector {
+.gear-selector {
 	display: flex;
 }
 
@@ -423,6 +427,7 @@ h4, p {
 .upgrade-row {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 .upgrade-row * {
@@ -509,4 +514,37 @@ h4, p {
 
 .level:hover, .level.level-active {
 	color: #fff;
+}
+
+.compare-button {
+	position: absolute;
+	right: 1rem;
+	top: 1rem;
+	background-color: rgba(255,255,255,0.4);
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 2.5px;
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.compare-button:hover {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+.unit:first-child {
+	margin-left: auto;
+}
+
+.unit:last-child {
+	margin-right: auto;
+}
+
+.unit .row {
+	padding-right: 15px;
+	padding-left: 15px;
 }

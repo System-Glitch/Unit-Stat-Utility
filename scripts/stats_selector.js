@@ -1,8 +1,9 @@
 var statSelectors = [];
 var statSelectorsElements = [];
 
-var StatsSelector = function(element) {
+var StatsSelector = function(element, unitObject) {
 	this.gear = undefined;
+	this.unitObject = unitObject;
 	this.element = element;
 	this.effectsContainer = document.createElement('div');
 	this.effectsContainer.classList.add("effects-container");
@@ -10,6 +11,7 @@ var StatsSelector = function(element) {
 	this.effects = [];
 	this.levelContainer = undefined;
 
+	this.unitObject.statSelectors.push(this);
 	statSelectors.push(this);
 	statSelectorsElements.push(this.element);
 }
@@ -34,7 +36,7 @@ StatsSelector.prototype.loadLevel = function(level) {
 		let effect = levelEffects[i];
 		this.addEffect(effect);
 	}
-	updateStats();
+	this.unitObject.updateStats();
 }
 
 StatsSelector.prototype.selectLevel = function(level) {
@@ -66,9 +68,11 @@ StatsSelector.prototype.addEffect = function(effect) {
 	let element = createEffectElement(html, effect.positive);
 	let valueElement = element.getElementsByClassName('stat-selector-value')[0];
 	let inputElement = element.getElementsByClassName('stat-selector-slider')[0];
+	var that = this;
+	
 	element.oninput = function(event) {
 		valueElement.textContent = round(inputElement.value);
-		updateStats();
+		that.unitObject.updateStats();
 	}
 	this.effectsContainer.appendChild(element);
 	this.effects.push({type: effect.type, element: inputElement});

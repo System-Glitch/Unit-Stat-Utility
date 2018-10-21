@@ -89,7 +89,8 @@ function createGearSelector(category) {
 	element.classList.add("gear-selector-slot");
 	element.classList.add("select");
 	element.classList.add("gear-select");
-	element.id = "gear-select-"+ category;
+	element.classList.add("gear-select-" + category);
+	element.dataset.category = "gear-select-" + category;
 	element.innerHTML = components.gearSelect();
 
 	document.getElementById("gear-selector").appendChild(element);

@@ -79,9 +79,8 @@ var UnitObject = function(element, isDuplicate) {
 UnitObject.prototype.updateState = function() {
 	if(this.isDuplicate || mode == "LOADING") return;
 
-	let json = JSON.stringify(this.state);
-	let base64 = btoa(json);
-	updateURLParameter("unit", base64);
+	let json = JSURL.stringify(this.state);
+	updateURLParameter("unit", json);
 }
 
 UnitObject.prototype.registerSelects = function() {

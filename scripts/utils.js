@@ -31,6 +31,10 @@ function getUrlParameter(param) {
 	let url = new URL(window.location);
 	let raw = url.searchParams.get(param);
 	if(raw == undefined) return undefined;
-	let value = JSON.parse(atob(raw));
-	return value;
+	try {
+		let value = JSURL.parse(raw);
+		return value;
+	} catch(e) {
+		return undefined;
+	}
 }

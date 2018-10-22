@@ -79,7 +79,6 @@ var UnitObject = function(element, isDuplicate) {
 UnitObject.prototype.updateState = function() {
 	if(this.isDuplicate || mode == "LOADING") return;
 
-	console.log(this.state.upgrades);
 	let json = JSON.stringify(this.state);
 	let base64 = btoa(json);
 	updateURLParameter("unit", base64);

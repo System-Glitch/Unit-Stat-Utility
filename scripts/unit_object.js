@@ -108,7 +108,7 @@ UnitObject.prototype.updateSelects = function() {
 UnitObject.prototype.resetGear = function() {
 	for(let i = 0 ; i < this.gearSelectors.length ; i++) {
 		let selector = this.gearSelectors[i];
-		selector.select(selector.optionsElements[0]);
+		selector.select(0);
 	}
 };
 

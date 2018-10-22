@@ -14,7 +14,7 @@ var UnitObject = function(element, isDuplicate) {
 	this.state = {
 		unit: 0,
 		gear: {},
-		upgrades: {}
+		upgrades: []
 	};
 
 	this.loadUpgrades(!isDuplicate);
@@ -77,8 +77,9 @@ var UnitObject = function(element, isDuplicate) {
 }
 
 UnitObject.prototype.updateState = function() {
-	if(this.isDuplicate) return;
+	if(this.isDuplicate || mode == "LOADING") return;
 
+	console.log(this.state.upgrades);
 	let json = JSON.stringify(this.state);
 	let base64 = btoa(json);
 	updateURLParameter("unit", base64);
@@ -113,6 +114,8 @@ UnitObject.prototype.resetGear = function() {
 };
 
 UnitObject.prototype.updateStats = function() {
+
+	if(mode == "LOADING") return;
 
 	let modifiers = {};
 	for(let key in effects) {
@@ -393,5 +396,10 @@ function registerUnitObjects() {
 		unitObjects.push(new UnitObject(objects[i], false));
 }
 
+var mode = "LOADING";
 var shareOptions = getUrlParameter("unit");
 registerUnitObjects();
+mode = "DONE";
+
+for(let i = 0 ; i < unitObjects.length ; i++)
+	unitObjects[i].updateStats();

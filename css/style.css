@@ -40,16 +40,20 @@ a:hover {
 }
 
 .text-positive {
-	font-size: 14px;
 	font-weight: 700;
 	color: #0f0;
 	text-shadow: 1px 0 1px #000;
 }
 
 .text-negative {
-	font-size: 14px;
 	font-weight: 700;
 	color: #ff1a1a;
+	text-shadow: 1px 0 1px #000;
+}
+
+.text-neutral {
+	font-weight: 700;
+	color: #FFFF00;
 	text-shadow: 1px 0 1px #000;
 }
 
@@ -87,8 +91,6 @@ a:hover {
 	border-radius: 6px;
 	display: flex;
 	flex-direction: column;
-	align-items: stretch;
-	justify-content: center;
 	padding: 1rem;
 	text-shadow: 1px 0 1px #000;
 }
@@ -535,6 +537,11 @@ h4, p {
 
 button::-moz-focus-inner {
   border: 0;
+}
+
+.unit {
+	display: flex;
+	flex-direction: column;
 }
 
 .unit:first-child {

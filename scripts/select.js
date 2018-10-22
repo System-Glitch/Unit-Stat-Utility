@@ -167,6 +167,7 @@ Select.prototype.select = function(optionIndex) {
 	this.container.dataset.initialized = 1;
 
 	this.unitObject.updateStats();
+	updateComparison("all");
 }
 
 function updateSelects() {

@@ -21,11 +21,19 @@ StatsSelector.prototype.loadExisting = function() {
 	let that = this;
 
 	this.effectsContainer = this.element.getElementsByClassName("effects-container")[0];
+	if(this.effectsContainer == undefined) {
+		this.effectsContainer = document.createElement('div');
+		this.effectsContainer.classList.add("effects-container");
+	}
 	this.levelContainer = this.element.getElementsByClassName("level-container")[0];
 	
 	let levels = this.element.getElementsByClassName("level");
 	for(let i = 0 ; i < levels.length ; i++) {
-		levels[i].onclick = function(ev) { that.loadLevel(ev.target.textContent) };
+		levels[i].onclick = function(ev) { 
+			that.loadLevel(ev.target.textContent);
+			that.unitObject.updateState();
+			that.unitObject.updateStats();
+		};
 	}
 
 	let sliders = this.element.getElementsByClassName("gear-stat");
@@ -38,6 +46,7 @@ StatsSelector.prototype.loadExisting = function() {
 			that.unitObject.state.gear[that.category].stats[element.dataset.effect] = inputElement.value;
 			that.unitObject.updateState();
 			that.unitObject.updateStats();
+			updateComparison(element.dataset.effect);
 		};
 		this.effects.push({type: element.dataset.effect, element: inputElement});
 	}
@@ -86,10 +95,10 @@ StatsSelector.prototype.clear = function() {
 
 StatsSelector.prototype.clearEffects = function() {
 	let effects = this.effectsContainer.getElementsByClassName("gear-stat");
-	this.effects = [];
 	while(effects.length > 0) {
 		effects[0].remove();
 	}
+	this.effects = [];
 	this.unitObject.state.gear[this.category].stats = {};
 }
 
@@ -105,11 +114,12 @@ StatsSelector.prototype.addEffect = function(effect) {
 		that.unitObject.state.gear[that.category].stats[element.dataset.effect] = inputElement.value;
 		that.unitObject.updateState();
 		that.unitObject.updateStats();
+		updateComparison(element.dataset.effect);
 	}
 	this.effectsContainer.appendChild(element);
 	this.effects.push({type: effect.type, element: inputElement});
 
-	this.unitObject.state.gear[this.category].stats[element.dataset.effect] = inputElement.value;
+	this.unitObject.state.gear[this.category].stats[effect.type] = inputElement.value;
 }
 
 StatsSelector.prototype.loadLevels = function(gear) {

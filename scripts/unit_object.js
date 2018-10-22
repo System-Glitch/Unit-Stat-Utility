@@ -9,6 +9,7 @@ var UnitObject = function(element, isDuplicate) {
 	this.upgradesContainer = element.getElementsByClassName("upgrades-container")[0];
 	this.loneUpgradesContainer = this.upgradesContainer.getElementsByClassName("lone-upgrades-container")[0];
 	this.gearSelectorIcon = element.getElementsByClassName('gear-selector-unit-icon')[0];
+	this.effectsContainer = element.getElementsByClassName("effects-display-container")[0];
 
 	//Keep track of the state for share feature
 	this.state = {
@@ -356,6 +357,7 @@ UnitObject.prototype.onUpgradeClick = function(event) {
 
 	this.updateState();
 	this.updateStats();
+	updateComparison("all");
 };
 
 UnitObject.prototype.loadUpgrade = function(container, key, upgrade, chain) {
@@ -388,10 +390,98 @@ UnitObject.prototype.loadUpgradeChain = function(key, chain) {
 	this.upgradesContainer.appendChild(container);
 };
 
+function setEffectColor(element, state) {
+	switch(state) {
+		case "BEST":
+			element.classList.add('text-positive');
+			break;
+		case "WORST":
+			element.classList.add('text-negative');
+			break;
+		case "BETWEEN":
+			element.classList.add('text-neutral');
+			break;
+	}
+};
+
 function registerUnitObjects() {
 	let objects = document.getElementsByClassName("unit");
 	for(let i = 0 ; i < objects.length ; i++)
 		unitObjects.push(new UnitObject(objects[i], false));
+}
+
+function updateComparison(effect) {
+	if(unitObjects.length < 2) return;
+
+	if(effect == "all") {
+		for(let key in effects)
+			updateComparison(key);
+		return;
+	}
+
+	let effectElements = [];
+	let element = unitObjects[0].effectsContainer.getElementsByClassName(effect)[0];
+	element.classList.remove('text-positive');
+	element.classList.remove('text-neutral');
+	element.classList.remove('text-negative');
+	effectElements[0] = element;
+
+	let bestValue = parseFloat(element.textContent);
+	let best = 0;
+	let worstValue = bestValue;
+	let worst = 0;
+	let lowerIsBetter = effects[effect].lowerIsBetter;
+	let allSame = true;
+	
+
+	for(let i = 1 ; i < unitObjects.length ; i++) {
+		element = unitObjects[i].effectsContainer.getElementsByClassName(effect)[0];
+		element.classList.remove('text-positive');
+		element.classList.remove('text-neutral');
+		element.classList.remove('text-negative');
+		effectElements[i] = element;
+		let value = parseFloat(element.textContent);
+		if(lowerIsBetter) {
+			if(value < bestValue) {
+				bestValue = value;
+				best = i;
+				allSame = false;
+			}
+			if(value > worstValue) {
+				worstValue = value;
+				worst = i;
+				allSame = false;
+			}
+		} else {
+			if(value > bestValue) {
+				bestValue = value;
+				best = i;
+				allSame = false;
+			}
+			if(value < worstValue) {
+				worstValue = value;
+				worst = i;
+				allSame = false;
+			}
+		}
+	}
+
+	if(!allSame) {
+		setEffectColor(effectElements[best], "BEST");
+		for(let i = 0 ; i < unitObjects.length ; i++) {
+			if(i == best || i == worst) continue;
+
+			let element = effectElements[i];
+			let value = parseFloat(element.textContent);
+			if(value == bestValue)
+				setEffectColor(element, "BEST");
+			else if(value == worstValue)
+				setEffectColor(element, "WORST");
+			else
+				setEffectColor(element, "BETWEEN");
+		}
+		setEffectColor(effectElements[worst], "WORST");
+	}
 }
 
 var mode = "LOADING";

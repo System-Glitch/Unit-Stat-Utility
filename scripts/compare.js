@@ -21,6 +21,9 @@ function duplicateUnitDOM(unit) {
 }
 
 function compareClicked(event) {
+
+	if(mode == "LOADING") return;
+
 	let unit = event.target.closest(".unit");
 	let duplicate = duplicateUnitDOM(unit);
 	let object = new UnitObject(duplicate, true);

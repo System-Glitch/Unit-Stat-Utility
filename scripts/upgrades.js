@@ -818,10 +818,13 @@ function toggleUpgrade(element) {
 		input.value = input.value == 1 ? 0 : 1;
 	}
 
-	if(!element.classList.contains("active"))
+	if(!element.classList.contains("active")) {
 		element.classList.add("active");
-	else
+		return true;
+	} else {
 		element.classList.remove("active");
+		return false;
+	}
 }
 
 function enableUpgrade(element) {

@@ -10,9 +10,78 @@ var UnitObject = function(element, isDuplicate) {
 	this.loneUpgradesContainer = this.upgradesContainer.getElementsByClassName("lone-upgrades-container")[0];
 	this.gearSelectorIcon = element.getElementsByClassName('gear-selector-unit-icon')[0];
 
+	//Keep track of the state for share feature
+	this.state = {
+		unit: 0,
+		gear: {},
+		upgrades: {}
+	};
+
 	this.loadUpgrades(!isDuplicate);
 	this.registerSelects();
 	this.updateSelects();
+
+	//Temporary check to avoid sharing on duplicates
+	this.isDuplicate = isDuplicate;
+	if(!isDuplicate && shareOptions != undefined) {
+		//Load share options
+		this.unitSelect.select(shareOptions.unit);
+
+		for(let i = 0 ; i < shareOptions.upgrades.length ; i++) {
+			let upgrade = shareOptions.upgrades[i];
+			let container = this.upgradeElements[upgrade];
+			if(container.classList.contains("chained-upgrade")) {
+				enableUpgrade(container);
+				let arrow = container.previousElementSibling;
+				if(arrow != undefined && arrow.classList.contains("upgrade-arrow")) {
+					arrow.classList.add("active");
+				}
+			} else {
+				toggleUpgrade(container.getElementsByClassName("upgrade")[0]);
+			}
+		}
+
+		for(let key in shareOptions.gear) {
+			let selector = undefined;
+			for(let i = 0 ; i < this.gearSelectors.length ; i++) {
+				if(this.gearSelectors[i].category == key) {
+					selector = this.gearSelectors[i];
+					break;
+				}
+			}
+			if(selector != undefined) {
+				let gear = shareOptions.gear[key];
+				selector.select(gear.id);
+				if(gear.id != 0) {
+					selector.statsSelector.loadLevel(gear.lvl);
+					let effects = selector.statsSelector.effects;
+
+					for(let effect in gear.stats) {
+						for(let j = 0 ; j < effects.length ; j++) {
+							if(effects[j].type == effect) {
+								let inputElement = effects[j].element;
+								let valueElement = inputElement.parentElement.getElementsByClassName('stat-selector-value')[0];
+								inputElement.value = gear.stats[effect];
+								valueElement.textContent = round(inputElement.value);
+								break;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		this.updateStats();
+		this.state = shareOptions;
+	}
+}
+
+UnitObject.prototype.updateState = function() {
+	if(this.isDuplicate) return;
+
+	let json = JSON.stringify(this.state);
+	let base64 = btoa(json);
+	updateURLParameter("unit", base64);
 }
 
 UnitObject.prototype.registerSelects = function() {
@@ -191,6 +260,7 @@ UnitObject.prototype.updateGearSelectors = function(unit) {
 	for(let i = 0 ; i < this.gearSelectors.length ; i++) {
 		this.gearSelectors[i].element.style.display = "none";
 	}
+	this.state.gear = {};
 
 	if(unit.gear == undefined || unit.gear.length == 0)
 		return;
@@ -201,6 +271,8 @@ UnitObject.prototype.updateGearSelectors = function(unit) {
 		let selector = this.element.getElementsByClassName("gear-select-" + category)[0];
 		selector.style.display = "inline-block";
 		this.updateGearSelectorImages(selector);
+
+		this.state.gear[category] = {id: 0};
 	}
 };
 
@@ -242,25 +314,46 @@ UnitObject.prototype.hideAllUpgrades = function() {
 		let img = element.getElementsByClassName('upgrade')[0];
 		img.classList.remove("active");
 	}
+	this.state.upgrades = [];
 };
 
 UnitObject.prototype.onUpgradeClick = function(event) {
 	let element = event.target;
 	let parent = element.parentElement;
+	let upgrade = parent.dataset.upgrade;
+	let index = this.state.upgrades.indexOf(upgrade);
 
 	if(parent.classList.contains("chained-upgrade")) {
 		let sibling = parent;
-		while((sibling = sibling.previousElementSibling) != null)
+		while((sibling = sibling.previousElementSibling) != null) {
 			enableUpgrade(sibling);
+			let upgradeSibling = sibling.dataset.upgrade;
+			let indexSibling = this.state.upgrades.indexOf(upgradeSibling);
+			if(upgradeSibling != undefined && upgradeSibling.indexOf("none") != 0 && indexSibling == -1)
+				this.state.upgrades.push(upgradeSibling);
+		}
 		sibling = parent;
-		while((sibling = sibling.nextElementSibling) != null)
+		while((sibling = sibling.nextElementSibling) != null) {
 			disableUpgrade(sibling);
+			let upgradeSibling = sibling.dataset.upgrade;
+			let indexSibling = this.state.upgrades.indexOf(upgradeSibling);
+			if(upgradeSibling != undefined && indexSibling != -1) this.state.upgrades.splice(indexSibling, 1);
+		}
 		
-		enableUpgrade(element.parentElement);
-	} else
-		toggleUpgrade(element);
+		enableUpgrade(parent);
+		if(upgrade.indexOf("none") != 0 && index == -1) this.state.upgrades.push(upgrade);
+	} else {
+		let enabled = toggleUpgrade(element);
 
+		if(upgrade.indexOf("none") != 0) {
+			if(enabled)
+				this.state.upgrades.push(upgrade);
+			else
+				this.state.upgrades.splice(this.state.upgrades.indexOf(upgrade), 1);
+		}
+	}
 
+	this.updateState();
 	this.updateStats();
 };
 
@@ -300,4 +393,5 @@ function registerUnitObjects() {
 		unitObjects.push(new UnitObject(objects[i], false));
 }
 
+var shareOptions = getUrlParameter("unit");
 registerUnitObjects();

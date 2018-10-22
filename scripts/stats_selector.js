@@ -3,6 +3,7 @@ var statSelectorsElements = [];
 
 var StatsSelector = function(element, unitObject) {
 	this.gear = undefined;
+	this.category = undefined;
 	this.unitObject = unitObject;
 	this.element = element;
 	this.effectsContainer = document.createElement('div');
@@ -34,6 +35,8 @@ StatsSelector.prototype.loadExisting = function() {
 		let inputElement = element.getElementsByClassName('stat-selector-slider')[0];
 		inputElement.oninput = function(event) {
 			valueElement.textContent = round(inputElement.value);
+			that.unitObject.state.gear[that.category].stats[element.dataset.effect] = inputElement.value;
+			that.unitObject.updateState();
 			that.unitObject.updateStats();
 		};
 		this.effects.push({type: element.dataset.effect, element: inputElement});
@@ -45,8 +48,9 @@ StatsSelector.prototype.loadGear = function(gear) {
 	this.gear = gear;
 	this.clear();
 	if(gear != undefined && gear.effects != undefined) {
+		let level = getHighestKey(gear.effects);
 		this.loadLevels(gear);
-		this.loadLevel(getHighestKey(gear.effects));
+		this.loadLevel(level);
 	} else {
 		this.element.textContent = "No effects.";
 	}
@@ -61,7 +65,7 @@ StatsSelector.prototype.loadLevel = function(level) {
 		let effect = levelEffects[i];
 		this.addEffect(effect);
 	}
-	this.unitObject.updateStats();
+	this.unitObject.state.gear[this.category].lvl = level;
 }
 
 StatsSelector.prototype.selectLevel = function(level) {
@@ -86,6 +90,7 @@ StatsSelector.prototype.clearEffects = function() {
 	while(effects.length > 0) {
 		effects[0].remove();
 	}
+	this.unitObject.state.gear[this.category].stats = {};
 }
 
 StatsSelector.prototype.addEffect = function(effect) {
@@ -97,10 +102,14 @@ StatsSelector.prototype.addEffect = function(effect) {
 	
 	inputElement.oninput = function(event) {
 		valueElement.textContent = round(inputElement.value);
+		that.unitObject.state.gear[that.category].stats[element.dataset.effect] = inputElement.value;
+		that.unitObject.updateState();
 		that.unitObject.updateStats();
 	}
 	this.effectsContainer.appendChild(element);
 	this.effects.push({type: effect.type, element: inputElement});
+
+	this.unitObject.state.gear[this.category].stats[element.dataset.effect] = inputElement.value;
 }
 
 StatsSelector.prototype.loadLevels = function(gear) {
@@ -108,7 +117,11 @@ StatsSelector.prototype.loadLevels = function(gear) {
 	for(let key in gear.effects) {
 		let levelElement = createLevelElement(key);
 		let that = this;
-		levelElement.onclick = function(ev) { that.loadLevel(ev.target.textContent) };
+		levelElement.onclick = function(ev) { 
+			that.loadLevel(ev.target.textContent);
+			that.unitObject.updateState();
+			that.unitObject.updateStats();
+		};
 		this.levelContainer.appendChild(levelElement);
 	}
 	this.element.appendChild(this.levelContainer);

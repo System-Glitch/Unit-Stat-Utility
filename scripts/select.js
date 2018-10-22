@@ -58,15 +58,21 @@ var Select = function(element, imgPath, type, unitObject) {
 		if(this.container.dataset.initialized == 0) {
 			this.select(0);
 		} else {
-			var option = this.optionsElements[this.container.dataset.option];
+			var optionIndex = this.container.dataset.option;
+			var option = this.optionsElements[optionIndex];
 			if(option != undefined) {
 				if(type == "unit") {
 					this.unitId = option.dataset.unit;
 					this.unit = units[this.unitId];
+					this.unitObject.state.unit = optionIndex;
 				} else if(type == "gear") {
 					this.category = option.dataset.category;
 					this.gearId = option.dataset.gear;
 					this.gear = gear[this.category][this.gearId];
+
+					this.unitObject.state.gear[this.category] = {id: parseInt(this.gearId), lvl: 0, stats: {}};
+					this.statsSelector.category = this.category;
+
 					this.statsSelector.gear = this.gear;
 					this.statsSelector.loadExisting();
 				}
@@ -130,17 +136,24 @@ Select.prototype.select = function(optionIndex) {
 			this.unitObject.updateDefaultStats(this.unit);
 			this.unitObject.updateGearSelectors(this.unit);
 			this.unitObject.resetGear();
+
+			this.unitObject.state.unit = optionIndex;
 			break;
 		case "gear":
 			if(option != undefined) {
 				this.category = option.dataset.category;
 				this.gearId = option.dataset.gear;
 				this.gear = gear[this.category][this.gearId];
+
+				this.unitObject.state.gear[this.category] = {id: parseInt(this.gearId), lvl: 0, stats: {}};
+				this.statsSelector.category = this.category;
+
 				this.statsSelector.loadGear(this.gear);
 				img = this.gear["img"];
 			}
 			break;
 	}
+	this.unitObject.updateState();
 
 	if(this.type == "unit") {
 		this.selectedOption.innerHTML = option.innerHTML;

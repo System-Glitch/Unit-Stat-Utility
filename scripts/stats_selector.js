@@ -30,9 +30,16 @@ StatsSelector.prototype.loadExisting = function() {
 	let levels = this.element.getElementsByClassName("level");
 	for(let i = 0 ; i < levels.length ; i++) {
 		levels[i].onclick = function(ev) { 
-			that.loadLevel(ev.target.textContent);
+			let level = ev.target.textContent;
+			that.loadLevel(level);
 			that.unitObject.updateState();
 			that.unitObject.updateStats();
+
+			let levelEffects = that.gear.effects[level];
+			for(let i = 0 ; i < levelEffects.length ; i++) {
+				let effect = levelEffects[i];
+				updateComparison(effect.type)
+			}
 		};
 	}
 
@@ -127,10 +134,17 @@ StatsSelector.prototype.loadLevels = function(gear) {
 	for(let key in gear.effects) {
 		let levelElement = createLevelElement(key);
 		let that = this;
-		levelElement.onclick = function(ev) { 
-			that.loadLevel(ev.target.textContent);
+		levelElement.onclick = function(ev) {
+			let level = ev.target.textContent;
+			that.loadLevel(level);
 			that.unitObject.updateState();
 			that.unitObject.updateStats();
+
+			let levelEffects = that.gear.effects[level];
+			for(let i = 0 ; i < levelEffects.length ; i++) {
+				let effect = levelEffects[i];
+				updateComparison(effect.type)
+			}
 		};
 		this.levelContainer.appendChild(levelElement);
 	}

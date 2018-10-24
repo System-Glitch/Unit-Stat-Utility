@@ -56,6 +56,7 @@ var effects = {
 	carryCapacity: {name: "Carry Capacity", startsAtOne: false}, //Needs to be filled manually
 	trade: {name: "Trade", startsAtOne: false}, //Needs to be filled manually
 	selfHeal: {name: "Enables Self-Heal Action", startsAtOne: true},
+	snareImmunity: {name: "Grants Snare Immunity ", startsAtOne: true},
 	watchPostConstructionSpeed: {name: "Watch Post Construction Speed", startsAtOne: true}
 }
 

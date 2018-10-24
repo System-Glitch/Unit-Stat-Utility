@@ -106,6 +106,75 @@ var upgrades = {
 			gold: 350
 		}
 	},
+	championCatapultTrireme: {
+		isChain: false,
+		name: "Catapult Trireme Champion",
+		img: "img/Upgrades/CatapultTriremeChampion.png",
+		effects: [
+			{amount: 25, positive: true, type: "damage"}
+		],
+		cost: {
+			gold: 800
+		}
+	},
+	championTrireme: {
+		isChain: false,
+		name: "Trireme Champion",
+		img: "img/Upgrades/TriremeChampion.png",
+		effects: [
+			{amount: 15, positive: true, type: "range"},
+			{amount: 20, positive: true, type: "speed"}
+		],
+		cost: {
+			gold: 350
+		}
+	},
+	championFireShip: {
+		isChain: false,
+		name: "Fire Ship Champion",
+		img: "img/Upgrades/FireShipChampion.png",
+		effects: [
+			{amount: 100, positive: true, type: "protection"}
+		],
+		cost: {
+			gold: 600
+		}
+	},
+	championSiegeTower: {
+		isChain: false,
+		name: "Siege Tower Champion",
+		img: "img/Upgrades/SiegeTowerChampion.png",
+		effects: [
+			{amount: 50, positive: true, type: "health"},
+			{amount: 100, positive: true, type: "snareImmunity"}
+		],
+		cost: {
+			gold: 400
+		}
+	},
+	championCatapult: {
+		isChain: false,
+		name: "Catapult Champion",
+		img: "img/Upgrades/CatapultChampion.png",
+		effects: [
+			{amount: 25, positive: true, type: "damage"}
+		],
+		cost: {
+			gold: 1200
+		}
+	},
+	championPalintonon: {
+		isChain: false,
+		name: "Palintonon Champion",
+		img: "img/Upgrades/PalintononChampion.png",
+		effects: [
+			{amount: 20, positive: true, type: "range"},
+			{amount: 20, positive: true, type: "vision"}
+		],
+		cost: {
+			gold: 1200
+		}
+	},
 	agogeDiscipline: {
 		isChain: false,
 		name: "Agoge Discipline",

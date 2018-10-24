@@ -6,7 +6,10 @@ function duplicateUnitDOM(unit) {
 		div.classList.add(unit.classList.item(i));
 	div.innerHTML = unit.innerHTML;
 
-	unit.getElementsByClassName("compare-button")[0].remove();
+	unit.getElementsByClassName("button");
+
+	let shareButton = div.getElementsByClassName("share-button")[0];
+	if(shareButton != undefined) shareButton.remove();
 	div.getElementsByClassName("compare-button")[0].addEventListener("click", compareClicked);
 
 	div.getElementsByClassName("select-search")[0].value = unit.getElementsByClassName("select-search")[0].value;

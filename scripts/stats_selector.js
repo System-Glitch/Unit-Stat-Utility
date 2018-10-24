@@ -32,7 +32,6 @@ StatsSelector.prototype.loadExisting = function() {
 		levels[i].onclick = function(ev) { 
 			let level = ev.target.textContent;
 			that.loadLevel(level);
-			that.unitObject.updateState();
 			that.unitObject.updateStats();
 
 			let levelEffects = that.gear.effects[level];
@@ -51,7 +50,6 @@ StatsSelector.prototype.loadExisting = function() {
 		inputElement.oninput = function(event) {
 			valueElement.textContent = round(inputElement.value);
 			that.unitObject.state.gear[that.category].stats[element.dataset.effect] = inputElement.value;
-			that.unitObject.updateState();
 			that.unitObject.updateStats();
 			updateComparison(element.dataset.effect);
 		};
@@ -119,7 +117,6 @@ StatsSelector.prototype.addEffect = function(effect) {
 	inputElement.oninput = function(event) {
 		valueElement.textContent = round(inputElement.value);
 		that.unitObject.state.gear[that.category].stats[element.dataset.effect] = inputElement.value;
-		that.unitObject.updateState();
 		that.unitObject.updateStats();
 		updateComparison(element.dataset.effect);
 	}
@@ -137,7 +134,6 @@ StatsSelector.prototype.loadLevels = function(gear) {
 		levelElement.onclick = function(ev) {
 			let level = ev.target.textContent;
 			that.loadLevel(level);
-			that.unitObject.updateState();
 			that.unitObject.updateStats();
 
 			let levelEffects = that.gear.effects[level];

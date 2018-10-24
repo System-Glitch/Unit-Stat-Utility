@@ -154,7 +154,6 @@ Select.prototype.select = function(optionIndex) {
 			}
 			break;
 	}
-	this.unitObject.updateState();
 
 	if(this.type == "unit") {
 		this.selectedOption.innerHTML = option.innerHTML;

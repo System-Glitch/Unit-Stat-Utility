@@ -519,20 +519,29 @@ h4, p {
 	color: #fff;
 }
 
-.compare-button {
+.buttons-container {
+	display: inline-block;
 	position: absolute;
 	right: 1rem;
 	top: 1rem;
-	background-color: rgba(255,255,255,0.4);
-	border: 1px solid rgba(0,0,0,0.2);
-	border-radius: 2.5px;
-	display: inline-block;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
 
-.compare-button:hover {
+.button {
+	background-color: rgba(255,255,255,0.4);
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 2.5px;
+	display: inline-block;
+	position: relative;
+}
+
+.button:hover {
 	cursor: pointer;
+}
+
+.button:not(:first-child) {
+	margin-left: 5px;
 }
 
 button::-moz-focus-inner {
@@ -555,4 +564,25 @@ button::-moz-focus-inner {
 .unit .row {
 	padding-right: 15px;
 	padding-left: 15px;
+}
+
+.clipboard-notification {
+	display: none;
+	position: absolute;
+	top: -20px;
+	white-space: nowrap;
+	transform: translateX(-50%);
+	left: 50%;
+}
+
+.clipboard-notification-shown {
+	display: inline-block;
+	animation-name: fadeOut;
+    animation-duration: 3s;
+}
+
+@keyframes fadeOut {
+    0%   { opacity: 1 }
+    50%  { opacity: 1 }
+    100% { opacity: 0 }
 }

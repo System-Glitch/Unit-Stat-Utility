@@ -24,7 +24,7 @@ function updateURLParameter(param, paramVal) {
 	}
 
 	var rows_txt = temp + "" + param + "=" + paramVal;
-	window.history.replaceState('', '', baseURL + "?" + newAdditionalURL + rows_txt);
+	return baseURL + "?" + newAdditionalURL + rows_txt;
 }
 
 function getUrlParameter(param) {

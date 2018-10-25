@@ -292,6 +292,154 @@ var upgrades = {
 			gold: 1200
 		}
 	},
+	championSparabara: {
+		isChain: false,
+		name: "Sparabara Champion",
+		img: "img/Upgrades/SparabaraChampion.png",
+		effects: [
+			{amount: 15, positive: true, type: "health"},
+			{amount: 15, positive: true, type: "snare"}
+		],
+		cost: {
+			gold: 250
+		}
+	},
+	championGalley: {
+		isChain: false,
+		name: "Galley Champion",
+		img: "img/Upgrades/GalleyChampion.png",
+		effects: [
+			{amount: 15, positive: true, type: "range"},
+			{amount: 20, positive: true, type: "speed"}
+		],
+		cost: { /* TODO UNKNOWN */ }
+	},
+	championSpearmanPersia: {
+		isChain: false,
+		name: "Spearman Champion",
+		img: "img/Upgrades/SpearmanChampionPersian.png",
+		effects: [
+			{amount: 20, positive: true, type: "multiplierCavalry"},
+			{amount: 15, positive: true, type: "speed"}
+		],
+		cost: {
+			gold: 400
+		}
+	},
+	championBowman: {
+		isChain: false,
+		name: "Bowman Champion",
+		img: "img/Upgrades/BowmanChampion.png",
+		effects: [
+			{amount: 25, positive: true, type: "rateOfFire"}
+		],
+		cost: {
+			gold: 400
+		}
+	},
+	championAsabara: {
+		isChain: false,
+		name: "Asabara Champion",
+		img: "img/Upgrades/AsabaraChampion.png",
+		effects: [
+			{amount: 10, positive: true, type: "health"},
+			{amount: 10, positive: true, type: "damage"},
+			{amount: 10, positive: true, type: "speed"}
+		],
+		cost: {
+			gold: 400
+		}
+	},
+	championMangonelGalley: {
+		isChain: false,
+		name: "Mangone Galley Champion",
+		img: "img/Upgrades/MangonelGalleyChampion.png",
+		effects: [
+			{amount: 25, positive: true, type: "damage"}
+		],
+		cost: { /* TODO UNKNOWN */ }
+	},
+	championRamShipPersia: {
+		isChain: false,
+		name: "Ram Ship Champion",
+		img: "img/Upgrades/RamShipChampionPersian.png",
+		effects: [
+			{amount: 25, positive: true, type: "multiplierBuildings"},
+			{amount: 20, positive: true, type: "speed"}
+		],
+		cost: { /* TODO UNKNOWN */ }
+	},
+	championImmortal: {
+		isChain: false,
+		name: "Immortal Champion",
+		img: "img/Upgrades/ImmortalChampion.png",
+		effects: [
+			{amount: -50, positive: true, type: "population"}
+		],
+		cost: {
+			gold: 1200
+		}
+	},
+	championTakabara: {
+		isChain: false,
+		name: "Takabara Champion",
+		img: "img/Upgrades/TakabaraChampion.png",
+		effects: [
+			{amount: 20, positive: true, type: "range"}
+		],
+		cost: {
+			gold: 800
+		}
+	},
+	championCataphract: {
+		isChain: false,
+		name: "Cataphract Champion",
+		img: "img/Upgrades/CataphractChampion.png",
+		effects: [
+			{amount: 20, positive: true, type: "damage"},
+			{amount: 50, positive: true, type: "armorPierce"}
+		],
+		cost: {
+			gold: 1200
+		}
+	},
+	championMountedArcher: {
+		isChain: false,
+		name: "Mounted Archer Champion",
+		img: "img/Upgrades/MountedArcherChampion.png",
+		effects: [
+			{amount: -50, positive: true, type: "costGold"},
+			{amount: 50, positive: true, type: "multiplierCavalry"}
+		],
+		cost: {
+			gold: 800
+		}
+	},
+	championBatteringRamPersia: {
+		isChain: false,
+		name: "Battering Ram Champion",
+		img: "img/Upgrades/BatteringRamChampion.png",
+		effects: [
+			{amount: 25, positive: true, type: "damage"},
+			{amount: 15, positive: true, type: "speed"},
+			{amount: 100, positive: true, type: "snareImmunity"}
+		],
+		cost: {
+			gold: 1000
+		}
+	},
+	championWarWagon: {
+		isChain: false,
+		name: "War Wagon Champion",
+		img: "img/Upgrades/WarWagonChampion.png",
+		effects: [
+			{amount: 25, positive: true, type: "health"},
+			{amount: 100, positive: true, type: "splash"}
+		],
+		cost: {
+			gold: 1200
+		}
+	},
 	agogeDiscipline: {
 		isChain: false,
 		name: "Agoge Discipline",

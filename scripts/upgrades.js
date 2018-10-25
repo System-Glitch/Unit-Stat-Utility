@@ -578,6 +578,97 @@ var upgrades = {
 			gold: 250
 		}
 	},
+	rigorousTraining: {
+		isChain: false,
+		name: "Rigorous Training",
+		img: "img/Upgrades/RigorousTraining.png",
+		effects: [
+			{amount: -30, positive: true, type: "timeTrain"},
+			{amount: 15, positive: false, type: "cost"}
+		],
+		cost: {}
+	},
+	shieldWall: {
+		isChain: false,
+		name: "Shield Wall",
+		img: "img/Upgrades/ShieldWall.png",
+		effects: [
+			{amount: 20, positive: true, type: "health"},
+			{amount: 180, positive: true, type: "armorCrush"},
+			{amount: -10, positive: false, type: "speed"}
+		],
+		cost: {
+			food: 250,
+			gold: 250
+		}
+	},
+	royalRoads: {
+		isChain: false,
+		name: "Royal Roads",
+		img: "img/Upgrades/RoyalRoads.png",
+		effects: [
+			{amount: 20, positive: true, type: "speed"}
+		],
+		cost: { /* TODO UNKNOWN */ }
+	},
+	paidLabor: {
+		isChain: false,
+		name: "Paid Labor",
+		img: "img/Upgrades/PaidLabor.png",
+		effects: [
+			{amount: -45, positive: true, type: "timeTrain"},
+			{amount: -100, positive: true, type: "costFood"},
+			{amount: 100, positive: false, type: "costGold"} //TODO special processing
+		],
+		cost: { /* TODO UNKNOWN */ }
+	},
+	withoutNumber: {
+		isChain: false,
+		name: "Whithout Number",
+		img: "img/Upgrades/WithoutNumber.png",
+		effects: [
+			{amount: 50, positive: true, type: "conversionRate"}
+		],
+		cost: {
+			gold: 1000
+		}
+	},
+	relentlessZeal: {
+		isChain: false,
+		name: "Relentless Zeal",
+		img: "img/Upgrades/RelentlessZeal.png",
+		effects: [
+			{amount: -60, positive: true, type: "timeTrain"},
+			{amount: 30, positive: false, type: "cost"}
+		],
+		cost: {}
+	},
+	blotOuttheSun: {
+		isChain: false,
+		name: "Blot Out the Sun",
+		img: "img/Upgrades/BlotOuttheSun.png",
+		effects: [
+			{amount: 30, positive: true, type: "range"},
+			{amount: -15, positive: false, type: "health"}
+		],
+		cost: {
+			wood: 500,
+			gold: 500
+		}
+	},
+	fortifiedTower: {
+		isChain: false,
+		name: "Fortified Tower",
+		img: "img/Upgrades/FortifiedTower.png",
+		effects: [
+			{amount: 30, positive: true, type: "health"},
+			{amount: 30, positive: true, type: "damage"}
+		],
+		cost: {
+			wood: 200,
+			gold: 300
+		}
+	},
 	fishing: {
 		isChain: true,
 		noneFishing: {

@@ -29,6 +29,7 @@ var effects = {
 	timeTrain: {name: "Train Time", startsAtOne: false, lowerIsBetter: true},
 	timeBuilding: {name: "Build Time", startsAtOne: false, lowerIsBetter: true},
 	range: {name: "Maximum Range", startsAtOne: false},
+	rateOfFire: {name: "Rate-of-fire", startsAtOne: true},
 	population: {name: "Population", startsAtOne: false, lowerIsBetter: true},
 	gatherFish: {name: "Gathering Food", startsAtOne: false},
 	gatherWood: {name: "Gathering Wood", startsAtOne: false},

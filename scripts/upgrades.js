@@ -1,4 +1,100 @@
 var upgrades = {
+	championSpearmanGreece: {
+		isChain: false,
+		name: "Spearman Champion",
+		img: "img/Upgrades/SpearmanChampionGreek.png",
+		effects: [
+			{amount: 25, positive: true, type: "armorPierce"},
+			{amount: 25, positive: true, type: "damage"}
+		],
+		cost: {
+			gold: 200
+		}
+	},
+	championHypaspist: {
+		isChain: false,
+		name: "Hypaspist Champion",
+		img: "img/Upgrades/HypaspistChampion.png",
+		effects: [
+			{amount: 25, positive: true, type: "health"},
+			{amount: 15, positive: true, type: "speed"}
+		],
+		cost: {
+			gold: 300
+		}
+	},
+	championHoplite: {
+		isChain: false,
+		name: "Hoplite Champion",
+		img: "img/Upgrades/HopliteChampion.png",
+		effects: [
+			{amount: 50, positive: true, type: "multiplierCavalry"},
+			{amount: 50, positive: true, type: "armorPierce"}
+		],
+		cost: {
+			gold: 1000
+		}
+	},
+	championToxotes: {
+		isChain: false,
+		name: "Toxotes Champion",
+		img: "img/Upgrades/ToxotesChampion.png",
+		effects: [
+			{amount: 10, positive: true, type: "health"},
+			{amount: 10, positive: true, type: "damage"}
+		],
+		cost: {
+			gold: 400
+		}
+	},
+	championPeltast: {
+		isChain: false,
+		name: "Peltast Champion",
+		img: "img/Upgrades/PeltastChampion.png",
+		effects: [
+			{amount: 25, positive: true, type: "health"},
+			{amount: 15, positive: true, type: "speed"}
+		],
+		cost: {
+			gold: 800
+		}
+	},
+	championGastraphetes: {
+		isChain: false,
+		name: "Gastraphetes Champion",
+		img: "img/Upgrades/GastraphetesChampion.png",
+		effects: [
+			{amount: 25, positive: true, type: "rateOfFire"}
+		],
+		cost: {
+			gold: 1000
+		}
+	},
+	championSarissophoroi: {
+		isChain: false,
+		name: "Sarissophoroi Champion",
+		img: "img/Upgrades/SarissophoroiChampion.png",
+		effects: [
+			{amount: 40, positive: true, type: "range"},
+			{amount: 10, positive: true, type: "speed"}
+		],
+		cost: {
+			gold: 350
+		}
+	},
+	championProdromos: {
+		isChain: false,
+		name: "Prodromos Champion",
+		img: "img/Upgrades/ProdromosChampion.png",
+		effects: [
+			{amount: 50, positive: true, type: "multiplierSiege"},
+			{amount: 50, positive: true, type: "multiplierBuildings"},
+			{amount: 50, positive: true, type: "snare"}
+		],
+		cost: {
+			gold: 800
+		}
+	},
 	championHippikon: {
 		isChain: false,
 		name: "Hippikon Champion",
@@ -8,6 +104,27 @@ var upgrades = {
 		],
 		cost: {
 			gold: 1200
+		}
+	},
+	championBallistaTrireme: {
+		name: "Ballista Trireme Champion",
+		img: "img/Upgrades/BallistaTriremeChampion.png",
+		effects: [
+			{amount: 25, positive: true, type: "damage"}
+		],
+		cost: {
+			gold: 800
+		}
+	},
+	championBatteringRam: {
+		name: "Battering Ram Champion",
+		img: "img/Upgrades/BatteringRamChampion.png",
+		effects: [
+			{amount: 50, positive: true, type: "damage"},
+			{amount: 100, positive: true, type: "snareImmunity"},
+		],
+		cost: {
+			gold: 400
 		}
 	},
 	championBallista: {

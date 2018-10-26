@@ -440,6 +440,139 @@ var upgrades = {
 			gold: 1200
 		}
 	},
+	championSpearmanCelt: {
+		isChain: false,
+		name: "Spearman Champion",
+		img: "img/Upgrades/SpearmanChampionCeltic.png",
+		effects: [
+			{amount: 25, positive: true, type: "multiplierCavalry"},
+			{amount: 25, positive: true, type: "multiplierBuildings"}
+		],
+		cost: {
+			gold: 200
+		}
+	},
+	championSwanship: {
+		isChain: false,
+		name: "Swanship Champion",
+		img: "img/Upgrades/SwanshipChampion.png",
+		effects: [
+			{amount: 50, positive: true, type: "health"}
+		],
+		cost: {
+			gold: 400
+		}
+	},
+	championLongSwordsman: {
+		isChain: false,
+		name: "Long Swordsman Champion",
+		img: "img/Upgrades/LongSwordsmanChampion.png",
+		effects: [
+			{amount: 25, positive: true, type: "armorInfantry"},
+			{amount: 25, positive: true, type: "armorPierce"}
+		],
+		cost: {
+			gold: 300
+		}
+	},
+	championSlingerCelt: {
+		isChain: false,
+		name: "Slinger Champion",
+		img: "img/Upgrades/SlingerChampion.png",
+		effects: [
+			{amount: 25, positive: true, type: "multiplierVillager"},
+			{amount: 15, positive: true, type: "speed"}
+		],
+		cost: {
+			gold: 300
+		}
+	},
+	championWoadRaider: {
+		isChain: false,
+		name: "Woad Raider Champion",
+		img: "img/Upgrades/WoadRaiderChampion.png",
+		effects: [
+			{amount: 100, positive: true, type: "splash"},
+			{amount: 100, positive: true, type: "snareImmunity"}
+		],
+		cost: {
+			gold: 1000
+		}
+	},
+	championChampion: {
+		isChain: false,
+		name: "Champion Champion",
+		img: "img/Upgrades/ChampionChampion.png",
+		effects: [
+			{amount: 35, positive: true, type: "damage"},
+			{amount: 35, positive: true, type: "health"},
+			{amount: 50, positive: false, type: "cost"},
+			{amount: 50, positive: false, type: "population"}
+		],
+		cost: {
+			gold: 1000
+		}
+	},
+	championBowmanCelt: {
+		isChain: false,
+		name: "Bowman Champion",
+		img: "img/Upgrades/BowmanChampion.png",
+		effects: [
+			{amount: 20, positive: true, type: "range"}
+		],
+		cost: {
+			gold: 1000
+		}
+	},
+	championHorseman: {
+		isChain: false,
+		name: "Horseman Champion",
+		img: "img/Upgrades/HorsemanChampion.png",
+		effects: [
+			{amount: 25, positive: true, type: "armorPierce"},
+			{amount: 50, positive: true, type: "snare"}
+		],
+		cost: {
+			gold: 800
+		}
+	},
+	championRam: {
+		isChain: false,
+		name: "Ram Champion",
+		img: "img/Upgrades/RamChampion.png",
+		effects: [
+			{amount: 25, positive: true, type: "armorPierce"},
+			{amount: -40, positive: true, type: "timeTrain"},
+			{amount: 100, positive: true, type: "snareImmunity"}
+		],
+		cost: {
+			gold: 600
+		}
+	},
+	championStoneThrower: {
+		isChain: false,
+		name: "Stone Thrower Champion",
+		img: "img/Upgrades/StoneThrowerChampion.png",
+		effects: [
+			{amount: 50, positive: true, type: "multiplierSiege"},
+			{amount: -25, positive: true, type: "population"}
+		],
+		cost: {
+			gold: 1200
+		}
+	},
+	championCarpentom: {
+		isChain: false,
+		name: "Carpentom Champion",
+		img: "img/Upgrades/CarpentomChampion.png",
+		effects: [
+			{amount: 10, positive: true, type: "speed"},
+			{amount: 100, positive: true, type: "splash"}
+		],
+		cost: {
+			gold: 1000
+		}
+	},
 	agogeDiscipline: {
 		isChain: false,
 		name: "Agoge Discipline",
@@ -656,6 +789,136 @@ var upgrades = {
 			gold: 500
 		}
 	},
+	giftOfBalor: {
+		isChain: false,
+		name: "Gift of Balor",
+		img: "img/Upgrades/GiftofBalor.png",
+		effects: [
+			{amount: 25, positive: true, type: "health"},
+			{amount: 25, positive: true, type: "damage"}
+		],
+		cost: {
+			food: 100,
+			gold: 150
+		}
+	},
+	callToArms: {
+		isChain: false,
+		name: "Call to Arms",
+		img: "img/Upgrades/CalltoArms.png",
+		effects: [
+			{amount: 150, positive: true, type: "damage"}
+		],
+		cost: {
+			food: 150,
+			gold: 150
+		}
+	},
+	woodenRoads: {
+		isChain: false,
+		name: "Wooden Roads",
+		img: "img/Upgrades/WoodenRoads.png",
+		effects: [
+			{amount: 20, positive: true, type: "speed"}
+		],
+		cost: {
+			wood: 300,
+			gold: 300
+		}
+	},
+	cargoExpansion: {
+		isChain: false,
+		name: "Cargo Expansion",
+		img: "img/Upgrades/CargoExpansion.png",
+		effects: [
+			{amount: 2.666666, positive: true, type: "carryCapacity"}
+		],
+		cost: {
+			gold: 100
+		}
+	},
+	giftOfSequana: {
+		isChain: false,
+		name: "Gift of Sequana",
+		img: "img/Upgrades/GiftofSequana.png",
+		effects: [
+			{amount: 40, positive: true, type: "healRate"}
+		],
+		cost: {
+			food: 200,
+			gold: 300
+		}
+	},
+	riteOfDamara: {
+		isChain: false,
+		name: "Rite of Damara",
+		img: "img/Upgrades/RiteofDamara.png",
+		effects: [
+			{amount: -20, positive: true, type: "timeTrain"}
+		],
+		cost: { /* TODO UNKNOWN */ }
+	},
+	riteOfRatis: {
+		isChain: false,
+		name: "Rite of Ratis",
+		img: "img/Upgrades/RiteofRatis.png",
+		effects: [
+			{amount: 50, positive: true, type: "multiplierBuildings"}
+		],
+		cost: { /* TODO UNKNOWN */ }
+	},
+	brewing: {
+		isChain: false,
+		name: "Brewing",
+		img: "img/Upgrades/Brewing.png",
+		effects: [
+			{amount: 10, positive: true, type: "health"}
+		],
+		cost: {
+			food: 500
+		}
+	},
+	furorCeltica: {
+		isChain: false,
+		name: "Furor Celtica",
+		img: "img/Upgrades/FurorCeltica.png",
+		effects: [
+			{amount: 10, positive: true, type: "speed"}
+		],
+		cost: {
+			food: 250,
+			gold: 250
+		}
+	},
+	headhunting: {
+		isChain: false,
+		name: "Headhunting",
+		img: "img/Upgrades/Headhunting.png",
+		effects: [
+			{amount: 10, positive: true, type: "damage"}
+		],
+		cost: {
+			gold: 1200
+		}
+	},
+	riteOfRudiobus: {
+		isChain: false,
+		name: "Rite of Rudiobus",
+		img: "img/Upgrades/RiteofRudiobus.png",
+		effects: [
+			{amount: 15, positive: true, type: "speed"}
+		],
+		cost: { /* TODO UNKNOWN */ }
+	},
+	riteOfAndrastra: {
+		isChain: false,
+		name: "Rite of Andrastra",
+		img: "img/Upgrades/RiteofAndrastra.png",
+		effects: [
+			{amount: 15, positive: true, type: "damage"}
+		],
+		cost: { /* TODO UNKNOWN */ }
+	},
 	fortifiedTower: {
 		isChain: false,
 		name: "Fortified Tower",
@@ -667,6 +930,31 @@ var upgrades = {
 		cost: {
 			wood: 200,
 			gold: 300
+		}
+	},
+	strongholdTower: {
+		isChain: false,
+		name: "Stronghold Tower",
+		img: "img/Upgrades/StrongholdTower.png",
+		effects: [
+			{amount: 30, positive: true, type: "health"},
+			{amount: 30, positive: true, type: "damage"}
+		],
+		cost: {
+			wood: 300,
+			gold: 500
+		}
+	},
+	saddleBags: {
+		isChain: false,
+		name: "Saddle Bags",
+		img: "img/Upgrades/SaddleBags.png",
+		effects: [
+			{amount: 20, positive: true, type: "trade"}
+		],
+		cost: {
+			food: 500,
+			wood: 500
 		}
 	},
 	fishing: {

@@ -441,6 +441,7 @@ function updateComparison(effect) {
 
 	let effectElements = [];
 	let element = unitObjects[0].effectsContainer.getElementsByClassName(effect)[0];
+	if(element == undefined) return;
 	element.classList.remove('text-positive');
 	element.classList.remove('text-neutral');
 	element.classList.remove('text-negative');

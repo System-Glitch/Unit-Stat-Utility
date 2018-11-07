@@ -100,7 +100,7 @@ var upgrades = {
 		name: "Hippikon Champion",
 		img: "img/Upgrades/HippikonChampion.png",
 		effects: [
-			{amount: -33.3, positive: true, type: "population"}
+			{amount: -1, positive: true, type: "population", isAbsolute: true}
 		],
 		cost: {
 			gold: 1200
@@ -154,7 +154,7 @@ var upgrades = {
 		name: "Elephant Archer Champion",
 		img: "img/Upgrades/ElephantArcherChampion.png",
 		effects: [
-			{amount: -20, positive: true, type: "population"}
+			{amount: -1, positive: true, type: "population", isAbsolute: true}
 		],
 		cost: {
 			gold: 1200
@@ -374,7 +374,7 @@ var upgrades = {
 		name: "Immortal Champion",
 		img: "img/Upgrades/ImmortalChampion.png",
 		effects: [
-			{amount: -50, positive: true, type: "population"}
+			{amount: -1, positive: true, type: "population", isAbsolute: true}
 		],
 		cost: {
 			gold: 1200
@@ -507,7 +507,7 @@ var upgrades = {
 			{amount: 35, positive: true, type: "damage"},
 			{amount: 35, positive: true, type: "health"},
 			{amount: 50, positive: false, type: "cost"},
-			{amount: 50, positive: false, type: "population"}
+			{amount: 1, positive: false, type: "population", isAbsolute: true}
 		],
 		cost: {
 			gold: 1000
@@ -555,7 +555,7 @@ var upgrades = {
 		img: "img/Upgrades/StoneThrowerChampion.png",
 		effects: [
 			{amount: 50, positive: true, type: "multiplierSiege"},
-			{amount: -25, positive: true, type: "population"}
+			{amount: -1, positive: true, type: "population", isAbsolute: true}
 		],
 		cost: {
 			gold: 1200
@@ -750,8 +750,8 @@ var upgrades = {
 		img: "img/Upgrades/PaidLabor.png",
 		effects: [
 			{amount: -45, positive: true, type: "timeTrain"},
-			{amount: -100, positive: true, type: "costFood"},
-			{amount: 100, positive: false, type: "costGold"} //TODO special processing
+			{amount: -40, positive: true, type: "costFood", isAbsolute: true},
+			{amount: 40, positive: false, type: "costGold", isAbsolute: true}
 		],
 		cost: { /* TODO UNKNOWN */ }
 	},
@@ -919,7 +919,7 @@ var upgrades = {
 		],
 		cost: { /* TODO UNKNOWN */ }
 	},
-	fortifiedTower: {
+	fortifiedTowerLone: {
 		isChain: false,
 		name: "Fortified Tower",
 		img: "img/Upgrades/FortifiedTower.png",
@@ -932,18 +932,41 @@ var upgrades = {
 			gold: 300
 		}
 	},
-	strongholdTower: {
-		isChain: false,
-		name: "Stronghold Tower",
-		img: "img/Upgrades/StrongholdTower.png",
-		effects: [
-			{amount: 30, positive: true, type: "health"},
-			{amount: 30, positive: true, type: "damage"}
-		],
-		cost: {
-			wood: 300,
-			gold: 500
-		}
+	tower: {
+		isChain: true,
+		noneTower: {
+			isChain: false,
+			name: "None",
+			img: "img/Slot/GearSlotGeneric_ua.png",
+			effects: [],
+			cost: {}
+		},
+		fortifiedTower: {
+			isChain: false,
+			name: "Fortified Tower",
+			img: "img/Upgrades/FortifiedTower.png",
+			effects: [
+				{amount: 30, positive: true, type: "health"},
+				{amount: 30, positive: true, type: "damage"}
+			],
+			cost: {
+				wood: 200,
+				gold: 300
+			}
+		},
+		strongholdTower: {
+			isChain: false,
+			name: "Stronghold Tower",
+			img: "img/Upgrades/StrongholdTower.png",
+			effects: [
+				{amount: 30, positive: true, type: "health"},
+				{amount: 30, positive: true, type: "damage"}
+			],
+			cost: {
+				wood: 300,
+				gold: 500
+			}
+		},
 	},
 	saddleBags: {
 		isChain: false,
@@ -955,6 +978,19 @@ var upgrades = {
 		cost: {
 			food: 500,
 			wood: 500
+		}
+	},
+	netLuresLone: {
+		isChain: false,
+		name: "Net Lures",
+		img: "img/Upgrades/NetLures.png",
+		effects: [
+			{amount: 20.0, positive: true, type: "gatherFish"},
+			{amount: 50.0, positive: true, type: "carryCapacity"}
+		],
+		cost: {
+			wood: 75,
+			gold: 50
 		}
 	},
 	fishing: {
@@ -1003,6 +1039,42 @@ var upgrades = {
 			cost: {
 				wood: 300,
 				gold: 200
+			}
+		}
+	},
+	fishingPartial: {
+		isChain: true,
+		noneFishingPartial: {
+			isChain: false,
+			name: "None",
+			img: "img/Slot/GearSlotGeneric_ua.png",
+			effects: [],
+			cost: {}
+		},
+		netLuresPartial: {
+			isChain: false,
+			name: "Net Lures",
+			img: "img/Upgrades/NetLures.png",
+			effects: [
+				{amount: 20.0, positive: true, type: "gatherFish"},
+				{amount: 50.0, positive: true, type: "carryCapacity"}
+			],
+			cost: {
+				wood: 75,
+				gold: 50
+			}
+		},
+		netWeightsPartial: {
+			isChain: false,
+			name: "Net Weights",
+			img: "img/Upgrades/NetWeights.png",
+			effects: [
+				{amount: 20.0, positive: true, type: "gatherFish"},
+				{amount: 50.0, positive: true, type: "carryCapacity"}
+			],
+			cost: {
+				wood: 150,
+				gold: 100
 			}
 		}
 	},
@@ -1492,7 +1564,7 @@ function createUpgradeTooptip(upgrade) {
 	for(let key in upgrade.effects) {
 		let effect = upgrade.effects[key];
 
-		let html = components.upgradeEffect(effects[effect.type].name, effect.amount);
+		let html = components.upgradeEffect(effects[effect.type].name, effect.amount, effect.isAbsolute);
 		let element = createEffectElement(html, effect);
 		tooltip.appendChild(element);
 	}

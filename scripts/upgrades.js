@@ -1126,6 +1126,42 @@ var upgrades = {
 			}
 		},
 	},
+	stablesNorse: {
+		isChain: true,
+		noneStablesNorse: {
+			isChain: false,
+			name: "None",
+			img: "img/Slot/GearSlotGeneric_ua.png",
+			effects: [],
+			cost: {}
+		},
+		purebredNorse: {
+			isChain: false,
+			name: "Purebred",
+			img: "img/Upgrades/Purebred.png",
+			effects: [
+				{amount: 10.0, positive: true, type: "speed"}
+			],
+			cost: {
+				food: 300,
+				gold: 200
+			}
+		},
+		horseshoesNorse: {
+			isChain: false,
+			name: "Horseshoes",
+			img: "img/Upgrades/Horseshoes.png",
+			effects: [
+				{amount: 10.0, positive: true, type: "health"},
+				{amount: 10.0, positive: true, type: "damage"},
+				{amount: 5.0, positive: true, type: "speed"},
+			],
+			cost: {
+				food: 900,
+				gold: 600
+			}
+		},
+	},
 	stablesEgypt: {
 		isChain: true,
 		noneStablesEgypt: {

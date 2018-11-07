@@ -980,6 +980,17 @@ var upgrades = {
 			wood: 500
 		}
 	},
+	townWatch: {
+		isChain: false,
+		name: "Town Watch",
+		img: "img/Upgrades/TownWatch.png",
+		effects: [
+			{amount: 25, positive: true, type: "vision"}
+		],
+		cost: {
+			food: 100
+		}
+	},
 	netLuresLone: {
 		isChain: false,
 		name: "Net Lures",

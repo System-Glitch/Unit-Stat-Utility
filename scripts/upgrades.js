@@ -573,6 +573,84 @@ var upgrades = {
 			gold: 1000
 		}
 	},
+	championSpearmanBabylon: {
+		isChain: false,
+		name: "Spearman Champion",
+		img: "img/Upgrades/SpearmanChampionBabylonian.png",
+		effects: [
+			{amount: 25, positive: true, type: "damage"},
+			{amount: 20, positive: true, type: "snare"}
+		],
+		cost: {
+			gold: 200
+		}
+	},
+	championBireme: {
+		isChain: false,
+		name: "Bireme Champion",
+		img: "img/Upgrades/BiremeChampion.png",
+		effects: [
+			{amount: 15, positive: true, type: "range"},
+			{amount: 20, positive: true, type: "speed"}
+		],
+		cost: { /* TODO UNKNOWN */ }
+	},
+	championShieldBearer: {
+		isChain: false,
+		name: "Shield Bearer Champion",
+		img: "img/Upgrades/ShieldBearerChampion.png",
+		effects: [
+			{amount: 50, positive: true, type: "armorPierce"}
+		],
+		cost: {
+			gold: 450
+		}
+	},
+	championSlingerBabylon: {
+		isChain: false,
+		name: "Slinger Champion",
+		img: "img/Upgrades/SlingerChampionBabylonian.png",
+		effects: [
+			{amount: 100, positive: true, type: "bonusDamageImmunity"}
+		],
+		cost: {
+			gold: 450
+		}
+	},
+	championBowmanBabylon: {
+		isChain: false,
+		name: "Bowman Champion",
+		img: "img/Upgrades/BowmanChampionBabylonian.png",
+		effects: [
+			{amount: -100, positive: true, type: "costGold"},
+			{amount: -20, positive: true, type: "timeTrain"}
+		],
+		cost: {
+			gold: 450
+		}
+	},
+	championLancer: {
+		isChain: false,
+		name: "Lancer Champion",
+		img: "img/Upgrades/ChampionLancer.png",
+		effects: [
+			{amount: 20, positive: true, type: "health"},
+			{amount: 175, positive: true, type: "chargeAttack"}
+		],
+		cost: {
+			gold: 450
+		}
+	},
+	championRamShipBabylon: {
+		isChain: false,
+		name: "Ram Ship Champion",
+		img: "img/Upgrades/RamShipChampionBabylonian.png",
+		effects: [
+			{amount: 25, positive: true, type: "multiplierBuildings"},
+			{amount: 20, positive: true, type: "speed"}
+		],
+		cost: { /* TODO UNKNOWN */ }
+	},
 	agogeDiscipline: {
 		isChain: false,
 		name: "Agoge Discipline",
@@ -989,6 +1067,66 @@ var upgrades = {
 		],
 		cost: {
 			food: 100
+		}
+	},
+	reinforcedCart: {
+		isChain: false,
+		name: "Reinforced Cart",
+		img: "img/Upgrades/ReinforcedCart.png",
+		effects: [
+			{amount: 50, positive: true, type: "health"}
+		],
+		cost: {
+			wood: 100
+		}
+	},
+	pharmacology: {
+		isChain: false,
+		name: "Pharmacology",
+		img: "img/Upgrades/Pharmacology.png",
+		effects: [
+			{amount: 1, positive: true, type: "regen", isAbsolute: true}
+		],
+		cost: {
+			food: 200
+		}
+	},
+	cargoExpansionBabylon: {
+		isChain: false,
+		name: "Cargo Expansion",
+		img: "img/Upgrades/CargoExpansion.png",
+		effects: [
+			{amount: 8, positive: true, type: "carryCapacity", isAbsolute: true}
+		],
+		cost: {
+			wood: 150,
+			gold: 150
+		}
+	},
+	ironWheels: {
+		isChain: false,
+		name: "Iron Wheels",
+		img: "img/Upgrades/IronWheels.png",
+		effects: [
+			{amount: 10, positive: true, type: "health"},
+			{amount: 10, positive: true, type: "speed"}
+		],
+		cost: {
+			wood: 200,
+			gold: 200
+		}
+	},
+	ironWheelsCart: {
+		isChain: false,
+		name: "Iron Wheels",
+		img: "img/Upgrades/IronWheels.png",
+		effects: [
+			{amount: 10, positive: true, type: "health"},
+			{amount: 20, positive: true, type: "speed"}
+		],
+		cost: {
+			wood: 200,
+			gold: 200
 		}
 	},
 	netLuresLone: {

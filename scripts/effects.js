@@ -8,6 +8,7 @@ var effects = {
 	costWood: {name: "Wood Cost", startsAtOne: false, lowerIsBetter: true},
 	costStone: {name: "Stone Cost", startsAtOne: false, lowerIsBetter: true},
 	protection: {name: "Bonus Damage Protection", startsAtOne: true}, //Missing effect
+	bonusDamageImmunity: {name: "Bonus Damage Immunity", startsAtOne: false},
 	armorPierce: {name: "Pierce Armor", startsAtOne: false, isArmor: true},
 	armorInfantry: {name: "Melee-Infantry Armor", startsAtOne: false, isArmor: true},
 	armorCavalry: {name: "Melee-Cavalry Armor", startsAtOne: false, isArmor: true},
@@ -40,7 +41,7 @@ var effects = {
 	gatherFish: {name: "Gathering Fish", startsAtOne: false},
 	gatherHerdable: {name: "Gathering Herdable", startsAtOne: false}, //Missing effect
 	gatherFarm: {name: "Gathering Farms", startsAtOne: false},
-	buildingSpeed: {name: "Buildings Construction Speed", startsAtOne: false},
+	buildingSpeed: {name: "Buildings Construction Speed", startsAtOne: true},
 	healing: {name: "Healing", startsAtOne: false},
 	healRange: {name: "Healing Range", startsAtOne: false},
 	healRate: {name: "Healing Rate", startsAtOne: false},
@@ -58,7 +59,9 @@ var effects = {
 	carryCapacity: {name: "Carry Capacity", startsAtOne: false}, //Needs to be filled manually
 	trade: {name: "Trade", startsAtOne: false}, //Needs to be filled manually
 	selfHeal: {name: "Enables Self-Heal Action", startsAtOne: true},
-	snareImmunity: {name: "Grants Snare Immunity ", startsAtOne: true},
+	regen: {name: "Health Regen. Per Second", startsAtOne: false},
+	snareImmunity: {name: "Grants Snare Immunity", startsAtOne: true},
+	chargeAttack: {name: "Charge Attack Damage", startsAtOne: true},
 	watchPostConstructionSpeed: {name: "Watch Post Construction Speed", startsAtOne: true}
 }
 

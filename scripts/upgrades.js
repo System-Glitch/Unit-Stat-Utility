@@ -831,7 +831,7 @@ var upgrades = {
 		name: "Cargo Expansion",
 		img: "img/Upgrades/CargoExpansion.png",
 		effects: [
-			{amount: 2.666666, positive: true, type: "carryCapacity"}
+			{amount: 8, positive: true, type: "carryCapacity", isAbsolute: true}
 		],
 		cost: {
 			gold: 100

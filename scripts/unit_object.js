@@ -455,6 +455,12 @@ function updateComparison(effect) {
 		for(let key in effects)
 			updateComparison(key);
 		return;
+	} else if(effect == "gatherFood") {
+		updateComparison("gatherFish");
+		updateComparison("gatherBerry");
+		updateComparison("gatherFarm");
+		updateComparison("gatherHunt");
+		return;
 	}
 
 	let effectElements = [];

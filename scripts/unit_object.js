@@ -150,15 +150,20 @@ UnitObject.prototype.updateStats = function() {
 		for(let j = 0 ; j < selector.effects.length ; j++) {
 			let effect = selector.effects[j];
 			let mod = parseFloat(effect.element.value);
+			let val = 1+(mod/100);
 
 			if(effect.type == "cost") {
-				let val = 1+(mod/100);
 				modifiers["costFood"].push(val);
 				modifiers["costWood"].push(val);
 				modifiers["costGold"].push(val);
 				modifiers["costStone"].push(val);
+			} else if(effect.type == "gatherFood") {
+				modifiers["gatherFarm"].push(val);
+				modifiers["gatherHunt"].push(val);
+				modifiers["gatherBerry"].push(val);
+				modifiers["gatherFish"].push(val);
 			} else
-				modifiers[effect.type].push(effect.type === "critical" ? mod : 1+(mod/100));
+				modifiers[effect.type].push(effect.type === "critical" ? mod : val);
 		}
 	}
 
@@ -177,14 +182,20 @@ UnitObject.prototype.updateStats = function() {
 			for(let j = 0 ; j < upgrade.effects.length ; j++) {
 				let effect = upgrade.effects[j];
 				let mod = parseFloat(effect.amount);
+				let val = 1+(mod/100);
+
 				if(effect.type == "cost") {
-					let val = 1+(mod/100);
 					modifiers["costFood"].push(val);
 					modifiers["costWood"].push(val);
 					modifiers["costGold"].push(val);
 					modifiers["costStone"].push(val);
+				} else if(effect.type == "gatherFood") {
+					modifiers["gatherFarm"].push(val);
+					modifiers["gatherHunt"].push(val);
+					modifiers["gatherBerry"].push(val);
+					modifiers["gatherFish"].push(val);
 				} else
-					modifiers[effect.type].push(effect.type === "critical" ? mod : 1+(mod/100));
+					modifiers[effect.type].push(effect.type === "critical" ? mod : val);
 			}
 		}
 	}

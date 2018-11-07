@@ -2427,7 +2427,7 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_L90_ua.png",
 			effects: {
 				40: [
-					{min: 14.364, max: 15.876000000000001, positive: true, type: "gatherFish"},
+					{min: 14.364, max: 15.876000000000001, positive: true, type: "gatherFood"},
 					{min: 3.9710000000000054, max: 4.3890000000000065, positive: true, type: "speed"},
 				],
 			}
@@ -2437,7 +2437,7 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_L90_ua.png",
 			effects: {
 				40: [
-					{min: 17.8125, max: 19.6875, positive: true, type: "gatherFish"},
+					{min: 17.8125, max: 19.6875, positive: true, type: "gatherFood"},
 					{min: 1.3395000000000001, max: 1.4805000000000001, positive: true, type: "speed"},
 				],
 			}
@@ -2447,7 +2447,7 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_E60_ua.png",
 			effects: {
 				40: [
-					{min: 16.56799999999999, max: 18.31199999999999, positive: true, type: "gatherFish"},
+					{min: 16.56799999999999, max: 18.31199999999999, positive: true, type: "gatherFood"},
 					{min: 1.7765000000000153, max: 1.963500000000017, positive: true, type: "speed"},
 				],
 			}
@@ -2457,7 +2457,7 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_E61_ua.png",
 			effects: {
 				40: [
-					{min: 19.569999999999993, max: 21.629999999999995, positive: true, type: "gatherFish"},
+					{min: 19.569999999999993, max: 21.629999999999995, positive: true, type: "gatherFood"},
 				],
 			}
 		},
@@ -2466,7 +2466,7 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_E60_ua.png",
 			effects: {
 				40: [
-					{min: 8.350499999999988, max: 9.229499999999986, positive: true, type: "gatherFish"},
+					{min: 8.350499999999988, max: 9.229499999999986, positive: true, type: "gatherFood"},
 					{min: 7.049000000000004, max: 7.791000000000005, positive: true, type: "speed"},
 					{min: 10.639999999999988, max: 11.75999999999999, positive: true, type: "multiplierShips"},
 				],
@@ -2477,32 +2477,32 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_E61_ua.png",
 			effects: {
 				35: [
-					{min: 12.074499999999999, max: 13.3455, positive: true, type: "gatherFish"},
+					{min: 12.074499999999999, max: 13.3455, positive: true, type: "gatherFood"},
 					{min: 10.678000000000004, max: 11.802000000000007, positive: true, type: "range"},
 					{min: 24.111, max: 26.649000000000004, positive: true, type: "multiplierShips"},
 				],
 				36: [
-					{min: 12.369000000000009, max: 13.671000000000012, positive: true, type: "gatherFish"},
+					{min: 12.369000000000009, max: 13.671000000000012, positive: true, type: "gatherFood"},
 					{min: 10.934499999999998, max: 12.085499999999998, positive: true, type: "range"},
 					{min: 24.6905, max: 27.289500000000004, positive: true, type: "multiplierShips"},
 				],
 				37: [
-					{min: 12.663500000000019, max: 13.99650000000002, positive: true, type: "gatherFish"},
+					{min: 12.663500000000019, max: 13.99650000000002, positive: true, type: "gatherFood"},
 					{min: 11.191000000000011, max: 12.369000000000012, positive: true, type: "range"},
 					{min: 25.27, max: 27.930000000000003, positive: true, type: "multiplierShips"},
 				],
 				38: [
-					{min: 12.958000000000007, max: 14.322000000000008, positive: true, type: "gatherFish"},
+					{min: 12.958000000000007, max: 14.322000000000008, positive: true, type: "gatherFood"},
 					{min: 11.447500000000003, max: 12.652500000000005, positive: true, type: "range"},
 					{min: 25.8495, max: 28.570500000000003, positive: true, type: "multiplierShips"},
 				],
 				39: [
-					{min: 13.252499999999996, max: 14.647499999999996, positive: true, type: "gatherFish"},
+					{min: 13.252499999999996, max: 14.647499999999996, positive: true, type: "gatherFood"},
 					{min: 11.703999999999997, max: 12.935999999999996, positive: true, type: "range"},
 					{min: 26.429, max: 29.211000000000002, positive: true, type: "multiplierShips"},
 				],
 				40: [
-					{min: 13.547000000000004, max: 14.973000000000006, positive: true, type: "gatherFish"},
+					{min: 13.547000000000004, max: 14.973000000000006, positive: true, type: "gatherFood"},
 					{min: 11.96050000000001, max: 13.219500000000014, positive: true, type: "range"},
 					{min: 27.008499999999998, max: 29.8515, positive: true, type: "multiplierShips"},
 				],
@@ -2513,7 +2513,7 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_R30_ua.png",
 			effects: {
 				40: [
-					{min: 13.727500000000006, max: 15.172500000000007, positive: true, type: "gatherFish"},
+					{min: 13.727500000000006, max: 15.172500000000007, positive: true, type: "gatherFood"},
 					{min: 9.918000000000005, max: 10.962000000000005, positive: true, type: "range"},
 				],
 			}
@@ -2523,19 +2523,19 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_R32_ua.png",
 			effects: {
 				36: [
-					{min: 14.155000000000001, max: 15.645000000000003, positive: true, type: "gatherFish"},
+					{min: 14.155000000000001, max: 15.645000000000003, positive: true, type: "gatherFood"},
 				],
 				37: [
-					{min: 14.487499999999986, max: 16.012499999999985, positive: true, type: "gatherFish"},
+					{min: 14.487499999999986, max: 16.012499999999985, positive: true, type: "gatherFood"},
 				],
 				38: [
-					{min: 14.819999999999991, max: 16.379999999999992, positive: true, type: "gatherFish"},
+					{min: 14.819999999999991, max: 16.379999999999992, positive: true, type: "gatherFood"},
 				],
 				39: [
-					{min: 15.152499999999996, max: 16.7475, positive: true, type: "gatherFish"},
+					{min: 15.152499999999996, max: 16.7475, positive: true, type: "gatherFood"},
 				],
 				40: [
-					{min: 15.485000000000003, max: 17.115000000000006, positive: true, type: "gatherFish"},
+					{min: 15.485000000000003, max: 17.115000000000006, positive: true, type: "gatherFood"},
 				],
 			}
 		},
@@ -2544,34 +2544,34 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_U11_ua.png",
 			effects: {
 				27: [
-					{min: 7.457500000000001, max: 8.242500000000001, positive: true, type: "gatherFish"},
+					{min: 7.457500000000001, max: 8.242500000000001, positive: true, type: "gatherFood"},
 				],
 				32: [
-					{min: 8.502499999999992, max: 9.397499999999992, positive: true, type: "gatherFish"},
+					{min: 8.502499999999992, max: 9.397499999999992, positive: true, type: "gatherFood"},
 				],
 				33: [
-					{min: 8.71149999999999, max: 9.628499999999988, positive: true, type: "gatherFish"},
+					{min: 8.71149999999999, max: 9.628499999999988, positive: true, type: "gatherFood"},
 				],
 				34: [
-					{min: 8.920499999999986, max: 9.859499999999986, positive: true, type: "gatherFish"},
+					{min: 8.920499999999986, max: 9.859499999999986, positive: true, type: "gatherFood"},
 				],
 				35: [
-					{min: 9.129499999999986, max: 10.090499999999984, positive: true, type: "gatherFish"},
+					{min: 9.129499999999986, max: 10.090499999999984, positive: true, type: "gatherFood"},
 				],
 				36: [
-					{min: 9.338500000000005, max: 10.321500000000006, positive: true, type: "gatherFish"},
+					{min: 9.338500000000005, max: 10.321500000000006, positive: true, type: "gatherFood"},
 				],
 				37: [
-					{min: 9.547500000000003, max: 10.552500000000006, positive: true, type: "gatherFish"},
+					{min: 9.547500000000003, max: 10.552500000000006, positive: true, type: "gatherFood"},
 				],
 				38: [
-					{min: 9.7565, max: 10.783500000000002, positive: true, type: "gatherFish"},
+					{min: 9.7565, max: 10.783500000000002, positive: true, type: "gatherFood"},
 				],
 				39: [
-					{min: 9.965499999999999, max: 11.014499999999998, positive: true, type: "gatherFish"},
+					{min: 9.965499999999999, max: 11.014499999999998, positive: true, type: "gatherFood"},
 				],
 				40: [
-					{min: 10.174499999999997, max: 11.245499999999998, positive: true, type: "gatherFish"},
+					{min: 10.174499999999997, max: 11.245499999999998, positive: true, type: "gatherFood"},
 				],
 			}
 		},
@@ -2580,7 +2580,7 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_U11_ua.png",
 			effects: {
 				39: [
-					{min: 10.183999999999996, max: 11.255999999999995, positive: true, type: "gatherFish"},
+					{min: 10.183999999999996, max: 11.255999999999995, positive: true, type: "gatherFood"},
 					{min: 5.880500000000006, max: 6.499500000000007, positive: true, type: "damage"},
 				],
 			}
@@ -2590,23 +2590,23 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_R31_ua.png",
 			effects: {
 				32: [
-					{min: 11.371500000000012, max: 12.568500000000014, positive: true, type: "gatherFish"},
+					{min: 11.371500000000012, max: 12.568500000000014, positive: true, type: "gatherFood"},
 					{min: 10.469000000000007, max: 11.571000000000007, positive: true, type: "armorPierce"},
 				],
 				33: [
-					{min: 11.666, max: 12.894000000000002, positive: true, type: "gatherFish"},
+					{min: 11.666, max: 12.894000000000002, positive: true, type: "gatherFood"},
 					{min: 10.734999999999998, max: 11.865, positive: true, type: "armorPierce"},
 				],
 				34: [
-					{min: 11.96050000000001, max: 13.219500000000014, positive: true, type: "gatherFish"},
+					{min: 11.96050000000001, max: 13.219500000000014, positive: true, type: "gatherFood"},
 					{min: 11.00099999999999, max: 12.158999999999992, positive: true, type: "armorPierce"},
 				],
 				35: [
-					{min: 12.254999999999999, max: 13.545000000000002, positive: true, type: "gatherFish"},
+					{min: 12.254999999999999, max: 13.545000000000002, positive: true, type: "gatherFood"},
 					{min: 11.267000000000003, max: 12.453000000000003, positive: true, type: "armorPierce"},
 				],
 				36: [
-					{min: 12.54950000000001, max: 13.870500000000012, positive: true, type: "gatherFish"},
+					{min: 12.54950000000001, max: 13.870500000000012, positive: true, type: "gatherFood"},
 					{min: 11.532999999999994, max: 12.746999999999996, positive: true, type: "armorPierce"},
 				],
 			}
@@ -2647,23 +2647,23 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_U10_ua.png",
 			effects: {
 				29: [
-					{min: 6.782999999999991, max: 7.496999999999991, positive: true, type: "gatherFish"},
+					{min: 6.782999999999991, max: 7.496999999999991, positive: true, type: "gatherFood"},
 					{min: 1.0830000000000073, max: 1.197000000000008, positive: true, type: "speed"},
 				],
 				30: [
-					{min: 6.963499999999992, max: 7.696499999999992, positive: true, type: "gatherFish"},
+					{min: 6.963499999999992, max: 7.696499999999992, positive: true, type: "gatherFood"},
 					{min: 1.1115000000000042, max: 1.2285000000000046, positive: true, type: "speed"},
 				],
 				31: [
-					{min: 7.143999999999993, max: 7.895999999999994, positive: true, type: "gatherFish"},
+					{min: 7.143999999999993, max: 7.895999999999994, positive: true, type: "gatherFood"},
 					{min: 1.140000000000001, max: 1.2600000000000011, positive: true, type: "speed"},
 				],
 				32: [
-					{min: 7.324499999999994, max: 8.095499999999994, positive: true, type: "gatherFish"},
+					{min: 7.324499999999994, max: 8.095499999999994, positive: true, type: "gatherFood"},
 					{min: 1.1684999999999979, max: 1.2914999999999976, positive: true, type: "speed"},
 				],
 				33: [
-					{min: 7.5049999999999955, max: 8.294999999999996, positive: true, type: "gatherFish"},
+					{min: 7.5049999999999955, max: 8.294999999999996, positive: true, type: "gatherFood"},
 					{min: 1.1969999999999947, max: 1.3229999999999942, positive: true, type: "speed"},
 				],
 			}
@@ -2724,27 +2724,27 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_E61_ua.png",
 			effects: {
 				26: [
-					{min: 10.317000000000002, max: 11.403000000000004, positive: true, type: "gatherFish"},
+					{min: 10.317000000000002, max: 11.403000000000004, positive: true, type: "gatherFood"},
 					{min: 12.967499999999985, max: 14.332499999999984, positive: true, type: "armorPierce"},
 					{min: 10.478500000000006, max: 11.581500000000007, positive: true, type: "multiplierShips"},
 				],
 				27: [
-					{min: 10.64000000000001, max: 11.76000000000001, positive: true, type: "gatherFish"},
+					{min: 10.64000000000001, max: 11.76000000000001, positive: true, type: "gatherFood"},
 					{min: 13.366499999999983, max: 14.773499999999983, positive: true, type: "armorPierce"},
 					{min: 10.801500000000011, max: 11.938500000000015, positive: true, type: "multiplierShips"},
 				],
 				28: [
-					{min: 10.962999999999996, max: 12.116999999999996, positive: true, type: "gatherFish"},
+					{min: 10.962999999999996, max: 12.116999999999996, positive: true, type: "gatherFood"},
 					{min: 13.765499999999982, max: 15.21449999999998, positive: true, type: "armorPierce"},
 					{min: 11.124499999999998, max: 12.295499999999997, positive: true, type: "multiplierShips"},
 				],
 				29: [
-					{min: 11.286000000000001, max: 12.474000000000004, positive: true, type: "gatherFish"},
+					{min: 11.286000000000001, max: 12.474000000000004, positive: true, type: "gatherFood"},
 					{min: 14.1645, max: 15.6555, positive: true, type: "armorPierce"},
 					{min: 11.447500000000003, max: 12.652500000000005, positive: true, type: "multiplierShips"},
 				],
 				30: [
-					{min: 11.609000000000009, max: 12.83100000000001, positive: true, type: "gatherFish"},
+					{min: 11.609000000000009, max: 12.83100000000001, positive: true, type: "gatherFood"},
 					{min: 14.563499999999998, max: 16.0965, positive: true, type: "armorPierce"},
 					{min: 11.77050000000001, max: 13.009500000000012, positive: true, type: "multiplierShips"},
 				],
@@ -2755,7 +2755,7 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_R32_ua.png",
 			effects: {
 				30: [
-					{min: 10.782500000000015, max: 11.917500000000016, positive: true, type: "gatherFish"},
+					{min: 10.782500000000015, max: 11.917500000000016, positive: true, type: "gatherFood"},
 					{min: 3.913999999999991, max: 4.32599999999999, positive: true, type: "health"},
 				],
 			}
@@ -2765,7 +2765,7 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_R30_ua.png",
 			effects: {
 				30: [
-					{min: 10.782500000000015, max: 11.917500000000016, positive: true, type: "gatherFish"},
+					{min: 10.782500000000015, max: 11.917500000000016, positive: true, type: "gatherFood"},
 					{min: 9.937000000000001, max: 10.983000000000004, positive: true, type: "armorPierce"},
 				],
 			}
@@ -2775,7 +2775,7 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_U10_ua.png",
 			effects: {
 				29: [
-					{min: 8.360000000000007, max: 9.240000000000009, positive: true, type: "gatherFish"},
+					{min: 8.360000000000007, max: 9.240000000000009, positive: true, type: "gatherFood"},
 					{min: 0.7220000000000049, max: 0.7980000000000054, positive: true, type: "speed"},
 				],
 			}
@@ -2785,7 +2785,7 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_R31_ua.png",
 			effects: {
 				27: [
-					{min: 11.162499999999993, max: 12.337499999999993, positive: true, type: "gatherFish"},
+					{min: 11.162499999999993, max: 12.337499999999993, positive: true, type: "gatherFood"},
 				],
 			}
 		},
@@ -2820,23 +2820,23 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_E60_ua.png",
 			effects: {
 				20: [
-					{min: 9.347999999999983, max: 10.331999999999981, positive: true, type: "gatherFish"},
+					{min: 9.347999999999983, max: 10.331999999999981, positive: true, type: "gatherFood"},
 					{min: 1.0165000000000146, max: 1.1235000000000162, positive: true, type: "speed"},
 				],
 				21: [
-					{min: 9.708999999999985, max: 10.730999999999984, positive: true, type: "gatherFish"},
+					{min: 9.708999999999985, max: 10.730999999999984, positive: true, type: "gatherFood"},
 					{min: 1.0545000000000104, max: 1.1655000000000115, positive: true, type: "speed"},
 				],
 				22: [
-					{min: 10.069999999999988, max: 11.129999999999987, positive: true, type: "gatherFish"},
+					{min: 10.069999999999988, max: 11.129999999999987, positive: true, type: "gatherFood"},
 					{min: 1.0925000000000062, max: 1.207500000000007, positive: true, type: "speed"},
 				],
 				23: [
-					{min: 10.43099999999999, max: 11.52899999999999, positive: true, type: "gatherFish"},
+					{min: 10.43099999999999, max: 11.52899999999999, positive: true, type: "gatherFood"},
 					{min: 1.130500000000002, max: 1.2495000000000023, positive: true, type: "speed"},
 				],
 				24: [
-					{min: 10.791999999999993, max: 11.927999999999992, positive: true, type: "gatherFish"},
+					{min: 10.791999999999993, max: 11.927999999999992, positive: true, type: "gatherFood"},
 					{min: 1.1684999999999979, max: 1.2914999999999976, positive: true, type: "speed"},
 				],
 			}
@@ -2846,7 +2846,7 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_R31_ua.png",
 			effects: {
 				24: [
-					{min: 3.543499999999989, max: 3.9164999999999885, positive: true, type: "gatherFish"},
+					{min: 3.543499999999989, max: 3.9164999999999885, positive: true, type: "gatherFood"},
 					{min: 5.576499999999998, max: 6.163499999999997, positive: true, type: "speed"},
 				],
 			}
@@ -2856,7 +2856,7 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_R32_ua.png",
 			effects: {
 				21: [
-					{min: 9.167500000000002, max: 10.132500000000002, positive: true, type: "gatherFish"},
+					{min: 9.167500000000002, max: 10.132500000000002, positive: true, type: "gatherFood"},
 				],
 			}
 		},
@@ -2865,55 +2865,55 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_R30_ua.png",
 			effects: {
 				8: [
-					{min: 4.303500000000011, max: 4.756500000000012, positive: true, type: "gatherFish"},
+					{min: 4.303500000000011, max: 4.756500000000012, positive: true, type: "gatherFood"},
 					{min: 3.5435000000000105, max: 3.9165000000000116, positive: true, type: "range"},
 				],
 				9: [
-					{min: 4.598, max: 5.082, positive: true, type: "gatherFish"},
+					{min: 4.598, max: 5.082, positive: true, type: "gatherFood"},
 					{min: 3.7810000000000055, max: 4.1790000000000065, positive: true, type: "range"},
 				],
 				10: [
-					{min: 4.892500000000009, max: 5.407500000000011, positive: true, type: "gatherFish"},
+					{min: 4.892500000000009, max: 5.407500000000011, positive: true, type: "gatherFood"},
 					{min: 4.0185, max: 4.4415000000000004, positive: true, type: "range"},
 				],
 				11: [
-					{min: 5.187000000000019, max: 5.733000000000022, positive: true, type: "gatherFish"},
+					{min: 5.187000000000019, max: 5.733000000000022, positive: true, type: "gatherFood"},
 					{min: 4.255999999999995, max: 4.703999999999995, positive: true, type: "range"},
 				],
 				12: [
-					{min: 5.481500000000008, max: 6.058500000000009, positive: true, type: "gatherFish"},
+					{min: 5.481500000000008, max: 6.058500000000009, positive: true, type: "gatherFood"},
 					{min: 4.493500000000012, max: 4.966500000000012, positive: true, type: "range"},
 				],
 				13: [
-					{min: 5.776000000000018, max: 6.38400000000002, positive: true, type: "gatherFish"},
+					{min: 5.776000000000018, max: 6.38400000000002, positive: true, type: "gatherFood"},
 					{min: 4.731000000000006, max: 5.229000000000007, positive: true, type: "range"},
 				],
 				14: [
-					{min: 6.070500000000006, max: 6.709500000000007, positive: true, type: "gatherFish"},
+					{min: 6.070500000000006, max: 6.709500000000007, positive: true, type: "gatherFood"},
 					{min: 4.968500000000001, max: 5.491500000000002, positive: true, type: "range"},
 				],
 				15: [
-					{min: 6.365000000000016, max: 7.035000000000018, positive: true, type: "gatherFish"},
+					{min: 6.365000000000016, max: 7.035000000000018, positive: true, type: "gatherFood"},
 					{min: 5.205999999999996, max: 5.753999999999996, positive: true, type: "range"},
 				],
 				16: [
-					{min: 6.659500000000005, max: 7.360500000000005, positive: true, type: "gatherFish"},
+					{min: 6.659500000000005, max: 7.360500000000005, positive: true, type: "gatherFood"},
 					{min: 5.443500000000012, max: 6.016500000000014, positive: true, type: "range"},
 				],
 				17: [
-					{min: 6.954000000000014, max: 7.686000000000017, positive: true, type: "gatherFish"},
+					{min: 6.954000000000014, max: 7.686000000000017, positive: true, type: "gatherFood"},
 					{min: 5.681000000000007, max: 6.279000000000008, positive: true, type: "range"},
 				],
 				18: [
-					{min: 7.248500000000003, max: 8.011500000000003, positive: true, type: "gatherFish"},
+					{min: 7.248500000000003, max: 8.011500000000003, positive: true, type: "gatherFood"},
 					{min: 5.918500000000002, max: 6.541500000000003, positive: true, type: "range"},
 				],
 				19: [
-					{min: 7.543000000000013, max: 8.337000000000014, positive: true, type: "gatherFish"},
+					{min: 7.543000000000013, max: 8.337000000000014, positive: true, type: "gatherFood"},
 					{min: 6.155999999999997, max: 6.803999999999997, positive: true, type: "range"},
 				],
 				20: [
-					{min: 7.837500000000001, max: 8.662500000000001, positive: true, type: "gatherFish"},
+					{min: 7.837500000000001, max: 8.662500000000001, positive: true, type: "gatherFood"},
 					{min: 6.393500000000013, max: 7.066500000000015, positive: true, type: "range"},
 				],
 			}
@@ -2923,7 +2923,7 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_U10_ua.png",
 			effects: {
 				20: [
-					{min: 5.434000000000013, max: 6.006000000000015, positive: true, type: "gatherFish"},
+					{min: 5.434000000000013, max: 6.006000000000015, positive: true, type: "gatherFood"},
 					{min: 0.5510000000000026, max: 0.6090000000000029, positive: true, type: "speed"},
 				],
 			}
@@ -2933,7 +2933,7 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_U11_ua.png",
 			effects: {
 				19: [
-					{min: 6.080000000000005, max: 6.720000000000006, positive: true, type: "gatherFish"},
+					{min: 6.080000000000005, max: 6.720000000000006, positive: true, type: "gatherFood"},
 					{min: 0.5320000000000047, max: 0.5880000000000052, positive: true, type: "speed"},
 				],
 			}
@@ -2943,23 +2943,23 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_R31_ua.png",
 			effects: {
 				14: [
-					{min: 2.78350000000001, max: 3.076500000000011, positive: true, type: "gatherFish"},
+					{min: 2.78350000000001, max: 3.076500000000011, positive: true, type: "gatherFood"},
 					{min: 3.5529999999999884, max: 3.926999999999987, positive: true, type: "speed"},
 				],
 				15: [
-					{min: 2.916499999999995, max: 3.2234999999999947, positive: true, type: "gatherFish"},
+					{min: 2.916499999999995, max: 3.2234999999999947, positive: true, type: "gatherFood"},
 					{min: 3.7239999999999904, max: 4.11599999999999, positive: true, type: "speed"},
 				],
 				16: [
-					{min: 3.0495000000000014, max: 3.370500000000002, positive: true, type: "gatherFish"},
+					{min: 3.0495000000000014, max: 3.370500000000002, positive: true, type: "gatherFood"},
 					{min: 3.894999999999993, max: 4.304999999999993, positive: true, type: "speed"},
 				],
 				17: [
-					{min: 3.182500000000008, max: 3.517500000000009, positive: true, type: "gatherFish"},
+					{min: 3.182500000000008, max: 3.517500000000009, positive: true, type: "gatherFood"},
 					{min: 4.065999999999995, max: 4.493999999999994, positive: true, type: "speed"},
 				],
 				18: [
-					{min: 3.3155000000000143, max: 3.6645000000000163, positive: true, type: "gatherFish"},
+					{min: 3.3155000000000143, max: 3.6645000000000163, positive: true, type: "gatherFood"},
 					{min: 4.236999999999997, max: 4.682999999999997, positive: true, type: "speed"},
 				],
 			}
@@ -2969,49 +2969,49 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_U11_ua.png",
 			effects: {
 				2: [
-					{min: 2.232499999999986, max: 2.4674999999999847, positive: true, type: "gatherFish"},
+					{min: 2.232499999999986, max: 2.4674999999999847, positive: true, type: "gatherFood"},
 				],
 				3: [
-					{min: 2.4415000000000053, max: 2.698500000000006, positive: true, type: "gatherFish"},
+					{min: 2.4415000000000053, max: 2.698500000000006, positive: true, type: "gatherFood"},
 				],
 				4: [
-					{min: 2.650500000000003, max: 2.929500000000004, positive: true, type: "gatherFish"},
+					{min: 2.650500000000003, max: 2.929500000000004, positive: true, type: "gatherFood"},
 				],
 				5: [
-					{min: 2.8595000000000015, max: 3.1605000000000016, positive: true, type: "gatherFish"},
+					{min: 2.8595000000000015, max: 3.1605000000000016, positive: true, type: "gatherFood"},
 				],
 				6: [
-					{min: 3.0684999999999993, max: 3.3914999999999997, positive: true, type: "gatherFish"},
+					{min: 3.0684999999999993, max: 3.3914999999999997, positive: true, type: "gatherFood"},
 				],
 				7: [
-					{min: 3.2774999999999976, max: 3.6224999999999974, positive: true, type: "gatherFish"},
+					{min: 3.2774999999999976, max: 3.6224999999999974, positive: true, type: "gatherFood"},
 				],
 				8: [
-					{min: 3.4864999999999955, max: 3.8534999999999955, positive: true, type: "gatherFish"},
+					{min: 3.4864999999999955, max: 3.8534999999999955, positive: true, type: "gatherFood"},
 				],
 				9: [
-					{min: 3.695499999999994, max: 4.084499999999993, positive: true, type: "gatherFish"},
+					{min: 3.695499999999994, max: 4.084499999999993, positive: true, type: "gatherFood"},
 				],
 				10: [
-					{min: 3.9044999999999916, max: 4.315499999999991, positive: true, type: "gatherFish"},
+					{min: 3.9044999999999916, max: 4.315499999999991, positive: true, type: "gatherFood"},
 				],
 				11: [
-					{min: 4.1134999999999895, max: 4.546499999999989, positive: true, type: "gatherFish"},
+					{min: 4.1134999999999895, max: 4.546499999999989, positive: true, type: "gatherFood"},
 				],
 				12: [
-					{min: 4.322499999999988, max: 4.7774999999999865, positive: true, type: "gatherFish"},
+					{min: 4.322499999999988, max: 4.7774999999999865, positive: true, type: "gatherFood"},
 				],
 				13: [
-					{min: 4.531499999999986, max: 5.008499999999985, positive: true, type: "gatherFish"},
+					{min: 4.531499999999986, max: 5.008499999999985, positive: true, type: "gatherFood"},
 				],
 				14: [
-					{min: 4.740500000000005, max: 5.239500000000006, positive: true, type: "gatherFish"},
+					{min: 4.740500000000005, max: 5.239500000000006, positive: true, type: "gatherFood"},
 				],
 				15: [
-					{min: 4.949500000000003, max: 5.470500000000004, positive: true, type: "gatherFish"},
+					{min: 4.949500000000003, max: 5.470500000000004, positive: true, type: "gatherFood"},
 				],
 				16: [
-					{min: 5.158500000000001, max: 5.701500000000002, positive: true, type: "gatherFish"},
+					{min: 5.158500000000001, max: 5.701500000000002, positive: true, type: "gatherFood"},
 				],
 			}
 		},
@@ -3020,7 +3020,7 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_U10_ua.png",
 			effects: {
 				9: [
-					{min: 3.8000000000000034, max: 4.200000000000004, positive: true, type: "gatherFish"},
+					{min: 3.8000000000000034, max: 4.200000000000004, positive: true, type: "gatherFood"},
 					{min: 0.3420000000000045, max: 0.378000000000005, positive: true, type: "speed"},
 				],
 			}
@@ -3030,7 +3030,7 @@ var gear = {
 			img: "Gear/Generic/Fishnets/Net_U10_ua.png",
 			effects: {
 				3: [
-					{min: 1.852500000000007, max: 2.047500000000008, positive: true, type: "gatherFish"},
+					{min: 1.852500000000007, max: 2.047500000000008, positive: true, type: "gatherFood"},
 					{min: 5.994499999999993, max: 6.6254999999999935, positive: true, type: "armorPierce"},
 				],
 			}
@@ -11036,7 +11036,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_L90_ua.png",
 			effects: {
 				40: [
-					{min: 17.8125, max: 19.6875, positive: true, type: "gatherFish"},
+					{min: 17.8125, max: 19.6875, positive: true, type: "gatherFood"},
 					{min: 17.8125, max: 19.6875, positive: true, type: "gatherWood"},
 					{min: 17.8125, max: 19.6875, positive: true, type: "gatherGold"},
 					{min: 17.8125, max: 19.6875, positive: true, type: "gatherStone"},
@@ -11049,7 +11049,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_L90_ua.png",
 			effects: {
 				40: [
-					{min: 13.547000000000004, max: 14.973000000000006, positive: true, type: "gatherFish"},
+					{min: 13.547000000000004, max: 14.973000000000006, positive: true, type: "gatherFood"},
 					{min: 13.547000000000004, max: 14.973000000000006, positive: true, type: "gatherWood"},
 					{min: 13.547000000000004, max: 14.973000000000006, positive: true, type: "gatherGold"},
 					{min: 47.20549999999999, max: 52.174499999999995, positive: true, type: "buildingSpeed"},
@@ -11062,7 +11062,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_L90_ua.png",
 			effects: {
 				40: [
-					{min: 16.52999999999999, max: 18.269999999999992, positive: true, type: "gatherFish"},
+					{min: 16.52999999999999, max: 18.269999999999992, positive: true, type: "gatherFood"},
 					{min: 16.52999999999999, max: 18.269999999999992, positive: true, type: "gatherWood"},
 					{min: 16.52999999999999, max: 18.269999999999992, positive: true, type: "gatherGold"},
 					{min: 16.52999999999999, max: 18.269999999999992, positive: true, type: "gatherStone"},
@@ -11075,7 +11075,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_L90_ua.png",
 			effects: {
 				40: [
-					{min: 9.272000000000011, max: 10.248000000000014, positive: true, type: "gatherFish"},
+					{min: 9.272000000000011, max: 10.248000000000014, positive: true, type: "gatherFood"},
 					{min: 16.52999999999999, max: 18.269999999999992, positive: true, type: "gatherWood"},
 					{min: 16.52999999999999, max: 18.269999999999992, positive: true, type: "gatherGold"},
 					{min: 16.52999999999999, max: 18.269999999999992, positive: true, type: "gatherStone"},
@@ -11087,7 +11087,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_E61_ua.png",
 			effects: {
 				40: [
-					{min: 13.280999999999993, max: 14.678999999999993, positive: true, type: "gatherFish"},
+					{min: 13.280999999999993, max: 14.678999999999993, positive: true, type: "gatherFood"},
 					{min: 13.280999999999993, max: 14.678999999999993, positive: true, type: "gatherWood"},
 					{min: 9.642499999999991, max: 10.657499999999992, positive: true, type: "gatherGold"},
 					{min: 9.642499999999991, max: 10.657499999999992, positive: true, type: "gatherStone"},
@@ -11099,7 +11099,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_E60_ua.png",
 			effects: {
 				40: [
-					{min: 14.839000000000011, max: 16.401000000000014, positive: true, type: "gatherFish"},
+					{min: 14.839000000000011, max: 16.401000000000014, positive: true, type: "gatherFood"},
 					{min: 14.839000000000011, max: 16.401000000000014, positive: true, type: "gatherWood"},
 					{min: 14.839000000000011, max: 16.401000000000014, positive: true, type: "gatherGold"},
 					{min: 4.863999999999991, max: 5.3759999999999915, positive: true, type: "damage"},
@@ -11112,28 +11112,28 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_E60_ua.png",
 			effects: {
 				37: [
-					{min: 11.466500000000003, max: 12.673500000000004, positive: true, type: "gatherFish"},
+					{min: 11.466500000000003, max: 12.673500000000004, positive: true, type: "gatherFood"},
 					{min: 11.466500000000003, max: 12.673500000000004, positive: true, type: "gatherWood"},
 					{min: 11.466500000000003, max: 12.673500000000004, positive: true, type: "gatherGold"},
 					{min: 4.531500000000007, max: 5.008500000000008, positive: true, type: "speed"},
 					{min: 11.466500000000003, max: 12.673500000000004, positive: true, type: "gatherStone"},
 				],
 				38: [
-					{min: 11.732499999999995, max: 12.967499999999994, positive: true, type: "gatherFish"},
+					{min: 11.732499999999995, max: 12.967499999999994, positive: true, type: "gatherFood"},
 					{min: 11.732499999999995, max: 12.967499999999994, positive: true, type: "gatherWood"},
 					{min: 11.732499999999995, max: 12.967499999999994, positive: true, type: "gatherGold"},
 					{min: 4.635999999999996, max: 5.123999999999995, positive: true, type: "speed"},
 					{min: 11.732499999999995, max: 12.967499999999994, positive: true, type: "gatherStone"},
 				],
 				39: [
-					{min: 11.998499999999986, max: 13.261499999999984, positive: true, type: "gatherFish"},
+					{min: 11.998499999999986, max: 13.261499999999984, positive: true, type: "gatherFood"},
 					{min: 11.998499999999986, max: 13.261499999999984, positive: true, type: "gatherWood"},
 					{min: 11.998499999999986, max: 13.261499999999984, positive: true, type: "gatherGold"},
 					{min: 4.740500000000005, max: 5.239500000000006, positive: true, type: "speed"},
 					{min: 11.998499999999986, max: 13.261499999999984, positive: true, type: "gatherStone"},
 				],
 				40: [
-					{min: 12.2645, max: 13.5555, positive: true, type: "gatherFish"},
+					{min: 12.2645, max: 13.5555, positive: true, type: "gatherFood"},
 					{min: 12.2645, max: 13.5555, positive: true, type: "gatherWood"},
 					{min: 12.2645, max: 13.5555, positive: true, type: "gatherGold"},
 					{min: 4.8449999999999935, max: 5.354999999999993, positive: true, type: "speed"},
@@ -11146,7 +11146,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_E61_ua.png",
 			effects: {
 				40: [
-					{min: 9.224499999999997, max: 10.195499999999997, positive: true, type: "gatherFish"},
+					{min: 9.224499999999997, max: 10.195499999999997, positive: true, type: "gatherFood"},
 					{min: 9.224499999999997, max: 10.195499999999997, positive: true, type: "gatherWood"},
 					{min: 9.224499999999997, max: 10.195499999999997, positive: true, type: "gatherGold"},
 					{min: 29.4785, max: 32.581500000000005, positive: true, type: "damage"},
@@ -11159,25 +11159,25 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_E60_ua.png",
 			effects: {
 				37: [
-					{min: 12.663500000000019, max: 13.99650000000002, positive: true, type: "gatherFish"},
+					{min: 12.663500000000019, max: 13.99650000000002, positive: true, type: "gatherFood"},
 					{min: 12.663500000000019, max: 13.99650000000002, positive: true, type: "gatherWood"},
 					{min: 12.663500000000019, max: 13.99650000000002, positive: true, type: "gatherGold"},
 					{min: 14.468499999999988, max: 15.991499999999988, positive: true, type: "gatherStone"},
 				],
 				38: [
-					{min: 12.958000000000007, max: 14.322000000000008, positive: true, type: "gatherFish"},
+					{min: 12.958000000000007, max: 14.322000000000008, positive: true, type: "gatherFood"},
 					{min: 12.958000000000007, max: 14.322000000000008, positive: true, type: "gatherWood"},
 					{min: 12.958000000000007, max: 14.322000000000008, positive: true, type: "gatherGold"},
 					{min: 14.800999999999995, max: 16.358999999999995, positive: true, type: "gatherStone"},
 				],
 				39: [
-					{min: 13.252499999999996, max: 14.647499999999996, positive: true, type: "gatherFish"},
+					{min: 13.252499999999996, max: 14.647499999999996, positive: true, type: "gatherFood"},
 					{min: 13.252499999999996, max: 14.647499999999996, positive: true, type: "gatherWood"},
 					{min: 13.252499999999996, max: 14.647499999999996, positive: true, type: "gatherGold"},
 					{min: 15.1335, max: 16.7265, positive: true, type: "gatherStone"},
 				],
 				40: [
-					{min: 13.547000000000004, max: 14.973000000000006, positive: true, type: "gatherFish"},
+					{min: 13.547000000000004, max: 14.973000000000006, positive: true, type: "gatherFood"},
 					{min: 13.547000000000004, max: 14.973000000000006, positive: true, type: "gatherWood"},
 					{min: 13.547000000000004, max: 14.973000000000006, positive: true, type: "gatherGold"},
 					{min: 15.466000000000003, max: 17.094000000000005, positive: true, type: "gatherStone"},
@@ -11189,7 +11189,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_E60_ua.png",
 			effects: {
 				40: [
-					{min: 13.547000000000004, max: 14.973000000000006, positive: true, type: "gatherFish"},
+					{min: 13.547000000000004, max: 14.973000000000006, positive: true, type: "gatherFood"},
 					{min: 13.547000000000004, max: 14.973000000000006, positive: true, type: "gatherWood"},
 					{min: 13.547000000000004, max: 14.973000000000006, positive: true, type: "gatherGold"},
 					{min: 15.466000000000003, max: 17.094000000000005, positive: true, type: "gatherStone"},
@@ -11201,7 +11201,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_R33_ua.png",
 			effects: {
 				40: [
-					{min: 4.958999999999981, max: 5.480999999999979, positive: true, type: "gatherFish"},
+					{min: 4.958999999999981, max: 5.480999999999979, positive: true, type: "gatherFood"},
 					{min: 13.727500000000006, max: 15.172500000000007, positive: true, type: "gatherWood"},
 					{min: 13.727500000000006, max: 15.172500000000007, positive: true, type: "gatherGold"},
 					{min: 13.727500000000006, max: 15.172500000000007, positive: true, type: "gatherStone"},
@@ -11213,77 +11213,77 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_R31_ua.png",
 			effects: {
 				30: [
-					{min: 9.784999999999997, max: 10.814999999999998, positive: true, type: "gatherFish"},
+					{min: 9.784999999999997, max: 10.814999999999998, positive: true, type: "gatherFood"},
 					{min: 9.784999999999997, max: 10.814999999999998, positive: true, type: "gatherWood"},
 					{min: 9.784999999999997, max: 10.814999999999998, positive: true, type: "gatherGold"},
 					{min: 9.784999999999997, max: 10.814999999999998, positive: true, type: "gatherStone"},
 					{min: 6.023000000000011, max: 6.657000000000013, positive: true, type: "health"},
 				],
 				31: [
-					{min: 10.05099999999999, max: 11.10899999999999, positive: true, type: "gatherFish"},
+					{min: 10.05099999999999, max: 11.10899999999999, positive: true, type: "gatherFood"},
 					{min: 10.05099999999999, max: 11.10899999999999, positive: true, type: "gatherWood"},
 					{min: 10.05099999999999, max: 11.10899999999999, positive: true, type: "gatherGold"},
 					{min: 10.05099999999999, max: 11.10899999999999, positive: true, type: "gatherStone"},
 					{min: 6.184500000000015, max: 6.835500000000017, positive: true, type: "health"},
 				],
 				32: [
-					{min: 10.317000000000002, max: 11.403000000000004, positive: true, type: "gatherFish"},
+					{min: 10.317000000000002, max: 11.403000000000004, positive: true, type: "gatherFood"},
 					{min: 10.317000000000002, max: 11.403000000000004, positive: true, type: "gatherWood"},
 					{min: 10.317000000000002, max: 11.403000000000004, positive: true, type: "gatherGold"},
 					{min: 10.317000000000002, max: 11.403000000000004, positive: true, type: "gatherStone"},
 					{min: 6.346000000000018, max: 7.014000000000021, positive: true, type: "health"},
 				],
 				33: [
-					{min: 10.582999999999993, max: 11.696999999999994, positive: true, type: "gatherFish"},
+					{min: 10.582999999999993, max: 11.696999999999994, positive: true, type: "gatherFood"},
 					{min: 10.582999999999993, max: 11.696999999999994, positive: true, type: "gatherWood"},
 					{min: 10.582999999999993, max: 11.696999999999994, positive: true, type: "gatherGold"},
 					{min: 10.582999999999993, max: 11.696999999999994, positive: true, type: "gatherStone"},
 					{min: 6.5075, max: 7.192500000000001, positive: true, type: "health"},
 				],
 				34: [
-					{min: 10.848999999999986, max: 11.990999999999985, positive: true, type: "gatherFish"},
+					{min: 10.848999999999986, max: 11.990999999999985, positive: true, type: "gatherFood"},
 					{min: 10.848999999999986, max: 11.990999999999985, positive: true, type: "gatherWood"},
 					{min: 10.848999999999986, max: 11.990999999999985, positive: true, type: "gatherGold"},
 					{min: 10.848999999999986, max: 11.990999999999985, positive: true, type: "gatherStone"},
 					{min: 6.669000000000003, max: 7.371000000000005, positive: true, type: "health"},
 				],
 				35: [
-					{min: 11.114999999999998, max: 12.285, positive: true, type: "gatherFish"},
+					{min: 11.114999999999998, max: 12.285, positive: true, type: "gatherFood"},
 					{min: 11.114999999999998, max: 12.285, positive: true, type: "gatherWood"},
 					{min: 11.114999999999998, max: 12.285, positive: true, type: "gatherGold"},
 					{min: 11.114999999999998, max: 12.285, positive: true, type: "gatherStone"},
 					{min: 6.830500000000007, max: 7.549500000000008, positive: true, type: "health"},
 				],
 				36: [
-					{min: 11.38099999999999, max: 12.57899999999999, positive: true, type: "gatherFish"},
+					{min: 11.38099999999999, max: 12.57899999999999, positive: true, type: "gatherFood"},
 					{min: 11.38099999999999, max: 12.57899999999999, positive: true, type: "gatherWood"},
 					{min: 11.38099999999999, max: 12.57899999999999, positive: true, type: "gatherGold"},
 					{min: 11.38099999999999, max: 12.57899999999999, positive: true, type: "gatherStone"},
 					{min: 6.99200000000001, max: 7.728000000000012, positive: true, type: "health"},
 				],
 				37: [
-					{min: 11.647000000000004, max: 12.873000000000006, positive: true, type: "gatherFish"},
+					{min: 11.647000000000004, max: 12.873000000000006, positive: true, type: "gatherFood"},
 					{min: 11.647000000000004, max: 12.873000000000006, positive: true, type: "gatherWood"},
 					{min: 11.647000000000004, max: 12.873000000000006, positive: true, type: "gatherGold"},
 					{min: 11.647000000000004, max: 12.873000000000006, positive: true, type: "gatherStone"},
 					{min: 7.1535000000000135, max: 7.906500000000015, positive: true, type: "health"},
 				],
 				38: [
-					{min: 11.912999999999995, max: 13.166999999999996, positive: true, type: "gatherFish"},
+					{min: 11.912999999999995, max: 13.166999999999996, positive: true, type: "gatherFood"},
 					{min: 11.912999999999995, max: 13.166999999999996, positive: true, type: "gatherWood"},
 					{min: 11.912999999999995, max: 13.166999999999996, positive: true, type: "gatherGold"},
 					{min: 11.912999999999995, max: 13.166999999999996, positive: true, type: "gatherStone"},
 					{min: 7.315000000000016, max: 8.085000000000019, positive: true, type: "health"},
 				],
 				39: [
-					{min: 12.178999999999986, max: 13.460999999999986, positive: true, type: "gatherFish"},
+					{min: 12.178999999999986, max: 13.460999999999986, positive: true, type: "gatherFood"},
 					{min: 12.178999999999986, max: 13.460999999999986, positive: true, type: "gatherWood"},
 					{min: 12.178999999999986, max: 13.460999999999986, positive: true, type: "gatherGold"},
 					{min: 12.178999999999986, max: 13.460999999999986, positive: true, type: "gatherStone"},
 					{min: 7.476499999999999, max: 8.263499999999999, positive: true, type: "health"},
 				],
 				40: [
-					{min: 12.445, max: 13.755000000000003, positive: true, type: "gatherFish"},
+					{min: 12.445, max: 13.755000000000003, positive: true, type: "gatherFood"},
 					{min: 12.445, max: 13.755000000000003, positive: true, type: "gatherWood"},
 					{min: 12.445, max: 13.755000000000003, positive: true, type: "gatherGold"},
 					{min: 12.445, max: 13.755000000000003, positive: true, type: "gatherStone"},
@@ -11296,61 +11296,61 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				27: [
-					{min: 7.457500000000001, max: 8.242500000000001, positive: true, type: "gatherFish"},
+					{min: 7.457500000000001, max: 8.242500000000001, positive: true, type: "gatherFood"},
 					{min: 7.457500000000001, max: 8.242500000000001, positive: true, type: "gatherWood"},
 					{min: 7.457500000000001, max: 8.242500000000001, positive: true, type: "gatherGold"},
 					{min: 7.457500000000001, max: 8.242500000000001, positive: true, type: "gatherStone"},
 				],
 				32: [
-					{min: 8.502499999999992, max: 9.397499999999992, positive: true, type: "gatherFish"},
+					{min: 8.502499999999992, max: 9.397499999999992, positive: true, type: "gatherFood"},
 					{min: 8.502499999999992, max: 9.397499999999992, positive: true, type: "gatherWood"},
 					{min: 8.502499999999992, max: 9.397499999999992, positive: true, type: "gatherGold"},
 					{min: 8.502499999999992, max: 9.397499999999992, positive: true, type: "gatherStone"},
 				],
 				33: [
-					{min: 8.71149999999999, max: 9.628499999999988, positive: true, type: "gatherFish"},
+					{min: 8.71149999999999, max: 9.628499999999988, positive: true, type: "gatherFood"},
 					{min: 8.71149999999999, max: 9.628499999999988, positive: true, type: "gatherWood"},
 					{min: 8.71149999999999, max: 9.628499999999988, positive: true, type: "gatherGold"},
 					{min: 8.71149999999999, max: 9.628499999999988, positive: true, type: "gatherStone"},
 				],
 				34: [
-					{min: 8.920499999999986, max: 9.859499999999986, positive: true, type: "gatherFish"},
+					{min: 8.920499999999986, max: 9.859499999999986, positive: true, type: "gatherFood"},
 					{min: 8.920499999999986, max: 9.859499999999986, positive: true, type: "gatherWood"},
 					{min: 8.920499999999986, max: 9.859499999999986, positive: true, type: "gatherGold"},
 					{min: 8.920499999999986, max: 9.859499999999986, positive: true, type: "gatherStone"},
 				],
 				35: [
-					{min: 9.129499999999986, max: 10.090499999999984, positive: true, type: "gatherFish"},
+					{min: 9.129499999999986, max: 10.090499999999984, positive: true, type: "gatherFood"},
 					{min: 9.129499999999986, max: 10.090499999999984, positive: true, type: "gatherWood"},
 					{min: 9.129499999999986, max: 10.090499999999984, positive: true, type: "gatherGold"},
 					{min: 9.129499999999986, max: 10.090499999999984, positive: true, type: "gatherStone"},
 				],
 				36: [
-					{min: 9.338500000000005, max: 10.321500000000006, positive: true, type: "gatherFish"},
+					{min: 9.338500000000005, max: 10.321500000000006, positive: true, type: "gatherFood"},
 					{min: 9.338500000000005, max: 10.321500000000006, positive: true, type: "gatherWood"},
 					{min: 9.338500000000005, max: 10.321500000000006, positive: true, type: "gatherGold"},
 					{min: 9.338500000000005, max: 10.321500000000006, positive: true, type: "gatherStone"},
 				],
 				37: [
-					{min: 9.547500000000003, max: 10.552500000000006, positive: true, type: "gatherFish"},
+					{min: 9.547500000000003, max: 10.552500000000006, positive: true, type: "gatherFood"},
 					{min: 9.547500000000003, max: 10.552500000000006, positive: true, type: "gatherWood"},
 					{min: 9.547500000000003, max: 10.552500000000006, positive: true, type: "gatherGold"},
 					{min: 9.547500000000003, max: 10.552500000000006, positive: true, type: "gatherStone"},
 				],
 				38: [
-					{min: 9.7565, max: 10.783500000000002, positive: true, type: "gatherFish"},
+					{min: 9.7565, max: 10.783500000000002, positive: true, type: "gatherFood"},
 					{min: 9.7565, max: 10.783500000000002, positive: true, type: "gatherWood"},
 					{min: 9.7565, max: 10.783500000000002, positive: true, type: "gatherGold"},
 					{min: 9.7565, max: 10.783500000000002, positive: true, type: "gatherStone"},
 				],
 				39: [
-					{min: 9.965499999999999, max: 11.014499999999998, positive: true, type: "gatherFish"},
+					{min: 9.965499999999999, max: 11.014499999999998, positive: true, type: "gatherFood"},
 					{min: 9.965499999999999, max: 11.014499999999998, positive: true, type: "gatherWood"},
 					{min: 9.965499999999999, max: 11.014499999999998, positive: true, type: "gatherGold"},
 					{min: 9.965499999999999, max: 11.014499999999998, positive: true, type: "gatherStone"},
 				],
 				40: [
-					{min: 10.174499999999997, max: 11.245499999999998, positive: true, type: "gatherFish"},
+					{min: 10.174499999999997, max: 11.245499999999998, positive: true, type: "gatherFood"},
 					{min: 10.174499999999997, max: 11.245499999999998, positive: true, type: "gatherWood"},
 					{min: 10.174499999999997, max: 11.245499999999998, positive: true, type: "gatherGold"},
 					{min: 10.174499999999997, max: 11.245499999999998, positive: true, type: "gatherStone"},
@@ -11362,7 +11362,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U11_ua.png",
 			effects: {
 				40: [
-					{min: 12.217000000000004, max: 13.503000000000005, positive: true, type: "gatherFish"},
+					{min: 12.217000000000004, max: 13.503000000000005, positive: true, type: "gatherFood"},
 					{min: 12.217000000000004, max: 13.503000000000005, positive: true, type: "gatherWood"},
 					{min: 12.217000000000004, max: 13.503000000000005, positive: true, type: "gatherGold"},
 					{min: 12.217000000000004, max: 13.503000000000005, positive: true, type: "gatherStone"},
@@ -11374,7 +11374,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				38: [
-					{min: 10.412000000000013, max: 11.508000000000017, positive: true, type: "gatherFish"},
+					{min: 10.412000000000013, max: 11.508000000000017, positive: true, type: "gatherFood"},
 					{min: 10.412000000000013, max: 11.508000000000017, positive: true, type: "gatherWood"},
 					{min: 10.412000000000013, max: 11.508000000000017, positive: true, type: "gatherGold"},
 					{min: 10.412000000000013, max: 11.508000000000017, positive: true, type: "gatherStone"},
@@ -11387,7 +11387,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_E61_ua.png",
 			effects: {
 				37: [
-					{min: 10.649500000000007, max: 11.770500000000009, positive: true, type: "gatherFish"},
+					{min: 10.649500000000007, max: 11.770500000000009, positive: true, type: "gatherFood"},
 					{min: 10.649500000000007, max: 11.770500000000009, positive: true, type: "gatherWood"},
 					{min: 21.014000000000003, max: 23.226000000000006, positive: true, type: "gatherGold"},
 					{min: 10.649500000000007, max: 11.770500000000009, positive: true, type: "gatherStone"},
@@ -11399,35 +11399,35 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_E60_ua.png",
 			effects: {
 				32: [
-					{min: 11.191000000000011, max: 12.369000000000012, positive: true, type: "gatherFish"},
+					{min: 11.191000000000011, max: 12.369000000000012, positive: true, type: "gatherFood"},
 					{min: 11.191000000000011, max: 12.369000000000012, positive: true, type: "gatherWood"},
 					{min: 11.191000000000011, max: 12.369000000000012, positive: true, type: "gatherGold"},
 					{min: 39.0735, max: 43.1865, positive: true, type: "buildingSpeed"},
 					{min: 11.191000000000011, max: 12.369000000000012, positive: true, type: "gatherStone"},
 				],
 				33: [
-					{min: 11.4855, max: 12.6945, positive: true, type: "gatherFish"},
+					{min: 11.4855, max: 12.6945, positive: true, type: "gatherFood"},
 					{min: 11.4855, max: 12.6945, positive: true, type: "gatherWood"},
 					{min: 11.4855, max: 12.6945, positive: true, type: "gatherGold"},
 					{min: 40.089999999999996, max: 44.309999999999995, positive: true, type: "buildingSpeed"},
 					{min: 11.4855, max: 12.6945, positive: true, type: "gatherStone"},
 				],
 				34: [
-					{min: 11.78000000000001, max: 13.020000000000012, positive: true, type: "gatherFish"},
+					{min: 11.78000000000001, max: 13.020000000000012, positive: true, type: "gatherFood"},
 					{min: 11.78000000000001, max: 13.020000000000012, positive: true, type: "gatherWood"},
 					{min: 11.78000000000001, max: 13.020000000000012, positive: true, type: "gatherGold"},
 					{min: 41.10649999999999, max: 45.43349999999999, positive: true, type: "buildingSpeed"},
 					{min: 11.78000000000001, max: 13.020000000000012, positive: true, type: "gatherStone"},
 				],
 				35: [
-					{min: 12.074499999999999, max: 13.3455, positive: true, type: "gatherFish"},
+					{min: 12.074499999999999, max: 13.3455, positive: true, type: "gatherFood"},
 					{min: 12.074499999999999, max: 13.3455, positive: true, type: "gatherWood"},
 					{min: 12.074499999999999, max: 13.3455, positive: true, type: "gatherGold"},
 					{min: 42.123000000000005, max: 46.557, positive: true, type: "buildingSpeed"},
 					{min: 12.074499999999999, max: 13.3455, positive: true, type: "gatherStone"},
 				],
 				36: [
-					{min: 12.369000000000009, max: 13.671000000000012, positive: true, type: "gatherFish"},
+					{min: 12.369000000000009, max: 13.671000000000012, positive: true, type: "gatherFood"},
 					{min: 12.369000000000009, max: 13.671000000000012, positive: true, type: "gatherWood"},
 					{min: 12.369000000000009, max: 13.671000000000012, positive: true, type: "gatherGold"},
 					{min: 43.1395, max: 47.680499999999995, positive: true, type: "buildingSpeed"},
@@ -11440,7 +11440,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_R30_ua.png",
 			effects: {
 				36: [
-					{min: 12.54950000000001, max: 13.870500000000012, positive: true, type: "gatherFish"},
+					{min: 12.54950000000001, max: 13.870500000000012, positive: true, type: "gatherFood"},
 					{min: 12.54950000000001, max: 13.870500000000012, positive: true, type: "gatherWood"},
 					{min: 12.54950000000001, max: 13.870500000000012, positive: true, type: "gatherGold"},
 					{min: 12.54950000000001, max: 13.870500000000012, positive: true, type: "gatherStone"},
@@ -11453,7 +11453,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U11_ua.png",
 			effects: {
 				36: [
-					{min: 7.495499999999997, max: 8.284499999999998, positive: true, type: "gatherFish"},
+					{min: 7.495499999999997, max: 8.284499999999998, positive: true, type: "gatherFood"},
 					{min: 11.77049999999999, max: 13.00949999999999, positive: true, type: "gatherWood"},
 					{min: 7.495499999999997, max: 8.284499999999998, positive: true, type: "gatherGold"},
 					{min: 7.495499999999997, max: 8.284499999999998, positive: true, type: "gatherStone"},
@@ -11465,7 +11465,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				35: [
-					{min: 3.7144999999999917, max: 4.105499999999991, positive: true, type: "gatherFish"},
+					{min: 3.7144999999999917, max: 4.105499999999991, positive: true, type: "gatherFood"},
 					{min: 9.728000000000005, max: 10.752000000000006, positive: true, type: "gatherWood"},
 					{min: 9.728000000000005, max: 10.752000000000006, positive: true, type: "gatherGold"},
 					{min: 9.728000000000005, max: 10.752000000000006, positive: true, type: "gatherStone"},
@@ -11477,7 +11477,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_R33_ua.png",
 			effects: {
 				34: [
-					{min: 11.96050000000001, max: 13.219500000000014, positive: true, type: "gatherFish"},
+					{min: 11.96050000000001, max: 13.219500000000014, positive: true, type: "gatherFood"},
 					{min: 11.96050000000001, max: 13.219500000000014, positive: true, type: "gatherWood"},
 					{min: 11.96050000000001, max: 13.219500000000014, positive: true, type: "gatherGold"},
 					{min: 4.3319999999999865, max: 4.787999999999986, positive: true, type: "gatherStone"},
@@ -11489,7 +11489,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U11_ua.png",
 			effects: {
 				34: [
-					{min: 8.094000000000015, max: 8.94600000000002, positive: true, type: "gatherFish"},
+					{min: 8.094000000000015, max: 8.94600000000002, positive: true, type: "gatherFood"},
 					{min: 8.094000000000015, max: 8.94600000000002, positive: true, type: "gatherWood"},
 					{min: 8.094000000000015, max: 8.94600000000002, positive: true, type: "gatherGold"},
 					{min: 8.094000000000015, max: 8.94600000000002, positive: true, type: "gatherStone"},
@@ -11502,7 +11502,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_R32_ua.png",
 			effects: {
 				33: [
-					{min: 10.924999999999999, max: 12.075000000000001, positive: true, type: "gatherFish"},
+					{min: 10.924999999999999, max: 12.075000000000001, positive: true, type: "gatherFood"},
 					{min: 10.924999999999999, max: 12.075000000000001, positive: true, type: "gatherWood"},
 					{min: 10.924999999999999, max: 12.075000000000001, positive: true, type: "gatherGold"},
 					{min: 10.924999999999999, max: 12.075000000000001, positive: true, type: "gatherStone"},
@@ -11515,7 +11515,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_E61_ua.png",
 			effects: {
 				28: [
-					{min: 10.962999999999996, max: 12.116999999999996, positive: true, type: "gatherFish"},
+					{min: 10.962999999999996, max: 12.116999999999996, positive: true, type: "gatherFood"},
 					{min: 10.962999999999996, max: 12.116999999999996, positive: true, type: "gatherWood"},
 					{min: 10.962999999999996, max: 12.116999999999996, positive: true, type: "gatherGold"},
 					{min: 10.830000000000009, max: 11.97000000000001, positive: true, type: "buildingSpeed"},
@@ -11523,7 +11523,7 @@ var gear = {
 					{min: 1.3205000000000022, max: 1.4595000000000025, positive: true, type: "speed"},
 				],
 				29: [
-					{min: 11.286000000000001, max: 12.474000000000004, positive: true, type: "gatherFish"},
+					{min: 11.286000000000001, max: 12.474000000000004, positive: true, type: "gatherFood"},
 					{min: 11.286000000000001, max: 12.474000000000004, positive: true, type: "gatherWood"},
 					{min: 11.286000000000001, max: 12.474000000000004, positive: true, type: "gatherGold"},
 					{min: 11.143499999999996, max: 12.316499999999998, positive: true, type: "buildingSpeed"},
@@ -11531,7 +11531,7 @@ var gear = {
 					{min: 1.358499999999998, max: 1.5014999999999978, positive: true, type: "speed"},
 				],
 				30: [
-					{min: 11.609000000000009, max: 12.83100000000001, positive: true, type: "gatherFish"},
+					{min: 11.609000000000009, max: 12.83100000000001, positive: true, type: "gatherFood"},
 					{min: 11.609000000000009, max: 12.83100000000001, positive: true, type: "gatherWood"},
 					{min: 11.609000000000009, max: 12.83100000000001, positive: true, type: "gatherGold"},
 					{min: 11.457000000000003, max: 12.663000000000006, positive: true, type: "buildingSpeed"},
@@ -11539,7 +11539,7 @@ var gear = {
 					{min: 1.396500000000015, max: 1.5435000000000165, positive: true, type: "speed"},
 				],
 				31: [
-					{min: 11.931999999999993, max: 13.187999999999994, positive: true, type: "gatherFish"},
+					{min: 11.931999999999993, max: 13.187999999999994, positive: true, type: "gatherFood"},
 					{min: 11.931999999999993, max: 13.187999999999994, positive: true, type: "gatherWood"},
 					{min: 11.931999999999993, max: 13.187999999999994, positive: true, type: "gatherGold"},
 					{min: 11.77050000000001, max: 13.009500000000012, positive: true, type: "buildingSpeed"},
@@ -11547,7 +11547,7 @@ var gear = {
 					{min: 1.4345000000000108, max: 1.585500000000012, positive: true, type: "speed"},
 				],
 				32: [
-					{min: 12.254999999999999, max: 13.545000000000002, positive: true, type: "gatherFish"},
+					{min: 12.254999999999999, max: 13.545000000000002, positive: true, type: "gatherFood"},
 					{min: 12.254999999999999, max: 13.545000000000002, positive: true, type: "gatherWood"},
 					{min: 12.254999999999999, max: 13.545000000000002, positive: true, type: "gatherGold"},
 					{min: 12.083999999999998, max: 13.356, positive: true, type: "buildingSpeed"},
@@ -11561,7 +11561,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_R31_ua.png",
 			effects: {
 				32: [
-					{min: 11.371500000000012, max: 12.568500000000014, positive: true, type: "gatherFish"},
+					{min: 11.371500000000012, max: 12.568500000000014, positive: true, type: "gatherFood"},
 					{min: 4.122999999999989, max: 4.556999999999988, positive: true, type: "gatherWood"},
 					{min: 11.371500000000012, max: 12.568500000000014, positive: true, type: "gatherGold"},
 					{min: 11.371500000000012, max: 12.568500000000014, positive: true, type: "gatherStone"},
@@ -11574,7 +11574,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				32: [
-					{min: 4.683500000000011, max: 5.176500000000013, positive: true, type: "gatherFish"},
+					{min: 4.683500000000011, max: 5.176500000000013, positive: true, type: "gatherFood"},
 					{min: 7.324499999999994, max: 8.095499999999994, positive: true, type: "gatherWood"},
 					{min: 7.324499999999994, max: 8.095499999999994, positive: true, type: "gatherGold"},
 					{min: 7.324499999999994, max: 8.095499999999994, positive: true, type: "gatherStone"},
@@ -11586,31 +11586,31 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_R30_ua.png",
 			effects: {
 				27: [
-					{min: 3.600499999999983, max: 3.9794999999999816, positive: true, type: "gatherFish"},
+					{min: 3.600499999999983, max: 3.9794999999999816, positive: true, type: "gatherFood"},
 					{min: 9.899000000000006, max: 10.941000000000008, positive: true, type: "gatherWood"},
 					{min: 9.899000000000006, max: 10.941000000000008, positive: true, type: "gatherGold"},
 					{min: 9.899000000000006, max: 10.941000000000008, positive: true, type: "gatherStone"},
 				],
 				28: [
-					{min: 3.7049999999999925, max: 4.094999999999992, positive: true, type: "gatherFish"},
+					{min: 3.7049999999999925, max: 4.094999999999992, positive: true, type: "gatherFood"},
 					{min: 10.193500000000016, max: 11.26650000000002, positive: true, type: "gatherWood"},
 					{min: 10.193500000000016, max: 11.26650000000002, positive: true, type: "gatherGold"},
 					{min: 10.193500000000016, max: 11.26650000000002, positive: true, type: "gatherStone"},
 				],
 				29: [
-					{min: 3.8094999999999812, max: 4.210499999999979, positive: true, type: "gatherFish"},
+					{min: 3.8094999999999812, max: 4.210499999999979, positive: true, type: "gatherFood"},
 					{min: 10.488000000000005, max: 11.592000000000008, positive: true, type: "gatherWood"},
 					{min: 10.488000000000005, max: 11.592000000000008, positive: true, type: "gatherGold"},
 					{min: 10.488000000000005, max: 11.592000000000008, positive: true, type: "gatherStone"},
 				],
 				30: [
-					{min: 3.913999999999991, max: 4.32599999999999, positive: true, type: "gatherFish"},
+					{min: 3.913999999999991, max: 4.32599999999999, positive: true, type: "gatherFood"},
 					{min: 10.782500000000015, max: 11.917500000000016, positive: true, type: "gatherWood"},
 					{min: 10.782500000000015, max: 11.917500000000016, positive: true, type: "gatherGold"},
 					{min: 10.782500000000015, max: 11.917500000000016, positive: true, type: "gatherStone"},
 				],
 				31: [
-					{min: 4.0185, max: 4.4415000000000004, positive: true, type: "gatherFish"},
+					{min: 4.0185, max: 4.4415000000000004, positive: true, type: "gatherFood"},
 					{min: 11.077000000000004, max: 12.243000000000004, positive: true, type: "gatherWood"},
 					{min: 11.077000000000004, max: 12.243000000000004, positive: true, type: "gatherGold"},
 					{min: 11.077000000000004, max: 12.243000000000004, positive: true, type: "gatherStone"},
@@ -11622,91 +11622,91 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U11_ua.png",
 			effects: {
 				17: [
-					{min: 5.367499999999999, max: 5.9325, positive: true, type: "gatherFish"},
+					{min: 5.367499999999999, max: 5.9325, positive: true, type: "gatherFood"},
 					{min: 5.367499999999999, max: 5.9325, positive: true, type: "gatherWood"},
 					{min: 5.367499999999999, max: 5.9325, positive: true, type: "gatherGold"},
 					{min: 5.367499999999999, max: 5.9325, positive: true, type: "gatherStone"},
 				],
 				18: [
-					{min: 5.576499999999998, max: 6.163499999999997, positive: true, type: "gatherFish"},
+					{min: 5.576499999999998, max: 6.163499999999997, positive: true, type: "gatherFood"},
 					{min: 5.576499999999998, max: 6.163499999999997, positive: true, type: "gatherWood"},
 					{min: 5.576499999999998, max: 6.163499999999997, positive: true, type: "gatherGold"},
 					{min: 5.576499999999998, max: 6.163499999999997, positive: true, type: "gatherStone"},
 				],
 				19: [
-					{min: 5.785499999999995, max: 6.394499999999995, positive: true, type: "gatherFish"},
+					{min: 5.785499999999995, max: 6.394499999999995, positive: true, type: "gatherFood"},
 					{min: 5.785499999999995, max: 6.394499999999995, positive: true, type: "gatherWood"},
 					{min: 5.785499999999995, max: 6.394499999999995, positive: true, type: "gatherGold"},
 					{min: 5.785499999999995, max: 6.394499999999995, positive: true, type: "gatherStone"},
 				],
 				20: [
-					{min: 5.994499999999993, max: 6.6254999999999935, positive: true, type: "gatherFish"},
+					{min: 5.994499999999993, max: 6.6254999999999935, positive: true, type: "gatherFood"},
 					{min: 5.994499999999993, max: 6.6254999999999935, positive: true, type: "gatherWood"},
 					{min: 5.994499999999993, max: 6.6254999999999935, positive: true, type: "gatherGold"},
 					{min: 5.994499999999993, max: 6.6254999999999935, positive: true, type: "gatherStone"},
 				],
 				21: [
-					{min: 6.203499999999991, max: 6.856499999999992, positive: true, type: "gatherFish"},
+					{min: 6.203499999999991, max: 6.856499999999992, positive: true, type: "gatherFood"},
 					{min: 6.203499999999991, max: 6.856499999999992, positive: true, type: "gatherWood"},
 					{min: 6.203499999999991, max: 6.856499999999992, positive: true, type: "gatherGold"},
 					{min: 6.203499999999991, max: 6.856499999999992, positive: true, type: "gatherStone"},
 				],
 				22: [
-					{min: 6.41249999999999, max: 7.087499999999989, positive: true, type: "gatherFish"},
+					{min: 6.41249999999999, max: 7.087499999999989, positive: true, type: "gatherFood"},
 					{min: 6.41249999999999, max: 7.087499999999989, positive: true, type: "gatherWood"},
 					{min: 6.41249999999999, max: 7.087499999999989, positive: true, type: "gatherGold"},
 					{min: 6.41249999999999, max: 7.087499999999989, positive: true, type: "gatherStone"},
 				],
 				23: [
-					{min: 6.621499999999988, max: 7.318499999999987, positive: true, type: "gatherFish"},
+					{min: 6.621499999999988, max: 7.318499999999987, positive: true, type: "gatherFood"},
 					{min: 6.621499999999988, max: 7.318499999999987, positive: true, type: "gatherWood"},
 					{min: 6.621499999999988, max: 7.318499999999987, positive: true, type: "gatherGold"},
 					{min: 6.621499999999988, max: 7.318499999999987, positive: true, type: "gatherStone"},
 				],
 				24: [
-					{min: 6.830499999999986, max: 7.549499999999985, positive: true, type: "gatherFish"},
+					{min: 6.830499999999986, max: 7.549499999999985, positive: true, type: "gatherFood"},
 					{min: 6.830499999999986, max: 7.549499999999985, positive: true, type: "gatherWood"},
 					{min: 6.830499999999986, max: 7.549499999999985, positive: true, type: "gatherGold"},
 					{min: 6.830499999999986, max: 7.549499999999985, positive: true, type: "gatherStone"},
 				],
 				25: [
-					{min: 7.039500000000005, max: 7.780500000000006, positive: true, type: "gatherFish"},
+					{min: 7.039500000000005, max: 7.780500000000006, positive: true, type: "gatherFood"},
 					{min: 7.039500000000005, max: 7.780500000000006, positive: true, type: "gatherWood"},
 					{min: 7.039500000000005, max: 7.780500000000006, positive: true, type: "gatherGold"},
 					{min: 7.039500000000005, max: 7.780500000000006, positive: true, type: "gatherStone"},
 				],
 				26: [
-					{min: 7.248500000000003, max: 8.011500000000003, positive: true, type: "gatherFish"},
+					{min: 7.248500000000003, max: 8.011500000000003, positive: true, type: "gatherFood"},
 					{min: 7.248500000000003, max: 8.011500000000003, positive: true, type: "gatherWood"},
 					{min: 7.248500000000003, max: 8.011500000000003, positive: true, type: "gatherGold"},
 					{min: 7.248500000000003, max: 8.011500000000003, positive: true, type: "gatherStone"},
 				],
 				27: [
-					{min: 7.457500000000001, max: 8.242500000000001, positive: true, type: "gatherFish"},
+					{min: 7.457500000000001, max: 8.242500000000001, positive: true, type: "gatherFood"},
 					{min: 7.457500000000001, max: 8.242500000000001, positive: true, type: "gatherWood"},
 					{min: 7.457500000000001, max: 8.242500000000001, positive: true, type: "gatherGold"},
 					{min: 7.457500000000001, max: 8.242500000000001, positive: true, type: "gatherStone"},
 				],
 				28: [
-					{min: 7.6665, max: 8.473500000000001, positive: true, type: "gatherFish"},
+					{min: 7.6665, max: 8.473500000000001, positive: true, type: "gatherFood"},
 					{min: 7.6665, max: 8.473500000000001, positive: true, type: "gatherWood"},
 					{min: 7.6665, max: 8.473500000000001, positive: true, type: "gatherGold"},
 					{min: 7.6665, max: 8.473500000000001, positive: true, type: "gatherStone"},
 				],
 				29: [
-					{min: 7.875499999999997, max: 8.704499999999998, positive: true, type: "gatherFish"},
+					{min: 7.875499999999997, max: 8.704499999999998, positive: true, type: "gatherFood"},
 					{min: 7.875499999999997, max: 8.704499999999998, positive: true, type: "gatherWood"},
 					{min: 7.875499999999997, max: 8.704499999999998, positive: true, type: "gatherGold"},
 					{min: 7.875499999999997, max: 8.704499999999998, positive: true, type: "gatherStone"},
 				],
 				30: [
-					{min: 8.084499999999995, max: 8.935499999999994, positive: true, type: "gatherFish"},
+					{min: 8.084499999999995, max: 8.935499999999994, positive: true, type: "gatherFood"},
 					{min: 8.084499999999995, max: 8.935499999999994, positive: true, type: "gatherWood"},
 					{min: 8.084499999999995, max: 8.935499999999994, positive: true, type: "gatherGold"},
 					{min: 8.084499999999995, max: 8.935499999999994, positive: true, type: "gatherStone"},
 				],
 				31: [
-					{min: 8.293499999999993, max: 9.166499999999994, positive: true, type: "gatherFish"},
+					{min: 8.293499999999993, max: 9.166499999999994, positive: true, type: "gatherFood"},
 					{min: 8.293499999999993, max: 9.166499999999994, positive: true, type: "gatherWood"},
 					{min: 8.293499999999993, max: 9.166499999999994, positive: true, type: "gatherGold"},
 					{min: 8.293499999999993, max: 9.166499999999994, positive: true, type: "gatherStone"},
@@ -11718,31 +11718,31 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_R33_ua.png",
 			effects: {
 				26: [
-					{min: 8.682999999999993, max: 9.596999999999994, positive: true, type: "gatherFish"},
+					{min: 8.682999999999993, max: 9.596999999999994, positive: true, type: "gatherFood"},
 					{min: 8.682999999999993, max: 9.596999999999994, positive: true, type: "gatherWood"},
 					{min: 6.621499999999988, max: 7.318499999999987, positive: true, type: "gatherGold"},
 					{min: 8.682999999999993, max: 9.596999999999994, positive: true, type: "gatherStone"},
 				],
 				27: [
-					{min: 8.949000000000005, max: 9.891000000000005, positive: true, type: "gatherFish"},
+					{min: 8.949000000000005, max: 9.891000000000005, positive: true, type: "gatherFood"},
 					{min: 8.949000000000005, max: 9.891000000000005, positive: true, type: "gatherWood"},
 					{min: 6.820999999999986, max: 7.538999999999986, positive: true, type: "gatherGold"},
 					{min: 8.949000000000005, max: 9.891000000000005, positive: true, type: "gatherStone"},
 				],
 				28: [
-					{min: 9.214999999999998, max: 10.184999999999997, positive: true, type: "gatherFish"},
+					{min: 9.214999999999998, max: 10.184999999999997, positive: true, type: "gatherFood"},
 					{min: 9.214999999999998, max: 10.184999999999997, positive: true, type: "gatherWood"},
 					{min: 7.020499999999986, max: 7.759499999999985, positive: true, type: "gatherGold"},
 					{min: 9.214999999999998, max: 10.184999999999997, positive: true, type: "gatherStone"},
 				],
 				29: [
-					{min: 9.48099999999999, max: 10.47899999999999, positive: true, type: "gatherFish"},
+					{min: 9.48099999999999, max: 10.47899999999999, positive: true, type: "gatherFood"},
 					{min: 9.48099999999999, max: 10.47899999999999, positive: true, type: "gatherWood"},
 					{min: 7.219999999999985, max: 7.979999999999984, positive: true, type: "gatherGold"},
 					{min: 9.48099999999999, max: 10.47899999999999, positive: true, type: "gatherStone"},
 				],
 				30: [
-					{min: 9.747000000000002, max: 10.773000000000001, positive: true, type: "gatherFish"},
+					{min: 9.747000000000002, max: 10.773000000000001, positive: true, type: "gatherFood"},
 					{min: 9.747000000000002, max: 10.773000000000001, positive: true, type: "gatherWood"},
 					{min: 7.419499999999984, max: 8.200499999999984, positive: true, type: "gatherGold"},
 					{min: 9.747000000000002, max: 10.773000000000001, positive: true, type: "gatherStone"},
@@ -11754,7 +11754,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U11_ua.png",
 			effects: {
 				30: [
-					{min: 8.588000000000003, max: 9.492000000000003, positive: true, type: "gatherFish"},
+					{min: 8.588000000000003, max: 9.492000000000003, positive: true, type: "gatherFood"},
 					{min: 8.588000000000003, max: 9.492000000000003, positive: true, type: "gatherWood"},
 					{min: 8.588000000000003, max: 9.492000000000003, positive: true, type: "gatherGold"},
 					{min: 3.2869999999999964, max: 3.6329999999999965, positive: true, type: "gatherStone"},
@@ -11766,35 +11766,35 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_E60_ua.png",
 			effects: {
 				25: [
-					{min: 9.993999999999996, max: 11.045999999999996, positive: true, type: "gatherFish"},
+					{min: 9.993999999999996, max: 11.045999999999996, positive: true, type: "gatherFood"},
 					{min: 9.993999999999996, max: 11.045999999999996, positive: true, type: "gatherWood"},
 					{min: 5.082500000000009, max: 5.617500000000011, positive: true, type: "gatherGold"},
 					{min: 9.993999999999996, max: 11.045999999999996, positive: true, type: "gatherStone"},
 					{min: 3.2964999999999955, max: 3.643499999999995, positive: true, type: "health"},
 				],
 				26: [
-					{min: 10.317000000000002, max: 11.403000000000004, positive: true, type: "gatherFish"},
+					{min: 10.317000000000002, max: 11.403000000000004, positive: true, type: "gatherFood"},
 					{min: 10.317000000000002, max: 11.403000000000004, positive: true, type: "gatherWood"},
 					{min: 5.243999999999992, max: 5.795999999999991, positive: true, type: "gatherGold"},
 					{min: 10.317000000000002, max: 11.403000000000004, positive: true, type: "gatherStone"},
 					{min: 3.401000000000005, max: 3.7590000000000057, positive: true, type: "health"},
 				],
 				27: [
-					{min: 10.64000000000001, max: 11.76000000000001, positive: true, type: "gatherFish"},
+					{min: 10.64000000000001, max: 11.76000000000001, positive: true, type: "gatherFood"},
 					{min: 10.64000000000001, max: 11.76000000000001, positive: true, type: "gatherWood"},
 					{min: 5.405499999999995, max: 5.9744999999999955, positive: true, type: "gatherGold"},
 					{min: 10.64000000000001, max: 11.76000000000001, positive: true, type: "gatherStone"},
 					{min: 3.5054999999999934, max: 3.874499999999993, positive: true, type: "health"},
 				],
 				28: [
-					{min: 10.962999999999996, max: 12.116999999999996, positive: true, type: "gatherFish"},
+					{min: 10.962999999999996, max: 12.116999999999996, positive: true, type: "gatherFood"},
 					{min: 10.962999999999996, max: 12.116999999999996, positive: true, type: "gatherWood"},
 					{min: 5.566999999999998, max: 6.152999999999999, positive: true, type: "gatherGold"},
 					{min: 10.962999999999996, max: 12.116999999999996, positive: true, type: "gatherStone"},
 					{min: 3.610000000000003, max: 3.9900000000000038, positive: true, type: "health"},
 				],
 				29: [
-					{min: 11.286000000000001, max: 12.474000000000004, positive: true, type: "gatherFish"},
+					{min: 11.286000000000001, max: 12.474000000000004, positive: true, type: "gatherFood"},
 					{min: 11.286000000000001, max: 12.474000000000004, positive: true, type: "gatherWood"},
 					{min: 5.728500000000001, max: 6.331500000000003, positive: true, type: "gatherGold"},
 					{min: 11.286000000000001, max: 12.474000000000004, positive: true, type: "gatherStone"},
@@ -11807,35 +11807,35 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_R32_ua.png",
 			effects: {
 				24: [
-					{min: 7.875499999999997, max: 8.704499999999998, positive: true, type: "gatherFish"},
+					{min: 7.875499999999997, max: 8.704499999999998, positive: true, type: "gatherFood"},
 					{min: 7.875499999999997, max: 8.704499999999998, positive: true, type: "gatherWood"},
 					{min: 7.875499999999997, max: 8.704499999999998, positive: true, type: "gatherGold"},
 					{min: 7.875499999999997, max: 8.704499999999998, positive: true, type: "gatherStone"},
 					{min: 6.830500000000007, max: 7.549500000000008, positive: true, type: "damage"},
 				],
 				25: [
-					{min: 8.13199999999999, max: 8.987999999999989, positive: true, type: "gatherFish"},
+					{min: 8.13199999999999, max: 8.987999999999989, positive: true, type: "gatherFood"},
 					{min: 8.13199999999999, max: 8.987999999999989, positive: true, type: "gatherWood"},
 					{min: 8.13199999999999, max: 8.987999999999989, positive: true, type: "gatherGold"},
 					{min: 8.13199999999999, max: 8.987999999999989, positive: true, type: "gatherStone"},
 					{min: 7.049000000000004, max: 7.791000000000005, positive: true, type: "damage"},
 				],
 				26: [
-					{min: 8.388500000000004, max: 9.271500000000007, positive: true, type: "gatherFish"},
+					{min: 8.388500000000004, max: 9.271500000000007, positive: true, type: "gatherFood"},
 					{min: 8.388500000000004, max: 9.271500000000007, positive: true, type: "gatherWood"},
 					{min: 8.388500000000004, max: 9.271500000000007, positive: true, type: "gatherGold"},
 					{min: 8.388500000000004, max: 9.271500000000007, positive: true, type: "gatherStone"},
 					{min: 7.267500000000001, max: 8.032500000000002, positive: true, type: "damage"},
 				],
 				27: [
-					{min: 8.644999999999998, max: 9.554999999999998, positive: true, type: "gatherFish"},
+					{min: 8.644999999999998, max: 9.554999999999998, positive: true, type: "gatherFood"},
 					{min: 8.644999999999998, max: 9.554999999999998, positive: true, type: "gatherWood"},
 					{min: 8.644999999999998, max: 9.554999999999998, positive: true, type: "gatherGold"},
 					{min: 8.644999999999998, max: 9.554999999999998, positive: true, type: "gatherStone"},
 					{min: 7.485999999999998, max: 8.274, positive: true, type: "damage"},
 				],
 				28: [
-					{min: 8.901500000000011, max: 9.838500000000012, positive: true, type: "gatherFish"},
+					{min: 8.901500000000011, max: 9.838500000000012, positive: true, type: "gatherFood"},
 					{min: 8.901500000000011, max: 9.838500000000012, positive: true, type: "gatherWood"},
 					{min: 8.901500000000011, max: 9.838500000000012, positive: true, type: "gatherGold"},
 					{min: 8.901500000000011, max: 9.838500000000012, positive: true, type: "gatherStone"},
@@ -11848,7 +11848,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				28: [
-					{min: 8.132000000000012, max: 8.988000000000014, positive: true, type: "gatherFish"},
+					{min: 8.132000000000012, max: 8.988000000000014, positive: true, type: "gatherFood"},
 					{min: 8.132000000000012, max: 8.988000000000014, positive: true, type: "gatherWood"},
 					{min: 8.132000000000012, max: 8.988000000000014, positive: true, type: "gatherGold"},
 					{min: 8.132000000000012, max: 8.988000000000014, positive: true, type: "gatherStone"},
@@ -11861,7 +11861,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U11_ua.png",
 			effects: {
 				26: [
-					{min: 7.675999999999998, max: 8.483999999999998, positive: true, type: "gatherFish"},
+					{min: 7.675999999999998, max: 8.483999999999998, positive: true, type: "gatherFood"},
 					{min: 2.944999999999992, max: 3.2549999999999915, positive: true, type: "gatherWood"},
 					{min: 7.675999999999998, max: 8.483999999999998, positive: true, type: "gatherGold"},
 					{min: 7.675999999999998, max: 8.483999999999998, positive: true, type: "gatherStone"},
@@ -11873,31 +11873,31 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_E61_ua.png",
 			effects: {
 				21: [
-					{min: 4.436499999999996, max: 4.903499999999997, positive: true, type: "gatherFish"},
+					{min: 4.436499999999996, max: 4.903499999999997, positive: true, type: "gatherFood"},
 					{min: 2.8784999999999994, max: 3.1814999999999993, positive: true, type: "gatherWood"},
 					{min: 8.70199999999999, max: 9.61799999999999, positive: true, type: "gatherGold"},
 					{min: 8.70199999999999, max: 9.61799999999999, positive: true, type: "gatherStone"},
 				],
 				22: [
-					{min: 4.598, max: 5.082, positive: true, type: "gatherFish"},
+					{min: 4.598, max: 5.082, positive: true, type: "gatherFood"},
 					{min: 2.983000000000009, max: 3.29700000000001, positive: true, type: "gatherWood"},
 					{min: 9.024999999999997, max: 9.974999999999996, positive: true, type: "gatherGold"},
 					{min: 9.024999999999997, max: 9.974999999999996, positive: true, type: "gatherStone"},
 				],
 				23: [
-					{min: 4.759500000000003, max: 5.260500000000004, positive: true, type: "gatherFish"},
+					{min: 4.759500000000003, max: 5.260500000000004, positive: true, type: "gatherFood"},
 					{min: 3.0874999999999972, max: 3.4124999999999974, positive: true, type: "gatherWood"},
 					{min: 9.348000000000003, max: 10.332000000000004, positive: true, type: "gatherGold"},
 					{min: 9.348000000000003, max: 10.332000000000004, positive: true, type: "gatherStone"},
 				],
 				24: [
-					{min: 4.9210000000000065, max: 5.439000000000007, positive: true, type: "gatherFish"},
+					{min: 4.9210000000000065, max: 5.439000000000007, positive: true, type: "gatherFood"},
 					{min: 3.192000000000007, max: 3.528000000000008, positive: true, type: "gatherWood"},
 					{min: 9.670999999999989, max: 10.68899999999999, positive: true, type: "gatherGold"},
 					{min: 9.670999999999989, max: 10.68899999999999, positive: true, type: "gatherStone"},
 				],
 				25: [
-					{min: 5.082500000000009, max: 5.617500000000011, positive: true, type: "gatherFish"},
+					{min: 5.082500000000009, max: 5.617500000000011, positive: true, type: "gatherFood"},
 					{min: 3.2964999999999955, max: 3.643499999999995, positive: true, type: "gatherWood"},
 					{min: 9.993999999999996, max: 11.045999999999996, positive: true, type: "gatherGold"},
 					{min: 9.993999999999996, max: 11.045999999999996, positive: true, type: "gatherStone"},
@@ -11909,7 +11909,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_R31_ua.png",
 			effects: {
 				25: [
-					{min: 8.72099999999999, max: 9.638999999999989, positive: true, type: "gatherFish"},
+					{min: 8.72099999999999, max: 9.638999999999989, positive: true, type: "gatherFood"},
 					{min: 8.72099999999999, max: 9.638999999999989, positive: true, type: "gatherWood"},
 					{min: 5.481500000000008, max: 6.058500000000009, positive: true, type: "gatherGold"},
 					{min: 8.72099999999999, max: 9.638999999999989, positive: true, type: "gatherStone"},
@@ -11921,7 +11921,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				25: [
-					{min: 7.448000000000002, max: 8.232000000000003, positive: true, type: "gatherFish"},
+					{min: 7.448000000000002, max: 8.232000000000003, positive: true, type: "gatherFood"},
 					{min: 7.448000000000002, max: 8.232000000000003, positive: true, type: "gatherWood"},
 					{min: 7.448000000000002, max: 8.232000000000003, positive: true, type: "gatherGold"},
 					{min: 7.448000000000002, max: 8.232000000000003, positive: true, type: "gatherStone"},
@@ -11934,7 +11934,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_E61_ua.png",
 			effects: {
 				24: [
-					{min: 6.336499999999998, max: 7.003499999999998, positive: true, type: "gatherFish"},
+					{min: 6.336499999999998, max: 7.003499999999998, positive: true, type: "gatherFood"},
 					{min: 6.336499999999998, max: 7.003499999999998, positive: true, type: "gatherWood"},
 					{min: 8.264999999999995, max: 9.134999999999996, positive: true, type: "gatherGold"},
 					{min: 8.264999999999995, max: 9.134999999999996, positive: true, type: "gatherStone"},
@@ -11946,31 +11946,31 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_R30_ua.png",
 			effects: {
 				20: [
-					{min: 7.837500000000001, max: 8.662500000000001, positive: true, type: "gatherFish"},
+					{min: 7.837500000000001, max: 8.662500000000001, positive: true, type: "gatherFood"},
 					{min: 3.0874999999999972, max: 3.4124999999999974, positive: true, type: "gatherWood"},
 					{min: 7.837500000000001, max: 8.662500000000001, positive: true, type: "gatherGold"},
 					{min: 7.837500000000001, max: 8.662500000000001, positive: true, type: "gatherStone"},
 				],
 				21: [
-					{min: 8.132000000000012, max: 8.988000000000014, positive: true, type: "gatherFish"},
+					{min: 8.132000000000012, max: 8.988000000000014, positive: true, type: "gatherFood"},
 					{min: 3.2014999999999847, max: 3.5384999999999835, positive: true, type: "gatherWood"},
 					{min: 8.132000000000012, max: 8.988000000000014, positive: true, type: "gatherGold"},
 					{min: 8.132000000000012, max: 8.988000000000014, positive: true, type: "gatherStone"},
 				],
 				22: [
-					{min: 8.4265, max: 9.313500000000001, positive: true, type: "gatherFish"},
+					{min: 8.4265, max: 9.313500000000001, positive: true, type: "gatherFood"},
 					{min: 3.3154999999999935, max: 3.6644999999999928, positive: true, type: "gatherWood"},
 					{min: 8.4265, max: 9.313500000000001, positive: true, type: "gatherGold"},
 					{min: 8.4265, max: 9.313500000000001, positive: true, type: "gatherStone"},
 				],
 				23: [
-					{min: 8.721000000000009, max: 9.639000000000012, positive: true, type: "gatherFish"},
+					{min: 8.721000000000009, max: 9.639000000000012, positive: true, type: "gatherFood"},
 					{min: 3.429499999999981, max: 3.790499999999979, positive: true, type: "gatherWood"},
 					{min: 8.721000000000009, max: 9.639000000000012, positive: true, type: "gatherGold"},
 					{min: 8.721000000000009, max: 9.639000000000012, positive: true, type: "gatherStone"},
 				],
 				24: [
-					{min: 9.015499999999998, max: 9.9645, positive: true, type: "gatherFish"},
+					{min: 9.015499999999998, max: 9.9645, positive: true, type: "gatherFood"},
 					{min: 3.543499999999989, max: 3.9164999999999885, positive: true, type: "gatherWood"},
 					{min: 9.015499999999998, max: 9.9645, positive: true, type: "gatherGold"},
 					{min: 9.015499999999998, max: 9.9645, positive: true, type: "gatherStone"},
@@ -11982,35 +11982,35 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_R33_ua.png",
 			effects: {
 				19: [
-					{min: 7.543000000000013, max: 8.337000000000014, positive: true, type: "gatherFish"},
+					{min: 7.543000000000013, max: 8.337000000000014, positive: true, type: "gatherFood"},
 					{min: 7.543000000000013, max: 8.337000000000014, positive: true, type: "gatherWood"},
 					{min: 7.543000000000013, max: 8.337000000000014, positive: true, type: "gatherGold"},
 					{min: 7.543000000000013, max: 8.337000000000014, positive: true, type: "gatherStone"},
 					{min: 8.71149999999999, max: 9.628499999999988, positive: true, type: "buildingSpeed"},
 				],
 				20: [
-					{min: 7.837500000000001, max: 8.662500000000001, positive: true, type: "gatherFish"},
+					{min: 7.837500000000001, max: 8.662500000000001, positive: true, type: "gatherFood"},
 					{min: 7.837500000000001, max: 8.662500000000001, positive: true, type: "gatherWood"},
 					{min: 7.837500000000001, max: 8.662500000000001, positive: true, type: "gatherGold"},
 					{min: 7.837500000000001, max: 8.662500000000001, positive: true, type: "gatherStone"},
 					{min: 9.043999999999995, max: 9.995999999999997, positive: true, type: "buildingSpeed"},
 				],
 				21: [
-					{min: 8.132000000000012, max: 8.988000000000014, positive: true, type: "gatherFish"},
+					{min: 8.132000000000012, max: 8.988000000000014, positive: true, type: "gatherFood"},
 					{min: 8.132000000000012, max: 8.988000000000014, positive: true, type: "gatherWood"},
 					{min: 8.132000000000012, max: 8.988000000000014, positive: true, type: "gatherGold"},
 					{min: 8.132000000000012, max: 8.988000000000014, positive: true, type: "gatherStone"},
 					{min: 9.3765, max: 10.363500000000002, positive: true, type: "buildingSpeed"},
 				],
 				22: [
-					{min: 8.4265, max: 9.313500000000001, positive: true, type: "gatherFish"},
+					{min: 8.4265, max: 9.313500000000001, positive: true, type: "gatherFood"},
 					{min: 8.4265, max: 9.313500000000001, positive: true, type: "gatherWood"},
 					{min: 8.4265, max: 9.313500000000001, positive: true, type: "gatherGold"},
 					{min: 8.4265, max: 9.313500000000001, positive: true, type: "gatherStone"},
 					{min: 9.708999999999985, max: 10.730999999999984, positive: true, type: "buildingSpeed"},
 				],
 				23: [
-					{min: 8.721000000000009, max: 9.639000000000012, positive: true, type: "gatherFish"},
+					{min: 8.721000000000009, max: 9.639000000000012, positive: true, type: "gatherFood"},
 					{min: 8.721000000000009, max: 9.639000000000012, positive: true, type: "gatherWood"},
 					{min: 8.721000000000009, max: 9.639000000000012, positive: true, type: "gatherGold"},
 					{min: 8.721000000000009, max: 9.639000000000012, positive: true, type: "gatherStone"},
@@ -12023,35 +12023,35 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_E60_ua.png",
 			effects: {
 				17: [
-					{min: 7.410000000000006, max: 8.190000000000008, positive: true, type: "gatherFish"},
+					{min: 7.410000000000006, max: 8.190000000000008, positive: true, type: "gatherFood"},
 					{min: 7.410000000000006, max: 8.190000000000008, positive: true, type: "gatherWood"},
 					{min: 7.410000000000006, max: 8.190000000000008, positive: true, type: "gatherGold"},
 					{min: 2.650500000000003, max: 2.929500000000004, positive: true, type: "damage"},
 					{min: 3.9805000000000046, max: 4.399500000000005, positive: true, type: "gatherStone"},
 				],
 				18: [
-					{min: 7.732999999999992, max: 8.546999999999992, positive: true, type: "gatherFish"},
+					{min: 7.732999999999992, max: 8.546999999999992, positive: true, type: "gatherFood"},
 					{min: 7.732999999999992, max: 8.546999999999992, positive: true, type: "gatherWood"},
 					{min: 7.732999999999992, max: 8.546999999999992, positive: true, type: "gatherGold"},
 					{min: 2.7644999999999906, max: 3.05549999999999, positive: true, type: "damage"},
 					{min: 4.151500000000007, max: 4.588500000000008, positive: true, type: "gatherStone"},
 				],
 				19: [
-					{min: 8.056, max: 8.903999999999998, positive: true, type: "gatherFish"},
+					{min: 8.056, max: 8.903999999999998, positive: true, type: "gatherFood"},
 					{min: 8.056, max: 8.903999999999998, positive: true, type: "gatherWood"},
 					{min: 8.056, max: 8.903999999999998, positive: true, type: "gatherGold"},
 					{min: 2.8784999999999994, max: 3.1814999999999993, positive: true, type: "damage"},
 					{min: 4.322500000000009, max: 4.7775000000000105, positive: true, type: "gatherStone"},
 				],
 				20: [
-					{min: 8.379000000000005, max: 9.261000000000006, positive: true, type: "gatherFish"},
+					{min: 8.379000000000005, max: 9.261000000000006, positive: true, type: "gatherFood"},
 					{min: 8.379000000000005, max: 9.261000000000006, positive: true, type: "gatherWood"},
 					{min: 8.379000000000005, max: 9.261000000000006, positive: true, type: "gatherGold"},
 					{min: 2.9925000000000077, max: 3.307500000000009, positive: true, type: "damage"},
 					{min: 4.493500000000012, max: 4.966500000000012, positive: true, type: "gatherStone"},
 				],
 				21: [
-					{min: 8.70199999999999, max: 9.61799999999999, positive: true, type: "gatherFish"},
+					{min: 8.70199999999999, max: 9.61799999999999, positive: true, type: "gatherFood"},
 					{min: 8.70199999999999, max: 9.61799999999999, positive: true, type: "gatherWood"},
 					{min: 8.70199999999999, max: 9.61799999999999, positive: true, type: "gatherGold"},
 					{min: 3.106499999999995, max: 3.433499999999995, positive: true, type: "damage"},
@@ -12064,35 +12064,35 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_R32_ua.png",
 			effects: {
 				16: [
-					{min: 6.659500000000005, max: 7.360500000000005, positive: true, type: "gatherFish"},
+					{min: 6.659500000000005, max: 7.360500000000005, positive: true, type: "gatherFood"},
 					{min: 6.659500000000005, max: 7.360500000000005, positive: true, type: "gatherWood"},
 					{min: 6.659500000000005, max: 7.360500000000005, positive: true, type: "gatherGold"},
 					{min: 6.659500000000005, max: 7.360500000000005, positive: true, type: "gatherStone"},
 					{min: 2.6314999999999844, max: 2.9084999999999828, positive: true, type: "health"},
 				],
 				17: [
-					{min: 6.954000000000014, max: 7.686000000000017, positive: true, type: "gatherFish"},
+					{min: 6.954000000000014, max: 7.686000000000017, positive: true, type: "gatherFood"},
 					{min: 6.954000000000014, max: 7.686000000000017, positive: true, type: "gatherWood"},
 					{min: 6.954000000000014, max: 7.686000000000017, positive: true, type: "gatherGold"},
 					{min: 6.954000000000014, max: 7.686000000000017, positive: true, type: "gatherStone"},
 					{min: 2.7454999999999927, max: 3.0344999999999924, positive: true, type: "health"},
 				],
 				18: [
-					{min: 7.248500000000003, max: 8.011500000000003, positive: true, type: "gatherFish"},
+					{min: 7.248500000000003, max: 8.011500000000003, positive: true, type: "gatherFood"},
 					{min: 7.248500000000003, max: 8.011500000000003, positive: true, type: "gatherWood"},
 					{min: 7.248500000000003, max: 8.011500000000003, positive: true, type: "gatherGold"},
 					{min: 7.248500000000003, max: 8.011500000000003, positive: true, type: "gatherStone"},
 					{min: 2.85949999999998, max: 3.1604999999999785, positive: true, type: "health"},
 				],
 				19: [
-					{min: 7.543000000000013, max: 8.337000000000014, positive: true, type: "gatherFish"},
+					{min: 7.543000000000013, max: 8.337000000000014, positive: true, type: "gatherFood"},
 					{min: 7.543000000000013, max: 8.337000000000014, positive: true, type: "gatherWood"},
 					{min: 7.543000000000013, max: 8.337000000000014, positive: true, type: "gatherGold"},
 					{min: 7.543000000000013, max: 8.337000000000014, positive: true, type: "gatherStone"},
 					{min: 2.973499999999989, max: 3.2864999999999878, positive: true, type: "health"},
 				],
 				20: [
-					{min: 7.837500000000001, max: 8.662500000000001, positive: true, type: "gatherFish"},
+					{min: 7.837500000000001, max: 8.662500000000001, positive: true, type: "gatherFood"},
 					{min: 7.837500000000001, max: 8.662500000000001, positive: true, type: "gatherWood"},
 					{min: 7.837500000000001, max: 8.662500000000001, positive: true, type: "gatherGold"},
 					{min: 7.837500000000001, max: 8.662500000000001, positive: true, type: "gatherStone"},
@@ -12105,7 +12105,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				20: [
-					{min: 5.994499999999993, max: 6.6254999999999935, positive: true, type: "gatherFish"},
+					{min: 5.994499999999993, max: 6.6254999999999935, positive: true, type: "gatherFood"},
 					{min: 5.994499999999993, max: 6.6254999999999935, positive: true, type: "gatherWood"},
 					{min: 5.994499999999993, max: 6.6254999999999935, positive: true, type: "gatherGold"},
 					{min: 5.994499999999993, max: 6.6254999999999935, positive: true, type: "gatherStone"},
@@ -12117,7 +12117,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U11_ua.png",
 			effects: {
 				20: [
-					{min: 6.308000000000001, max: 6.972000000000002, positive: true, type: "gatherFish"},
+					{min: 6.308000000000001, max: 6.972000000000002, positive: true, type: "gatherFood"},
 					{min: 6.308000000000001, max: 6.972000000000002, positive: true, type: "gatherWood"},
 					{min: 6.308000000000001, max: 6.972000000000002, positive: true, type: "gatherGold"},
 					{min: 2.6504999999999823, max: 2.9294999999999805, positive: true, type: "gatherStone"},
@@ -12129,7 +12129,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				18: [
-					{min: 5.852000000000009, max: 6.468000000000011, positive: true, type: "gatherFish"},
+					{min: 5.852000000000009, max: 6.468000000000011, positive: true, type: "gatherFood"},
 					{min: 5.852000000000009, max: 6.468000000000011, positive: true, type: "gatherWood"},
 					{min: 2.460499999999982, max: 2.7194999999999805, positive: true, type: "gatherGold"},
 					{min: 5.852000000000009, max: 6.468000000000011, positive: true, type: "gatherStone"},
@@ -12141,31 +12141,31 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_R31_ua.png",
 			effects: {
 				12: [
-					{min: 5.481500000000008, max: 6.058500000000009, positive: true, type: "gatherFish"},
+					{min: 5.481500000000008, max: 6.058500000000009, positive: true, type: "gatherFood"},
 					{min: 5.481500000000008, max: 6.058500000000009, positive: true, type: "gatherWood"},
 					{min: 2.1754999999999924, max: 2.4044999999999916, positive: true, type: "gatherGold"},
 					{min: 5.481500000000008, max: 6.058500000000009, positive: true, type: "gatherStone"},
 				],
 				13: [
-					{min: 5.776000000000018, max: 6.38400000000002, positive: true, type: "gatherFish"},
+					{min: 5.776000000000018, max: 6.38400000000002, positive: true, type: "gatherFood"},
 					{min: 5.776000000000018, max: 6.38400000000002, positive: true, type: "gatherWood"},
 					{min: 2.2895000000000008, max: 2.5305000000000013, positive: true, type: "gatherGold"},
 					{min: 5.776000000000018, max: 6.38400000000002, positive: true, type: "gatherStone"},
 				],
 				14: [
-					{min: 6.070500000000006, max: 6.709500000000007, positive: true, type: "gatherFish"},
+					{min: 6.070500000000006, max: 6.709500000000007, positive: true, type: "gatherFood"},
 					{min: 6.070500000000006, max: 6.709500000000007, positive: true, type: "gatherWood"},
 					{min: 2.403499999999988, max: 2.6564999999999874, positive: true, type: "gatherGold"},
 					{min: 6.070500000000006, max: 6.709500000000007, positive: true, type: "gatherStone"},
 				],
 				15: [
-					{min: 6.365000000000016, max: 7.035000000000018, positive: true, type: "gatherFish"},
+					{min: 6.365000000000016, max: 7.035000000000018, positive: true, type: "gatherFood"},
 					{min: 6.365000000000016, max: 7.035000000000018, positive: true, type: "gatherWood"},
 					{min: 2.517499999999997, max: 2.7824999999999966, positive: true, type: "gatherGold"},
 					{min: 6.365000000000016, max: 7.035000000000018, positive: true, type: "gatherStone"},
 				],
 				16: [
-					{min: 6.659500000000005, max: 7.360500000000005, positive: true, type: "gatherFish"},
+					{min: 6.659500000000005, max: 7.360500000000005, positive: true, type: "gatherFood"},
 					{min: 6.659500000000005, max: 7.360500000000005, positive: true, type: "gatherWood"},
 					{min: 2.6314999999999844, max: 2.9084999999999828, positive: true, type: "gatherGold"},
 					{min: 6.659500000000005, max: 7.360500000000005, positive: true, type: "gatherStone"},
@@ -12177,91 +12177,91 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U11_ua.png",
 			effects: {
 				2: [
-					{min: 2.232499999999986, max: 2.4674999999999847, positive: true, type: "gatherFish"},
+					{min: 2.232499999999986, max: 2.4674999999999847, positive: true, type: "gatherFood"},
 					{min: 2.232499999999986, max: 2.4674999999999847, positive: true, type: "gatherWood"},
 					{min: 2.232499999999986, max: 2.4674999999999847, positive: true, type: "gatherGold"},
 					{min: 2.232499999999986, max: 2.4674999999999847, positive: true, type: "gatherStone"},
 				],
 				3: [
-					{min: 2.4415000000000053, max: 2.698500000000006, positive: true, type: "gatherFish"},
+					{min: 2.4415000000000053, max: 2.698500000000006, positive: true, type: "gatherFood"},
 					{min: 2.4415000000000053, max: 2.698500000000006, positive: true, type: "gatherWood"},
 					{min: 2.4415000000000053, max: 2.698500000000006, positive: true, type: "gatherGold"},
 					{min: 2.4415000000000053, max: 2.698500000000006, positive: true, type: "gatherStone"},
 				],
 				4: [
-					{min: 2.650500000000003, max: 2.929500000000004, positive: true, type: "gatherFish"},
+					{min: 2.650500000000003, max: 2.929500000000004, positive: true, type: "gatherFood"},
 					{min: 2.650500000000003, max: 2.929500000000004, positive: true, type: "gatherWood"},
 					{min: 2.650500000000003, max: 2.929500000000004, positive: true, type: "gatherGold"},
 					{min: 2.650500000000003, max: 2.929500000000004, positive: true, type: "gatherStone"},
 				],
 				5: [
-					{min: 2.8595000000000015, max: 3.1605000000000016, positive: true, type: "gatherFish"},
+					{min: 2.8595000000000015, max: 3.1605000000000016, positive: true, type: "gatherFood"},
 					{min: 2.8595000000000015, max: 3.1605000000000016, positive: true, type: "gatherWood"},
 					{min: 2.8595000000000015, max: 3.1605000000000016, positive: true, type: "gatherGold"},
 					{min: 2.8595000000000015, max: 3.1605000000000016, positive: true, type: "gatherStone"},
 				],
 				6: [
-					{min: 3.0684999999999993, max: 3.3914999999999997, positive: true, type: "gatherFish"},
+					{min: 3.0684999999999993, max: 3.3914999999999997, positive: true, type: "gatherFood"},
 					{min: 3.0684999999999993, max: 3.3914999999999997, positive: true, type: "gatherWood"},
 					{min: 3.0684999999999993, max: 3.3914999999999997, positive: true, type: "gatherGold"},
 					{min: 3.0684999999999993, max: 3.3914999999999997, positive: true, type: "gatherStone"},
 				],
 				7: [
-					{min: 3.2774999999999976, max: 3.6224999999999974, positive: true, type: "gatherFish"},
+					{min: 3.2774999999999976, max: 3.6224999999999974, positive: true, type: "gatherFood"},
 					{min: 3.2774999999999976, max: 3.6224999999999974, positive: true, type: "gatherWood"},
 					{min: 3.2774999999999976, max: 3.6224999999999974, positive: true, type: "gatherGold"},
 					{min: 3.2774999999999976, max: 3.6224999999999974, positive: true, type: "gatherStone"},
 				],
 				8: [
-					{min: 3.4864999999999955, max: 3.8534999999999955, positive: true, type: "gatherFish"},
+					{min: 3.4864999999999955, max: 3.8534999999999955, positive: true, type: "gatherFood"},
 					{min: 3.4864999999999955, max: 3.8534999999999955, positive: true, type: "gatherWood"},
 					{min: 3.4864999999999955, max: 3.8534999999999955, positive: true, type: "gatherGold"},
 					{min: 3.4864999999999955, max: 3.8534999999999955, positive: true, type: "gatherStone"},
 				],
 				9: [
-					{min: 3.695499999999994, max: 4.084499999999993, positive: true, type: "gatherFish"},
+					{min: 3.695499999999994, max: 4.084499999999993, positive: true, type: "gatherFood"},
 					{min: 3.695499999999994, max: 4.084499999999993, positive: true, type: "gatherWood"},
 					{min: 3.695499999999994, max: 4.084499999999993, positive: true, type: "gatherGold"},
 					{min: 3.695499999999994, max: 4.084499999999993, positive: true, type: "gatherStone"},
 				],
 				10: [
-					{min: 3.9044999999999916, max: 4.315499999999991, positive: true, type: "gatherFish"},
+					{min: 3.9044999999999916, max: 4.315499999999991, positive: true, type: "gatherFood"},
 					{min: 3.9044999999999916, max: 4.315499999999991, positive: true, type: "gatherWood"},
 					{min: 3.9044999999999916, max: 4.315499999999991, positive: true, type: "gatherGold"},
 					{min: 3.9044999999999916, max: 4.315499999999991, positive: true, type: "gatherStone"},
 				],
 				11: [
-					{min: 4.1134999999999895, max: 4.546499999999989, positive: true, type: "gatherFish"},
+					{min: 4.1134999999999895, max: 4.546499999999989, positive: true, type: "gatherFood"},
 					{min: 4.1134999999999895, max: 4.546499999999989, positive: true, type: "gatherWood"},
 					{min: 4.1134999999999895, max: 4.546499999999989, positive: true, type: "gatherGold"},
 					{min: 4.1134999999999895, max: 4.546499999999989, positive: true, type: "gatherStone"},
 				],
 				12: [
-					{min: 4.322499999999988, max: 4.7774999999999865, positive: true, type: "gatherFish"},
+					{min: 4.322499999999988, max: 4.7774999999999865, positive: true, type: "gatherFood"},
 					{min: 4.322499999999988, max: 4.7774999999999865, positive: true, type: "gatherWood"},
 					{min: 4.322499999999988, max: 4.7774999999999865, positive: true, type: "gatherGold"},
 					{min: 4.322499999999988, max: 4.7774999999999865, positive: true, type: "gatherStone"},
 				],
 				13: [
-					{min: 4.531499999999986, max: 5.008499999999985, positive: true, type: "gatherFish"},
+					{min: 4.531499999999986, max: 5.008499999999985, positive: true, type: "gatherFood"},
 					{min: 4.531499999999986, max: 5.008499999999985, positive: true, type: "gatherWood"},
 					{min: 4.531499999999986, max: 5.008499999999985, positive: true, type: "gatherGold"},
 					{min: 4.531499999999986, max: 5.008499999999985, positive: true, type: "gatherStone"},
 				],
 				14: [
-					{min: 4.740500000000005, max: 5.239500000000006, positive: true, type: "gatherFish"},
+					{min: 4.740500000000005, max: 5.239500000000006, positive: true, type: "gatherFood"},
 					{min: 4.740500000000005, max: 5.239500000000006, positive: true, type: "gatherWood"},
 					{min: 4.740500000000005, max: 5.239500000000006, positive: true, type: "gatherGold"},
 					{min: 4.740500000000005, max: 5.239500000000006, positive: true, type: "gatherStone"},
 				],
 				15: [
-					{min: 4.949500000000003, max: 5.470500000000004, positive: true, type: "gatherFish"},
+					{min: 4.949500000000003, max: 5.470500000000004, positive: true, type: "gatherFood"},
 					{min: 4.949500000000003, max: 5.470500000000004, positive: true, type: "gatherWood"},
 					{min: 4.949500000000003, max: 5.470500000000004, positive: true, type: "gatherGold"},
 					{min: 4.949500000000003, max: 5.470500000000004, positive: true, type: "gatherStone"},
 				],
 				16: [
-					{min: 5.158500000000001, max: 5.701500000000002, positive: true, type: "gatherFish"},
+					{min: 5.158500000000001, max: 5.701500000000002, positive: true, type: "gatherFood"},
 					{min: 5.158500000000001, max: 5.701500000000002, positive: true, type: "gatherWood"},
 					{min: 5.158500000000001, max: 5.701500000000002, positive: true, type: "gatherGold"},
 					{min: 5.158500000000001, max: 5.701500000000002, positive: true, type: "gatherStone"},
@@ -12273,7 +12273,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U11_ua.png",
 			effects: {
 				16: [
-					{min: 5.396000000000017, max: 5.96400000000002, positive: true, type: "gatherFish"},
+					{min: 5.396000000000017, max: 5.96400000000002, positive: true, type: "gatherFood"},
 					{min: 2.270499999999982, max: 2.50949999999998, positive: true, type: "gatherWood"},
 					{min: 5.396000000000017, max: 5.96400000000002, positive: true, type: "gatherGold"},
 					{min: 5.396000000000017, max: 5.96400000000002, positive: true, type: "gatherStone"},
@@ -12285,7 +12285,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				15: [
-					{min: 5.804499999999993, max: 6.4154999999999935, positive: true, type: "gatherFish"},
+					{min: 5.804499999999993, max: 6.4154999999999935, positive: true, type: "gatherFood"},
 					{min: 5.804499999999993, max: 6.4154999999999935, positive: true, type: "gatherWood"},
 					{min: 5.804499999999993, max: 6.4154999999999935, positive: true, type: "gatherGold"},
 					{min: 5.804499999999993, max: 6.4154999999999935, positive: true, type: "gatherStone"},
@@ -12297,31 +12297,31 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_R30_ua.png",
 			effects: {
 				10: [
-					{min: 4.892500000000009, max: 5.407500000000011, positive: true, type: "gatherFish"},
+					{min: 4.892500000000009, max: 5.407500000000011, positive: true, type: "gatherFood"},
 					{min: 1.9474999999999965, max: 2.1524999999999963, positive: true, type: "gatherWood"},
 					{min: 4.892500000000009, max: 5.407500000000011, positive: true, type: "gatherGold"},
 					{min: 4.892500000000009, max: 5.407500000000011, positive: true, type: "gatherStone"},
 				],
 				11: [
-					{min: 5.187000000000019, max: 5.733000000000022, positive: true, type: "gatherFish"},
+					{min: 5.187000000000019, max: 5.733000000000022, positive: true, type: "gatherFood"},
 					{min: 2.0614999999999837, max: 2.2784999999999824, positive: true, type: "gatherWood"},
 					{min: 5.187000000000019, max: 5.733000000000022, positive: true, type: "gatherGold"},
 					{min: 5.187000000000019, max: 5.733000000000022, positive: true, type: "gatherStone"},
 				],
 				12: [
-					{min: 5.481500000000008, max: 6.058500000000009, positive: true, type: "gatherFish"},
+					{min: 5.481500000000008, max: 6.058500000000009, positive: true, type: "gatherFood"},
 					{min: 2.1754999999999924, max: 2.4044999999999916, positive: true, type: "gatherWood"},
 					{min: 5.481500000000008, max: 6.058500000000009, positive: true, type: "gatherGold"},
 					{min: 5.481500000000008, max: 6.058500000000009, positive: true, type: "gatherStone"},
 				],
 				13: [
-					{min: 5.776000000000018, max: 6.38400000000002, positive: true, type: "gatherFish"},
+					{min: 5.776000000000018, max: 6.38400000000002, positive: true, type: "gatherFood"},
 					{min: 2.2895000000000008, max: 2.5305000000000013, positive: true, type: "gatherWood"},
 					{min: 5.776000000000018, max: 6.38400000000002, positive: true, type: "gatherGold"},
 					{min: 5.776000000000018, max: 6.38400000000002, positive: true, type: "gatherStone"},
 				],
 				14: [
-					{min: 6.070500000000006, max: 6.709500000000007, positive: true, type: "gatherFish"},
+					{min: 6.070500000000006, max: 6.709500000000007, positive: true, type: "gatherFood"},
 					{min: 2.403499999999988, max: 2.6564999999999874, positive: true, type: "gatherWood"},
 					{min: 6.070500000000006, max: 6.709500000000007, positive: true, type: "gatherGold"},
 					{min: 6.070500000000006, max: 6.709500000000007, positive: true, type: "gatherStone"},
@@ -12333,31 +12333,31 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U11_ua.png",
 			effects: {
 				9: [
-					{min: 3.695499999999994, max: 4.084499999999993, positive: true, type: "gatherFish"},
+					{min: 3.695499999999994, max: 4.084499999999993, positive: true, type: "gatherFood"},
 					{min: 3.695499999999994, max: 4.084499999999993, positive: true, type: "gatherWood"},
 					{min: 3.695499999999994, max: 4.084499999999993, positive: true, type: "gatherGold"},
 					{min: 3.695499999999994, max: 4.084499999999993, positive: true, type: "gatherStone"},
 				],
 				10: [
-					{min: 3.9044999999999916, max: 4.315499999999991, positive: true, type: "gatherFish"},
+					{min: 3.9044999999999916, max: 4.315499999999991, positive: true, type: "gatherFood"},
 					{min: 3.9044999999999916, max: 4.315499999999991, positive: true, type: "gatherWood"},
 					{min: 3.9044999999999916, max: 4.315499999999991, positive: true, type: "gatherGold"},
 					{min: 3.9044999999999916, max: 4.315499999999991, positive: true, type: "gatherStone"},
 				],
 				11: [
-					{min: 4.1134999999999895, max: 4.546499999999989, positive: true, type: "gatherFish"},
+					{min: 4.1134999999999895, max: 4.546499999999989, positive: true, type: "gatherFood"},
 					{min: 4.1134999999999895, max: 4.546499999999989, positive: true, type: "gatherWood"},
 					{min: 4.1134999999999895, max: 4.546499999999989, positive: true, type: "gatherGold"},
 					{min: 4.1134999999999895, max: 4.546499999999989, positive: true, type: "gatherStone"},
 				],
 				12: [
-					{min: 4.322499999999988, max: 4.7774999999999865, positive: true, type: "gatherFish"},
+					{min: 4.322499999999988, max: 4.7774999999999865, positive: true, type: "gatherFood"},
 					{min: 4.322499999999988, max: 4.7774999999999865, positive: true, type: "gatherWood"},
 					{min: 4.322499999999988, max: 4.7774999999999865, positive: true, type: "gatherGold"},
 					{min: 4.322499999999988, max: 4.7774999999999865, positive: true, type: "gatherStone"},
 				],
 				13: [
-					{min: 4.531499999999986, max: 5.008499999999985, positive: true, type: "gatherFish"},
+					{min: 4.531499999999986, max: 5.008499999999985, positive: true, type: "gatherFood"},
 					{min: 4.531499999999986, max: 5.008499999999985, positive: true, type: "gatherWood"},
 					{min: 4.531499999999986, max: 5.008499999999985, positive: true, type: "gatherGold"},
 					{min: 4.531499999999986, max: 5.008499999999985, positive: true, type: "gatherStone"},
@@ -12369,31 +12369,31 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_R33_ua.png",
 			effects: {
 				7: [
-					{min: 1.605499999999992, max: 1.774499999999991, positive: true, type: "gatherFish"},
+					{min: 1.605499999999992, max: 1.774499999999991, positive: true, type: "gatherFood"},
 					{min: 4.009000000000001, max: 4.431000000000002, positive: true, type: "gatherWood"},
 					{min: 4.009000000000001, max: 4.431000000000002, positive: true, type: "gatherGold"},
 					{min: 4.009000000000001, max: 4.431000000000002, positive: true, type: "gatherStone"},
 				],
 				8: [
-					{min: 1.7195000000000005, max: 1.9005000000000005, positive: true, type: "gatherFish"},
+					{min: 1.7195000000000005, max: 1.9005000000000005, positive: true, type: "gatherFood"},
 					{min: 4.303500000000011, max: 4.756500000000012, positive: true, type: "gatherWood"},
 					{min: 4.303500000000011, max: 4.756500000000012, positive: true, type: "gatherGold"},
 					{min: 4.303500000000011, max: 4.756500000000012, positive: true, type: "gatherStone"},
 				],
 				9: [
-					{min: 1.833499999999988, max: 2.0264999999999866, positive: true, type: "gatherFish"},
+					{min: 1.833499999999988, max: 2.0264999999999866, positive: true, type: "gatherFood"},
 					{min: 4.598, max: 5.082, positive: true, type: "gatherWood"},
 					{min: 4.598, max: 5.082, positive: true, type: "gatherGold"},
 					{min: 4.598, max: 5.082, positive: true, type: "gatherStone"},
 				],
 				10: [
-					{min: 1.9474999999999965, max: 2.1524999999999963, positive: true, type: "gatherFish"},
+					{min: 1.9474999999999965, max: 2.1524999999999963, positive: true, type: "gatherFood"},
 					{min: 4.892500000000009, max: 5.407500000000011, positive: true, type: "gatherWood"},
 					{min: 4.892500000000009, max: 5.407500000000011, positive: true, type: "gatherGold"},
 					{min: 4.892500000000009, max: 5.407500000000011, positive: true, type: "gatherStone"},
 				],
 				11: [
-					{min: 2.0614999999999837, max: 2.2784999999999824, positive: true, type: "gatherFish"},
+					{min: 2.0614999999999837, max: 2.2784999999999824, positive: true, type: "gatherFood"},
 					{min: 5.187000000000019, max: 5.733000000000022, positive: true, type: "gatherWood"},
 					{min: 5.187000000000019, max: 5.733000000000022, positive: true, type: "gatherGold"},
 					{min: 5.187000000000019, max: 5.733000000000022, positive: true, type: "gatherStone"},
@@ -12405,7 +12405,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_E60_ua.png",
 			effects: {
 				10: [
-					{min: 7.277, max: 8.043000000000001, positive: true, type: "gatherFish"},
+					{min: 7.277, max: 8.043000000000001, positive: true, type: "gatherFood"},
 					{min: 4.664499999999992, max: 5.155499999999992, positive: true, type: "gatherWood"},
 					{min: 4.664499999999992, max: 5.155499999999992, positive: true, type: "gatherGold"},
 					{min: 4.664499999999992, max: 5.155499999999992, positive: true, type: "gatherStone"},
@@ -12417,7 +12417,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				10: [
-					{min: 3.9044999999999916, max: 4.315499999999991, positive: true, type: "gatherFish"},
+					{min: 3.9044999999999916, max: 4.315499999999991, positive: true, type: "gatherFood"},
 					{min: 3.9044999999999916, max: 4.315499999999991, positive: true, type: "gatherWood"},
 					{min: 3.9044999999999916, max: 4.315499999999991, positive: true, type: "gatherGold"},
 					{min: 3.9044999999999916, max: 4.315499999999991, positive: true, type: "gatherStone"},
@@ -12429,7 +12429,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U11_ua.png",
 			effects: {
 				10: [
-					{min: 4.028, max: 4.451999999999999, positive: true, type: "gatherFish"},
+					{min: 4.028, max: 4.451999999999999, positive: true, type: "gatherFood"},
 					{min: 4.028, max: 4.451999999999999, positive: true, type: "gatherWood"},
 					{min: 4.028, max: 4.451999999999999, positive: true, type: "gatherGold"},
 					{min: 4.028, max: 4.451999999999999, positive: true, type: "gatherStone"},
@@ -12442,7 +12442,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_E61_ua.png",
 			effects: {
 				9: [
-					{min: 4.246499999999997, max: 4.693499999999996, positive: true, type: "gatherFish"},
+					{min: 4.246499999999997, max: 4.693499999999996, positive: true, type: "gatherFood"},
 					{min: 4.246499999999997, max: 4.693499999999996, positive: true, type: "gatherWood"},
 					{min: 4.246499999999997, max: 4.693499999999996, positive: true, type: "gatherGold"},
 					{min: 4.246499999999997, max: 4.693499999999996, positive: true, type: "gatherStone"},
@@ -12456,35 +12456,35 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_R32_ua.png",
 			effects: {
 				4: [
-					{min: 2.6125000000000074, max: 2.8875000000000086, positive: true, type: "gatherFish"},
+					{min: 2.6125000000000074, max: 2.8875000000000086, positive: true, type: "gatherFood"},
 					{min: 2.6125000000000074, max: 2.8875000000000086, positive: true, type: "gatherWood"},
 					{min: 2.6125000000000074, max: 2.8875000000000086, positive: true, type: "gatherGold"},
 					{min: 2.6125000000000074, max: 2.8875000000000086, positive: true, type: "gatherStone"},
 					{min: 3.2964999999999955, max: 3.643499999999995, positive: true, type: "health"},
 				],
 				5: [
-					{min: 2.8595000000000015, max: 3.1605000000000016, positive: true, type: "gatherFish"},
+					{min: 2.8595000000000015, max: 3.1605000000000016, positive: true, type: "gatherFood"},
 					{min: 2.8595000000000015, max: 3.1605000000000016, positive: true, type: "gatherWood"},
 					{min: 2.8595000000000015, max: 3.1605000000000016, positive: true, type: "gatherGold"},
 					{min: 2.8595000000000015, max: 3.1605000000000016, positive: true, type: "gatherStone"},
 					{min: 3.6005000000000043, max: 3.9795000000000047, positive: true, type: "health"},
 				],
 				6: [
-					{min: 3.1065000000000165, max: 3.433500000000018, positive: true, type: "gatherFish"},
+					{min: 3.1065000000000165, max: 3.433500000000018, positive: true, type: "gatherFood"},
 					{min: 3.1065000000000165, max: 3.433500000000018, positive: true, type: "gatherWood"},
 					{min: 3.1065000000000165, max: 3.433500000000018, positive: true, type: "gatherGold"},
 					{min: 3.1065000000000165, max: 3.433500000000018, positive: true, type: "gatherStone"},
 					{min: 3.9044999999999916, max: 4.315499999999991, positive: true, type: "health"},
 				],
 				7: [
-					{min: 3.35350000000001, max: 3.7065000000000117, positive: true, type: "gatherFish"},
+					{min: 3.35350000000001, max: 3.7065000000000117, positive: true, type: "gatherFood"},
 					{min: 3.35350000000001, max: 3.7065000000000117, positive: true, type: "gatherWood"},
 					{min: 3.35350000000001, max: 3.7065000000000117, positive: true, type: "gatherGold"},
 					{min: 3.35350000000001, max: 3.7065000000000117, positive: true, type: "gatherStone"},
 					{min: 4.208500000000001, max: 4.6515, positive: true, type: "health"},
 				],
 				8: [
-					{min: 3.6005000000000043, max: 3.9795000000000047, positive: true, type: "gatherFish"},
+					{min: 3.6005000000000043, max: 3.9795000000000047, positive: true, type: "gatherFood"},
 					{min: 3.6005000000000043, max: 3.9795000000000047, positive: true, type: "gatherWood"},
 					{min: 3.6005000000000043, max: 3.9795000000000047, positive: true, type: "gatherGold"},
 					{min: 3.6005000000000043, max: 3.9795000000000047, positive: true, type: "gatherStone"},
@@ -12497,7 +12497,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				8: [
-					{min: 3.572000000000007, max: 3.9480000000000084, positive: true, type: "gatherFish"},
+					{min: 3.572000000000007, max: 3.9480000000000084, positive: true, type: "gatherFood"},
 					{min: 3.572000000000007, max: 3.9480000000000084, positive: true, type: "gatherWood"},
 					{min: 1.5104999999999813, max: 1.6694999999999793, positive: true, type: "gatherGold"},
 					{min: 3.572000000000007, max: 3.9480000000000084, positive: true, type: "gatherStone"},
@@ -12509,35 +12509,35 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_R31_ua.png",
 			effects: {
 				3: [
-					{min: 2.8310000000000044, max: 3.1290000000000053, positive: true, type: "gatherFish"},
+					{min: 2.8310000000000044, max: 3.1290000000000053, positive: true, type: "gatherFood"},
 					{min: 2.8310000000000044, max: 3.1290000000000053, positive: true, type: "gatherWood"},
 					{min: 2.8310000000000044, max: 3.1290000000000053, positive: true, type: "gatherGold"},
 					{min: 2.8310000000000044, max: 3.1290000000000053, positive: true, type: "gatherStone"},
 					{min: 3.562499999999987, max: 3.9374999999999862, positive: true, type: "buildingSpeed"},
 				],
 				4: [
-					{min: 3.1255000000000144, max: 3.454500000000016, positive: true, type: "gatherFish"},
+					{min: 3.1255000000000144, max: 3.454500000000016, positive: true, type: "gatherFood"},
 					{min: 3.1255000000000144, max: 3.454500000000016, positive: true, type: "gatherWood"},
 					{min: 3.1255000000000144, max: 3.454500000000016, positive: true, type: "gatherGold"},
 					{min: 3.1255000000000144, max: 3.454500000000016, positive: true, type: "gatherStone"},
 					{min: 3.9234999999999896, max: 4.3364999999999885, positive: true, type: "buildingSpeed"},
 				],
 				5: [
-					{min: 3.420000000000003, max: 3.7800000000000034, positive: true, type: "gatherFish"},
+					{min: 3.420000000000003, max: 3.7800000000000034, positive: true, type: "gatherFood"},
 					{min: 3.420000000000003, max: 3.7800000000000034, positive: true, type: "gatherWood"},
 					{min: 3.420000000000003, max: 3.7800000000000034, positive: true, type: "gatherGold"},
 					{min: 3.420000000000003, max: 3.7800000000000034, positive: true, type: "gatherStone"},
 					{min: 4.284499999999992, max: 4.735499999999991, positive: true, type: "buildingSpeed"},
 				],
 				6: [
-					{min: 3.7145000000000126, max: 4.105500000000014, positive: true, type: "gatherFish"},
+					{min: 3.7145000000000126, max: 4.105500000000014, positive: true, type: "gatherFood"},
 					{min: 3.7145000000000126, max: 4.105500000000014, positive: true, type: "gatherWood"},
 					{min: 3.7145000000000126, max: 4.105500000000014, positive: true, type: "gatherGold"},
 					{min: 3.7145000000000126, max: 4.105500000000014, positive: true, type: "gatherStone"},
 					{min: 4.645499999999995, max: 5.134499999999994, positive: true, type: "buildingSpeed"},
 				],
 				7: [
-					{min: 4.009000000000001, max: 4.431000000000002, positive: true, type: "gatherFish"},
+					{min: 4.009000000000001, max: 4.431000000000002, positive: true, type: "gatherFood"},
 					{min: 4.009000000000001, max: 4.431000000000002, positive: true, type: "gatherWood"},
 					{min: 4.009000000000001, max: 4.431000000000002, positive: true, type: "gatherGold"},
 					{min: 4.009000000000001, max: 4.431000000000002, positive: true, type: "gatherStone"},
@@ -12550,7 +12550,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U11_ua.png",
 			effects: {
 				6: [
-					{min: 3.201500000000006, max: 3.5385000000000066, positive: true, type: "gatherFish"},
+					{min: 3.201500000000006, max: 3.5385000000000066, positive: true, type: "gatherFood"},
 					{min: 1.3204999999999811, max: 1.4594999999999791, positive: true, type: "gatherWood"},
 					{min: 3.201500000000006, max: 3.5385000000000066, positive: true, type: "gatherGold"},
 					{min: 3.201500000000006, max: 3.5385000000000066, positive: true, type: "gatherStone"},
@@ -12562,7 +12562,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_R30_ua.png",
 			effects: {
 				5: [
-					{min: 1.4534999999999876, max: 1.6064999999999863, positive: true, type: "gatherFish"},
+					{min: 1.4534999999999876, max: 1.6064999999999863, positive: true, type: "gatherFood"},
 					{min: 3.420000000000003, max: 3.7800000000000034, positive: true, type: "gatherWood"},
 					{min: 3.420000000000003, max: 3.7800000000000034, positive: true, type: "gatherGold"},
 					{min: 3.420000000000003, max: 3.7800000000000034, positive: true, type: "gatherStone"},
@@ -12574,7 +12574,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				5: [
-					{min: 1.2254999999999916, max: 1.3544999999999907, positive: true, type: "gatherFish"},
+					{min: 1.2254999999999916, max: 1.3544999999999907, positive: true, type: "gatherFood"},
 					{min: 2.964000000000011, max: 3.2760000000000122, positive: true, type: "gatherWood"},
 					{min: 2.964000000000011, max: 3.2760000000000122, positive: true, type: "gatherGold"},
 					{min: 2.964000000000011, max: 3.2760000000000122, positive: true, type: "gatherStone"},
@@ -12586,7 +12586,7 @@ var gear = {
 			img: "Gear/Generic/Tools/Tool_U10_ua.png",
 			effects: {
 				3: [
-					{min: 2.3654999999999924, max: 2.614499999999992, positive: true, type: "gatherFish"},
+					{min: 2.3654999999999924, max: 2.614499999999992, positive: true, type: "gatherFood"},
 					{min: 1.852500000000007, max: 2.047500000000008, positive: true, type: "gatherWood"},
 					{min: 1.852500000000007, max: 2.047500000000008, positive: true, type: "gatherGold"},
 					{min: 1.852500000000007, max: 2.047500000000008, positive: true, type: "gatherStone"},
@@ -18188,7 +18188,7 @@ var gear = {
 				40: [
 					{min: 59.74550000000002, max: 66.03450000000002, positive: true, type: "health"},
 					{min: 10.136500000000002, max: 11.203500000000002, positive: true, type: "protection"},
-					{min: 7.913499999999993, max: 8.746499999999992, positive: true, type: "gatherFish"},
+					{min: 7.913499999999993, max: 8.746499999999992, positive: true, type: "gatherFood"},
 				],
 			}
 		},
@@ -18661,23 +18661,23 @@ var gear = {
 			effects: {
 				24: [
 					{min: 31.226499999999994, max: 34.5135, positive: true, type: "health"},
-					{min: 6.830500000000007, max: 7.549500000000008, positive: true, type: "gatherFish"},
+					{min: 6.830500000000007, max: 7.549500000000008, positive: true, type: "gatherFood"},
 				],
 				25: [
 					{min: 32.24299999999999, max: 35.63699999999999, positive: true, type: "health"},
-					{min: 7.049000000000004, max: 7.791000000000005, positive: true, type: "gatherFish"},
+					{min: 7.049000000000004, max: 7.791000000000005, positive: true, type: "gatherFood"},
 				],
 				26: [
 					{min: 33.2595, max: 36.76050000000001, positive: true, type: "health"},
-					{min: 7.267500000000001, max: 8.032500000000002, positive: true, type: "gatherFish"},
+					{min: 7.267500000000001, max: 8.032500000000002, positive: true, type: "gatherFood"},
 				],
 				27: [
 					{min: 34.275999999999996, max: 37.884, positive: true, type: "health"},
-					{min: 7.485999999999998, max: 8.274, positive: true, type: "gatherFish"},
+					{min: 7.485999999999998, max: 8.274, positive: true, type: "gatherFood"},
 				],
 				28: [
 					{min: 35.29250000000002, max: 39.00750000000002, positive: true, type: "health"},
-					{min: 7.704499999999996, max: 8.515499999999996, positive: true, type: "gatherFish"},
+					{min: 7.704499999999996, max: 8.515499999999996, positive: true, type: "gatherFood"},
 				],
 			}
 		},
@@ -18816,27 +18816,27 @@ var gear = {
 				19: [
 					{min: 32.414000000000016, max: 35.82600000000002, positive: true, type: "health"},
 					{min: 5.548, max: 6.1320000000000014, positive: true, type: "protection"},
-					{min: 4.322500000000009, max: 4.7775000000000105, positive: true, type: "gatherFish"},
+					{min: 4.322500000000009, max: 4.7775000000000105, positive: true, type: "gatherFood"},
 				],
 				20: [
 					{min: 33.7155, max: 37.264500000000005, positive: true, type: "health"},
 					{min: 5.766499999999997, max: 6.373499999999998, positive: true, type: "protection"},
-					{min: 4.493500000000012, max: 4.966500000000012, positive: true, type: "gatherFish"},
+					{min: 4.493500000000012, max: 4.966500000000012, positive: true, type: "gatherFood"},
 				],
 				21: [
 					{min: 35.017, max: 38.70300000000001, positive: true, type: "health"},
 					{min: 5.984999999999994, max: 6.614999999999995, positive: true, type: "protection"},
-					{min: 4.664499999999992, max: 5.155499999999992, positive: true, type: "gatherFish"},
+					{min: 4.664499999999992, max: 5.155499999999992, positive: true, type: "gatherFood"},
 				],
 				22: [
 					{min: 36.31850000000001, max: 40.141500000000015, positive: true, type: "health"},
 					{min: 6.2035000000000124, max: 6.856500000000015, positive: true, type: "protection"},
-					{min: 4.835499999999994, max: 5.344499999999995, positive: true, type: "gatherFish"},
+					{min: 4.835499999999994, max: 5.344499999999995, positive: true, type: "gatherFood"},
 				],
 				23: [
 					{min: 37.62000000000001, max: 41.58000000000002, positive: true, type: "health"},
 					{min: 6.4220000000000095, max: 7.098000000000011, positive: true, type: "protection"},
-					{min: 5.006499999999996, max: 5.533499999999997, positive: true, type: "gatherFish"},
+					{min: 5.006499999999996, max: 5.533499999999997, positive: true, type: "gatherFood"},
 				],
 			}
 		},
@@ -19162,42 +19162,42 @@ var gear = {
 				8: [
 					{min: 12.625500000000002, max: 13.954500000000003, positive: true, type: "health"},
 					{min: 0.3230000000000066, max: 0.3570000000000073, positive: true, type: "gatherStone"},
-					{min: 0.3230000000000066, max: 0.3570000000000073, positive: true, type: "gatherFish"},
+					{min: 0.3230000000000066, max: 0.3570000000000073, positive: true, type: "gatherFood"},
 					{min: 0.3230000000000066, max: 0.3570000000000073, positive: true, type: "gatherWood"},
 					{min: 0.3230000000000066, max: 0.3570000000000073, positive: true, type: "gatherGold"},
 				],
 				9: [
 					{min: 13.385500000000002, max: 14.794500000000005, positive: true, type: "health"},
 					{min: 0.3420000000000045, max: 0.378000000000005, positive: true, type: "gatherStone"},
-					{min: 0.3420000000000045, max: 0.378000000000005, positive: true, type: "gatherFish"},
+					{min: 0.3420000000000045, max: 0.378000000000005, positive: true, type: "gatherFood"},
 					{min: 0.3420000000000045, max: 0.378000000000005, positive: true, type: "gatherWood"},
 					{min: 0.3420000000000045, max: 0.378000000000005, positive: true, type: "gatherGold"},
 				],
 				10: [
 					{min: 14.145500000000004, max: 15.634500000000005, positive: true, type: "health"},
 					{min: 0.36100000000000243, max: 0.3990000000000027, positive: true, type: "gatherStone"},
-					{min: 0.36100000000000243, max: 0.3990000000000027, positive: true, type: "gatherFish"},
+					{min: 0.36100000000000243, max: 0.3990000000000027, positive: true, type: "gatherFood"},
 					{min: 0.36100000000000243, max: 0.3990000000000027, positive: true, type: "gatherWood"},
 					{min: 0.36100000000000243, max: 0.3990000000000027, positive: true, type: "gatherGold"},
 				],
 				11: [
 					{min: 14.905500000000004, max: 16.474500000000006, positive: true, type: "health"},
 					{min: 0.38000000000000034, max: 0.4200000000000004, positive: true, type: "gatherStone"},
-					{min: 0.38000000000000034, max: 0.4200000000000004, positive: true, type: "gatherFish"},
+					{min: 0.38000000000000034, max: 0.4200000000000004, positive: true, type: "gatherFood"},
 					{min: 0.38000000000000034, max: 0.4200000000000004, positive: true, type: "gatherWood"},
 					{min: 0.38000000000000034, max: 0.4200000000000004, positive: true, type: "gatherGold"},
 				],
 				12: [
 					{min: 15.66549999999998, max: 17.31449999999998, positive: true, type: "health"},
 					{min: 0.39899999999999824, max: 0.44099999999999806, positive: true, type: "gatherStone"},
-					{min: 0.39899999999999824, max: 0.44099999999999806, positive: true, type: "gatherFish"},
+					{min: 0.39899999999999824, max: 0.44099999999999806, positive: true, type: "gatherFood"},
 					{min: 0.39899999999999824, max: 0.44099999999999806, positive: true, type: "gatherWood"},
 					{min: 0.39899999999999824, max: 0.44099999999999806, positive: true, type: "gatherGold"},
 				],
 				13: [
 					{min: 16.425499999999985, max: 18.154499999999985, positive: true, type: "health"},
 					{min: 0.41800000000001725, max: 0.46200000000001906, positive: true, type: "gatherStone"},
-					{min: 0.41800000000001725, max: 0.46200000000001906, positive: true, type: "gatherFish"},
+					{min: 0.41800000000001725, max: 0.46200000000001906, positive: true, type: "gatherFood"},
 					{min: 0.41800000000001725, max: 0.46200000000001906, positive: true, type: "gatherWood"},
 					{min: 0.41800000000001725, max: 0.46200000000001906, positive: true, type: "gatherGold"},
 				],

@@ -139,6 +139,7 @@ UnitObject.prototype.updateStats = function() {
 
 	let modifiers = {};
 	let absolutes = {};
+	let armorResults = {};
 	for(let key in effects) {
 		if(key != "cost")
 			modifiers[key] = [];
@@ -227,6 +228,8 @@ UnitObject.prototype.updateStats = function() {
 
 				for(let j = 0 ; j < length ; j++)
 					result = 1 - (1 - result) / effect[j];
+
+				armorResults[key] = result;
 				
 			} else if(key === "critical") {
 
@@ -244,7 +247,7 @@ UnitObject.prototype.updateStats = function() {
 				result += absolutes[key];
 			}
 
-			display.textContent = round(result);
+			display.textContent = round(effects[key].isPercent ? --result * 100 : result);
 
 			if((result == 0 || (result == 1 && effects[key].startsAtOne)) && key.indexOf("cost") != 0)
 				display.parentElement.style.display = "none";

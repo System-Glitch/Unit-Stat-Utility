@@ -114,7 +114,7 @@ Select.prototype.showDropdown = function() {
 	hideAllStatSelectors();
 
 	this.dropdown.style.display = "flex";
-	this.dropdown.focus();
+	this.searchBar.focus();
 }
 
 Select.prototype.hideDropdown = function() {

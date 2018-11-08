@@ -713,6 +713,64 @@ var upgrades = {
 			gold: 1000
 		}
 	},
+	championSpearmanNorse: {
+		isChain: false,
+		name: "Spearman Champion",
+		img: "img/Upgrades/SpearmanChampionNorse.png",
+		effects: [
+			{amount: 15, positive: true, type: "multiplierCavalry"},
+			{amount: 25, positive: true, type: "health"}
+		],
+		cost: {
+			gold: 250
+		}
+	},
+	championLongship: {
+		isChain: false,
+		name: "Longship Champion",
+		img: "img/Upgrades/LongshipChampion.png",
+		effects: [
+			{amount: 15, positive: true, type: "damage"}
+		],
+		cost: {
+			gold: 350
+		}
+	},
+	championThrowingAxeman: {
+		isChain: false,
+		name: "Throwing Axeman Champion",
+		img: "img/Upgrades/ThrowingAxemanChampion.png",
+		effects: [
+			{amount: 40, positive: true, type: "ignoreArmor"}
+		],
+		cost: {
+			gold: 300
+		}
+	},
+	championSkirmisher: {
+		isChain: false,
+		name: "Skirmisher Champion",
+		img: "img/Upgrades/SkirmisherChampion.png",
+		effects: [
+			{amount: 50, positive: true, type: "multiplierRanged"},
+			{amount: -25, positive: true, type: "timeTrain"}
+		],
+		cost: {
+			gold: 300
+		}
+	},
+	championRaider: {
+		isChain: false,
+		name: "Raider Champion",
+		img: "img/Upgrades/RaiderChampion.png",
+		effects: [
+			{amount: 100, positive: true, type: "multiplierVillager"},
+			{amount: 100, positive: true, type: "snareImmunity"}
+		],
+		cost: {
+			gold: 300
+		}
+	},
 	agogeDiscipline: {
 		isChain: false,
 		name: "Agoge Discipline",
@@ -1229,6 +1287,31 @@ var upgrades = {
 		],
 		cost: {
 			gold: 1200
+		}
+	},
+	dogTraining: {
+		isChain: false,
+		name: "Dog Training",
+		img: "img/Upgrades/DogTraining.png",
+		effects: [
+			{amount: -30, positive: true, type: "timeTrain"},
+			{amount: 12, positive: true, type: "buildLimit", isAbsolute: true}
+		],
+		cost: {
+			food: 100,
+			wood: 150
+		}
+	},
+	burningPitch: {
+		isChain: false,
+		name: "Burning Pitch",
+		img: "img/Upgrades/BurningPitch.png",
+		effects: [
+			{amount: 80, positive: true, type: "burning"}
+		],
+		cost: {
+			food: 300,
+			wood: 300
 		}
 	},
 	netLuresLone: {
@@ -1850,7 +1933,6 @@ function createUpgradeTooptip(upgrade) {
 
 	for(let key in upgrade.effects) {
 		let effect = upgrade.effects[key];
-
 		let html = components.upgradeEffect(effects[effect.type].name, effect.amount, effect.isAbsolute);
 		let element = createEffectElement(html, effect);
 		tooltip.appendChild(element);

@@ -63,6 +63,9 @@ var effects = {
 	snareImmunity: {name: "Grants Snare Immunity", startsAtOne: true},
 	chargeAttack: {name: "Charge Attack Damage", startsAtOne: true},
 	attackRate: {name: "Attack Rate", startsAtOne: true},
+	buildLimit: {name: "Build Limit", startsAtOne: false},
+	ignoreArmor: {name: "Ignore Armor", startsAtOne: true, isPercent: true},
+	burning: {name: "Burning Damage over 8 Seconds", startsAtOne: true, isPercent: true},
 	watchPostConstructionSpeed: {name: "Watch Post Construction Speed", startsAtOne: true}
 }
 

@@ -1,5 +1,3 @@
-console.log("Loading components...");
-
 var components = {
 	selectOption: function(img, name) {
 		return ('<img src="%ICON%" class="select-img">' +
@@ -121,5 +119,5 @@ function loadGear() {
 	setTimeout(function() { updateSelects(); }, i+1000);
 }
 
-loadUnits();
+//loadUnits();
 //loadGear();

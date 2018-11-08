@@ -18,7 +18,7 @@ var UnitObject = function(element, isDuplicate) {
 		upgrades: []
 	};
 
-	this.loadUpgrades(!isDuplicate);
+	this.loadUpgrades();
 	this.registerSelects();
 	this.updateSelects();
 	this.registerShareButton();
@@ -81,7 +81,7 @@ var UnitObject = function(element, isDuplicate) {
 UnitObject.prototype.registerShareButton = function() {
 	let button = this.element.getElementsByClassName("share-button")[0];
 	if(button != undefined) {
-		let that = this;
+		const that = this;
 		button.onclick = function(ev) {
 			let json = JSURL.stringify(that.state);
 			let url = updateURLParameter("unit", json);
@@ -116,7 +116,7 @@ UnitObject.prototype.registerSelects = function() {
 	let unitSelect = this.element.getElementsByClassName("unit-select")[0];
 	this.unitSelect = new Select(unitSelect, 'img/Unit/', 'unit', this);
 	selects.push(this.unitSelect);
-};
+}
 
 UnitObject.prototype.updateSelects = function() {
 	for(let key in this.gearSelectors) {
@@ -124,14 +124,14 @@ UnitObject.prototype.updateSelects = function() {
 		select.select(select.optionsElements[0]); 
 		select.updateOptions();
 	}
-};
+}
 
 UnitObject.prototype.resetGear = function() {
 	for(let i = 0 ; i < this.gearSelectors.length ; i++) {
 		let selector = this.gearSelectors[i];
 		selector.select(0);
 	}
-};
+}
 
 UnitObject.prototype.updateStats = function() {
 
@@ -265,7 +265,7 @@ UnitObject.prototype.updateStats = function() {
 				display.parentElement.style.display = "block";
 		}
 	}
-};
+}
 
 UnitObject.prototype.updateUpgrades = function(unit) {
 	this.hideAllUpgrades();
@@ -281,16 +281,34 @@ UnitObject.prototype.updateUpgrades = function(unit) {
 				if(element.nextElementSibling != undefined && element.nextElementSibling.classList.contains('upgrade-arrow'))
 					element.nextElementSibling.style.display = "inline-block"; //Arrow
 				element.getElementsByClassName('upgrade-active')[0].value = "0";
-				updateUpgradeIcon(element, upgrades[upgrade][key]);
 			}
 		} else {
 			let element = this.upgradeElements[upgrade];
 			element.style.display = "inline-block";
 			element.getElementsByClassName('upgrade-active')[0].value = "0";
-			updateUpgradeIcon(element, upgrades[upgrade]);
 		}
 
 	}
+
+	this.updateUpgradesIcons(unit);
+}
+
+UnitObject.prototype.updateUpgradesIcons = function(unit) {
+	const that = this;
+	setTimeout(function() {
+		for(let key in unit.upgrades) {
+			let upgradeKey = unit.upgrades[key];
+			let upgrade = upgrades[upgradeKey];
+			if(upgrade.isChain) {
+				for(let key in upgrade) {
+					if(key == "isChain") continue;
+					updateUpgradeIcon(that.upgradeElements[key],  upgrade[key]);
+				}
+			} else
+				updateUpgradeIcon(that.upgradeElements[upgradeKey],  upgrade);
+		}
+	});
+	
 };
 
 UnitObject.prototype.updateDefaultStats = function(unit) {
@@ -311,17 +329,24 @@ UnitObject.prototype.updateDefaultStats = function(unit) {
 	}
 };
 
-UnitObject.prototype.updateGearSelectorImages = function(selector) {
-	if(selector.dataset.shownOnce == undefined) {
-		let options = selector.getElementsByClassName('select-dropdown')[0].getElementsByClassName('select-option');
-		let category = selector.dataset.category;
-		for(let i = 0 ; i < options.length ; i++) {
-			let option = options[i];
-			option.getElementsByClassName('select-img')[0].src = 'img/' + gear[category][option.dataset.gear].img;
+UnitObject.prototype.updateGearSelectorImages = function(gearList) {
+	const that = this;
+	setTimeout(function() {
+		for(let i = 0 ; i < gearList.length ; i++) {
+			let category = gearList[i];
+			let selector = that.element.getElementsByClassName("gear-select-" + category)[0];
+			if(selector.dataset.shownOnce == undefined) {
+				let options = selector.getElementsByClassName('select-dropdown')[0].getElementsByClassName('select-option');
+				let category = selector.dataset.category;
+				for(let i = 0 ; i < options.length ; i++) {
+					let option = options[i];
+					option.getElementsByClassName('select-img')[0].src = 'img/' + gear[category][option.dataset.gear].img;
+				}
+				selector.dataset.shownOnce = 1;
+			}
 		}
-		selector.dataset.shownOnce = 1;
-	}
-};
+	}, 0);	
+}
 
 UnitObject.prototype.updateGearSelectors = function(unit) {
 	//Hide all
@@ -338,34 +363,34 @@ UnitObject.prototype.updateGearSelectors = function(unit) {
 		let category = unit.gear[i];
 		let selector = this.element.getElementsByClassName("gear-select-" + category)[0];
 		selector.style.display = "inline-block";
-		this.updateGearSelectorImages(selector);
 
 		this.state.gear[category] = {id: 0};
 	}
-};
+	
+	this.updateGearSelectorImages(unit.gear);
+}
 
-UnitObject.prototype.loadUpgrades = function(create) {
-	if(create) {
-		for(let key in upgrades) {
+UnitObject.prototype.loadUpgrades = function() {
+	//Automatically generate upgrades
+	/*for(let key in upgrades) {
 
-			let upgrade = upgrades[key];
-			if(upgrade.isChain)
-				this.loadUpgradeChain(key, upgrade);
-			else
-				this.loadUpgrade(this.loneUpgradesContainer, key, upgrade);
-		}
-	} else {
-		let elements = this.upgradesContainer.getElementsByClassName("upgrade");
-		for(let i = 0 ; i < elements.length ; i++) {
-			let element = elements[i].parentElement;
-			this.upgradeElements[element.dataset.upgrade] = element;
-			var that = this;
-			element.addEventListener('click', function(event) {
-				that.onUpgradeClick(event);
-			});
-		}
+		let upgrade = upgrades[key];
+		if(upgrade.isChain)
+			this.loadUpgradeChain(key, upgrade);
+		else
+			this.loadUpgrade(this.loneUpgradesContainer, key, upgrade);
+	}*/
+
+	let elements = this.upgradesContainer.getElementsByClassName("upgrade");
+	for(let i = 0 ; i < elements.length ; i++) {
+		let element = elements[i].parentElement;
+		this.upgradeElements[element.dataset.upgrade] = element;
+		const that = this;
+		element.addEventListener('click', function(event) {
+			that.onUpgradeClick(event);
+		});
 	}
-};
+}
 
 UnitObject.prototype.hideAllUpgrades = function() {
 	for(let key in this.upgradeElements) {
@@ -383,7 +408,7 @@ UnitObject.prototype.hideAllUpgrades = function() {
 		img.classList.remove("active");
 	}
 	this.state.upgrades = [];
-};
+}
 
 UnitObject.prototype.onUpgradeClick = function(event) {
 	let element = event.target;
@@ -423,18 +448,18 @@ UnitObject.prototype.onUpgradeClick = function(event) {
 
 	this.updateStats();
 	updateComparison("all");
-};
+}
 
 UnitObject.prototype.loadUpgrade = function(container, key, upgrade, chain) {
 	let element = createUpgradeElement(key, upgrade, chain);
 	this.upgradeElements[key] = element;
 	container.appendChild(element);
 
-	var that = this;
+	const that = this;
 	element.addEventListener('click', function(event) {
 		that.onUpgradeClick(event);
 	});
-};
+}
 
 UnitObject.prototype.loadUpgradeChain = function(key, chain) {
 	let container = document.createElement('div');
@@ -453,7 +478,7 @@ UnitObject.prototype.loadUpgradeChain = function(key, chain) {
 
 	container.lastChild.remove(); //Remove last arrow
 	this.upgradesContainer.appendChild(container);
-};
+}
 
 function setEffectColor(element, state) {
 	switch(state) {
@@ -467,12 +492,12 @@ function setEffectColor(element, state) {
 			element.classList.add('text-neutral');
 			break;
 	}
-};
+}
 
 function registerUnitObjects() {
 	let objects = document.getElementsByClassName("unit");
 	for(let i = 0 ; i < objects.length ; i++)
-		unitObjects.push(new UnitObject(objects[i], true));
+		unitObjects.push(new UnitObject(objects[i], false));
 }
 
 function updateComparison(effect) {

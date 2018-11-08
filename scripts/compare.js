@@ -42,4 +42,6 @@ function initCompareButtons() {
 		buttons[i].addEventListener("click", compareClicked);
 }
 
-initCompareButtons();
+(function() {
+	initCompareButtons();
+})();

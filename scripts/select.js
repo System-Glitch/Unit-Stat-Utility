@@ -181,4 +181,6 @@ function registerHideListener() {
 	});
 }
 
-registerHideListener();
+(function() {
+	registerHideListener();
+})();

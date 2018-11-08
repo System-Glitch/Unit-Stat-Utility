@@ -279,4 +279,6 @@ function updateStats() {
 
 }
 
-registerHideStatSelectorsListener();
+(function() {
+	registerHideStatSelectorsListener();
+})();

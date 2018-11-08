@@ -2506,23 +2506,6 @@ function createCostSpan(cost) {
 	return content;
 }
 
-function hideAllUpgrades() {
-	for(let key in upgradeElements) {
-		let element = upgradeElements[key];
-		element.style.display = "none";
-		if(element.nextElementSibling != undefined && !element.nextElementSibling.classList.contains('upgrade-row')) {
-			element.nextElementSibling.style.display = "none";
-			element.nextElementSibling.classList.remove("active");
-		}
-
-		let input = element.getElementsByClassName('upgrade-active')[0];
-		input.value = 0;
-
-		let img = element.getElementsByClassName('upgrade')[0];
-		img.classList.remove("active");
-	}
-}
-
 function toggleUpgrade(element) {
 
 	if(!element.classList.contains("upgrade-arrow")) {
@@ -2562,64 +2545,3 @@ function disableUpgrade(element) {
 
 	element.classList.remove("active");
 }
-
-function loadUpgrade(container, key, upgrade, chain) {
-	let element = createUpgradeElement(key, upgrade, chain);
-	upgradeElements[key] = element;
-	container.appendChild(element);
-
-	element.addEventListener('click', onUpgradeClick);
-}
-
-function onUpgradeClick(event) {
-	let element = event.target;
-	let parent = element.parentElement;
-
-	if(parent.classList.contains("chained-upgrade")) {
-		let sibling = parent;
-		while((sibling = sibling.previousElementSibling) != null)
-			enableUpgrade(sibling);
-		sibling = parent;
-		while((sibling = sibling.nextElementSibling) != null)
-			disableUpgrade(sibling);
-		
-		enableUpgrade(element.parentElement);
-	} else
-		toggleUpgrade(element);
-
-
-	updateStats();
-}
-
-function loadUpgradeChain(key, chain) {
-	let container = document.createElement('div');
-	container.classList.add('upgrade-row');
-
-	for(let key2 in chain) {
-		if(key2 == "isChain") continue;
-
-		loadUpgrade(container, key2, chain[key2], key);
-		let arrow = document.createElement('span');
-		arrow.classList.add('upgrade-arrow');
-		arrow.textContent = '➡';
-		container.appendChild(arrow);
-
-	}
-
-	container.lastChild.remove(); //Remove last arrow
-	upgradesContainer.appendChild(container);
-}
-
-function loadUpgrades() {
-	console.log("Loading upgrades...");
-	for(let key in upgrades) {
-
-		let upgrade = upgrades[key];
-		if(upgrade.isChain)
-			loadUpgradeChain(key, upgrade);
-		else
-			loadUpgrade(loneUpgradesContainer, key, upgrade);
-	}
-}
-
-//loadUpgrades();

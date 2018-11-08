@@ -651,6 +651,68 @@ var upgrades = {
 		],
 		cost: { /* TODO UNKNOWN */ }
 	},
+	championRoyalGuard: {
+		isChain: false,
+		name: "Royal Guard Champion",
+		img: "img/Upgrades/RoyalGuardChampionBabylonian.png",
+		effects: [
+			{amount: 50, positive: true, type: "attackRate"},
+			{amount: -50, positive: false, type: "multiplierBuildings"}
+		],
+		cost: {
+			gold: 1200
+		}
+	},
+	championSapper: {
+		isChain: false,
+		name: "Sapper Champion",
+		img: "img/Upgrades/SapperChampion.png",
+		effects: [
+			{amount: -100, positive: true, type: "costFood"},
+			{amount: 50, positive: true, type: "multiplierBuildings"},
+			{amount: 15, positive: true, type: "speed"}
+		],
+		cost: {
+			gold: 800
+		}
+	},
+	championChariotArcherBabylon: {
+		isChain: false,
+		name: "Chariot Archer Champion",
+		img: "img/Upgrades/ChariotArcherChampionBabylonian.png",
+		effects: [
+			{amount: -50, positive: true, type: "cost"},
+			{amount: -20, positive: false, type: "health"}
+		],
+		cost: {
+			gold: 800
+		}
+	},
+	championMountedArcherBabylon: {
+		isChain: false,
+		name: "Mounted Archer Champion",
+		img: "img/Upgrades/MountedArcherChampionBabylonian.png",
+		effects: [
+			{amount: 25, positive: true, type: "damage"},
+			{amount: 25, positive: true, type: "snare"}
+		],
+		cost: {
+			gold: 1000
+		}
+	},
+	championSiegeTowerBabylon: {
+		isChain: false,
+		name: "Siege Tower Champion",
+		img: "img/Upgrades/SiegeTowerChampionBabylonian.png",
+		effects: [
+			{amount: 100, positive: true, type: "health"},
+			{amount: 100, positive: true, type: "splash"},
+			{amount: 100, positive: true, type: "snareImmunity"}
+		],
+		cost: {
+			gold: 1000
+		}
+	},
 	agogeDiscipline: {
 		isChain: false,
 		name: "Agoge Discipline",
@@ -1127,6 +1189,46 @@ var upgrades = {
 		cost: {
 			wood: 200,
 			gold: 200
+		}
+	},
+	arithmetic: {
+		isChain: false,
+		name: "Arithmetic",
+		img: "img/Upgrades/Arithmetic.png",
+		effects: [
+			{amount: -25, positive: true, type: "cost"},
+			{amount: -25, positive: true, type: "timeBuilding"}
+		],
+		cost: {
+			wood: 350,
+			gold: 350
+		}
+	},
+	totalWar: {
+		isChain: false,
+		name: "Total War",
+		img: "img/Upgrades/TotalWar.png",
+		effects: [
+			{amount: 10, positive: true, type: "damage"},
+			{amount: 50, positive: true, type: "multiplierVillager"}
+		],
+		cost: {
+			food: 300,
+			wood: 300,
+			gold: 300
+		}
+	},
+	codeofHammurabi: {
+		isChain: false,
+		name: "Code of Hammurabi",
+		img: "img/Upgrades/CodeofHammurabi.png",
+		effects: [
+			{amount: 25, positive: true, type: "conversionRate"},
+			{amount: 25, positive: true, type: "vision"},
+			{amount: 10, positive: true, type: "conversionRange"}
+		],
+		cost: {
+			gold: 1200
 		}
 	},
 	netLuresLone: {

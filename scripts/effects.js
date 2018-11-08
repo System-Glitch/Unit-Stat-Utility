@@ -62,6 +62,7 @@ var effects = {
 	regen: {name: "Health Regen. Per Second", startsAtOne: false},
 	snareImmunity: {name: "Grants Snare Immunity", startsAtOne: true},
 	chargeAttack: {name: "Charge Attack Damage", startsAtOne: true},
+	attackRate: {name: "Attack Rate", startsAtOne: true},
 	watchPostConstructionSpeed: {name: "Watch Post Construction Speed", startsAtOne: true}
 }
 

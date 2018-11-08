@@ -7,7 +7,7 @@ var effects = {
 	costGold: {name: "Gold Cost", startsAtOne: false, lowerIsBetter: true},
 	costWood: {name: "Wood Cost", startsAtOne: false, lowerIsBetter: true},
 	costStone: {name: "Stone Cost", startsAtOne: false, lowerIsBetter: true},
-	protection: {name: "Bonus Damage Protection", startsAtOne: true, isPercent: true},
+	protection: {name: "Bonus Damage Protection", startsAtOne: false, isArmor: true},
 	bonusDamageImmunity: {name: "Bonus Damage Immunity", startsAtOne: false},
 	armorPierce: {name: "Pierce Armor", startsAtOne: false, isArmor: true},
 	armorInfantry: {name: "Melee-Infantry Armor", startsAtOne: false, isArmor: true},

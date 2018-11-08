@@ -176,7 +176,7 @@ function hideAllDropdowns() {
 
 function registerHideListener() {
 	document.addEventListener('click', function(event) {
-		if (selectsElements.indexOf(event.target) != 1 && !event.target.classList.contains('select-search'))
+		if (selectsElements.indexOf(event.target) != 1 && event.target.classList != undefined && !event.target.classList.contains('select-search'))
 			hideAllDropdowns();
 	});
 }

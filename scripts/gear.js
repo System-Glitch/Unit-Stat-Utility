@@ -5231,22 +5231,22 @@ var gear = {
 			effects: {
 				37: [
 					{min: 16.596499999999985, max: 18.343499999999985, positive: true, type: "range"},
-					{min: -18.343500000000006, max: -16.596500000000006, positive: true, type: "convertInfantryRate"},
+					{min: 16.596500000000006, max: 18.343500000000006, positive: true, type: "convertInfantryRate"},
 					{min: 50.663500000000006, max: 55.99650000000002, positive: true, type: "damage"},
 				],
 				38: [
 					{min: 16.976499999999987, max: 18.763499999999986, positive: true, type: "range"},
-					{min: -18.763500000000008, max: -16.97650000000001, positive: true, type: "convertInfantryRate"},
+					{min: 16.97650000000001, max: 18.763500000000008, positive: true, type: "convertInfantryRate"},
 					{min: 51.8415, max: 57.29850000000001, positive: true, type: "damage"},
 				],
 				39: [
 					{min: 17.356499999999986, max: 19.183499999999984, positive: true, type: "range"},
-					{min: -19.183500000000013, max: -17.356500000000008, positive: true, type: "convertInfantryRate"},
+					{min: 17.356500000000008, max: 19.183500000000013, positive: true, type: "convertInfantryRate"},
 					{min: 53.0195, max: 58.600500000000004, positive: true, type: "damage"},
 				],
 				40: [
 					{min: 17.73649999999999, max: 19.603499999999986, positive: true, type: "range"},
-					{min: -19.60350000000001, max: -17.736500000000007, positive: true, type: "convertInfantryRate"},
+					{min: 17.736500000000007, max: 19.60350000000001, positive: true, type: "convertInfantryRate"},
 					{min: 54.1975, max: 59.902499999999996, positive: true, type: "damage"},
 				],
 			}
@@ -5268,22 +5268,22 @@ var gear = {
 				37: [
 					{min: 16.596499999999985, max: 18.343499999999985, positive: true, type: "range"},
 					{min: 50.663500000000006, max: 55.99650000000002, positive: true, type: "health"},
-					{min: -18.343500000000006, max: -16.596500000000006, positive: true, type: "convertSiegeRate"},
+					{min: 16.596500000000006, max: 18.343500000000006, positive: true, type: "convertSiegeRate"},
 				],
 				38: [
 					{min: 16.976499999999987, max: 18.763499999999986, positive: true, type: "range"},
 					{min: 51.8415, max: 57.29850000000001, positive: true, type: "health"},
-					{min: -18.763500000000008, max: -16.97650000000001, positive: true, type: "convertSiegeRate"},
+					{min: 16.97650000000001, max: 18.763500000000008, positive: true, type: "convertSiegeRate"},
 				],
 				39: [
 					{min: 17.356499999999986, max: 19.183499999999984, positive: true, type: "range"},
 					{min: 53.0195, max: 58.600500000000004, positive: true, type: "health"},
-					{min: -19.183500000000013, max: -17.356500000000008, positive: true, type: "convertSiegeRate"},
+					{min: 17.356500000000008, max: 19.183500000000013, positive: true, type: "convertSiegeRate"},
 				],
 				40: [
 					{min: 17.73649999999999, max: 19.603499999999986, positive: true, type: "range"},
 					{min: 54.1975, max: 59.902499999999996, positive: true, type: "health"},
-					{min: -19.60350000000001, max: -17.736500000000007, positive: true, type: "convertSiegeRate"},
+					{min: 17.736500000000007, max: 19.60350000000001, positive: true, type: "convertSiegeRate"},
 				],
 			}
 		},
@@ -5294,7 +5294,7 @@ var gear = {
 				40: [
 					{min: 1.3395000000000001, max: 1.4805000000000001, positive: true, type: "speed"},
 					{min: 33.39249999999999, max: 36.90749999999999, positive: true, type: "damage"},
-					{min: -19.60350000000001, max: -17.736500000000007, positive: true, type: "convertCavalryRate"},
+					{min: 17.736500000000007, max: 19.60350000000001, positive: true, type: "convertCavalryRate"},
 				],
 			}
 		},
@@ -5403,7 +5403,7 @@ var gear = {
 			img: "Gear/Generic/Staves/Staff_U13_ua.png",
 			effects: {
 				40: [
-					{min: -73.69950000000001, max: -66.68050000000001, positive: true, type: "convertSiegeRate"},
+					{min: 66.68050000000001, max: 73.69950000000001, positive: true, type: "convertSiegeRate"},
 					{min: 22.362999999999985, max: 24.716999999999985, positive: true, type: "damage"},
 				],
 			}
@@ -5413,7 +5413,7 @@ var gear = {
 			img: "Gear/Generic/Staves/Staff_U12_ua.png",
 			effects: {
 				40: [
-					{min: -13.734000000000002, max: -12.426000000000002, positive: true, type: "convertInfantryRate"},
+					{min: 12.426000000000002, max: 13.734000000000002, positive: true, type: "convertInfantryRate"},
 					{min: 43.88999999999999, max: 48.51, positive: true, type: "damage"},
 				],
 			}
@@ -5423,23 +5423,23 @@ var gear = {
 			img: "Gear/Generic/Staves/Staff_R32_ua.png",
 			effects: {
 				34: [
-					{min: -21.735000000000007, max: -19.665000000000006, positive: true, type: "convertSiegeRate"},
+					{min: 19.665000000000006, max: 21.735000000000007, positive: true, type: "convertSiegeRate"},
 					{min: 44.089499999999994, max: 48.7305, positive: true, type: "damage"},
 				],
 				35: [
-					{min: -22.259999999999998, max: -20.139999999999993, positive: true, type: "convertSiegeRate"},
+					{min: 20.139999999999993, max: 22.259999999999998, positive: true, type: "convertSiegeRate"},
 					{min: 45.1725, max: 49.92750000000001, positive: true, type: "damage"},
 				],
 				36: [
-					{min: -22.78500000000001, max: -20.61500000000001, positive: true, type: "convertSiegeRate"},
+					{min: 20.61500000000001, max: 22.78500000000001, positive: true, type: "convertSiegeRate"},
 					{min: 46.25549999999999, max: 51.12449999999999, positive: true, type: "damage"},
 				],
 				37: [
-					{min: -23.309999999999995, max: -21.089999999999996, positive: true, type: "convertSiegeRate"},
+					{min: 21.089999999999996, max: 23.309999999999995, positive: true, type: "convertSiegeRate"},
 					{min: 47.338499999999996, max: 52.3215, positive: true, type: "damage"},
 				],
 				38: [
-					{min: -23.83500000000001, max: -21.56500000000001, positive: true, type: "convertSiegeRate"},
+					{min: 21.56500000000001, max: 23.83500000000001, positive: true, type: "convertSiegeRate"},
 					{min: 48.4215, max: 53.51850000000001, positive: true, type: "damage"},
 				],
 			}
@@ -5449,7 +5449,7 @@ var gear = {
 			img: "Gear/Generic/Staves/Staff_U11_ua.png",
 			effects: {
 				38: [
-					{min: -13.167000000000007, max: -11.913000000000006, positive: true, type: "convertCavalryRate"},
+					{min: 11.913000000000006, max: 13.167000000000007, positive: true, type: "convertCavalryRate"},
 					{min: 42.04699999999999, max: 46.47299999999999, positive: true, type: "damage"},
 				],
 			}
@@ -5548,27 +5548,27 @@ var gear = {
 			effects: {
 				29: [
 					{min: 14.1645, max: 15.6555, positive: true, type: "range"},
-					{min: -15.319500000000005, max: -13.860500000000002, positive: true, type: "convertCavalryRate"},
+					{min: 13.860500000000002, max: 15.319500000000005, positive: true, type: "convertCavalryRate"},
 					{min: 41.5435, max: 45.916500000000006, positive: true, type: "damage"},
 				],
 				30: [
 					{min: 14.563499999999998, max: 16.0965, positive: true, type: "range"},
-					{min: -15.750000000000002, max: -14.250000000000002, positive: true, type: "convertCavalryRate"},
+					{min: 14.250000000000002, max: 15.750000000000002, positive: true, type: "convertCavalryRate"},
 					{min: 42.731000000000016, max: 47.22900000000002, positive: true, type: "damage"},
 				],
 				31: [
 					{min: 14.962499999999997, max: 16.537499999999998, positive: true, type: "range"},
-					{min: -16.180500000000013, max: -14.63950000000001, positive: true, type: "convertCavalryRate"},
+					{min: 14.63950000000001, max: 16.180500000000013, positive: true, type: "convertCavalryRate"},
 					{min: 43.918500000000016, max: 48.54150000000002, positive: true, type: "damage"},
 				],
 				32: [
 					{min: 15.361499999999994, max: 16.978499999999997, positive: true, type: "range"},
-					{min: -16.61100000000001, max: -15.02900000000001, positive: true, type: "convertCavalryRate"},
+					{min: 15.02900000000001, max: 16.61100000000001, positive: true, type: "convertCavalryRate"},
 					{min: 45.10600000000001, max: 49.85400000000001, positive: true, type: "damage"},
 				],
 				33: [
 					{min: 15.760499999999992, max: 17.419499999999992, positive: true, type: "range"},
-					{min: -17.041500000000013, max: -15.41850000000001, positive: true, type: "convertCavalryRate"},
+					{min: 15.41850000000001, max: 17.041500000000013, positive: true, type: "convertCavalryRate"},
 					{min: 46.2935, max: 51.166500000000006, positive: true, type: "damage"},
 				],
 			}
@@ -5578,7 +5578,7 @@ var gear = {
 			img: "Gear/Generic/Staves/Staff_R30_ua.png",
 			effects: {
 				33: [
-					{min: -21.588000000000005, max: -19.532, positive: true, type: "convertCavalryRate"},
+					{min: 19.532, max: 21.588000000000005, positive: true, type: "convertCavalryRate"},
 					{min: 43.348499999999994, max: 47.9115, positive: true, type: "damage"},
 				],
 			}
@@ -5589,7 +5589,7 @@ var gear = {
 			effects: {
 				32: [
 					{min: 37.5535, max: 41.5065, positive: true, type: "damage"},
-					{min: -18.175500000000003, max: -16.4445, positive: true, type: "convertSiegeRate"},
+					{min: 16.4445, max: 18.175500000000003, positive: true, type: "convertSiegeRate"},
 					{min: 4.122999999999989, max: 4.556999999999988, positive: true, type: "health"},
 				],
 			}
@@ -5665,7 +5665,7 @@ var gear = {
 			img: "Gear/Generic/Staves/Staff_U10_ua.png",
 			effects: {
 				31: [
-					{min: -11.182500000000005, max: -10.117500000000003, positive: true, type: "convertSiegeRate"},
+					{min: 10.117500000000003, max: 11.182500000000005, positive: true, type: "convertSiegeRate"},
 					{min: 35.596499999999985, max: 39.343499999999985, positive: true, type: "damage"},
 				],
 			}
@@ -5823,7 +5823,7 @@ var gear = {
 			img: "Gear/Generic/Staves/Staff_U12_ua.png",
 			effects: {
 				28: [
-					{min: -10.657500000000004, max: -9.642500000000004, positive: true, type: "convertCavalryRate"},
+					{min: 9.642500000000004, max: 10.657500000000004, positive: true, type: "convertCavalryRate"},
 					{min: 32.83199999999999, max: 36.28799999999999, positive: true, type: "damage"},
 				],
 			}
@@ -5834,27 +5834,27 @@ var gear = {
 			effects: {
 				22: [
 					{min: 11.846500000000002, max: 13.093500000000002, positive: true, type: "range"},
-					{min: -12.83100000000001, max: -11.609000000000009, positive: true, type: "convertInfantryRate"},
+					{min: 11.609000000000009, max: 12.83100000000001, positive: true, type: "convertInfantryRate"},
 					{min: 33.706, max: 37.254000000000005, positive: true, type: "damage"},
 				],
 				23: [
 					{min: 12.2645, max: 13.5555, positive: true, type: "range"},
-					{min: -13.282500000000006, max: -12.017500000000005, positive: true, type: "convertInfantryRate"},
+					{min: 12.017500000000005, max: 13.282500000000006, positive: true, type: "convertInfantryRate"},
 					{min: 34.91250000000001, max: 38.58750000000002, positive: true, type: "damage"},
 				],
 				24: [
 					{min: 12.682499999999994, max: 14.017499999999995, positive: true, type: "range"},
-					{min: -13.734000000000002, max: -12.426000000000002, positive: true, type: "convertInfantryRate"},
+					{min: 12.426000000000002, max: 13.734000000000002, positive: true, type: "convertInfantryRate"},
 					{min: 36.11900000000001, max: 39.921000000000014, positive: true, type: "damage"},
 				],
 				25: [
 					{min: 13.100499999999991, max: 14.479499999999993, positive: true, type: "range"},
-					{min: -14.185500000000001, max: -12.834499999999998, positive: true, type: "convertInfantryRate"},
+					{min: 12.834499999999998, max: 14.185500000000001, positive: true, type: "convertInfantryRate"},
 					{min: 37.325500000000005, max: 41.25450000000001, positive: true, type: "damage"},
 				],
 				26: [
 					{min: 13.518499999999987, max: 14.941499999999985, positive: true, type: "range"},
-					{min: -14.63700000000001, max: -13.243000000000007, positive: true, type: "convertInfantryRate"},
+					{min: 13.243000000000007, max: 14.63700000000001, positive: true, type: "convertInfantryRate"},
 					{min: 38.53200000000001, max: 42.58800000000002, positive: true, type: "damage"},
 				],
 			}
@@ -5947,23 +5947,23 @@ var gear = {
 			img: "Gear/Generic/Staves/Staff_R30_ua.png",
 			effects: {
 				17: [
-					{min: -13.65, max: -12.35, positive: true, type: "convertSiegeRate"},
+					{min: 12.35, max: 13.65, positive: true, type: "convertSiegeRate"},
 					{min: 14.506499999999983, max: 16.033499999999982, positive: true, type: "health"},
 				],
 				18: [
-					{min: -14.216999999999995, max: -12.862999999999996, positive: true, type: "convertSiegeRate"},
+					{min: 12.862999999999996, max: 14.216999999999995, positive: true, type: "convertSiegeRate"},
 					{min: 15.114500000000001, max: 16.705500000000004, positive: true, type: "health"},
 				],
 				19: [
-					{min: -14.784000000000004, max: -13.376000000000003, positive: true, type: "convertSiegeRate"},
+					{min: 13.376000000000003, max: 14.784000000000004, positive: true, type: "convertSiegeRate"},
 					{min: 15.722499999999997, max: 17.377499999999998, positive: true, type: "health"},
 				],
 				20: [
-					{min: -15.350999999999999, max: -13.889, positive: true, type: "convertSiegeRate"},
+					{min: 13.889, max: 15.350999999999999, positive: true, type: "convertSiegeRate"},
 					{min: 16.330499999999994, max: 18.049499999999995, positive: true, type: "health"},
 				],
 				21: [
-					{min: -15.917999999999997, max: -14.401999999999996, positive: true, type: "convertSiegeRate"},
+					{min: 14.401999999999996, max: 15.917999999999997, positive: true, type: "convertSiegeRate"},
 					{min: 16.93849999999999, max: 18.721499999999992, positive: true, type: "health"},
 				],
 			}
@@ -6009,7 +6009,7 @@ var gear = {
 			img: "Gear/Generic/Staves/Staff_U10_ua.png",
 			effects: {
 				20: [
-					{min: -8.547000000000002, max: -7.733000000000001, positive: true, type: "convertInfantryRate"},
+					{min: 7.733000000000001, max: 8.547000000000002, positive: true, type: "convertInfantryRate"},
 					{min: 25.46, max: 28.14, positive: true, type: "damage"},
 				],
 			}
@@ -6029,23 +6029,23 @@ var gear = {
 			img: "Gear/Generic/Staves/Staff_R35_ua.png",
 			effects: {
 				14: [
-					{min: -33.33750000000001, max: -30.16250000000001, positive: true, type: "convertCavalryRate"},
+					{min: 30.16250000000001, max: 33.33750000000001, positive: true, type: "convertCavalryRate"},
 					{min: 15.41850000000001, max: 17.041500000000013, positive: true, type: "damage"},
 				],
 				15: [
-					{min: -34.933499999999995, max: -31.606499999999993, positive: true, type: "convertCavalryRate"},
+					{min: 31.606499999999993, max: 34.933499999999995, positive: true, type: "convertCavalryRate"},
 					{min: 16.159500000000012, max: 17.860500000000012, positive: true, type: "damage"},
 				],
 				16: [
-					{min: -36.529500000000006, max: -33.05050000000001, positive: true, type: "convertCavalryRate"},
+					{min: 33.05050000000001, max: 36.529500000000006, positive: true, type: "convertCavalryRate"},
 					{min: 16.900500000000015, max: 18.67950000000002, positive: true, type: "damage"},
 				],
 				17: [
-					{min: -38.125499999999995, max: -34.494499999999995, positive: true, type: "convertCavalryRate"},
+					{min: 34.494499999999995, max: 38.125499999999995, positive: true, type: "convertCavalryRate"},
 					{min: 17.641499999999997, max: 19.498499999999996, positive: true, type: "damage"},
 				],
 				18: [
-					{min: -39.721500000000006, max: -35.938500000000005, positive: true, type: "convertCavalryRate"},
+					{min: 35.938500000000005, max: 39.721500000000006, positive: true, type: "convertCavalryRate"},
 					{min: 18.3825, max: 20.317500000000003, positive: true, type: "damage"},
 				],
 			}
@@ -6065,7 +6065,7 @@ var gear = {
 			img: "Gear/Generic/Staves/Staff_R30_ua.png",
 			effects: {
 				17: [
-					{min: -21.04199999999999, max: -19.037999999999993, positive: true, type: "convertInfantryRate"},
+					{min: 19.037999999999993, max: 21.04199999999999, positive: true, type: "convertInfantryRate"},
 					{min: 23.82599999999999, max: 26.333999999999993, positive: true, type: "damage"},
 				],
 			}
@@ -6177,7 +6177,7 @@ var gear = {
 			img: "Gear/Generic/Staves/Staff_R33_ua.png",
 			effects: {
 				15: [
-					{min: -12.705, max: -11.495, positive: true, type: "convertInfantryRate"},
+					{min: 11.495, max: 12.705, positive: true, type: "convertInfantryRate"},
 					{min: 23.85450000000001, max: 26.36550000000001, positive: true, type: "damage"},
 				],
 			}
@@ -6254,7 +6254,7 @@ var gear = {
 			img: "Gear/Generic/Staves/Staff_U11_ua.png",
 			effects: {
 				8: [
-					{min: -5.008500000000008, max: -4.531500000000007, positive: true, type: "convertInfantryRate"},
+					{min: 4.531500000000007, max: 5.008500000000008, positive: true, type: "convertInfantryRate"},
 					{min: 14.506499999999983, max: 16.033499999999982, positive: true, type: "damage"},
 				],
 			}
@@ -6264,7 +6264,7 @@ var gear = {
 			img: "Gear/Generic/Staves/Staff_U10_ua.png",
 			effects: {
 				6: [
-					{min: -4.378500000000008, max: -3.9615000000000067, positive: true, type: "convertCavalryRate"},
+					{min: 3.9615000000000067, max: 4.378500000000008, positive: true, type: "convertCavalryRate"},
 					{min: 12.644499999999999, max: 13.975499999999998, positive: true, type: "damage"},
 				],
 			}

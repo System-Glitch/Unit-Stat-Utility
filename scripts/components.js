@@ -7,10 +7,10 @@ var components = {
 				.replace("%ICON%", img)
 				.replace("%NAME%", name);
 	},
-	gearSelect: function() {
-		return '<div class="select-selected gear-select-selected">' +
+	gearSelect: function(img) {
+		return '<div class="select-selected gear-select-selected" data-initialized="0">' +
 					'<div class="select-option">' +
-						'<img src="https://via.placeholder.com/32x32" class="select-img gear-select-img">' +
+						'<img src="' + img + '" class="select-img gear-select-img">' +
 					'</div>' +
 					'<div class="cog">⚙</div>' +
 				'</div>' +
@@ -94,10 +94,10 @@ function createGearSelector(category) {
 	element.classList.add("select");
 	element.classList.add("gear-select");
 	element.classList.add("gear-select-" + category);
-	element.dataset.category = "gear-select-" + category;
-	element.innerHTML = components.gearSelect();
+	element.dataset.category = category;
+	element.innerHTML = components.gearSelect('img/Slot/' + category.charAt(0).toUpperCase() + category.slice(1) + 'Slot_ua.png');
 
-	document.getElementById("gear-selector").appendChild(element);
+	document.getElementsByClassName("gear-selector")[0].appendChild(element);
 	return element;
 }
 

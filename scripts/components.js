@@ -5,10 +5,10 @@ var components = {
 				.replace("%ICON%", img)
 				.replace("%NAME%", name);
 	},
-	gearSelect: function(img) {
+	gearSelect: function() {
 		return '<div class="select-selected gear-select-selected" data-initialized="0">' +
 					'<div class="select-option">' +
-						'<img src="' + img + '" class="select-img gear-select-img">' +
+						'<img src="data:" class="select-img gear-select-img">' +
 					'</div>' +
 					'<div class="cog">⚙</div>' +
 				'</div>' +
@@ -93,7 +93,7 @@ function createGearSelector(category) {
 	element.classList.add("gear-select");
 	element.classList.add("gear-select-" + category);
 	element.dataset.category = category;
-	element.innerHTML = components.gearSelect('img/Slot/' + category.charAt(0).toUpperCase() + category.slice(1) + 'Slot_ua.png');
+	element.innerHTML = components.gearSelect();
 
 	document.getElementsByClassName("gear-selector")[0].appendChild(element);
 	return element;

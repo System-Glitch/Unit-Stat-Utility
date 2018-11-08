@@ -159,6 +159,11 @@ UnitObject.prototype.updateStats = function() {
 				modifiers["costWood"].push(val);
 				modifiers["costGold"].push(val);
 				modifiers["costStone"].push(val);
+			} else if(effect.type == "carryCapacity") {
+				modifiers["carryCapacityFood"].push(val);
+				modifiers["carryCapacityWood"].push(val);
+				modifiers["carryCapacityGold"].push(val);
+				modifiers["carryCapacityStone"].push(val);
 			} else if(effect.type == "gatherFood") {
 				modifiers["gatherFarm"].push(val);
 				modifiers["gatherHunt"].push(val);
@@ -198,6 +203,11 @@ UnitObject.prototype.updateStats = function() {
 						modifiers["costWood"].push(val);
 						modifiers["costGold"].push(val);
 						modifiers["costStone"].push(val);
+					} else if(effect.type == "carryCapacity") {
+						modifiers["carryCapacityFood"].push(val);
+						modifiers["carryCapacityWood"].push(val);
+						modifiers["carryCapacityGold"].push(val);
+						modifiers["carryCapacityStone"].push(val);
 					} else if(effect.type == "gatherFood") {
 						modifiers["gatherFarm"].push(val);
 						modifiers["gatherHunt"].push(val);

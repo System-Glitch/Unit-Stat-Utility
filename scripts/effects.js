@@ -25,6 +25,7 @@ var effects = {
 	multiplierHuntable: {name: "Huntable Bonus Damage", startsAtOne: true},
 	multiplierVillager: {name: "Villager Bonus Damage", startsAtOne: true},
 	multiplierSupport: {name: "Support Unit Bonus Damage", startsAtOne: true},
+	multiplierAnimal: {name: "Animal Bonus Damage", startsAtOne: true},
 	snare: {name: "Snare", startsAtOne: false}, //Missing effect
 	snareResist: {name: "Snare Resist", startsAtOne: false}, //Missing effect
 	critical: {name: "Critical Hit Chance", startsAtOne: false},
@@ -58,6 +59,11 @@ var effects = {
 	conversionRange: {name: "Conversion Range", startsAtOne: false},
 	empowerResearch: {name: "Train/Research Rate", startsAtOne: false}, //Missing effect
 	carryCapacity: {name: "Carry Capacity", startsAtOne: false}, //Needs to be filled manually
+	carryCapacityFood: {name: "Food Carry Capacity", startsAtOne: false}, //Needs to be filled manually
+	carryCapacityWood: {name: "Wood Carry Capacity", startsAtOne: false}, //Needs to be filled manually
+	carryCapacityGold: {name: "Gold Carry Capacity", startsAtOne: false}, //Needs to be filled manually
+	carryCapacityStone: {name: "Stone Carry Capacity", startsAtOne: false}, //Needs to be filled manually
+	conservationStone: {name: "Stone Conservation", startsAtOne: false},
 	trade: {name: "Trade", startsAtOne: false}, //Needs to be filled manually
 	selfHeal: {name: "Enables Self-Heal Action", startsAtOne: true},
 	regen: {name: "Health Regen. Per Second", startsAtOne: false},

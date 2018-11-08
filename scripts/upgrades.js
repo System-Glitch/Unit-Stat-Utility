@@ -1431,6 +1431,439 @@ var upgrades = {
 			gold: 400
 		}
 	},
+	loom: {
+		isChain: false,
+		name: "Loom",
+		img: "img/Upgrades/Loom.png",
+		effects: [
+			{amount: 50, positive: true, type: "health"}
+		],
+		cost: {
+			food: 50
+		}
+	},
+	pickersGloves: {
+		isChain: false,
+		name: "Picker's Gloves",
+		img: "img/Upgrades/PickersGloves.png",
+		effects: [
+			{amount: 20, positive: true, type: "gatherBerry"}
+		],
+		cost: {
+			wood: 75
+		}
+	},
+	huntingDogs: {
+		isChain: false,
+		name: "Hunting Dogs",
+		img: "img/Upgrades/HuntingDogs.png",
+		effects: [
+			{amount: 10, positive: true, type: "gatherHunt"},
+			{amount: 50, positive: true, type: "multiplierAnimal"},
+		],
+		cost: {
+			wood: 150,
+			gold: 50
+		}
+	},
+	plowLone: {
+		isChain: false,
+		name: "Plow",
+		img: "img/Upgrades/Plow.png",
+		effects: [
+			{amount: 10, positive: true, type: "gatherFarm"}
+		],
+		cost: {
+			wood: 50,
+			gold: 200
+		}
+	},
+	farmGathering: {
+		isChain: true,
+		noneFarmGathering: {
+			isChain: false,
+			name: "None",
+			img: "img/Slot/GearSlotGeneric_ua.png",
+			effects: [],
+			cost: {}
+		},
+		plow: {
+			isChain: false,
+			name: "Plow",
+			img: "img/Upgrades/Plow.png",
+			effects: [
+				{amount: 10, positive: true, type: "gatherFarm"}
+			],
+			cost: {
+				wood: 50,
+				gold: 200
+			}
+		},
+		irrigation: {
+			isChain: false,
+			name: "Irrigation",
+			img: "img/Upgrades/Irrigation.png",
+			effects: [
+				{amount: 10, positive: true, type: "gatherFarm"}
+			],
+			cost: {
+				wood: 100,
+				gold: 400
+			}
+		},
+		cropRotation: {
+			isChain: false,
+			name: "Crop Rotation",
+			img: "img/Upgrades/CropRotation.png",
+			effects: [
+				{amount: 10, positive: true, type: "gatherFarm"}
+			],
+			cost: {
+				wood: 200,
+				gold: 800
+			}
+		}
+	},
+	farmGatheringPartial: {
+		isChain: true,
+		noneFarmGatheringPartial: {
+			isChain: false,
+			name: "None",
+			img: "img/Slot/GearSlotGeneric_ua.png",
+			effects: [],
+			cost: {}
+		},
+		plowPartial: {
+			isChain: false,
+			name: "Plow",
+			img: "img/Upgrades/Plow.png",
+			effects: [
+				{amount: 10, positive: true, type: "gatherFarm"}
+			],
+			cost: {
+				wood: 50,
+				gold: 200
+			}
+		},
+		irrigationPartial: {
+			isChain: false,
+			name: "Irrigation",
+			img: "img/Upgrades/Irrigation.png",
+			effects: [
+				{amount: 10, positive: true, type: "gatherFarm"}
+			],
+			cost: {
+				wood: 100,
+				gold: 400
+			}
+		}
+	},
+	woodGathering: {
+		isChain: true,
+		noneWoodGathering: {
+			isChain: false,
+			name: "None",
+			img: "img/Slot/GearSlotGeneric_ua.png",
+			effects: [],
+			cost: {}
+		},
+		handsaw: {
+			isChain: false,
+			name: "Handsaw",
+			img: "img/Upgrades/Handsaw.png",
+			effects: [
+				{amount: 15, positive: true, type: "gatherWood"}
+			],
+			cost: {
+				food: 100,
+				gold: 25
+			}
+		},
+		pullSaw: {
+			isChain: false,
+			name: "Pull Saw",
+			img: "img/Upgrades/PullSaw.png",
+			effects: [
+				{amount: 15, positive: true, type: "gatherWood"}
+			],
+			cost: {
+				food: 200,
+				gold: 50
+			}
+		},
+		twoManSaw: {
+			isChain: false,
+			name: "Two-man Saw",
+			img: "img/Upgrades/Two-manSaw.png",
+			effects: [
+				{amount: 15, positive: true, type: "gatherWood"}
+			],
+			cost: {
+				food: 400,
+				gold: 100
+			}
+		}
+	},
+	woodGatheringPartial: {
+		isChain: true,
+		noneWoodGatheringPartial: {
+			isChain: false,
+			name: "None",
+			img: "img/Slot/GearSlotGeneric_ua.png",
+			effects: [],
+			cost: {}
+		},
+		handsawPartial: {
+			isChain: false,
+			name: "Handsaw",
+			img: "img/Upgrades/Handsaw.png",
+			effects: [
+				{amount: 15, positive: true, type: "gatherWood"}
+			],
+			cost: {
+				food: 100,
+				gold: 25
+			}
+		},
+		pullSawPartial: {
+			isChain: false,
+			name: "Pull Saw",
+			img: "img/Upgrades/PullSaw.png",
+			effects: [
+				{amount: 15, positive: true, type: "gatherWood"}
+			],
+			cost: {
+				food: 200,
+				gold: 50
+			}
+		}
+	},
+	pickaxeLone: {
+		isChain: false,
+		name: "Pickaxe",
+		img: "img/Upgrades/Pickaxe.png",
+		effects: [
+			{amount: 12, positive: true, type: "carryCapacityGold"}
+		],
+		cost: {
+			food: 25,
+			wood: 100
+		}
+	},
+	goldGathering: {
+		isChain: true,
+		noneGoldGathering: {
+			isChain: false,
+			name: "None",
+			img: "img/Slot/GearSlotGeneric_ua.png",
+			effects: [],
+			cost: {}
+		},
+		pickaxe: {
+			isChain: false,
+			name: "Pickaxe",
+			img: "img/Upgrades/Pickaxe.png",
+			effects: [
+				{amount: 12, positive: true, type: "carryCapacityGold"}
+			],
+			cost: {
+				food: 25,
+				wood: 100
+			}
+		},
+		placerMining: {
+			isChain: false,
+			name: "Placer Mining",
+			img: "img/Upgrades/PlacerMining.png",
+			effects: [
+				{amount: 12, positive: true, type: "gatherGold"}
+			],
+			cost: {
+				food: 50,
+				wood: 200
+			}
+		},
+		hydraulicMining: {
+			isChain: false,
+			name: "Hydraulic Mining",
+			img: "img/Upgrades/HydraulicMining.png",
+			effects: [
+				{amount: 12, positive: true, type: "gatherGold"}
+			],
+			cost: {
+				food: 100,
+				wood: 400
+			}
+		}
+	},
+	goldGatheringPartial: {
+		isChain: true,
+		noneGoldGatheringPartial: {
+			isChain: false,
+			name: "None",
+			img: "img/Slot/GearSlotGeneric_ua.png",
+			effects: [],
+			cost: {}
+		},
+		pickaxePartial: {
+			isChain: false,
+			name: "Pickaxe",
+			img: "img/Upgrades/Pickaxe.png",
+			effects: [
+				{amount: 12, positive: true, type: "carryCapacityGold"}
+			],
+			cost: {
+				food: 25,
+				wood: 100
+			}
+		},
+		placerMiningPartial: {
+			isChain: false,
+			name: "Placer Mining",
+			img: "img/Upgrades/PlacerMining.png",
+			effects: [
+				{amount: 12, positive: true, type: "gatherGold"}
+			],
+			cost: {
+				food: 50,
+				wood: 200
+			}
+		}
+	},
+	chiselLone: {
+		isChain: false,
+		name: "Chisel",
+		img: "img/Upgrades/Chisel.png",
+		effects: [
+			{amount: 12, positive: true, type: "gatherStone"},
+			{amount: 25, positive: true, type: "conservationStone"}
+		],
+		cost: {
+			wood: 25,
+			gold: 100
+		}
+	},
+	stoneGathering: {
+		isChain: true,
+		noneStoneGathering: {
+			isChain: false,
+			name: "None",
+			img: "img/Slot/GearSlotGeneric_ua.png",
+			effects: [],
+			cost: {}
+		},
+		chisel: {
+			isChain: false,
+			name: "Chisel",
+			img: "img/Upgrades/Chisel.png",
+			effects: [
+				{amount: 12, positive: true, type: "gatherStone"},
+				{amount: 25, positive: true, type: "conservationStone"}
+			],
+			cost: {
+				wood: 25,
+				gold: 100
+			}
+		},
+		stoneSaw: {
+			isChain: false,
+			name: "Stone Saw",
+			img: "img/Upgrades/StoneSaw.png",
+			effects: [
+				{amount: 12, positive: true, type: "gatherStone"},
+				{amount: 25, positive: true, type: "conservationStone"}
+			],
+			cost: {
+				wood: 50,
+				gold: 200
+			}
+		},
+		stoneSplitting: {
+			isChain: false,
+			name: "Stone Splitting",
+			img: "img/Upgrades/StoneSplitting.png",
+			effects: [
+				{amount: 12, positive: true, type: "gatherStone"},
+				{amount: 25, positive: true, type: "conservationStone"}
+			],
+			cost: {
+				wood: 100,
+				gold: 400
+			}
+		}
+	},
+	stoneGatheringPartial: {
+		isChain: true,
+		noneStoneGatheringPartial: {
+			isChain: false,
+			name: "None",
+			img: "img/Slot/GearSlotGeneric_ua.png",
+			effects: [],
+			cost: {}
+		},
+		chiselPartial: {
+			isChain: false,
+			name: "Chisel",
+			img: "img/Upgrades/Chisel.png",
+			effects: [
+				{amount: 12, positive: true, type: "gatherStone"},
+				{amount: 25, positive: true, type: "conservationStone"}
+			],
+			cost: {
+				wood: 25,
+				gold: 100
+			}
+		},
+		stoneSawPartial: {
+			isChain: false,
+			name: "Stone Saw",
+			img: "img/Upgrades/StoneSaw.png",
+			effects: [
+				{amount: 12, positive: true, type: "gatherStone"},
+				{amount: 25, positive: true, type: "conservationStone"}
+			],
+			cost: {
+				wood: 50,
+				gold: 200
+			}
+		}
+	},
+	carryUpgrades: {
+		isChain: true,
+		noneCarryUpgrades: {
+			isChain: false,
+			name: "None",
+			img: "img/Slot/GearSlotGeneric_ua.png",
+			effects: [],
+			cost: {}
+		},
+		wheelbarrow: {
+			isChain: false,
+			name: "Wheelbarrow",
+			img: "img/Upgrades/Wheelbarrow.png",
+			effects: [
+				{amount: 5, positive: true, type: "speed"},
+				{amount: 20, positive: true, type: "carryCapacity"}
+			],
+			cost: {
+				wood: 100,
+				gold: 100
+			}
+		},
+		handcart: {
+			isChain: false,
+			name: "Handcart",
+			img: "img/Upgrades/Handcart.png",
+			effects: [
+				{amount: 10, positive: true, type: "speed"},
+				{amount: 25, positive: true, type: "carryCapacity"}
+			],
+			cost: {
+				wood: 200,
+				gold: 200
+			}
+		}
+	},
 	netLuresLone: {
 		isChain: false,
 		name: "Net Lures",

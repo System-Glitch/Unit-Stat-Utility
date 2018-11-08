@@ -7,7 +7,7 @@ var effects = {
 	costGold: {name: "Gold Cost", startsAtOne: false, lowerIsBetter: true},
 	costWood: {name: "Wood Cost", startsAtOne: false, lowerIsBetter: true},
 	costStone: {name: "Stone Cost", startsAtOne: false, lowerIsBetter: true},
-	protection: {name: "Bonus Damage Protection", startsAtOne: true}, //Missing effect
+	protection: {name: "Bonus Damage Protection", startsAtOne: true, isPercent: true},
 	bonusDamageImmunity: {name: "Bonus Damage Immunity", startsAtOne: false},
 	armorPierce: {name: "Pierce Armor", startsAtOne: false, isArmor: true},
 	armorInfantry: {name: "Melee-Infantry Armor", startsAtOne: false, isArmor: true},
@@ -26,8 +26,8 @@ var effects = {
 	multiplierVillager: {name: "Villager Bonus Damage", startsAtOne: true},
 	multiplierSupport: {name: "Support Unit Bonus Damage", startsAtOne: true},
 	multiplierAnimal: {name: "Animal Bonus Damage", startsAtOne: true},
-	snare: {name: "Snare", startsAtOne: false}, //Missing effect
-	snareResist: {name: "Snare Resist", startsAtOne: false}, //Missing effect
+	snare: {name: "Snare", startsAtOne: true, isPercent: true}, //Missing effect
+	snareResist: {name: "Snare Resist", startsAtOne: true, isPercent: true}, //Missing effect
 	critical: {name: "Critical Hit Chance", startsAtOne: false},
 	timeTrain: {name: "Train Time", startsAtOne: false, lowerIsBetter: true},
 	timeBuilding: {name: "Build Time", startsAtOne: false, lowerIsBetter: true},
@@ -44,27 +44,28 @@ var effects = {
 	gatherHerdable: {name: "Gathering Herdable", startsAtOne: false}, //Missing effect
 	gatherFarm: {name: "Gathering Farms", startsAtOne: false},
 	buildingSpeed: {name: "Buildings Construction Speed", startsAtOne: true},
-	healing: {name: "Healing", startsAtOne: false},
+	healing: {name: "Healing", startsAtOne: true, isPercent: true},
 	healRange: {name: "Healing Range", startsAtOne: false},
-	healRate: {name: "Healing Rate", startsAtOne: false},
-	chaosRange: {name: "Chaos Range", startsAtOne: false}, //Missing effect
-	empowerDropoff: {name: "Empower Dropoff", startsAtOne: false},
-	empowerTrainRate: {name: "Empower Train Rate", startsAtOne: false}, //Missing effect
-	empowerBuildRate: {name: "Empower Build Rate", startsAtOne: false}, //Missing effect
-	conversionResistance: {name: "Conversion Resistance", startsAtOne: false}, //Missing effect
+	healRate: {name: "Healing Rate", startsAtOne: true},
+	chaosRange: {name: "Chaos Range", startsAtOne: false},
+	chaosRate: {name: "Chaos Rate", startsAtOne: false},
+	empowerDropoff: {name: "Empower Dropoff", startsAtOne: true, isPercent: true},
+	empowerTrainRate: {name: "Empower Train Rate", startsAtOne: true, isPercent: true},
+	empowerBuildRate: {name: "Empower Build Rate", startsAtOne: true, isPercent: true},
+	conversionResistance: {name: "Conversion Resistance", startsAtOne: true, isPercent: true}, //Missing effect
 	conversionRate: {name: "Conversion Rate", startsAtOne: false},
 	convertInfantryRate: {name: "Convert Infantry Rate", startsAtOne: false},
 	convertSiegeRate: {name: "Convert Siege Rate", startsAtOne: false},
 	convertCavalryRate: {name: "Convert Cavalry Rate", startsAtOne: false},
 	conversionRange: {name: "Conversion Range", startsAtOne: false},
-	empowerResearch: {name: "Train/Research Rate", startsAtOne: false}, //Missing effect
-	carryCapacity: {name: "Carry Capacity", startsAtOne: false}, //Needs to be filled manually
-	carryCapacityFood: {name: "Food Carry Capacity", startsAtOne: false}, //Needs to be filled manually
-	carryCapacityWood: {name: "Wood Carry Capacity", startsAtOne: false}, //Needs to be filled manually
-	carryCapacityGold: {name: "Gold Carry Capacity", startsAtOne: false}, //Needs to be filled manually
-	carryCapacityStone: {name: "Stone Carry Capacity", startsAtOne: false}, //Needs to be filled manually
+	empowerResearch: {name: "Train/Research Rate", startsAtOne: true},
+	carryCapacity: {name: "Carry Capacity", startsAtOne: false},
+	carryCapacityFood: {name: "Food Carry Capacity", startsAtOne: false},
+	carryCapacityWood: {name: "Wood Carry Capacity", startsAtOne: false},
+	carryCapacityGold: {name: "Gold Carry Capacity", startsAtOne: false},
+	carryCapacityStone: {name: "Stone Carry Capacity", startsAtOne: false},
 	conservationStone: {name: "Stone Conservation", startsAtOne: false},
-	trade: {name: "Trade", startsAtOne: false}, //Needs to be filled manually
+	trade: {name: "Trade", startsAtOne: true}, //Needs to be filled manually
 	selfHeal: {name: "Enables Self-Heal Action", startsAtOne: true},
 	regen: {name: "Health Regen. Per Second", startsAtOne: false},
 	snareImmunity: {name: "Grants Snare Immunity", startsAtOne: true, noDisplay: true},

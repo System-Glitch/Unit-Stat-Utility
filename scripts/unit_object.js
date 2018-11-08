@@ -278,16 +278,16 @@ UnitObject.prototype.updateUpgrades = function(unit) {
 				if(key == "isChain") continue;
 				let element = this.upgradeElements[key];
 				element.style.display = "inline-block";
-				if(element.nextSibling != undefined && element.nextSibling.classList.contains('upgrade-arrow'))
-					element.nextSibling.style.display = "inline-block"; //Arrow
+				if(element.nextElementSibling != undefined && element.nextElementSibling.classList.contains('upgrade-arrow'))
+					element.nextElementSibling.style.display = "inline-block"; //Arrow
 				element.getElementsByClassName('upgrade-active')[0].value = "0";
+				updateUpgradeIcon(element, upgrades[upgrade][key]);
 			}
 		} else {
 			let element = this.upgradeElements[upgrade];
 			element.style.display = "inline-block";
-			if(element.nextSibling != undefined && element.nextSibling.classList.contains('upgrade-arrow'))
-				element.nextSibling.style.display = "inline-block"; //Arrow
 			element.getElementsByClassName('upgrade-active')[0].value = "0";
+			updateUpgradeIcon(element, upgrades[upgrade]);
 		}
 
 	}
@@ -371,9 +371,9 @@ UnitObject.prototype.hideAllUpgrades = function() {
 	for(let key in this.upgradeElements) {
 		let element = this.upgradeElements[key];
 		element.style.display = "none";
-		if(element.nextSibling != undefined && !element.nextSibling.classList.contains('upgrade-row')) {
-			element.nextSibling.style.display = "none";
-			element.nextSibling.classList.remove("active");
+		if(element.nextElementSibling != undefined && !element.nextElementSibling.classList.contains('upgrade-row')) {
+			element.nextElementSibling.style.display = "none";
+			element.nextElementSibling.classList.remove("active");
 		}
 
 		let input = element.getElementsByClassName('upgrade-active')[0];
@@ -472,7 +472,7 @@ function setEffectColor(element, state) {
 function registerUnitObjects() {
 	let objects = document.getElementsByClassName("unit");
 	for(let i = 0 ; i < objects.length ; i++)
-		unitObjects.push(new UnitObject(objects[i], false));
+		unitObjects.push(new UnitObject(objects[i], true));
 }
 
 function updateComparison(effect) {

@@ -2448,13 +2448,21 @@ var upgradesContainer = document.getElementById("upgrades-container");
 var loneUpgradesContainer = document.getElementById("lone-upgrades-container");
 var upgradeElements = {};
 
+function updateUpgradeIcon(element, upgrade) {
+	let icon = element.getElementsByClassName("upgrade")[0];
+	if(icon.dataset.shownOnce == undefined) {
+		icon.src = upgrade.img;
+		icon.dataset.shownOnce = 1;
+	}
+}
+
 function createUpgradeElement(key, upgrade, chain) {
 	let container = document.createElement('div');
 	container.dataset.upgrade = key;
 
 	let icon = document.createElement('img');
 	icon.classList.add("upgrade");
-	icon.src = upgrade.img;
+	icon.src = "data:";
 
 	let tooltip = createUpgradeTooptip(upgrade);
 	let input = document.createElement('input');
@@ -2502,9 +2510,9 @@ function hideAllUpgrades() {
 	for(let key in upgradeElements) {
 		let element = upgradeElements[key];
 		element.style.display = "none";
-		if(element.nextSibling != undefined && !element.nextSibling.classList.contains('upgrade-row')) {
-			element.nextSibling.style.display = "none";
-			element.nextSibling.classList.remove("active");
+		if(element.nextElementSibling != undefined && !element.nextElementSibling.classList.contains('upgrade-row')) {
+			element.nextElementSibling.style.display = "none";
+			element.nextElementSibling.classList.remove("active");
 		}
 
 		let input = element.getElementsByClassName('upgrade-active')[0];

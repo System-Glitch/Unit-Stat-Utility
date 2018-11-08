@@ -32,11 +32,15 @@ var components = {
 				.replace("%MED%", med)
 				.replace("%MED%", round(med));
 	},
-	upgradeEffect: function(description, amount, isAbsolute) {
-		return ('<span class="stat-selector-description">%DESCRIPTION%</span>&nbsp;' +
-				'<span class="stat-selector-value">%AMOUNT%</span><span class="minify-width">' + (!isAbsolute ? '%' : '') + '</span>')
-				.replace("%DESCRIPTION%", description)
-				.replace("%AMOUNT%", amount);
+	upgradeEffect: function(description, amount, isAbsolute, display) {
+		if(display)
+			return ('<span class="stat-selector-description">%DESCRIPTION%</span>&nbsp;' +
+					'<span class="stat-selector-value">%AMOUNT%</span><span class="minify-width">' + (!isAbsolute ? '%' : '') + '</span>')
+					.replace("%DESCRIPTION%", description)
+					.replace("%AMOUNT%", amount);
+		else
+			return ('<span class="stat-selector-description">%DESCRIPTION%</span>')
+					.replace("%DESCRIPTION%", description);
 	}
 };
 

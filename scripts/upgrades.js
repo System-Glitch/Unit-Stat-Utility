@@ -771,6 +771,101 @@ var upgrades = {
 			gold: 300
 		}
 	},
+	championHarjar: {
+		isChain: false,
+		name: "Harjar Champion",
+		img: "img/Upgrades/HarjarChampion.png",
+		effects: [
+			{amount: 50, positive: true, type: "armorInfantry"}
+		],
+		cost: {
+			gold: 800
+		}
+	},
+	championUlfheoinn: {
+		isChain: false,
+		name: "Úlfhéðinn Champion",
+		img: "img/Upgrades/UlfheoinnChampion.png",
+		effects: [
+			{amount: 100, positive: true, type: "multiplierRanged"},
+			{amount: 100, positive: true, type: "multiplierSupport"}
+		],
+		cost: {
+			gold: 1000
+		}
+	},
+	championBerserker: {
+		isChain: false,
+		name: "Berserker Champion",
+		img: "img/Upgrades/BerserkerChampion.png",
+		effects: [
+			{amount: 4, positive: true, type: "regen", isAbsolute: true},
+			{amount: 100, positive: true, type: "charge"},
+			{amount: 100, positive: true, type: "snareImmunity"}
+		],
+		cost: {
+			gold: 1200
+		}
+	},
+	championBowmanNorse: {
+		isChain: false,
+		name: "Bowman Champion",
+		img: "img/Upgrades/BowmanChampionNorse.png",
+		effects: [
+			{amount: 20, positive: true, type: "snare"}
+		],
+		cost: {
+			gold: 800
+		}
+	},
+	championHorsemanNorse: {
+		isChain: false,
+		name: "Horseman Champion",
+		img: "img/Upgrades/HorsemanChampionNorse.png",
+		effects: [
+			{amount: 50, positive: true, type: "multiplierCavalry"},
+			{amount: 100, positive: true, type: "multiplierSiege"}
+		],
+		cost: {
+			gold: 800
+		}
+	},
+	championFarbjoor: {
+		isChain: false,
+		name: "Farbjoðr Champion",
+		img: "img/Upgrades/FarbjoorChampion.png",
+		effects: [
+			{amount: 20, positive: true, type: "snare"}
+		],
+		cost: {
+			gold: 400
+		}
+	},
+	championLogThrower: {
+		isChain: false,
+		name: "Log Thrower Champion",
+		img: "img/Upgrades/LogThrowerChampion.png",
+		effects: [
+			{amount: 50, positive: true, type: "multiplierSiege"},
+			{amount: 10, positive: true, type: "speed"},
+			{amount: -1, positive: true, type: "population", isAbsolute: true},
+		],
+		cost: {
+			gold: 1200
+		}
+	},
+	championChief: {
+		isChain: false,
+		name: "Chief Champion",
+		img: "img/Upgrades/ChiefChampion.png",
+		effects: [
+			{amount: 50, positive: true, type: "health"},
+			{amount: 50, positive: true, type: "damage"}
+		],
+		cost: {
+			gold: 400
+		}
+	},
 	agogeDiscipline: {
 		isChain: false,
 		name: "Agoge Discipline",
@@ -1312,6 +1407,28 @@ var upgrades = {
 		cost: {
 			food: 300,
 			wood: 300
+		}
+	},
+	eyeofWodan: {
+		isChain: false,
+		name: "Eye of Wodan",
+		img: "img/Upgrades/EyeofWodan.png",
+		effects: [
+			{amount: 50, positive: true, type: "vision"}
+		],
+		cost: {
+			gold: 400
+		}
+	},
+	drinkOfAegir: {
+		isChain: false,
+		name: "Drink of Aegir",
+		img: "img/Upgrades/DrinkofAegir.png",
+		effects: [
+			{amount: 30, positive: true, type: "healRate"}
+		],
+		cost: {
+			gold: 400
 		}
 	},
 	netLuresLone: {
@@ -1933,7 +2050,7 @@ function createUpgradeTooptip(upgrade) {
 
 	for(let key in upgrade.effects) {
 		let effect = upgrade.effects[key];
-		let html = components.upgradeEffect(effects[effect.type].name, effect.amount, effect.isAbsolute);
+		let html = components.upgradeEffect(effects[effect.type].name, effect.amount, effect.isAbsolute, !effects[effect.type].noDisplay);
 		let element = createEffectElement(html, effect);
 		tooltip.appendChild(element);
 	}

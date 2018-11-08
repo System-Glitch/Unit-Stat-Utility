@@ -22,8 +22,9 @@ var effects = {
 	multiplierInfantry: {name: "Infantry Bonus Damage", startsAtOne: true},
 	multiplierShips: {name: "Ship Bonus Damage", startsAtOne: true},
 	multiplierSiege: {name: "Siege Bonus Damage", startsAtOne: true},
-	multiplierHuntable: {name: "Bonus vs. Huntable", startsAtOne: true},
-	multiplierVillager: {name: "Bonus vs. Villager", startsAtOne: true},
+	multiplierHuntable: {name: "Huntable Bonus Damage", startsAtOne: true},
+	multiplierVillager: {name: "Villager Bonus Damage", startsAtOne: true},
+	multiplierSupport: {name: "Support Unit Bonus Damage", startsAtOne: true},
 	snare: {name: "Snare", startsAtOne: false}, //Missing effect
 	snareResist: {name: "Snare Resist", startsAtOne: false}, //Missing effect
 	critical: {name: "Critical Hit Chance", startsAtOne: false},
@@ -60,8 +61,10 @@ var effects = {
 	trade: {name: "Trade", startsAtOne: false}, //Needs to be filled manually
 	selfHeal: {name: "Enables Self-Heal Action", startsAtOne: true},
 	regen: {name: "Health Regen. Per Second", startsAtOne: false},
-	snareImmunity: {name: "Grants Snare Immunity", startsAtOne: true},
+	snareImmunity: {name: "Grants Snare Immunity", startsAtOne: true, noDisplay: true},
 	chargeAttack: {name: "Charge Attack Damage", startsAtOne: true},
+	charge: {name: "Grants Charge", startsAtOne: true, noDisplay: true},
+	attackMobileUnits: {name: "Grants Ability to Attack Mobile Units", startsAtOne: true, noDisplay: true},
 	attackRate: {name: "Attack Rate", startsAtOne: true},
 	buildLimit: {name: "Build Limit", startsAtOne: false},
 	ignoreArmor: {name: "Ignore Armor", startsAtOne: true, isPercent: true},

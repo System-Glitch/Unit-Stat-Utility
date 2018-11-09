@@ -18,7 +18,7 @@ var StatsSelector = function(element, unitObject) {
 }
 
 StatsSelector.prototype.loadExisting = function() {
-	let that = this;
+	const that = this;
 
 	this.effectsContainer = this.element.getElementsByClassName("effects-container")[0];
 	if(this.effectsContainer == undefined) {
@@ -112,7 +112,7 @@ StatsSelector.prototype.addEffect = function(effect) {
 	let element = createEffectElement(html, effect);
 	let valueElement = element.getElementsByClassName('stat-selector-value')[0];
 	let inputElement = element.getElementsByClassName('stat-selector-slider')[0];
-	var that = this;
+	const that = this;
 	
 	inputElement.oninput = function(event) {
 		valueElement.textContent = round(inputElement.value);
@@ -130,7 +130,7 @@ StatsSelector.prototype.loadLevels = function(gear) {
 	this.levelContainer = createLevelContainer();
 	for(let key in gear.effects) {
 		let levelElement = createLevelElement(key);
-		let that = this;
+		const that = this;
 		levelElement.onclick = function(ev) {
 			let level = ev.target.textContent;
 			that.loadLevel(level);

@@ -1,9 +1,13 @@
+var civNameMapping = {greeks:"Greek",egyptians: "Egyptian",persians:"Persian",celts:"Celtic",babylonians:"Babylonian",norse: "Norse"};
 var components = {
-	selectOption: function(img, name) {
+	selectOption: function(img, name, civ) {
 		return ('<img src="%ICON%" class="select-img">' +
 				'<span class="select-name">%NAME%</span>')
 				.replace("%ICON%", img)
 				.replace("%NAME%", name);
+	},
+	civIcon: function(civ) {
+		return '<img src="img/UI/' + civ + '.png" class="civ-icon" title="' + civNameMapping[civ] + '">';
 	},
 	gearSelect: function() {
 		return '<div class="select-selected gear-select-selected" data-initialized="0">' +
@@ -53,6 +57,23 @@ function createUnitOptionElement(id, innerHTML, unit) {
 	let element = createOptionElement(innerHTML);
 	element.dataset.unit = id;
 	return element;
+}
+
+function getCivFromId(id) {
+	let civName = undefined;
+	if(id.indexOf("Gr_") == 0) {
+		civName = "greeks";
+	} else if(id.indexOf("Eg_") == 0)
+		civName = "egyptians";
+	else if(id.indexOf("Pe_") == 0)
+		civName = "persians";
+	else if(id.indexOf("Ce_") == 0)
+		civName = "celts";
+	else if(id.indexOf("Ba_") == 0)
+		civName = "babylonians";
+	else if(id.indexOf("No_") == 0)
+		civName = "norse";
+	return civName;
 }
 
 function addUnitOption(id, img, name) {

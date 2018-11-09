@@ -14,15 +14,28 @@ var Select = function(element, imgPath, type, unitObject) {
 	this.selectedOption = this.container.getElementsByClassName("select-option")[0];
 	this.optionsElements = this.dropdown.getElementsByClassName("select-option");
 	this.searchBar = this.dropdown.getElementsByClassName("select-search")[0];
+	this.filtersContainer = this.dropdown.getElementsByClassName("select-filters")[0];
+	if(this.filtersContainer != undefined) {
+		this.filter = '';
+		this.filters = this.filtersContainer.getElementsByClassName("filter");
+	}
 
 	selectsElements.push(this.dropdown);
 
 	//Register events
-	let that = this;
+	const that = this;
 	this.container.onclick = function(event) {
 		that.showDropdown();
 		event.stopPropagation();
 	};
+
+	if(this.filtersContainer != undefined) {
+		for(let i = 0 ; i < this.filters.length ; i++) {
+			this.filters[i].onclick = function(event) {
+				that.filterOptions(event);
+			}
+		}
+	}
 
 	if(this.type == "gear") {
 		this.category = undefined;
@@ -83,8 +96,18 @@ var Select = function(element, imgPath, type, unitObject) {
 
 }
 
+Select.prototype.filterOptions = function(event) {
+	let filter = event.target;
+	for(let i = 0 ; i < this.filters.length ; i++) {
+		this.filters[i].classList.remove("active");
+	}
+	filter.classList.add("active");
+	this.filter = filter.dataset.filter;
+	this.search(this.searchBar.value);
+};
+
 Select.prototype.updateOptions = function() {
-	var that = this;
+	const that = this;
 	this.optionsElements = this.dropdown.getElementsByClassName("select-option");
 	for(let i = 0 ; i < this.optionsElements.length ; i++) {
 		let optionElement = this.optionsElements[i];
@@ -101,7 +124,7 @@ Select.prototype.search = function(search) {
 	for(let i = 0 ; i < this.optionsElements.length ; i++) {
 		let element = this.optionsElements[i];
 		let name = element.getElementsByClassName('select-name')[0].textContent.toLowerCase();
-		if(name.indexOf(search.toLowerCase()) != -1 || search.length == 0)
+		if((this.filter == undefined || element.dataset.unit.indexOf(this.filter) == 0) && (name.indexOf(search.toLowerCase()) != -1 || search.length == 0))
 			element.style.display = "flex";
 		else
 			element.style.display = "none";
@@ -156,7 +179,7 @@ Select.prototype.select = function(optionIndex) {
 	}
 
 	if(this.type == "unit") {
-		this.selectedOption.innerHTML = option.innerHTML;
+		this.selectedOption.innerHTML = option.innerHTML + components.civIcon(getCivFromId(this.unitId));
 		this.unitObject.gearSelectorIcon.src = this.imgPath + img;
 	} else if(this.type == "gear") {
 		this.selectedOption.getElementsByClassName('gear-select-img')[0].src = this.imgPath + img;
@@ -176,7 +199,7 @@ function hideAllDropdowns() {
 
 function registerHideListener() {
 	document.addEventListener('click', function(event) {
-		if (selectsElements.indexOf(event.target) != 1 && event.target.classList != undefined && !event.target.classList.contains('select-search'))
+		if (selectsElements.indexOf(event.target) != 1 && event.target.classList != undefined && !event.target.classList.contains('select-search') && !event.target.classList.contains('filter')  && !event.target.classList.contains('select-filters'))
 			hideAllDropdowns();
 	});
 }

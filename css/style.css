@@ -193,7 +193,9 @@ h4, p {
 }
 
 .select-name {
+	line-height: 32px;
 	padding-right: 5px;
+	flex-grow: 1;
 }
 
 .select-option:hover {
@@ -212,8 +214,34 @@ h4, p {
 	margin-right: 5px;
 }
 
-.select-name {
-	line-height: 32px;
+.civ-icon {
+	width: 32px;
+	height: 32px;
+}
+
+.filter {
+	width: 34px;
+	height: 34px;
+	border-radius: 50%;
+	border-width: 2px;
+	border-color: transparent;
+	border-style: solid;
+}
+
+.filter:hover {
+	border-color: #00d80080;
+	cursor: pointer;
+}
+
+.filter.active {
+	border-color: #00d800;
+}
+
+.select-filters {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
 }
 
 .select-search {

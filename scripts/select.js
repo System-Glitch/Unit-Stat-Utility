@@ -183,6 +183,7 @@ Select.prototype.select = function(optionIndex) {
 		this.unitObject.gearSelectorIcon.src = this.imgPath + img;
 	} else if(this.type == "gear") {
 		this.selectedOption.getElementsByClassName('gear-select-img')[0].src = this.imgPath + img;
+		this.selectedOption.title = this.gear.name;
 	}
 
 	this.container.dataset.option = optionIndex;

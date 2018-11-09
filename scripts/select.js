@@ -18,6 +18,7 @@ var Select = function(element, imgPath, type, unitObject) {
 	if(this.filtersContainer != undefined) {
 		this.filter = '';
 		this.filters = this.filtersContainer.getElementsByClassName("filter");
+		this.filterOptions(this.filters[0]);
 	}
 
 	selectsElements.push(this.dropdown);
@@ -32,7 +33,7 @@ var Select = function(element, imgPath, type, unitObject) {
 	if(this.filtersContainer != undefined) {
 		for(let i = 0 ; i < this.filters.length ; i++) {
 			this.filters[i].onclick = function(event) {
-				that.filterOptions(event);
+				that.filterOptions(event.target);
 			}
 		}
 	}
@@ -96,8 +97,7 @@ var Select = function(element, imgPath, type, unitObject) {
 
 }
 
-Select.prototype.filterOptions = function(event) {
-	let filter = event.target;
+Select.prototype.filterOptions = function(filter) {
 	for(let i = 0 ; i < this.filters.length ; i++) {
 		this.filters[i].classList.remove("active");
 	}

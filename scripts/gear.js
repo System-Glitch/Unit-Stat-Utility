@@ -3049,8 +3049,8 @@ var gear = {
 			}
 		},
 		{
-			name: "Divine Axe",
-			img: "Gear/Generic/Axes/Axe_L90_ua.png",
+			name: "Brann's Boar-Slaying Battle Axe",
+			img: "Gear/Celeste/Generic/Axes/Axe2.png",
 			effects: {
 				40: [
 					{min: 37.71499999999998, max: 41.68499999999998, positive: true, type: "critical"},
@@ -4026,7 +4026,7 @@ var gear = {
 			}
 		},
 		{
-			name: "Divine Spear",
+			name: "Heavy Spear of Siavash",
 			img: "Gear/Generic/Spears2H/Spear2H_L90_ua.png",
 			effects: {
 				40: [
@@ -6273,8 +6273,8 @@ var gear = {
 	javelin: [
 		{name: "None", img: 'Slot/JavelinSlot_ua.png'},
 		{
-			name: "Divine Blessed Javelin",
-			img: "Gear/Generic/Javelins/Javelin_L91_ua.png",
+			name: "Neith's Blessed Javelin",
+			img: "Gear/Celeste/Generic/Javelins/Javelin9.png",
 			effects: {
 				40: [
 					{min: 33.27850000000001, max: 36.78150000000001, positive: true, type: "damage"},
@@ -10054,8 +10054,8 @@ var gear = {
 	sword: [
 		{name: "None", img: 'Slot/SwordSlot_ua.png'},
 		{
-			name: "Divine Thrusting Xiphos",
-			img: "Gear/Generic/Swords/Sword_L90_ua.png",
+			name: "Theia's Exalted Xiphos",
+			img: "Gear/Celeste/Generic/Swords/DivineXiphos.png",
 			effects: {
 				40: [
 					{min: 25.802000000000007, max: 28.518000000000008, positive: true, type: "damage"},
@@ -16138,7 +16138,7 @@ var gear = {
 		{name: "None", img: 'Slot/TorcSlot_ua.png'},
 		{
 			name: "Divine Torc",
-			img: "Gear/Celt/Torc/Torc_L90_ua.(1,4,1,1).png",
+			img: "Gear/Celt/Torc/Torc1.png",
 			effects: {
 				40: [
 					{min: 25.97300000000001, max: 28.70700000000001, positive: true, type: "health"},
@@ -16964,7 +16964,7 @@ var gear = {
 			}
 		},
 		{
-			name: "Divine Bronze Plating",
+			name: "Artificer's Iron Armoring",
 			img: "Gear/Celeste/Generic/Armor/Plt/ArmorPlt_HDW_ua.png",
 			effects: {
 				40: [
@@ -18153,7 +18153,7 @@ var gear = {
 			}
 		},
 		{
-			name: "Divine Vest of Foresight",
+			name: "Amunet's Vest of Foresight",
 			img: "Gear/Generic/Armor/Clth/Clth_L90_ua.png",
 			effects: {
 				40: [
@@ -19403,8 +19403,8 @@ var gear = {
 			}
 		},
 		{
-			name: "Divine Breastplate",
-			img: "Gear/Generic/Armor/Inf/Inf_L90_ua.png",
+			name: "Breastplate of Alexander",
+			img: "Gear/Celeste/Generic/Armor/Inf/InfArmor5.png",
 			effects: {
 				40: [
 					{min: 56.6485, max: 62.61150000000001, positive: true, type: "health"},
@@ -21947,8 +21947,8 @@ var gear = {
 	lightArmor: [
 		{name: "None", img: 'Slot/LightArmorSlot_ua.png'},
 		{
-			name: "Divine Runed Gorget",
-			img: "Gear/Generic/Armor/Cav/Cav_L90_ua.png",
+			name: "Leucon's Lucky Leather Armor",
+			img: "Gear/Celeste/Generic/Armor/Cav/DivineGorget.png",
 			effects: {
 				40: [
 					{min: 28.832499999999985, max: 31.86749999999999, positive: true, type: "armorCavalry"},
@@ -23043,8 +23043,8 @@ var gear = {
 			}
 		},
 		{
-			name: "Divine Wall Joints",
-			img: "Gear/Generic/Gear/Bldg/BluePrint_L90_ua.png",
+			name: "Wall Joints of Persepolis",
+			img: "Gear/Celeste/Generic/Gear/Bldg/WallJoint5.png",
 			effects: {
 				40: [
 					{min: -12.778500000000005, max: -11.561500000000002, positive: true, type: "cost"},
@@ -28408,7 +28408,7 @@ var gear = {
 			}
 		},
 		{
-			name: "Divine Battle Horn",
+			name: "Brann's Bronze-Runed Battle Horn",
 			img: "Gear/Celt/WarHorn/Horn_L90_ua.png",
 			effects: {
 				40: [
@@ -29077,8 +29077,8 @@ var gear = {
 			}
 		},
 		{
-			name: "Divine Warpaint",
-			img: "Gear/Celt/Warpaint/WarPaint_L91_ua.png",
+			name: "Vercingetorix's Copper-Ore Warpaint",
+			img: "Gear/Celeste/Celt/Warpaint/Warpaint1.png",
 			effects: {
 				40: [
 					{min: 16.891000000000016, max: 18.669000000000022, positive: true, type: "damage"},

@@ -10054,6 +10054,16 @@ var gear = {
 	sword: [
 		{name: "None", img: 'Slot/SwordSlot_ua.png'},
 		{
+			name: "Zahhak's Sword of the Undying",
+			img: "Gear/Celeste/Generic/Swords/HighlordsBlade9.png",
+			effects: {
+				40: [
+					{min: 51.8985, max: 57.36150000000001, positive: true, type: "damage"},
+					{min: 7.95, max: 7.95, positive: true, type: "regen", isAbsolute: true},
+				],
+			}
+		},
+		{
 			name: "Theia's Exalted Xiphos",
 			img: "Gear/Celeste/Generic/Swords/DivineXiphos.png",
 			effects: {
@@ -26204,52 +26214,52 @@ var gear = {
 			img: "Gear/Generic/Gear/Scout/Health_R30_ua.png",
 			effects: {
 				12: [
-					{min: 0, max: 0, positive: true, type: "selfHeal"},
+					{min: 7.95, max: 7.95, positive: true, type: "regen", isAbsolute: true},
 				],
 				13: [
-					{min: 0, max: 0, positive: true, type: "selfHeal"},
+					{min: 7.95, max: 7.95, positive: true, type: "regen", isAbsolute: true},
 				],
 				14: [
-					{min: 0, max: 0, positive: true, type: "selfHeal"},
+					{min: 7.95, max: 7.95, positive: true, type: "regen", isAbsolute: true},
 				],
 				15: [
-					{min: 0, max: 0, positive: true, type: "selfHeal"},
+					{min: 7.95, max: 7.95, positive: true, type: "regen", isAbsolute: true},
 				],
 				16: [
-					{min: 0, max: 0, positive: true, type: "selfHeal"},
+					{min: 7.95, max: 7.95, positive: true, type: "regen", isAbsolute: true},
 				],
 				17: [
-					{min: 0, max: 0, positive: true, type: "selfHeal"},
+					{min: 7.95, max: 7.95, positive: true, type: "regen", isAbsolute: true},
 				],
 				18: [
-					{min: 0, max: 0, positive: true, type: "selfHeal"},
+					{min: 7.95, max: 7.95, positive: true, type: "regen", isAbsolute: true},
 				],
 				19: [
-					{min: 0, max: 0, positive: true, type: "selfHeal"},
+					{min: 7.95, max: 7.95, positive: true, type: "regen", isAbsolute: true},
 				],
 				20: [
-					{min: 0, max: 0, positive: true, type: "selfHeal"},
+					{min: 7.95, max: 7.95, positive: true, type: "regen", isAbsolute: true},
 				],
 				21: [
-					{min: 0, max: 0, positive: true, type: "selfHeal"},
+					{min: 7.95, max: 7.95, positive: true, type: "regen", isAbsolute: true},
 				],
 				22: [
-					{min: 0, max: 0, positive: true, type: "selfHeal"},
+					{min: 7.95, max: 7.95, positive: true, type: "regen", isAbsolute: true},
 				],
 				23: [
-					{min: 0, max: 0, positive: true, type: "selfHeal"},
+					{min: 7.95, max: 7.95, positive: true, type: "regen", isAbsolute: true},
 				],
 				24: [
-					{min: 0, max: 0, positive: true, type: "selfHeal"},
+					{min: 7.95, max: 7.95, positive: true, type: "regen", isAbsolute: true},
 				],
 				25: [
-					{min: 0, max: 0, positive: true, type: "selfHeal"},
+					{min: 7.95, max: 7.95, positive: true, type: "regen", isAbsolute: true},
 				],
 				26: [
-					{min: 0, max: 0, positive: true, type: "selfHeal"},
+					{min: 7.95, max: 7.95, positive: true, type: "regen", isAbsolute: true},
 				],
 				27: [
-					{min: 0, max: 0, positive: true, type: "selfHeal"},
+					{min: 7.95, max: 7.95, positive: true, type: "regen", isAbsolute: true},
 				],
 			}
 		},

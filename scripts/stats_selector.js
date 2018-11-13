@@ -53,7 +53,7 @@ StatsSelector.prototype.loadExisting = function() {
 			that.unitObject.updateStats();
 			updateComparison(element.dataset.effect);
 		};
-		this.effects.push({type: element.dataset.effect, element: inputElement});
+		this.effects.push({type: element.dataset.effect, element: inputElement, isAbsolute: inputElement.nextElementSibling.nextElementSibling == undefined});
 	}
 
 };
@@ -108,7 +108,7 @@ StatsSelector.prototype.clearEffects = function() {
 }
 
 StatsSelector.prototype.addEffect = function(effect) {
-	let html = components.gearEffect(effects[effect.type].name, round(effect.min), round(effect.max));
+	let html = components.gearEffect(effects[effect.type].name, round(effect.min), round(effect.max), effect.isAbsolute);
 	let element = createEffectElement(html, effect);
 	let valueElement = element.getElementsByClassName('stat-selector-value')[0];
 	let inputElement = element.getElementsByClassName('stat-selector-slider')[0];
@@ -121,7 +121,7 @@ StatsSelector.prototype.addEffect = function(effect) {
 		updateComparison(element.dataset.effect);
 	}
 	this.effectsContainer.appendChild(element);
-	this.effects.push({type: effect.type, element: inputElement});
+	this.effects.push({type: effect.type, element: inputElement, isAbsolute: effect.isAbsolute});
 
 	this.unitObject.state.gear[this.category].stats[effect.type] = inputElement.value;
 }

@@ -151,26 +151,33 @@ UnitObject.prototype.updateStats = function() {
 		let selector = this.statSelectors[i];
 		for(let j = 0 ; j < selector.effects.length ; j++) {
 			let effect = selector.effects[j];
-			let mod = parseFloat(effect.element.value);
-			let val = 1+(mod/100);
 
-			if(effect.type == "cost") {
-				modifiers["costFood"].push(val);
-				modifiers["costWood"].push(val);
-				modifiers["costGold"].push(val);
-				modifiers["costStone"].push(val);
-			} else if(effect.type == "carryCapacity") {
-				modifiers["carryCapacityFood"].push(val);
-				modifiers["carryCapacityWood"].push(val);
-				modifiers["carryCapacityGold"].push(val);
-				modifiers["carryCapacityStone"].push(val);
-			} else if(effect.type == "gatherFood") {
-				modifiers["gatherFarm"].push(val);
-				modifiers["gatherHunt"].push(val);
-				modifiers["gatherBerry"].push(val);
-				modifiers["gatherFish"].push(val);
-			} else
+			if(effect.isAbsolute) {
+				if(absolutes[effect.type] == undefined)
+					absolutes[effect.type] = 0;
+				absolutes[effect.type] += effect.element.value;
+			} else {
+				let mod = parseFloat(effect.element.value);
+				let val = 1+(mod/100);
+
+				if(effect.type == "cost") {
+					modifiers["costFood"].push(val);
+					modifiers["costWood"].push(val);
+					modifiers["costGold"].push(val);
+					modifiers["costStone"].push(val);
+				} else if(effect.type == "carryCapacity") {
+					modifiers["carryCapacityFood"].push(val);
+					modifiers["carryCapacityWood"].push(val);
+					modifiers["carryCapacityGold"].push(val);
+					modifiers["carryCapacityStone"].push(val);
+				} else if(effect.type == "gatherFood") {
+					modifiers["gatherFarm"].push(val);
+					modifiers["gatherHunt"].push(val);
+					modifiers["gatherBerry"].push(val);
+					modifiers["gatherFish"].push(val);
+				} else
 				modifiers[effect.type].push(effect.type === "critical" ? mod : val);
+			}
 		}
 	}
 

@@ -155,7 +155,7 @@ UnitObject.prototype.updateStats = function() {
 			if(effect.isAbsolute) {
 				if(absolutes[effect.type] == undefined)
 					absolutes[effect.type] = 0;
-				absolutes[effect.type] += effect.element.value;
+				absolutes[effect.type] += parseFloat(effect.element.value);
 			} else {
 				let mod = parseFloat(effect.element.value);
 				let val = 1+(mod/100);

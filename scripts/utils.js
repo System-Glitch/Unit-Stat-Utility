@@ -2,6 +2,10 @@ function round(number) {
 	return Math.round(number * 10) / 10;
 }
 
+function round2Digits(number) {
+	return Math.round(number * 100) / 100;
+}
+
 function getHighestKey(object) {
 	return Object.keys(object).reduce(function(a, b){ return object[a] > object[b] ? a : b });
 }

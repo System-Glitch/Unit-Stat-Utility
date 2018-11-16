@@ -239,9 +239,10 @@ UnitObject.prototype.updateStats = function() {
 
 			let result = original;
 			let effect = modifiers[key];
+			let effectModel = effects[key];
 			let length = effect.length;
 
-			if(effects[key].isArmor) {
+			if(effectModel.isArmor) {
 
 				for(let j = 0 ; j < length ; j++)
 					result = 1 - (1 - result) / effect[j];
@@ -264,7 +265,9 @@ UnitObject.prototype.updateStats = function() {
 				result += absolutes[key];
 			}
 
-			display.textContent = round(effects[key].isPercent ? --result * 100 : result);
+			display.textContent = effectModel.isArmor || key.indexOf("gather") == 0 ? 
+				round2Digits(effectModel.isPercent ? --result * 100 : result) :
+				round(effectModel.isPercent ? --result * 100 : result);
 
 			if((result == 0 || (result == 1 && effects[key].startsAtOne)) && key.indexOf("cost") != 0)
 				display.parentElement.style.display = "none";

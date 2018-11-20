@@ -158,7 +158,13 @@ UnitObject.prototype.updateStats = function() {
 				absolutes[effect.type] += parseFloat(effect.element.value);
 			} else {
 				let mod = parseFloat(effect.element.value);
+				
+				if(effect.type.indexOf("convert") == 0 || effect.type == "conversionRate") {
+					mod *= -1;
+				}
+
 				let val = 1+(mod/100);
+
 
 				if(effect.type == "cost") {
 					modifiers["costFood"].push(val);
@@ -176,7 +182,7 @@ UnitObject.prototype.updateStats = function() {
 					modifiers["gatherBerry"].push(val);
 					modifiers["gatherFish"].push(val);
 				} else
-				modifiers[effect.type].push(effect.type === "critical" ? mod : val);
+					modifiers[effect.type].push(effect.type === "critical" ? mod : val);
 			}
 		}
 	}
@@ -203,7 +209,13 @@ UnitObject.prototype.updateStats = function() {
 				} else {
 
 					let mod = parseFloat(effect.amount);
+					
+					if(effect.type.indexOf("convert") == 0 || effect.type == "conversionRate") {
+						mod *= -1;
+					}
+
 					let val = 1+(mod/100);
+
 
 					if(effect.type == "cost") {
 						modifiers["costFood"].push(val);

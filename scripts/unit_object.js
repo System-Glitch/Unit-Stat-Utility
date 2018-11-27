@@ -222,6 +222,8 @@ UnitObject.prototype.updateStats = function() {
 						modifiers["costWood"].push(val);
 						modifiers["costGold"].push(val);
 						modifiers["costStone"].push(val);
+					} else if(effect.type == "attackRate") {
+						modifiers["damage"].push(val);
 					} else if(effect.type == "carryCapacity") {
 						modifiers["carryCapacityFood"].push(val);
 						modifiers["carryCapacityWood"].push(val);

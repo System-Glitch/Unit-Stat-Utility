@@ -3039,6 +3039,16 @@ var gear = {
 	greatAxe: [
 		{name: "None", img: 'Slot/GreatAxeSlot_ua.png'},
 		{
+			name: "Axe of the Ice King",
+			img: "Gear/Celeste/Generic/Axes/IceAxe2.png",
+			effects: {
+				40: [
+					{min: 59.76450000000002, max: 66.05550000000002, positive: true, type: "damage"},
+					{min: 19.959500000000016, max: 22.060500000000022, positive: true, type: "health"},
+				],
+			}
+		},
+		{
 			name: "Champion's Axe",
 			img: "Gear/Generic/Axes/Axe_L90_ua.png",
 			effects: {
@@ -5205,6 +5215,16 @@ var gear = {
 	],
 	holyStaff: [
 		{name: "None", img: 'Slot/StaffSlot_ua.png'},
+		{
+			name: "Staff of the Ice King",
+			img: "Gear/Celeste/Generic/Staves/IceStaff1.png",
+			effects: {
+				40: [
+					{min: 73.53, max: 81.27000000000001, positive: true, type: "convertSiegeRate"},
+					{min: 24.6905, max: 27.289500000000004, positive: true, type: "health"},
+				],
+			}
+		},
 		{
 			name: "Staff of Amenhotep",
 			img: "Gear/Generic/Staves/Staff_L90_ua.png",
@@ -9111,6 +9131,17 @@ var gear = {
 	],
 	sling: [
 		{name: "None", img: 'Slot/SlingsSlot_ua.png'},
+		{
+			name: "Sling of the Ice King",
+			img: "Gear/Celeste/Generic/Slings/IceSling2.png",
+			effects: {
+				40: [
+					{min: 47.794500000000006, max: 52.82550000000001, positive: true, type: "damage"},
+					{min: 38.095, max: 42.105000000000004, positive: true, type: "snare"},
+					{min: 18.629499999999993, max: 20.59049999999999, positive: true, type: "range"},
+				],
+			}
+		},
 		{
 			name: "Precision Sling",
 			img: "Gear/Generic/Slings/Sling_L90_ua.png",
@@ -14171,6 +14202,17 @@ var gear = {
 	],
 	arrow: [
 		{name: "None", img: 'Slot/ArrowSlot_ua.png'},
+		{
+			name: "Arrows of the Ice King",
+			img: "Gear/Celeste/Generic/Arrows/IceArrow1.png",
+			effects: {
+				40: [
+					{min: 8.34100000000001, max: 9.21900000000001, positive: true, type: "damage"},
+					{min: 11.437999999999985, max: 12.641999999999985, positive: true, type: "range"},
+					{min: 14.097999999999997, max: 15.581999999999999, positive: true, type: "snare"},
+				],
+			}
+		},
 		{
 			name: "Arrows of Actaeon",
 			img: "Gear/Generic/Arrows/Arrow_L90_ua.png",

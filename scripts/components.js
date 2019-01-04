@@ -136,8 +136,6 @@ function loadGear() {
 			}
 		}, i++);
 	}
-
-	setTimeout(function() { updateSelects(); }, i+1000);
 }
 
 //loadUnits();

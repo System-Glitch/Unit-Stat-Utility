@@ -39,13 +39,13 @@ a:hover {
 	color: #a6a6a6;
 }
 
-.text-positive {
+.text-positive, .text-positive input {
 	font-weight: 700;
 	color: #0f0;
 	text-shadow: 1px 0 1px #000;
 }
 
-.text-negative {
+.text-negative, .text-negative input {
 	font-weight: 700;
 	color: #ff1a1a;
 	text-shadow: 1px 0 1px #000;
@@ -450,9 +450,30 @@ h4, p {
 	width: 100%;
 }
 
-.stat-selector-value {
+.stat-selector-value, .stat-selector-value-input {
 	width: 40px;
 	min-width: 40px;
+	height: 25px;
+}
+
+.stat-selector-value-input {
+	display: table-cell;
+	border: none;
+	background: none;
+	font-size: 14px;
+}
+
+.stat-selector-value-input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+.stat-selector-value-input::-webkit-outer-spin-button,
+.stat-selector-value-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.stat-selector-value:hover {
+	cursor: pointer;
 }
 
 .upgrade-row {

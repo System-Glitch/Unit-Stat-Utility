@@ -110,12 +110,42 @@ StatsSelector.prototype.clearEffects = function() {
 StatsSelector.prototype.addEffect = function(effect) {
 	let html = components.gearEffect(effects[effect.type].name, round(effect.min), round(effect.max), effect.isAbsolute);
 	let element = createEffectElement(html, effect);
-	let valueElement = element.getElementsByClassName('stat-selector-value')[0];
+	//let valueElement = element.getElementsByClassName('stat-selector-value')[0];
+	let valueInputElement = element.getElementsByClassName('stat-selector-value-input')[0];
 	let inputElement = element.getElementsByClassName('stat-selector-slider')[0];
 	const that = this;
 	
 	inputElement.oninput = function(event) {
-		valueElement.textContent = round(inputElement.value);
+		valueInputElement.value = round(inputElement.value);
+		that.unitObject.state.gear[that.category].stats[element.dataset.effect] = inputElement.value;
+		that.unitObject.updateStats();
+		updateComparison(element.dataset.effect);
+	};
+	valueInputElement.oninput = function(event) {
+		const input = event.target;
+		if(input.checkValidity()) {
+			inputElement.value = input.value;
+		} else if(input.validity.stepMismatch) {
+			input.value = round(inputElement.value);
+			inputElement.value = input.value;
+		}
+		that.unitObject.state.gear[that.category].stats[element.dataset.effect] = inputElement.value;
+		that.unitObject.updateStats();
+		updateComparison(element.dataset.effect);
+	}
+	valueInputElement.onblur = function(event) {
+		const input = event.target;
+		if(!input.checkValidity()) {
+			if(input.validity.rangeUnderflow) {
+				input.value = round(effect.min);
+			} else if(input.validity.rangeOverflow) {
+				input.value = round(effect.max);
+			} else {
+				input.value = round(inputElement.value);
+			}
+		}
+		inputElement.value = input.value;
+		input.value = round(input.value);
 		that.unitObject.state.gear[that.category].stats[element.dataset.effect] = inputElement.value;
 		that.unitObject.updateStats();
 		updateComparison(element.dataset.effect);
@@ -187,8 +217,11 @@ function hideAllStatSelectors() {
 function registerHideStatSelectorsListener() {
 	document.addEventListener('click', function(event) {
 		let parent = event.target.parentElement;
-		if (statSelectorsElements.indexOf(event.target) != 1 && (parent == null || (!parent.classList.contains('gear-stat') && !parent.classList.contains('level-container'))))
+		if (statSelectorsElements.indexOf(event.target) != 1 && 
+			(event.target == null || (!event.target.classList.contains('gear-stat') && !event.target.classList.contains('level-container')) && !event.target.classList.contains('stats-selector')) &&
+			(parent == null || (!parent.classList.contains('gear-stat') && !parent.classList.contains('level-container')  && !parent.classList.contains('stat-selector-value-container')))) {
 			hideAllStatSelectors();
+		}
 	});
 }
 

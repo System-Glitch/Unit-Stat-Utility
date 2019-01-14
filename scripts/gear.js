@@ -3043,8 +3043,8 @@ var gear = {
 			img: "Gear/Celeste/Generic/Axes/IceAxe2.png",
 			effects: {
 				40: [
-					{min: 59.76450000000002, max: 66.05550000000002, positive: true, type: "damage"},
-					{min: 19.959500000000016, max: 22.060500000000022, positive: true, type: "health"},
+					{min: 62.949999999999996, max: 62.949999999999996, positive: true, type: "damage"},
+					{min: 21.05, max: 21.05, positive: true, type: "health"},
 				],
 			}
 		},
@@ -5220,8 +5220,8 @@ var gear = {
 			img: "Gear/Celeste/Generic/Staves/IceStaff1.png",
 			effects: {
 				40: [
-					{min: 73.53, max: 81.27000000000001, positive: true, type: "convertSiegeRate"},
-					{min: 24.6905, max: 27.289500000000004, positive: true, type: "health"},
+					{min: 77.4, max: 77.4, positive: true, type: "convertSiegeRate"},
+					{min: 26, max: 26, positive: true, type: "health"},
 				],
 			}
 		},
@@ -9136,9 +9136,9 @@ var gear = {
 			img: "Gear/Celeste/Generic/Slings/IceSling2.png",
 			effects: {
 				40: [
-					{min: 47.794500000000006, max: 52.82550000000001, positive: true, type: "damage"},
-					{min: 38.095, max: 42.105000000000004, positive: true, type: "snare"},
-					{min: 18.629499999999993, max: 20.59049999999999, positive: true, type: "range"},
+					{min: 50.3, max: 50.3, positive: true, type: "damage"},
+					{min: 40.1, max: 40.1, positive: true, type: "snare"},
+					{min: 19.6, max: 19.6, positive: true, type: "range"},
 				],
 			}
 		},
@@ -10089,7 +10089,7 @@ var gear = {
 			img: "Gear/Celeste/Generic/Swords/HighlordsBlade9.png",
 			effects: {
 				40: [
-					{min: 51.8985, max: 57.36150000000001, positive: true, type: "damage"},
+					{min: 54.65, max: 54.65, positive: true, type: "damage"},
 					{min: 7.95, max: 7.95, positive: true, type: "regen", isAbsolute: true},
 				],
 			}
@@ -14207,9 +14207,9 @@ var gear = {
 			img: "Gear/Celeste/Generic/Arrows/IceArrow1.png",
 			effects: {
 				40: [
-					{min: 8.34100000000001, max: 9.21900000000001, positive: true, type: "damage"},
-					{min: 11.437999999999985, max: 12.641999999999985, positive: true, type: "range"},
-					{min: 14.097999999999997, max: 15.581999999999999, positive: true, type: "snare"},
+					{min: 8.75, max: 8.75, positive: true, type: "damage"},
+					{min: 12, max: 12, positive: true, type: "range"},
+					{min: 14.85, max: 14.85, positive: true, type: "snare"},
 				],
 			}
 		},

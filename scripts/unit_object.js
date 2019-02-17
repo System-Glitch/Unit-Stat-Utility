@@ -10,6 +10,7 @@ var UnitObject = function(element, isDuplicate) {
 	this.loneUpgradesContainer = this.upgradesContainer.getElementsByClassName("lone-upgrades-container")[0];
 	this.gearSelectorIcon = element.getElementsByClassName('gear-selector-unit-icon')[0];
 	this.effectsContainer = element.getElementsByClassName("effects-display-container")[0];
+	this.compareButton = element.getElementsByClassName("compare-button")[0];
 
 	//Keep track of the state for share feature
 	this.state = {
@@ -76,6 +77,30 @@ var UnitObject = function(element, isDuplicate) {
 		this.updateStats();
 		this.state = shareOptions;
 	}
+
+	if(isDuplicate) {
+		this.registerCloseButton();
+	}
+}
+
+UnitObject.prototype.registerCloseButton = function() {
+	let closeButton = this.element.getElementsByClassName('close-button')[0];
+	if(closeButton == undefined) {
+		closeButton = document.createElement('button');
+		closeButton.innerHTML = '&times';
+		closeButton.classList.add('button');
+		closeButton.classList.add('close-button');
+		this.element.getElementsByClassName('buttons-container')[0].appendChild(closeButton);
+	}
+
+	closeButton.onclick = function(ev) {
+		unitObjects.splice(unitObjects.indexOf(this), 1);
+		this.element.remove();
+
+		unitObjects[unitObjects.length - 1].compareButton.style.display = 'inline-block';
+
+		updateComparison("all");
+	}.bind(this);
 }
 
 UnitObject.prototype.registerShareButton = function() {
@@ -525,7 +550,7 @@ function registerUnitObjects() {
 }
 
 function updateComparison(effect) {
-	if(unitObjects.length < 2) return;
+	if(unitObjects.length < 1) return;
 
 	if(effect == "all") {
 		for(let key in effects)
@@ -553,7 +578,6 @@ function updateComparison(effect) {
 	let worst = 0;
 	let lowerIsBetter = effects[effect].lowerIsBetter;
 	let allSame = true;
-	
 
 	for(let i = 1 ; i < unitObjects.length ; i++) {
 		element = unitObjects[i].effectsContainer.getElementsByClassName(effect)[0];

@@ -429,7 +429,7 @@ h4, p {
 	margin-top: -4px;
 }
 
-.stat-selector-slider::-webkit-slider-runnable-track {
+.stat-selector-slider::-webkit-slider-runnable-track, .stat-selector-slider::-moz-range-track {
 	width: 100%;
 	height: 3px;
 	cursor: pointer;

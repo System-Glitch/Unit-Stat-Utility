@@ -63,7 +63,7 @@ var UnitObject = function(element, isDuplicate) {
 						for(let j = 0 ; j < effects.length ; j++) {
 							if(effects[j].type == effect) {
 								let inputElement = effects[j].element;
-								let valueElement = inputElement.parentElement.getElementsByClassName('stat-selector-value')[0];
+								let valueElement = inputElement.parentElement.getElementsByClassName('stat-selector-value-input')[0];
 								inputElement.value = gear.stats[effect];
 								valueElement.textContent = round(inputElement.value);
 								break;

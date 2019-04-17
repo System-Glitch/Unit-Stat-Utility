@@ -14213,6 +14213,16 @@ var gear = {
 	arrow: [
 		{name: "None", img: 'Slot/ArrowSlot_ua.png'},
 		{
+			name: "Brenno's Barbed Arrows",
+			img: "Gear/Celeste/Generic/Arrows/Arrows_BBB_ua.png",
+			effects: {
+				40: [
+					{min: 8.169999999999986, max: 9.029999999999985, positive: true, type: "critical"},
+					{min: 13.29999999999999, max: 14.699999999999989, positive: true, type: "range"}
+				],
+			}
+		},
+		{
 			name: "Arrows of the Ice King",
 			img: "Gear/Celeste/Generic/Arrows/IceArrow1.png",
 			effects: {
@@ -21450,6 +21460,15 @@ var gear = {
 	laborerGear: [
 		{name: "None", img: 'Slot/CivGearSlot_ua.png'},
 		{
+			name: "NebuchaDnezzar's Blessed Wine",
+			img: "Gear/Celeste/Generic/Gear/Vill/Gear_Vill_NBW_ua.png",
+			effects: {
+				40: [
+					{min: -8.644999999999998, max: -9.554999999999998, positive: true, type: "timeTrain"},
+				],
+			}
+		},
+		{
 			name: "Blessed Food of Athens",
 			img: "Gear/Celeste/Generic/Gear/Vill/Gear_Vill_SH_ua.png",
 			effects: {
@@ -24756,6 +24775,15 @@ var gear = {
 	ramHead: [
 		{name: "None", img: 'Slot/RamSlot_ua.png'},
 		{
+			name: "Athenian Iron Forged Ram Head",
+			img: "Gear/Celeste/Generic/Ramheads/RamHead2H_AIFRH_ua.png",
+			effects: {
+				40: [
+					{min: 80.75000000000001, max: 89.25000000000001, positive: true, type: "damage"},
+				],
+			}
+		},
+		{
 			name: "Ram Head of Khnum",
 			img: "Gear/Generic/Ramheads/Ram_L90_ua.png",
 			effects: {
@@ -26358,6 +26386,15 @@ var gear = {
 	],
 	shipAccessory: [
 		{name: "None", img: 'Slot/BoatGearSlot_ua.png'},
+		{
+			name: "Hanno's Heavy Hull",
+			img: "Gear/Celeste/Generic/Gear/Boat/Gear_Boat_HHH_ua.png",
+			effects: {
+				40: [
+					{min: 35.434999999999995, max: 39.165, positive: true, type: "health"},
+				],
+			}
+		},
 		{
 			name: "Oars of Hatshepsut",
 			img: "Gear/Generic/Gear/Boat/Oar_L90_ua.png",

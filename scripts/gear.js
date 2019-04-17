@@ -769,6 +769,16 @@ var gear = {
 	bow: [
 		{name: "None", img: 'Slot/BowSlot_ua.png'},
 		{
+			name: "Alexander's Ornate Bow",
+			img: "Gear/Celeste/Generic/Bows/Bow1H_AOB_ua.png",
+			effects: {
+				40: [
+					{min: 42.19899999999999, max: 46.641, positive: true, type: "damage"},
+					{min: 12.739499999999989, max: 14.08049999999999, positive: true, type: "health"},
+				],
+			}
+		},
+		{
 			name: "Bow of Amenhotep",
 			img: "Gear/Generic/Bows/Bow_L90_ua.(1,4,1,1).png",
 			effects: {
@@ -780,7 +790,7 @@ var gear = {
 		},
 		{
 			name: "Bow of the Master Hunter",
-			img: "Gear/Generic/Bows/Bow_L90_ua.(1,4,1,1).png",
+			img: "Gear/Celeste/Generic/Bows/Bows1H_BOTMH_ua.png",
 			effects: {
 				40: [
 					{min: 38.589000000000006, max: 42.65100000000002, positive: true, type: "damage"},
@@ -17006,6 +17016,17 @@ var gear = {
 	armorPlating: [
 		{name: "None", img: 'Slot/ArmorPlatingSlot_ua.png'},
 		{
+			name: "Runic Heavy Iron Armoring",
+			img: "Gear/Celeste/Generic/Armor/Plt/ArmorPlt_HDW_ua.png",
+			effects: {
+				40: [
+					{min: 64.6, max: 71.4, positive: true, type: "health"},
+					{min: 11.875, max: 13.125, positive: true, type: "range"},
+					{min: 2.0900000000000016, max: 2.3100000000000023, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
 			name: "Armoring of Archimedes",
 			img: "Gear/Celeste/Generic/Armor/Plt/ArmorPlt_HDW_ua.png",
 			effects: {
@@ -21999,6 +22020,17 @@ var gear = {
 	lightArmor: [
 		{name: "None", img: 'Slot/LightArmorSlot_ua.png'},
 		{
+			name: "Garshasp's Golden Gorget",
+			img: "Gear/Celeste/Generic/Armor/Cav/ArmorLgt_GGG_ua.png",
+			effects: {
+				40: [
+					{min: 64.6, max: 71.4, positive: true, type: "health"},
+					{min: 12.786999999999983, max: 14.132999999999983, positive: true, type: "armorCrush"},
+					{min: 7.8565, max: 8.6835, positive: true, type: "critical"},
+				],
+			}
+		},
+		{
 			name: "Leucon's Lucky Leather Armor",
 			img: "Gear/Celeste/Generic/Armor/Cav/DivineGorget.png",
 			effects: {
@@ -26990,6 +27022,15 @@ var gear = {
 	],
 	soldiersGear: [
 		{name: "None", img: 'Slot/GearSlot_ua.png'},
+		{
+			name: "Beorix's Finest Gauntlets",
+			img: "Gear/Celeste/Generic/Gear/Inf/Gear_BFG_ua.png",
+			effects: {
+				40: [
+					{min: -10.354999999999999, max: -11.444999999999999, positive: true, type: "cost"},
+				],
+			}
+		},
 		{
 			name: "Battle Scrolls of Gilgamesh",
 			img: "Gear/Generic/Gear/Inf/Scrolls_L90_ua.png",

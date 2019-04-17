@@ -5226,6 +5226,16 @@ var gear = {
 	holyStaff: [
 		{name: "None", img: 'Slot/StaffSlot_ua.png'},
 		{
+			name: "Ahapitep's Solid Gold Staff",
+			img: "Gear/Generic/Staves/Staff_L90_ua.png",
+			effects: {
+				40: [
+					{min: 39.234999999999985, max: 43.36499999999998, positive: true, type: "range"},
+					{min: 51.58499999999999, max: 57.01499999999999, positive: true, type: "damage"}
+				],
+			}
+		},
+		{
 			name: "Staff of the Ice King",
 			img: "Gear/Celeste/Generic/Staves/IceStaff1.png",
 			effects: {
@@ -13425,6 +13435,18 @@ var gear = {
 	merchantGear: [
 		{name: "None", img: 'Slot/MerchLogSlot_ua.png'},
 		{
+			name: "Aegean Trader's Contract",
+			img: "Gear/Celeste/Generic/Merchant/Merchant2H_ATC_ua.png",
+			effects: {
+				40: [
+					{min: 8.359999999999987, max: 9.239999999999986, positive: true, type: "speed"},
+					{min: 106.39049999999999, max: 117.5895, positive: true, type: "snareResist"},
+
+
+				],
+			}
+		},
+		{
 			name: "Merchant Log of Sinuhe",
 			img: "Gear/Generic/Merchant/Log_L90_ua.png",
 			effects: {
@@ -14212,6 +14234,16 @@ var gear = {
 	],
 	arrow: [
 		{name: "None", img: 'Slot/ArrowSlot_ua.png'},
+		{
+			name: "Xerxes' Sun-blotting Arrows",
+			img: "Gear/Celeste/Generic/Arrows/Arrows_XSBA_ua.png",
+			effects: {
+				40: [
+					{min: 16.416000000000007, max: 18.14400000000001, positive: true, type: "damage"},
+					{min: 7.704499999999996, max: 8.515499999999996, positive: true, type: "vision"}
+				],
+			}
+		},
 		{
 			name: "Brenno's Barbed Arrows",
 			img: "Gear/Celeste/Generic/Arrows/Arrows_BBB_ua.png",
@@ -17026,6 +17058,16 @@ var gear = {
 	armorPlating: [
 		{name: "None", img: 'Slot/ArmorPlatingSlot_ua.png'},
 		{
+			name: "Tryphon's Reinforced Sidings",
+			img: "Gear/Celeste/Generic/Armor/Plt/ArmorPlt_HDW_ua.png",
+			effects: {
+				40: [
+					{min: 64.6, max: 71.4, positive: true, type: "health"},
+					{min: 13.300000000000011, max: 14.700000000000014, positive: true, type: "damage"}
+				],
+			}
+		},
+		{
 			name: "Runic Heavy Iron Armoring",
 			img: "Gear/Celeste/Generic/Armor/Plt/ArmorPlt_HDW_ua.png",
 			effects: {
@@ -18226,6 +18268,18 @@ var gear = {
 	],
 	clothArmor: [
 		{name: "None", img: 'Slot/ClothArmorSlot_ua.png'},
+		{
+			name: "Seth's Best Vest",
+			img: "Gear/Celeste/Generic/Armor/Clth/ArmorCloth_DHVR_ua.png",
+			effects: {
+				40: [
+					{min: 61.370000000000005, max: 67.83000000000001, positive: true, type: "health"},
+					{min: 19.636499999999987, max: 21.703499999999988, positive: true, type: "armorPierce"},
+					{min: 12.825, max: 14.175, positive: true, type: "armorInfantry"}
+
+				],
+			}
+		},
 		{
 			name: "Divine High Vizier's Robes",
 			img: "Gear/Generic/Armor/Clth/Clth_L90_ua.png",

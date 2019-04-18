@@ -19,7 +19,7 @@ function duplicateUnitDOM(unit) {
 	for(let i = 0 ; i < statSelectorsSrc.length ; i++) {
 		statSelectorsDest[i].value = statSelectorsSrc[i].value;
 		let valueElement = statSelectorsDest[i].parentElement.getElementsByClassName('stat-selector-value-input')[0];
-		valueElement.value = statSelectorsSrc[i].value;
+		valueElement.value = round(statSelectorsSrc[i].value);
 	}
 
 	return div;

@@ -190,7 +190,6 @@ UnitObject.prototype.updateStats = function() {
 
 				let val = 1+(mod/100);
 
-
 				if(effect.type == "cost") {
 					modifiers["costFood"].push(val);
 					modifiers["costWood"].push(val);
@@ -206,6 +205,10 @@ UnitObject.prototype.updateStats = function() {
 					modifiers["gatherHunt"].push(val);
 					modifiers["gatherBerry"].push(val);
 					modifiers["gatherFish"].push(val);
+				} else if(effect.type == "range" && selector.category == "holyStaff") {
+					modifiers["healRange"].push(val);
+					modifiers["chaosRange"].push(val);
+					modifiers["conversionRange"].push(val);
 				} else
 					modifiers[effect.type].push(effect.type === "critical" ? mod : val);
 			}

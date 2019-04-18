@@ -17055,6 +17055,758 @@ var gear = {
 			}
 		},
 	],
+	ramHead: [
+		{name: "None", img: 'Slot/RamSlot_ua.png'},
+		{
+			name: "Athenian Iron Forged Ram Head",
+			img: "Gear/Celeste/Generic/Ramheads/RamHead2H_AIFRH_ua.png",
+			effects: {
+				40: [
+					{min: 80.75000000000001, max: 89.25000000000001, positive: true, type: "damage"},
+				],
+			}
+		},
+		{
+			name: "Ram Head of Khnum",
+			img: "Gear/Generic/Ramheads/Ram_L90_ua.png",
+			effects: {
+				40: [
+					{min: 71.66799999999999, max: 79.212, positive: true, type: "damage"},
+					{min: 18.5535, max: 20.506500000000003, positive: true, type: "multiplierBuildings"},
+				],
+			}
+		},
+		{
+			name: "Sturdy Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_L91_ua.png",
+			effects: {
+				40: [
+					{min: 71.66799999999999, max: 79.212, positive: true, type: "damage"},
+					{min: 15.456500000000005, max: 17.083500000000008, positive: true, type: "armorInfantry"},
+				],
+			}
+		},
+		{
+			name: "Delian Preceptor's Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_E60_ua.png",
+			effects: {
+				40: [
+					{min: 58.52, max: 64.68, positive: true, type: "damage"},
+					{min: 21.279999999999998, max: 23.52, positive: true, type: "multiplierBuildings"},
+					{min: 11.551999999999992, max: 12.767999999999994, positive: true, type: "armorPierce"},
+				],
+			}
+		},
+		{
+			name: "Fist of Kronos",
+			img: "Gear/Generic/Ramheads/Ram_E60_ua.png",
+			effects: {
+				37: [
+					{min: 54.70100000000001, max: 60.45900000000002, positive: true, type: "damage"},
+					{min: 18.249499999999994, max: 20.170499999999993, positive: true, type: "multiplierBuildings"},
+					{min: 1.2445000000000106, max: 1.3755000000000117, positive: true, type: "speed"},
+				],
+				38: [
+					{min: 55.97399999999999, max: 61.866, positive: true, type: "damage"},
+					{min: 18.66749999999999, max: 20.632499999999993, positive: true, type: "multiplierBuildings"},
+					{min: 1.2730000000000075, max: 1.4070000000000082, positive: true, type: "speed"},
+				],
+				39: [
+					{min: 57.247, max: 63.27300000000001, positive: true, type: "damage"},
+					{min: 19.085500000000007, max: 21.094500000000007, positive: true, type: "multiplierBuildings"},
+					{min: 1.3015000000000043, max: 1.4385000000000048, positive: true, type: "speed"},
+				],
+				40: [
+					{min: 58.52, max: 64.68, positive: true, type: "damage"},
+					{min: 19.503500000000003, max: 21.556500000000007, positive: true, type: "multiplierBuildings"},
+					{min: 1.3300000000000012, max: 1.4700000000000013, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Legion Enforcer's Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_E60_ua.png",
+			effects: {
+				40: [
+					{min: 58.52, max: 64.68, positive: true, type: "damage"},
+					{min: -3.4124999999999974, max: -3.0874999999999972, positive: true, type: "cost"},
+				],
+			}
+		},
+		{
+			name: "Pharaoh's Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_E61_ua.png",
+			effects: {
+				40: [
+					{min: 45.543, max: 50.33700000000001, positive: true, type: "damage"},
+					{min: 5.719000000000003, max: 6.321000000000003, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Ram Head of Aries",
+			img: "Gear/Generic/Ramheads/Ram_E62_ua.png",
+			effects: {
+				40: [
+					{min: 58.52, max: 64.68, positive: true, type: "damage"},
+					{min: 5.775999999999996, max: 6.383999999999997, positive: true, type: "health"},
+					{min: 17.73649999999999, max: 19.603499999999986, positive: true, type: "multiplierBuildings"},
+				],
+			}
+		},
+		{
+			name: "Council Acolyte's Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_R30_ua.png",
+			effects: {
+				40: [
+					{min: 43.57650000000001, max: 48.16350000000001, positive: true, type: "health"},
+					{min: 31.919999999999987, max: 35.27999999999999, positive: true, type: "armorInfantry"},
+				],
+			}
+		},
+		{
+			name: "Dark Iron Reinforced Ram",
+			img: "Gear/Generic/Ramheads/Ram_R33_ua.png",
+			effects: {
+				36: [
+					{min: 49.46649999999999, max: 54.6735, positive: true, type: "damage"},
+					{min: -1.3545000000000025, max: -1.225500000000002, positive: true, type: "timeTrain"},
+				],
+				37: [
+					{min: 50.62549999999999, max: 55.954499999999996, positive: true, type: "damage"},
+					{min: -1.385999999999999, max: -1.253999999999999, positive: true, type: "timeTrain"},
+				],
+				38: [
+					{min: 51.78449999999999, max: 57.235499999999995, positive: true, type: "damage"},
+					{min: -1.4174999999999955, max: -1.2824999999999958, positive: true, type: "timeTrain"},
+				],
+				39: [
+					{min: 52.94350000000001, max: 58.516500000000015, positive: true, type: "damage"},
+					{min: -1.448999999999992, max: -1.3109999999999926, positive: true, type: "timeTrain"},
+				],
+				40: [
+					{min: 54.102500000000006, max: 59.797500000000014, positive: true, type: "damage"},
+					{min: -1.4805000000000001, max: -1.3395000000000001, positive: true, type: "timeTrain"},
+				],
+			}
+		},
+		{
+			name: "Consummate Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_U13_ua.png",
+			effects: {
+				40: [
+					{min: 43.88999999999999, max: 48.51, positive: true, type: "damage"},
+					{min: 0.9310000000000029, max: 1.0290000000000032, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Iron Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_U11_ua.png",
+			effects: {
+				27: [
+					{min: 30.400000000000006, max: 33.60000000000001, positive: true, type: "damage"},
+				],
+				32: [
+					{min: 34.675, max: 38.325, positive: true, type: "damage"},
+				],
+				33: [
+					{min: 35.53000000000001, max: 39.27000000000002, positive: true, type: "damage"},
+				],
+				34: [
+					{min: 36.385, max: 40.214999999999996, positive: true, type: "damage"},
+				],
+				35: [
+					{min: 37.23999999999999, max: 41.15999999999999, positive: true, type: "damage"},
+				],
+				36: [
+					{min: 38.095, max: 42.105000000000004, positive: true, type: "damage"},
+				],
+				37: [
+					{min: 38.95000000000001, max: 43.05000000000002, positive: true, type: "damage"},
+				],
+				38: [
+					{min: 39.80500000000001, max: 43.995000000000005, positive: true, type: "damage"},
+				],
+				39: [
+					{min: 40.66, max: 44.94, positive: true, type: "damage"},
+				],
+				40: [
+					{min: 41.515, max: 45.885000000000005, positive: true, type: "damage"},
+				],
+			}
+		},
+		{
+			name: "Peerless Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_U12_ua.png",
+			effects: {
+				38: [
+					{min: 42.04699999999999, max: 46.47299999999999, positive: true, type: "damage"},
+					{min: 11.912999999999995, max: 13.166999999999996, positive: true, type: "multiplierBuildings"},
+				],
+			}
+		},
+		{
+			name: "Ardwinna's Great Boar Ram",
+			img: "Gear/Generic/Ramheads/Ram_E62_ua.png",
+			effects: {
+				37: [
+					{min: 73.14999999999999, max: 80.85000000000001, positive: true, type: "damage"},
+				],
+			}
+		},
+		{
+			name: "Ram of the Furies",
+			img: "Gear/Generic/Ramheads/Ram_E61_ua.png",
+			effects: {
+				32: [
+					{min: 48.668499999999995, max: 53.7915, positive: true, type: "health"},
+					{min: -2.824499999999992, max: -2.5554999999999928, positive: true, type: "cost"},
+				],
+				33: [
+					{min: 49.951, max: 55.20900000000001, positive: true, type: "health"},
+					{min: -2.8979999999999957, max: -2.621999999999996, positive: true, type: "cost"},
+				],
+				34: [
+					{min: 51.233500000000014, max: 56.626500000000014, positive: true, type: "health"},
+					{min: -2.9714999999999994, max: -2.688499999999999, positive: true, type: "cost"},
+				],
+				35: [
+					{min: 52.51599999999999, max: 58.044, positive: true, type: "health"},
+					{min: -3.044999999999991, max: -2.754999999999992, positive: true, type: "cost"},
+				],
+				36: [
+					{min: 53.7985, max: 59.46150000000001, positive: true, type: "health"},
+					{min: -3.1184999999999947, max: -2.821499999999995, positive: true, type: "cost"},
+				],
+			}
+		},
+		{
+			name: "Iron-Bound Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_R33_ua.png",
+			effects: {
+				30: [
+					{min: 42.825999999999986, max: 47.33399999999998, positive: true, type: "damage"},
+					{min: 11.741999999999992, max: 12.977999999999993, positive: true, type: "multiplierBuildings"},
+				],
+				31: [
+					{min: 43.99449999999999, max: 48.62549999999999, positive: true, type: "damage"},
+					{min: 12.0555, max: 13.324500000000002, positive: true, type: "multiplierBuildings"},
+				],
+				32: [
+					{min: 45.163000000000004, max: 49.91700000000001, positive: true, type: "damage"},
+					{min: 12.368999999999987, max: 13.670999999999987, positive: true, type: "multiplierBuildings"},
+				],
+				33: [
+					{min: 46.3315, max: 51.20850000000001, positive: true, type: "damage"},
+					{min: 12.682499999999994, max: 14.017499999999995, positive: true, type: "multiplierBuildings"},
+				],
+				34: [
+					{min: 47.5, max: 52.5, positive: true, type: "damage"},
+					{min: 12.996000000000002, max: 14.364000000000004, positive: true, type: "multiplierBuildings"},
+				],
+				35: [
+					{min: 48.668499999999995, max: 53.7915, positive: true, type: "damage"},
+					{min: 13.30949999999999, max: 14.710499999999989, positive: true, type: "multiplierBuildings"},
+				],
+				36: [
+					{min: 49.83699999999999, max: 55.083, positive: true, type: "damage"},
+					{min: 13.622999999999996, max: 15.056999999999997, positive: true, type: "multiplierBuildings"},
+				],
+			}
+		},
+		{
+			name: "Athenian Champion's Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_E60_ua.png",
+			effects: {
+				31: [
+					{min: 54.976499999999994, max: 60.7635, positive: true, type: "damage"},
+					{min: 4.987499999999999, max: 5.512499999999999, positive: true, type: "health"},
+				],
+				32: [
+					{min: 56.46799999999998, max: 62.411999999999985, positive: true, type: "damage"},
+					{min: 5.120499999999984, max: 5.6594999999999835, positive: true, type: "health"},
+				],
+				33: [
+					{min: 57.959499999999984, max: 64.06049999999999, positive: true, type: "damage"},
+					{min: 5.253499999999991, max: 5.80649999999999, positive: true, type: "health"},
+				],
+				34: [
+					{min: 59.450999999999986, max: 65.70899999999999, positive: true, type: "damage"},
+					{min: 5.386499999999997, max: 5.953499999999997, positive: true, type: "health"},
+				],
+				35: [
+					{min: 60.942499999999974, max: 67.35749999999997, positive: true, type: "damage"},
+					{min: 5.519499999999982, max: 6.100499999999982, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Dark-Iron Battle Ram",
+			img: "Gear/Generic/Ramheads/Ram_U10_ua.png",
+			effects: {
+				33: [
+					{min: 23.81649999999999, max: 26.323499999999996, positive: true, type: "damage"},
+					{min: 28.481000000000005, max: 31.47900000000001, positive: true, type: "multiplierBuildings"},
+				],
+			}
+		},
+		{
+			name: "Heavy Iron Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_R32_ua.png",
+			effects: {
+				31: [
+					{min: 43.99449999999999, max: 48.62549999999999, positive: true, type: "damage"},
+					{min: 10.202999999999994, max: 11.276999999999996, positive: true, type: "armorPierce"},
+				],
+			}
+		},
+		{
+			name: "Bronze Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_U13_ua.png",
+			effects: {
+				17: [
+					{min: 21.849999999999998, max: 24.150000000000002, positive: true, type: "damage"},
+				],
+				18: [
+					{min: 22.70500000000001, max: 25.09500000000001, positive: true, type: "damage"},
+				],
+				19: [
+					{min: 23.56, max: 26.040000000000003, positive: true, type: "damage"},
+				],
+				20: [
+					{min: 24.41500000000001, max: 26.98500000000001, positive: true, type: "damage"},
+				],
+				21: [
+					{min: 25.27, max: 27.930000000000003, positive: true, type: "damage"},
+				],
+				22: [
+					{min: 26.124999999999993, max: 28.874999999999993, positive: true, type: "damage"},
+				],
+				23: [
+					{min: 26.98, max: 29.820000000000004, positive: true, type: "damage"},
+				],
+				24: [
+					{min: 27.83500000000001, max: 30.76500000000002, positive: true, type: "damage"},
+				],
+				25: [
+					{min: 28.69, max: 31.710000000000004, positive: true, type: "damage"},
+				],
+				26: [
+					{min: 29.544999999999995, max: 32.654999999999994, positive: true, type: "damage"},
+				],
+				27: [
+					{min: 30.400000000000006, max: 33.60000000000001, positive: true, type: "damage"},
+				],
+				28: [
+					{min: 31.254999999999995, max: 34.545, positive: true, type: "damage"},
+				],
+				29: [
+					{min: 32.11000000000001, max: 35.490000000000016, positive: true, type: "damage"},
+				],
+				30: [
+					{min: 32.964999999999996, max: 36.434999999999995, positive: true, type: "damage"},
+				],
+				31: [
+					{min: 33.82000000000001, max: 37.38000000000001, positive: true, type: "damage"},
+				],
+			}
+		},
+		{
+			name: "Ra's Golden Fist",
+			img: "Gear/Generic/Ramheads/Ram_E62_ua.png",
+			effects: {
+				26: [
+					{min: 41.24900000000002, max: 45.591000000000015, positive: true, type: "damage"},
+					{min: 15.722499999999997, max: 17.377499999999998, positive: true, type: "multiplierBuildings"},
+					{min: 0.9214999999999829, max: 1.018499999999981, positive: true, type: "speed"},
+				],
+				27: [
+					{min: 42.541, max: 47.019000000000005, positive: true, type: "damage"},
+					{min: 16.207000000000008, max: 17.91300000000001, positive: true, type: "multiplierBuildings"},
+					{min: 0.9499999999999797, max: 1.0499999999999776, positive: true, type: "speed"},
+				],
+				28: [
+					{min: 43.833, max: 48.447, positive: true, type: "damage"},
+					{min: 16.691499999999998, max: 18.448499999999996, positive: true, type: "multiplierBuildings"},
+					{min: 0.9784999999999977, max: 1.0814999999999975, positive: true, type: "speed"},
+				],
+				29: [
+					{min: 45.12500000000001, max: 49.87500000000001, positive: true, type: "damage"},
+					{min: 17.176000000000005, max: 18.984000000000005, positive: true, type: "multiplierBuildings"},
+					{min: 1.0069999999999946, max: 1.112999999999994, positive: true, type: "speed"},
+				],
+				30: [
+					{min: 46.41699999999999, max: 51.303, positive: true, type: "damage"},
+					{min: 17.660500000000017, max: 19.51950000000002, positive: true, type: "multiplierBuildings"},
+					{min: 1.0354999999999914, max: 1.1444999999999905, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Exceptional Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_U11_ua.png",
+			effects: {
+				30: [
+					{min: 34.675, max: 38.325, positive: true, type: "damage"},
+					{min: 0.7410000000000028, max: 0.8190000000000031, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Anvil of Hephaestus",
+			img: "Gear/Generic/Ramheads/Ram_E61_ua.png",
+			effects: {
+				24: [
+					{min: 41.724, max: 46.11600000000001, positive: true, type: "damage"},
+					{min: 15.855500000000005, max: 17.524500000000007, positive: true, type: "armorPierce"},
+				],
+				25: [
+					{min: 43.1205, max: 47.6595, positive: true, type: "damage"},
+					{min: 16.377999999999986, max: 18.10199999999999, positive: true, type: "armorPierce"},
+				],
+				26: [
+					{min: 44.51699999999999, max: 49.202999999999996, positive: true, type: "damage"},
+					{min: 16.900499999999994, max: 18.679499999999997, positive: true, type: "armorPierce"},
+				],
+				27: [
+					{min: 45.913500000000006, max: 50.746500000000005, positive: true, type: "damage"},
+					{min: 17.423, max: 19.257, positive: true, type: "armorPierce"},
+				],
+				28: [
+					{min: 47.309999999999995, max: 52.29, positive: true, type: "damage"},
+					{min: 17.945499999999985, max: 19.834499999999988, positive: true, type: "armorPierce"},
+				],
+			}
+		},
+		{
+			name: "Studded Iron Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_R31_ua.png",
+			effects: {
+				24: [
+					{min: 16.473, max: 18.207, positive: true, type: "damage"},
+					{min: 25.545499999999993, max: 28.234499999999993, positive: true, type: "armorInfantry"},
+				],
+				25: [
+					{min: 17.005000000000006, max: 18.795000000000005, positive: true, type: "damage"},
+					{min: 26.372000000000003, max: 29.148000000000007, positive: true, type: "armorInfantry"},
+				],
+				26: [
+					{min: 17.537000000000006, max: 19.38300000000001, positive: true, type: "damage"},
+					{min: 27.1985, max: 30.0615, positive: true, type: "armorInfantry"},
+				],
+				27: [
+					{min: 18.068999999999992, max: 19.970999999999993, positive: true, type: "damage"},
+					{min: 28.02499999999999, max: 30.974999999999994, positive: true, type: "armorInfantry"},
+				],
+				28: [
+					{min: 18.601, max: 20.558999999999997, positive: true, type: "damage"},
+					{min: 28.851500000000005, max: 31.88850000000001, positive: true, type: "armorInfantry"},
+				],
+			}
+		},
+		{
+			name: "Majestic Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_U10_ua.png",
+			effects: {
+				28: [
+					{min: 32.83199999999999, max: 36.28799999999999, positive: true, type: "damage"},
+					{min: 9.642499999999991, max: 10.657499999999992, positive: true, type: "multiplierBuildings"},
+				],
+			}
+		},
+		{
+			name: "The Minotaur's Horn",
+			img: "Gear/Generic/Ramheads/Ram_E62_ua.png",
+			effects: {
+				19: [
+					{min: 32.414000000000016, max: 35.82600000000002, positive: true, type: "damage"},
+					{min: 12.749000000000008, max: 14.09100000000001, positive: true, type: "multiplierBuildings"},
+					{min: 6.99200000000001, max: 7.728000000000012, positive: true, type: "armorPierce"},
+				],
+				20: [
+					{min: 33.7155, max: 37.264500000000005, positive: true, type: "damage"},
+					{min: 13.252499999999996, max: 14.647499999999996, positive: true, type: "multiplierBuildings"},
+					{min: 7.267500000000001, max: 8.032500000000002, positive: true, type: "armorPierce"},
+				],
+				21: [
+					{min: 35.017, max: 38.70300000000001, positive: true, type: "damage"},
+					{min: 13.756000000000004, max: 15.204000000000004, positive: true, type: "multiplierBuildings"},
+					{min: 7.543000000000013, max: 8.337000000000014, positive: true, type: "armorPierce"},
+				],
+				22: [
+					{min: 36.31850000000001, max: 40.141500000000015, positive: true, type: "damage"},
+					{min: 14.259500000000012, max: 15.760500000000013, positive: true, type: "multiplierBuildings"},
+					{min: 7.818500000000004, max: 8.641500000000004, positive: true, type: "armorPierce"},
+				],
+				23: [
+					{min: 37.62000000000001, max: 41.58000000000002, positive: true, type: "damage"},
+					{min: 14.762999999999998, max: 16.317, positive: true, type: "multiplierBuildings"},
+					{min: 8.093999999999994, max: 8.945999999999994, positive: true, type: "armorPierce"},
+				],
+			}
+		},
+		{
+			name: "Lightly Reinforced Ram",
+			img: "Gear/Generic/Ramheads/Ram_R30_ua.png",
+			effects: {
+				23: [
+					{min: 21.8405, max: 24.139499999999998, positive: true, type: "damage"},
+					{min: 3.429499999999981, max: 3.790499999999979, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Wallbreaker",
+			img: "Gear/Generic/Ramheads/Ram_R33_ua.png",
+			effects: {
+				22: [
+					{min: 21.346500000000013, max: 23.593500000000013, positive: true, type: "damage"},
+					{min: 41.001999999999995, max: 45.318, positive: true, type: "multiplierBuildings"},
+				],
+			}
+		},
+		{
+			name: "Heavy Iron Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_R34_ua.png",
+			effects: {
+				17: [
+					{min: 27.82549999999999, max: 30.754499999999993, positive: true, type: "damage"},
+					{min: 6.8590000000000035, max: 7.581000000000005, positive: true, type: "armorPierce"},
+				],
+				18: [
+					{min: 29.00349999999999, max: 32.05649999999999, positive: true, type: "damage"},
+					{min: 7.143999999999993, max: 7.895999999999994, positive: true, type: "armorPierce"},
+				],
+				19: [
+					{min: 30.18149999999999, max: 33.35849999999999, positive: true, type: "damage"},
+					{min: 7.429000000000004, max: 8.211000000000006, positive: true, type: "armorPierce"},
+				],
+				20: [
+					{min: 31.359499999999983, max: 34.660499999999985, positive: true, type: "damage"},
+					{min: 7.713999999999994, max: 8.525999999999994, positive: true, type: "armorPierce"},
+				],
+				21: [
+					{min: 32.53749999999998, max: 35.96249999999998, positive: true, type: "damage"},
+					{min: 7.999000000000005, max: 8.841000000000006, positive: true, type: "armorPierce"},
+				],
+			}
+		},
+		{
+			name: "Studded Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_R33_ua.png",
+			effects: {
+				14: [
+					{min: 24.291500000000003, max: 26.848500000000005, positive: true, type: "damage"},
+					{min: 6.0039999999999925, max: 6.635999999999992, positive: true, type: "armorInfantry"},
+				],
+				15: [
+					{min: 25.4695, max: 28.150500000000005, positive: true, type: "damage"},
+					{min: 6.289000000000003, max: 6.951000000000004, positive: true, type: "armorInfantry"},
+				],
+				16: [
+					{min: 26.647499999999997, max: 29.452499999999997, positive: true, type: "damage"},
+					{min: 6.573999999999993, max: 7.265999999999993, positive: true, type: "armorInfantry"},
+				],
+				17: [
+					{min: 27.82549999999999, max: 30.754499999999993, positive: true, type: "damage"},
+					{min: 6.8590000000000035, max: 7.581000000000005, positive: true, type: "armorInfantry"},
+				],
+				18: [
+					{min: 29.00349999999999, max: 32.05649999999999, positive: true, type: "damage"},
+					{min: 7.143999999999993, max: 7.895999999999994, positive: true, type: "armorInfantry"},
+				],
+				19: [
+					{min: 30.18149999999999, max: 33.35849999999999, positive: true, type: "damage"},
+					{min: 7.429000000000004, max: 8.211000000000006, positive: true, type: "armorInfantry"},
+				],
+				20: [
+					{min: 31.359499999999983, max: 34.660499999999985, positive: true, type: "damage"},
+					{min: 7.713999999999994, max: 8.525999999999994, positive: true, type: "armorInfantry"},
+				],
+			}
+		},
+		{
+			name: "Hero's Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_U12_ua.png",
+			effects: {
+				20: [
+					{min: -5.753999999999996, max: -5.205999999999996, positive: true, type: "cost"},
+					{min: 6.640499999999985, max: 7.339499999999985, positive: true, type: "multiplierBuildings"},
+				],
+			}
+		},
+		{
+			name: "Remarkable Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_U13_ua.png",
+			effects: {
+				20: [
+					{min: 25.46, max: 28.14, positive: true, type: "damage"},
+					{min: 0.5510000000000026, max: 0.6090000000000029, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Superior Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_U12_ua.png",
+			effects: {
+				18: [
+					{min: -6.237000000000002, max: -5.643000000000001, positive: true, type: "cost"},
+					{min: 7.181999999999989, max: 7.937999999999989, positive: true, type: "multiplierBuildings"},
+				],
+			}
+		},
+		{
+			name: "Artificer's Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_U11_ua.png",
+			effects: {
+				9: [
+					{min: 15.009999999999991, max: 16.589999999999993, positive: true, type: "damage"},
+				],
+				10: [
+					{min: 15.865000000000002, max: 17.535000000000004, positive: true, type: "damage"},
+				],
+				11: [
+					{min: 16.720000000000013, max: 18.480000000000018, positive: true, type: "damage"},
+				],
+				12: [
+					{min: 17.575000000000006, max: 19.425000000000008, positive: true, type: "damage"},
+				],
+				13: [
+					{min: 18.429999999999996, max: 20.369999999999994, positive: true, type: "damage"},
+				],
+				14: [
+					{min: 19.285000000000007, max: 21.31500000000001, positive: true, type: "damage"},
+				],
+				15: [
+					{min: 20.139999999999993, max: 22.259999999999998, positive: true, type: "damage"},
+				],
+				16: [
+					{min: 20.995000000000008, max: 23.20500000000001, positive: true, type: "damage"},
+				],
+			}
+		},
+		{
+			name: "Copper Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_U10_ua.png",
+			effects: {
+				9: [
+					{min: 12.568500000000007, max: 13.891500000000008, positive: true, type: "damage"},
+					{min: 5.281999999999988, max: 5.837999999999987, positive: true, type: "armorCavalry"},
+				],
+				10: [
+					{min: 13.280999999999993, max: 14.678999999999993, positive: true, type: "damage"},
+					{min: 5.576499999999998, max: 6.163499999999997, positive: true, type: "armorCavalry"},
+				],
+				11: [
+					{min: 13.993499999999997, max: 15.4665, positive: true, type: "damage"},
+					{min: 5.871000000000007, max: 6.489000000000009, positive: true, type: "armorCavalry"},
+				],
+				12: [
+					{min: 14.706000000000003, max: 16.254000000000005, positive: true, type: "damage"},
+					{min: 6.165499999999995, max: 6.814499999999996, positive: true, type: "armorCavalry"},
+				],
+				13: [
+					{min: 15.41850000000001, max: 17.041500000000013, positive: true, type: "damage"},
+					{min: 6.460000000000005, max: 7.140000000000007, positive: true, type: "armorCavalry"},
+				],
+				14: [
+					{min: 16.130999999999997, max: 17.828999999999997, positive: true, type: "damage"},
+					{min: 6.754499999999994, max: 7.465499999999994, positive: true, type: "armorCavalry"},
+				],
+				15: [
+					{min: 16.8435, max: 18.616500000000002, positive: true, type: "damage"},
+					{min: 7.049000000000004, max: 7.791000000000005, positive: true, type: "armorCavalry"},
+				],
+				16: [
+					{min: 17.556000000000008, max: 19.404000000000007, positive: true, type: "damage"},
+					{min: 7.343499999999993, max: 8.116499999999993, positive: true, type: "armorCavalry"},
+				],
+			}
+		},
+		{
+			name: "Nubian Conqueror Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_R32_ua.png",
+			effects: {
+				15: [
+					{min: 16.330500000000015, max: 18.049500000000016, positive: true, type: "damage"},
+					{min: 2.688499999999999, max: 2.9714999999999994, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Reinforced Ram",
+			img: "Gear/Generic/Ramheads/Ram_R31_ua.png",
+			effects: {
+				11: [
+					{min: 15.798499999999988, max: 17.46149999999999, positive: true, type: "damage"},
+					{min: 6.450499999999986, max: 7.129499999999984, positive: true, type: "health"},
+				],
+				12: [
+					{min: 16.691499999999998, max: 18.448499999999996, positive: true, type: "damage"},
+					{min: 6.811499999999988, max: 7.528499999999987, positive: true, type: "health"},
+				],
+				13: [
+					{min: 17.584500000000006, max: 19.435500000000005, positive: true, type: "damage"},
+					{min: 7.1724999999999905, max: 7.9274999999999896, positive: true, type: "health"},
+				],
+				14: [
+					{min: 18.47749999999999, max: 20.42249999999999, positive: true, type: "damage"},
+					{min: 7.533499999999993, max: 8.326499999999992, positive: true, type: "health"},
+				],
+				15: [
+					{min: 19.370499999999996, max: 21.409499999999998, positive: true, type: "damage"},
+					{min: 7.894499999999995, max: 8.725499999999995, positive: true, type: "health"},
+				],
+			}
+		},
+		{
+			name: "Helios' Heavy Ram",
+			img: "Gear/Generic/Ramheads/Ram_R30_ua.png",
+			effects: {
+				7: [
+					{min: 13.233500000000019, max: 14.626500000000023, positive: true, type: "health"},
+					{min: 10.421499999999991, max: 11.518499999999992, positive: true, type: "armorPierce"},
+				],
+				8: [
+					{min: 14.202500000000017, max: 15.697500000000021, positive: true, type: "health"},
+					{min: 11.171999999999992, max: 12.347999999999994, positive: true, type: "armorPierce"},
+				],
+				9: [
+					{min: 15.171500000000016, max: 16.768500000000017, positive: true, type: "health"},
+					{min: 11.922499999999994, max: 13.177499999999993, positive: true, type: "armorPierce"},
+				],
+				10: [
+					{min: 16.140500000000014, max: 17.83950000000002, positive: true, type: "health"},
+					{min: 12.672999999999996, max: 14.006999999999996, positive: true, type: "armorPierce"},
+				],
+				11: [
+					{min: 17.109500000000015, max: 18.910500000000017, positive: true, type: "health"},
+					{min: 13.423499999999999, max: 14.8365, positive: true, type: "armorPierce"},
+				],
+			}
+		},
+		{
+			name: "Fine Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_U11_ua.png",
+			effects: {
+				11: [
+					{min: 17.299499999999995, max: 19.120499999999993, positive: true, type: "damage"},
+					{min: 0.38000000000000034, max: 0.4200000000000004, positive: true, type: "speed"},
+				],
+			}
+		},
+		{
+			name: "Ordinary Ram Head",
+			img: "Gear/Generic/Ramheads/Ram_U10_ua.png",
+			effects: {
+				8: [
+					{min: 14.506499999999983, max: 16.033499999999982, positive: true, type: "damage"},
+					{min: 4.531499999999986, max: 5.008499999999985, positive: true, type: "multiplierBuildings"},
+				],
+			}
+		},
+	],
 	armorPlating: [
 		{name: "None", img: 'Slot/ArmorPlatingSlot_ua.png'},
 		{
@@ -21514,11 +22266,11 @@ var gear = {
 	laborerGear: [
 		{name: "None", img: 'Slot/CivGearSlot_ua.png'},
 		{
-			name: "NebuchaDnezzar's Blessed Wine",
+			name: "Nebuchadnezzar's Blessed Wine",
 			img: "Gear/Celeste/Generic/Gear/Vill/Gear_Vill_NBW_ua.png",
 			effects: {
 				40: [
-					{min: -8.644999999999998, max: -9.554999999999998, positive: true, type: "timeTrain"},
+					{min: -9.554999999999998, max: -8.644999999999998, positive: true, type: "timeTrain"},
 				],
 			}
 		},
@@ -24826,758 +25578,6 @@ var gear = {
 			}
 		},
 	],
-	ramHead: [
-		{name: "None", img: 'Slot/RamSlot_ua.png'},
-		{
-			name: "Athenian Iron Forged Ram Head",
-			img: "Gear/Celeste/Generic/Ramheads/RamHead2H_AIFRH_ua.png",
-			effects: {
-				40: [
-					{min: 80.75000000000001, max: 89.25000000000001, positive: true, type: "damage"},
-				],
-			}
-		},
-		{
-			name: "Ram Head of Khnum",
-			img: "Gear/Generic/Ramheads/Ram_L90_ua.png",
-			effects: {
-				40: [
-					{min: 71.66799999999999, max: 79.212, positive: true, type: "damage"},
-					{min: 18.5535, max: 20.506500000000003, positive: true, type: "multiplierBuildings"},
-				],
-			}
-		},
-		{
-			name: "Sturdy Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_L91_ua.png",
-			effects: {
-				40: [
-					{min: 71.66799999999999, max: 79.212, positive: true, type: "damage"},
-					{min: 15.456500000000005, max: 17.083500000000008, positive: true, type: "armorInfantry"},
-				],
-			}
-		},
-		{
-			name: "Delian Preceptor's Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_E60_ua.png",
-			effects: {
-				40: [
-					{min: 58.52, max: 64.68, positive: true, type: "damage"},
-					{min: 21.279999999999998, max: 23.52, positive: true, type: "multiplierBuildings"},
-					{min: 11.551999999999992, max: 12.767999999999994, positive: true, type: "armorPierce"},
-				],
-			}
-		},
-		{
-			name: "Fist of Kronos",
-			img: "Gear/Generic/Ramheads/Ram_E60_ua.png",
-			effects: {
-				37: [
-					{min: 54.70100000000001, max: 60.45900000000002, positive: true, type: "damage"},
-					{min: 18.249499999999994, max: 20.170499999999993, positive: true, type: "multiplierBuildings"},
-					{min: 1.2445000000000106, max: 1.3755000000000117, positive: true, type: "speed"},
-				],
-				38: [
-					{min: 55.97399999999999, max: 61.866, positive: true, type: "damage"},
-					{min: 18.66749999999999, max: 20.632499999999993, positive: true, type: "multiplierBuildings"},
-					{min: 1.2730000000000075, max: 1.4070000000000082, positive: true, type: "speed"},
-				],
-				39: [
-					{min: 57.247, max: 63.27300000000001, positive: true, type: "damage"},
-					{min: 19.085500000000007, max: 21.094500000000007, positive: true, type: "multiplierBuildings"},
-					{min: 1.3015000000000043, max: 1.4385000000000048, positive: true, type: "speed"},
-				],
-				40: [
-					{min: 58.52, max: 64.68, positive: true, type: "damage"},
-					{min: 19.503500000000003, max: 21.556500000000007, positive: true, type: "multiplierBuildings"},
-					{min: 1.3300000000000012, max: 1.4700000000000013, positive: true, type: "speed"},
-				],
-			}
-		},
-		{
-			name: "Legion Enforcer's Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_E60_ua.png",
-			effects: {
-				40: [
-					{min: 58.52, max: 64.68, positive: true, type: "damage"},
-					{min: -3.4124999999999974, max: -3.0874999999999972, positive: true, type: "cost"},
-				],
-			}
-		},
-		{
-			name: "Pharaoh's Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_E61_ua.png",
-			effects: {
-				40: [
-					{min: 45.543, max: 50.33700000000001, positive: true, type: "damage"},
-					{min: 5.719000000000003, max: 6.321000000000003, positive: true, type: "speed"},
-				],
-			}
-		},
-		{
-			name: "Ram Head of Aries",
-			img: "Gear/Generic/Ramheads/Ram_E62_ua.png",
-			effects: {
-				40: [
-					{min: 58.52, max: 64.68, positive: true, type: "damage"},
-					{min: 5.775999999999996, max: 6.383999999999997, positive: true, type: "health"},
-					{min: 17.73649999999999, max: 19.603499999999986, positive: true, type: "multiplierBuildings"},
-				],
-			}
-		},
-		{
-			name: "Council Acolyte's Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_R30_ua.png",
-			effects: {
-				40: [
-					{min: 43.57650000000001, max: 48.16350000000001, positive: true, type: "health"},
-					{min: 31.919999999999987, max: 35.27999999999999, positive: true, type: "armorInfantry"},
-				],
-			}
-		},
-		{
-			name: "Dark Iron Reinforced Ram",
-			img: "Gear/Generic/Ramheads/Ram_R33_ua.png",
-			effects: {
-				36: [
-					{min: 49.46649999999999, max: 54.6735, positive: true, type: "damage"},
-					{min: -1.3545000000000025, max: -1.225500000000002, positive: true, type: "timeTrain"},
-				],
-				37: [
-					{min: 50.62549999999999, max: 55.954499999999996, positive: true, type: "damage"},
-					{min: -1.385999999999999, max: -1.253999999999999, positive: true, type: "timeTrain"},
-				],
-				38: [
-					{min: 51.78449999999999, max: 57.235499999999995, positive: true, type: "damage"},
-					{min: -1.4174999999999955, max: -1.2824999999999958, positive: true, type: "timeTrain"},
-				],
-				39: [
-					{min: 52.94350000000001, max: 58.516500000000015, positive: true, type: "damage"},
-					{min: -1.448999999999992, max: -1.3109999999999926, positive: true, type: "timeTrain"},
-				],
-				40: [
-					{min: 54.102500000000006, max: 59.797500000000014, positive: true, type: "damage"},
-					{min: -1.4805000000000001, max: -1.3395000000000001, positive: true, type: "timeTrain"},
-				],
-			}
-		},
-		{
-			name: "Consummate Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_U13_ua.png",
-			effects: {
-				40: [
-					{min: 43.88999999999999, max: 48.51, positive: true, type: "damage"},
-					{min: 0.9310000000000029, max: 1.0290000000000032, positive: true, type: "speed"},
-				],
-			}
-		},
-		{
-			name: "Iron Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_U11_ua.png",
-			effects: {
-				27: [
-					{min: 30.400000000000006, max: 33.60000000000001, positive: true, type: "damage"},
-				],
-				32: [
-					{min: 34.675, max: 38.325, positive: true, type: "damage"},
-				],
-				33: [
-					{min: 35.53000000000001, max: 39.27000000000002, positive: true, type: "damage"},
-				],
-				34: [
-					{min: 36.385, max: 40.214999999999996, positive: true, type: "damage"},
-				],
-				35: [
-					{min: 37.23999999999999, max: 41.15999999999999, positive: true, type: "damage"},
-				],
-				36: [
-					{min: 38.095, max: 42.105000000000004, positive: true, type: "damage"},
-				],
-				37: [
-					{min: 38.95000000000001, max: 43.05000000000002, positive: true, type: "damage"},
-				],
-				38: [
-					{min: 39.80500000000001, max: 43.995000000000005, positive: true, type: "damage"},
-				],
-				39: [
-					{min: 40.66, max: 44.94, positive: true, type: "damage"},
-				],
-				40: [
-					{min: 41.515, max: 45.885000000000005, positive: true, type: "damage"},
-				],
-			}
-		},
-		{
-			name: "Peerless Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_U12_ua.png",
-			effects: {
-				38: [
-					{min: 42.04699999999999, max: 46.47299999999999, positive: true, type: "damage"},
-					{min: 11.912999999999995, max: 13.166999999999996, positive: true, type: "multiplierBuildings"},
-				],
-			}
-		},
-		{
-			name: "Ardwinna's Great Boar Ram",
-			img: "Gear/Generic/Ramheads/Ram_E62_ua.png",
-			effects: {
-				37: [
-					{min: 73.14999999999999, max: 80.85000000000001, positive: true, type: "damage"},
-				],
-			}
-		},
-		{
-			name: "Ram of the Furies",
-			img: "Gear/Generic/Ramheads/Ram_E61_ua.png",
-			effects: {
-				32: [
-					{min: 48.668499999999995, max: 53.7915, positive: true, type: "health"},
-					{min: -2.824499999999992, max: -2.5554999999999928, positive: true, type: "cost"},
-				],
-				33: [
-					{min: 49.951, max: 55.20900000000001, positive: true, type: "health"},
-					{min: -2.8979999999999957, max: -2.621999999999996, positive: true, type: "cost"},
-				],
-				34: [
-					{min: 51.233500000000014, max: 56.626500000000014, positive: true, type: "health"},
-					{min: -2.9714999999999994, max: -2.688499999999999, positive: true, type: "cost"},
-				],
-				35: [
-					{min: 52.51599999999999, max: 58.044, positive: true, type: "health"},
-					{min: -3.044999999999991, max: -2.754999999999992, positive: true, type: "cost"},
-				],
-				36: [
-					{min: 53.7985, max: 59.46150000000001, positive: true, type: "health"},
-					{min: -3.1184999999999947, max: -2.821499999999995, positive: true, type: "cost"},
-				],
-			}
-		},
-		{
-			name: "Iron-Bound Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_R33_ua.png",
-			effects: {
-				30: [
-					{min: 42.825999999999986, max: 47.33399999999998, positive: true, type: "damage"},
-					{min: 11.741999999999992, max: 12.977999999999993, positive: true, type: "multiplierBuildings"},
-				],
-				31: [
-					{min: 43.99449999999999, max: 48.62549999999999, positive: true, type: "damage"},
-					{min: 12.0555, max: 13.324500000000002, positive: true, type: "multiplierBuildings"},
-				],
-				32: [
-					{min: 45.163000000000004, max: 49.91700000000001, positive: true, type: "damage"},
-					{min: 12.368999999999987, max: 13.670999999999987, positive: true, type: "multiplierBuildings"},
-				],
-				33: [
-					{min: 46.3315, max: 51.20850000000001, positive: true, type: "damage"},
-					{min: 12.682499999999994, max: 14.017499999999995, positive: true, type: "multiplierBuildings"},
-				],
-				34: [
-					{min: 47.5, max: 52.5, positive: true, type: "damage"},
-					{min: 12.996000000000002, max: 14.364000000000004, positive: true, type: "multiplierBuildings"},
-				],
-				35: [
-					{min: 48.668499999999995, max: 53.7915, positive: true, type: "damage"},
-					{min: 13.30949999999999, max: 14.710499999999989, positive: true, type: "multiplierBuildings"},
-				],
-				36: [
-					{min: 49.83699999999999, max: 55.083, positive: true, type: "damage"},
-					{min: 13.622999999999996, max: 15.056999999999997, positive: true, type: "multiplierBuildings"},
-				],
-			}
-		},
-		{
-			name: "Athenian Champion's Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_E60_ua.png",
-			effects: {
-				31: [
-					{min: 54.976499999999994, max: 60.7635, positive: true, type: "damage"},
-					{min: 4.987499999999999, max: 5.512499999999999, positive: true, type: "health"},
-				],
-				32: [
-					{min: 56.46799999999998, max: 62.411999999999985, positive: true, type: "damage"},
-					{min: 5.120499999999984, max: 5.6594999999999835, positive: true, type: "health"},
-				],
-				33: [
-					{min: 57.959499999999984, max: 64.06049999999999, positive: true, type: "damage"},
-					{min: 5.253499999999991, max: 5.80649999999999, positive: true, type: "health"},
-				],
-				34: [
-					{min: 59.450999999999986, max: 65.70899999999999, positive: true, type: "damage"},
-					{min: 5.386499999999997, max: 5.953499999999997, positive: true, type: "health"},
-				],
-				35: [
-					{min: 60.942499999999974, max: 67.35749999999997, positive: true, type: "damage"},
-					{min: 5.519499999999982, max: 6.100499999999982, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Dark-Iron Battle Ram",
-			img: "Gear/Generic/Ramheads/Ram_U10_ua.png",
-			effects: {
-				33: [
-					{min: 23.81649999999999, max: 26.323499999999996, positive: true, type: "damage"},
-					{min: 28.481000000000005, max: 31.47900000000001, positive: true, type: "multiplierBuildings"},
-				],
-			}
-		},
-		{
-			name: "Heavy Iron Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_R32_ua.png",
-			effects: {
-				31: [
-					{min: 43.99449999999999, max: 48.62549999999999, positive: true, type: "damage"},
-					{min: 10.202999999999994, max: 11.276999999999996, positive: true, type: "armorPierce"},
-				],
-			}
-		},
-		{
-			name: "Bronze Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_U13_ua.png",
-			effects: {
-				17: [
-					{min: 21.849999999999998, max: 24.150000000000002, positive: true, type: "damage"},
-				],
-				18: [
-					{min: 22.70500000000001, max: 25.09500000000001, positive: true, type: "damage"},
-				],
-				19: [
-					{min: 23.56, max: 26.040000000000003, positive: true, type: "damage"},
-				],
-				20: [
-					{min: 24.41500000000001, max: 26.98500000000001, positive: true, type: "damage"},
-				],
-				21: [
-					{min: 25.27, max: 27.930000000000003, positive: true, type: "damage"},
-				],
-				22: [
-					{min: 26.124999999999993, max: 28.874999999999993, positive: true, type: "damage"},
-				],
-				23: [
-					{min: 26.98, max: 29.820000000000004, positive: true, type: "damage"},
-				],
-				24: [
-					{min: 27.83500000000001, max: 30.76500000000002, positive: true, type: "damage"},
-				],
-				25: [
-					{min: 28.69, max: 31.710000000000004, positive: true, type: "damage"},
-				],
-				26: [
-					{min: 29.544999999999995, max: 32.654999999999994, positive: true, type: "damage"},
-				],
-				27: [
-					{min: 30.400000000000006, max: 33.60000000000001, positive: true, type: "damage"},
-				],
-				28: [
-					{min: 31.254999999999995, max: 34.545, positive: true, type: "damage"},
-				],
-				29: [
-					{min: 32.11000000000001, max: 35.490000000000016, positive: true, type: "damage"},
-				],
-				30: [
-					{min: 32.964999999999996, max: 36.434999999999995, positive: true, type: "damage"},
-				],
-				31: [
-					{min: 33.82000000000001, max: 37.38000000000001, positive: true, type: "damage"},
-				],
-			}
-		},
-		{
-			name: "Ra's Golden Fist",
-			img: "Gear/Generic/Ramheads/Ram_E62_ua.png",
-			effects: {
-				26: [
-					{min: 41.24900000000002, max: 45.591000000000015, positive: true, type: "damage"},
-					{min: 15.722499999999997, max: 17.377499999999998, positive: true, type: "multiplierBuildings"},
-					{min: 0.9214999999999829, max: 1.018499999999981, positive: true, type: "speed"},
-				],
-				27: [
-					{min: 42.541, max: 47.019000000000005, positive: true, type: "damage"},
-					{min: 16.207000000000008, max: 17.91300000000001, positive: true, type: "multiplierBuildings"},
-					{min: 0.9499999999999797, max: 1.0499999999999776, positive: true, type: "speed"},
-				],
-				28: [
-					{min: 43.833, max: 48.447, positive: true, type: "damage"},
-					{min: 16.691499999999998, max: 18.448499999999996, positive: true, type: "multiplierBuildings"},
-					{min: 0.9784999999999977, max: 1.0814999999999975, positive: true, type: "speed"},
-				],
-				29: [
-					{min: 45.12500000000001, max: 49.87500000000001, positive: true, type: "damage"},
-					{min: 17.176000000000005, max: 18.984000000000005, positive: true, type: "multiplierBuildings"},
-					{min: 1.0069999999999946, max: 1.112999999999994, positive: true, type: "speed"},
-				],
-				30: [
-					{min: 46.41699999999999, max: 51.303, positive: true, type: "damage"},
-					{min: 17.660500000000017, max: 19.51950000000002, positive: true, type: "multiplierBuildings"},
-					{min: 1.0354999999999914, max: 1.1444999999999905, positive: true, type: "speed"},
-				],
-			}
-		},
-		{
-			name: "Exceptional Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_U11_ua.png",
-			effects: {
-				30: [
-					{min: 34.675, max: 38.325, positive: true, type: "damage"},
-					{min: 0.7410000000000028, max: 0.8190000000000031, positive: true, type: "speed"},
-				],
-			}
-		},
-		{
-			name: "Anvil of Hephaestus",
-			img: "Gear/Generic/Ramheads/Ram_E61_ua.png",
-			effects: {
-				24: [
-					{min: 41.724, max: 46.11600000000001, positive: true, type: "damage"},
-					{min: 15.855500000000005, max: 17.524500000000007, positive: true, type: "armorPierce"},
-				],
-				25: [
-					{min: 43.1205, max: 47.6595, positive: true, type: "damage"},
-					{min: 16.377999999999986, max: 18.10199999999999, positive: true, type: "armorPierce"},
-				],
-				26: [
-					{min: 44.51699999999999, max: 49.202999999999996, positive: true, type: "damage"},
-					{min: 16.900499999999994, max: 18.679499999999997, positive: true, type: "armorPierce"},
-				],
-				27: [
-					{min: 45.913500000000006, max: 50.746500000000005, positive: true, type: "damage"},
-					{min: 17.423, max: 19.257, positive: true, type: "armorPierce"},
-				],
-				28: [
-					{min: 47.309999999999995, max: 52.29, positive: true, type: "damage"},
-					{min: 17.945499999999985, max: 19.834499999999988, positive: true, type: "armorPierce"},
-				],
-			}
-		},
-		{
-			name: "Studded Iron Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_R31_ua.png",
-			effects: {
-				24: [
-					{min: 16.473, max: 18.207, positive: true, type: "damage"},
-					{min: 25.545499999999993, max: 28.234499999999993, positive: true, type: "armorInfantry"},
-				],
-				25: [
-					{min: 17.005000000000006, max: 18.795000000000005, positive: true, type: "damage"},
-					{min: 26.372000000000003, max: 29.148000000000007, positive: true, type: "armorInfantry"},
-				],
-				26: [
-					{min: 17.537000000000006, max: 19.38300000000001, positive: true, type: "damage"},
-					{min: 27.1985, max: 30.0615, positive: true, type: "armorInfantry"},
-				],
-				27: [
-					{min: 18.068999999999992, max: 19.970999999999993, positive: true, type: "damage"},
-					{min: 28.02499999999999, max: 30.974999999999994, positive: true, type: "armorInfantry"},
-				],
-				28: [
-					{min: 18.601, max: 20.558999999999997, positive: true, type: "damage"},
-					{min: 28.851500000000005, max: 31.88850000000001, positive: true, type: "armorInfantry"},
-				],
-			}
-		},
-		{
-			name: "Majestic Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_U10_ua.png",
-			effects: {
-				28: [
-					{min: 32.83199999999999, max: 36.28799999999999, positive: true, type: "damage"},
-					{min: 9.642499999999991, max: 10.657499999999992, positive: true, type: "multiplierBuildings"},
-				],
-			}
-		},
-		{
-			name: "The Minotaur's Horn",
-			img: "Gear/Generic/Ramheads/Ram_E62_ua.png",
-			effects: {
-				19: [
-					{min: 32.414000000000016, max: 35.82600000000002, positive: true, type: "damage"},
-					{min: 12.749000000000008, max: 14.09100000000001, positive: true, type: "multiplierBuildings"},
-					{min: 6.99200000000001, max: 7.728000000000012, positive: true, type: "armorPierce"},
-				],
-				20: [
-					{min: 33.7155, max: 37.264500000000005, positive: true, type: "damage"},
-					{min: 13.252499999999996, max: 14.647499999999996, positive: true, type: "multiplierBuildings"},
-					{min: 7.267500000000001, max: 8.032500000000002, positive: true, type: "armorPierce"},
-				],
-				21: [
-					{min: 35.017, max: 38.70300000000001, positive: true, type: "damage"},
-					{min: 13.756000000000004, max: 15.204000000000004, positive: true, type: "multiplierBuildings"},
-					{min: 7.543000000000013, max: 8.337000000000014, positive: true, type: "armorPierce"},
-				],
-				22: [
-					{min: 36.31850000000001, max: 40.141500000000015, positive: true, type: "damage"},
-					{min: 14.259500000000012, max: 15.760500000000013, positive: true, type: "multiplierBuildings"},
-					{min: 7.818500000000004, max: 8.641500000000004, positive: true, type: "armorPierce"},
-				],
-				23: [
-					{min: 37.62000000000001, max: 41.58000000000002, positive: true, type: "damage"},
-					{min: 14.762999999999998, max: 16.317, positive: true, type: "multiplierBuildings"},
-					{min: 8.093999999999994, max: 8.945999999999994, positive: true, type: "armorPierce"},
-				],
-			}
-		},
-		{
-			name: "Lightly Reinforced Ram",
-			img: "Gear/Generic/Ramheads/Ram_R30_ua.png",
-			effects: {
-				23: [
-					{min: 21.8405, max: 24.139499999999998, positive: true, type: "damage"},
-					{min: 3.429499999999981, max: 3.790499999999979, positive: true, type: "speed"},
-				],
-			}
-		},
-		{
-			name: "Wallbreaker",
-			img: "Gear/Generic/Ramheads/Ram_R33_ua.png",
-			effects: {
-				22: [
-					{min: 21.346500000000013, max: 23.593500000000013, positive: true, type: "damage"},
-					{min: 41.001999999999995, max: 45.318, positive: true, type: "multiplierBuildings"},
-				],
-			}
-		},
-		{
-			name: "Heavy Iron Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_R34_ua.png",
-			effects: {
-				17: [
-					{min: 27.82549999999999, max: 30.754499999999993, positive: true, type: "damage"},
-					{min: 6.8590000000000035, max: 7.581000000000005, positive: true, type: "armorPierce"},
-				],
-				18: [
-					{min: 29.00349999999999, max: 32.05649999999999, positive: true, type: "damage"},
-					{min: 7.143999999999993, max: 7.895999999999994, positive: true, type: "armorPierce"},
-				],
-				19: [
-					{min: 30.18149999999999, max: 33.35849999999999, positive: true, type: "damage"},
-					{min: 7.429000000000004, max: 8.211000000000006, positive: true, type: "armorPierce"},
-				],
-				20: [
-					{min: 31.359499999999983, max: 34.660499999999985, positive: true, type: "damage"},
-					{min: 7.713999999999994, max: 8.525999999999994, positive: true, type: "armorPierce"},
-				],
-				21: [
-					{min: 32.53749999999998, max: 35.96249999999998, positive: true, type: "damage"},
-					{min: 7.999000000000005, max: 8.841000000000006, positive: true, type: "armorPierce"},
-				],
-			}
-		},
-		{
-			name: "Studded Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_R33_ua.png",
-			effects: {
-				14: [
-					{min: 24.291500000000003, max: 26.848500000000005, positive: true, type: "damage"},
-					{min: 6.0039999999999925, max: 6.635999999999992, positive: true, type: "armorInfantry"},
-				],
-				15: [
-					{min: 25.4695, max: 28.150500000000005, positive: true, type: "damage"},
-					{min: 6.289000000000003, max: 6.951000000000004, positive: true, type: "armorInfantry"},
-				],
-				16: [
-					{min: 26.647499999999997, max: 29.452499999999997, positive: true, type: "damage"},
-					{min: 6.573999999999993, max: 7.265999999999993, positive: true, type: "armorInfantry"},
-				],
-				17: [
-					{min: 27.82549999999999, max: 30.754499999999993, positive: true, type: "damage"},
-					{min: 6.8590000000000035, max: 7.581000000000005, positive: true, type: "armorInfantry"},
-				],
-				18: [
-					{min: 29.00349999999999, max: 32.05649999999999, positive: true, type: "damage"},
-					{min: 7.143999999999993, max: 7.895999999999994, positive: true, type: "armorInfantry"},
-				],
-				19: [
-					{min: 30.18149999999999, max: 33.35849999999999, positive: true, type: "damage"},
-					{min: 7.429000000000004, max: 8.211000000000006, positive: true, type: "armorInfantry"},
-				],
-				20: [
-					{min: 31.359499999999983, max: 34.660499999999985, positive: true, type: "damage"},
-					{min: 7.713999999999994, max: 8.525999999999994, positive: true, type: "armorInfantry"},
-				],
-			}
-		},
-		{
-			name: "Hero's Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_U12_ua.png",
-			effects: {
-				20: [
-					{min: -5.753999999999996, max: -5.205999999999996, positive: true, type: "cost"},
-					{min: 6.640499999999985, max: 7.339499999999985, positive: true, type: "multiplierBuildings"},
-				],
-			}
-		},
-		{
-			name: "Remarkable Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_U13_ua.png",
-			effects: {
-				20: [
-					{min: 25.46, max: 28.14, positive: true, type: "damage"},
-					{min: 0.5510000000000026, max: 0.6090000000000029, positive: true, type: "speed"},
-				],
-			}
-		},
-		{
-			name: "Superior Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_U12_ua.png",
-			effects: {
-				18: [
-					{min: -6.237000000000002, max: -5.643000000000001, positive: true, type: "cost"},
-					{min: 7.181999999999989, max: 7.937999999999989, positive: true, type: "multiplierBuildings"},
-				],
-			}
-		},
-		{
-			name: "Artificer's Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_U11_ua.png",
-			effects: {
-				9: [
-					{min: 15.009999999999991, max: 16.589999999999993, positive: true, type: "damage"},
-				],
-				10: [
-					{min: 15.865000000000002, max: 17.535000000000004, positive: true, type: "damage"},
-				],
-				11: [
-					{min: 16.720000000000013, max: 18.480000000000018, positive: true, type: "damage"},
-				],
-				12: [
-					{min: 17.575000000000006, max: 19.425000000000008, positive: true, type: "damage"},
-				],
-				13: [
-					{min: 18.429999999999996, max: 20.369999999999994, positive: true, type: "damage"},
-				],
-				14: [
-					{min: 19.285000000000007, max: 21.31500000000001, positive: true, type: "damage"},
-				],
-				15: [
-					{min: 20.139999999999993, max: 22.259999999999998, positive: true, type: "damage"},
-				],
-				16: [
-					{min: 20.995000000000008, max: 23.20500000000001, positive: true, type: "damage"},
-				],
-			}
-		},
-		{
-			name: "Copper Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_U10_ua.png",
-			effects: {
-				9: [
-					{min: 12.568500000000007, max: 13.891500000000008, positive: true, type: "damage"},
-					{min: 5.281999999999988, max: 5.837999999999987, positive: true, type: "armorCavalry"},
-				],
-				10: [
-					{min: 13.280999999999993, max: 14.678999999999993, positive: true, type: "damage"},
-					{min: 5.576499999999998, max: 6.163499999999997, positive: true, type: "armorCavalry"},
-				],
-				11: [
-					{min: 13.993499999999997, max: 15.4665, positive: true, type: "damage"},
-					{min: 5.871000000000007, max: 6.489000000000009, positive: true, type: "armorCavalry"},
-				],
-				12: [
-					{min: 14.706000000000003, max: 16.254000000000005, positive: true, type: "damage"},
-					{min: 6.165499999999995, max: 6.814499999999996, positive: true, type: "armorCavalry"},
-				],
-				13: [
-					{min: 15.41850000000001, max: 17.041500000000013, positive: true, type: "damage"},
-					{min: 6.460000000000005, max: 7.140000000000007, positive: true, type: "armorCavalry"},
-				],
-				14: [
-					{min: 16.130999999999997, max: 17.828999999999997, positive: true, type: "damage"},
-					{min: 6.754499999999994, max: 7.465499999999994, positive: true, type: "armorCavalry"},
-				],
-				15: [
-					{min: 16.8435, max: 18.616500000000002, positive: true, type: "damage"},
-					{min: 7.049000000000004, max: 7.791000000000005, positive: true, type: "armorCavalry"},
-				],
-				16: [
-					{min: 17.556000000000008, max: 19.404000000000007, positive: true, type: "damage"},
-					{min: 7.343499999999993, max: 8.116499999999993, positive: true, type: "armorCavalry"},
-				],
-			}
-		},
-		{
-			name: "Nubian Conqueror Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_R32_ua.png",
-			effects: {
-				15: [
-					{min: 16.330500000000015, max: 18.049500000000016, positive: true, type: "damage"},
-					{min: 2.688499999999999, max: 2.9714999999999994, positive: true, type: "speed"},
-				],
-			}
-		},
-		{
-			name: "Reinforced Ram",
-			img: "Gear/Generic/Ramheads/Ram_R31_ua.png",
-			effects: {
-				11: [
-					{min: 15.798499999999988, max: 17.46149999999999, positive: true, type: "damage"},
-					{min: 6.450499999999986, max: 7.129499999999984, positive: true, type: "health"},
-				],
-				12: [
-					{min: 16.691499999999998, max: 18.448499999999996, positive: true, type: "damage"},
-					{min: 6.811499999999988, max: 7.528499999999987, positive: true, type: "health"},
-				],
-				13: [
-					{min: 17.584500000000006, max: 19.435500000000005, positive: true, type: "damage"},
-					{min: 7.1724999999999905, max: 7.9274999999999896, positive: true, type: "health"},
-				],
-				14: [
-					{min: 18.47749999999999, max: 20.42249999999999, positive: true, type: "damage"},
-					{min: 7.533499999999993, max: 8.326499999999992, positive: true, type: "health"},
-				],
-				15: [
-					{min: 19.370499999999996, max: 21.409499999999998, positive: true, type: "damage"},
-					{min: 7.894499999999995, max: 8.725499999999995, positive: true, type: "health"},
-				],
-			}
-		},
-		{
-			name: "Helios' Heavy Ram",
-			img: "Gear/Generic/Ramheads/Ram_R30_ua.png",
-			effects: {
-				7: [
-					{min: 13.233500000000019, max: 14.626500000000023, positive: true, type: "health"},
-					{min: 10.421499999999991, max: 11.518499999999992, positive: true, type: "armorPierce"},
-				],
-				8: [
-					{min: 14.202500000000017, max: 15.697500000000021, positive: true, type: "health"},
-					{min: 11.171999999999992, max: 12.347999999999994, positive: true, type: "armorPierce"},
-				],
-				9: [
-					{min: 15.171500000000016, max: 16.768500000000017, positive: true, type: "health"},
-					{min: 11.922499999999994, max: 13.177499999999993, positive: true, type: "armorPierce"},
-				],
-				10: [
-					{min: 16.140500000000014, max: 17.83950000000002, positive: true, type: "health"},
-					{min: 12.672999999999996, max: 14.006999999999996, positive: true, type: "armorPierce"},
-				],
-				11: [
-					{min: 17.109500000000015, max: 18.910500000000017, positive: true, type: "health"},
-					{min: 13.423499999999999, max: 14.8365, positive: true, type: "armorPierce"},
-				],
-			}
-		},
-		{
-			name: "Fine Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_U11_ua.png",
-			effects: {
-				11: [
-					{min: 17.299499999999995, max: 19.120499999999993, positive: true, type: "damage"},
-					{min: 0.38000000000000034, max: 0.4200000000000004, positive: true, type: "speed"},
-				],
-			}
-		},
-		{
-			name: "Ordinary Ram Head",
-			img: "Gear/Generic/Ramheads/Ram_U10_ua.png",
-			effects: {
-				8: [
-					{min: 14.506499999999983, max: 16.033499999999982, positive: true, type: "damage"},
-					{min: 4.531499999999986, max: 5.008499999999985, positive: true, type: "multiplierBuildings"},
-				],
-			}
-		},
-	],
 	religiousItem: [
 		{name: "None", img: 'Slot/PriestGearSlot_ua.png'},
 		{
@@ -27118,7 +27118,7 @@ var gear = {
 			img: "Gear/Celeste/Generic/Gear/Inf/Gear_BFG_ua.png",
 			effects: {
 				40: [
-					{min: -10.354999999999999, max: -11.444999999999999, positive: true, type: "cost"},
+					{min: -11.444999999999999, max: -10.354999999999999, positive: true, type: "cost"},
 				],
 			}
 		},

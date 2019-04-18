@@ -65,7 +65,7 @@ var UnitObject = function(element, isDuplicate) {
 								let inputElement = effects[j].element;
 								let valueElement = inputElement.parentElement.getElementsByClassName('stat-selector-value-input')[0];
 								inputElement.value = gear.stats[effect];
-								valueElement.textContent = round(inputElement.value);
+								valueElement.value = round(inputElement.value);
 								break;
 							}
 						}

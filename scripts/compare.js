@@ -18,6 +18,8 @@ function duplicateUnitDOM(unit) {
 	let statSelectorsDest = div.getElementsByClassName("stat-selector-slider");
 	for(let i = 0 ; i < statSelectorsSrc.length ; i++) {
 		statSelectorsDest[i].value = statSelectorsSrc[i].value;
+		let valueElement = statSelectorsDest[i].parentElement.getElementsByClassName('stat-selector-value-input')[0];
+		valueElement.value = statSelectorsSrc[i].value;
 	}
 
 	return div;

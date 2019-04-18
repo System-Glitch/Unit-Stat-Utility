@@ -45,10 +45,10 @@ StatsSelector.prototype.loadExisting = function() {
 	let sliders = this.element.getElementsByClassName("gear-stat");
 	for(let i = 0 ; i < sliders.length ; i++) {
 		let element = sliders[i];
-		let valueElement = element.getElementsByClassName('stat-selector-value')[0];
+		let valueElement = element.getElementsByClassName('stat-selector-value-input')[0];
 		let inputElement = element.getElementsByClassName('stat-selector-slider')[0];
 		inputElement.oninput = function(event) {
-			valueElement.textContent = round(inputElement.value);
+			valueElement.value = round(inputElement.value);
 			that.unitObject.state.gear[that.category].stats[element.dataset.effect] = inputElement.value;
 			that.unitObject.updateStats();
 			updateComparison(element.dataset.effect);

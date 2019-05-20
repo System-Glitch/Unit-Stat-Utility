@@ -314,7 +314,7 @@ UnitObject.prototype.updateStats = function() {
 			if((result == 0 || (result == 1 && effects[key].startsAtOne)) && key.indexOf("cost") != 0)
 				display.parentElement.style.display = "none";
 			else
-				display.parentElement.style.display = "block";
+				display.parentElement.style.display = "table-row";
 		}
 	}
 }

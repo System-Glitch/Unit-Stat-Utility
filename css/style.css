@@ -1,16 +1,34 @@
 body {
 	font-family: Lato,sans-serif;
-	background-image: url('../img/UI/background.png');
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
 	color: white;
 	min-height: 100vh;
 	margin: 0;
 
+	background-image: url('../img/UI/background.jpg');
+
 	--select-bg-color: #FEFEFE;
 	--select-bg-color-hover: #DDD;
+}
+
+body, .box:after {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #488489;
+}
+
+.main-container {
+	padding: 2rem;
+}
+
+.center {
+	margin: auto;
+}
+
+.center-container {
+	display: flex;
+	margin: auto;
 }
 
 a {
@@ -23,7 +41,11 @@ a:hover {
 }
 
 .text-small {
-	font-size: 12px;
+	font-size: 13px;
+}
+
+.text-shadow, .box {
+	text-shadow: 1px 0 1px #000;
 }
 
 .flex-container {
@@ -73,6 +95,10 @@ a:hover {
 	color: #f9a304;
 }
 
+.text-lg {
+	font-size: xx-large;
+}
+
 .mt-1 {
 	margin-top: 1rem;
 }
@@ -86,13 +112,25 @@ a:hover {
 }
 
 .box {
+	position: relative;
 	box-shadow: 0 3px 1px -2px rgba(93,61,19,.2),0 2px 2px 0 rgba(93,61,19,.14),0 1px 5px 0 rgba(93,61,19,.12);
-	background: rgba(30, 30, 30, 0.5);
+	background: rgba(30, 30, 30, 0.4);
 	border-radius: 6px;
 	display: flex;
 	flex-direction: column;
 	padding: 1rem;
-	text-shadow: 1px 0 1px #000;
+}
+
+.box:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+    z-index: -1;
+    background-image: url('../img/UI/background-blurred.jpg');
+    border-radius: 6px;
 }
 
 h1 {
@@ -122,9 +160,20 @@ h4, p {
 	display: none;
 }
 
+.effect > span {
+	display: table-cell;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.effect > span:last-child {
+	text-align: end;
+}
+
 .resource-icon {
 	vertical-align: text-bottom;
 	margin-right: 5px;
+	margin-left: 4px;
 }
 
 .select {
@@ -139,6 +188,7 @@ h4, p {
 	flex-direction: row;
 	flex-wrap: nowrap;
 	border: 1px solid #7A7A7A;
+	border-radius: 4px;
 }
 
 .select-selected:hover {
@@ -156,6 +206,8 @@ h4, p {
 	border-left: 1px solid #7A7A7A;
 	color: #000;
 	background-color: var(--select-bg-color);
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
 }
 
 .select-dropdown, .upgrade-tooltip {
@@ -192,6 +244,10 @@ h4, p {
 	min-height: 32px;
 }
 
+.gear-selector-slot .gear-select-selected .select-option {
+	border-radius: 4px;
+}
+
 .select-name {
 	line-height: 32px;
 	padding-right: 5px;
@@ -208,10 +264,16 @@ h4, p {
 	background-color: var(--select-bg-color);
 }
 
+.select-selected .select-option {
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
 .select-img {
 	width: 32px;
 	height: 32px;
 	margin-right: 5px;
+	border-radius: 3px;
 }
 
 .civ-icon {
@@ -253,6 +315,7 @@ h4, p {
 	padding-right: 5px;
 	border-bottom: 1px solid #DDD;
 	width: 100%;
+	background: #fff;
 }
 
 .gear-select {
@@ -271,7 +334,7 @@ h4, p {
 	margin-right: 0px;
 	width: 40px;
 	height: 40px;
-	border-right: 
+	border-radius: 4px;
 }
 
 .gear-select-dropdown, .stats-selector, .upgrade-tooltip {
@@ -307,6 +370,7 @@ h4, p {
 	width: 64px;
 	height: 64px;
 	margin-right: 10px;
+	border-radius: 10px;
 }
 
 .gear-selector {
@@ -324,6 +388,7 @@ h4, p {
 	background-image: url('../img/Slot/ArmorPlatingSlot_ua.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
+	border-radius: 4px;
 }
 
 .gear-selector-slot:hover {
@@ -488,7 +553,6 @@ h4, p {
 .upgrade-row {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
 }
 
 .upgrade-row * {
@@ -512,6 +576,7 @@ h4, p {
 	opacity: 0.4;
 	width: 40px;
 	height: 40px;
+	border-radius: 3px;
 }
 
 .upgrade-tooltip {
@@ -578,12 +643,11 @@ h4, p {
 }
 
 .buttons-container {
-	display: inline-block;
-	position: absolute;
-	right: 1rem;
-	top: 1rem;
+	display: inline-flex;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	justify-content: end;
+	width: 100%;
 }
 
 .button {
@@ -609,19 +673,26 @@ button::-moz-focus-inner {
 .unit {
 	display: flex;
 	flex-direction: column;
-}
+	padding-left: 1rem;
+	padding-right: 1rem;
+	white-space: nowrap;
 
-.unit:first-child {
 	margin-left: auto;
-}
-
-.unit:last-child {
 	margin-right: auto;
 }
 
 .unit .row {
 	padding-right: 15px;
 	padding-left: 15px;
+}
+
+.unit-select-title {
+	display: inline-block;
+	margin-right: 1.5rem;
+}
+
+.unit-header {
+	display: flex;
 }
 
 .clipboard-notification {

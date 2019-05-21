@@ -16242,7 +16242,7 @@ var gear = {
 		{name: "None", img: 'Slot/TorcSlot_ua.png'},
 		{
 			name: "Divine Torc",
-			img: "Gear/Celt/Torc/Torc1.png",
+			img: "Gear/Celeste/Celt/Torc/Torc1.png",
 			effects: {
 				40: [
 					{min: 25.97300000000001, max: 28.70700000000001, positive: true, type: "health"},

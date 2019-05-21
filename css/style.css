@@ -585,6 +585,10 @@ h4, p {
 	margin-right: 5px;
 }
 
+.upgrade-row .chained-upgrade > .upgrade {
+	margin-right: 0px;
+}
+
 .upgrade {
 	vertical-align: middle;
 	opacity: 0.4;
@@ -627,6 +631,7 @@ h4, p {
 
 .upgrade-arrow {
 	font-size: 35px;
+	line-height: 40px;
 	vertical-align: middle;
 	margin-left: 5px;
 	margin-right: 5px;

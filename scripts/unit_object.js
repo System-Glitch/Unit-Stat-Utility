@@ -106,27 +106,22 @@ UnitObject.prototype.registerCloseButton = function() {
 UnitObject.prototype.registerShareButton = function() {
 	let button = this.element.getElementsByClassName("share-button")[0];
 	if(button != undefined) {
-		const that = this;
 		button.onclick = function(ev) {
-			let json = JSURL.stringify(that.state);
-			let url = updateURLParameter("unit", json);
+			let json = JSURL.stringify(this.state);
+			postUnit(json, function(id) {
+				let url = updateURLParameter("unit", id);
+				window.history.pushState({}, 'Age of Empires Online Gear', url);
 
-			var temp = document.createElement("input");
-			document.body.appendChild(temp);
-			temp.value = url;
-			temp.select();
-			document.execCommand("copy");		
-			temp.remove();
+				var notification = ev.target.getElementsByClassName("clipboard-notification")[0];
 
-			var notification = ev.target.getElementsByClassName("clipboard-notification")[0];
-
-			if(!notification.classList.contains('clipboard-notification-shown')) {
-				notification.classList.add("clipboard-notification-shown");
-				setTimeout(function() {
+				if(!notification.classList.contains('clipboard-notification-shown')) {
+					notification.classList.add("clipboard-notification-shown");
+					setTimeout(function() {
 						notification.classList.remove("clipboard-notification-shown");
-				}, 3000);
-			}
-		}
+					}, 3000);
+				}
+			}.bind(this));
+		}.bind(this);
 	}	
 }
 
@@ -635,11 +630,23 @@ function updateComparison(effect) {
 var mode = "LOADING";
 var shareOptions = undefined;
 (function() {
-	shareOptions = getUrlParameter("unit");
-	registerUnitObjects();
-	mode = "DONE";
+	unitId = getUrlParameter("unit");
 
-	for(let i = 0 ; i < unitObjects.length ; i++)
-		unitObjects[i].updateStats();
+	if(unitId) {
+		getUnit(unitId, function(state) {
+			shareOptions = state
+			registerUnitObjects();
+			mode = "DONE";
+
+			for(let i = 0 ; i < unitObjects.length ; i++)
+				unitObjects[i].updateStats();
+		})
+	} else {
+		registerUnitObjects();
+		mode = "DONE";
+
+		for(let i = 0 ; i < unitObjects.length ; i++)
+			unitObjects[i].updateStats();
+	}
 })();
 

@@ -1,0 +1,24 @@
+{
+  "name": "unit-stat-utility",
+  "version": "1.0.0",
+  "description": "A utility which allows to simulate stats and compare any AOEO unit when equipped with certain gear.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/System-Glitch/Unit-Stat-Utility.git"
+  },
+  "author": "Jérémy LAMBERT (System-Glitch)",
+  "bugs": {
+    "url": "https://github.com/System-Glitch/Unit-Stat-Utility/issues"
+  },
+  "homepage": "https://github.com/System-Glitch/Unit-Stat-Utility#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "keyv": "^3.1.0",
+    "uuid": "^3.3.2"
+  }
+}

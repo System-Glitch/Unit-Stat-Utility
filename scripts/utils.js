@@ -32,13 +32,32 @@ function updateURLParameter(param, paramVal) {
 }
 
 function getUrlParameter(param) {
-	let url = new URL(window.location);
-	let raw = url.searchParams.get(param);
-	if(raw == undefined) return undefined;
-	try {
-		let value = JSURL.parse(raw);
-		return value;
-	} catch(e) {
-		return undefined;
+	const url = new URL(window.location);
+	const raw = url.searchParams.get(param);
+	return raw;
+}
+
+function postUnit(state, callback) {
+	const http = new XMLHttpRequest();
+	http.open('POST', 'builds', true);
+	http.setRequestHeader('Content-type', 'application/json');
+
+	http.onreadystatechange = function() {
+		if(http.readyState == 4 && http.status == 200) {
+			callback(http.responseText)
+		}
 	}
+	http.send(JSON.stringify({data: state}));
+}
+
+function getUnit(id, callback) {
+	const http = new XMLHttpRequest();
+	http.open('GET', 'builds/' + id, true);
+
+	http.onreadystatechange = function() {
+		if(http.readyState == 4 && http.status == 200) {
+			callback(JSURL.parse(http.responseText))
+		}
+	}
+	http.send();
 }

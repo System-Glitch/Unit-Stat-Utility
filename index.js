@@ -10,6 +10,7 @@ app.use(bodyParser.json())
 app.use('/css', express.static('css'))
 app.use('/img', express.static('img'))
 app.use('/scripts', express.static('scripts'))
+app.get('/robots.txt', (req, res) => res.sendFile(__dirname + '/robots.txt'))
 app.get('/', (req, res) => res.sendFile(__dirname + '/index.html'))
 
 app.post('/builds', async (req, res) => {

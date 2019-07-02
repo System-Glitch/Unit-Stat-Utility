@@ -7,9 +7,9 @@ const port = process.argv[2] | 8080
 const keyv = new Keyv()
 
 app.use(bodyParser.json())
-app.use('/css', express.static('css'))
-app.use('/img', express.static('img'))
-app.use('/scripts', express.static('scripts'))
+app.use('/css', express.static(__dirname + '/css'))
+app.use('/img', express.static(__dirname + '/img'))
+app.use('/scripts', express.static(__dirname + '/scripts'))
 app.get('/robots.txt', (req, res) => res.sendFile(__dirname + '/robots.txt'))
 app.get('/', (req, res) => res.sendFile(__dirname + '/index.html'))
 

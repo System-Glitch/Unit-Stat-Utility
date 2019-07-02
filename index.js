@@ -33,4 +33,4 @@ app.get('/builds/:b', async (req, res) => {
 	}
 })
 
-app.listen(port, () => console.log(`Unit stat utility server listening on port ${port}!`))
+app.listen(port, '0.0.0.0', () => console.log(`Unit stat utility server listening on port ${port}!`))

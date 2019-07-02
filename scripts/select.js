@@ -84,7 +84,10 @@ var Select = function(element, imgPath, type, unitObject) {
 					this.gearId = option.dataset.gear;
 					this.gear = gear[this.category][this.gearId];
 
-					this.unitObject.state.gear[this.category] = {id: parseInt(this.gearId), lvl: 0, stats: {}};
+					if(this.element.style.display == "inline-block") {
+						console.log(this.category)
+						this.unitObject.state.gear[this.category] = {id: parseInt(this.gearId), lvl: 0, stats: {}};
+					}
 					this.statsSelector.category = this.category;
 
 					this.statsSelector.gear = this.gear;
@@ -168,8 +171,9 @@ Select.prototype.select = function(optionIndex) {
 				this.gearId = option.dataset.gear;
 				this.gear = gear[this.category][this.gearId];
 
-				if(this.element.style.display == "inline-block")
+				if(this.element.style.display == "inline-block") {
 					this.unitObject.state.gear[this.category] = {id: parseInt(this.gearId), lvl: 0, stats: {}};
+				}
 				this.statsSelector.category = this.category;
 
 				this.statsSelector.loadGear(this.gear);

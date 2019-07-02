@@ -55,9 +55,17 @@ function getUnit(id, callback) {
 	http.open('GET', 'builds/' + id, true);
 
 	http.onreadystatechange = function() {
-		if(http.readyState == 4 && http.status == 200) {
-			callback(JSURL.parse(http.responseText))
+		if(http.readyState == 4) {
+			callback(http.status == 200 ? JSURL.parse(http.responseText) : undefined)
 		}
 	}
 	http.send();
+}
+
+function getGlobalState() {
+	const state = [];
+	for(let key in unitObjects) {
+		state.push(unitObjects[key].state);
+	}
+	return state;
 }

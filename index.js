@@ -26,6 +26,7 @@ app.post('/builds', async (req, res) => {
 
 app.get('/builds/:b', async (req, res) => {
 	const val = await keyv.get(req.params.b)
+	res.setHeader('Content-Type', 'text/plain')
 	if(val) {
 		res.send(val)
 	} else {

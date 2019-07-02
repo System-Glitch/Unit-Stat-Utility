@@ -31,7 +31,7 @@ function compareClicked(event) {
 
 	let unit = event.target.closest(".unit");
 	let duplicate = duplicateUnitDOM(unit);
-	let object = new UnitObject(duplicate, true);
+	let object = new UnitObject(duplicate, true, undefined);
 
 	unitContainer.appendChild(duplicate);
 	//object.updateUpgrades(object.unitSelect.unit);

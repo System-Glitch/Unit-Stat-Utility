@@ -1,6 +1,6 @@
 var unitObjects = [];
 
-var UnitObject = function(element, isDuplicate) {
+var UnitObject = function(element, isDuplicate, shareOptions) {
 	this.element = element;
 	this.unitSelect = null;
 	this.gearSelectors = [];
@@ -26,7 +26,7 @@ var UnitObject = function(element, isDuplicate) {
 
 	//Temporary check to avoid sharing on duplicates
 	this.isDuplicate = isDuplicate;
-	if(!isDuplicate && shareOptions != undefined) {
+	if(shareOptions != undefined) {
 		//Load share options
 		this.unitSelect.select(shareOptions.unit);
 
@@ -107,7 +107,7 @@ UnitObject.prototype.registerShareButton = function() {
 	let button = this.element.getElementsByClassName("share-button")[0];
 	if(button != undefined) {
 		button.onclick = function(ev) {
-			let json = JSURL.stringify(this.state);
+			let json = JSURL.stringify(getGlobalState());
 			postUnit(json, function(id) {
 				let url = updateURLParameter("unit", id);
 				window.history.pushState({}, 'Age of Empires Online Gear', url);
@@ -542,9 +542,19 @@ function setEffectColor(element, state) {
 }
 
 function registerUnitObjects() {
+	if(shareOptions && shareOptions.length > 1) {
+		const template = document.getElementsByClassName("unit")[0];
+		for(let i = 1 ; i < shareOptions.length ; i++) {
+			const dup = duplicateUnitDOM(template);
+			unitContainer.appendChild(dup);
+		}
+	}
+
 	let objects = document.getElementsByClassName("unit");
-	for(let i = 0 ; i < objects.length ; i++)
-		unitObjects.push(new UnitObject(objects[i], false));
+
+	for(let i = 0 ; i < objects.length ; i++) {
+		unitObjects.push(new UnitObject(objects[i], shareOptions != undefined && i != 0, shareOptions ? shareOptions[i] : undefined));
+	}
 }
 
 function updateComparison(effect) {
@@ -640,6 +650,10 @@ var shareOptions = undefined;
 
 			for(let i = 0 ; i < unitObjects.length ; i++)
 				unitObjects[i].updateStats();
+
+			if(shareOptions) {
+				updateComparison('all');
+			}
 		})
 	} else {
 		registerUnitObjects();

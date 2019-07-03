@@ -6,12 +6,17 @@ const app = express()
 const port = process.argv[2] | 8080
 const keyv = new Keyv()
 
+const oneYear = 3.154e+10
+
 app.use(bodyParser.json())
-app.use('/css', express.static(__dirname + '/css'))
-app.use('/img', express.static(__dirname + '/img'))
-app.use('/scripts', express.static(__dirname + '/scripts'))
+app.use('/css', express.static(__dirname + '/css', { maxAge: oneYear }))
+app.use('/img', express.static(__dirname + '/img', { maxAge: oneYear }))
+app.use('/scripts', express.static(__dirname + '/scripts', { maxAge: oneYear }))
 app.get('/robots.txt', (req, res) => res.sendFile(__dirname + '/robots.txt'))
-app.get('/', (req, res) => res.sendFile(__dirname + '/index.html'))
+app.get('/', (req, res) => {
+	res.set('Cache-Control', 'max-age=' + (oneYear / 1000));
+	res.sendFile(__dirname + '/index.html')
+})
 
 app.post('/builds', async (req, res) => {
 	if(req.body.data) {

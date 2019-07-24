@@ -769,6 +769,16 @@ var gear = {
 	bow: [
 		{name: "None", img: 'Slot/BowSlot_ua.png'},
 		{
+			name: "Ullr's All-Seeing Bow",
+			img: "Gear/Celeste/Generic/Bows/Bow1H_UASB_ua.png",
+			effects: {
+				40: [
+					{min: 38.570000000000014, max: 42.63000000000002, positive: true, type: "damage"},
+					{min: 11.114999999999998, max: 12.285, positive: true, type: "vision"},
+				],
+			}
+		},
+		{
 			name: "Alexander's Ornate Bow",
 			img: "Gear/Celeste/Generic/Bows/Bow1H_AOB_ua.png",
 			effects: {
@@ -20253,6 +20263,17 @@ var gear = {
 	mediumArmor: [
 		{name: "None", img: 'Slot/MedArmorSlot_ua.png'},
 		{
+			name: "Tyr's Mithril Breastplate",
+			img: "Gear/Celeste/Generic/Armor/Inf/Inf_TMB_ua.png",
+			effects: {
+				40: [
+					{min: 55.109500000000004, max: 60.910500000000006, positive: true, type: "health"},
+					{min: 16.501500000000018, max: 18.23850000000002, positive: true, type: "armorInfantry"},
+					{min: 9.310000000000008, max: 10.290000000000008, positive: true, type: "range"}
+				],
+			}
+		},
+		{
 			name: "Breastplate of Enkidu",
 			img: "Gear/Generic/Armor/Inf/Inf_L90v2_ua.png",
 			effects: {
@@ -21333,6 +21354,16 @@ var gear = {
 	reinforcedConstruction: [
 		{name: "None", img: 'Slot/WallsSlot_ua.png'},
 		{
+			name: "Great Walls of Kronos",
+			img: "Gear/Celeste/Generic/Armor/Bldg/ArmorBuilding_GWOK_ua.png",
+			effects: {
+				40: [
+					{min: 64.6, max: 71.4, positive: true, type: "health"},
+					{min: 13.290500000000012, max: 14.689500000000013, positive: true, type: "damage"}
+				],
+			}
+		},
+		{
 			name: "Council Overseer's Walls",
 			img: "Gear/Generic/Armor/Bldg/Bldg_L90_ua.png",
 			effects: {
@@ -22265,6 +22296,15 @@ var gear = {
 	],
 	laborerGear: [
 		{name: "None", img: 'Slot/CivGearSlot_ua.png'},
+		{
+			name: "Gerda's Gardening Essentials",
+			img: "Gear/Celeste/Generic/Gear/Vill/Gear_Vill_GGE_ua.png",
+			effects: {
+				40: [
+					{min: -9.554999999999998, max: -8.644999999999998, positive: true, type: "cost"},
+				],
+			}
+		},
 		{
 			name: "Nebuchadnezzar's Blessed Wine",
 			img: "Gear/Celeste/Generic/Gear/Vill/Gear_Vill_NBW_ua.png",
@@ -26441,6 +26481,17 @@ var gear = {
 	shipAccessory: [
 		{name: "None", img: 'Slot/BoatGearSlot_ua.png'},
 		{
+			name: "Hadad's Remarkable Hull",
+			img: "Gear/Celeste/Generic/Gear/Boat/Gear_Boat_HRH_ua.png",
+			effects: {
+				40: [
+					{min: 21.878499999999992, max: 24.181499999999996, positive: false, type: "cost"},
+					{min: 17.176000000000005, max: 18.984000000000005, positive: true, type: "damage"},
+					{min: 17.176000000000005, max: 18.984000000000005, positive: true, type: "health"}
+				],
+			}
+		},
+		{
 			name: "Hanno's Heavy Hull",
 			img: "Gear/Celeste/Generic/Gear/Boat/Gear_Boat_HHH_ua.png",
 			effects: {
@@ -27113,6 +27164,15 @@ var gear = {
 	],
 	soldiersGear: [
 		{name: "None", img: 'Slot/GearSlot_ua.png'},
+		{
+			name: "Heimdal's Training Sword",
+			img: "Gear/Celeste/Generic/Gear/Inf/Gear_HTS_ua.png",
+			effects: {
+				40: [
+					{min: -16.17, max: -14.63, positive: true, type: "timeTrain"}
+				],
+			}
+		},
 		{
 			name: "Beorix's Finest Gauntlets",
 			img: "Gear/Celeste/Generic/Gear/Inf/Gear_BFG_ua.png",

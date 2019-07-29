@@ -85,7 +85,6 @@ var Select = function(element, imgPath, type, unitObject) {
 					this.gear = gear[this.category][this.gearId];
 
 					if(this.element.style.display == "inline-block") {
-						console.log(this.category)
 						this.unitObject.state.gear[this.category] = {id: parseInt(this.gearId), lvl: 0, stats: {}};
 					}
 					this.statsSelector.category = this.category;

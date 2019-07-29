@@ -5,6 +5,7 @@ function duplicateUnitDOM(unit) {
 	for(let i = 0 ; i < unit.classList.length ; i++)
 		div.classList.add(unit.classList.item(i));
 	div.innerHTML = unit.innerHTML;
+	div.id = 'unit-' + unitObjects.length;
 
 	let shareButton = div.getElementsByClassName("share-button")[0];
 	if(shareButton != undefined) shareButton.remove();
@@ -30,8 +31,9 @@ function compareClicked(event) {
 	if(mode == "LOADING") return;
 
 	let unit = event.target.closest(".unit");
+	let id = parseInt(unit.id.replace('unit-', ''));
 	let duplicate = duplicateUnitDOM(unit);
-	let object = new UnitObject(duplicate, true, undefined);
+	let object = new UnitObject(duplicate, true, JSON.parse(JSON.stringify(unitObjects[id].state)));
 
 	unitContainer.appendChild(duplicate);
 	//object.updateUpgrades(object.unitSelect.unit);

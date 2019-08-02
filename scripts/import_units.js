@@ -122,7 +122,7 @@ var upgradesMapping = {
 	},
 	babylonians: {
 		AbstractInfantry: ["barracks", "armoryMelee", "pharmacology"],
-		AbstractArcher: ["archery", "armoryArrows", "pharmacology"],
+		AbstractArcher: ["archery", "armoryArrows", "pharmacology"], // War chariot is archer but shouldn't benefit from archery
 		AbstractCavalry: ["stables", "armoryMelee", "pharmacology"],
 		Military: ["armoryArmor", "armoryShield", "totalWar"],
 		Building: ["townWatch"]

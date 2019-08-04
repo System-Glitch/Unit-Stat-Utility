@@ -233,6 +233,7 @@ h4, p {
 	border-radius: 6px;
 	background: var(--bg-color);
 	color: #fff;
+	overflow: hidden;
 }
 
 .select-option-container {
@@ -242,6 +243,9 @@ h4, p {
 	overflow-y: auto;
 	overflow-x: hidden;
 	max-height: 160px;
+
+	scrollbar-color: hsla(0,0%,100%,.3) var(--bg-color);
+	scrollbar-width: auto;
 }
 
 .select-option {
@@ -252,7 +256,6 @@ h4, p {
 	white-space: nowrap;
 	background-color: var(--bg-color);
 	min-height: 32px;
-	border-radius: 6px;
 }
 
 .gear-selector-slot .gear-select-selected .select-option {

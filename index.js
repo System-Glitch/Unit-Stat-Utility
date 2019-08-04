@@ -3,7 +3,7 @@ const bodyParser = require('body-parser')
 const Keyv = require('keyv')
 const uuid = require('uuid/v4')
 const app = express()
-const port = process.argv[2] | 8080
+const port = process.argv[2] ? parseInt(process.argv[2]) : 8080
 const keyv = new Keyv()
 
 const oneYear = 3.154e+10

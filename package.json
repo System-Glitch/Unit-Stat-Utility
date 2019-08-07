@@ -1,10 +1,12 @@
 {
   "name": "unit-stat-utility",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A utility which allows to simulate stats and compare any AOEO unit when equipped with certain gear.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:advisors": "node ./gamedata/build_advisors.js",
+    "build:unittypes": "node ./gamedata/unit_types.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,9 @@
     "express": "^4.17.1",
     "keyv": "^3.1.0",
     "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "fast-xml-parser": "^3.12.19",
+    "sharp": "^0.23.0"
   }
 }

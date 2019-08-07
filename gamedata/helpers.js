@@ -154,14 +154,14 @@ module.exports = {
 
         return {
             type: type,
-            amount: effect.attr.amount,
+            amount: (effect.attr.amount - 1) * 100,
             absolute: effect.attr.relativity == 'Absolute' ? true : undefined,
             target: effect.Target ? effect.Target['#text'] != 'Unit' ? effect.Target['#text'] : undefined : undefined
         }
     },
     // Save a JSON element to a file
     save(json, file) {
-        fs.writeFile(file, JSON.stringify(json, null, 2), 'utf8', err => {
+        fs.writeFile(file, typeof json == "string" ? json : JSON.stringify(json), 'utf8', err => {
             if(err) throw err
         });
     }

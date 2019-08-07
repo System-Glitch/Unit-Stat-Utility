@@ -4,6 +4,7 @@ var UnitObject = function(element, isDuplicate, shareOptions) {
 	this.element = element;
 	this.unitSelect = null;
 	this.gearSelectors = [];
+	this.advisorSelectors = [];
 	this.statSelectors = [];
 	this.upgradeElements = {};
 	this.upgradesContainer = element.getElementsByClassName("upgrades-container")[0];
@@ -136,6 +137,13 @@ UnitObject.prototype.registerSelects = function() {
 	let unitSelect = this.element.getElementsByClassName("unit-select")[0];
 	this.unitSelect = new Select(unitSelect, 'img/Unit/', 'unit', this);
 	selects.push(this.unitSelect);
+
+	let advisorSelects = this.element.getElementsByClassName("advisor-select");
+	for(let i = 0 ; i < advisorSelects.length ; i++) {
+		let obj = new Select(advisorSelects[i], 'img/Advisors/', 'advisor', this);
+		selects.push(obj);
+		this.advisorSelectors.push(obj);
+	}
 }
 
 UnitObject.prototype.updateSelects = function() {
@@ -153,6 +161,46 @@ UnitObject.prototype.resetGear = function() {
 	}
 }
 
+UnitObject.prototype.calculateEffect = function(effect, absolutes, modifiers) {
+	if(effect.isAbsolute) {
+		if(absolutes[effect.type] == undefined)
+			absolutes[effect.type] = 0;
+		absolutes[effect.type] += parseFloat(effect.amount);
+	} else {
+		let mod = parseFloat(effect.amount);
+		
+		if(effect.type.indexOf("convert") == 0 || effect.type == "conversionRate") {
+			mod *= -1;
+		}
+
+		let val = 1+(mod/100);
+
+		if(effect.type == "cost") {
+			modifiers["costFood"].push(val);
+			modifiers["costWood"].push(val);
+			modifiers["costGold"].push(val);
+			modifiers["costStone"].push(val);
+		} else if(effect.type == "carryCapacity") {
+			modifiers["carryCapacityFood"].push(val);
+			modifiers["carryCapacityWood"].push(val);
+			modifiers["carryCapacityGold"].push(val);
+			modifiers["carryCapacityStone"].push(val);
+		}  else if(effect.type == "attackRate") {
+			modifiers["damage"].push(val);
+		} else if(effect.type == "gatherFood") {
+			modifiers["gatherFarm"].push(val);
+			modifiers["gatherHunt"].push(val);
+			modifiers["gatherBerry"].push(val);
+			modifiers["gatherFish"].push(val);
+		} else if(effect.type == "range" && selector.category == "holyStaff") {
+			modifiers["healRange"].push(val);
+			modifiers["chaosRange"].push(val);
+			modifiers["conversionRange"].push(val);
+		} else
+		modifiers[effect.type].push(effect.type === "critical" ? mod : val);
+	}
+}
+
 UnitObject.prototype.updateStats = function() {
 
 	if(mode == "LOADING") return;
@@ -165,48 +213,22 @@ UnitObject.prototype.updateStats = function() {
 			modifiers[key] = [];
 	}
 
+	//Advisors
+	for(let i = 0 ; i < this.advisorSelectors.length ; i++) {
+		const selector = this.advisorSelectors[i];
+		const advisor = selector.advisor;
+		for(let key in advisor.effects) {
+			// TODO check if applicable on target
+			this.calculateEffect(advisor.effects[key], absolutes, modifiers);
+		}
+	}
 
 	//Gear
 	for(let i = 0 ; i < this.statSelectors.length ; i++) {
 		let selector = this.statSelectors[i];
 		for(let j = 0 ; j < selector.effects.length ; j++) {
 			let effect = selector.effects[j];
-
-			if(effect.isAbsolute) {
-				if(absolutes[effect.type] == undefined)
-					absolutes[effect.type] = 0;
-				absolutes[effect.type] += parseFloat(effect.element.value);
-			} else {
-				let mod = parseFloat(effect.element.value);
-				
-				if(effect.type.indexOf("convert") == 0 || effect.type == "conversionRate") {
-					mod *= -1;
-				}
-
-				let val = 1+(mod/100);
-
-				if(effect.type == "cost") {
-					modifiers["costFood"].push(val);
-					modifiers["costWood"].push(val);
-					modifiers["costGold"].push(val);
-					modifiers["costStone"].push(val);
-				} else if(effect.type == "carryCapacity") {
-					modifiers["carryCapacityFood"].push(val);
-					modifiers["carryCapacityWood"].push(val);
-					modifiers["carryCapacityGold"].push(val);
-					modifiers["carryCapacityStone"].push(val);
-				} else if(effect.type == "gatherFood") {
-					modifiers["gatherFarm"].push(val);
-					modifiers["gatherHunt"].push(val);
-					modifiers["gatherBerry"].push(val);
-					modifiers["gatherFish"].push(val);
-				} else if(effect.type == "range" && selector.category == "holyStaff") {
-					modifiers["healRange"].push(val);
-					modifiers["chaosRange"].push(val);
-					modifiers["conversionRange"].push(val);
-				} else
-					modifiers[effect.type].push(effect.type === "critical" ? mod : val);
-			}
+			this.calculateEffect({type: effect.type, amount: effect.element.value}, absolutes, modifiers);
 		}
 	}
 
@@ -223,43 +245,8 @@ UnitObject.prototype.updateStats = function() {
 				upgrade = upgrades[key];
 			
 			for(let j = 0 ; j < upgrade.effects.length ; j++) {
-
 				let effect = upgrade.effects[j];
-				if(effect.isAbsolute) {
-					if(absolutes[effect.type] == undefined)
-						absolutes[effect.type] = 0;
-					absolutes[effect.type] += effect.amount;
-				} else {
-
-					let mod = parseFloat(effect.amount);
-					
-					if(effect.type.indexOf("convert") == 0 || effect.type == "conversionRate") {
-						mod *= -1;
-					}
-
-					let val = 1+(mod/100);
-
-
-					if(effect.type == "cost") {
-						modifiers["costFood"].push(val);
-						modifiers["costWood"].push(val);
-						modifiers["costGold"].push(val);
-						modifiers["costStone"].push(val);
-					} else if(effect.type == "attackRate") {
-						modifiers["damage"].push(val);
-					} else if(effect.type == "carryCapacity") {
-						modifiers["carryCapacityFood"].push(val);
-						modifiers["carryCapacityWood"].push(val);
-						modifiers["carryCapacityGold"].push(val);
-						modifiers["carryCapacityStone"].push(val);
-					} else if(effect.type == "gatherFood") {
-						modifiers["gatherFarm"].push(val);
-						modifiers["gatherHunt"].push(val);
-						modifiers["gatherBerry"].push(val);
-						modifiers["gatherFish"].push(val);
-					} else
-						modifiers[effect.type].push(effect.type === "critical" ? mod : val);
-				}
+				this.calculateEffect(effect, absolutes, modifiers);
 			}
 		}
 	}
@@ -270,7 +257,7 @@ UnitObject.prototype.updateStats = function() {
 		for(let i = 0 ; i < displays.length ; i++) {
 			let display = displays[i];
 			let original = parseFloat(display.dataset.original);
-				
+
 			if(effects[key].startsAtOne && original == 0)
 				original++;
 
@@ -303,8 +290,8 @@ UnitObject.prototype.updateStats = function() {
 			}
 
 			display.textContent = effectModel.isArmor || key.indexOf("gather") == 0 ? 
-				round2Digits(effectModel.isPercent ? --result * 100 : result) :
-				round(effectModel.isPercent ? --result * 100 : result);
+			round2Digits(effectModel.isPercent ? --result * 100 : result) :
+			round(effectModel.isPercent ? --result * 100 : result);
 
 			if((result == 0 || (result == 1 && effects[key].startsAtOne)) && key.indexOf("cost") != 0)
 				display.parentElement.style.display = "none";
@@ -352,7 +339,7 @@ UnitObject.prototype.updateUpgradesIcons = function(unit) {
 					updateUpgradeIcon(that.upgradeElements[key],  upgrade[key]);
 				}
 			} else
-				updateUpgradeIcon(that.upgradeElements[upgradeKey],  upgrade);
+			updateUpgradeIcon(that.upgradeElements[upgradeKey],  upgrade);
 		}
 	});
 	
@@ -374,25 +361,6 @@ UnitObject.prototype.updateDefaultStats = function(unit) {
 			display.textContent = round(stats[key]);
 		}
 	}
-};
-
-UnitObject.prototype.updateGearSelectorImages = function(gearList) {
-	const that = this;
-	setTimeout(function() {
-		for(let i = 0 ; i < gearList.length ; i++) {
-			let category = gearList[i];
-			let selector = that.element.getElementsByClassName("gear-select-" + category)[0];
-			if(selector.dataset.shownOnce == undefined) {
-				let options = selector.getElementsByClassName('select-dropdown')[0].getElementsByClassName('select-option');
-				let category = selector.dataset.category;
-				for(let i = 0 ; i < options.length ; i++) {
-					let option = options[i];
-					option.getElementsByClassName('select-img')[0].src = 'img/' + gear[category][option.dataset.gear].img;
-				}
-				selector.dataset.shownOnce = 1;
-			}
-		}
-	}, 0);	
 }
 
 UnitObject.prototype.updateGearSelectors = function(unit) {
@@ -413,8 +381,6 @@ UnitObject.prototype.updateGearSelectors = function(unit) {
 
 		this.state.gear[category] = {id: 0};
 	}
-	
-	this.updateGearSelectorImages(unit.gear);
 }
 
 UnitObject.prototype.loadUpgrades = function() {
@@ -530,14 +496,14 @@ UnitObject.prototype.loadUpgradeChain = function(key, chain) {
 function setEffectColor(element, state) {
 	switch(state) {
 		case "BEST":
-			element.classList.add('text-positive');
-			break;
+		element.classList.add('text-positive');
+		break;
 		case "WORST":
-			element.classList.add('text-negative');
-			break;
+		element.classList.add('text-negative');
+		break;
 		case "BETWEEN":
-			element.classList.add('text-neutral');
-			break;
+		element.classList.add('text-neutral');
+		break;
 	}
 }
 
@@ -640,27 +606,29 @@ function updateComparison(effect) {
 var mode = "LOADING";
 var shareOptions = undefined;
 (function() {
-	unitId = getUrlParameter("unit");
+	setTimeout(function() {
+		unitId = getUrlParameter("unit");
 
-	if(unitId) {
-		getUnit(unitId, function(state) {
-			shareOptions = state
+		if(unitId) {
+			getUnit(unitId, function(state) {
+				shareOptions = state
+				registerUnitObjects();
+				mode = "DONE";
+
+				for(let i = 0 ; i < unitObjects.length ; i++)
+					unitObjects[i].updateStats();
+
+				if(shareOptions) {
+					updateComparison('all');
+				}
+			})
+		} else {
 			registerUnitObjects();
 			mode = "DONE";
 
 			for(let i = 0 ; i < unitObjects.length ; i++)
 				unitObjects[i].updateStats();
-
-			if(shareOptions) {
-				updateComparison('all');
-			}
-		})
-	} else {
-		registerUnitObjects();
-		mode = "DONE";
-
-		for(let i = 0 ; i < unitObjects.length ; i++)
-			unitObjects[i].updateStats();
-	}
+		}
+	}, 2000)
 })();
 

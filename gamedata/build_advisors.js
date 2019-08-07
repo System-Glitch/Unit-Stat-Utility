@@ -27,6 +27,16 @@ const techtree  = parser.parse(techtreeXML, options).TechTree.Tech
 
 const result = [{}, {}, {}, {}]
 
+for(let key in result) {
+    const entry = {
+        name: 'None',
+        description: '',
+        rarity: 0,
+        effects: []
+    }
+    result[key]['None'] = entry
+}
+
 helpers.get(API_URL + '/advisors', (data) => {
 	const advisors = JSON.parse(data)
 
@@ -61,5 +71,5 @@ helpers.get(API_URL + '/advisors', (data) => {
 		result[advisor.age][advisor.name] = entry
 	}
 
-	helpers.save(result, './scripts/advisors.json')
+	helpers.save('const advisors=' + JSON.stringify(result) + ';', './scripts/advisors.js')
 })

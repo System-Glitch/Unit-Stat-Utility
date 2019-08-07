@@ -50,6 +50,9 @@ var Select = function(element, imgPath, type, unitObject) {
 			hideAllDropdowns();
 			event.stopPropagation();
 		}
+	} else if(this.type == "advisor") {
+		this.advisor = undefined;
+		this.advisorId = undefined;
 	}
 
 	for(let i = 0 ; i < this.optionsElements.length ; i++) {
@@ -91,6 +94,10 @@ var Select = function(element, imgPath, type, unitObject) {
 
 					this.statsSelector.gear = this.gear;
 					this.statsSelector.loadExisting();
+				} else if(type == "advisor") {
+					this.advisorId = option.dataset.advisor;
+					this.advisor = advisors[option.dataset.age][this.advisorId];
+					// TODO unit state
 				}
 			}
 		}
@@ -98,6 +105,31 @@ var Select = function(element, imgPath, type, unitObject) {
 	}
 
 }
+
+Select.prototype.updateOptionImages = function() {
+	if(this.type != 'unit') {
+		setTimeout(function() {
+			if(this.element.dataset.shownOnce == undefined) {
+				let options = this.element.getElementsByClassName('select-dropdown')[0].getElementsByClassName('select-option');
+				for(let i = 0 ; i < options.length ; i++) {
+					const option = options[i];
+					let imgPath = undefined;
+					switch(this.type) {
+						case 'advisor':
+							imgPath = 'img/Advisors/' + option.dataset.advisor + '.png';
+							break;
+						case 'gear':
+							imgPath = 'img/' + gear[this.category][option.dataset.gear].img;
+							break;
+					}
+
+					option.getElementsByClassName('select-img')[0].src = imgPath;
+				}
+				this.element.dataset.shownOnce = 1;
+			}
+		}.bind(this), 0);
+	}
+};
 
 Select.prototype.filterOptions = function(filter) {
 	for(let i = 0 ; i < this.filters.length ; i++) {
@@ -138,6 +170,7 @@ Select.prototype.showDropdown = function() {
 	hideAllDropdowns();
 	hideAllStatSelectors();
 
+	this.updateOptionImages();
 	this.dropdown.style.display = "flex";
 	this.searchBar.focus();
 }
@@ -179,6 +212,11 @@ Select.prototype.select = function(optionIndex) {
 				img = this.gear["img"];
 			}
 			break;
+		case "advisor":
+			this.advisorId = option.dataset.advisor;
+			this.advisor = advisors[option.dataset.age][this.advisorId];
+			img = this.advisorId + '.png';
+			break;
 	}
 
 	if(this.type == "unit") {
@@ -187,6 +225,9 @@ Select.prototype.select = function(optionIndex) {
 	} else if(this.type == "gear") {
 		this.selectedOption.getElementsByClassName('gear-select-img')[0].src = this.imgPath + img;
 		this.selectedOption.title = this.gear.name;
+	} else if(this.type == "advisor") {
+		this.selectedOption.getElementsByClassName('advisor-select-img')[0].src = this.imgPath + img;
+		this.selectedOption.title = this.advisor.name;
 	}
 
 	this.container.dataset.option = optionIndex;

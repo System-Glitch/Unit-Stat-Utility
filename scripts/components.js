@@ -23,6 +23,18 @@ var components = {
 				'</div>' +
 				'<div class="select-dropdown stats-selector">No effects.</div>';
 	},
+	advisorSelect: function() {
+		return '<div class="select-selected advisor-select-selected" data-initialized="0">' +
+					'<div class="select-option">' +
+						'<img src="data:" class="select-img advisor-select-img">' +
+					'</div>' +
+				'</div>' +
+				'<div class="select-dropdown advisor-select-dropdown">' +
+					'<div class="slider-container"><input type="text" class="select-search" placeholder="Search..." autocomplete="off"></div>' +
+					'<div class="select-option-container advisor-select-option-container">' +
+					'</div>' +
+				'</div>';
+	},
 	gearEffect: function(description, min, max, isAbsolute) {
 		let med = (max + min) / 2;
 		return ('<span class="stat-selector-description">%DESCRIPTION%</span>' +
@@ -120,6 +132,34 @@ function createGearSelector(category) {
 	return element;
 }
 
+function createAdvisorSelector(age) {
+	let element = document.createElement("div");
+	element.classList.add("advisor-selector-slot");
+	element.classList.add("select");
+	element.classList.add("advisor-select");
+	element.classList.add("advisor-select-" + age);
+	element.dataset.age = age;
+	element.innerHTML = components.advisorSelect();
+
+	document.getElementsByClassName("advisor-selector")[0].appendChild(element);
+	return element;
+}
+
+function addAdvisorOption(id, img, name, select, age) {
+	let html = components.selectOption(img, name);
+	let element = createAdvisorOptionElement(html, id, age);
+	let dropdowns = select.getElementsByClassName("advisor-select-option-container");
+	for(let i = 0 ; i < dropdowns.length ; i++)
+		dropdowns[i].appendChild(element.cloneNode(true));
+}
+
+function createAdvisorOptionElement(innerHTML, advisor, age) {
+	let element = createOptionElement(innerHTML);
+	element.dataset.advisor = advisor;
+	element.dataset.age = age;
+	return element;
+}
+
 function loadGear() {
 	console.log("Loading gear...");
 	var i = 1;
@@ -138,5 +178,23 @@ function loadGear() {
 	}
 }
 
+function loadAdvisors() {
+	console.log("Loading advisors...");
+	var i = 1;
+	for(let keyAge in advisors) {
+
+		const age    = advisors[keyAge]
+		const select = createAdvisorSelector(keyAge);
+		
+		setTimeout(function() {
+			for(let key in age) {
+				const advisor = age[key]
+				addAdvisorOption(key, 'data:', advisor.name, select, keyAge)
+			}
+		}, i++);
+	}
+}
+
 //loadUnits();
 //loadGear();
+loadAdvisors();

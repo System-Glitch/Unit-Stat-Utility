@@ -258,7 +258,7 @@ h4, p {
 	min-height: 32px;
 }
 
-.gear-selector-slot .gear-select-selected .select-option {
+.gear-selector-slot .gear-select-selected .select-option, .advisor-selector-slot .advisor-select-selected .select-option {
 	border-radius: 4px;
 }
 
@@ -337,30 +337,33 @@ h4, p {
 
 .gear-select {
 	display: none;
+}
+
+.advisor-select, .gear-select {
 	position: initial;
 	width: 32px;
 	height: 32px;
 }
 
-.gear-select-selected {
+.gear-select-selected, .advisor-select-selected {
 	border: none;
 	position: relative;
 }
 
-.gear-select-img {
+.gear-select-img, .advisor-select-img {
 	margin-right: 0px;
 	width: 40px;
 	height: 40px;
 	border-radius: 4px;
 }
 
-.gear-select-dropdown, .stats-selector, .upgrade-tooltip {
+.gear-select-dropdown, .advisor-select-dropdown, .stats-selector, .upgrade-tooltip {
 	left: 1rem;
 	width: calc(100% - 2rem);
 }
 
 @media screen and (min-width: 768px) {
-	.gear-select-dropdown, .stats-selector, .upgrade-tooltip {
+	.gear-select-dropdown, .advisor-select-dropdown, .stats-selector, .upgrade-tooltip {
 		min-width: 18vw;
 		left: auto;
 		transform: translateX(calc(-50% + 20px));
@@ -368,7 +371,7 @@ h4, p {
 }
 
 @media screen and (min-width: 992px) {
-	.gear-select-dropdown, .stats-selector, .upgrade-tooltip {
+	.gear-select-dropdown, .advisor-select-dropdown, .stats-selector, .upgrade-tooltip {
 		min-width: 9vw;
 		left: auto;
 		transform: translateX(calc(-50% + 20px));
@@ -390,15 +393,20 @@ h4, p {
 	border-radius: 10px;
 }
 
-.gear-selector {
+.gear-selector, .advisor-selector {
 	display: flex;
+}
+
+.advisor-selector {
+	justify-content: center;
+	margin-top: 10px;
 }
 
 .minify-width {
 	width: 0px;
 }
 
-.gear-selector-slot {
+.gear-selector-slot, .advisor-selector-slot {
 	width: 40px;
 	height: 40px;
 	margin-top: auto;
@@ -408,11 +416,15 @@ h4, p {
 	border-radius: 4px;
 }
 
+.advisor-selector-slot {
+	background-image: url('../img/Slot/GearSlotGeneric_ua.png');
+}
+
 .gear-selector-slot:hover {
 	cursor: pointer;
 }
 
-.gear-selector-slot:not(:last-child) {
+.gear-selector-slot:not(:last-child), .advisor-selector-slot:not(:last-child) {
 	margin-right: 5px;
 }
 

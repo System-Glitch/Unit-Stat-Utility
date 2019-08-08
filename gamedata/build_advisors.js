@@ -38,18 +38,18 @@ for(let key in result) {
 }
 
 helpers.get(API_URL + '/advisors', (data) => {
-	const advisors = JSON.parse(data)
+    const advisors = JSON.parse(data)
 
-	for(let key in advisors) {
-		const advisor = advisors[key]
-		const icon = advisor.icon.replace(/\\/g, '/') + '.png'
+    for(let key in advisors) {
+        const advisor = advisors[key]
+        const icon = advisor.icon.replace(/\\/g, '/') + '.png'
 
-		helpers.downloadImage(IMAGES_URL + icon, './img/Advisors/' + advisor.name  + '.png')
+        helpers.downloadImage(IMAGES_URL + icon, './img/Advisors/' + advisor.name  + '.png')
 
-		const tech = helpers.findByAttributeValue(techtree, 'name', advisor.techs.tech)
-		const effects = []
+        const tech = helpers.findByAttributeValue(techtree, 'name', advisor.techs.tech)
+        const effects = []
 
-		const effect = tech.Effects ? tech.Effects.Effect : undefined
+        const effect = tech.Effects ? tech.Effects.Effect : undefined
         if(Array.isArray(effect)) {
             for(let keyEffect in effect) {
                 const ef = effect[keyEffect]
@@ -57,19 +57,20 @@ helpers.get(API_URL + '/advisors', (data) => {
                 if(cef) effects.push(cef)
             }
         } else {
-        	const cef = helpers.convertEffect(effect)
+            const cef = helpers.convertEffect(effect)
             if(cef) effects.push(cef)
         }
 
-		const entry = {
-			name: helpers.findByAttributeValue(language, '_locid', advisor.displaynameid)['#text'],
-			description: helpers.findByAttributeValue(language, '_locid', advisor.displaydescriptionid)['#text'],
-			rarity: helpers.rarityToInteger(advisor.rarity),
-			civ: advisor.civilization,
-			effects: effects
-		}
-		result[advisor.age][advisor.name] = entry
-	}
+        const entry = {
+            name: helpers.findByAttributeValue(language, '_locid', advisor.displaynameid)['#text'],
+            description: helpers.findByAttributeValue(language, '_locid', advisor.displaydescriptionid)['#text'],
+            rarity: helpers.rarityToInteger(advisor.rarity),
+            civ: advisor.civilization,
+            effects: effects
+        }
+        result[advisor.age][advisor.name] = entry
+    }
 
-	helpers.save('const advisors=' + JSON.stringify(result) + ';', './scripts/advisors.js')
+    helpers.save('const advisors=' + JSON.stringify(result) + ';', './scripts/advisors.js')
+    helpers.save(JSON.stringify(result, null, 2), './scripts/advisors.json')
 })

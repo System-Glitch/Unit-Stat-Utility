@@ -218,8 +218,10 @@ UnitObject.prototype.updateStats = function() {
 		const selector = this.advisorSelectors[i];
 		const advisor = selector.advisor;
 		for(let key in advisor.effects) {
-			// TODO check if applicable on target
-			this.calculateEffect(advisor.effects[key], absolutes, modifiers);
+			const effect = advisor.effects[key];
+			if(effect.target === undefined || this.unitSelect.unitId === effect.target || this.unitSelect.unit.types.indexOf(effect.target) != -1) {
+				this.calculateEffect(effect, absolutes, modifiers);
+			}
 		}
 	}
 

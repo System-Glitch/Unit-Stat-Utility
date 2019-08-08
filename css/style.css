@@ -8,6 +8,12 @@ body {
 
 	--bg-color: #192b33b3;
 	--select-bg-color-hover: #3b6578;
+
+	--advisor-common: #b7b8b7;
+	--advisor-uncommon: #00aa00;
+	--advisor-rare: #0000a8;
+	--advisor-epic: #8400ad;
+	--advisor-legendary: #ad5000;
 }
 
 body, .box:after {
@@ -352,11 +358,19 @@ h4, p {
 	position: relative;
 }
 
+.advisor-select-selected .select-option {
+	background-color: transparent !important;
+}
+
 .gear-select-img, .advisor-select-img {
 	margin-right: 0px;
 	width: 40px;
 	height: 40px;
 	border-radius: 4px;
+}
+
+.advisor-select-img {
+	border: 2px solid transparent;
 }
 
 .gear-select-dropdown, .advisor-select-dropdown, .stats-selector, .advisor-rarity-selector, .upgrade-tooltip {
@@ -412,14 +426,7 @@ h4, p {
 	width: 40px;
 	height: 40px;
 	margin-top: auto;
-	background-image: url('../img/Slot/ArmorPlatingSlot_ua.png');
-	background-repeat: no-repeat;
-	background-size: 100%;
 	border-radius: 4px;
-}
-
-.advisor-selector-slot {
-	background-image: url('../img/Slot/GearSlotGeneric_ua.png');
 }
 
 .gear-selector-slot:hover {
@@ -475,6 +482,10 @@ h4, p {
 
 .stats-selector:hover, .advisor-rarity-selector:hover {
 	cursor: auto;
+}
+
+.advisor-rarity-selector {
+	padding: 6px;
 }
 
 .effects-container {
@@ -581,7 +592,7 @@ h4, p {
 }
 
 .advisor-title {
-	font-size: 15px;
+	font-size: 16px;
 	display: table-row;
 	margin-bottom: 10px;
 }
@@ -589,17 +600,14 @@ h4, p {
 .advisor-option {
 	display: flex;
 	align-items: center;
-	padding: 0.2rem 0.5rem;
-	border-radius: 6px;
 	white-space: normal;
 
 	border-width: 2px;
 	border-color: transparent;
 	border-style: solid;
-}
 
-.advisor-option.active {
-	/*border-color: #00d800;*/
+	margin-left: -6px;
+	margin-right: -6px;
 }
 
 .advisor-option:hover {
@@ -608,11 +616,34 @@ h4, p {
 }
 
 .advisor-option-icon {
-	width: 32px;
-	height: 32px;
-	min-width: 32px;
-	min-height: 32px;
+	width: 36px;
+	height: 36px;
+	min-width: 36px;
+	min-height: 36px;
 	margin-right: 5px;
+
+	border: 2px solid transparent;
+	border-radius: 2px;
+}
+
+.advisor-option-icon.common, .advisor-select-img.common {
+	border-color: var(--advisor-common);
+}
+
+.advisor-option-icon.uncommon, .advisor-select-img.uncommon {
+	border-color: var(--advisor-uncommon);
+}
+
+.advisor-option-icon.rare, .advisor-select-img.rare {
+	border-color: var(--advisor-rare);
+}
+
+.advisor-option-icon.epic, .advisor-select-img.epic {
+	border-color: var(--advisor-epic);
+}
+
+.advisor-option-icon.legendary, .advisor-select-img.legendary {
+	border-color: var(--advisor-legendary);
 }
 
 .advisor-option-description {

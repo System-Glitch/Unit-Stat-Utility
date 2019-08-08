@@ -58,8 +58,8 @@ var components = {
 			return ('<span class="stat-selector-description">%DESCRIPTION%</span>')
 					.replace("%DESCRIPTION%", description);
 	},
-	advisorOption: function(id, description) {
-		return '<img class="advisor-option-icon" src="img/Advisors/' + id + '.png"/>' +
+	advisorOption: function(rarity, id, description) {
+		return '<img class="advisor-option-icon ' + rarityToClass(rarity) + '" src="img/Advisors/' + id + '.png"/>' +
 			   '<span class="advisor-option-description">' + description + '</span>'
 	}
 };
@@ -163,6 +163,16 @@ function createAdvisorOptionElement(innerHTML, advisor) {
 	let element = createOptionElement(innerHTML);
 	element.dataset.advisor = advisor;
 	return element;
+}
+
+function rarityToClass(rarity) {
+	switch(rarity) {
+		case '0': return 'common';
+		case '1': return 'uncommon';
+		case '2': return 'rare';
+		case '3': return 'epic';
+		case '4': return 'legendary';
+	}
 }
 
 function loadGear() {

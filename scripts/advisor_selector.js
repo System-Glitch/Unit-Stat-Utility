@@ -44,7 +44,7 @@ AdvisorSelector.prototype.createAdvisorOptions = function(advisor) {
 		const option = document.createElement('div');
 		option.classList.add('advisor-option');
 		option.dataset.rarity = key;
-		option.innerHTML = components.advisorOption(rarity.id, rarity.description);
+		option.innerHTML = components.advisorOption(key, rarity.id, rarity.description);
 		option.onclick = function(e) {
 			this.select(index);
 		}.bind(this);
@@ -58,7 +58,9 @@ AdvisorSelector.prototype.select = function(optionIndex) {
 	if(element == undefined) return;
 
 	const option = this.advisor.rarities[element.dataset.rarity];
-	this.selector.selectedOption.getElementsByClassName('advisor-select-img')[0].src = this.selector.imgPath + option.id + '.png';
+	const selectedIcon = this.selector.selectedOption.getElementsByClassName('advisor-select-img')[0];
+	selectedIcon.src = this.selector.imgPath + option.id + '.png';
+	selectedIcon.className = 'select-img advisor-select-img ' + rarityToClass(element.dataset.rarity);
 	this.selector.effectiveAdvisor = option;
 	this.selector.element.dataset.suboption = optionIndex;
 

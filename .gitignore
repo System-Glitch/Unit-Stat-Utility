@@ -3,6 +3,7 @@ import.html
 import_units.html
 make_gear.html
 scripts/protoAge4.xml
-Stringtablex.xml
 celeste.js
 *log
+gamedata/stringtablex.xml
+gamedata/techtreex.xml

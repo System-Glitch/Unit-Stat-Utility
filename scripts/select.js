@@ -50,6 +50,19 @@ var Select = function(element, imgPath, type, unitObject) {
 			hideAllDropdowns();
 			event.stopPropagation();
 		}
+	} else if(this.type == "advisor") {
+		this.advisor = undefined;
+		this.advisorId = undefined;
+		this.filterAdvisor = undefined;
+		this.effectiveAdvisor = undefined;
+		this.advisorSelector = new AdvisorSelector(element.getElementsByClassName('advisor-rarity-selector')[0], this);
+
+		this.cog = this.container.getElementsByClassName('cog')[0];
+		this.cog.onclick = function(event) {
+			this.advisorSelector.show();
+			hideAllDropdowns();
+			event.stopPropagation();
+		}.bind(this)
 	}
 
 	for(let i = 0 ; i < this.optionsElements.length ; i++) {
@@ -91,6 +104,11 @@ var Select = function(element, imgPath, type, unitObject) {
 
 					this.statsSelector.gear = this.gear;
 					this.statsSelector.loadExisting();
+				} else if(type == "advisor") {
+					this.advisorId = option.dataset.advisor;
+					this.advisor = advisors[this.element.dataset.age][this.advisorId];
+					this.advisorSelector.advisor = this.advisor;
+					this.unitObject.state.advisors[this.element.dataset.age] = {id: parseInt(this.container.dataset.option), rarity: this.element.dataset.suboption};
 				}
 			}
 		}
@@ -98,6 +116,31 @@ var Select = function(element, imgPath, type, unitObject) {
 	}
 
 }
+
+Select.prototype.updateOptionImages = function() {
+	if(this.type != 'unit') {
+		setTimeout(function() {
+			if(this.element.dataset.shownOnce == undefined) {
+				let options = this.element.getElementsByClassName('select-dropdown')[0].getElementsByClassName('select-option');
+				for(let i = 0 ; i < options.length ; i++) {
+					const option = options[i];
+					let imgPath = undefined;
+					switch(this.type) {
+						case 'advisor':
+							imgPath = 'img/Advisors/' + advisors[this.element.dataset.age][option.dataset.advisor].icon + '.png';
+							break;
+						case 'gear':
+							imgPath = 'img/' + gear[this.category][option.dataset.gear].img;
+							break;
+					}
+
+					option.getElementsByClassName('select-img')[0].src = imgPath;
+				}
+				this.element.dataset.shownOnce = 1;
+			}
+		}.bind(this), 0);
+	}
+};
 
 Select.prototype.filterOptions = function(filter) {
 	for(let i = 0 ; i < this.filters.length ; i++) {
@@ -126,18 +169,28 @@ Select.prototype.search = function(search) {
 	for(let i = 0 ; i < this.optionsElements.length ; i++) {
 		let element = this.optionsElements[i];
 		let name = element.getElementsByClassName('select-name')[0].textContent.toLowerCase();
-		if((this.filter == undefined || element.dataset.unit.indexOf(this.filter) == 0) && (name.indexOf(search.toLowerCase()) != -1 || search.length == 0))
+		if((this.filter == undefined || element.dataset.unit.indexOf(this.filter) == 0) &&
+		   (this.filterAdvisor == undefined || this.checkAdvisorAvailable(element)) &&
+		   (name.indexOf(search.toLowerCase()) != -1 || search.length == 0)
+		  )
 			element.style.display = "flex";
 		else
 			element.style.display = "none";
 	}
 }
 
+Select.prototype.checkAdvisorAvailable = function(element) {
+	const advisor = advisors[this.element.dataset.age][element.dataset.advisor];
+	return advisor.civ == undefined || advisor.civ === this.filterAdvisor;
+}
+
 Select.prototype.showDropdown = function() {
 
 	hideAllDropdowns();
 	hideAllStatSelectors();
+	hideAllAdvisorSelectors();
 
+	this.updateOptionImages();
 	this.dropdown.style.display = "flex";
 	this.searchBar.focus();
 }
@@ -152,6 +205,8 @@ Select.prototype.select = function(optionIndex) {
 	if(option == undefined) return;
 	let img;
 
+	this.container.dataset.option = optionIndex;
+
 	switch(this.type) {
 		case "unit":
 			this.unitId = option.dataset.unit;
@@ -160,9 +215,13 @@ Select.prototype.select = function(optionIndex) {
 			this.unitObject.updateUpgrades(this.unit);
 			this.unitObject.updateDefaultStats(this.unit);
 			this.unitObject.updateGearSelectors(this.unit);
+			this.unitObject.updateAdvisorSelectors(this.filter);
 			this.unitObject.resetGear();
+			this.unitObject.resetAdvisors();
 
 			this.unitObject.state.unit = optionIndex;
+			this.unitObject.state.advisors = {};
+
 			break;
 		case "gear":
 			if(option != undefined) {
@@ -179,6 +238,12 @@ Select.prototype.select = function(optionIndex) {
 				img = this.gear["img"];
 			}
 			break;
+		case "advisor":
+			this.advisorId = option.dataset.advisor;
+			this.advisor = advisors[this.element.dataset.age][this.advisorId];
+			this.advisorSelector.loadAdvisor(this.advisor);
+			img = this.advisor.icon + '.png';
+			break;
 	}
 
 	if(this.type == "unit") {
@@ -187,9 +252,11 @@ Select.prototype.select = function(optionIndex) {
 	} else if(this.type == "gear") {
 		this.selectedOption.getElementsByClassName('gear-select-img')[0].src = this.imgPath + img;
 		this.selectedOption.title = this.gear.name;
+	} else if(this.type == "advisor") {
+		this.selectedOption.getElementsByClassName('advisor-select-img')[0].src = this.imgPath + img;
+		this.selectedOption.title = this.advisor.name;
 	}
 
-	this.container.dataset.option = optionIndex;
 	this.container.dataset.initialized = 1;
 
 	this.unitObject.updateStats();

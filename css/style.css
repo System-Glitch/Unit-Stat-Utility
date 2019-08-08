@@ -8,6 +8,12 @@ body {
 
 	--bg-color: #192b33b3;
 	--select-bg-color-hover: #3b6578;
+
+	--advisor-common: #b7b8b7;
+	--advisor-uncommon: #00aa00;
+	--advisor-rare: #0000a8;
+	--advisor-epic: #8400ad;
+	--advisor-legendary: #ad5000;
 }
 
 body, .box:after {
@@ -258,7 +264,7 @@ h4, p {
 	min-height: 32px;
 }
 
-.gear-selector-slot .gear-select-selected .select-option {
+.gear-selector-slot .gear-select-selected .select-option, .advisor-selector-slot .advisor-select-selected .select-option {
 	border-radius: 4px;
 }
 
@@ -288,6 +294,8 @@ h4, p {
 .select-img {
 	width: 32px;
 	height: 32px;
+	min-width: 32px;
+	min-height: 32px;
 	margin-right: 5px;
 	border-radius: 3px;
 }
@@ -337,30 +345,41 @@ h4, p {
 
 .gear-select {
 	display: none;
+}
+
+.advisor-select, .gear-select {
 	position: initial;
 	width: 32px;
 	height: 32px;
 }
 
-.gear-select-selected {
+.gear-select-selected, .advisor-select-selected {
 	border: none;
 	position: relative;
 }
 
-.gear-select-img {
+.advisor-select-selected .select-option {
+	background-color: transparent !important;
+}
+
+.gear-select-img, .advisor-select-img {
 	margin-right: 0px;
 	width: 40px;
 	height: 40px;
 	border-radius: 4px;
 }
 
-.gear-select-dropdown, .stats-selector, .upgrade-tooltip {
+.advisor-select-img {
+	border: 2px solid transparent;
+}
+
+.gear-select-dropdown, .advisor-select-dropdown, .stats-selector, .advisor-rarity-selector, .upgrade-tooltip {
 	left: 1rem;
 	width: calc(100% - 2rem);
 }
 
 @media screen and (min-width: 768px) {
-	.gear-select-dropdown, .stats-selector, .upgrade-tooltip {
+	.gear-select-dropdown, .advisor-select-dropdown, .stats-selector, .advisor-rarity-selector, .upgrade-tooltip {
 		min-width: 18vw;
 		left: auto;
 		transform: translateX(calc(-50% + 20px));
@@ -368,7 +387,7 @@ h4, p {
 }
 
 @media screen and (min-width: 992px) {
-	.gear-select-dropdown, .stats-selector, .upgrade-tooltip {
+	.gear-select-dropdown, .advisor-select-dropdown, .stats-selector, .advisor-rarity-selector, .upgrade-tooltip {
 		min-width: 9vw;
 		left: auto;
 		transform: translateX(calc(-50% + 20px));
@@ -390,21 +409,23 @@ h4, p {
 	border-radius: 10px;
 }
 
-.gear-selector {
+.gear-selector, .advisor-selector {
 	display: flex;
+}
+
+.advisor-selector {
+	justify-content: center;
+	margin-top: 10px;
 }
 
 .minify-width {
 	width: 0px;
 }
 
-.gear-selector-slot {
+.gear-selector-slot, .advisor-selector-slot {
 	width: 40px;
 	height: 40px;
 	margin-top: auto;
-	background-image: url('../img/Slot/ArmorPlatingSlot_ua.png');
-	background-repeat: no-repeat;
-	background-size: 100%;
 	border-radius: 4px;
 }
 
@@ -412,7 +433,7 @@ h4, p {
 	cursor: pointer;
 }
 
-.gear-selector-slot:not(:last-child) {
+.gear-selector-slot:not(:last-child), .advisor-selector-slot:not(:last-child) {
 	margin-right: 5px;
 }
 
@@ -445,7 +466,7 @@ h4, p {
 	z-index: 3;
 }
 
-.stats-selector {
+.stats-selector, .advisor-rarity-selector {
 	box-shadow: 0 3px 3px -2px rgba(93,61,19,.2),0 3px 4px 0 rgba(93,61,19,.14),0 1px 8px 0 rgba(93,61,19,.12);
 	margin: 0 auto;
 	border: 1px solid #b9ad8b;
@@ -459,8 +480,12 @@ h4, p {
 	display: none;
 }
 
-.stats-selector:hover {
+.stats-selector:hover, .advisor-rarity-selector:hover {
 	cursor: auto;
+}
+
+.advisor-rarity-selector {
+	padding: 6px;
 }
 
 .effects-container {
@@ -564,6 +589,65 @@ h4, p {
 
 .stat-selector-value:hover {
 	cursor: pointer;
+}
+
+.advisor-title {
+	font-size: 16px;
+	display: table-row;
+	margin-bottom: 10px;
+}
+
+.advisor-option {
+	display: flex;
+	align-items: center;
+	white-space: normal;
+
+	border-width: 2px;
+	border-color: transparent;
+	border-style: solid;
+
+	margin-left: -6px;
+	margin-right: -6px;
+}
+
+.advisor-option:hover {
+	cursor: pointer;
+	background-color: var(--select-bg-color-hover);
+}
+
+.advisor-option-icon {
+	width: 36px;
+	height: 36px;
+	min-width: 36px;
+	min-height: 36px;
+	margin-right: 5px;
+
+	border: 2px solid transparent;
+	border-radius: 2px;
+}
+
+.advisor-option-icon.common, .advisor-select-img.common {
+	border-color: var(--advisor-common);
+}
+
+.advisor-option-icon.uncommon, .advisor-select-img.uncommon {
+	border-color: var(--advisor-uncommon);
+}
+
+.advisor-option-icon.rare, .advisor-select-img.rare {
+	border-color: var(--advisor-rare);
+}
+
+.advisor-option-icon.epic, .advisor-select-img.epic {
+	border-color: var(--advisor-epic);
+}
+
+.advisor-option-icon.legendary, .advisor-select-img.legendary {
+	border-color: var(--advisor-legendary);
+}
+
+.advisor-option-description {
+	font-size: 13px;
 }
 
 .upgrade-row {

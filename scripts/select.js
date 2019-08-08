@@ -203,7 +203,6 @@ Select.prototype.select = function(optionIndex) {
 
 	var option = this.optionsElements[optionIndex];
 	if(option == undefined) return;
-	let img;
 
 	this.container.dataset.option = optionIndex;
 
@@ -211,7 +210,6 @@ Select.prototype.select = function(optionIndex) {
 		case "unit":
 			this.unitId = option.dataset.unit;
 			this.unit = units[this.unitId];
-			img = this.unit["img"];
 			this.unitObject.updateUpgrades(this.unit);
 			this.unitObject.updateDefaultStats(this.unit);
 			this.unitObject.updateGearSelectors(this.unit);
@@ -221,6 +219,9 @@ Select.prototype.select = function(optionIndex) {
 
 			this.unitObject.state.unit = optionIndex;
 			this.unitObject.state.advisors = {};
+
+			this.selectedOption.innerHTML = option.innerHTML + components.civIcon(getCivFromId(this.unitId));
+			this.unitObject.gearSelectorIcon.src = this.imgPath + this.unit["img"];
 
 			break;
 		case "gear":
@@ -235,7 +236,8 @@ Select.prototype.select = function(optionIndex) {
 				this.statsSelector.category = this.category;
 
 				this.statsSelector.loadGear(this.gear);
-				img = this.gear["img"];
+				this.selectedOption.getElementsByClassName('gear-select-img')[0].src = this.imgPath + this.gear["img"];
+				this.selectedOption.title = this.gear.name;
 			}
 			break;
 		case "advisor":
@@ -244,20 +246,10 @@ Select.prototype.select = function(optionIndex) {
 			if(this.advisorId == 'None') {
 				this.selectedOption.getElementsByClassName('advisor-select-img')[0].className = 'select-img advisor-select-img';
 			}
+			this.selectedOption.getElementsByClassName('advisor-select-img')[0].src = this.imgPath + this.advisor.icon + '.png';
+			this.selectedOption.title = this.advisor.name;
 			this.advisorSelector.loadAdvisor(this.advisor);
-			img = this.advisor.icon + '.png';
 			break;
-	}
-
-	if(this.type == "unit") {
-		this.selectedOption.innerHTML = option.innerHTML + components.civIcon(getCivFromId(this.unitId));
-		this.unitObject.gearSelectorIcon.src = this.imgPath + img;
-	} else if(this.type == "gear") {
-		this.selectedOption.getElementsByClassName('gear-select-img')[0].src = this.imgPath + img;
-		this.selectedOption.title = this.gear.name;
-	} else if(this.type == "advisor") {
-		this.selectedOption.getElementsByClassName('advisor-select-img')[0].src = this.imgPath + img;
-		this.selectedOption.title = this.advisor.name;
 	}
 
 	this.container.dataset.initialized = 1;

@@ -28,7 +28,7 @@ AdvisorSelector.prototype.loadAdvisor = function(advisor) {
 
 		if(advisor.rarities != undefined) {
 			this.createAdvisorOptions(advisor);
-			this.select(0);
+			this.select(this.advisorOptionsElements.length - 1);
 		} else {
 			this.element.appendChild(createAdvisorNoOption());
 		}

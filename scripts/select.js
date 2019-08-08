@@ -107,8 +107,8 @@ var Select = function(element, imgPath, type, unitObject) {
 				} else if(type == "advisor") {
 					this.advisorId = option.dataset.advisor;
 					this.advisor = advisors[this.element.dataset.age][this.advisorId];
-					// TODO load existing
-					// TODO unit state
+					this.advisorSelector.advisor = this.advisor;
+					this.unitObject.state.advisors[this.element.dataset.age] = {id: parseInt(this.container.dataset.option), rarity: this.element.dataset.suboption};
 				}
 			}
 		}
@@ -205,6 +205,8 @@ Select.prototype.select = function(optionIndex) {
 	if(option == undefined) return;
 	let img;
 
+	this.container.dataset.option = optionIndex;
+
 	switch(this.type) {
 		case "unit":
 			this.unitId = option.dataset.unit;
@@ -218,6 +220,8 @@ Select.prototype.select = function(optionIndex) {
 			this.unitObject.resetAdvisors();
 
 			this.unitObject.state.unit = optionIndex;
+			this.unitObject.state.advisors = {};
+
 			break;
 		case "gear":
 			if(option != undefined) {
@@ -253,7 +257,6 @@ Select.prototype.select = function(optionIndex) {
 		this.selectedOption.title = this.advisor.name;
 	}
 
-	this.container.dataset.option = optionIndex;
 	this.container.dataset.initialized = 1;
 
 	this.unitObject.updateStats();

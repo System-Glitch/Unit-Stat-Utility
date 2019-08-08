@@ -17,6 +17,7 @@ var UnitObject = function(element, isDuplicate, shareOptions) {
 	this.state = {
 		unit: 0,
 		gear: {},
+		advisors: {},
 		upgrades: []
 	};
 
@@ -25,7 +26,6 @@ var UnitObject = function(element, isDuplicate, shareOptions) {
 	this.updateSelects();
 	this.registerShareButton();
 
-	//Temporary check to avoid sharing on duplicates
 	this.isDuplicate = isDuplicate;
 	if(shareOptions != undefined) {
 		//Load share options
@@ -73,6 +73,11 @@ var UnitObject = function(element, isDuplicate, shareOptions) {
 					}
 				}
 			}
+		}
+
+		for(let key in shareOptions.advisors) {
+			this.advisorSelectors[key].select(shareOptions.advisors[key].id);
+			this.advisorSelectors[key].advisorSelector.select(shareOptions.advisors[key].rarity);
 		}
 
 		this.updateStats();
@@ -626,29 +631,27 @@ function updateComparison(effect) {
 var mode = "LOADING";
 var shareOptions = undefined;
 (function() {
-	setTimeout(function() {
-		unitId = getUrlParameter("unit");
+	unitId = getUrlParameter("unit");
 
-		if(unitId) {
-			getUnit(unitId, function(state) {
-				shareOptions = state
-				registerUnitObjects();
-				mode = "DONE";
-
-				for(let i = 0 ; i < unitObjects.length ; i++)
-					unitObjects[i].updateStats();
-
-				if(shareOptions) {
-					updateComparison('all');
-				}
-			})
-		} else {
+	if(unitId) {
+		getUnit(unitId, function(state) {
+			shareOptions = state
 			registerUnitObjects();
 			mode = "DONE";
 
 			for(let i = 0 ; i < unitObjects.length ; i++)
 				unitObjects[i].updateStats();
-		}
-	}, 2000)
+
+			if(shareOptions) {
+				updateComparison('all');
+			}
+		})
+	} else {
+		registerUnitObjects();
+		mode = "DONE";
+
+		for(let i = 0 ; i < unitObjects.length ; i++)
+			unitObjects[i].updateStats();
+	}
 })();
 

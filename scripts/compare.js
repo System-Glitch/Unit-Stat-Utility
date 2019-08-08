@@ -33,6 +33,7 @@ function compareClicked(event) {
 	let unit = event.target.closest(".unit");
 	let id = parseInt(unit.id.replace('unit-', ''));
 	let duplicate = duplicateUnitDOM(unit);
+	console.log(unitObjects[id].state);
 	let object = new UnitObject(duplicate, true, JSON.parse(JSON.stringify(unitObjects[id].state)));
 
 	unitContainer.appendChild(duplicate);

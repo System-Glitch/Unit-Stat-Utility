@@ -1,5 +1,5 @@
 const API_URL = 'https://api.projectceleste.com/gamedb'
-const types   = ["AbstractCavalry","UnitTypeBldgTower","UnitTypeShipUtility1","AbstractWall","AbstractInfantry","UnitTypeBldgTownCenter","UnitTypeBldgWonder","AbstractPriest","UnitTypeArcherAntiInf1","UnitTypeCavalryBasic1","UnitTypeCaravan1","UnitTypeVillager1","UnitTypeSiegeTrebuchet1","UnitTypeBldgFortress","Ship","UnitTypeSiegeBallista1","AbstractArcher","AbstractCavalry","AbstractTownCenter","AbstractArtillery","UnitTypeBldgBarracks","AbstractFarm","UnitTypeShipFishing1","UnitTypeScout1","UnitTypeBldgHouse","UnitTypeBldgStorehouse","UnitTypeInfantryAntiCav1","Building","AbstractVillager"]
+const types   = ["Military", "AbstractCavalry","UnitTypeBldgTower","UnitTypeShipUtility1","AbstractWall","AbstractInfantry","UnitTypeBldgTownCenter","UnitTypeBldgWonder","AbstractPriest","UnitTypeArcherAntiInf1","UnitTypeCavalryBasic1","UnitTypeCaravan1","UnitTypeVillager1","UnitTypeSiegeTrebuchet1","UnitTypeBldgFortress","Ship","UnitTypeSiegeBallista1","AbstractArcher","AbstractCavalry","AbstractTownCenter","AbstractArtillery","UnitTypeBldgBarracks","AbstractFarm","UnitTypeShipFishing1","UnitTypeScout1","UnitTypeBldgHouse","UnitTypeBldgStorehouse","UnitTypeInfantryAntiCav1","Building","AbstractVillager"]
 
 const fs      = require('fs')
 const helpers = require('./helpers.js')

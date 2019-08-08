@@ -86,5 +86,5 @@ helpers.get(API_URL + '/advisors', (data) => {
     }
 
     helpers.save('const advisors=' + JSON.stringify(result) + ';', './scripts/advisors.js')
-    helpers.save(JSON.stringify(result, null, 2), './scripts/advisors.json')
+    // helpers.save(JSON.stringify(result, null, 2), './scripts/advisors.json')
 })

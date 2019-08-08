@@ -54,6 +54,14 @@ var Select = function(element, imgPath, type, unitObject) {
 		this.advisor = undefined;
 		this.advisorId = undefined;
 		this.filterAdvisor = undefined;
+		this.advisorSelector = new AdvisorSelector(element.getElementsByClassName('advisor-rarity-selector')[0], this);
+
+		this.cog = this.container.getElementsByClassName('cog')[0];
+		this.cog.onclick = function(event) {
+			this.advisorSelector.show();
+			hideAllDropdowns();
+			event.stopPropagation();
+		}.bind(this)
 	}
 
 	for(let i = 0 ; i < this.optionsElements.length ; i++) {
@@ -117,7 +125,7 @@ Select.prototype.updateOptionImages = function() {
 					let imgPath = undefined;
 					switch(this.type) {
 						case 'advisor':
-							imgPath = 'img/Advisors/' + option.dataset.advisor + '.png';
+							imgPath = 'img/Advisors/' + advisors[this.element.dataset.age][option.dataset.advisor].icon + '.png';
 							break;
 						case 'gear':
 							imgPath = 'img/' + gear[this.category][option.dataset.gear].img;
@@ -226,7 +234,7 @@ Select.prototype.select = function(optionIndex) {
 		case "advisor":
 			this.advisorId = option.dataset.advisor;
 			this.advisor = advisors[this.element.dataset.age][this.advisorId];
-			img = this.advisorId + '.png';
+			img = this.advisor.icon + '.png';
 			break;
 	}
 

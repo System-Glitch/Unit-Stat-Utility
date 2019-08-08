@@ -359,13 +359,13 @@ h4, p {
 	border-radius: 4px;
 }
 
-.gear-select-dropdown, .advisor-select-dropdown, .stats-selector, .upgrade-tooltip {
+.gear-select-dropdown, .advisor-select-dropdown, .stats-selector, .advisor-rarity-selector, .upgrade-tooltip {
 	left: 1rem;
 	width: calc(100% - 2rem);
 }
 
 @media screen and (min-width: 768px) {
-	.gear-select-dropdown, .advisor-select-dropdown, .stats-selector, .upgrade-tooltip {
+	.gear-select-dropdown, .advisor-select-dropdown, .stats-selector, .advisor-rarity-selector, .upgrade-tooltip {
 		min-width: 18vw;
 		left: auto;
 		transform: translateX(calc(-50% + 20px));
@@ -373,7 +373,7 @@ h4, p {
 }
 
 @media screen and (min-width: 992px) {
-	.gear-select-dropdown, .advisor-select-dropdown, .stats-selector, .upgrade-tooltip {
+	.gear-select-dropdown, .advisor-select-dropdown, .stats-selector, .advisor-rarity-selector, .upgrade-tooltip {
 		min-width: 9vw;
 		left: auto;
 		transform: translateX(calc(-50% + 20px));
@@ -459,7 +459,7 @@ h4, p {
 	z-index: 3;
 }
 
-.stats-selector {
+.stats-selector, .advisor-rarity-selector {
 	box-shadow: 0 3px 3px -2px rgba(93,61,19,.2),0 3px 4px 0 rgba(93,61,19,.14),0 1px 8px 0 rgba(93,61,19,.12);
 	margin: 0 auto;
 	border: 1px solid #b9ad8b;
@@ -473,7 +473,7 @@ h4, p {
 	display: none;
 }
 
-.stats-selector:hover {
+.stats-selector:hover, .advisor-rarity-selector:hover {
 	cursor: auto;
 }
 

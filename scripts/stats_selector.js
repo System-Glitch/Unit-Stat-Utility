@@ -179,6 +179,7 @@ StatsSelector.prototype.loadLevels = function(gear) {
 
 StatsSelector.prototype.show = function() {
 	hideAllStatSelectors();
+	hideAllAdvisorSelectors();
 	hideAllDropdowns();
 	this.element.style.display = "table";
 }

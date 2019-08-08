@@ -30,9 +30,9 @@ const result = [{}, {}, {}, {}]
 for(let key in result) {
     const entry = {
         name: 'None',
+        icon: 'None',
         description: '',
-        rarity: 0,
-        effects: []
+        rarities: {},
     }
     result[key]['None'] = entry
 }
@@ -47,8 +47,20 @@ helpers.get(API_URL + '/advisors', (data) => {
             continue;
         }
 
-        const icon = advisor.icon.replace(/\\/g, '/') + '.png'
+        const id = advisor.name.substring(0, advisor.name.indexOf('_'))
 
+        if(result[advisor.age][id] === undefined) {
+            const containerEntry = {
+                name: helpers.findByAttributeValue(language, '_locid', advisor.displaynameid)['#text'],
+                icon: advisor.name,
+                civ: helpers.civ(advisor.civilization),
+                rarities: {}
+            }
+
+            result[advisor.age][id] = containerEntry
+        }
+
+        const icon = advisor.icon.replace(/\\/g, '/') + '.png'
         helpers.downloadImage(IMAGES_URL + icon, './img/Advisors/' + advisor.name  + '.png')
 
         const tech = helpers.findByAttributeValue(techtree, 'name', advisor.techs.tech)
@@ -67,13 +79,11 @@ helpers.get(API_URL + '/advisors', (data) => {
         }
 
         const entry = {
-            name: helpers.findByAttributeValue(language, '_locid', advisor.displaynameid)['#text'],
+            id: advisor.name,
             description: helpers.findByAttributeValue(language, '_locid', advisor.displaydescriptionid)['#text'],
-            rarity: helpers.rarityToInteger(advisor.rarity),
-            civ: helpers.civ(advisor.civilization),
             effects: effects
         }
-        result[advisor.age][advisor.name] = entry
+        result[advisor.age][id].rarities[helpers.rarityToInteger(advisor.rarity)] = entry
     }
 
     helpers.save('const advisors=' + JSON.stringify(result) + ';', './scripts/advisors.js')

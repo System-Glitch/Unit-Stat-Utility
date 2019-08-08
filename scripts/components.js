@@ -28,12 +28,14 @@ var components = {
 					'<div class="select-option">' +
 						'<img src="data:" class="select-img advisor-select-img">' +
 					'</div>' +
+					'<div class="cog">⚙</div>' +
 				'</div>' +
 				'<div class="select-dropdown advisor-select-dropdown">' +
 					'<div class="slider-container"><input type="text" class="select-search" placeholder="Search..." autocomplete="off"></div>' +
 					'<div class="select-option-container advisor-select-option-container">' +
 					'</div>' +
-				'</div>';
+				'</div>' +
+				'<div class="select-dropdown advisor-rarity-selector">No options.</div>';
 	},
 	gearEffect: function(description, min, max, isAbsolute) {
 		let med = (max + min) / 2;

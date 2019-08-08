@@ -97,7 +97,7 @@ var Select = function(element, imgPath, type, unitObject) {
 					this.statsSelector.loadExisting();
 				} else if(type == "advisor") {
 					this.advisorId = option.dataset.advisor;
-					this.advisor = advisors[option.dataset.age][this.advisorId];
+					this.advisor = advisors[this.element.dataset.age][this.advisorId];
 					// TODO unit state
 				}
 			}

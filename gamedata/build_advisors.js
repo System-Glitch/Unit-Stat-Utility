@@ -42,6 +42,11 @@ helpers.get(API_URL + '/advisors', (data) => {
 
     for(let key in advisors) {
         const advisor = advisors[key]
+
+        if(advisor.name.indexOf('_CivReward') != -1) {
+            continue;
+        }
+
         const icon = advisor.icon.replace(/\\/g, '/') + '.png'
 
         helpers.downloadImage(IMAGES_URL + icon, './img/Advisors/' + advisor.name  + '.png')

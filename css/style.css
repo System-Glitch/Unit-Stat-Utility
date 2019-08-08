@@ -288,6 +288,8 @@ h4, p {
 .select-img {
 	width: 32px;
 	height: 32px;
+	min-width: 32px;
+	min-height: 32px;
 	margin-right: 5px;
 	border-radius: 3px;
 }

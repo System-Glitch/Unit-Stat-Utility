@@ -241,6 +241,9 @@ Select.prototype.select = function(optionIndex) {
 		case "advisor":
 			this.advisorId = option.dataset.advisor;
 			this.advisor = advisors[this.element.dataset.age][this.advisorId];
+			if(this.advisorId == 'None') {
+				this.selectedOption.getElementsByClassName('advisor-select-img')[0].className = 'select-img advisor-select-img';
+			}
 			this.advisorSelector.loadAdvisor(this.advisor);
 			img = this.advisor.icon + '.png';
 			break;

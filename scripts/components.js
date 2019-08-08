@@ -145,18 +145,17 @@ function createAdvisorSelector(age) {
 	return element;
 }
 
-function addAdvisorOption(id, img, name, select, age) {
+function addAdvisorOption(id, img, name, select) {
 	let html = components.selectOption(img, name);
-	let element = createAdvisorOptionElement(html, id, age);
+	let element = createAdvisorOptionElement(html, id);
 	let dropdowns = select.getElementsByClassName("advisor-select-option-container");
 	for(let i = 0 ; i < dropdowns.length ; i++)
 		dropdowns[i].appendChild(element.cloneNode(true));
 }
 
-function createAdvisorOptionElement(innerHTML, advisor, age) {
+function createAdvisorOptionElement(innerHTML, advisor) {
 	let element = createOptionElement(innerHTML);
 	element.dataset.advisor = advisor;
-	element.dataset.age = age;
 	return element;
 }
 

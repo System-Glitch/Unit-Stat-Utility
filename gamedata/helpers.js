@@ -3,6 +3,7 @@ const Stream  = require('stream').Transform
 const fs      = require('fs')
 const sharp   = require('sharp')
 const effects = require('./effects_mapping.js')
+const civs    = require('./civs_mapping.js')
 
 module.exports = {
     get(url, callback) {
@@ -159,6 +160,9 @@ module.exports = {
             isAbsolute: absolute,
             target: effect.Target ? effect.Target['#text'] != 'Unit' ? effect.Target['#text'] : undefined : undefined
         }
+    },
+    civ(civ) {
+        return civs[civ]
     },
     // Save a JSON element to a file
     save(json, file) {

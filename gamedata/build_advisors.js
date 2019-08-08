@@ -65,7 +65,7 @@ helpers.get(API_URL + '/advisors', (data) => {
             name: helpers.findByAttributeValue(language, '_locid', advisor.displaynameid)['#text'],
             description: helpers.findByAttributeValue(language, '_locid', advisor.displaydescriptionid)['#text'],
             rarity: helpers.rarityToInteger(advisor.rarity),
-            civ: advisor.civilization,
+            civ: helpers.civ(advisor.civilization),
             effects: effects
         }
         result[advisor.age][advisor.name] = entry

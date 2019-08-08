@@ -134,16 +134,16 @@ UnitObject.prototype.registerSelects = function() {
 		this.gearSelectors.push(obj);
 	}
 
-	let unitSelect = this.element.getElementsByClassName("unit-select")[0];
-	this.unitSelect = new Select(unitSelect, 'img/Unit/', 'unit', this);
-	selects.push(this.unitSelect);
-
 	let advisorSelects = this.element.getElementsByClassName("advisor-select");
 	for(let i = 0 ; i < advisorSelects.length ; i++) {
 		let obj = new Select(advisorSelects[i], 'img/Advisors/', 'advisor', this);
 		selects.push(obj);
 		this.advisorSelectors.push(obj);
 	}
+
+	let unitSelect = this.element.getElementsByClassName("unit-select")[0];
+	this.unitSelect = new Select(unitSelect, 'img/Unit/', 'unit', this);
+	selects.push(this.unitSelect);
 }
 
 UnitObject.prototype.updateSelects = function() {
@@ -154,11 +154,19 @@ UnitObject.prototype.updateSelects = function() {
 	}
 }
 
-UnitObject.prototype.resetGear = function() {
-	for(let i = 0 ; i < this.gearSelectors.length ; i++) {
-		let selector = this.gearSelectors[i];
+UnitObject.prototype.resetSelectors = function(selectors) {
+	for(let i = 0 ; i < selectors.length ; i++) {
+		let selector = selectors[i];
 		selector.select(0);
 	}
+}
+
+UnitObject.prototype.resetGear = function() {
+	this.resetSelectors(this.gearSelectors);
+}
+
+UnitObject.prototype.resetAdvisors = function() {
+	this.resetSelectors(this.advisorSelectors);
 }
 
 UnitObject.prototype.calculateEffect = function(effect, absolutes, modifiers) {
@@ -362,6 +370,14 @@ UnitObject.prototype.updateDefaultStats = function(unit) {
 			display.dataset.original = stats[key];
 			display.textContent = round(stats[key]);
 		}
+	}
+}
+
+UnitObject.prototype.updateAdvisorSelectors = function(filter) {
+	for(let i = 0 ; i < this.advisorSelectors.length ; i++) {
+		const selector = this.advisorSelectors[i];
+		selector.filterAdvisor = filter;
+		selector.search(selector.searchBar.value);
 	}
 }
 

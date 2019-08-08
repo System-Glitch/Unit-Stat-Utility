@@ -53,6 +53,7 @@ var Select = function(element, imgPath, type, unitObject) {
 	} else if(this.type == "advisor") {
 		this.advisor = undefined;
 		this.advisorId = undefined;
+		this.filterAdvisor = undefined;
 	}
 
 	for(let i = 0 ; i < this.optionsElements.length ; i++) {
@@ -158,11 +159,19 @@ Select.prototype.search = function(search) {
 	for(let i = 0 ; i < this.optionsElements.length ; i++) {
 		let element = this.optionsElements[i];
 		let name = element.getElementsByClassName('select-name')[0].textContent.toLowerCase();
-		if((this.filter == undefined || element.dataset.unit.indexOf(this.filter) == 0) && (name.indexOf(search.toLowerCase()) != -1 || search.length == 0))
+		if((this.filter == undefined || element.dataset.unit.indexOf(this.filter) == 0) &&
+		   (this.filterAdvisor == undefined || this.checkAdvisorAvailable(element)) &&
+		   (name.indexOf(search.toLowerCase()) != -1 || search.length == 0)
+		  )
 			element.style.display = "flex";
 		else
 			element.style.display = "none";
 	}
+}
+
+Select.prototype.checkAdvisorAvailable = function(element) {
+	const advisor = advisors[this.element.dataset.age][element.dataset.advisor];
+	return advisor.civ == undefined || advisor.civ === this.filterAdvisor;
 }
 
 Select.prototype.showDropdown = function() {
@@ -193,7 +202,9 @@ Select.prototype.select = function(optionIndex) {
 			this.unitObject.updateUpgrades(this.unit);
 			this.unitObject.updateDefaultStats(this.unit);
 			this.unitObject.updateGearSelectors(this.unit);
+			this.unitObject.updateAdvisorSelectors(this.filter);
 			this.unitObject.resetGear();
+			this.unitObject.resetAdvisors();
 
 			this.unitObject.state.unit = optionIndex;
 			break;
@@ -214,7 +225,7 @@ Select.prototype.select = function(optionIndex) {
 			break;
 		case "advisor":
 			this.advisorId = option.dataset.advisor;
-			this.advisor = advisors[option.dataset.age][this.advisorId];
+			this.advisor = advisors[this.element.dataset.age][this.advisorId];
 			img = this.advisorId + '.png';
 			break;
 	}

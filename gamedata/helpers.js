@@ -152,10 +152,11 @@ module.exports = {
             return undefined
         }
 
+        const absolute = effect.attr.relativity == 'Absolute' ? true : undefined
         return {
             type: type,
-            amount: (effect.attr.amount - 1) * 100,
-            absolute: effect.attr.relativity == 'Absolute' ? true : undefined,
+            amount: absolute ? effect.attr.amount : (effect.attr.amount - 1) * 100,
+            isAbsolute: absolute,
             target: effect.Target ? effect.Target['#text'] != 'Unit' ? effect.Target['#text'] : undefined : undefined
         }
     },

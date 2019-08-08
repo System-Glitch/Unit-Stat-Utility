@@ -57,6 +57,10 @@ var components = {
 		else
 			return ('<span class="stat-selector-description">%DESCRIPTION%</span>')
 					.replace("%DESCRIPTION%", description);
+	},
+	advisorOption: function(id, description) {
+		return '<img class="advisor-option-icon" src="img/Advisors/' + id + '.png"/>' +
+			   '<span class="advisor-option-description">' + description + '</span>'
 	}
 };
 

@@ -31,8 +31,7 @@ for(let key in result) {
     const entry = {
         name: 'None',
         icon: 'None',
-        description: '',
-        rarities: {},
+        description: ''
     }
     result[key]['None'] = entry
 }

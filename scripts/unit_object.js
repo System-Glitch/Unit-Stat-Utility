@@ -224,11 +224,13 @@ UnitObject.prototype.updateStats = function() {
 	//Advisors
 	for(let i = 0 ; i < this.advisorSelectors.length ; i++) {
 		const selector = this.advisorSelectors[i];
-		const advisor = selector.advisor;
-		for(let key in advisor.effects) {
-			const effect = advisor.effects[key];
-			if(effect.target === undefined || this.unitSelect.unitId === effect.target || this.unitSelect.unit.types.indexOf(effect.target) != -1) {
-				this.calculateEffect(effect, absolutes, modifiers);
+		const advisor = selector.effectiveAdvisor;
+		if(advisor) {
+			for(let key in advisor.effects) {
+				const effect = advisor.effects[key];
+				if(effect.target === undefined || this.unitSelect.unitId === effect.target || this.unitSelect.unit.types.indexOf(effect.target) != -1) {
+					this.calculateEffect(effect, absolutes, modifiers);
+				}
 			}
 		}
 	}

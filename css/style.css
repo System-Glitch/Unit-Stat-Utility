@@ -580,6 +580,45 @@ h4, p {
 	cursor: pointer;
 }
 
+.advisor-title {
+	font-size: 15px;
+	display: table-row;
+	margin-bottom: 10px;
+}
+
+.advisor-option {
+	display: flex;
+	align-items: center;
+	padding: 0.2rem 0.5rem;
+	border-radius: 6px;
+	white-space: normal;
+
+	border-width: 2px;
+	border-color: transparent;
+	border-style: solid;
+}
+
+.advisor-option.active {
+	/*border-color: #00d800;*/
+}
+
+.advisor-option:hover {
+	cursor: pointer;
+	background-color: var(--select-bg-color-hover);
+}
+
+.advisor-option-icon {
+	width: 32px;
+	height: 32px;
+	min-width: 32px;
+	min-height: 32px;
+	margin-right: 5px;
+}
+
+.advisor-option-description {
+	font-size: 13px;
+}
+
 .upgrade-row {
 	display: flex;
 	flex-direction: row;

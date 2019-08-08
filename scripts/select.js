@@ -54,6 +54,7 @@ var Select = function(element, imgPath, type, unitObject) {
 		this.advisor = undefined;
 		this.advisorId = undefined;
 		this.filterAdvisor = undefined;
+		this.effectiveAdvisor = undefined;
 		this.advisorSelector = new AdvisorSelector(element.getElementsByClassName('advisor-rarity-selector')[0], this);
 
 		this.cog = this.container.getElementsByClassName('cog')[0];
@@ -106,6 +107,7 @@ var Select = function(element, imgPath, type, unitObject) {
 				} else if(type == "advisor") {
 					this.advisorId = option.dataset.advisor;
 					this.advisor = advisors[this.element.dataset.age][this.advisorId];
+					// TODO load existing
 					// TODO unit state
 				}
 			}
@@ -186,6 +188,7 @@ Select.prototype.showDropdown = function() {
 
 	hideAllDropdowns();
 	hideAllStatSelectors();
+	hideAllAdvisorSelectors();
 
 	this.updateOptionImages();
 	this.dropdown.style.display = "flex";
@@ -234,6 +237,7 @@ Select.prototype.select = function(optionIndex) {
 		case "advisor":
 			this.advisorId = option.dataset.advisor;
 			this.advisor = advisors[this.element.dataset.age][this.advisorId];
+			this.advisorSelector.loadAdvisor(this.advisor);
 			img = this.advisor.icon + '.png';
 			break;
 	}

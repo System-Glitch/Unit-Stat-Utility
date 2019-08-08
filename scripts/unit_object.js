@@ -169,7 +169,7 @@ UnitObject.prototype.resetAdvisors = function() {
 	this.resetSelectors(this.advisorSelectors);
 }
 
-UnitObject.prototype.calculateEffect = function(effect, absolutes, modifiers) {
+UnitObject.prototype.calculateEffect = function(effect, absolutes, modifiers, category) {
 	if(effect.isAbsolute) {
 		if(absolutes[effect.type] == undefined)
 			absolutes[effect.type] = 0;
@@ -200,7 +200,7 @@ UnitObject.prototype.calculateEffect = function(effect, absolutes, modifiers) {
 			modifiers["gatherHunt"].push(val);
 			modifiers["gatherBerry"].push(val);
 			modifiers["gatherFish"].push(val);
-		} else if(effect.type == "range" && selector.category == "holyStaff") {
+		} else if(effect.type == "range" && category == "holyStaff") {
 			modifiers["healRange"].push(val);
 			modifiers["chaosRange"].push(val);
 			modifiers["conversionRange"].push(val);
@@ -240,7 +240,7 @@ UnitObject.prototype.updateStats = function() {
 		let selector = this.statSelectors[i];
 		for(let j = 0 ; j < selector.effects.length ; j++) {
 			let effect = selector.effects[j];
-			this.calculateEffect({type: effect.type, amount: effect.element.value}, absolutes, modifiers);
+			this.calculateEffect({type: effect.type, amount: effect.element.value}, absolutes, modifiers, selector.category);
 		}
 	}
 

@@ -30,6 +30,7 @@ var UnitObject = function(element, isDuplicate, shareOptions) {
 	if(shareOptions != undefined) {
 		//Load share options
 		this.unitSelect.select(shareOptions.unit);
+		mode = 'LOADING';
 
 		for(let i = 0 ; i < shareOptions.upgrades.length ; i++) {
 			let upgrade = shareOptions.upgrades[i];
@@ -79,6 +80,7 @@ var UnitObject = function(element, isDuplicate, shareOptions) {
 			this.advisorSelectors[key].select(shareOptions.advisors[key].id);
 			this.advisorSelectors[key].advisorSelector.select(shareOptions.advisors[key].rarity);
 		}
+		mode = 'DONE';
 
 		this.updateStats();
 		this.state = shareOptions;
@@ -223,7 +225,7 @@ UnitObject.prototype.calculateEffect = function(effect, absolutes, modifiers, ca
 
 UnitObject.prototype.updateStats = function() {
 
-	if(mode == "LOADING") return; // TODO set loading mode while changing unit
+	if(mode == "LOADING") return;
 
 	let modifiers = {};
 	let absolutes = {};

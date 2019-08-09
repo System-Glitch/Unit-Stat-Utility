@@ -208,6 +208,7 @@ Select.prototype.select = function(optionIndex) {
 
 	switch(this.type) {
 		case "unit":
+			mode = 'LOADING';
 			this.unitId = option.dataset.unit;
 			this.unit = units[this.unitId];
 			this.unitObject.updateUpgrades(this.unit);
@@ -222,7 +223,7 @@ Select.prototype.select = function(optionIndex) {
 
 			this.selectedOption.innerHTML = option.innerHTML + components.civIcon(getCivFromId(this.unitId));
 			this.unitObject.gearSelectorIcon.src = this.imgPath + this.unit["img"];
-
+			mode = 'DONE';
 			break;
 		case "gear":
 			if(option != undefined) {

@@ -30,6 +30,7 @@ function compareClicked(event) {
 
 	if(mode == "LOADING") return;
 
+	mode = 'LOADING';
 	let unit = event.target.closest(".unit");
 	let id = parseInt(unit.id.replace('unit-', ''));
 	let duplicate = duplicateUnitDOM(unit);
@@ -38,6 +39,7 @@ function compareClicked(event) {
 	unitContainer.appendChild(duplicate);
 	//object.updateUpgrades(object.unitSelect.unit);
 	unitObjects.push(object);
+	mode = 'DONE';
 }
 
 function initCompareButtons() {

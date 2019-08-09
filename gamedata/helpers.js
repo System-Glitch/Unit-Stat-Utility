@@ -177,6 +177,11 @@ module.exports = {
                     }
                     break
                 }
+            case 'TargetSpeedBoostResist':
+                if(effect.attr.amount >= 1000) {
+                    effect.attr.amount = 1
+                    effect.attr.relativity = 'Absolute'
+                }
             default: type = effects[effect.attr.subtype]
         }
 

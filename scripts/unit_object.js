@@ -198,8 +198,13 @@ UnitObject.prototype.calculateEffect = function(effect, absolutes, modifiers, ca
 			modifiers["carryCapacityWood"].push(val);
 			modifiers["carryCapacityGold"].push(val);
 			modifiers["carryCapacityStone"].push(val);
-		}  else if(effect.type == "attackRate") {
+		} else if(effect.type == "attackRate") {
 			modifiers["damage"].push(val);
+			// modifiers["attackRate"].push(val);
+		} else if(effect.type == "snareImmunity") {
+			if(absolutes["snareResist"] == undefined)
+				absolutes["snareResist"] = 0;
+			absolutes["snareResist"] += 1
 			// modifiers["attackRate"].push(val);
 		} else if(effect.type == "gatherFood") {
 			modifiers["gatherFarm"].push(val);
@@ -312,7 +317,7 @@ UnitObject.prototype.updateStats = function() {
 			round2Digits(effectModel.isPercent ? --result * 100 : result) :
 			round(effectModel.isPercent ? --result * 100 : result);
 
-			if((result == 0 || (result == 1 && effects[key].startsAtOne)) && key.indexOf("cost") != 0)
+			if((result == 0 || (result == 1 && effects[key].startsAtOne && !effectModel.isPercent)) && key.indexOf("cost") != 0)
 				display.parentElement.style.display = "none";
 			else
 				display.parentElement.style.display = "table-row";

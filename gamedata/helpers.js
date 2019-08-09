@@ -134,6 +134,9 @@ module.exports = {
                 } else if(effect.attr.action == 'Convert') {
                     type = 'conversionRate'
                     break
+                } else if(effect.attr.action == 'SelfHeal') {
+                    type = 'regen'
+                    break
                 }
             case 'Yield':
                 switch(effect.attr.unittype) {

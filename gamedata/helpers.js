@@ -86,6 +86,21 @@ module.exports = {
         }
         return null
     },
+    findEffect(arr, effect) {
+        for(let key in arr) {
+            const ef = arr[key]
+            let ok = true
+            for(let i in ef) {
+                if(ef[i] != effect[i]) {
+                    ok = false
+                    break
+                }
+            }
+
+            if(ok) return ef
+        }
+        return null
+    },
     rarityToInteger(rarity) {
         switch(rarity) {
             case 'common': return 0
@@ -113,6 +128,10 @@ module.exports = {
                 type = 'carryCapacity' + effect.attr.resource
                 break
             case 'WorkRate':
+                if(effect.attr.action == 'Heal') {
+                    type = 'healRate'
+                    break
+                }
             case 'Yield':
                 switch(effect.attr.unittype) {
                     case 'Con_Res_BerryBush_C':
@@ -144,6 +163,11 @@ module.exports = {
                     case 'Hand': type = 'armorInfantry' ;break
                     case 'Ranged': type = 'armorPierce' ;break
                     default: type = 'armor' + effect.attr.armortype
+                }
+                break
+            case 'MaximumRange':
+                if(effect.attr.action == 'Convert') {
+                    // TODO convert and chaos range
                 }
                 break
             default: type = effects[effect.attr.subtype]

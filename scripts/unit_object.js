@@ -200,6 +200,7 @@ UnitObject.prototype.calculateEffect = function(effect, absolutes, modifiers, ca
 			modifiers["carryCapacityStone"].push(val);
 		}  else if(effect.type == "attackRate") {
 			modifiers["damage"].push(val);
+			// modifiers["attackRate"].push(val);
 		} else if(effect.type == "gatherFood") {
 			modifiers["gatherFarm"].push(val);
 			modifiers["gatherHunt"].push(val);
@@ -209,14 +210,15 @@ UnitObject.prototype.calculateEffect = function(effect, absolutes, modifiers, ca
 			modifiers["healRange"].push(val);
 			modifiers["chaosRange"].push(val);
 			modifiers["conversionRange"].push(val);
-		} else
-		modifiers[effect.type].push(effect.type === "critical" ? mod : val);
+		} else {
+			modifiers[effect.type].push(effect.type === "critical" ? mod : val);
+		}
 	}
 }
 
 UnitObject.prototype.updateStats = function() {
 
-	if(mode == "LOADING") return;
+	if(mode == "LOADING") return; // TODO set loading mode while changing unit
 
 	let modifiers = {};
 	let absolutes = {};

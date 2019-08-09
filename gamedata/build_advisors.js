@@ -70,7 +70,9 @@ helpers.get(API_URL + '/advisors', (data) => {
             for(let keyEffect in effect) {
                 const ef = effect[keyEffect]
                 const cef = helpers.convertEffect(ef)
-                if(cef) effects.push(cef)
+                if(cef && helpers.findEffect(effects, cef) == null) {
+                    effects.push(cef)
+                }
             }
         } else {
             const cef = helpers.convertEffect(effect)

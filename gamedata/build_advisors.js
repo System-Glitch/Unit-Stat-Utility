@@ -87,6 +87,19 @@ helpers.get(API_URL + '/advisors', (data) => {
         result[advisor.age][id].rarities[helpers.rarityToInteger(advisor.rarity)] = entry
     }
 
+    const ordered = {}
+    Object.keys(result[3]).sort(function(a, b) {
+        const objA = result[3][a]
+        const objB = result[3][b]
+
+        if((!objA.rarities || Object.keys(objA.rarities).indexOf('4') != -1) && objB.rarities && Object.keys(objB.rarities).indexOf('4') == -1) return -1
+        if(objA.rarities && Object.keys(objA.rarities).indexOf('4') == -1 && objB.rarities && Object.keys(objB.rarities).indexOf('4') == -1) return 0
+        if((!objB.rarities || Object.keys(objB.rarities).indexOf('4') != -1) && objA.rarities && Object.keys(objA.rarities).indexOf('4') == -1) return 1
+    }).forEach(function(key) {
+        ordered[key] = result[3][key]
+    });
+    result[3] = ordered
+
     helpers.save('const advisors=' + JSON.stringify(result) + ';', './scripts/advisors.js')
     // helpers.save(JSON.stringify(result, null, 2), './scripts/advisors.json')
 })

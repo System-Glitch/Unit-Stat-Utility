@@ -254,7 +254,7 @@ UnitObject.prototype.updateStats = function() {
 		let selector = this.statSelectors[i];
 		for(let j = 0 ; j < selector.effects.length ; j++) {
 			let effect = selector.effects[j];
-			this.calculateEffect({type: effect.type, amount: effect.element.value}, absolutes, modifiers, selector.category);
+			this.calculateEffect({type: effect.type, amount: effect.element.value, isAbsolute: effect.isAbsolute}, absolutes, modifiers, selector.category);
 		}
 	}
 

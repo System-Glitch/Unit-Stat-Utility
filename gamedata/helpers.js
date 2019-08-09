@@ -131,6 +131,9 @@ module.exports = {
                 if(effect.attr.action == 'Heal') {
                     type = 'healRate'
                     break
+                } else if(effect.attr.action == 'Convert') {
+                    type = 'conversionRate'
+                    break
                 }
             case 'Yield':
                 switch(effect.attr.unittype) {

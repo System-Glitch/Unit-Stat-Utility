@@ -30,9 +30,11 @@ AdvisorSelector.prototype.loadAdvisor = function(advisor) {
 			this.createAdvisorOptions(advisor);
 			this.select(this.advisorOptionsElements.length - 1);
 		} else {
+			delete this.selector.unitObject.state.advisors[this.selector.element.dataset.age];
 			this.element.appendChild(createAdvisorNoOption());
 		}
 	} else {
+		delete this.selector.unitObject.state.advisors[this.selector.element.dataset.age];
 		this.element.appendChild(createAdvisorNoOption());
 	}
 }

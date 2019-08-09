@@ -167,9 +167,13 @@ module.exports = {
                 break
             case 'MaximumRange':
                 if(effect.attr.action == 'Convert') {
-                    // TODO convert and chaos range
+                    if(effect.Target['#text'] == 'Eg_Spc_PriestSet') {
+                        type = 'chaosRange'
+                    } else {
+                        type = 'convertRange'
+                    }
+                    break
                 }
-                break
             default: type = effects[effect.attr.subtype]
         }
 

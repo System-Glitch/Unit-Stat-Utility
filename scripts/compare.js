@@ -26,15 +26,29 @@ function duplicateUnitDOM(unit) {
 	return div;
 }
 
+function findFilter(filterList, filter) {
+	for(let i = 0 ; i < filterList.length ; i++) {
+		if(filterList[i].dataset.filter == filter) {
+			console.log(filterList[i]);
+			return filterList[i];
+		}
+	}
+	return null;
+}
+
 function compareClicked(event) {
 
 	if(mode == "LOADING") return;
 
 	mode = 'LOADING';
-	let unit = event.target.closest(".unit");
-	let id = parseInt(unit.id.replace('unit-', ''));
-	let duplicate = duplicateUnitDOM(unit);
-	let object = new UnitObject(duplicate, true, JSON.parse(JSON.stringify(unitObjects[id].state)));
+	const unit = event.target.closest(".unit");
+	const id = parseInt(unit.id.replace('unit-', ''));
+	const model = unitObjects[id];
+	const duplicate = duplicateUnitDOM(unit);
+	const object = new UnitObject(duplicate, true, JSON.parse(JSON.stringify(model.state)));
+
+	object.unitSelect.filterOptions(findFilter(object.unitSelect.filters, model.unitSelect.filter));
+	object.updateAdvisorSelectors(object.unitSelect.filter);
 
 	unitContainer.appendChild(duplicate);
 	//object.updateUpgrades(object.unitSelect.unit);

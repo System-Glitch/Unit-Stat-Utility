@@ -517,6 +517,10 @@ h4, p {
 	padding-left: 15px;
 }
 
+.stat-selector-slider.stat-selector-fixed {
+	cursor: auto;
+}
+
 @supports not (-ms-ime-align:auto) {
 	.stat-selector-slider {
 		min-width: 100%;
@@ -535,6 +539,12 @@ h4, p {
 	margin-top: -4px;
 }
 
+.stat-selector-slider.stat-selector-fixed::-webkit-slider-thumb {
+	width: 0px;
+	height: 0px;
+	cursor: auto;
+}
+
 .stat-selector-slider::-webkit-slider-runnable-track {
 	width: 100%;
 	height: 3px;
@@ -542,6 +552,10 @@ h4, p {
 	background: #9a9994;
 	border-radius: 1.3px;
 	border: 0.2px solid #010101;
+}
+
+.stat-selector-slider.stat-selector-fixed::-webkit-slider-runnable-track {
+	cursor: auto;
 }
 
 .stat-selector-slider::-moz-range-track {
@@ -553,11 +567,21 @@ h4, p {
 	border: 0.2px solid #010101;
 }
 
+.stat-selector-slider.stat-selector-fixed::-moz-range-track {
+	cursor: auto;
+}
+
 .stat-selector-slider::-moz-range-thumb {
 	width: 12px;
 	height: 12px;
 	background: #ebebeb;
 	cursor: pointer;
+}
+
+.stat-selector-slider.stat-selector-fixed::-moz-range-thumb {
+	width: 0px;
+	height: 0px;
+	cursor: auto;
 }
 
 .slider-container {

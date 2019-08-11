@@ -115,6 +115,10 @@ StatsSelector.prototype.addEffect = function(effect) {
 	let inputElement = element.getElementsByClassName('stat-selector-slider')[0];
 	const that = this;
 	
+	if(effect.min == effect.max) {
+		inputElement.classList.add('stat-selector-fixed');
+	}
+
 	inputElement.oninput = function(event) {
 		valueInputElement.value = round(inputElement.value);
 		that.unitObject.state.gear[that.category].stats[element.dataset.effect] = inputElement.value;

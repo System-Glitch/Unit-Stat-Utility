@@ -58,7 +58,7 @@ var effects = {
 	convertSiegeRate: {name: "Convert Siege Rate", startsAtOne: false},
 	convertCavalryRate: {name: "Convert Cavalry Rate", startsAtOne: false},
 	conversionRange: {name: "Conversion Range", startsAtOne: false},
-	empowerResearch: {name: "Train/Research Rate", startsAtOne: true},
+	empowerResearch: {name: "Train/Research Rate", startsAtOne: true, round2: true},
 	carryCapacity: {name: "Carry Capacity", startsAtOne: false},
 	carryCapacityFood: {name: "Food Carry Capacity", startsAtOne: false},
 	carryCapacityWood: {name: "Wood Carry Capacity", startsAtOne: false},

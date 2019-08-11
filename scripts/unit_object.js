@@ -325,7 +325,7 @@ UnitObject.prototype.updateStats = function() {
 				result += absolutes[key];
 			}
 
-			display.textContent = effectModel.isArmor || key.indexOf("gather") == 0 ? 
+			display.textContent = effectModel.isArmor || effectModel.round2 || key.indexOf("gather") == 0 ?
 			round2Digits(effectModel.isPercent ? --result * 100 : result) :
 			round(effectModel.isPercent ? --result * 100 : result);
 

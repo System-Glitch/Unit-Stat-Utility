@@ -30,6 +30,7 @@ var UnitObject = function(element, isDuplicate, shareOptions) {
 	if(shareOptions != undefined) {
 		//Load share options
 		this.unitSelect.select(shareOptions.unit);
+		this.updateUnitFilter();
 		mode = 'LOADING';
 
 		for(let i = 0 ; i < shareOptions.upgrades.length ; i++) {
@@ -89,6 +90,15 @@ var UnitObject = function(element, isDuplicate, shareOptions) {
 	if(isDuplicate) {
 		this.registerCloseButton();
 	}
+}
+
+UnitObject.prototype.updateUnitFilter = function() {
+	for(let i = 0 ; i < this.unitSelect.filters.length ; i++) {
+		if(this.unitSelect.unitId.indexOf(this.unitSelect.filters[i].dataset.filter) == 0) {
+			this.unitSelect.filterOptions(this.unitSelect.filters[i]);
+		}
+	}
+	this.updateAdvisorSelectors(this.unitSelect.filter);
 }
 
 UnitObject.prototype.registerCloseButton = function() {

@@ -29,7 +29,6 @@ function duplicateUnitDOM(unit) {
 function findFilter(filterList, filter) {
 	for(let i = 0 ; i < filterList.length ; i++) {
 		if(filterList[i].dataset.filter == filter) {
-			console.log(filterList[i]);
 			return filterList[i];
 		}
 	}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gear maker</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<input type="text" id="amount" placeholder="Amount" required>
+	<input type="text" id="scaling" placeholder="Scaling" required>
+	<input type="text" id="type" placeholder="Type" required>
+	<input type="number" min="1" max="40" value="40" id="level" placeholder="Level" required>
+	<input type="checkbox" id="positive" checked title="Positive">
+	<input type="checkbox" id="fixed" title="Fixed">
+	<button type="button" onclick="submit()">Submit</button>
+	<textarea id="result"></textarea>
+	<script type="text/javascript">
+		function submit() {
+			const amount = parseFloat(document.getElementById("amount").value.replace(',', '.'));
+			const scaling = parseFloat(document.getElementById("scaling").value.replace(',', '.'));
+			const level = parseInt(document.getElementById("level").value);
+			const type = document.getElementById("type").value;
+			const positive = document.getElementById("positive").checked;
+			const fixed = document.getElementById("fixed").checked;
+			const median = (((amount + (scaling * (level + 3)))-1))*100;
+			const min = fixed ? median : median * 0.95;
+			const max = fixed ? median : median * 1.05;
+			document.getElementById("result").value = '{min: ' + min + ', max: ' + max + ', positive: ' + positive + ', type: "' + type + '"}'
+		}
+	</script>
+</body>
+</html>

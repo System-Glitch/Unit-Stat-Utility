@@ -663,4 +663,3 @@ var shareOptions = undefined;
 			unitObjects[i].updateStats();
 	}
 })();
-

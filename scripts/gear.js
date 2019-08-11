@@ -7299,6 +7299,17 @@ var gear = {
 	lightSpear: [
 		{name: "None", img: 'Slot/1hSpearSlot_ua.png'},
 		{
+			name: "Set's Spear of the Solstice",
+			img: "Gear/Celeste/Generic/Spears1H/LightSpear3.png",
+			effects: {
+				40: [
+					{min: 18.710000000000004, max: 18.710000000000004, positive: true, type: "health"},
+					{min: 39.71, max: 39.71, positive: true, type: "damage"},
+					{min: 4.600000000000004, max: 4.600000000000004, positive: true, type: "speed"}
+				],
+			}
+		},
+		{
 			name: "Light Spear of Lycurgus",
 			img: "Gear/Generic/Spears1H/Spear1H_L90_ua.png",
 			effects: {
@@ -8260,6 +8271,17 @@ var gear = {
 	],
 	scepter: [
 		{name: "None", img: 'Slot/ScepterSlot_ua.png'},
+		{
+			name: "Ra's Scepter of the Solstice",
+			img: "Gear/Celeste/Generic/Scepters/Scepter2.png",
+			effects: {
+				40: [
+					{min: 37.31, max: 37.31, positive: true, type: "healRate"},
+					{min: 15.60999999999999, max: 15.60999999999999, positive: true, type: "speed"},
+					{min: -13.5, max: -13.5, positive: true, type: "cost"}
+				],
+			}
+		},
 		{
 			name: "Jewel-Covered Scepter",
 			img: "Gear/Generic/Scepters/Scepter_L91_ua.png",
@@ -15320,6 +15342,18 @@ var gear = {
 	shield: [
 		{name: "None", img: 'Slot/ShieldSlot_ua.png'},
 		{
+			name: "Set's Shield of of the Solstice",
+			img: "Gear/Celeste/Generic/Shields/Shield2.png",
+			effects: {
+				40: [
+					{min: 10.210000000000008, max: 10.210000000000008, positive: true, type: "health"},
+					{min: 3.9099999999999913, max: 3.9099999999999913, positive: true, type: "damage"},
+					{min: 2.410000000000001, max: 2.410000000000001, positive: true, type: "speed"}
+
+				],
+			}
+		},
+		{
 			name: "Shield of Bellerophon",
 			img: "Gear/Generic/Shields/Shield_L90_ua.png",
 			effects: {
@@ -20263,6 +20297,18 @@ var gear = {
 	mediumArmor: [
 		{name: "None", img: 'Slot/MedArmorSlot_ua.png'},
 		{
+			name: "Ra's Armor of the Solstice",
+			img: "Gear/Celeste/Generic/Armor/Inf/infarmor14.png",
+			effects: {
+				40: [
+					{min: 71.61, max: 71.61, positive: true, type: "health"},
+					{min: 4.600000000000004, max: 4.600000000000004, positive: true, type: "speed"},
+					{min: 2.42, max: 2.42, positive: true, type: "critical"}
+
+				],
+			}
+		},
+		{
 			name: "Tyr's Mithril Breastplate",
 			img: "Gear/Celeste/Generic/Armor/Inf/Inf_TMB_ua.png",
 			effects: {
@@ -23964,6 +24010,16 @@ var gear = {
 	constructionAddition: [
 		{name: "None", img: 'Slot/BldgGearSlot_ua.png'},
 		{
+			name: "Ra's Wall Joints of the Solstice",
+			img: "Gear/Celeste/Generic/Gear/Bldg/WallJoint6.png",
+			effects: {
+				40: [
+					{min: -8.130000000000004, max: -8.130000000000004, positive: true, type: "timeBuilding"},
+					{min: 7.879999999999998, max: 7.879999999999998, positive: true, type: "empowerResearch"}
+				],
+			}
+		},
+		{
 			name: "Athenian Training Manual",
 			img: "Gear/Celeste/Generic/Gear/Bldg/Gear_Bldg_ATM_ua.png",
 			effects: {
@@ -25620,6 +25676,16 @@ var gear = {
 	],
 	religiousItem: [
 		{name: "None", img: 'Slot/PriestGearSlot_ua.png'},
+		{
+			name: "Set's Sandals Of The Solstice",
+			img: "Gear/Celeste/Generic/Gear/Prst/Sandals2.png",
+			effects: {
+				40: [
+					{min: 5.909999999999993, max: 5.909999999999993, positive: true, type: "speed"},
+					{min: 21.809999999999995, max: 21.809999999999995, positive: true, type: "health"}
+				],
+			}
+		},
 		{
 			name: "Council Overseer's Talisman",
 			img: "Gear/Generic/Gear/Prst/Talisman_L90_ua.png",

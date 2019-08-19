@@ -112,7 +112,14 @@ UnitObject.prototype.registerCloseButton = function() {
 	}
 
 	closeButton.onclick = function(ev) {
-		unitObjects.splice(unitObjects.indexOf(this), 1);
+		const index = unitObjects.indexOf(this);
+
+		// Update DOM ids
+		for(let i = index ; i < unitObjects.length ; i++) {
+			unitObjects[i].element.id = 'unit-' + (i - 1);
+		}
+
+		unitObjects.splice(index, 1);
 		this.element.remove();
 
 		unitObjects[unitObjects.length - 1].compareButton.style.display = 'inline-block';

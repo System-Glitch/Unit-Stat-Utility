@@ -14,7 +14,7 @@ app.use('/img', express.static(__dirname + '/img', { maxAge: oneYear }))
 app.use('/scripts', express.static(__dirname + '/scripts', { maxAge: oneYear }))
 app.get('/robots.txt', (req, res) => res.sendFile(__dirname + '/robots.txt'))
 app.get('/', (req, res) => {
-	res.set('Cache-Control', 'max-age=' + (oneYear / 1000));
+	res.set('Cache-Control', 'max-age=' + (oneYear / 1000))
 	res.sendFile(__dirname + '/index.html')
 })
 
@@ -38,5 +38,15 @@ app.get('/builds/:b', async (req, res) => {
 		res.status(404).end()
 	}
 })
+
+function healthHandler(req, res, next) {
+	res.header('Cache-Control', 'no-cache, no-store, must-revalidate')
+	res.header('Access-Control-Allow-Origin', '*')
+	res.header('Access-Control-Allow-Methods', 'GET, HEAD ,OPTIONS')
+	res.header('Access-Control-Allow-Headers', 'Content-Type, Cache-Control, Origin, Authorization, Content-Length, X-Requested-With')
+	res.sendStatus(200)
+}
+app.get("/health", healthHandler)
+app.options("/health", healthHandler)
 
 app.listen(port, '0.0.0.0', () => console.log(`Unit stat utility server listening on port ${port}!`))

@@ -122,7 +122,7 @@ var upgradesMapping = {
 	},
 	babylonians: {
 		AbstractInfantry: ["barracks", "armoryMelee", "pharmacology"],
-		AbstractArcher: ["archery", "armoryArrows", "pharmacology"], // War chariot is archer but shouldn't benefit from archery
+		AbstractArcher: ["armoryArrows", "pharmacology"],
 		AbstractCavalry: ["stables", "armoryMelee", "pharmacology"],
 		Military: ["armoryArmor", "armoryShield", "totalWar"],
 		Building: ["townWatch"]
@@ -226,12 +226,12 @@ var upgradesSpecific = {
 	Ce_Civ_Villager: ["callToArms"],
 	Ba_Inf_Spearman: ["championSpearmanBabylon"],
 	Ba_Shp_Bireme: ["championBireme","armoryArrows"],
-	Ba_Arc_ChariotArcher: ["ironWheels"],
-	Ba_Arc_WarChariot: ["ironWheels"],
+	Ba_Arc_ChariotArcher: ["ironWheels", "stables"],
+	Ba_Arc_WarChariot: ["ironWheels", "stables"],
 	Ba_Sie_SiegeTower: ["ironWheels"],
 	Ba_Inf_ShieldBearer: ["championShieldBearer"],
-	Ba_Arc_Slinger: ["championSlingerBabylon"],
-	Ba_Arc_Bowman: ["championBowmanBabylon"],
+	Ba_Arc_Slinger: ["championSlingerBabylon", "archery"],
+	Ba_Arc_Bowman: ["championBowmanBabylon", "archery"],
 	Ba_Cav_Lancer: ["championLancer"],
 	Ba_Shp_RamShip: ["championRamShipBabylon"],
 	Ba_Inf_RoyalGuard: ["championRoyalGuard"],

@@ -34,6 +34,7 @@ var effects = {
 	range: {name: "Maximum Range", startsAtOne: false},
 	rateOfFire: {name: "Rate-of-fire", startsAtOne: true},
 	population: {name: "Population", startsAtOne: false, lowerIsBetter: true},
+	autoGatherFood: {name: "Food per Second per Garden", startsAtOne: false}, // Gardens
 	gatherFood: {name: "Gathering Food", startsAtOne: false},
 	gatherWood: {name: "Gathering Wood", startsAtOne: false},
 	gatherGold: {name: "Gathering Gold", startsAtOne: false},

@@ -120,6 +120,8 @@ module.exports = {
     },
     convertEffect(effect) {
         let type = undefined
+        const target = effect.Target ? effect.Target['#text'] != 'Unit' ? effect.Target['#text'] : undefined : undefined
+
         switch(effect.attr.subtype) {
             case 'Cost':
                 type = 'cost' + effect.attr.resource
@@ -148,7 +150,12 @@ module.exports = {
                     case 'Tree': type = 'gatherWood'           ;break
                     case 'Herdable': type = 'gatherHerdable'   ;break
                     case 'AbstractTownCenter': type = 'trade'  ;break
-                    default: type = 'gather' + effect.attr.unittype
+                    default:
+                        if(target == 'Ba_Bldg_Garden' && effect.attr.unittype  == 'Food') {
+                            type = 'autoGatherFood'
+                        } else {
+                            type = 'gather' + effect.attr.unittype
+                        }
                 }
                 break
             case 'DamageBonus':
@@ -197,7 +204,7 @@ module.exports = {
             type: type,
             amount: absolute ? effect.attr.amount : (effect.attr.amount - 1) * 100,
             isAbsolute: absolute,
-            target: effect.Target ? effect.Target['#text'] != 'Unit' ? effect.Target['#text'] : undefined : undefined
+            target: target
         }
     },
     civ(civ) {

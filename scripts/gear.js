@@ -769,6 +769,15 @@ var gear = {
 	bow: [
 		{name: "None", img: 'Slot/BowSlot_ua.png'},
 		{
+			name: "Bow Of Menes",
+			img: "Gear/Celeste/Generic/Bows/Bow1H_BOM_ua.png",
+			effects: {
+				40: [
+					{min: 60.400000000000006, max: 60.400000000000006, positive: true, type: "damage"}
+				],
+			}
+		},
+		{
 			name: "Ullr's All-Seeing Bow",
 			img: "Gear/Celeste/Generic/Bows/Bow1H_UASB_ua.png",
 			effects: {
@@ -10137,6 +10146,15 @@ var gear = {
 	sword: [
 		{name: "None", img: 'Slot/SwordSlot_ua.png'},
 		{
+			name: "Sesostris's Curved Khopesh",
+			img: "Gear/Celeste/Generic/Swords/Sword1H_SCK_ua.png",
+			effects: {
+				40: [
+					{min: 60.400000000000006, max: 60.400000000000006, positive: true, type: "damage"}
+				],
+			}
+		},
+		{
 			name: "Zahhak's Sword of the Undying",
 			img: "Gear/Celeste/Generic/Swords/HighlordsBlade9.png",
 			effects: {
@@ -12690,6 +12708,16 @@ var gear = {
 	throwingArm: [
 		{name: "None", img: 'Slot/BallistaArmSlot_ua.png'},
 		{
+			name: "Seth's Siege Arm",
+			img: "Gear/Celeste/Generic/Ballista/Ballista2H_SSA_ua.png",
+			effects: {
+				40: [
+					{min: 60.400000000000006, max: 60.400000000000006, positive: true, type: "damage"},
+					{min: 8.400000000000007, max: 8.400000000000007, positive: true, type: "range"}
+				],
+			}
+		},
+		{
 			name: "Blessed Dionysus´ Throwing Arm",
 			img: "Gear/Generic/Ballista/Ballista_L90_ua.(1,4,1,1).png",
 			effects: {
@@ -13466,6 +13494,16 @@ var gear = {
 	],
 	merchantGear: [
 		{name: "None", img: 'Slot/MerchLogSlot_ua.png'},
+		{
+			name: "Merchant Log Of The Nile",
+			img: "Gear/Celeste/Generic/Merchant/Merchant2H_MLOTN_ua.png",
+			effects: {
+				40: [
+					{min: 16.52049999999999, max: 18.259499999999996, positive: true, type: "trade"},
+					{min: 3.5150000000000134, max: 3.8850000000000153, positive: true, type: "speed"}
+				],
+			}
+		},
 		{
 			name: "Aegean Trader's Contract",
 			img: "Gear/Celeste/Generic/Merchant/Merchant2H_ATC_ua.png",
@@ -14266,6 +14304,27 @@ var gear = {
 	],
 	arrow: [
 		{name: "None", img: 'Slot/ArrowSlot_ua.png'},
+		{
+			name: "Setredet's Sacrificial Arrows",
+			img: "Gear/Celeste/Generic/Arrows/ArrowOH_SSA_ua.png",
+			effects: {
+				40: [
+					{min: 7.919999999999994, max: 7.919999999999994, positive: true, type: "damage"},
+					{min: -2.3399999999999976, max: -2.3399999999999976, positive: true, type: "cost"},
+					{min: 5.299999999999994, max: 5.299999999999994, positive: true, type: "vision"}
+				],
+			}
+		},
+		{
+			name: "Arrows Of Apophis",
+			img: "Gear/Celeste/Generic/Arrows/ArrowOH_AOA_ua.png",
+			effects: {
+				40: [
+					{min: 9.272000000000011, max: 10.248000000000014, positive: true, type: "damage"},
+					{min: 18.5535, max: 20.506500000000003, positive: true, type: "multiplierCavalry"}
+				],
+			}
+		},
 		{
 			name: "Xerxes' Sun-blotting Arrows",
 			img: "Gear/Celeste/Generic/Arrows/Arrows_XSBA_ua.png",
@@ -19064,6 +19123,15 @@ var gear = {
 	],
 	clothArmor: [
 		{name: "None", img: 'Slot/ClothArmorSlot_ua.png'},
+		{
+			name: "Robes Of Thebes",
+			img: "Gear/Celeste/Generic/Armor/Clth/ArmorClth_ROT_ua.png",
+			effects: {
+				40: [
+					{min: 86.99999999999999, max: 86.99999999999999, positive: true, type: "health"}
+				],
+			}
+		},
 		{
 			name: "Seth's Best Vest",
 			img: "Gear/Celeste/Generic/Armor/Clth/ArmorCloth_DHVR_ua.png",
@@ -26546,6 +26614,17 @@ var gear = {
 	],
 	shipAccessory: [
 		{name: "None", img: 'Slot/BoatGearSlot_ua.png'},
+		{
+			name: "Hull Of Khufu",
+			img: "Gear/Celeste/Generic/Gear/Boat/Gear_Boat_HOK_ua.png",
+			effects: {
+				40: [
+					{min: -20.369999999999994, max: -18.429999999999996, positive: true, type: "cost"},
+					{min: -15.22499999999999, max: -13.774999999999991, positive: false, type: "damage"},
+					{min: -15.22499999999999, max: -13.774999999999991, positive: false, type: "health"}
+				],
+			}
+		},
 		{
 			name: "Hadad's Remarkable Hull",
 			img: "Gear/Celeste/Generic/Gear/Boat/Gear_Boat_HRH_ua.png",

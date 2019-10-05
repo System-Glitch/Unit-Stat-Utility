@@ -22,8 +22,14 @@
 			const positive = document.getElementById("positive").checked;
 			const fixed = document.getElementById("fixed").checked;
 			const median = (((amount + (scaling * (level + 3)))-1))*100;
-			const min = fixed ? median : median * 0.95;
-			const max = fixed ? median : median * 1.05;
+			let min = fixed ? median : median * 0.95;
+			let max = fixed ? median : median * 1.05;
+
+			if(min > max) {
+				let tmp = max
+				max = min
+				min = tmp
+			}
 			document.getElementById("result").value = '{min: ' + min + ', max: ' + max + ', positive: ' + positive + ', type: "' + type + '"}'
 		}
 	</script>

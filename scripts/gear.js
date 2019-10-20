@@ -4054,6 +4054,16 @@ var gear = {
 	heavySpear: [
 		{name: "None", img: 'Slot/2hSpearSlot_ua.png'},
 		{
+			name: "Zahhak's Heavy Spear of the Undying",
+			img: "Gear/Celeste/Generic/Spears2H/Spear2H_Halloween2019_ua.png",
+			effects: {
+				40: [
+					{min: 75.45, max: 75.45, positive: true, type: "damage"},
+					{min: 7.95, max: 7.95, positive: true, type: "regen", isAbsolute: true}
+				],
+			}
+		},
+		{
 			name: "Athena´s Long Spear",
 			img: "Gear/Celeste/Generic/Spears2H/Spears2H_ALS_ua.png",
 			effects: {
@@ -7307,6 +7317,16 @@ var gear = {
 	],
 	lightSpear: [
 		{name: "None", img: 'Slot/1hSpearSlot_ua.png'},
+		{
+			name: "Zahhak's Light Spear of the Undying",
+			img: "Gear/Celeste/Generic/Spears1H/Spear1H_Halloween2019_ua.png",
+			effects: {
+				40: [
+					{min: 54.65, max: 54.65, positive: true, type: "damage"},
+					{min: 7.95, max: 7.95, positive: true, type: "regen", isAbsolute: true}
+				],
+			}
+		},
 		{
 			name: "Set's Spear of the Solstice",
 			img: "Gear/Celeste/Generic/Spears1H/LightSpear3.png",
@@ -22410,6 +22430,16 @@ var gear = {
 	],
 	laborerGear: [
 		{name: "None", img: 'Slot/CivGearSlot_ua.png'},
+		{
+			name: "Zahhak's Amulet of the Undying",
+			img: "Gear/Celeste/Generic/Gear/Vill/Gear_Vill_Halloween2019_ua.png",
+			effects: {
+				40: [
+					{min: 4.400000000000004, max: 4.400000000000004, positive: true, type: "speed"},
+					{min: 7.95, max: 7.95, positive: true, type: "regen", isAbsolute: true}
+				],
+			}
+		},
 		{
 			name: "Gerda's Gardening Essentials",
 			img: "Gear/Celeste/Generic/Gear/Vill/Gear_Vill_GGE_ua.png",

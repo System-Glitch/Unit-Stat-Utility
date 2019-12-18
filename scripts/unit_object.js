@@ -364,27 +364,52 @@ UnitObject.prototype.updateUpgrades = function(unit) {
 			element.style.display = "inline-block";
 			element.getElementsByClassName('upgrade-active')[0].value = "0";
 		}
-
 	}
 
-	this.updateUpgradesIcons(unit);
+	this.updateAdvisorUpgrades();
+	this.updateUpgradesIcons(unit.upgrades);
 }
 
-UnitObject.prototype.updateUpgradesIcons = function(unit) {
-	const that = this;
+UnitObject.prototype.clearAdvisorUpgrades = function() {
+	for(let key in esfandiyarUpgrades) {
+		const up = esfandiyarUpgrades[key];
+		let element = this.upgradeElements[up];
+		element.style.display = "none";
+
+		const index = this.state.upgrades.indexOf(up);
+		if(index != -1) {
+			toggleUpgrade(document.getElementById(up));
+			this.state.upgrades.splice(index, 1);
+		}		
+	}
+}
+
+UnitObject.prototype.updateAdvisorUpgrades = function() {
+	const selector = this.advisorSelectors[this.advisorSelectors.length-1];
+	const advisor = selector.effectiveAdvisor;
+	if(advisor && advisor.id == 'Esfandiyar_L_IV') {
+		for(let key in esfandiyarUpgrades) {
+			let element = this.upgradeElements[esfandiyarUpgrades[key]];
+			element.style.display = "inline-block";
+		}
+	}
+}
+
+UnitObject.prototype.updateUpgradesIcons = function(u) {
 	setTimeout(function() {
-		for(let key in unit.upgrades) {
-			let upgradeKey = unit.upgrades[key];
+		for(let key in u) {
+			let upgradeKey = u[key];
 			let upgrade = upgrades[upgradeKey];
 			if(upgrade.isChain) {
 				for(let key in upgrade) {
 					if(key == "isChain") continue;
-					updateUpgradeIcon(that.upgradeElements[key],  upgrade[key]);
+					updateUpgradeIcon(this.upgradeElements[key],  upgrade[key]);
 				}
-			} else
-			updateUpgradeIcon(that.upgradeElements[upgradeKey],  upgrade);
+			} else {
+				updateUpgradeIcon(this.upgradeElements[upgradeKey],  upgrade);
+			}
 		}
-	});
+	}.bind(this));
 	
 };
 
@@ -503,10 +528,22 @@ UnitObject.prototype.onUpgradeClick = function(event) {
 		let enabled = toggleUpgrade(element);
 
 		if(upgrade.indexOf("none") != 0) {
-			if(enabled)
+			if(enabled) {
 				this.state.upgrades.push(upgrade);
-			else
+			} else {
 				this.state.upgrades.splice(this.state.upgrades.indexOf(upgrade), 1);
+			}
+		}
+
+		if(enabled && esfandiyarUpgrades.indexOf(upgrade) != -1) {
+			for(let key in esfandiyarUpgrades) {
+				const up = esfandiyarUpgrades[key];
+				const index = this.state.upgrades.indexOf(up);
+				if(index != -1 && up != upgrade) {
+					toggleUpgrade(this.loneUpgradesContainer.getElementsByClassName(up)[0]);
+					this.state.upgrades.splice(index, 1);
+				}
+			}
 		}
 	}
 

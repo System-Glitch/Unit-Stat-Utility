@@ -23,6 +23,7 @@ AdvisorSelector.prototype.loadExisting = function() {
 AdvisorSelector.prototype.loadAdvisor = function(advisor) {
 	this.clear();
 	this.advisor = advisor;
+	this.selector.unitObject.clearAdvisorUpgrades();
 	if(advisor != undefined) {
 		this.element.appendChild(createAdvisorTitle(advisor.name));
 
@@ -56,9 +57,9 @@ AdvisorSelector.prototype.createAdvisorOptions = function(advisor) {
 }
 
 AdvisorSelector.prototype.select = function(optionIndex) {
-	const element = this.advisorOptionsElements[optionIndex];
+	const element = this.advisorOptionsElements[optionIndex];	
 	if(element == undefined) return;
-
+	
 	const option = this.advisor.rarities[element.dataset.rarity];
 	const selectedIcon = this.selector.selectedOption.getElementsByClassName('advisor-select-img')[0];
 	selectedIcon.src = this.selector.imgPath + option.id + '.png';
@@ -66,8 +67,14 @@ AdvisorSelector.prototype.select = function(optionIndex) {
 	this.selector.effectiveAdvisor = option;
 	this.selector.element.dataset.suboption = optionIndex;
 
+	if(option.id == 'Esfandiyar_L_IV') {
+		this.selector.unitObject.updateAdvisorUpgrades();
+		this.selector.unitObject.updateUpgradesIcons(esfandiyarUpgrades);
+	}
+
 	this.selector.unitObject.state.advisors[this.selector.element.dataset.age] = {id: parseInt(this.selector.container.dataset.option), rarity: optionIndex};
 	this.selector.unitObject.updateStats();
+
 	updateComparison("all");
 	hideAllAdvisorSelectors();
 }

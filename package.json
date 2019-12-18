@@ -1,6 +1,6 @@
 {
   "name": "unit-stat-utility",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "A utility which allows to simulate stats and compare any AOEO unit when equipped with certain gear.",
   "main": "index.js",
   "scripts": {

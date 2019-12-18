@@ -122,6 +122,10 @@ module.exports = {
         let type = undefined
         const target = effect.Target ? effect.Target['#text'] != 'Unit' ? effect.Target['#text'] : undefined : undefined
 
+        if(target == undefined) {
+            return undefined
+        }
+
         switch(effect.attr.subtype) {
             case 'Cost':
                 type = 'cost' + effect.attr.resource

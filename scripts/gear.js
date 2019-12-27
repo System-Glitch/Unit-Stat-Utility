@@ -23029,6 +23029,17 @@ var gear = {
 	lightArmor: [
 		{name: "None", img: 'Slot/LightArmorSlot_ua.png'},
 		{
+			name: "Horse Armor of the Ice King",
+			img: "Gear/Celeste/Generic/Armor/Cav/HorseArmorV5.png",
+			effects: {
+				40: [
+					{min: 75.64, max: 75.64, positive: true, type: "health"},
+					{min: -3.0999999999999917, max: -3.0999999999999917, positive: true, type: "timeTrain"},
+					{min: 58.15000000000001, max: 58.15000000000001, positive: true, type: "snareResist"},
+				],
+			}
+		},
+		{
 			name: "Garshasp's Golden Gorget",
 			img: "Gear/Celeste/Generic/Armor/Cav/ArmorLgt_GGG_ua.png",
 			effects: {
@@ -27339,6 +27350,18 @@ var gear = {
 	],
 	soldiersGear: [
 		{name: "None", img: 'Slot/GearSlot_ua.png'},
+		{
+			name: "Greaves of the Ice King",
+			img: "Gear/Celeste/Generic/Gear/Inf/IceKingGreave.png",
+			effects: {
+				40: [
+					{min: 29.80999999999998, max: 29.80999999999998, positive: true, type: "health"},
+					{min: 8.799999999999986, max: 8.799999999999986, positive: true, type: "speed"},
+					{min: 21.689999999999987, max: 21.689999999999987, positive: true, type: "cost"}
+
+				],
+			}
+		},
 		{
 			name: "Heimdal's Training Sword",
 			img: "Gear/Celeste/Generic/Gear/Inf/Gear_HTS_ua.png",

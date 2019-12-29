@@ -27357,7 +27357,7 @@ var gear = {
 				40: [
 					{min: 29.80999999999998, max: 29.80999999999998, positive: true, type: "health"},
 					{min: 8.799999999999986, max: 8.799999999999986, positive: true, type: "speed"},
-					{min: 21.689999999999987, max: 21.689999999999987, positive: true, type: "cost"}
+					{min: 21.689999999999987, max: 21.689999999999987, positive: false, type: "cost"}
 
 				],
 			}

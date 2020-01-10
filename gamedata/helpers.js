@@ -204,9 +204,15 @@ module.exports = {
         }
 
         const absolute = effect.attr.relativity == 'Absolute' ? true : undefined
+        let amount = absolute ? effect.attr.amount : (effect.attr.amount - 1) * 100
+
+        if(effect.attr.action == 'Convert') {
+            amount = Math.abs(amount);
+        }
+
         return {
             type: type,
-            amount: absolute ? effect.attr.amount : (effect.attr.amount - 1) * 100,
+            amount: amount,
             isAbsolute: absolute,
             target: target
         }

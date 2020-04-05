@@ -461,14 +461,14 @@ UnitObject.prototype.updateGearSelectors = function(unit) {
 
 UnitObject.prototype.loadUpgrades = function() {
 	//Automatically generate upgrades
-	/*for(let key in upgrades) {
+	/* for(let key in upgrades) {
 
 		let upgrade = upgrades[key];
 		if(upgrade.isChain)
 			this.loadUpgradeChain(key, upgrade);
 		else
 			this.loadUpgrade(this.loneUpgradesContainer, key, upgrade);
-	}*/
+	} */
 
 	let elements = this.upgradesContainer.getElementsByClassName("upgrade");
 	for(let i = 0 ; i < elements.length ; i++) {

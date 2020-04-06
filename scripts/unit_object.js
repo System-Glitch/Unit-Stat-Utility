@@ -217,7 +217,7 @@ UnitObject.prototype.calculateEffect = function(effect, absolutes, modifiers, ca
 			modifiers["carryCapacityWood"].push(val);
 			modifiers["carryCapacityGold"].push(val);
 			modifiers["carryCapacityStone"].push(val);
-		} else if(effect.type == "attackRate") {
+		} else if(effect.type == "attackRate" || effect.type == "rateOfFire") {
 			modifiers["damage"].push(val);
 			// modifiers["attackRate"].push(val);
 		} else if(effect.type == "snareImmunity") {

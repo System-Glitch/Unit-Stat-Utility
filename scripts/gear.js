@@ -769,6 +769,17 @@ var gear = {
 	bow: [
 		{name: "None", img: 'Slot/BowSlot_ua.png'},
 		{
+			name: "Finnbar's Forgotten Bow ",
+			img: "Gear/Celeste/Generic/Bows/Bow1H_AOB_ua.png",
+			effects: {
+				40: [
+					{min: 54.63, max: 54.63, positive: true, type: "damage"},
+					{min: 2.5399999999999867, max: 2.5399999999999867, positive: true, type: "vision"},
+					{min: 1.9000000000000128, max: 1.9000000000000128, positive: true, type: "empowerResearch"}
+				],
+			}
+		},
+		{
 			name: "Bow Of Menes",
 			img: "Gear/Celeste/Generic/Bows/Bow1H_BOM_ua.png",
 			effects: {
@@ -14324,6 +14335,28 @@ var gear = {
 	],
 	arrow: [
 		{name: "None", img: 'Slot/ArrowSlot_ua.png'},
+		{
+			name: "Comontorios' Burning Arrows",
+			img: "Gear/Celeste/Generic/Arrows/ArrowOH_SSA_ua.png",
+			effects: {
+				40: [
+					{min: 7.523999999999994, max: 8.315999999999994, positive: true, type: "damage"},
+					{min: 11.437999999999985, max: 12.641999999999985, positive: true, type: "range"},
+					{min: 18.5535, max: 20.506500000000003, positive: true, type: "multiplierShips"}
+				],
+			}
+		},
+		{
+			name: "Etain's Burning Arrows",
+			img: "Gear/Generic/Arrows/Arrow_E61_ua.png",
+			effects: {
+				40: [
+					{min: 7.919999999999994, max: 7.919999999999994, positive: true, type: "damage"},
+					{min: 7.919999999999994, max: 7.919999999999994, positive: true, type: "range"},
+					{min: 17.39999999999999, max: 17.39999999999999, positive: true, type: "multiplierShips"}
+				],
+			}
+		},
 		{
 			name: "Setredet's Sacrificial Arrows",
 			img: "Gear/Celeste/Generic/Arrows/ArrowOH_SSA_ua.png",

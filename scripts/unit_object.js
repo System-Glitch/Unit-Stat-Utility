@@ -235,7 +235,7 @@ UnitObject.prototype.calculateEffect = function(effect, absolutes, modifiers, ca
 			modifiers["chaosRange"].push(val);
 			modifiers["conversionRange"].push(val);
 		} else {
-			modifiers[effect.type].push(effect.type === "critical" ? mod : val);
+			modifiers[effect.type].push(val);
 		}
 	}
 }
@@ -316,11 +316,6 @@ UnitObject.prototype.updateStats = function() {
 
 				armorResults[key] = result;
 				
-			} else if(key === "critical") {
-
-				for(let j = 0 ; j < length ; j++)
-					result += effect[j];
-
 			} else {
 
 				for(let j = 0 ; j < length ; j++)
@@ -332,7 +327,7 @@ UnitObject.prototype.updateStats = function() {
 				result += absolutes[key];
 			}
 
-			display.textContent = effectModel.isArmor || effectModel.round2 || key.indexOf("gather") == 0 ?
+			display.textContent = effectModel.isArmor || effectModel.round2 || key.indexOf("gather") == 0 || key == "critical" ?
 			round2Digits(effectModel.isPercent ? --result * 100 : result) :
 			round(effectModel.isPercent ? --result * 100 : result);
 

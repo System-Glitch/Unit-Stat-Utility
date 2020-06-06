@@ -28,7 +28,7 @@ var effects = {
 	multiplierAnimal: {name: "Animal Bonus Damage", startsAtOne: true},
 	snare: {name: "Snare", startsAtOne: true, isPercent: true}, //Missing effect
 	snareResist: {name: "Snare Resist", startsAtOne: true, isPercent: true}, //Missing effect
-	critical: {name: "Critical Hit Chance", startsAtOne: false},
+	critical: {name: "Critical Hit Chance", startsAtOne: true, isPercent: true},
 	timeTrain: {name: "Train Time", startsAtOne: false, lowerIsBetter: true},
 	timeBuilding: {name: "Build Time", startsAtOne: false, lowerIsBetter: true},
 	range: {name: "Maximum Range", startsAtOne: false},

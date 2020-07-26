@@ -20430,7 +20430,7 @@ var gear = {
 			}
 		},
 		{
-			name: "Tyr's Mithril Breastplate",
+			name: "Tyr's Magnificent Breastplate",
 			img: "Gear/Celeste/Generic/Armor/Inf/Inf_TMB_ua.png",
 			effects: {
 				40: [

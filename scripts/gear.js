@@ -5290,7 +5290,7 @@ var gear = {
 			img: "Gear/Generic/Staves/Staff_L90_ua.png",
 			effects: {
 				40: [
-					{min: 80.17999999999999, max: 88.61999999999999, positive: true, type: "healing"},
+					{min: 80.17999999999999, max: 88.61999999999999, positive: true, type: "healRate"},
 					{min: 56.6485, max: 62.61150000000001, positive: true, type: "damage"},
 				],
 			}
@@ -5336,7 +5336,7 @@ var gear = {
 			img: "Gear/Generic/Staves/Staff_E64_ua.png",
 			effects: {
 				40: [
-					{min: 76.91199999999999, max: 85.008, positive: true, type: "healing"},
+					{min: 76.91199999999999, max: 85.008, positive: true, type: "healRate"},
 					{min: 54.1975, max: 59.902499999999996, positive: true, type: "damage"},
 				],
 			}
@@ -5428,52 +5428,52 @@ var gear = {
 			effects: {
 				27: [
 					{min: 2.460499999999982, max: 2.7194999999999805, positive: true, type: "range"},
-					{min: 6.289000000000003, max: 6.951000000000004, positive: true, type: "healing"},
+					{min: 6.289000000000003, max: 6.951000000000004, positive: true, type: "healRate"},
 					{min: 26.780500000000004, max: 29.599500000000006, positive: true, type: "damage"},
 				],
 				32: [
 					{min: 2.7929999999999877, max: 3.0869999999999864, positive: true, type: "range"},
-					{min: 7.143999999999993, max: 7.895999999999994, positive: true, type: "healing"},
+					{min: 7.143999999999993, max: 7.895999999999994, positive: true, type: "healRate"},
 					{min: 30.53299999999999, max: 33.74699999999999, positive: true, type: "damage"},
 				],
 				33: [
 					{min: 2.8595000000000015, max: 3.1605000000000016, positive: true, type: "range"},
-					{min: 7.314999999999996, max: 8.084999999999996, positive: true, type: "healing"},
+					{min: 7.314999999999996, max: 8.084999999999996, positive: true, type: "healRate"},
 					{min: 31.283499999999993, max: 34.576499999999996, positive: true, type: "damage"},
 				],
 				34: [
 					{min: 2.925999999999994, max: 3.2339999999999938, positive: true, type: "range"},
-					{min: 7.485999999999998, max: 8.274, positive: true, type: "healing"},
+					{min: 7.485999999999998, max: 8.274, positive: true, type: "healRate"},
 					{min: 32.03399999999999, max: 35.40599999999999, positive: true, type: "damage"},
 				],
 				35: [
 					{min: 2.992499999999987, max: 3.3074999999999855, positive: true, type: "range"},
-					{min: 7.657, max: 8.463000000000001, positive: true, type: "healing"},
+					{min: 7.657, max: 8.463000000000001, positive: true, type: "healRate"},
 					{min: 32.784499999999994, max: 36.2355, positive: true, type: "damage"},
 				],
 				36: [
 					{min: 3.0590000000000006, max: 3.3810000000000007, positive: true, type: "range"},
-					{min: 7.828000000000001, max: 8.652000000000003, positive: true, type: "healing"},
+					{min: 7.828000000000001, max: 8.652000000000003, positive: true, type: "healRate"},
 					{min: 33.535, max: 37.065, positive: true, type: "damage"},
 				],
 				37: [
 					{min: 3.125499999999993, max: 3.454499999999993, positive: true, type: "range"},
-					{min: 7.999000000000005, max: 8.841000000000006, positive: true, type: "healing"},
+					{min: 7.999000000000005, max: 8.841000000000006, positive: true, type: "healRate"},
 					{min: 34.2855, max: 37.89450000000001, positive: true, type: "damage"},
 				],
 				38: [
 					{min: 3.191999999999986, max: 3.5279999999999845, positive: true, type: "range"},
-					{min: 8.170000000000007, max: 9.03000000000001, positive: true, type: "healing"},
+					{min: 8.170000000000007, max: 9.03000000000001, positive: true, type: "healRate"},
 					{min: 35.036, max: 38.724000000000004, positive: true, type: "damage"},
 				],
 				39: [
 					{min: 3.2584999999999997, max: 3.6014999999999997, positive: true, type: "range"},
-					{min: 8.34100000000001, max: 9.21900000000001, positive: true, type: "healing"},
+					{min: 8.34100000000001, max: 9.21900000000001, positive: true, type: "healRate"},
 					{min: 35.7865, max: 39.55350000000001, positive: true, type: "damage"},
 				],
 				40: [
 					{min: 3.324999999999992, max: 3.674999999999992, positive: true, type: "range"},
-					{min: 8.51199999999999, max: 9.40799999999999, positive: true, type: "healing"},
+					{min: 8.51199999999999, max: 9.40799999999999, positive: true, type: "healRate"},
 					{min: 36.537000000000006, max: 40.38300000000001, positive: true, type: "damage"},
 				],
 			}
@@ -5549,23 +5549,23 @@ var gear = {
 			img: "Gear/Generic/Staves/Staff_E64_ua.png",
 			effects: {
 				33: [
-					{min: 66.36699999999998, max: 73.353, positive: true, type: "healing"},
+					{min: 66.36699999999998, max: 73.353, positive: true, type: "healRate"},
 					{min: 4.113500000000011, max: 4.546500000000012, positive: true, type: "speed"},
 				],
 				34: [
-					{min: 68.04849999999999, max: 75.2115, positive: true, type: "healing"},
+					{min: 68.04849999999999, max: 75.2115, positive: true, type: "healRate"},
 					{min: 4.217999999999999, max: 4.662, positive: true, type: "speed"},
 				],
 				35: [
-					{min: 69.73, max: 77.07000000000001, positive: true, type: "healing"},
+					{min: 69.73, max: 77.07000000000001, positive: true, type: "healRate"},
 					{min: 4.322500000000009, max: 4.7775000000000105, positive: true, type: "speed"},
 				],
 				36: [
-					{min: 71.4115, max: 78.9285, positive: true, type: "healing"},
+					{min: 71.4115, max: 78.9285, positive: true, type: "healRate"},
 					{min: 4.426999999999998, max: 4.892999999999997, positive: true, type: "speed"},
 				],
 				37: [
-					{min: 73.09299999999998, max: 80.78699999999999, positive: true, type: "healing"},
+					{min: 73.09299999999998, max: 80.78699999999999, positive: true, type: "healRate"},
 					{min: 4.531500000000007, max: 5.008500000000008, positive: true, type: "speed"},
 				],
 			}
@@ -5575,23 +5575,23 @@ var gear = {
 			img: "Gear/Generic/Staves/Staff_R31_ua.png",
 			effects: {
 				32: [
-					{min: 53.71299999999999, max: 59.367, positive: true, type: "healing"},
+					{min: 53.71299999999999, max: 59.367, positive: true, type: "healRate"},
 					{min: 36.12850000000001, max: 39.93150000000001, positive: true, type: "damage"},
 				],
 				33: [
-					{min: 55.08099999999999, max: 60.87899999999999, positive: true, type: "healing"},
+					{min: 55.08099999999999, max: 60.87899999999999, positive: true, type: "healRate"},
 					{min: 37.05950000000001, max: 40.96050000000002, positive: true, type: "damage"},
 				],
 				34: [
-					{min: 56.448999999999984, max: 62.39099999999999, positive: true, type: "healing"},
+					{min: 56.448999999999984, max: 62.39099999999999, positive: true, type: "healRate"},
 					{min: 37.99050000000001, max: 41.98950000000002, positive: true, type: "damage"},
 				],
 				35: [
-					{min: 57.817, max: 63.903, positive: true, type: "healing"},
+					{min: 57.817, max: 63.903, positive: true, type: "healRate"},
 					{min: 38.921500000000016, max: 43.018500000000024, positive: true, type: "damage"},
 				],
 				36: [
-					{min: 59.184999999999974, max: 65.41499999999998, positive: true, type: "healing"},
+					{min: 59.184999999999974, max: 65.41499999999998, positive: true, type: "healRate"},
 					{min: 39.85250000000001, max: 44.04750000000002, positive: true, type: "damage"},
 				],
 			}
@@ -5689,27 +5689,27 @@ var gear = {
 			img: "Gear/Generic/Staves/Staff_R34_ua.png",
 			effects: {
 				26: [
-					{min: 44.67849999999999, max: 49.381499999999996, positive: true, type: "healing"},
+					{min: 44.67849999999999, max: 49.381499999999996, positive: true, type: "healRate"},
 					{min: 30.54250000000001, max: 33.757500000000014, positive: true, type: "damage"},
 				],
 				27: [
-					{min: 46.017999999999994, max: 50.862, positive: true, type: "healing"},
+					{min: 46.017999999999994, max: 50.862, positive: true, type: "healRate"},
 					{min: 31.473500000000016, max: 34.78650000000002, positive: true, type: "damage"},
 				],
 				28: [
-					{min: 47.357499999999995, max: 52.342499999999994, positive: true, type: "healing"},
+					{min: 47.357499999999995, max: 52.342499999999994, positive: true, type: "healRate"},
 					{min: 32.40450000000002, max: 35.81550000000002, positive: true, type: "damage"},
 				],
 				29: [
-					{min: 48.69699999999999, max: 53.82299999999999, positive: true, type: "healing"},
+					{min: 48.69699999999999, max: 53.82299999999999, positive: true, type: "healRate"},
 					{min: 33.33550000000002, max: 36.84450000000002, positive: true, type: "damage"},
 				],
 				30: [
-					{min: 50.03649999999999, max: 55.3035, positive: true, type: "healing"},
+					{min: 50.03649999999999, max: 55.3035, positive: true, type: "healRate"},
 					{min: 34.2665, max: 37.8735, positive: true, type: "damage"},
 				],
 				31: [
-					{min: 51.376, max: 56.784, positive: true, type: "healing"},
+					{min: 51.376, max: 56.784, positive: true, type: "healRate"},
 					{min: 35.197500000000005, max: 38.9025, positive: true, type: "damage"},
 				],
 			}
@@ -5756,77 +5756,77 @@ var gear = {
 			effects: {
 				17: [
 					{min: 1.9854999999999923, max: 2.1944999999999917, positive: true, type: "range"},
-					{min: 4.959000000000002, max: 5.4810000000000025, positive: true, type: "healing"},
+					{min: 4.959000000000002, max: 5.4810000000000025, positive: true, type: "healRate"},
 					{min: 19.465499999999988, max: 21.514499999999988, positive: true, type: "damage"},
 				],
 				18: [
 					{min: 2.0614999999999837, max: 2.2784999999999824, positive: true, type: "range"},
-					{min: 5.149000000000002, max: 5.691000000000003, positive: true, type: "healing"},
+					{min: 5.149000000000002, max: 5.691000000000003, positive: true, type: "healRate"},
 					{min: 20.225499999999986, max: 22.354499999999984, positive: true, type: "damage"},
 				],
 				19: [
 					{min: 2.1374999999999966, max: 2.3624999999999963, positive: true, type: "range"},
-					{min: 5.339000000000002, max: 5.901000000000003, positive: true, type: "healing"},
+					{min: 5.339000000000002, max: 5.901000000000003, positive: true, type: "healRate"},
 					{min: 20.985499999999988, max: 23.19449999999999, positive: true, type: "damage"},
 				],
 				20: [
 					{min: 2.2134999999999883, max: 2.446499999999987, positive: true, type: "range"},
-					{min: 5.529000000000003, max: 6.111000000000003, positive: true, type: "healing"},
+					{min: 5.529000000000003, max: 6.111000000000003, positive: true, type: "healRate"},
 					{min: 21.745499999999986, max: 24.034499999999987, positive: true, type: "damage"},
 				],
 				21: [
 					{min: 2.2895000000000008, max: 2.5305000000000013, positive: true, type: "range"},
-					{min: 5.719000000000003, max: 6.321000000000003, positive: true, type: "healing"},
+					{min: 5.719000000000003, max: 6.321000000000003, positive: true, type: "healRate"},
 					{min: 22.50549999999999, max: 24.87449999999999, positive: true, type: "damage"},
 				],
 				22: [
 					{min: 2.3654999999999924, max: 2.614499999999992, positive: true, type: "range"},
-					{min: 5.9090000000000025, max: 6.531000000000004, positive: true, type: "healing"},
+					{min: 5.9090000000000025, max: 6.531000000000004, positive: true, type: "healRate"},
 					{min: 23.26549999999999, max: 25.714499999999987, positive: true, type: "damage"},
 				],
 				23: [
 					{min: 2.441499999999984, max: 2.698499999999983, positive: true, type: "range"},
-					{min: 6.099000000000003, max: 6.741000000000004, positive: true, type: "healing"},
+					{min: 6.099000000000003, max: 6.741000000000004, positive: true, type: "healRate"},
 					{min: 24.02549999999999, max: 26.554499999999994, positive: true, type: "damage"},
 				],
 				24: [
 					{min: 2.517499999999997, max: 2.7824999999999966, positive: true, type: "range"},
-					{min: 6.289000000000003, max: 6.951000000000004, positive: true, type: "healing"},
+					{min: 6.289000000000003, max: 6.951000000000004, positive: true, type: "healRate"},
 					{min: 24.78549999999999, max: 27.39449999999999, positive: true, type: "damage"},
 				],
 				25: [
 					{min: 2.5934999999999886, max: 2.8664999999999874, positive: true, type: "range"},
-					{min: 6.479000000000004, max: 7.161000000000004, positive: true, type: "healing"},
+					{min: 6.479000000000004, max: 7.161000000000004, positive: true, type: "healRate"},
 					{min: 25.545499999999993, max: 28.234499999999993, positive: true, type: "damage"},
 				],
 				26: [
 					{min: 2.669500000000001, max: 2.9505000000000017, positive: true, type: "range"},
-					{min: 6.669000000000003, max: 7.371000000000005, positive: true, type: "healing"},
+					{min: 6.669000000000003, max: 7.371000000000005, positive: true, type: "healRate"},
 					{min: 26.30549999999999, max: 29.07449999999999, positive: true, type: "damage"},
 				],
 				27: [
 					{min: 2.7454999999999927, max: 3.0344999999999924, positive: true, type: "range"},
-					{min: 6.8590000000000035, max: 7.581000000000005, positive: true, type: "healing"},
+					{min: 6.8590000000000035, max: 7.581000000000005, positive: true, type: "healRate"},
 					{min: 27.065499999999993, max: 29.914499999999997, positive: true, type: "damage"},
 				],
 				28: [
 					{min: 2.8214999999999844, max: 3.118499999999983, positive: true, type: "range"},
-					{min: 7.049000000000004, max: 7.791000000000005, positive: true, type: "healing"},
+					{min: 7.049000000000004, max: 7.791000000000005, positive: true, type: "healRate"},
 					{min: 27.82549999999999, max: 30.754499999999993, positive: true, type: "damage"},
 				],
 				29: [
 					{min: 2.8974999999999973, max: 3.202499999999997, positive: true, type: "range"},
-					{min: 7.239000000000004, max: 8.001000000000005, positive: true, type: "healing"},
+					{min: 7.239000000000004, max: 8.001000000000005, positive: true, type: "healRate"},
 					{min: 28.585499999999996, max: 31.594499999999996, positive: true, type: "damage"},
 				],
 				30: [
 					{min: 2.973499999999989, max: 3.2864999999999878, positive: true, type: "range"},
-					{min: 7.429000000000004, max: 8.211000000000006, positive: true, type: "healing"},
+					{min: 7.429000000000004, max: 8.211000000000006, positive: true, type: "healRate"},
 					{min: 29.345499999999994, max: 32.43449999999999, positive: true, type: "damage"},
 				],
 				31: [
 					{min: 3.0494999999999806, max: 3.3704999999999785, positive: true, type: "range"},
-					{min: 7.619000000000004, max: 8.421000000000005, positive: true, type: "healing"},
+					{min: 7.619000000000004, max: 8.421000000000005, positive: true, type: "healRate"},
 					{min: 30.105499999999996, max: 33.274499999999996, positive: true, type: "damage"},
 				],
 			}
@@ -6064,22 +6064,22 @@ var gear = {
 			effects: {
 				17: [
 					{min: 9.946500000000002, max: 10.993500000000003, positive: true, type: "range"},
-					{min: 16.387499999999985, max: 18.112499999999986, positive: true, type: "healing"},
+					{min: 16.387499999999985, max: 18.112499999999986, positive: true, type: "healRate"},
 					{min: 27.86350000000001, max: 30.796500000000016, positive: true, type: "damage"},
 				],
 				18: [
 					{min: 10.373999999999995, max: 11.465999999999998, positive: true, type: "range"},
-					{min: 17.090499999999995, max: 18.889499999999995, positive: true, type: "healing"},
+					{min: 17.090499999999995, max: 18.889499999999995, positive: true, type: "healRate"},
 					{min: 29.079500000000024, max: 32.14050000000003, positive: true, type: "damage"},
 				],
 				19: [
 					{min: 10.80149999999999, max: 11.93849999999999, positive: true, type: "range"},
-					{min: 17.7935, max: 19.666500000000006, positive: true, type: "healing"},
+					{min: 17.7935, max: 19.666500000000006, positive: true, type: "healRate"},
 					{min: 30.295500000000015, max: 33.48450000000002, positive: true, type: "damage"},
 				],
 				20: [
 					{min: 11.228999999999987, max: 12.410999999999985, positive: true, type: "range"},
-					{min: 18.496500000000008, max: 20.44350000000001, positive: true, type: "healing"},
+					{min: 18.496500000000008, max: 20.44350000000001, positive: true, type: "healRate"},
 					{min: 31.511500000000005, max: 34.82850000000001, positive: true, type: "damage"},
 				],
 			}
@@ -6099,7 +6099,7 @@ var gear = {
 			img: "Gear/Generic/Staves/Staff_R36_ua.png",
 			effects: {
 				18: [
-					{min: 36.35649999999998, max: 40.18349999999998, positive: true, type: "healing"},
+					{min: 36.35649999999998, max: 40.18349999999998, positive: true, type: "healRate"},
 					{min: 23.493500000000004, max: 25.96650000000001, positive: true, type: "damage"},
 				],
 			}
@@ -6182,72 +6182,72 @@ var gear = {
 			effects: {
 				3: [
 					{min: 2.8214999999999844, max: 3.118499999999983, positive: true, type: "range"},
-					{min: 4.664499999999992, max: 5.155499999999992, positive: true, type: "healing"},
+					{min: 4.664499999999992, max: 5.155499999999992, positive: true, type: "healRate"},
 					{min: 7.305500000000018, max: 8.07450000000002, positive: true, type: "damage"},
 				],
 				4: [
 					{min: 3.0590000000000006, max: 3.3810000000000007, positive: true, type: "range"},
-					{min: 5.053999999999991, max: 5.585999999999991, positive: true, type: "healing"},
+					{min: 5.053999999999991, max: 5.585999999999991, positive: true, type: "healRate"},
 					{min: 7.932500000000011, max: 8.767500000000013, positive: true, type: "damage"},
 				],
 				5: [
 					{min: 3.2964999999999955, max: 3.643499999999995, positive: true, type: "range"},
-					{min: 5.4434999999999905, max: 6.016499999999991, positive: true, type: "healing"},
+					{min: 5.4434999999999905, max: 6.016499999999991, positive: true, type: "healRate"},
 					{min: 8.559500000000007, max: 9.460500000000007, positive: true, type: "damage"},
 				],
 				6: [
 					{min: 3.5339999999999905, max: 3.9059999999999895, positive: true, type: "range"},
-					{min: 5.83299999999999, max: 6.446999999999989, positive: true, type: "healing"},
+					{min: 5.83299999999999, max: 6.446999999999989, positive: true, type: "healRate"},
 					{min: 9.1865, max: 10.153500000000003, positive: true, type: "damage"},
 				],
 				7: [
 					{min: 3.7714999999999854, max: 4.168499999999984, positive: true, type: "range"},
-					{min: 6.2224999999999895, max: 6.877499999999989, positive: true, type: "healing"},
+					{min: 6.2224999999999895, max: 6.877499999999989, positive: true, type: "healRate"},
 					{min: 9.813500000000015, max: 10.846500000000017, positive: true, type: "damage"},
 				],
 				8: [
 					{min: 4.009000000000001, max: 4.431000000000002, positive: true, type: "range"},
-					{min: 6.6119999999999886, max: 7.307999999999988, positive: true, type: "healing"},
+					{min: 6.6119999999999886, max: 7.307999999999988, positive: true, type: "healRate"},
 					{min: 10.440500000000009, max: 11.539500000000013, positive: true, type: "damage"},
 				],
 				9: [
 					{min: 4.246499999999997, max: 4.693499999999996, positive: true, type: "range"},
-					{min: 7.001499999999988, max: 7.738499999999988, positive: true, type: "healing"},
+					{min: 7.001499999999988, max: 7.738499999999988, positive: true, type: "healRate"},
 					{min: 11.067500000000004, max: 12.232500000000007, positive: true, type: "damage"},
 				],
 				10: [
 					{min: 4.483999999999991, max: 4.955999999999991, positive: true, type: "range"},
-					{min: 7.390999999999988, max: 8.168999999999986, positive: true, type: "healing"},
+					{min: 7.390999999999988, max: 8.168999999999986, positive: true, type: "healRate"},
 					{min: 11.69450000000002, max: 12.92550000000002, positive: true, type: "damage"},
 				],
 				11: [
 					{min: 4.7214999999999865, max: 5.218499999999985, positive: true, type: "range"},
-					{min: 7.780500000000008, max: 8.59950000000001, positive: true, type: "healing"},
+					{min: 7.780500000000008, max: 8.59950000000001, positive: true, type: "healRate"},
 					{min: 12.321500000000013, max: 13.618500000000017, positive: true, type: "damage"},
 				],
 				12: [
 					{min: 4.959000000000002, max: 5.4810000000000025, positive: true, type: "range"},
-					{min: 8.170000000000007, max: 9.03000000000001, positive: true, type: "healing"},
+					{min: 8.170000000000007, max: 9.03000000000001, positive: true, type: "healRate"},
 					{min: 12.948500000000008, max: 14.311500000000011, positive: true, type: "damage"},
 				],
 				13: [
 					{min: 5.196499999999997, max: 5.743499999999997, positive: true, type: "range"},
-					{min: 8.559500000000007, max: 9.460500000000007, positive: true, type: "healing"},
+					{min: 8.559500000000007, max: 9.460500000000007, positive: true, type: "healRate"},
 					{min: 13.575500000000002, max: 15.004500000000004, positive: true, type: "damage"},
 				],
 				14: [
 					{min: 5.433999999999992, max: 6.005999999999991, positive: true, type: "range"},
-					{min: 8.949000000000005, max: 9.891000000000005, positive: true, type: "healing"},
+					{min: 8.949000000000005, max: 9.891000000000005, positive: true, type: "healRate"},
 					{min: 14.202500000000017, max: 15.697500000000021, positive: true, type: "damage"},
 				],
 				15: [
 					{min: 5.671499999999987, max: 6.268499999999986, positive: true, type: "range"},
-					{min: 9.338500000000005, max: 10.321500000000006, positive: true, type: "healing"},
+					{min: 9.338500000000005, max: 10.321500000000006, positive: true, type: "healRate"},
 					{min: 14.829500000000012, max: 16.390500000000014, positive: true, type: "damage"},
 				],
 				16: [
 					{min: 5.9090000000000025, max: 6.531000000000004, positive: true, type: "range"},
-					{min: 9.728000000000005, max: 10.752000000000006, positive: true, type: "healing"},
+					{min: 9.728000000000005, max: 10.752000000000006, positive: true, type: "healRate"},
 					{min: 15.456500000000005, max: 17.083500000000008, positive: true, type: "damage"},
 				],
 			}
@@ -6288,23 +6288,23 @@ var gear = {
 			img: "Gear/Generic/Staves/Staff_R32_ua.png",
 			effects: {
 				8: [
-					{min: 13.30949999999999, max: 14.710499999999989, positive: true, type: "healing"},
+					{min: 13.30949999999999, max: 14.710499999999989, positive: true, type: "healRate"},
 					{min: 16.245000000000005, max: 17.955000000000005, positive: true, type: "damage"},
 				],
 				9: [
-					{min: 14.202499999999995, max: 15.697499999999996, positive: true, type: "healing"},
+					{min: 14.202499999999995, max: 15.697499999999996, positive: true, type: "healRate"},
 					{min: 17.356500000000008, max: 19.183500000000013, positive: true, type: "damage"},
 				],
 				10: [
-					{min: 15.095500000000003, max: 16.684500000000003, positive: true, type: "healing"},
+					{min: 15.095500000000003, max: 16.684500000000003, positive: true, type: "healRate"},
 					{min: 18.46799999999999, max: 20.411999999999992, positive: true, type: "damage"},
 				],
 				11: [
-					{min: 15.988499999999991, max: 17.67149999999999, positive: true, type: "healing"},
+					{min: 15.988499999999991, max: 17.67149999999999, positive: true, type: "healRate"},
 					{min: 19.579499999999996, max: 21.640499999999996, positive: true, type: "damage"},
 				],
 				12: [
-					{min: 16.881499999999996, max: 18.658499999999997, positive: true, type: "healing"},
+					{min: 16.881499999999996, max: 18.658499999999997, positive: true, type: "healRate"},
 					{min: 20.691, max: 22.869000000000003, positive: true, type: "damage"},
 				],
 			}
@@ -8338,7 +8338,7 @@ var gear = {
 			effects: {
 				40: [
 					{min: 76.494, max: 84.54600000000002, positive: true, type: "empowerDropoff"},
-					{min: 24.3295, max: 26.8905, positive: true, type: "healing"},
+					{min: 24.3295, max: 26.8905, positive: true, type: "healRate"},
 					{min: 73.568, max: 81.312, positive: true, type: "empowerTrainRate"},
 				],
 			}
@@ -8367,7 +8367,7 @@ var gear = {
 			effects: {
 				40: [
 					{min: 72.0005, max: 79.57950000000001, positive: true, type: "empowerDropoff"},
-					{min: 35.47300000000001, max: 39.20700000000002, positive: true, type: "healing"},
+					{min: 35.47300000000001, max: 39.20700000000002, positive: true, type: "healRate"},
 					{min: 53.50399999999999, max: 59.135999999999996, positive: true, type: "empowerBuildRate"},
 				],
 			}
@@ -8378,7 +8378,7 @@ var gear = {
 			effects: {
 				40: [
 					{min: 72.0005, max: 79.57950000000001, positive: true, type: "empowerDropoff"},
-					{min: 23.512500000000006, max: 25.987500000000008, positive: true, type: "healing"},
+					{min: 23.512500000000006, max: 25.987500000000008, positive: true, type: "healRate"},
 					{min: 73.568, max: 81.312, positive: true, type: "empowerTrainRate"},
 				],
 			}
@@ -8389,22 +8389,22 @@ var gear = {
 			effects: {
 				37: [
 					{min: 13.86999999999999, max: 15.329999999999991, positive: true, type: "speed"},
-					{min: 22.002000000000002, max: 24.318000000000005, positive: true, type: "healing"},
+					{min: 22.002000000000002, max: 24.318000000000005, positive: true, type: "healRate"},
 					{min: 73.04549999999999, max: 80.73449999999998, positive: true, type: "empowerBuildRate"},
 				],
 				38: [
 					{min: 14.192999999999998, max: 15.686999999999998, positive: true, type: "speed"},
-					{min: 22.505500000000012, max: 24.874500000000012, positive: true, type: "healing"},
+					{min: 22.505500000000012, max: 24.874500000000012, positive: true, type: "healRate"},
 					{min: 74.71749999999999, max: 82.5825, positive: true, type: "empowerBuildRate"},
 				],
 				39: [
 					{min: 14.516000000000004, max: 16.044000000000004, positive: true, type: "speed"},
-					{min: 23.008999999999997, max: 25.431, positive: true, type: "healing"},
+					{min: 23.008999999999997, max: 25.431, positive: true, type: "healRate"},
 					{min: 76.3895, max: 84.4305, positive: true, type: "empowerBuildRate"},
 				],
 				40: [
 					{min: 14.839000000000011, max: 16.401000000000014, positive: true, type: "speed"},
-					{min: 23.512500000000006, max: 25.987500000000008, positive: true, type: "healing"},
+					{min: 23.512500000000006, max: 25.987500000000008, positive: true, type: "healRate"},
 					{min: 78.06149999999998, max: 86.2785, positive: true, type: "empowerBuildRate"},
 				],
 			}
@@ -8415,22 +8415,22 @@ var gear = {
 			effects: {
 				37: [
 					{min: -13.219500000000002, max: -11.960500000000001, positive: true, type: "cost"},
-					{min: 33.19300000000001, max: 36.68700000000001, positive: true, type: "healing"},
+					{min: 33.19300000000001, max: 36.68700000000001, positive: true, type: "healRate"},
 					{min: 45.87549999999999, max: 50.704499999999996, positive: true, type: "empowerTrainRate"},
 				],
 				38: [
 					{min: -13.524000000000003, max: -12.236000000000002, positive: true, type: "cost"},
-					{min: 33.95300000000002, max: 37.527000000000015, positive: true, type: "healing"},
+					{min: 33.95300000000002, max: 37.527000000000015, positive: true, type: "healRate"},
 					{min: 46.9205, max: 51.859500000000004, positive: true, type: "empowerTrainRate"},
 				],
 				39: [
 					{min: -13.828500000000004, max: -12.511500000000003, positive: true, type: "cost"},
-					{min: 34.713000000000015, max: 38.367000000000026, positive: true, type: "healing"},
+					{min: 34.713000000000015, max: 38.367000000000026, positive: true, type: "healRate"},
 					{min: 47.965499999999984, max: 53.01449999999999, positive: true, type: "empowerTrainRate"},
 				],
 				40: [
 					{min: -14.133000000000004, max: -12.787000000000004, positive: true, type: "cost"},
-					{min: 35.47300000000001, max: 39.20700000000002, positive: true, type: "healing"},
+					{min: 35.47300000000001, max: 39.20700000000002, positive: true, type: "healRate"},
 					{min: 49.01049999999998, max: 54.169499999999985, positive: true, type: "empowerTrainRate"},
 				],
 			}
@@ -8563,7 +8563,7 @@ var gear = {
 			effects: {
 				37: [
 					{min: 59.46050000000001, max: 65.71950000000001, positive: true, type: "empowerDropoff"},
-					{min: 23.227499999999996, max: 25.672499999999996, positive: true, type: "healing"},
+					{min: 23.227499999999996, max: 25.672499999999996, positive: true, type: "healRate"},
 				],
 			}
 		},
@@ -8583,27 +8583,27 @@ var gear = {
 			effects: {
 				31: [
 					{min: 57.892999999999994, max: 63.987, positive: true, type: "empowerDropoff"},
-					{min: 29.602000000000007, max: 32.71800000000001, positive: true, type: "healing"},
+					{min: 29.602000000000007, max: 32.71800000000001, positive: true, type: "healRate"},
 					{min: 43.15849999999999, max: 47.701499999999996, positive: true, type: "empowerBuildRate"},
 				],
 				32: [
 					{min: 59.46050000000001, max: 65.71950000000001, positive: true, type: "empowerDropoff"},
-					{min: 30.390500000000007, max: 33.58950000000001, positive: true, type: "healing"},
+					{min: 30.390500000000007, max: 33.58950000000001, positive: true, type: "healRate"},
 					{min: 44.30799999999999, max: 48.971999999999994, positive: true, type: "empowerBuildRate"},
 				],
 				33: [
 					{min: 61.028000000000006, max: 67.45200000000001, positive: true, type: "empowerDropoff"},
-					{min: 31.179000000000006, max: 34.46100000000001, positive: true, type: "healing"},
+					{min: 31.179000000000006, max: 34.46100000000001, positive: true, type: "healRate"},
 					{min: 45.457499999999996, max: 50.24249999999999, positive: true, type: "empowerBuildRate"},
 				],
 				34: [
 					{min: 62.595499999999994, max: 69.1845, positive: true, type: "empowerDropoff"},
-					{min: 31.967500000000005, max: 35.33250000000001, positive: true, type: "healing"},
+					{min: 31.967500000000005, max: 35.33250000000001, positive: true, type: "healRate"},
 					{min: 46.60699999999999, max: 51.513, positive: true, type: "empowerBuildRate"},
 				],
 				35: [
 					{min: 64.163, max: 70.91700000000002, positive: true, type: "empowerDropoff"},
-					{min: 32.756000000000014, max: 36.20400000000002, positive: true, type: "healing"},
+					{min: 32.756000000000014, max: 36.20400000000002, positive: true, type: "healRate"},
 					{min: 47.756499999999996, max: 52.7835, positive: true, type: "empowerBuildRate"},
 				],
 			}
@@ -8735,27 +8735,27 @@ var gear = {
 			effects: {
 				26: [
 					{min: 50.05549999999999, max: 55.32449999999999, positive: true, type: "empowerDropoff"},
-					{min: 17.289999999999996, max: 19.109999999999996, positive: true, type: "healing"},
+					{min: 17.289999999999996, max: 19.109999999999996, positive: true, type: "healRate"},
 					{min: 57.684, max: 63.756, positive: true, type: "empowerBuildRate"},
 				],
 				27: [
 					{min: 51.623000000000005, max: 57.057000000000016, positive: true, type: "empowerDropoff"},
-					{min: 17.821999999999996, max: 19.698, positive: true, type: "healing"},
+					{min: 17.821999999999996, max: 19.698, positive: true, type: "healRate"},
 					{min: 59.46050000000001, max: 65.71950000000001, positive: true, type: "empowerBuildRate"},
 				],
 				28: [
 					{min: 53.19050000000001, max: 58.78950000000001, positive: true, type: "empowerDropoff"},
-					{min: 18.354000000000003, max: 20.286000000000005, positive: true, type: "healing"},
+					{min: 18.354000000000003, max: 20.286000000000005, positive: true, type: "healRate"},
 					{min: 61.237, max: 67.683, positive: true, type: "empowerBuildRate"},
 				],
 				29: [
 					{min: 54.757999999999996, max: 60.522000000000006, positive: true, type: "empowerDropoff"},
-					{min: 18.88600000000001, max: 20.87400000000001, positive: true, type: "healing"},
+					{min: 18.88600000000001, max: 20.87400000000001, positive: true, type: "healRate"},
 					{min: 63.01349999999999, max: 69.6465, positive: true, type: "empowerBuildRate"},
 				],
 				30: [
 					{min: 56.3255, max: 62.2545, positive: true, type: "empowerDropoff"},
-					{min: 19.41800000000001, max: 21.462000000000014, positive: true, type: "healing"},
+					{min: 19.41800000000001, max: 21.462000000000014, positive: true, type: "healRate"},
 					{min: 64.78999999999999, max: 71.60999999999999, positive: true, type: "empowerBuildRate"},
 				],
 			}
@@ -8765,23 +8765,23 @@ var gear = {
 			img: "Gear/Generic/Scepters/Scepter_R30_ua.png",
 			effects: {
 				25: [
-					{min: 17.489499999999992, max: 19.330499999999994, positive: true, type: "healing"},
+					{min: 17.489499999999992, max: 19.330499999999994, positive: true, type: "healRate"},
 					{min: 36.9835, max: 40.8765, positive: true, type: "health"},
 				],
 				26: [
-					{min: 18.030999999999995, max: 19.929, positive: true, type: "healing"},
+					{min: 18.030999999999995, max: 19.929, positive: true, type: "healRate"},
 					{min: 38.151999999999994, max: 42.168, positive: true, type: "health"},
 				],
 				27: [
-					{min: 18.5725, max: 20.5275, positive: true, type: "healing"},
+					{min: 18.5725, max: 20.5275, positive: true, type: "healRate"},
 					{min: 39.32049999999999, max: 43.4595, positive: true, type: "health"},
 				],
 				28: [
-					{min: 19.114000000000004, max: 21.126000000000005, positive: true, type: "healing"},
+					{min: 19.114000000000004, max: 21.126000000000005, positive: true, type: "healRate"},
 					{min: 40.48899999999999, max: 44.75099999999999, positive: true, type: "health"},
 				],
 				29: [
-					{min: 19.655500000000007, max: 21.72450000000001, positive: true, type: "healing"},
+					{min: 19.655500000000007, max: 21.72450000000001, positive: true, type: "healRate"},
 					{min: 41.657499999999985, max: 46.04249999999999, positive: true, type: "health"},
 				],
 			}
@@ -8828,27 +8828,27 @@ var gear = {
 			effects: {
 				20: [
 					{min: 40.650499999999994, max: 44.92949999999999, positive: true, type: "empowerDropoff"},
-					{min: 21.802500000000002, max: 24.097500000000004, positive: true, type: "healing"},
+					{min: 21.802500000000002, max: 24.097500000000004, positive: true, type: "healRate"},
 					{min: 32.917499999999976, max: 36.38249999999998, positive: true, type: "empowerTrainRate"},
 				],
 				21: [
 					{min: 42.21799999999999, max: 46.66199999999999, positive: true, type: "empowerDropoff"},
-					{min: 22.628999999999994, max: 25.011, positive: true, type: "healing"},
+					{min: 22.628999999999994, max: 25.011, positive: true, type: "healRate"},
 					{min: 34.17149999999999, max: 37.768499999999996, positive: true, type: "empowerTrainRate"},
 				],
 				22: [
 					{min: 43.785500000000006, max: 48.394500000000015, positive: true, type: "empowerDropoff"},
-					{min: 23.45550000000001, max: 25.924500000000013, positive: true, type: "healing"},
+					{min: 23.45550000000001, max: 25.924500000000013, positive: true, type: "healRate"},
 					{min: 35.4255, max: 39.1545, positive: true, type: "empowerTrainRate"},
 				],
 				23: [
 					{min: 45.353, max: 50.127, positive: true, type: "empowerDropoff"},
-					{min: 24.282000000000004, max: 26.838000000000008, positive: true, type: "healing"},
+					{min: 24.282000000000004, max: 26.838000000000008, positive: true, type: "healRate"},
 					{min: 36.67949999999998, max: 40.54049999999999, positive: true, type: "empowerTrainRate"},
 				],
 				24: [
 					{min: 46.9205, max: 51.859500000000004, positive: true, type: "empowerDropoff"},
-					{min: 25.1085, max: 27.7515, positive: true, type: "healing"},
+					{min: 25.1085, max: 27.7515, positive: true, type: "healRate"},
 					{min: 37.933499999999995, max: 41.926500000000004, positive: true, type: "empowerTrainRate"},
 				],
 			}
@@ -8895,23 +8895,23 @@ var gear = {
 			effects: {
 				18: [
 					{min: 35.8435, max: 39.616499999999995, positive: true, type: "empowerDropoff"},
-					{min: 14.097999999999987, max: 15.581999999999985, positive: true, type: "healing"},
+					{min: 14.097999999999987, max: 15.581999999999985, positive: true, type: "healRate"},
 				],
 				19: [
 					{min: 37.3065, max: 41.23350000000001, positive: true, type: "empowerDropoff"},
-					{min: 14.65849999999999, max: 16.20149999999999, positive: true, type: "healing"},
+					{min: 14.65849999999999, max: 16.20149999999999, positive: true, type: "healRate"},
 				],
 				20: [
 					{min: 38.769500000000015, max: 42.85050000000002, positive: true, type: "empowerDropoff"},
-					{min: 15.218999999999989, max: 16.82099999999999, positive: true, type: "healing"},
+					{min: 15.218999999999989, max: 16.82099999999999, positive: true, type: "healRate"},
 				],
 				21: [
 					{min: 40.23250000000002, max: 44.46750000000002, positive: true, type: "empowerDropoff"},
-					{min: 15.779499999999992, max: 17.440499999999993, positive: true, type: "healing"},
+					{min: 15.779499999999992, max: 17.440499999999993, positive: true, type: "healRate"},
 				],
 				22: [
 					{min: 41.6955, max: 46.08450000000001, positive: true, type: "empowerDropoff"},
-					{min: 16.339999999999993, max: 18.05999999999999, positive: true, type: "healing"},
+					{min: 16.339999999999993, max: 18.05999999999999, positive: true, type: "healRate"},
 				],
 			}
 		},
@@ -9004,7 +9004,7 @@ var gear = {
 			effects: {
 				17: [
 					{min: 34.38050000000001, max: 37.99950000000001, positive: true, type: "empowerDropoff"},
-					{min: 13.727499999999985, max: 15.172499999999985, positive: true, type: "healing"},
+					{min: 13.727499999999985, max: 15.172499999999985, positive: true, type: "healRate"},
 				],
 			}
 		},
@@ -9158,7 +9158,7 @@ var gear = {
 			effects: {
 				10: [
 					{min: 24.139499999999998, max: 26.680500000000002, positive: true, type: "empowerDropoff"},
-					{min: 9.984499999999997, max: 11.035499999999999, positive: true, type: "healing"},
+					{min: 9.984499999999997, max: 11.035499999999999, positive: true, type: "healRate"},
 				],
 			}
 		},
@@ -9178,7 +9178,7 @@ var gear = {
 			effects: {
 				8: [
 					{min: 18.28749999999999, max: 20.212499999999988, positive: true, type: "empowerDropoff"},
-					{min: 19.759999999999998, max: 21.839999999999996, positive: true, type: "healing"},
+					{min: 19.759999999999998, max: 21.839999999999996, positive: true, type: "healRate"},
 				],
 			}
 		},

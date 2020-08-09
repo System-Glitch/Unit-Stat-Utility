@@ -45,7 +45,7 @@ var effects = {
 	gatherHerdable: {name: "Gathering Herdable", startsAtOne: false}, //Missing effect
 	gatherFarm: {name: "Gathering Farms", startsAtOne: false},
 	buildingSpeed: {name: "Buildings Construction Speed", startsAtOne: true},
-	healing: {name: "Healing", startsAtOne: true, isPercent: true},
+	// healing: {name: "Healing", startsAtOne: true, isPercent: true},
 	healRange: {name: "Healing Range", startsAtOne: false},
 	healRate: {name: "Healing Rate", startsAtOne: true},
 	chaosRange: {name: "Chaos Range", startsAtOne: false},

@@ -769,6 +769,16 @@ var gear = {
 	bow: [
 		{name: "None", img: 'Slot/BowSlot_ua.png'},
 		{
+			name: "Ra's Bow of the Solstice",
+			img: "Gear/Celeste/Generic/Bows/SE2020_Bow1H_ua.png",
+			effects: {
+				40: [
+					{min: 54.63, max: 54.63, positive: true, type: "damage"},
+					{min: 6.209999999999982, max: 6.209999999999982, positive: true, type: "speed"}
+				],
+			}
+		},
+		{
 			name: "Finnbar's Forgotten Bow ",
 			img: "Gear/Celeste/Generic/Bows/Bow1H_AOB_ua.png",
 			effects: {
@@ -17214,6 +17224,16 @@ var gear = {
 	ramHead: [
 		{name: "None", img: 'Slot/RamSlot_ua.png'},
 		{
+			name: "Ra's Ram Head of the Solstice",
+			img: "Gear/Celeste/Generic/Ramheads/SE2020_RamHead2H_ua.png",
+			effects: {
+				40: [
+					{min: 75.44, max: 75.44, positive: true, type: "damage"},
+					{min: 5.610000000000004, max: 5.610000000000004, positive: true, type: "speed"}
+				],
+			}
+		},
+		{
 			name: "Athenian Iron Forged Ram Head",
 			img: "Gear/Celeste/Generic/Ramheads/RamHead2H_AIFRH_ua.png",
 			effects: {
@@ -19176,6 +19196,17 @@ var gear = {
 	],
 	clothArmor: [
 		{name: "None", img: 'Slot/ClothArmorSlot_ua.png'},
+		{
+			name: " Set's Chiton of the Solstice ",
+			img: "Gear/Celeste/Generic/Armor/Clth/SE2020_ArmorClth_ua.png",
+			effects: {
+				40: [
+					{min: 66.80999999999999, max: 66.80999999999999, positive: true, type: "health"},
+					{min: 34.51, max: 34.51, positive: true, type: "armorCavalry"},
+					{min: 2.50999999999999, max: 2.50999999999999, positive: true, type: "speed"}
+				],
+			}
+		},
 		{
 			name: "Robes Of Thebes",
 			img: "Gear/Celeste/Generic/Armor/Clth/ArmorClth_ROT_ua.png",
@@ -26418,6 +26449,17 @@ var gear = {
 	],
 	scoutSpecial: [
 		{name: "None", img: 'Slot/ScoutSpecialSlot_ua.png'},
+		{
+			name: "Set's Sash of the Solstice ",
+			img: "Gear/Celeste/Generic/Gear/Scout/SE2020_Scout1H_ua.png",
+			effects: {
+				40: [
+					{min: 49.91000000000001, max: 49.91000000000001, positive: true, type: "vision"},
+					{min: 16.51, max: 16.51, positive: true, type: "speed"},
+					{min: 6.5, max: 6.5, positive: true, type: "regen", isAbsolute: true}
+				],
+			}
+		},
 		{
 			name: "Lens of Menes",
 			img: "Gear/Generic/Gear/Scout/LOS_L90_ua.png",

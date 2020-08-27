@@ -201,7 +201,7 @@ UnitObject.prototype.calculateEffect = function(effect, absolutes, modifiers, ca
 	} else {
 		let mod = parseFloat(effect.amount);
 		
-		if(effect.type.indexOf("convert") == 0 || effect.type == "conversionRate") {
+		if(effect.type.indexOf("convert") == 0 || effect.type == "conversionRate" || effect.type == "snare") {
 			mod *= -1;
 		}
 
@@ -327,9 +327,10 @@ UnitObject.prototype.updateStats = function() {
 				result += absolutes[key];
 			}
 
-			display.textContent = effectModel.isArmor || effectModel.round2 || key.indexOf("gather") == 0 || key == "critical" ?
-			round2Digits(effectModel.isPercent ? --result * 100 : result) :
-			round(effectModel.isPercent ? --result * 100 : result);
+			const raw = effectModel.isPercent ? --result * 100 : result
+			display.textContent = effectModel.isArmor || effectModel.round2 ?
+			round2Digits(raw) :
+			round(raw);
 
 			if((result == 0 || (result == 1 && effects[key].startsAtOne && !effectModel.isPercent)) && key.indexOf("cost") != 0)
 				display.parentElement.style.display = "none";

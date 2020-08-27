@@ -206,7 +206,7 @@ module.exports = {
         const absolute = effect.attr.relativity == 'Absolute' ? true : undefined
         let amount = absolute ? effect.attr.amount : (effect.attr.amount - 1) * 100
 
-        if(effect.attr.action == 'Convert') {
+        if(effect.attr.action == 'Convert' || effect.attr.action == 'Snare') {
             amount = Math.abs(amount);
         }
 

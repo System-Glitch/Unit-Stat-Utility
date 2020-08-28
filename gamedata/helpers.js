@@ -176,10 +176,10 @@ module.exports = {
                 }
                 break
             case 'Armor':
-                switch(effect.attr.armortype) { // TODO results in "armorundefined" frequently
+                switch(effect.attr.damagetype) {
                     case 'Hand': type = 'armorInfantry' ;break
                     case 'Ranged': type = 'armorPierce' ;break
-                    default: type = 'armor' + effect.attr.armortype
+                    default: type = 'armor' + effect.attr.damagetype
                 }
                 break
             case 'MaximumRange':

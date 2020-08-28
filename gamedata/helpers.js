@@ -143,6 +143,9 @@ module.exports = {
                 } else if(effect.attr.action == 'SelfHeal') {
                     type = 'regen'
                     break
+                } else if(effect.attr.action == 'Build') {
+                    type = 'buildingSpeed'
+                    break
                 }
             case 'Yield':
                 switch(effect.attr.unittype) {

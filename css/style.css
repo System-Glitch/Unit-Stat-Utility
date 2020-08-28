@@ -526,7 +526,6 @@ p {
 
 .gear-stat {
 	display: table-row;
-	position: relative;
 }
 
 .gear-stat * {

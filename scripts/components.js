@@ -1,6 +1,6 @@
 var civNameMapping = {greeks:"Greek",egyptians: "Egyptian",persians:"Persian",celts:"Celtic",babylonians:"Babylonian",norse: "Norse"};
 var components = {
-	selectOption: function(img, name, civ) {
+	selectOption: function(img, name) {
 		return ('<img src="%ICON%" class="select-img">' +
 				'<span class="select-name">%NAME%</span>')
 				.replace("%ICON%", img)

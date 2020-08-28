@@ -143,6 +143,9 @@ module.exports = {
                 } else if(effect.attr.action == 'SelfHeal') {
                     type = 'regen'
                     break
+                } else if(effect.attr.action == 'Build') {
+                    type = 'buildingSpeed'
+                    break
                 }
             case 'Yield':
                 switch(effect.attr.unittype) {
@@ -176,10 +179,10 @@ module.exports = {
                 }
                 break
             case 'Armor':
-                switch(effect.attr.armortype) {
+                switch(effect.attr.damagetype) {
                     case 'Hand': type = 'armorInfantry' ;break
                     case 'Ranged': type = 'armorPierce' ;break
-                    default: type = 'armor' + effect.attr.armortype
+                    default: type = 'armor' + effect.attr.damagetype
                 }
                 break
             case 'MaximumRange':
@@ -206,7 +209,7 @@ module.exports = {
         const absolute = effect.attr.relativity == 'Absolute' ? true : undefined
         let amount = absolute ? effect.attr.amount : (effect.attr.amount - 1) * 100
 
-        if(effect.attr.action == 'Convert' || effect.attr.action == 'Snare') {
+        if(effect.attr.action == 'Convert' || effect.attr.subtype == 'TargetSpeedBoost') {
             amount = Math.abs(amount);
         }
 
